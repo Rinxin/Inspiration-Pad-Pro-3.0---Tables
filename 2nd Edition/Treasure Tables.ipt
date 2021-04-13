@@ -1,0 +1,72 @@
+;
+
+Table:
+
+EndTable:
+
+Table:Lair Treasure
+
+EndTable:
+Table: Indiviudal and Small Lair treasure
+
+EndTable:
+Table: Gem
+Roll:d100
+  01-25: Ordamental (10gp)
+  26-50: Semi-Prescious (50gp)
+  51-70: Fancy (100gp)
+  71-90: Precious (500gp)
+  91-99: Gems (1,000gp)
+  100: Jewels (5,000gp)
+EndTable:
+
+Table: Gem Variations
+roll:d6
+1: Increase the value to the next higher base, [Gem Variation]
+2: Doubles Base Value
+3: 1d6*.1 above base value
+4: 1d4*.1 below base value
+5: Half base value
+6: Decreases value to next lower base, 
+Endtable:
+
+
+Table: Object of Art
+Roll:d100
+  01-10: 1d10*10 gp
+  11-25: 3d6*10 gp
+  26-40: 1d6*100 gp
+  41-50: 1d10*100 gp
+  51-60: 2d6*100 gp
+  61-70: 3d6*100 gp
+  71-80: 4d6*100 gp
+  81-85: 5d6*100 gp
+  86-90: 1d4*1000 gp
+  91-95: 1d6*1000 gp
+  96-99: 2d4*1000 gp
+  100:2d6*1000 gp
+EndTable:
+
+Table: Magical Items
+Roll:d100
+  01-20: Potions/Oils
+  21-35: Scrolls
+  36-40: Rings
+  41: Rods
+  42: Staves
+  43-45: Wands
+  46: Books & Tomes
+  47-48: Jewels & Jewelry
+  49-50: Cloaks & Robes
+  51-52: Boots & Gloves
+  53: Girdles & Helms
+  54: Bags & Bottles
+  55: Dusts & Stones
+  56: Household Items & Tools
+  57: Musical Instruments
+  58: Oriental
+  59: Space
+  60: The Wierd Stuff
+  61-75: Armor & Shields
+  76-100: Weapons
+EndTable:
