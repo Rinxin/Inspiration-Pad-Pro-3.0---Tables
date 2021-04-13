@@ -1272,27 +1272,29 @@ TableSummer_Desert
 
 </div>
 
-<br>
+Table: Medica Card
+<b>Bluebottle:</b>\n Floating on the water like a blue bubble with a sail, its translucent body and long stinging tail are easily stranded \n <em>Tail (Contact)</em>\n <b>Effect:</b> Poison (2d6/round)\n DC: 14
+Man-O-War: Floating on the water like a blue bubble with a sail, its translucent body and long stinging tail are easily stranded \n Tail (Contact)\n Poison (2d6/round)\n DC: 14
+Coastal Jack-Bean: Fleshy vines trail along sand dunes, thick leaves matting the area and pink flowers popping up sporadically\n	Leaves (Salve)\n	Healing (4d4 + 4)\n DC	14
+Seaside Jack: Fleshy vines trail along sand dunes, thick leaves matting the area and pink flowers popping up sporadically\n	Leaves (Salve)\n	Healing (4d4 + 4)\n DC	14
+Yarrow: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
+Milfoil: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
+Littlefeather: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
+Nosebleed: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
+Soldier's Safety: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
+Bloodwort: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
+Woundwort: Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy\n	Oil (Tonic); Healing (2d4 + 2)\n Whole Plant (Salve); Healing (4d4 + 4)\n DC 14
 
-\columnbreak
-
-<br>
-<br>
-
-<div align="right">
-
-## homebrew by
-## DAEL KINGSMILL
-#### youtube.com/monarchsfactory
-
-</div>
-
-<div class="footnote">MATERIA MEDICA | SPRING</div>
+Cottonmouth:
+Gaper:	A mottled brown and black snake with a habit of baring its fangs and exposing the bright white interior of its mouth when threatened\n	Venom (Injury)	Poison (5d6/round)\n	15
+Foxgloves, Dead Men's Bells, Bloody Fingers, Fairy Thimbles	Vibrantly coloured and patterned bell shaped flowers bloom by the dozens from a single tall spike	Whole plant (Ingested)	Poison (2d6, Poisoned)	16
+Milky Mangrove, Blind-Your-Eye, River Poison Tree	A tangled root system lifts the tree half out of the water while its heavy leaves dangle into the water's edge	Sap (Contact)	Poison (Blinded)	16
+King Cobra, Hamadryad	A characteristic dramatic hood stretches over the snake's head and part way down its striped body	Venom (Injury)	Poison (2d6, Blinded, Sleep in 1min)	18
+Blue Ringed Octopus,
+Reef Killer	A small brown octopus usually hiding amongst a reef's rocks and coral will suddenly flare iridescent blue rings	Venom (Injury)	Poison (Paralysed, suffocating)	19
+Bluebell, Wood Bell, Bell Bottle, Fairy Flower	Delicate, vibrant blue flowers hang like bells from an elegant, curved stem	Bulb (Tonic)	Healing (2d4 + 2)	20
+Coral Branch, Reef Rocks	Red, bone-like porous growths settle in tight colonies to enable the formation of marine reefs	Branch (Implant)	Broken bone restorative	20
+Pearl	Irregular iridescent orbs in white, gold, black, and any number of other opalesque colours	Whole pearl (Powder)	Blindness curative; Antidote (Contact poisons)
 
 
-<div class="pageNumber">31</div>
-
-\pagebreakNum
-
-<div class='classTable wide'>
-
+EndTable:
