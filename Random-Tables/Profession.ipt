@@ -1,0 +1,104 @@
+;
+
+Table: Profession
+ Actor
+2 Alchemist
+3 Apothecary
+4 Architect
+5 Armorer
+6 Baker
+7 Banker
+8 Barber
+9 Basket maker
+10 Beekeeper
+11 Beggar
+12 Blacksmith
+13 Bookbinder
+14 Brewer
+15 Burglar
+16 Butcher
+17 Butler
+18 Carpenter
+19 Cartographer
+20 Cartwright (Cart maker)
+21 Chandler (Candle maker)
+22 Chef
+23 Chimney Sweep
+24 Cobbler
+25 Composer
+26 Dancer
+27 Distiller
+28 Executioner
+29 Falconer
+30 Farmer
+31 Captain (Nautical)
+32 Fisher
+33 Fishmonger
+34 Fletcher
+35 Fortune teller
+36 Gemcutter
+37 Glassblower
+38 Glazier
+39 Glover
+40 Goldsmith
+41 Gravedigger
+42 Guard
+43 Guide
+44 Hatmaker
+45 Herald
+46 Herbalist
+47 Horse trainer
+48 Hunter
+49 Innkeep
+50 Jester
+51 Jeweler
+52 Judge
+53 Knight
+54 Knitter
+55 Leatherworker
+56 Lumberjack
+57 Mercenary
+58 Messenger
+59 Midwife
+60 Miller
+61 Miner
+62 Minstrel
+63 Painter
+64 Papermaker
+65 Physician
+66 Playwright
+67 Potter
+68 Priest
+69 Prostitute
+70 Rat catcher
+71 Roofer
+72 Ropemaker
+73 Saddler
+74 Sailor
+75 Scout
+76 Scribe
+77 Scullion
+78 Sculptor
+79 Seamster
+80 Server
+81 Shepherd
+82 Shipwright
+83 Skinner
+84 Slaver
+85 Soldier
+86 Spinner
+87 Stablehand
+88 Stonecutter
+89 Stonemason
+90 Tailor
+91 Tanner
+92 Tax Collector
+93 Teacher
+94 Tinker
+95 Toymaker
+96 Trapper
+97 Weaponsmith
+98 Weaver
+99 Woodcarver
+100 Woodcutter
+EndTable:
