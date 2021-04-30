@@ -1,0 +1,157 @@
+
+Table: Main - Random Colors
+[@Simple Colors]\n\n&
+[@Combination and Effects]
+EndTable:
+
+Table: Simple Colors
+Roll:1d12
+1: [@Brown]
+2: [@Red]
+3: [@Orange]
+4: [@Yellow]
+5: [@Green]
+6: [@Cyan]
+7: [@Blue]
+8: [@Purple]
+9: [@Magenta]
+10: [@White]
+11: [@Grey]
+12: [@Black]
+EndTable:
+
+Table: Combinations and Effects
+Roll:1d12
+1 [@Simple Colors] gradient to [@Simple Colors]
+2 [@Simple Colors] gradient from light to dark
+3 [@Simple Colors] with [@Simple Colors] sparkles
+4 [@Simple Colors] with a soft [@Simple Colors] glow
+5 [@Simple Colors] which shifts in the light to [@Simple Colors]
+6 [@Simple Colors] with swirls of [@Simple Colors]
+7 [@Simple Colors] with a hint of [@Simple Colors]
+8 [@Simple Colors] which shifts randomly to [Color 2] and back.
+9 [@Simple Colors] which turns completely translucent in sunlight.
+10 [@Simple Colors] with swirls of [@Simple Colors] and [@Simple Colors]
+11 [@Simple Colors] with [@Simple Colors] sparkles and a soft [@Simple Colors] glow
+12 [@Simple Colors] which shifts randomly to [@Simple Colors] and/or [@Simple Colors]
+EndTable:
+
+Table: Brown
+Roll:1d6
+1 Beige
+2 Burnt Umber
+3 Chestnut
+4 Chocolate
+5 Taupe
+6 Walnut
+EndTable:
+
+Table: Yellow
+Roll:1d6
+1 Canary
+2 Golden
+3 Greenish
+4 Khaki
+5 Lemon
+6 Xanthic
+EndTable:
+
+Table: Blue
+Roll:1d6
+1 Baby
+2 Medium
+3 Midnight
+4 Navy
+5 Sapphire
+6 Ultramarine
+EndTable:
+
+Table: Black
+Roll:1d6
+1 Anthracite
+2 Charcoal
+3 Ebony
+4 Jet
+5 Licorice
+6 Onyx
+EndTable:
+
+Table: Red
+Roll:1d6
+1 Blood
+2 Carmine
+3 Crimson
+4 Maroon
+5 Ruby
+6 Scarlet
+EndTable:
+
+Table: Green
+Roll:1d6
+1 Emerald
+2 Forest
+3 Jade
+4 Lime
+5 Mint
+6 Pine
+EndTable:
+
+Table: Magenta
+Roll:1d6
+1 Amaranth
+2 Garnet
+3 Hot pink
+4 Orchid
+5 Plum
+6 Rose
+EndTable:
+
+Table: Grey
+Roll:1d6
+1 Ash
+2 Cool Grey
+3 Medium Grey
+4 Platinum
+5 Silver
+6 Warm
+EndTable:
+
+Table: Orange
+Roll:1d6
+1 Butterscotch
+2 Carrot
+3 Jasper
+4 Persimmon
+5 Pumpkin
+6 Saffron
+EndTable:
+
+Table: Cyan
+Roll:1d6
+1 Electric
+2 Sea green
+3 Sky blue
+4 Teal
+5 Turquoise
+6 Verdigris
+EndTable:
+
+Table: Purple
+Roll:1d6
+1 Byzantium
+2 Electric
+3 Mauve
+4 Mulberry
+5 Royal
+6 Thistle
+EndTable:
+
+Table: White
+Roll:1d6
+1 Alabaster
+2 Bone
+3 Eggshell
+4 Ivory
+5 Snow
+6 Vanilla
+EndTable:
