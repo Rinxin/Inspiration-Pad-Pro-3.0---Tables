@@ -1,0 +1,105 @@
+
+Name Structures
+d12 Structure
+1 Document of Magic
+2 Possessive Document of Magic
+3 Document of Magic Content
+4 Possessive Document of Magic Content
+5 Document of Magic Content Postnominal
+6 Possessive Document of Magic Content Postnominal
+7 Document of Descriptive Magic Content Postnominal
+8 Document of Descriptive Content
+9 Possessive Document of Descriptive Content
+10 Document of Descriptive Magic
+11 Possessive Document of Descriptive Magic
+12 Possessive Document of Descriptive Magic Content Postnominal
+
+Possessive Adjectives
+d12 Adjective
+1 Adventurer's
+2 Alchemist's
+3 Arcanist's
+4 Archivist’s
+5 Initiate's
+6 Loremaster's
+7 Maester's
+8 Mystic's
+9 Sage's
+10 Vampire's
+11 Warmage's
+12 Witch's
+
+Document Type
+d12 Document
+1 Analysis
+2 Book
+3 Codex
+4 Compendium
+5 Explorations
+6 Handbook
+7 Lexicon
+8 Manual
+9 Manuscript
+10 Research
+11 Textbook
+12 Tome
+
+Descriptive Adjectives
+d12 Adjective
+1 Advanced
+2 Ancestral
+3 Arcane
+4 Celestial
+5 Dark
+6 Draconic
+7 Druidic
+8 Forbidden
+9 Holy
+10 Infernal
+11 Secret
+12 Simple
+
+Magic type
+d12 Adjective
+1 Abjuration
+2 Alchemy
+3 Conjuration
+4 Divination
+5 Enchantment
+6 Evocation
+7 Illusion
+8 Necromancy
+9 Restoration
+10 Technomancy
+11 Teleportation
+12 Transmutation
+
+Content Type
+d12 Content
+1 Ceremonies
+2 Formulas
+3 Incantations
+4 Invocations
+5 Magic
+6 Potions
+7 Rituals
+8 Runes
+9 Spells
+10 Staffs
+11 Tools
+12 Wands
+
+Postnominal Adjectives
+d12 Adjective
+1 for Arcane Enthusiasts
+2 for Warfare
+3 from across the Realms
+4 from Different Dimensions
+5 of Ages gone Past
+6 of Great Importance
+7 of the Modern Age.
+8 of Unknown Origin
+9 of Wonder
+10 to Enhance Familiars
+11 Unlocked through Sacrifice
+12 Volume (d10)
