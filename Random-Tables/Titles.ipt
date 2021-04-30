@@ -1,0 +1,116 @@
+;
+
+Table: Random - Title
+EndTable:
+
+Table: Noble
+Roll:1d10
+1: (Crown) Prince / Princess
+2: Archduke / Archduchess
+3: Baron / Baroness
+4: Count / Countess
+5: Duke / Duchess
+6: Emperor / Empress
+7: King / Queen
+8: Lord / Lady
+9: Marquess / Marquis
+10: Viscount / Viscountess
+EndTable:
+
+Table: Religious
+Roll:1d10
+1: Abbess/Abbot
+2: Crusader
+3: Disciple
+4: Father/Mother
+5: Grand Master
+6: Guardian
+7: High Priest(ess)
+8: Justicar
+9: Matriarch/Patriarch
+10: Sister/Brother
+EndTable:
+
+Table: Arcane
+Roll:1d10
+1: Arcanist
+2: Arch-mage
+3: Grand magus
+4: Initiate
+5: Loremaster
+6: Magister
+7: Magus
+8: Master
+9: Mystic
+10: Seer
+EndTable:
+
+Table: Martial
+Roll:1d10
+1: Battlemaster
+2: Champion
+3: Defender
+4: Guardian
+5: Knight
+6: Chieftain
+7: Peacekeeper
+8: Protector
+9: Warden
+10: Warlord
+EndTable:
+
+Table: Leadership
+Roll:1d10
+1: Administrator
+2: Ambassador
+3: Chairman
+4: Chancellor
+5: Consul
+6: Envoy
+7: Governor
+8: Minister
+9: Prime-minister
+10: Secretary
+EndTable:
+
+Table: Commoner
+Roll:1d10
+1: Apprentice
+2: Assistant
+3: Curator
+4: Foreman/Forewoman
+5: Guildmaster
+6: Journeyman
+7: Merchant Prince(ss)
+8: Novice
+9: Professor
+10: Trade Prince(ss)
+EndTable:
+
+Table: Druidic
+Roll:1d10
+1: Arch-Druid
+2: Beast Master
+3: Elder
+4: Starcaller
+5: Initiate
+6: Keeper
+7: Sage
+8: Shepherd
+9: Wildwalker
+10: Worldmender
+EndTable:
+
+Table: Rogue & Ranger
+Roll:1d10
+1: Emissary
+2: Explorer
+3: Hunter
+4: Investigator
+5: Scout
+6: Seeker
+7: Stalker
+8: Tracker
+9: Trapper
+10: Wayfinder
+EndTable:
