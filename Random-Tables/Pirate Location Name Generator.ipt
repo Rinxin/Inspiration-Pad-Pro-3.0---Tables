@@ -1,0 +1,138 @@
+
+Table: Pirate Location Name Generator
+
+EndTable:
+
+Name Structures
+d10 Structure
+1 Descriptive, Established
+2 Descriptive, Possessive
+Established
+3 Descriptive, Geographical
+4 Descriptive, Possessive,
+Geographical
+5 Descriptive, Established,
+Postnominal.
+6 Possessive, Geographical,
+Postnominal.
+7 Descriptive, Geographical,
+Postnominal.
+8 Possessive, Geographical,
+Postnominal.
+9 Established, Postnominal
+10 Geographical, Postnominal
+
+Descriptive Adjectives
+d20 Adjective
+1 Blackened
+2 Broken
+3 Concealed
+4 Dreaded
+5 Fancy
+6 Grand
+7 Hidden
+8 Mystic
+9 Plentiful
+10 Ravaged
+11 Royal
+12 Salted
+13 Scorched
+14 Secluded
+15 Secret
+16 Splendid
+17 Stolen
+18 Sunken
+19 Sweet
+20 Wrecked
+
+Possessive Adjectives
+d20 Adjective
+1 Barracuda's
+2 Captain's
+3 Dragon's
+4 Guild's
+5 Hunter's
+6 Kraken's
+7 Maiden's
+8 Mermaid's
+9 Order's
+10 Parrot's
+11 Raider's
+12 Sailor's
+13 Shark's
+14 Shipwreck's
+15 Siren's
+16 Storm's
+17 Thieves'
+18 Triton's
+19 Turtle's
+20 Wanderer's
+
+Established Locations
+d20 Location
+1 Asylum
+2 Bounty
+3 Den
+4 Fort
+5 Gem
+6 Harbor
+7 Haven
+8 Hideout
+9 Hold
+10 Jewel
+11 Keep
+12 Port
+13 Refuge
+14 Rest
+15 Retreat
+16 Sanctuary
+17 Shelter
+18 Stronghold
+19 Treasure
+20 Trove
+
+Geographical Locations
+d20 Location
+1 Archipelago
+2 Atoll
+3 Bay
+4 Bluffs
+5 Cliffs
+6 Cove
+7 Crag
+8 Enclave
+9 Groves
+10 Hollow
+11 Island
+12 Isle
+13 Lagoon
+14 Peninsula
+15 Reef
+16 Ridge
+17 Rock
+18 Sands
+19 Shallows
+20 Shores
+
+Postnominal Modifiers
+d20 Modifier
+1 amidst the Maelstroms
+2 between the Waves
+3 in the Mists
+4 in the Shadows
+5 of a Thousand Coins
+6 of Plentiful Riches
+7 of Skulls
+8 of the Countless Wrecks
+9 of the Cursed
+10 of the Damned
+11 of the Depths
+12 of the Homesick
+13 of the Lawless
+14 of the Lost Souls
+15 of the Moon
+16 of the Raven
+17 of the Sunset
+18 of the Sweet Embrace
+19 of the Tides
+20 of Whispers
