@@ -1,0 +1,148 @@
+;
+
+Table: Ingredients - Mundane.
+EndTable:
+
+Table: Ordinary
+Roll:1d20
+1 Ash
+2 Blood
+3 Butter
+4 Chalk
+5 Charcoal
+6 Chicken egg
+7 Cow's Milk
+8 Cornstarch
+9 Flour
+10 Goat's Milk
+11 Honey
+12 Lard
+13 Olive oil
+14 Rapeseed oil
+15 Salt
+16 Sugar
+17 Sunflower oil
+18 Vinegar
+19 Water
+20 Yeast
+EndTable:
+
+Table: Vegetables
+Roll:1d20
+1 Artichoke
+2 Asparagus
+3 Aubergine
+4 Beets
+5 Broccoli
+6 Cabbage
+7 Carrots
+8 Cauliflower
+9 Celery
+10 Corn
+11 Cucumber
+12 Kale
+13 Leek
+14 Onion
+15 Parsnip
+16 (Sweet) Potato
+17 Pumpkin
+18 Radish
+19 Spinach
+20 Turnip
+EndTable:
+
+Table: Common Fruits
+Roll:1d20
+1 Apple
+2 Appricot
+3 Banana
+4 Blackberry
+5 Blackcurrant
+6 Blueberry
+7 Cherry
+8 Elderberry
+9 Cranberry
+10 Goose berry
+11 Grape
+12 Juniperberry
+13 Mulberry
+14 Peach
+15 Pear
+16 Plum
+17 Raspberry
+18 Redcurrant
+19 Rhubarb
+20 Strawberry
+EndTable:
+
+Table: Exotic Fruits
+Roll:1d20
+1 Cantaloupe Melon
+2 Date
+3 Dragonfruit
+4 Grapefruit
+5 Guave
+6 Honeydew Melon
+7 Kiwi
+8 Lemon
+9 Lime
+10 Lychee
+11 Mango
+12 Nectarine
+13 Orange
+14 Papaya
+15 Passionfruit
+16 Persimmon
+17 Pineapple
+18 Pomegranate
+19 Tangerine
+20 Watermelon
+EndTable:
+
+Table: Legumes & Nuts
+Roll:1d20
+1 Alfalfa sprouts
+2 Almond
+3 Black bean
+4 Black eyed pea
+5 Cashew nut
+6 Chestnut
+7 Chickpea
+8 Coconut
+9 Garden pea
+10 Hazelnut
+11 Kidney bean
+12 Lentils
+13 Lima bean
+14 Macademia nut
+15 Peanut
+16 Pecan nut
+17 Pine nut
+18 Pistachio nut
+19 Soy bean
+20 Walnut
+EndTable:
+
+Table: Herbs & Spices
+Roll:1d20
+1 Anise
+2 Basil
+3 Chamomille
+4 Chili
+5 Cinnamon
+6 Clove
+7 Coriander (Cilantro)
+8 Cumin
+9 Dill
+10 Lemongrass
+11 Marjoram
+12 Mint
+13 Oregano
+14 Parsley
+15 Pepper
+16 Rosemary
+17 Sage
+18 Tamarind
+19 Thyme
+20 Vanilla
+EndTable:
