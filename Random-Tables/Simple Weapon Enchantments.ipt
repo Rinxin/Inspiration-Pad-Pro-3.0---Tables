@@ -1,0 +1,105 @@
+
+Table: Simple Weapon Enchantments
+d100 - Name - Alterantive Tile - Effects
+ Minor Freezing ... of the Snow +1 Cold damage
+2 Minor Burning ... of the Cinders +1 Fire damage
+3 Holy Sanctified ... +1 Radiant damage
+4 Unholy ... of Blight +1 Necrotic damage
+5 Minor Force Charged ... +1 Force damage
+6 Minor Lightning Sparking ... + 1 Lightning damage
+7 Minor Acid Biting ... +1 Acid damage
+8 Contaminated Toxic ... +1 Poison damage
+9 Keen Eye ... of the Eagle +1 on Attack rolls and +1 on Perception.
+10 Guided Hand ... of the Forefathers +1 on Attack rolls and +1 on History
+11 Battleborn ... of the Gladiator +1 on attack rolls and deals 1d6 extra damage on a critical hit.
+12 Flamewrought Blazing ... +1 on attack rolls , deals Fire damage instead of weapon type.
+13 Coldforged Glacial ... +1 on attack rolls, deals Cold damage instead of weapon type
+14 Lifestealing Vampiric ... Heals you for half the damage dealt
+15 Frost Rune ... of Winter +1d4 Cold damage
+16 Flame Rune ... of Summer +1d4 Fire damage
+17 Heavenly Rune ... of the Heavens +1d4 Radiant damage
+18 Dark Rune Corrupted ... +1d4 Necrotic damage
+19 Force Rune ... of Blasting +1d4 Force damage
+20 Lightning Rune Electrifying ... +1d4 Lightning damage
+21 Acid Rune Corrosive ... +1d4 Acid damage
+22 Poison Rune Noxious ... +1d4 Poison damage
+23 Heroic ... of the Fearless Advantage on saving throws versus Frightened condition
+24 Air Touched ... of the Winds +1 on Attack rolls and +20 on range
+25 Earth Touched ... of the Lands +1 on Attack rolls and Advantage on Strength saving throws.
+26 Water Touched ... of the Rivers +1 on Attack rolls, movement is not halved when swimming.
+27 Flame Touched ... of the Desert +1 on Attack rolls and Advantage on Dexterity saving throws.
+28 Guardian Protector’s ... +1 AC
+29 Precision Heartseeker’s ... +1 on Attack rolls and +1 Force damage on damage rolls.
+30 Rune of Mercy Mercifull ... Can not kill a creature, target becomes unconsious instead.
+31 Rune of Bloodlust Feral ... Advantage on second attack within the same turn.
+32 Runeforged Enchanted ... +2 Force damage on damage rolls and +1 on Arcana
+33 Holy Light Lightbringer ... +1 Radiant damage, can cast Light (Cantrip) on itself.
+34 Titanforged ... of the Titans +2 on Strength score
+35 Rootbound ... of the Lifegiver +2 on Constitution score
+36 Twilight ... of the Duskwalker +2 on Dexterity Score
+37 Ancient ... of the Elders +2 on Wisdom Score
+38 Genius ... of the Mind +2 on Intelligence Score
+39 Silvertongue ... of the Diplomat +2 on Charisma Score
+40 Frigid ... of Frost +1d6 Cold damage
+41 Fiery ... of Flames +1d6 Fire damage
+42 Angelic ... of the Angel +1d6 Radiant damage
+43 Pestilence ... of the Scourge +1d6 Necrotic damage
+44 Downfall ... of Shattering +1d6 Force damage
+45 Stormcharged ... of the Storms +1d6 Lightning (or Thunder) damage
+46 Acid Laced ... of the Swamps +1d6 Acid damage
+47 Mental Mind Assaulting ... +1d6 Psychic damage
+48 Lifegiver ... of Life Heals the wielder for 1d6+2 on a critical hit.
+49 Energy Blocker Chiblocker’s ... On critical hit the target has disadvantage on next attack roll
+50 Stunning Peacekeeper’s ... On critical hit the target is stunned untill end of next turn
+51 Clear Mind ... of Insight +1 on attack rolls and +2 on Insight.
+52 Last Breath ... of Revival When reduced to 0 hitpoints heals you for one hit point
+53 Duplex ... of Duality As a bonus action can transform into (one) other weapon
+54 Hidden Trickster’s ... Can cast Invisibility on the item itself once per day.
+55 Fortitude ... of Vigor +1 bonus on Strength saving throws.
+56 Finesse Nimble ... +1 bonus on Dexterity saving throws.
+57 Stamina ... of Endurance +1 bonus on Constitution saving throws.
+58 Primal ... of Intuition +1 bonus on Wisdom saving throws.
+59 Brilliant ... of Intellect +1 bonus on Intelligence saving throws.
+60 Level Headed Harmonious ... +1 bonus on Charisma saving throws.
+61 Invigorating Commander’s ... A critical hit grants allies who saw the hit a d4 inspiration die.
+62 Shieldbreaker ... of Splintering On a critical hit reduces the AC of a shield by 1.
+63 Slowing ... of Impeding As an action, Halve the targets movement speed 1d4 rounds
+64 Dusk Edge ... of the Wild Hunt +1d4 Force damage against Fey.
+65 Grave Blessed ... of Banishing +1d4 Radiant damage against Undead.
+66 Slayer’s Rune ... of the Hunter +1d4 Weapon type damage against Monstrosities and Beasts.
+67 Demonic ... of the Void +1d4 Necrotic damage against Celestials.
+68 Celestial Hallowed ... +1d4 Radiant damage against Fiends.
+69 Dragon’s Bane ... of the Dragonslayer +1d4 Weapon type damage against Dragons.
+70 Manhunter ... of the Assassin +1d4 Weapon type damage against Humanoids.
+71 Purification ... of Purging +1d4 Weapon type damage against Aberrations and Fiends
+72 Destruction Destructive ... +1d4 Weapon type damage against Constructs.
+73 Giant Slaying ... of the Mammoth +1d4 Weapon type damage against Giants.
+74 Planewalker ... of the Aspects +1d4 Weapon type damage against Elementals.
+75 Depletion Cleaner’s ... +1d4 Force damage against Oozes
+76 Extermination Root Ravaging ... +1d4 Weapon type damage against Plants
+77 Spellweaver ... of the Arcanist Counts as an arcane spellfocus
+78 Wilderness ... of Nature Counts as a druidic spellfocus
+79 Blessed ... of [Deity] Counts as a holy symbol for that deity
+80 Guidance ... of Discipline Can add 1d6 on your Attack roll twice per long rest.
+81 Copying Twin ... As a bonus action can be duplicated once (and merged)
+82 Teleportation ... of Traversing After a succesful attack move to the location of the weapon
+83 Repairing Unbreakable ... Casts mending on itself whenever it gets damaged.
+84 Caster’s Rune Spellbound ... +1 on your spell attack bonus.
+85 Witch’s Rune Occult .... +1 on your spell save DC.
+86 Charging ... of Rushing +2 on Attack rolls when you have moved in a line of 15ft.
+87 Shadow Shrouded ... +2 on Attack rolls when stealthed, +2 on Stealth.
+88 Gauntlet ... of the Hand As a bonus action transforms from a weapon into a gauntlet.
+89 Ocean ... of the Seas You do not suffer disadvantage when attacking underwater
+90 Siege ... of Wrecking +1d6 Force damage against structures and objects.
+91 Disintegration ... of Decay On a killing blow turns the target to ashes.
+92 Impact ... of Shoving On a critical hit pushes the target back 10ft.
+93 Swift Rapid ... +1 on Initiative rolls.
+94 Law Empire’s ... +1d4 Weapon type damage against Chaotic aligned creatures.
+95 Chaos ... of Discord +1d4 Weapon type damage against Lawfull aligned creatures.
+96 Evil Hateful ... +1d4 Weapon type damage against Good aligned creatures.
+97 Good Honorable ... +1d4 Weapon type damage against Evil aligned creatures.
+98 Imbalance Unharmonious ... +1d4 Weapon type damage against Neutral aligned creatures.
+99 Frostburn ... of Fire and Ice +1d4 Cold and 1d4 Fire damage.
+100 Eye of the Storm ... of Storms +1d4 Thunder and 1d4 Lightning damage.
+
+EndTable:
