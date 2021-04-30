@@ -1,0 +1,105 @@
+;
+
+Table: Alcoholic Drinks
+Roll:1d100
+1 Red Dwarf Stout\n A strong dark red stout, earthy and bitter flavor.
+2 Whiteleaf Bitter\n A light colored brew,with sweet undertones that remind you of summer.
+3 Seven Spice Ale\n A complex beer with a flavor that is enhanced with seven secret spices.
+4 Dragonslash\n A strong and very fizzy brew with notes of roasted hazelnut.
+5 Slingshot\n A translucent fizzy drink which tastes refreshing at first, but then hits very hard.
+6 Oaksurge\n A dark orange brew with heavy notes of oak.
+7 Sunset Pale Ale\n A beer with a deep golden color, hints of tropical fruits.
+8 Winterfrost Wine\n A refreshing white wine that is usually served ice-cold in the midst of summer.
+9 Cherry Rosé\n A dark rosé wine with a strong flavor of cherry.
+10 Bhusker Brown Ale\n A thick dwarven ale with a strong bitter taste.
+11 Twelve Hop Liquor\n A brew made from many imported and local hops with a unique balanced flavor.
+12 Queen's Grace\n An expensive, heavy and sweet red wine. Only hundred bottles made each year.
+13 Treebrew\n A gnomish drink, ripened in hollowmaple trees with a distinct sweet flavor.
+14 Sour Apple Cider\n A light tinted cider made from fresh green apples.
+15 Meridian Malt\n A dry and light beer that refreshes and rehydrates when you drink it.
+16 Wheelbarrow Dark\n An drink that is popular with the working class, a sweet and bitter taste.
+17 Red Fruit Sangria\n A sweet red wine, served with from a pitcher with berries and slices of apple in it.
+18 Nordic Special Reserve\n A strong and heavy beer with notes of herbs from the north.
+19 Sylvanic Bitter\n A dark and still beer, stored in mahogany which permeates the taste.
+20 Golden Stout\n A heavy ale that despite its full taste has a pleasant golden color.
+21 Honey Mead\n A mead with strong notes of floral honey.
+22 Altenport Ale\n A pleasant brew with hints of oats. It is aged for a year before consuming.
+23 Essian Light Ale\n A pale ale with light notes of chamomile.
+24 Hazel Twister\n A light brown fizzy beer with a slightly bitter taste.
+25 Athorean Mint Mead\n A clear light-green drink with a refreshing sweet minty taste
+26 Sparkling Pear Cider\n A pale yellow fizzy cider with a strong taste of pear.
+27 Whisper Ale\n A regular ale brewed by an order of silent monks.
+28 Herzloch Brew\n A complex beer brewed with water from a large mountain lake in the north.
+29 Derstan Special\n A regional beer with a faint flavor of juniper berries.
+30 Morish Sparkle\n A sweet sparkling white wine, often served with a single grape in the glass.
+31 D'Entarian White\n A simple dry elvish white wine with hints of elderflower. Aged for at least 5 years.
+32 Finc Red\n A fruity red wine with hints of raspberry.
+33 Desert Stout\n A complex beer which uses water from desert cacti as a base.
+34 River Nectar Mead\n A golden hued mead. The sweet flavor is enhanced with the nectar of a river lily.
+35 Thunderblast Beer\n A strong dark beer that impacts the senses like a hammer to the head.
+36 The Enigma\n A gnomish produced beer that tastes completely different for each race.
+37 Black Wing Beer\n An opaque black beer with an extremely bitter taste.
+38 Pure Spring Ale\n A bubbly pale ale with a pleasantly light taste.
+39 Strawberry Wine\n A light red wine with a strong taste of strawberries throughout.
+40 Half Man Brew\n A golden beer with twice as much alcohol as a regular beer.
+41 Rats Tail Ale\n A dark brown ale with a sour taste which only a few people like.
+42 Fang Brew\n An opaque dark brown beer with a sharp bitter taste.
+43 Lucky Penny\n A dark gold halfling wine-like drink with hints of red apple.
+44 Morning Light Ale\n A pale ale with hints of fruit throughout the flavor.
+45 Mulled Wolf Wine\n A classic spiced red wine, usually served hot.
+46 Cave Grog\n A crudely brewed drink with a bitter taste that lingers for a long time.
+47 Bull's Hoof Beer\n A common beer with an earthy aftertaste.
+48 Hunter's Relief\n A dark red wine with strong notes of fragrant herbs.
+49 Blue Bunny Brew\n A light fizzy beer enjoyed by gnomes and halflings.
+50 Silver Crown Beer\n A pale gold beer that has a glistening white foam when served.
+51 Vanilla Riddle\n A dark brown beer with strong notes of vanilla.
+52 Barley Oat Ale\n A heavy dark ale with a taste of toasted oats.
+53 Snaketongue\n A spiced red wine, people always joke it makes a liar out of you.
+54 Pine Mountain Beer\n A strong dwarven ale that is aged in pine barrels.
+55 Cinnamon Wine\n A red wine infused with sticks of cinnamon.
+56 Storm Brewery Ale\n A strong ale with a surprising fizziness.
+57 Boreal Ale\n A dark brew made by northerners, it has a slight salty aftertaste.
+58 Kordaasi Strongwater\n A crude beer with an intense bitter taste, favored amongst orcs.
+59 Bitterwing\n Served in relatively small glasses, an opaque black ale with a strong herb taste
+60 Autumn Blend Shiraz\n A wine infused with various autumn spices and fruits. Sometimes served warm.
+61 Blackberry Wine\n A sparkling dark purple wine made from blackberries.
+62 Blackvald Red\n A common half-dry red wine with an intense dark coloration.
+63 Deep Brew\n An ale made with fermented mushrooms, has a surprising sweet and nutty taste.
+64 Blood of the North\n A red wine brewed by a religious group, only their leader knows the recipe.
+65 Sternish Merlot\n A sparkling red wine. The cork is sealed with silver wax.
+66 Tundra Blanc\n A simple and sober white wine.
+67 Summer Stout\n A bright orange stout with a hint of citrus.
+68 Lion's Pride Reserve\n A special brew from the brewery that serves the royal family.
+69 Mountain Tears\n A light ale made using the fresh water from a mountain creek.
+70 Talvald Gold\n A fruity white wine with a deep golden hue to it.
+71 Nightfall Ale\n A light ale with a dark coloration, the taste is sometimes bitter, sometimes sweet.
+72 Eagle Ale\n A common beer served with a thick layer of white foam.
+73 River's Luck\n A deep golden beer with a pleasant aftertaste.
+74 Black Honey Stout\n A dark bittersweet stout.
+75 Glacial Stout\n A relatively pale, light fizzy beer served icecold.
+76 Citrus Cider\n A green applecider infused with lemon and lime.
+77 Duskwine\n An extremely dark red wine infused with herbs that relax the senses.
+78 Minted White\n A refreshing sparkly white wine infused with mint.
+79 Pink Acres Rosé\n A light rosé with a slight taste of peaches.
+80 Red Horse Label Ale\n A rare ale reserved for special occasions, complex and pleasantly bitter.
+81 Gift of the Lake\n A blend of apple and pear cider.
+82 Verdant Valley Beer\n A beer with a strong and sturdy hop taste that is appreciated by most humans.
+83 Stardust Sauvignon\n A dry white wine that is traditionally served in silver cups.
+84 Lemon Wine\n A fruity white wine infused with lemon.
+85 Chopping Block\n A strong thick dark ale, it is said that it 'will knock your head clean off'.
+86 Maiden's Kiss\n A light red wine with notes of rosewater.
+87 Silver Archer\n A sparkling white wine with a bit of a bitter aftertaste.
+88 Lavender Blanc\n A sweet purple hued wine infused with lavender.
+89 Wine of the Eldervine\n A deep and full red wine that is aged for a decade in oaken barrels.
+90 Secret Garden Reserve\n A fizzy beer with a slight floral aftertaste.
+91 Shifted Acres Red\n A red wine with a strong fruity aroma.
+92 Spring Lagoon Brew\n A fizzy regular tasting beer which is sometimes mixed with lemonade.
+93 Cannonball Stout\n A beverage drunk mostly by sailors, a shot of rum mixed into any type of stout.
+94 Ruby of the Sea\n A dry red wine with a pleasant taste
+95 Luxurian Rosé\n A sweet rosé, it makes some people blush.
+96 Windswept Plains Brew\n A dull bitter tasting beer which leaves you thirsty for more.
+97 Basquet Vino\n A simple dry red wine with a pleasant taste.
+98 Tiger's Eye Reserve\n A deep golden brown brew with a pleasant light bitter taste.
+99 Crystal Pale Ale\n An almost translucent pale beer with a light sweet aftertaste.
+100 Midnight Pale\n Ale An extremely bitter beer which is hard to swallow for some people.
+EndTable:
