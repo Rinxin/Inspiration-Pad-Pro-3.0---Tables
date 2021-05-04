@@ -1,0 +1,14 @@
+Table: CNum
+Set: number={$1}
+Set: count=0
+Set: MyValue=[[{number} >> reverse >> eachchar AddComma] >> reverse]
+[when][{MyValue} >> Left]=,[do][{MyValue} >> SubStr 2 0][else]{MyValue}[end]
+EndTable:
+
+Table: AddComma
+Set: MyChar={$1}
+Set: count={!{$count}+1}
+[when]{count}=3 [do][@count==0][{MyChar},][else][{MyChar}][end]
+EndTable: 
+
+When called use as [@Cnum with {round([#{$Game} wealth])}]
