@@ -1,28 +1,26 @@
 ; Gemstones.ipt
 ; created 6/13/2017 7:13:01 PM
 
-use: \\Common\PHB\MageSpells.ipt
+use: \\Common\MageSpells.ipt
 
 Header: Gems
 
-Prompt: CR {0-4|5-10|11-16|17-20} 1
+Prompt: CR {} 1
 
-set: Challenge_Rating={#{$prompt1} CR_Value}
-
-Define: CR={{Challente_Rating}*{1d6}+1d100}
+Define: CR={{$prompt1}*{1d6}+1d100}
 
 Table: Gemstones Main
 [#{CR} Size] [#{CR} GemType], [#{CR} Quality], {round({{@BaseValue}*{@SizeMod}*{@QualityMod}*{@FinishMod}*{@SetMod}})} gp\n
 EndTable:
 
-Table: CR_value
-type: lookup
-default: {1d5-1}
-0-4: {1d5-1}
-5-10: {1d6+4}
-11-16: {1d6+10}
-17-20: {1d4+16}
-EndTable:
+//Table: CR_Value
+//Type: Lookup
+//Default: {1d5-1}
+//0-4: {1d5-1}
+//5-10: {1d6+4}
+//11-16: {1d6+10}
+//17-20: {1d4+16}
+//EndTable:
 
 Table: GemType
 Type: Lookup 
@@ -39,6 +37,7 @@ Default: <font color=Purple>[@Precious]</font>{@BaseValue==(4d6+16)}
 EndTable:
 
 Table: Spell Gem Chance
+Type: Lookup
 Roll: 1d100
 1-90: \z
 91-100: [#{$1} Spell Gem Spell]
@@ -46,16 +45,16 @@ EndTable:
 
 Table: Spell Gem Spell
 Type: Lookup
-0:(cantrip - [@SpellsLevel0])
-1:(1st lvl - [@SpellsLevel1])
-2:(2nd lvl - [@SpellsLevel2])
-3:(3rd lvl - [@SpellsLevel3])
-4:(4th lvl - [@SpellsLevel4])
-5:(5th lvl - [@SpellsLevel5])
-6:(6th lvl - [@SpellsLevel6])
-7:(7th lvl - [@SpellsLevel7])
-8:(8th lvl - [@SpellsLevel8])
-9:(9th lvl - [@SpellsLevel9])
+0:(cantrip - [@Level_0])
+1:(1st lvl - [@Level_1])
+2:(2nd lvl - [@Level_2])
+3:(3rd lvl - [@Level_3])
+4:(4th lvl - [@Level_4])
+5:(5th lvl - [@Level_5])
+6:(6th lvl - [@Level_6])
+7:(7th lvl - [@Level_7])
+8:(8th lvl - [@Level_8])
+9:(9th lvl - [@Level_9])
 EndTable:
    
 Table: MundaneMineral
