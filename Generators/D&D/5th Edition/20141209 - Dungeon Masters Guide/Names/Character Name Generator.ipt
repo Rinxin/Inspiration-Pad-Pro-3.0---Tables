@@ -1,0 +1,46 @@
+; Character Name Generator.ipt
+; created 12/6/2018 9:59:58 PM
+
+use: Generators\Orginal Tables\Names\Dragonborn Names.ipt
+use: Generators\Orignal Tables\Names\Human Names.ipt
+
+prompt: Race {Dragonborn|Human} Dragonborn
+prompt: Gender {Male|Female} Male
+;prompt: Culture {English} English
+
+Table: Main
+60:[Humanoid]
+24:[@Demi-Human]
+16:[Hetromorph]
+EndTable:
+
+
+Table: Humanoid
+[@MasterDwarfName with {$prompt2}]
+[@MasterElfName with {$prompt2}]
+[@MasterGnomeName with {$prompt2}]
+[@MasterHalflingName with {$prompt2}]
+[@MasterHumanName with {$prompt2}]
+EndTable:
+
+Table: Demi-Human
+[@MasterAasimarName with {$prompt2}]
+[@MasterDragonbornName with {$prompt2}]
+[@MasterFirbolgName with {$prompt2}]
+[@MasterGenasiName with {$prompt2}]
+[@MasterGoliathName with {$prompt2}]
+[@MasterLeoninName with {$prompt2}]
+[@MasterShifterName with {$prompt2}]
+[@MasterTabaxiName with {$prompt2}]
+[@MasterTieflingName with {$prompt2}]
+EndTable:
+
+Table: Heteromorph
+[@MasterAarakocraName with {$prompt2}]
+[@MasterCentaurName with {$prompt2}]
+[@MasterChangelingName with {$prompt2}]
+[@MasterDryadName with {$prompt2}]
+[@MasterGithName with {$prompt2}]
+[@MasterGoblinoidName with {$prompt2}]
+[@MasterKenkuName with {$prompt2}]
+EndTable:
