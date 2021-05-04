@@ -1,0 +1,35 @@
+; SpellsLevel7.ipt
+; created 10/12/2020 12:02:14 AM
+
+Table: SpellsLevel7
+\n<b>Conjure Celestial</b> <sup>phb 225</sup> \n<em>7th, Conjuration (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 minute(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Crown of Stars</b> <sup>xge 152</sup> \n<em>7th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Delayed Blast Fireball</b> <sup>phb 230</sup> \n<em>7th, Evocation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Divine Word</b> <sup>phb 234</sup> \n<em>7th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V\n<b>Casting Time:</b>1 bonus action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Etherealness</b> <sup>phb 238</sup> \n<em>7th, Transmutation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Finger of Death</b> <sup>phb 241</sup> \n<em>7th, Necromancy</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Fire Storm</b> <sup>phb 242</sup> \n<em>7th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Forcecage</b> <sup>phb 243</sup> \n<em>7th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Mirage Arcane</b> <sup>phb 260</sup> \n<em>7th, Illusion</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>10 minutes\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Mordenkainen's Magnificent Mansion</b> <sup>phb 261</sup> \n<em>7th, Conjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 minute\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Mordenkainen's Sword</b> <sup>phb 262</sup> \n<em>7th, Evocation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Plane Shift</b> <sup>phb 266</sup> \n<em>7th, Conjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Power Word Pain</b> <sup>xge 163</sup> \n<em>7th, Enchantment</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Prismatic Spray</b> <sup>phb 267</sup> \n<em>7th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Project Image</b> <sup>phb 270</sup> \n<em>7th, Illusion (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Regenerate</b> <sup>phb 271</sup> \n<em>7th, Transmutation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 minute\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Resurrection</b> <sup>phb 272</sup> \n<em>7th, Necromancy</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 hour\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Reverse Gravity</b> <sup>phb 272</sup> \n<em>7th, Transmutation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Sequester</b> <sup>phb 274</sup> \n<em>7th, Transmutation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Simulacrum</b> <sup>phb 276</sup> \n<em>7th, Illusion</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>12 hours\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Symbol</b> <sup>phb 280</sup> \n<em>7th, Abjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 minute\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Teleport</b> <sup>phb 281</sup> \n<em>7th, Conjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Temple of the Gods</b> <sup>xge 167</sup> \n<em>7th, Conjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 hour\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Whirlwind</b> <sup>ee 24, xge 171</sup> \n<em>7th, Evocation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+"\n<b>Create Magen</b> <sup>Icewindale: Rime of the Frostmaiden</sup> \n<em>7th, Transmutation</em>\n<b>Class:</b> <em>Wizard</em>\n\n<b>Components: </b>V, S, M(a vial of quicksilver worth 500gp and a life-sized human doll, both of which the spell consumes, and an intricate crystal rod worth at least 1,500gp that is not consumed)\n<b>Casting Time:</b>1 hour\n<b>Duration:</b>Instantaneous\n<b>Range:</b>Touch\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\nWhile casting the spell, you place a vial of  quicksilver in the chest of a life-sized human doll stuffed with ash or dust. You then stich up the doll and drip your blood on it. At the end of the casting, you tap the doll with a crystal rod, transforming it into a magen clothed in whatever the doll was wearing. The type of magen is chosen by you during the casting of the spell. &
+\n\n&
+When the magen appears, your hit point maximum decreases by an amount equal to the magen's challenge rating (minimum reduction of 1). Only a wish spell can undo this reduction to your hit point maximum. &
+\n\n&
+Any magen you create with this spell obeys your commands without question."
+
+EndTable:
