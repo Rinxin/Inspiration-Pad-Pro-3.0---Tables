@@ -1,0 +1,33 @@
+; Starting Wealth.ipt
+; created 6/20/2019
+
+Table: Random Wealth
+[@gettable]
+EndTable:
+
+Table:gettable
+Melee:
+Divine:
+Arcane:
+EndTable:
+
+Table: Melee
+Barbarian: {2d4*10}gp
+Fighter: {5d4*10}gp
+Monk: {5d4}gp
+Rogue: {4d4*10}gp
+EndTable:
+
+Table: Divine
+Cleric: {5d4*10}gp
+Druid: {2d4*10}gp
+Paladin: {5d4*10}gp
+Ranger: {5d4*10}gp
+EndTable:
+
+Table: Arcane
+Bard: {5d4*10}gp
+Sorcerer: {3d4*10}gp
+Warlock: {4d4*10}gp
+Wizard: {4d4*10}gp
+EndTable:
