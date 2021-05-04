@@ -1,0 +1,46 @@
+; Magic Shop.ipt
+; created 11/7/2020 9:05:27 PM
+
+use:
+
+prompt: City Size{Thorp|Hamelt|Village|Small Town|Large Town|Small City|Large City| Metropolis}
+
+Table:
+EndTable:
+
+Table: City Size
+Thorp: 
+Hamelt:
+Village:
+Small Town:
+Large Town:
+Small City:
+Large City:
+Metropolis:
+EndTable:
+
+Table: Thorp
+This Thorp [Verbs] a [Proprietor] of fine [Items] located at the [Magic Shop Name 1] [Magic Shop Name 2].&\n
+&\n
+The owner [First Name] [Last Name], a [Sex] [Race], offers to show you the mundane and magic items that may be present.&\n
+&\n
+If all items are sold out, that means there are no magic items available as they are so rare.&\n
+&\n
+PHB sundries available, all costing 5 gp and less.&\n
+&\n
+Magic Items Present:&\n
+&\n
+Common&\n
+&\n
+[@Thorp Common]&\n
+&\n
+---&\n
+&\n
+*Cost Common Magic Item (50-100 gp)&\n
+EndTable:
+
+Table: Thorp Common
+Roll:1d100
+1-30: [Common Magic Items]
+31-100: Sold Out
+Endtable:
