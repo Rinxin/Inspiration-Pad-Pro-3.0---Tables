@@ -1,0 +1,46 @@
+; Alchemy Reagents.ipt
+; created 4/9/2021 8:32:22 PM
+
+MaxReps: 1
+
+Prompt: Clones 
+Prompt: Find {Common|Uncommon|Rare|VeryRare|Legend} Common
+
+Table: Main
+[#{$prompt2} Items]
+
+Table: Items
+Type: Dictionary
+Common:<b>Common</b>\n[@{({1d6}*{$prompt1})} Common]
+Uncommon:<b>Common</b>\n[@{({1d6}*{$prompt1})} Common]\n<b>Uncommon</b>\n[@{({1d6}*{$prompt1})} Uncommon]
+Rare:<b>Common</b>\n[@{({1d6}*{$prompt1})} Common]\n<b>Uncommon</b>\n[@{({1d6}*{$prompt1})} Uncommon]\n<b>Rare</b>\n[@{({1d6}*{$prompt1})} Rare]
+VeryRare:<b>Common</b>\n[@{({1d6}*{$prompt1})} Common]\n<b>Uncommon</b>\n[@{({1d6}*{$prompt1})} Uncommon]\n<b>Rare</b>\n[@{({1d6}*{$prompt1})} Rare]]\n<b>Very Rare</b>\n[@{({1d6}*{$prompt1})} Very Rare]          c
+Legend:<b>Common</b>\n[@{({1d6}*{$prompt1})} Common]\n<b>Uncommon</b>\n[@{({1d6}*{$prompt1})} Uncommon]\n<b>Rare</b>\n[@{({1d6}*{$prompt1})} Rare]]\n<b>Very Rare</b>\n[@{({1d6}*{$prompt1})} Very Rare]\n<b>Legendary</b>\n[@{({1d6}*{$prompt1})} Legendary] 
+Table: Common
+Shuffle: Common
+{1d6} Common [@WhatKind]
+
+table: Uncommon
+Shuffle: Uncommon
+{2d6} Common [@WhatKind] and {1d6} uncommon [@WhatKind]
+
+table: Rare
+Shuffle: Rare
+{3d6} Common [@WhatKind], {2d6} uncommon [@WhatKind], and {1d6} rare [@WhatKind]
+
+table: Very Rare
+Shuffle: Very Rare
+{4d6} Common [@WhatKind], {3d6} uncommon [@WhatKind], {2d6} rare [@WhatKind], and {1d6} very rare [@WhatKind]
+
+Table: Legendary
+Shuffle: Legendary
+{5d6} Common [@WhatKind], {4d6} uncommon [@WhatKind], {3d6} rare [@WhatKind], {2d6} very rare [@WhatKind], and {1d6} legendary [@WhatKind]
+
+Table: WhatKind
+Shuffle: WhatKind
+curative reagents\n
+reactive reagents\n
+poisonous reagents\n
+exotic reagents\n
+
+
