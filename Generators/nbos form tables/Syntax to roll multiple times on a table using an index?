@@ -1,0 +1,170 @@
+Home
+Galric
+Inbox
+New Discussion
+Inspiration Pad Pro General
+Syntax to roll multiple times on a table using an index?
+esmaleEesmale
+March 16 edited March 16 in Inspiration Pad Pro General
+Hi all,
+
+I'm translating a few tables from a game to IPP, and one of them is recursive. For example:
+
+1-50: 1 language
+51-70: 2 languages
+71-85: 3 languages
+86-95: 4 languages
+96-99: 5 languages
+100: Roll twice on this table and add results
+
+So the straight-up IPP translation would look like this:
+
+Table: miscLanguages
+Type: Lookup
+Roll: 1d100
+// call external [languageList] table
+1-50:[@languageList]
+51-70:[!2 languageList >> sort >> implode]
+71-85:[!3 languageList >> sort >> implode]
+86-95:[!4 languageList >> sort >> implode]
+96-99:[!5 languageList >> sort >> implode]
+100:[@2 miscLanguages >> sort >> implode] // Roll twice on this table and add results
+I've played around with having a result of 100 call another table (e.g., [miscLanguageReroll]) that excludes the recursive entry, but that seems like unnecessary duplication. Plus, it doesn't really do the job, which on a roll of 100 is:
+
+Roll twice on the table: [@2 miscLanguages]
+Ignore results of 100: [#{1d99} miscLanguages]
+Prevent duplicates: Each roll on [languageList] needs to be a deck pick
+Given that last requirement, it seems that I need to set the total number of languages to a variable, so something like:
+
+Table: miscLanguages
+Type: Lookup
+Roll: 1d100
+Set: totalLang = 0
+#For each result, increment totalLang appropriately
+1-50:[@languageList]{totalLang=({totalLang}+1)}
+51-70:[!2 languageList >> sort >> implode]{totalLang=={totalLang}+2}
+#etc.
+Then for a roll of 100, roll twice 1d99 twice on the table, then do [!{totalLang} languageList].
+
+Seems easy enough, except I don't know how to roll 1d99 twice on the table. Is there a syntax to support this?
+
+Thanks for reading through this long-winded post.
+
+Cheers!
+-Erin
+
+Comments
+esmaleEesmale
+March 17 edited March 17
+OK, I kinda solved this using a somewhat brute force method.
+
+When the result indicates "Roll twice on this table and add results," it uses two additional tables - one for each roll:
+
+The first table sets the number of languages variable and calls the second table.
+The second table increments the number of languages and makes a deck pick roll on the external language list table.
+
+Table: magicSwordLanguages
+Type: Lookup
+Roll: 1d100
+1-50:[@languageList]
+51-70:[!2 languageList >> sort >> implode]
+71-85:[!3 languageList >> sort >> implode]
+86-95:[!4 languageList >> sort >> implode]
+96-99:[!5 languageList >> sort >> implode]
+100:[@magicSwordLanguagesRoll-1] // Roll twice on this table
+
+Table: magicSwordLanguagesRoll-1
+// First reroll; sets number of languages based on result, then makes second roll
+Set: numLang = 0
+50:{numLang==1}[@magicSwordLanguagesRoll-2]
+20:{numLang==2}[@magicSwordLanguagesRoll-2]
+15:{numLang==3}[@magicSwordLanguagesRoll-2]
+10:{numLang==4}[@magicSwordLanguagesRoll-2]
+4:{numLang==5}[@magicSwordLanguagesRoll-2]
+
+Table: magicSwordLanguagesRoll-2
+// Second reroll; increments number of languages based on result, then does deck pick roll on [languageList]
+50:{numLang=={numLang}+1}[!{numLang} languageList >> sort >> implode]
+20:{numLang=={numLang}+2}[!{numLang} languageList >> sort >> implode]
+15:{numLang=={numLang}+3}[!{numLang} languageList >> sort >> implode]
+10:{numLang=={numLang}+4}[!{numLang} languageList >> sort >> implode]
+4:{numLang=={numLang}+5}[!{numLang} languageList >> sort >> implode]
+I expect (assume) there's a more elegant way to do this, but my brain isn't finding it. Any suggestions welcome!
+
+Cheers,
+-Erin
+
+Ed_NBOSEd_NBOS
+March 18 edited March 18
+I think you're on the right course. I would do it by:
+- Set a variable for the number of languages to 0
+- Roll on the table, and have it increment that variable by the number of languages, or roll twice again on the table (so you shouldn't need a 2nd table)
+- Use that final value to pick the languages.
+
+largandoLlargando
+March 18
+Yeah, I started down another path, but Ed's solution is cleanest. Also it means you only have to write ">> sort >> implode" once.
+
+table: getLanguages
+[![@langCount] languageList >> sort >> implode]
+
+table: langCount
+1-50:1
+51-70:2
+71-85:3
+86-95:4
+96-99:5
+100:{[#{d99} langCount] + [#{d99} langCount]}
+
+
+table: languageList
+a
+b
+c
+d
+e
+f
+g
+h
+i
+j
+k
+l
+m
+n
+o
+p
+q
+r
+esmaleEesmale
+March 19
+Hi Ed and largando,
+
+Thanks for your input - this is really helpful. I had hit a wall from staring at it too long. I definitely want to set a variable in case I need to use the value again, and the idea of using >> sort >> implode once is definitely appealing.
+
+I ended up combining your suggestions into this solution:
+
+Table: magicSwordLanguages
+Set: numLang = [@numMagicSwordLanguages]
+[!{numLang} languageList >> sort >> implode]
+
+Table: numMagicSwordLanguages
+Type: Lookup
+Roll: 1d100
+1-50:1
+51-70:2
+71-85:3
+86-95:4
+96-99:5
+100:{[#{1d99} numMagicSwordLanguages] + [#{1d99} numMagicSwordLanguages]}
+This is a big help - I'll need a similar construct for sword powers, coming up next...
+
+Thanks again!
+-Erin
+
+Leave a Comment
+Home • Inspiration Pad Pro General 
+Full Site Sign Out
+Powered by Vanilla
+You need to confirm your email address. Click here to resend the confirmation email.
+
