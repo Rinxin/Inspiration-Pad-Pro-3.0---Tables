@@ -1,0 +1,139 @@
+Table: main
+The [|contract|debt|IOU contract|financial agreement|debenture|obligation|stock option] is [@condition1] and from a [@family1] family who is usually [@family2] and feels [@emotion1] about it. It will have [@benefit1] benefits and was written [@age1]. It leaves the taste of [@taste1] in the mouth. It [@is1] and, if either family asks, it can be renegotiated to be [@negotiations1] for [|one|both|all] of the families.
+
+Table: condition1
+clean
+drab
+elegant
+fancy       
+glamorous
+long
+magnificent
+plain
+quaint
+ugliest
+unsightly
+
+Table: family1
+better
+careful
+clever
+debted
+easy-to-get-along-with
+extremely wealthy
+famous
+gifted
+helpful
+important
+poor
+mushy
+odd
+powerful
+rich
+shy
+tender
+uninterested
+vast
+wealthy
+
+Table: family2
+agreeable
+brave
+calm
+delightful
+faithful
+gentle
+happy
+jolly
+kind
+lively
+nice
+obedient
+proud
+relieved
+silly
+thankful
+victorious
+witty
+
+Table: emotion1
+angry
+bewildered
+defeated
+embarrassed
+fierce
+grumpy
+helpless
+itchy
+jealous
+lazy
+mysterious
+nervous
+panicky
+repulsive
+thoughtless
+worried
+
+Table: benefit1
+big
+colossal
+fat
+gigantic
+great
+huge
+immense
+large
+little
+mammoth
+massive
+miniature
+puny
+scrawny
+short
+small
+tiny
+
+Table: age1
+in ancient years
+in the early part of {1d6} centuries ago
+in the late part of {1d6} centuries ago
+long ago
+in modern years
+the old times of {2d6+5} centuries ago
+in the rapidly growing ages
+in the slowly growing ages
+
+Table: taste1
+bitter endings
+delight
+fresh beginnings
+grease
+juiciness
+loss
+rot
+strong excitement
+yumminess
+
+Table: is1
+is broken deal
+is creepy deal
+is crooked deal
+is dirty deal
+has been kept
+is polite deal
+is beneficial for bother parties
+can be kept
+can be renegotiated
+is a filthy deal
+
+Table: negotiations1
+abundance
+little better
+full of happiness
+barely better
+heavy on the pockets
+light on the pockets
+sparse change
+substantial gains
+a continued agreement
+a mutual agreement, beneficial to the point that, most of those involved,
