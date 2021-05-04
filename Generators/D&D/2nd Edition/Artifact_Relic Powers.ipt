@@ -1,0 +1,301 @@
+; Artifact & Relic Powers.ipt
+; created 7/1/2019 9:16:00 PM
+
+prompt: Power Type {Minor Benign Powers|Major Benign Powers|Minor Malevolent Effects|Major Malevolent Effects|Prime Powers|Side Effects|}
+
+Table: Main
+[@{$prompt1}]
+EndTable:
+
+Table: Minor Benign Powers
+A. Adds 1 point to possessor’s major attribute
+B. Animate dead (1 figure) (by touch) - 7 timeslweek
+C. Audible glamer upon command - 3 times/day
+D. Bless (by touch)
+E. Clairaudience (when touched to the ear)
+F. Clairvoyance (when touched to the eyes)
+G. Color spray - 3 timeslday
+H. Comprehend languages when held
+I. Create food and water - 1 timelday
+J. Cure light wounds- 7 timeslweek
+K. Darkness (Y,1 0, or 15‘ radius) - 3 timedday
+L. Detect charm - 3 times/day
+M. Detect evil/good when held or ordered
+N. Detect invisibility when held and ordered
+O. Detect magic - 3 times/day
+P. ESP (30’. 40, 50, or 60 range) - 3 timeslday
+Q. Feather fall when grasped and ordered
+R. Find traps - 3 times/day
+S. Fly when held and ordered - 1 time/day
+T. Hypnotic pattern (when moved) - 3 timeslday
+U. fnfravision when held or worn
+V. Invisibility (improved) - 3 timesldoy
+W. Know alignment when held and ordered - 1 timelday
+X. Levitate when held and ordered - 3 timesldoy
+Y. Light-7 timedweek
+Z. Mind blank - 3 times/day
+AA. Obscurement- 1 time/day
+BB. Pass without trace - 1 time/day
+cc. Possessor immune to’disease
+DD. Possessor immune to fear
+EE. Possessor immune to gas of any type
+FF. Possessor need neither eat nor drink for up to 1 week
+GG. Protection +2 when held or worn
+HH. Remove fear by touch
+II. Sanctuary when held or worn - 1 time/day
+JJ. Shield, when held or worn, upon command - 3 times/day
+KK. Speak with animals- 3 timedday
+LL. Speak with dead- 1 timelday
+MM. Speak with plants - 7 times/week
+NN. Tongues when held or worn and commanded
+OO. Ultravision when held or worn
+PP. Ventriloquism upon command - 3 times/day
+QQ. Water breathing upon command
+RR. Water walking ability
+ss. Wearer immune ta charm or hold spells
+TT. Wearer immune to magic missiles
+uu. Web- 1 timelday
+w. Wizard lock - 7 timedweek
+ww. Write - 1 time/day
+xx. Zombie animation - 1 time/week
+While attuned to the artifact, you gain proficiency
+While attuned to the artifact, you are immune to disease.
+While attuned to the artifact, you can’t be charmed or frightened.
+While attuned to the artifact, you have resistance against one damage type
+While attuned to the artifact, you can use an action to cast one cantrip
+While attuned to the artifact, you can use an action to cast one 1st-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you can use an action to cast one 2nd-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you can use an action to cast one 3rd-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you gain a +1 bonus to Armor Class.
+EndTable:
+
+Table: Major Benign Powers
+Animal summoning (I1 or 111)-2 times/day
+Animate object upon command- 1 time/day
++2 to armor class of possessor
+Cause serious wounds by touch
+Charm monster-2 time/day
+Charm person -7 time/week
+Cone of cold (9-12 dice) -2 times/day
+Confusion - 1 time/day
+Cure blindness by touch
+Cure disease by touch
+Dimension door- 2 times/day
+Disintegrate - 1 time/day
+Dispel illusion upon command - 2 times/day
+Dispel magic upon command- 2 times/day
+Double movement speed (on foot)
+Emotion - 2 times/day
+Exorcise - 1 time/month
+Fear by touch or gaze
+Fireball (9-1 2 dice) - 2 times/day
+Fire shield- 2 times/day
+Giant strength (determine type) for 2 turns
+Haste - 1 time/day
+Heal - 1 time/day
+Hold animal - 1 time/day
+Hold monster- 1 time/day
+Hold person - 1 time/day
+Liahtnina bolt 19-12 dice) -2 times/day
+2 times/day
+- - I
+Minor globe of invulnerability - 1 time/day
+Paralyzation by touch
+Passwall-2 times/day
+Phantasmal killer- 1 time/day
+Polymorph self-7 times/week
+Regenerate 2 h.p./turn (but not if killed)
+Remove curse by touch - 7 times/week
+Slow- 1 time/day
+Speak with monster- 2 timesiday
+Stone to flesh - 1 timelday
+Suggestion - 2 times/day
+Telekinesis (1,ooO-6,000 g.p. weight) -- 2 times/day
+Teleport (no error) - 2 times/day
+Transmute rock to mud - 2 times/day
+True seeing - 1 time/day
+Turn wood- 1 time/day
+Wall of fire - 2 time/day
+Wall of ice - 2 times/day
+Wall of thorns - 2 times/day
+Weapon damage is +2
+Wind walk - 1 time/day
+Wizard eye - 2 times/day
+Word of recall - 1 time/day
+X-ray vision - 2 times/day
+ While attuned to the artifact, one of your ability scores (DM’s choice) increases by 2
+ While attuned to the artifact, you regain 1d6 hit points at the start of your turn if you have at least 1 hit point.
+When you hit with a weapon attack while attuned to the artifact, the target takes an extra 1d6 damage of the weapon’s type.
+While attuned to the artifact, your walking speed increases by 10 feet.
+While attuned to the artifact, you can use an action to cast one 4th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you can use an action to cast one 5th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you can use an action to cast one 6th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you can use an action to cast one 7th-level spell (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+While attuned to the artifact, you can’t be blinded, deafened, petrified, or stunned. 
+EndTable:
+
+Table: Minor Malevolent Effects
+Acne on possessor‘s face
+Blindness for 1-4 rounds when first used against an enemy
+Body odor noticeable at 10 distance
+Deafness for 1-4 turns when first used against an enemy
+Gems or jewelry found never increase in value
+Holy water within 10 of item becomes polluted
+Lose 1-4 points of charisma for 1-4 days when major power used
+Possessor loses interest in sex
+Possessor has satyriasis
+Possessor’s hair turns white
+Saving throws versus magic are at disadvantage
+Saving throws versus poison are at disadvantage
+Sense of smell lost for 2-8 hours when first used against an enemy
+Small fires (torches, etal.) extinguished when major power used
+Small items of wood rot from possessor’s touch (any item up to
+normal door size, 1-7 days time)
+Touch of possessor kills green plants
+User causes hostility towards himself in all mammals within 6”
+User must eat and drink 6 times the normal amount due to the item’s drain upon him or her
+User’s sex changes
+Wart appears on possessor’s nose
+Weight gain of 10-40 pounds
+Weight loss of 5-30 pounds
+Yearning for item forces possessor to never be away from it for more than 1 day if at all possible
+Yelling becomes necessary to invoke spells with verbal components
+01–05	While attuned to the artifact, you have disadvantage on saving throws against spells.
+06–10	The first time you touch a gem or piece of jewelry while attuned to this artifact, the value of the gem or jewelry is reduced by half.
+11–15	While attuned to the artifact, you are blinded when you are more than 10 feet away from it.
+16–20	While attuned to the artifact, you have disadvantage on saving throws against poison.
+21–30	While attuned to the artifact, you emit a sour stench noticeable from up to 10 feet away.
+31–35	While attuned to the artifact, all holy water within 10 feet of you is destroyed.
+36–40	While attuned to the artifact, you are physically ill and have disadvantage on any ability check or saving throw that uses Strength or Constitution.
+41–45	While attuned to the artifact, your weight increases by 1d4 × 10 pounds.
+46–50	While attuned to the artifact, your appearance changes as the DM decides.
+51–55	While attuned to the artifact, you are deafened when you are more than 10 feet away from it.
+56–60	While attuned to the artifact, your weight drops by 1d4 × 5 pounds.
+61–65	While attuned to the artifact, you can’t smell.
+66–70	While attuned to the artifact, nonmagical flames are extinguished within 30 feet of you.
+71–80	While you are attuned to the artifact, other creatures can’t take short or long rests while within 300 feet of you.
+81–85	While attuned to the artifact, you deal 1d6 necrotic damage to any plant you touch that isn’t a creature.
+86–90	While you are attuned to the artifact, animals within 30 feet of you are hostile toward you.
+91–95	While attuned to the artifact, you must eat and drink six times the normal amount each day.
+96–00	While you are attuned to the artifact, your flaw is amplified in a way determined by the DM.
+EndTable:
+
+Table: Major Malevolent Effects
+Body rot is 10% cumulative likely whenever a primary power is used, and part of the body is lost permanently
+Capricious alignment change each time a primary power is used
+Geas/quest placed upon possessor
+Item contains the life force of another person, and after a set number of uses, the possessor's life force is drown into it and the former soul released
+Item has power to affect its possessor when a primary power is used if the character has not followed the alignment or purposes of the artifact/relic
+Item is a prison for a powerful being; and there is a 1%-4% cumulative chance per usage that it will break free, kill the possessor's soul, and, using his or her body, proceed to slay oll associates and henchmen of this character
+Item is itself a living, sentient being forced to serve; but each usage %of a primary power gives a 1%-3% cumulative possibility that the
+spell will be broken and the being will: \n 1 ) change the possessor into a like artifact/relic \n 2) geadquest the possessor to perform a mission of its choosing \n 3) kill the possessor \n 4) mentally enslave the possessor for a period of 2-8 weeks
+Item is powerless against and hates 1-3 species of creatures, and when within 10" of any such creatures it forces its possessor to attack
+Item releases a gas which renders all creatures, including wielder, within 20' powerless to move for 5-20 rounds
+Lose 1 point of charisma permanently
+Lose 1 point of constitution permanently
+Lose 1 point of dexterity permanently
+Lose 1 point from hit points permanently
+Lose 1 point of intelligence permanently
+Lose 1 point of strength permanently
+Lose 1 point of wisdom permanently
+Magic drained from the most powerful magic item (other than an artifact or relic) within 20' of user
+Reverse alignment permanently
+Sacrifice a certain animal to activate item for 1 day
+Sacrifice a human or player charocter to activate item for 1 day
+Sacrifice 10,000-60,000 g.p. worth of gems and/or jewelry to activate item for 1 day
+User becomes berserk and attacks creatures within 20' randomly (check each round) for 5-20 rounds
+User goes insane for 1-4 days
+User grows %' taller each time primary power is used
+User instantly killed (but maybe raised or resurrected)
+User loses 1 level of experience
+User receives 2-20 hit points damage
+User receives 5-30 hit points damage
+User required to slay a certain type of creature to activate item, and slaying another set type will de-activate item
+User shrinks %' each time primary power is used
+User transformed into a very powerful but minor being from another plane (demon, devil, godling) by creator of item and is carried off to serve this new master (start a new character)
+User withers and ages 3-30 years each time the primary power is
+used, eventually turning the possessor into a deathless withered zombie guardian of the item
+Utterance of a spell causes complete loss of voice for one day
+Yearning to be worshipped is uncontrollable; those failing to bow and scrape to the artifact's possessor will be subject to instant attack.
+	While you are attuned to the artifact, your body rots over the course of four days, after which the rotting stops. You lose your hair by the end of day 1, finger tips and toe tips by the end of day 2, lips and nose by the end of day 3, and ears by the end of day 4. A regenerate spell restores lost body parts.
+	While you are attuned to the artifact, you determine your alignment daily at dawn by rolling a d6 twice. On the first roll, a 1–2 indicates lawful, 3–4 neutral, and 5–6 chaotic. On the second roll, a 1–2 indicates good, 3–4 neutral, and 5–6 evil.
+	When you first attune to the artifact, it gives you a quest determined by the DM. You must complete this quest as if affected by the geas spell. Once you complete the quest, you are no longer affected by this property.
+	The artifact houses a bodiless life force that is hostile toward you. Each time you use an action to use one of the artifact’s properties, there is a 50 percent chance that the life force tries to leave the artifact and enter your body. If you fail a DC 20 Charisma saving throw, it succeeds, and you become an NPC under the DM’s control until the intruding life force is banished using magic such as the dispel evil and good spell.
+	Creatures with a challenge rating of 0, as well as plants that aren’t creatures, drop to 0 hit points when within 10 feet of the artifact.
+	The artifact imprisons a death slaad  (see the Monster Manual). Each time you use one of the artifact’s properties as an action, the slaad has a 10 percent chance of escaping, whereupon it appears within 15 feet of you and attacks you.
+	While you are attuned to the artifact, creatures of a particular type other than humanoid (as chosen by the DM) are always hostile toward you.
+	The artifact dilutes magic potions within 10 feet of it, rendering them nonmagical.
+	The artifact erases magic scrolls within 10 feet of it, rendering them nonmagical.
+	Before using one of the artifact’s properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes 1d4 damage of the appropriate type.
+	When you become attuned to the artifact, you gain a form of long-term madness (see “Running the Game”).
+	You take 4d10 psychic damage when you become attuned to the artifact.
+	You take 8d10 psychic damage when you become attuned to the artifact.
+	Before you can become attuned to the artifact, you must kill a creature of your alignment.
+	When you become attuned to the artifact, one of your ability scores is reduced by 2 at random. A greater restoration spell restores the ability to normal.
+	Each time you become attuned to the artifact, you age 3d10 years. You must succeed on a DC 10 Constitution saving throw or die from the shock. If you die, you are instantly transformed into a wight  (see the Monster Manual) under the DM’s control that is sworn to protect the artifact.
+	While attuned to the artifact, you lose the ability to speak.
+	While attuned to the artifact, you have vulnerability to all damage.
+	When you become attuned to the artifact, there is a 10 percent chance that you attract the attention of a god that sends an avatar to wrest the artifact from you. The avatar has the same alignment as its creator and the statistics of an empyrean  (see the Monster Manual). Once it obtains the artifact, the avatar vanishes.
+EndTable:
+
+Table: Prime Powers
+All of possessor's ability totals permanently raised 2 points each upon pronouncement of a command word (18 maximum)
+All of possessor's ability totals raised to 18 each upon pronouncement of a command word
+Bones/exoskeleton/cartilage of opponent turned to jelly - 1 ti me/day
+Cacodemon-like power summons a demon lord, arch-devil, or nycadaemon - 1 timelmonth
+Creeping doom callable- 1 time/day
+Deoth ray equal to a finger of death with no saving throw - 1 timelday
+Death spell power of 110%-200% effectiveness with respect to number of levels affected - 1 time/day
+Gate spell power, 100% effective - 1 time/day
+Imprisonment spell power - 1 time/week
+Magical resistance of 50%-75% for possessor upon command word - 1 time/day
+Majar attribute permanently raised to 19 upon command word
+Meteorswarm - 1 time/doy
+Monster summoning Vlll- 2 timeslday
+Plane shift- 1 timelday
+Polymorph any object- 1 timelday
+Power word blind/kifl/stun - 1 time/day
+Premonition of death or serious harm to possessor
+Prismatic spray- 1 time/day
+Restoration - 1 timelday
+Resurrection - 7 timeslweek
+Shades - 2 times/day
+Shape change - 2 timeslday
+Spell absorption, 19-24 levels- 1 time/week
+Summon 1 of each type of elemental, 16 hit dice each, no need for control - 1 time/week
+Summon diinn or efreet lord (8 h.p./die, f 2 "to hit" and +4 damage) for 1 day of service- 1 time/week
+Super sleep spell affects double the number of creatures plus up to 2 5th or 6th and 1 7th or 8th level creature
+Temporal stasis, no saving throw, upon touch - 1 time/month
+The item enables the possessor to legend fore, commune, or contact higher plane (7th-10th) - 1 time/week
+Time stop of twice normal duration - 1 time/week
+Total fire/heat resistance for all creatures within 20' of the item
+Total immunity from all forms of mental and psionic attacks
+Total immunity from all forms of cold
+Trap the soul with 90% effectiveness- 1 time/month
+User can cast combination spells (if a spell caster) as follows (d4): \n1 ) 1 st and 2nd level spells simultaneously \n 2) 2nd and 3rd level spells simultaneously\n 3) 3rd and 4th level spells simultaneously \n 4) lst, 2nd. and 3rd level spells simultaneously
+II. Vanish -2 timeslday
+JJ. Vision - 1 time/day
+KK. Wish - 1 time/day .
+LL. Youth restored to creature touched - 1 time/month
+EndTable:
+
+Table: Side Effects
+Alignment of possessor permanently changed to that of item
+Charisma of possessor reduced to 3 as long as item is owned
+Fear reaction possible in any creature within 20' of the item whenever a maior or primary power is used; all, including possessor, must save versus magic or flee in panic
+Fumble reaction possible (as C. above)
+Greed and covetousness reaction in all intelligent creatures viewing the item; save versus magic or attack possessor and steal the item - associates are only 25% likely to have to check; henchmen check loyalty first, failure then requires saving throw as above
+Lycanthropy inflicted upon the possessor, type according to alignment of item, change to animal form involuntary and 50% likely (1 check only) whenever confronted and attacked by an enemy
+Treasure within 5' radius of mineral nature (metal or gems) of nonmagical type is reduced by 20%-80% as the item consumes it to sustain its power
+User becomes ethereal whenever any maior or primary power of the item is activated, and there is 0'5% cumulative chance that he or she will thereafter become ethereal whenever a stress (combat, life-ordeath, difficult problem involving user's decision) situation exists; the ethereal state lasts until stress is removed
+User becomes fantastically strong (18/00 - 19 if 18/00 already) but very clumsy; so dexterity is reduced by as many points as strength was increased, and so no "to hit" bonuses are allowed for strength, and a -2 for clumsiness is given instead; furthermore, the individual must be checked as if he or she has a fumble spell cast upon him or her whenever any item is handled or spell is to be cast by the user
+User cannbt touch or be touched by any (even magical) metal; metal simply passes through his or her body as if it did not exist and has no effect
+User has a poison touch which requires that humans and man-sized humanoids (but not undead) save versus poison whenever touched
+User has limited omniscience and may request the DM to answer 1 question per game day (answer is given with limitations set by DMs discretion, with overall campaign factors and knowledge of player vs. player character overriding considerations)
+User has short-duration super charismatic effect upon creatures of the same basic alignment - evil, good, neutral (chaotic, lawful, true) - so that they will willingly ioin and serve the character for 1-4, 2-8, or 3-12 turns (depending upon how exact the alignment match is); thereafter the effect of the dweomer wears off and the creature will no longer serve due to realization of the enchantment and fear of it (and hostility is possible)
+Whenever any power of the item is used, temperature within a 6" radius is raised 20"-50" F. for 2-8 turns (moves with item)
+Whenever the maior or prime power of the item is used, temperature within a 6" radius is lowered 20"-80" F. for 2-12 turns (moves with item)
+Whenever the prime power is used the possessor must save versus magic or lose 1 level of experience
+Whenever the prime power is used, those creatures friendly to the user within 20'. excluding the user, will sustain 5-20 hit points of damage
+Whenever this item is used as a weopon to strike an enemy, it does double normal damage to the opponent but the wielder takes (normal) damage just as if he or she had been struck by the item
+EndTable:
