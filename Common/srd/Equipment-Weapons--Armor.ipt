@@ -1,0 +1,116 @@
+#
+# Equipment-Weapons--Armor
+#
+# This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+#
+
+Table: Armor
+[@Light_Armor]
+[@Medium_Armor]
+[@Heavy_Armor]
+EndTable:
+
+Table: Light_Armor
+Padded Armor
+Leather Armor
+Studded Leather
+EndTable:
+
+Table: Medium_Armor
+Hide Armor
+Chain Shirt
+Scale Mail
+Breastplate
+Half Plate
+EndTable:
+
+Table: Heavy_Armor
+Ring Mail
+Chainmail
+Splint
+Plate Mail
+EndTable:
+
+Table: Shield
+Buckler
+Shield
+Tower Shield
+EndTable:
+
+Table: Weapons
+[@Melee_Weapons]
+[@Ranged_Weapons]
+EndTable:
+
+Table: Melee_Weapons
+[@Simple_Melee_Weapons]
+[@Martial_Melee_Weapons]
+EndTable:
+
+Table: Ranged_Weapons
+[@Simple_Ranged_Weapons]
+[@Martial_Ranged_Weapons]
+EndTable:
+
+
+Table: Simple_Melee_Weapons
+Boomerang 5 sp 1d4 bludgeoning 1 lb. Thrown (range 60/120)
+Club	1 sp	1d4 bludgeoning	2 lb.	Light
+Dagger	2 gp	1d4 piercing	1 lb.	Finesse, light, thrown (range 20/60)
+Greatclub	2 sp	1d8 bludgeoning	10 lb.	Two-handed
+Handaxe	5 gp	1d6 slashing	2 lb.	Light, thrown (range 20/60)
+Javelin	5 sp	1d6 piercing	2 lb.	Thrown (range 30/120)
+Light hammer	2 gp	1d4 bludgeoning	2 lb.	Light, thrown (range 20/60)
+Mace	5 gp	1d6 bludgeoning	4 lb.	-
+Quarterstaff	2 sp	1d6 bludgeoning	4 lb.	Versatile (1d8)
+Sickle	1 gp	1d4 slashing	2 lb.	Light
+Spear	1 gp	1d6 piercing	3 lb.	Thrown (range 20/60), versatile (1d8)
+Ykiwa	1 gp 1d8 piercing 2 lb. Thrown (range 10/30)
+EndTable:
+
+Table: Simple_Ranged_Weapons
+Crossbow, light	25 gp	1d8 piercing	5 lb.	Ammunition (range 80/320), loading, two-handed
+Dart	5 cp	1d4 piercing	1/4 lb.	Finesse, thrown (range 20/60)
+Shortbow	25 gp	1d6 piercing	2 lb.	Ammunition (range 80/320), two-handed
+Sling	1 sp	1d4 bludgeoning	-	Ammunition (range 30/120)
+EndTable:
+
+Table: Martial_Melee_Weapons
+Battleaxe	10 gp	1d8 slashing	4 lb.	Versatile (1d10)
+Bolas	2 gp	1d4 bludgeoning	3 lb.	Thrown (range 30/60), <b>Special(Tripping Balls)</b>  The bolas are mainly used to trip foes from a distance. A Large or smaller bipedal creature hit with bolas must make a Dexterity saving throw (DC 15) or be restrained. A creature can attempt to snap the cords to break free with a successful Strength (Athletics) Check (DC 15).
+Boom-erang	-	1d4 bludgeoning	2 lb.	Thrown (range 60/120), <b>Special(Returning)</b> When you throw the Boom-erang you can catch it in the same round as part of the attack, alternatively you can choose to catch it in the following round as a bonus action. If you throw it further than 60ft you can only catch it in the following round., <b>Special(Arcane Blast)</b> When you make a successful attack with this weapon you can choose to activate a blast of arcane energy. The blast is centered on your target. Every creature in a 10 foot radius has to make a Dexterity saving throw (DC 15). On a failed save the target takes 4f6 Force damage. On a succesfull save the target takes half damage. You can use this feature up to three times per day.
+Flail	10 gp	1d8 bludgeoning	2 lb.	-
+Glaive	20 gp	1d10 slashing	6 lb.	Heavy, reach, two-handed
+Greataxe	30 gp	1d12 slashing	7 lb.	Heavy, two-handed
+Greatsword	50 gp	2d6 slashing	6 lb.	Heavy, two-handed
+Halberd	20 gp	1d10 slashing	6 lb.	Heavy, reach, two-handed
+Lance	10 gp	1d12 piercing	6 lb.	Reach, special
+Longsword	15 gp	1d8 slashing	3 lb.	Versatile (1d10)
+Maul	10 gp	2d6 bludgeoning	10 lb.	Heavy, two-handed
+Morningstar	15 gp	1d8 piercing	4 lb.	-
+Pike	5 gp	1d10 piercing	18 lb.	Heavy, reach, two-handed
+Rapier	25 gp	1d8 piercing	2 lb.	Finesse
+Scimitar	25 gp	1d6 slashing	3 lb.	Finesse, light
+Shortsword	10 gp	1d6 piercing	2 lb.	Finesse, light
+Trident	5 gp	1d6 piercing	4 lb.	Thrown (range 20/60), versatile (1d8)
+War pick	5 gp	1d8 piercing	2 lb.	-
+Warhammer	15 gp	1d8 bludgeoning	2 lb.	Versatile (1d10)
+Whip	2 gp	1d4 slashing	3 lb.	Finesse, reach
+EndTable:
+
+Table: Martial_Ranged_Weapons
+Blowgun	10 gp	1 piercing	1 lb.	Ammunition (range 25/100), loading
+Close Quarters Bow	25 gp	1d6 piercing	2 lb.	Ammunition (range 80/320), two-handed, AC +1, Special (Bow Bash) As an action you can bash the shield on this bow into an enemy. Make a Melee attack roll. You use your Strength modifier for this attack. On a successful attack you deal 1d4 Piercing Damage.
+Crossbow, hand	75 gp	1d6 piercing	3 lb.	Ammunition (range 30/120), light, loading
+Crossbow, heavy	50 gp	1d10 piercing	18 lb.	Ammunition (range 100/400), heavy, loading, two-handed
+Longbow	50 gp	1d8 piercing	2 lb.	Ammunition (range 150/600), heavy, two-handed
+Net	1 gp	-	3 lb.	Special, thrown (range 5/15)
+EndTable:
+
+Table: Ammunition
+Arrows (20)	1 gp	1 lb.
+Grapple Arrow (1)	2 gp	5 lb.	Hooked: When you make a successful attack using this arrow it lodges into your target and grabs into it with metal hooks dealing an extra 1d4 damage. Ropeshot: You can attach up to 90 feet of rope to this arrow without affecting the shot. If you successfully attack a small, medium, large, or huge creature with this arrow it has to make a Strength (Athletics) check against your Strength (Athletics). On a failure it is considered grappled.    You can choose to climb the rope. If the arrow holds your weight, the Strength (Athletics) DC for the climb and any (dis)advantage are at the DM's discretion.
+Blowgun needles (50)	1 gp	1 lb.
+Crossbow bolts (20)	1 gp	1 1/2 lb.
+Sling bullets (20)	4 cp	1 1/2 lb.
+EndTable:
