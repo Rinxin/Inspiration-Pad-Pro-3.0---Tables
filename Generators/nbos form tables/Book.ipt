@@ -1,0 +1,430 @@
+Table: Book
+[@main] is a book that is [@traits]
+
+Table: main
+Heraldry of the [@history]
+Schwam's [@precious] Price Guide
+[@person]'s Guide to [@magic]
+Being a Better [@trade]
+Ecology of the [@creature]
+[@person]'s guide to [@country]
+Conquests of [@person]
+Secret Teachings of [@faith]
+Re-Inventing the [@technology]
+The [@city] Tales
+Abuse of Power: [@faith]'s Great Crisis
+Combining [@magic] and [@magic]
+Great Battles of [@history]
+Effective Care of [@precious]
+Augmented [@magic]
+Beginner's Guide to [@trade]
+[@creature] Cookbook
+Dynasties of [@country]
+Catalog of Miracles Performed by [@person]
+Comparing & Contrasting [@faith] & [@faith]
+Building Your Own [@technology]
+Guide to the City of [@city]
+[@person]'s Impact on [@faith]
+[@technology] and [@magic]
+[@history]'s Greatest Generals
+Introduction to [@precious]
+Introductory [@magic]
+[@trade] Techniques
+Binding the [@creature]
+Atlas of [@country]
+Philosophies of [@person]
+Follies of [@faith]
+Safety First: [@technology] by Example
+Atlas of [@city] Through Time
+Using [@faith] to power [@magic]
+[@magic] Spells of the Great [@person]
+Better than the Wheel: [@history]'s Inventions
+Guide to Selling [@precious]
+Secrets of [@magic]
+Effective [@trade]
+[@creature]: Origins of the Species
+Customs and Laws of [@country]
+Collected Stories by [@person]
+Proof of [@faith]
+A Better Mousetrap: [@technology]
+The Destruction and Rebirth of [@city]
+[@faith]'s Birth in the City of [@City]
+[@magic] Research Notes of [@person]
+Secret Societies of [@history]
+Mining for [@precious]
+Advanced [@magic] Techniques
+Building a [@trade]-based Business
+Poisons Derived from the [@creature]
+Secret Societies of [@country]
+Recipes from [@person]'s Kitchen
+Great Miracles of [@faith]
+[@technology] in Warfare
+[@city] Through the Ages
+The Abuse of [@faith] by [@person]
+[@magic] during the [@history]
+Myths & Legends of [@history]
+Making [@precious] More Beautiful
+Useful [@magic] Ingredients
+Your First Year in [@trade]
+Riddle of the [@creature]
+Current Nobles & Heraldry of [@country]
+Travels of [@person]
+Inner Peace through [@faith]
+[@technology] of Mythic [@country]
+[@city]'s Importance to [@country]
+[@person]'s Struggles and Triumphs through [@faith]
+Journal of [@person] on [@magic]
+[@history]: A Critical Review
+Best Collections of [@precious]
+[@person]: The Greatest [@magic] Practician
+Failing at [@trade] and How to Do Better
+[@person]'s Guide to the [@creature]
+Fables & Beliefs of [@country]
+Letters of [@person] and [@person]
+Interpreting the Holiest Book of [@faith]
+Applied [@technology]
+Most Influential People of [@city]
+[@faith]s of the [@history]
+Battles of [@history] Using [@magic]
+[@history]'s Impact of our Daily Life
+How I Made a Fortune in [@precious]
+Tales of [@magic]
+Improve Your [@trade] Game
+Great Leaders of the [@Creature]
+[@country]'s Hidden Beauty
+The Sainthood of [@person]
+Origins of [@faith]
+The defeat of [@country] using [@technology]
+Exploring [@city] on Coppers per Day
+Comparing [@faith] with [@faith]
+[@faith] and [@magic]: A Fearsome Combination
+[@person]: The Greatest General of [@history]
+Going Long: [@precious] Investing
+Lost Spells of [@magic]
+Complete [@trade]
+How to Charm [@creature]s
+Great Art from [@country]
+Song of the [@person]
+The End Times: Analyzing [@faith]'s Predictions
+Modern [@technology] Applications
+[@city]s Defenses During the [@history]
+[@faith]'s Contributions to [@technology]
+[@magic] vs. [@technology]
+Recipes from the [@history]
+Increasing the Value of Your [@precious]
+Using [@magic] When Bound
+Peasant's Guide to [@trade]
+Strategies & Tactics of the [@creature]
+The Military Might of [@country]
+Trials of Triumphs of [@person]
+[@faith] in our Time 
+20 Diagrams & Explanations to Improve [@technology]
+The Origins & Importance of [@city]
+[@faith] During the Great Crisis of [@history]
+[@person]'s Greatest Achievements using [@magic]
+Forgotten Magics of [@history]
+Decorative [@precious]
+Effects of the Elements on [@magic]
+101 Problems in [@trade] & How to Overcome Them
+To Serve [@creature]
+How [@country] Defeated [@country]
+A Person of Change: [@person]
+The [@faith] Hymnal
+[@person]'s Influence on [@technology]
+[@city]'s Underground Handbook
+Resurgence of [@faith] in our Times
+Moving on from [@magic] to [@magic]
+Great Monuments of [@history]
+Evaluating [@precious] Quality & Beauty
+[@magic] Gone Awry and How to Control It
+Great Achievements of [@trade]
+Harvesting [@creature] for Magic Components
+The Nobility of [@country]
+Great Leader: [@person] the Magnificent
+Why [@faith] Must be Destroyed (& How to Do It)
+Overpowering [@technology]
+[@city] and its Surroundings in [@country]
+Undermining [@faith] in [@country]
+Origins of [@magic] in [@country]
+
+table: Creature
+Unicorn
+Centaur
+Troll
+Drake
+Goblin
+Kobold
+Sea Beast
+Genie
+Giant
+Orc
+Ogre
+Xorn
+
+table: country
+Alazahn
+Bethell
+Dormyr
+Earlex
+Figgurdy
+Larasia
+Marantz
+Orphus
+Resputia
+Valuna
+Xaxus
+Zaruba
+
+table: Faith
+Emptiness
+Dark Under God
+Kind Father God
+Firm Father God
+Healing Mother Goddess
+Nature Mother Goddess
+Trickster God
+Moody Sea God
+Monster God
+Forgiveness
+Enlightenment
+Balance
+The Way
+
+table: city
+Gormana
+Helsune
+Irvana
+Jellville
+Kungston
+Larville
+Niconga
+Prinkia
+Quollon
+Ukranda
+Wickenstein
+
+table: history
+Ancients
+Bronze Age
+Time of Troubles
+Iron Age
+Age of Steel
+The Great War
+Age of Strife
+The Holy Wars
+Age of Heroes
+Age of Invention
+Time of Magic
+Current Days
+
+table: magic
+Abjuration
+Conjuration
+Divination
+Enchantment
+Evocation
+Illusion
+Necromancy
+Transmutation
+Path Magic
+Blood Magic
+Rune Magic
+[@Element] Magic   
+Ancient Magic
+Lost Magic
+Totem Magic
+
+table: Element 
+Fire
+Water
+Earth
+Ice
+Wind
+Lightning
+Plant
+Nature
+Druidic
+Animal
+
+table: precious
+Rare Coins
+Rare Antiquities
+Precious Artwork
+Decorative Weapons
+Sapphire
+Emerald
+Jade
+Diamond
+Silver
+Gold
+Adamantine
+Mithril
+
+table:technology
+Mills
+Clocks
+Aqueducts
+Armor
+Torture Devices
+Acids
+Gun Powder
+Missile Weapons
+Siege Engines
+Poison
+Castle Wall
+Firearm
+
+table: trade
+Carpentry
+Sailing
+Blacksmithing
+Herbalism
+Pottery
+Masonry
+Fishing
+Farming
+Cooking
+Mining
+Cartography
+Scribing
+
+table: person
+[@p1][@p2][@p2] [@p1][@p2][@p2][@p2]
+[@p1][@p2][@p2] of [@city]
+[@p1][@p2][@p2] of [@trade]
+
+table: p1
+Ar
+Bree
+Chris
+Dar
+Kull
+Max
+Nell
+Pras
+Sar
+Tris
+Wen
+Zy
+Wyk
+Van
+Taye
+Shiyk
+Wen
+Ter
+Ker
+Sin
+Tan
+Ten
+Bo
+Nix
+
+table: p2
+ar
+bree
+chris
+dar
+kull
+max
+nell
+pras
+sar
+tris
+wen
+zy
+wyk
+van
+taye
+shiyk
+wen
+ter
+ker
+sin
+tan
+ten
+bo
+nix
+
+table: traits
+[@size], [@condition] and [@feature].
+
+table: size
+small (5'x7') but thick (2'+)
+medium (8'x10') & thick (2'+)
+large (14'x20') & thick (2'+)
+small (5'x7') & medium thickness (½-1')
+medium (8'x10') & medium thickness (½-1')
+large (14'x20') & medium thickness (½-1')
+small (5'x7') but thin (¼')
+medium (8'x10') but thin (¼')
+large (14'x20') but thin (¼')
+small (5'x7') but just several pages
+medium (8'x10') but just several pages
+large (14'x20') but just several pages
+
+table: condition
+is crumbling
+is in pristine shape
+a few pages have minor tears
+is well used, but complete
+has been read once so it only has shelf wear
+is well used and the spine is rolled
+is old and worm-infested
+is new but partially burned
+is nearly new but has heavy notes
+is usable but edges discolored
+is slightly used
+is well-used and repaired
+
+table: feature
+[@f1]
+[@f1]
+[@f1]
+[@f1]
+[@f1]
+[@f1]
+[@f1]
+[@f1]
+[@f1]
+[@f2]
+[@f3]
+[!{2} f1 >> implode]
+
+table: f1
+it is dog-eared
+the bookmark is a map fragment
+the diagrams are hand-colored
+it includes a Library Card
+it is the collectible first edition
+it has the owner's name on inside back cover
+it has a dust jacket
+it has a hand written dedication by the author
+it is signed and numbered by the author
+
+table: f2
+page 19 follows page 12 and no page bits are in the spine. The table of contents or index may have clues.
+the book naturally opens to page 14. Why?
+the bookmark has a number of holes punched out. It was used as a cipher.
+a small flat object is hidden in book's spine.
+if you hold a page to the light, diagrams on the front and back combine to form a message or map.
+letters are circled on page 8 spell a coded message.
+folding a page combines an illusration on one page with an illustration on the next page.
+a picture is actually a map if you look only at the blues.
+a note is hidden behind the back inside cover.
+the book has an enchantment that allows the caster to find it at any time or distance, as long as it is on the same plane
+the reader is hypnotized if he does not know a command word
+the pictures are magically animated
+the book reads itself to you
+the inside back cover works like a small bag of holding
+only those who know the password can understand what initially looks like gibberish                                                                                                                    
+something is written on the inside cover in lemon ink.
+aeveral pages have been deceptively replaced. 
+the back inside cover is cut in a way that creates a builtin slide rule
+
+table: f3
+an explosion erupts from the book when opened if a command word is not spoken (book remains in-tact)
+the book is magically protected against wear
+the reader is overcome with the need to close the book and leave if a command word is not spoken when opened
+the book radiates magic even though it isn't magical
+if a command is spoken text in red appears between the lines of mundane text
+opening the book causes its owner to hear a magical alarm
