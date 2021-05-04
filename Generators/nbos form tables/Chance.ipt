@@ -1,0 +1,73 @@
+; Chance V2.ipt
+; created 12/7/2020 2:18:32 AM
+; Originallty version called Chaos.ipt
+; Original version created 3/23/2019 9:56:40 AM
+; Edited by 'nimbus2000HP'
+Prompt: Enter Odds {Has to be|A sure thing|Very likely|Unlikely|Random} Random
+Prompt: Enter Chaos Rank {Random|1|2|3|4|5|6|7|8|9} Random
+
+Table:Main
+Odds are {Odds='[when]{$Prompt1}=Random[do][@RandomOdds][else]{$Prompt1}[end]'}.\n&
+Chaos Rank is {Chaos=[when]{$Prompt2}=Random[do]{1d9}[else]{$Prompt2}[end]}.\n&
+Yes chance is {BaseSuccess=[#{$Chaos} {$Odds}]}%.\n&
+Exceptional Yes chance is {CritYes={floor({{$BaseSuccess}*.2})}}%\n&
+Exceptional No is {CritFail={ceil({100-{100-{$BaseSuccess}}*.2})}}%\n&
+Your roll is a(n) {Score=1d100}\n&
+The result is [when]{$Score}<{$CritYes}[do]Exceptional Yes[else]&
+              [when]{$Score}<{$BaseSuccess}[do]Yes[else]&
+              [When]{$Score}>{$CritFail}[do]Exceptional No[else]No[end][end][end]
+
+Table:Enter Odds
+Has to be
+A sure thing
+Very likely
+Unlikely
+Endtable:
+
+Table:Has to be
+Type: Lookup
+1: 80
+2: 85
+3: 90
+4: 95
+5: 95
+6: 100
+7: 100
+8: 130
+9: 145
+
+Table:A sure thing
+Type: Lookup
+1:55
+2:65
+3:80
+4:85
+5:90
+6:95
+7:95
+8:110
+9:125
+
+Table:Very likely
+Type: Lookup
+1:45
+2:50
+3:65
+4:75
+5:85
+6:90
+7:95
+8:95
+9:105
+
+Table:Unlikely
+Type: Lookup
+1:5
+2:10
+3:15
+4:20
+5:35
+6:50
+7:55
+8:75
+9:90
