@@ -1,0 +1,13 @@
+; 6-2D Table Quality of NPCs.ipt
+; created 12/11/2018 5:48:30 PM
+
+
+Maxreps: 1
+
+Table: 6-2D Table Quality of NPCs
+Poor Com1-3\n Com1 
+Struggling Com 1-4\n Com 1-2\n War1 
+Average Exp1-3\n Com1\n War1\n Ftr2
+Valuable Exp4-6\n Com3\n War3\n Ftr5
+<b>Exotic</b>\n Exp6-9\n War3\n Ftr3\n Classed NPCs of level 4-8
+EndTable:

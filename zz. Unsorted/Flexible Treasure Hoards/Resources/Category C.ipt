@@ -1,0 +1,24 @@
+; Category C.ipt
+; created 12/23/2018 10:39:22 AM
+
+use: PHB\MagicSpells.ipt
+use: DMG\Damage Type.ipt
+
+Table: Category C 
+Ammunition +2
+Elixir of Health
+Oil of Etherealness
+Pallo Aldo Sauce Potion
+Potion of Clairvoyance
+Potion of Diminution
+Potion of Gaseous Form
+Potion of Giant Strength (fire giant)
+Potion of Giant Strength (frost giant)
+Potion of Giant Strength (Stone giant)
+Potion of Heroism
+Potion of Invulnerability
+Potion of Mind Reading
+Psionic Crystal
+Spell Scroll ([@Spellslevel4])
+Spell Scroll ([@Spellslevel5])
+Endtable:

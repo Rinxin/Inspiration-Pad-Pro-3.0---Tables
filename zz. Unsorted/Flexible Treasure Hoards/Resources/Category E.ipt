@@ -1,0 +1,12 @@
+; Category E.ipt
+; created 12/23/2018 10:39:36 AM
+
+use: PHB\MagicSpells.ipt
+use: DMG\Damage Type.ipt
+
+Table: Category E 
+Potion of Giant Strength (storm giant)
+Govereign Glue
+Spell Scroll ([@Spellslevel9])
+Universal Solvent
+Endtable:

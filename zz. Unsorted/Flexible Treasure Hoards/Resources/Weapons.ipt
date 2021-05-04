@@ -1,0 +1,16 @@
+; Weapons.ipt
+; created 12/23/2018 2:08:08 PM
+
+prompt: type {Melee|Ranged} Melee
+prompt: Skill {Simple|Martial}Simple
+
+
+Table: Main
+[@{$prompt2}_{$prompt1}_Weapons]
+EndTable:
+
+
+Simple Melee Weapons
+Simple Ranged Weapons
+Martial Melee Weapons
+Martial Ranged Weapons

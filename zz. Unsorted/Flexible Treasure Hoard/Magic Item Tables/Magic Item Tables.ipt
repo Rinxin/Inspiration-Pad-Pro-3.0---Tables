@@ -1,0 +1,80 @@
+; Magic Item Tables.ipt
+; created 3/6/2019 9:51:50 PM
+
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category A.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category B.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category C.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category D.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category E.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category F.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category G.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category H.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category I.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category J.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category K.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category L.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category M.ipt
+
+
+Table: Magic Item Table A
+Roll: 1d100
+50:	Potion of healing
+20:	[@Category A]
+10:	[@Category B]
+18:	[@Category F]
+2:	[@Category G]
+EndTable:
+
+Table: Magic Item Table B
+Roll: 1d100
+15:	Potion of greater healing
+65:	[@Category B]
+20:	[@Category G]
+EndTable:
+
+Table: Magic Item Table C
+Roll: 1d100
+15:	Potion of superior healing
+65:	[@Category C]
+5:	[@Category G]
+15:	[@Category H]
+EndTable:
+
+Table: Magic Item Table D
+Roll: 1d100
+20:	Potion of Supreme healing
+70:	[@Category D]
+3:	[@Category H]
+7:	[@Category I]
+EndTable:
+
+Table: Magic Item Table E
+Roll: 1d100
+50:	[@Category D]
+50:	[@Category E]
+EndTable:
+
+Table: Magic Item Table F
+Roll: 1d100
+       [@Category J]
+EndTable:
+
+Table: Magic Item Table G
+Roll: 1d100
+5:	[@Category J]
+95:	[@Category K]
+EndTable:
+
+Table: Magic Item Table H
+Roll: 1d100
+3:	[@Category J]
+7:	[@Category K]
+90:	[@Category L]
+EndTable:
+
+Table: Magic Item Table I
+Roll: 1d100
+8:	[@Category K]
+7:	[@Category L]
+85:	[@Category M]
+EndTable: 

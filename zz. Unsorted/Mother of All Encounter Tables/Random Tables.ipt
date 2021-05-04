@@ -1,0 +1,37 @@
+; Random Tables.ipt
+; created 1/4/2019 12:57:31 PM
+
+Table: Random Tables Main
+Used for random table calls only *Error*
+endtable:
+
+table: Random Climate
+Arctic
+Subarctic
+Temperate
+Subtropical
+Tropical
+endtable:
+
+table: Random Difficulty
+01-75: Easy
+76-100: Hard
+Endtable:
+
+table: Random Terrain 
+Desert
+Plain
+Forest
+Hill
+Mtn.
+Marsh
+endtable:
+
+table: Random Travel
+Overland
+Urban
+Trade route
+Overseas
+Underwater
+Subterranean
+endtable:

@@ -1,0 +1,71 @@
+; Magic Item Tables.ipt
+; created 12/23/2018 9:28:01 AM
+
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category A.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category B.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category C.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category D.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category E.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category F.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category G.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category H.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category I.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category J.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category K.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category L.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Category M.ipt
+
+
+Table: Magic Item Table A
+01-50: Potion of Healing
+51-70: [@Category A]
+71-80: [@Category B]
+81-98: [@Category F]
+99-100: [@Category G]
+EndTable:
+
+Table: Magic Item Table B
+01-15: Potion of greater healing
+16-80: [@Category B]
+81-100: [@Category G]
+EndTable:
+
+Table: Magic Item Table C
+01-15: Potion of superior healing
+16-80: [@Category C]
+81-85: [@Category G]
+86-100: [@Category H]
+EndTable:
+
+Table: Magic Item Table D
+01-20: Potion of Supreme healing
+21-90: [@Category D]
+91-93: [@Category H]
+94-100: [@Category I]
+EndTable:
+
+Table: Magic Item Table E
+01-50: [@Category D]
+51-100: [@Category E]
+EndTable:
+
+Table: Magic Item Table F
+01-100: [@Category J]
+EndTable:
+
+Table: Magic Item Table G
+01-05: [@Category J]
+06-100: [@Category K]
+EndTable:
+
+Table: Magic Item Table H
+01-03: [@Category J]
+04-10: [@Category K]
+11-100: [@Category L]
+EndTable:
+
+Table: Magic Item Table I
+01-08: [@Category K]
+09-15: [@Category L]
+16-100: [@Category M]
+EndTable:

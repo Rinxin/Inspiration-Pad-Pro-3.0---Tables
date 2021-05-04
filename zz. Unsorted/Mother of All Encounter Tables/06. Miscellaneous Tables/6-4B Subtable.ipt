@@ -1,0 +1,35 @@
+; 6-4B Subtable.ipt
+; created 12/11/2018 4:33:21 PM
+
+Table: 6-4B Subtable
+01-03: Celestial, Avoral 9 1-4 MM
+04-06: Celestial, Ghaele (Eladrin) 13 1-4 MM 
+07-09: Daemon, Derghodaemon 10 1-4 ToH 
+10-13: Daemon, Piscodaemon 11 1-4 ToH 
+14-16: Demodand, Tarry 13 1-4 ToH 
+17-19: Demon of Corruption, Azizou 5 1 ToH 
+20-22: Demon of Corruption, Barizou 3 1 ToH 
+23-25: Demon of Corruption, Geruzou 6 1 ToH 
+26-28: Demon, Aeshma 10 1 ToH 
+29-32: Demon, Bebelith 9 1 MM 
+33-35: Demon, Daraka 11 1 ToH 
+36-38: Demon, Gharros 9 1-4 ToH 
+39-42: Demon, Glabrezu (III) 15 1 MM 
+43-46: Demon, Hezrou (II) 14 1-4 MM
+47-49: Demon, Nabassu (greater) 11 1 ToH 
+50-53: Demon, Quasit 3 1 MM 
+54-56: Demon, Retriever 10 1 MM 
+57-59: Demon, Shadow Demon 6 1 ToH 
+60-62: Demon, Stirge Demon 11 1-2 ToH 
+63-66: Devil, Barbazu 7 1-4 MM 
+67-70: Devil, Erinyes 7 1 MM 
+71-74: Devil, Hamatula 8 1 MM 
+75-77: Devil, Lemure 1 10-40 MM 
+78-80: Devil, Nupperibo 1 20-100 ToH 
+81-83: Formian, Taskmaster 7 1-4 MM 
+84-86: Golem, Clay 10 1 MM 
+87-89: Lillend 7 1 MM 
+90-92: Sla’ad, Death 13 1 MM 
+93-96: Sla’ad, Gray 10 1-2 MM 
+97-100: Sla’ad, Green 9 1-4 MM 
+EndTable:

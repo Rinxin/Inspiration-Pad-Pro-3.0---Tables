@@ -1,0 +1,77 @@
+; Footnotes.ipt
+; created 12/10/2018 8:22:01 PM
+
+Table: Footnotes
+1. [@Hydra Kind] with [@Hydra Heads]
+2. To determine monstrous vermin size, [#{1d7} Creature Size] roll 1d100: 01-20 = 8-16 tiny, 21-40 = 2-11 small, 41-60 =1-5 medium, 61-75 = 1-5 large, 76-90 = 1-5 huge, 91-96 = 1 gigantic, 97-00 = 1 colossal.
+3. To determine juju zombie size, roll 1d100: 01-15 = 6-20 tiny, 16-30 = 6-20 small, 31-55 = 1-10 medium, 56-75 = 1-6 large, 76-90 = 1-4 huge, 91-96 = 1-4 gigantic, 97-00 = 1 colossal.
+4. To determine zombie size, roll 1d100: 01-15 = 6-20 tiny, 16-30 = 6-20 small, 31-55 = 2-20 medium, 56-75 = 2-20 large, 76-90 = 2-12 huge, 91-96 = 1-6 gigantic, 97-00 = 1-4 colossal.
+5. To determine skeleton size, roll 1d100: 01-15 = 3-18 tiny, 16-30 = 1-12 small, 31-55 = 1-12 medium, 56-75 = 1-6 large, 76-90 = 1-4 huge, 91-96 = 1 gigantic, 97-00 = 1 colossal.
+6. Vegepygmy warbands include 10-24 common vegepygmies and 1-4 thornies.
+7. Draug crew includes one draug captain, 6-11 brine zombies, and 1-4 mummies of the deep (01-30), 2-8 lace dons (31-65), or 2-8 skeletons (66-00).
+8. To determine dragon age, roll 1d100: 01-08 = wyrmling, 08-18 = very young, 19-29= young, 30-39 = juvenile, 40-51 = young adult, 52-65 = adult, 66-76 = mature adult, 77-83 = old, 84-90 = very old, 91-95 = ancient, 95-98 = wyrm, 99-00 = great wyrm.
+9. Ice ghoul war party consists of 11-20 ice ghouls led by one 3rd level berserker.
+10. Ratman warbands include one leader of 4th to 7th level per 30 warriors.
+11. Spider-eye goblin raiding parties include 3-18 warriors, 2-8 mounted on giant wolf spiders (CC1), and one 4th level leader.
+12. Note that the fewer feral encountered, the greater the hit dice of those that are in the pack.
+13. Though loners, stalker ratmen are always encountered with 1-6 normal or giant-sized animals appropriate to the climate/terrain.
+14. A slime reaver patrol includes 5-8 reavers, one 5th level ranger, and one 5th level sorcerer.
+15. Corpse whisperers are almost always encountered with a force of 1-100 zombies under their command.
+16. A dananshee is usually encountered with one or more animal companions (see CC2).
+17. Goblin warbands are composed of 10-24 goblins mounted on worgs
+18. A hag covey consists of 3 hags of any type, 1-8 ogres, and 1-4 evil giants.
+19. Kobold warbands include 10-24 kobolds and 2-4 dire weasels.
+20. A kuo-toa patrol includes a 3rd level whip. A kuo-toa squad includes 1-2 3rd level whips, 1-2 4th level monitors, and 1 8th level fighter.
+21. This group is led by two 3rd level sergeants/lieutenants and a 3rd-6th level leader.
+22. Ogre magi are 50% likely to be encountered with 2-4 ogres.
+23. A sahuagin patrol includes a 3rd level lieutenant and 1-2 medium or large sharks.
+24. Only one satyr in a group will have pipes.
+25. A troglodyte squad is accompanied by 1-2 giant lizards.
+26. A Snake Men troupe includes 2-13 purebloods, 2-5 halfboods, and 2-4 abominations.
+27. Aboleth slaver broods include 2-4 aboleth, 7-12 skum, and a 50% chance of 1-20 slaves of any humanoid race native to the area.
+28. Centaur troops are led by one leader of 2nd to 5th level.
+29. Elementals are only encountered near a sizable amount of their native element. To determine size, roll 1d100: 01-25 = small, 26-50 = medium, 51-70 = large, 71-85 = huge, 85-95 = greater, 96-00 = elder.
+30. A troupe of ettercaps includes 1-2 of the beasts and 2-4 medium sized monstrous spiders.
+31. A ghast pack has {2d2}x ghasts and 7-12 ghouls.
+32. Fire giant hunting/raiding parties include 6-9 giants, one adept or sorcerer of {1d3+2} level, {1d4+1}x hell hounds, and {2d1+1}x {|trolls|ettins}.
+33. Frost giant hunting/raiding parties include 6-9 giants, 1 adept or sorcerer of {1d3+2} level, {1d4+1}x winter wolves, and {2d1+1}x ogres.
+34. Hill giant hunting/raiding parties include 6-9 giants and {1d4+1}x dire wolves.
+35. Stone giant hunting/raiding/trading parties include 6-9 giants and one elder.
+36. A flind mob is composed of 10-20 gnolls led by 2-5 flinds.
+37. Margoyle wings include 4-6 standard gargoyles and 1-2 margoyles.
+38. Sand giant raiding parties consist of 6-9 giants led by one cleric or sorcerer of 6th-9th level.
+39. A nereid troupe is composed of {2d2}x nereids, each accompanied by one giant squid, giant octopus, or large-sized poisonous snake.
+40. Ogrillon warbands include 10-24 orcs led by 3-8 ogrillons.
+41. Tsathar scourge hunting parties include {2d1}x killer monstrous frogs (ToH) for each scourge.
+42. Wolfwere troops include {1d4+1}x wolfweres and {2d4}x wolves.  
+EndTable:
+
+Table: Hydra Heads
+roll: 1d100
+01-30: 5
+31-50: 6
+51-60: 7
+61-70: 8
+71-80: 9
+81-88: 10
+89-95: 11
+96-100: 12
+EndTable:
+
+Table: Hydra Kind
+01-10: Pyrohydra
+11-20: Cryoydra
+21-30: Lernaean
+31-100: Hydra
+EndTable:
+
+Table: Creature Size
+define: lookup
+1: tiny
+2: small
+3: medium
+4: large
+5: huge
+6: gigantic
+7: colossal.
+EndTable:

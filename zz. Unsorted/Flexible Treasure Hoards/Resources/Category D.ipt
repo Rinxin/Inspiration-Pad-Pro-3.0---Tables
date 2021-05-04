@@ -1,0 +1,22 @@
+; Category D.ipt
+; created 12/23/2018 10:39:30 AM
+
+use: PHB\MagicSpells.ipt
+use: DMG\Damage Type.ipt
+
+Table: Category D 
+Ammunition +3
+Arrow of Slaying
+Funniest Joke in the Realm Scroll
+Oil of Sharpness
+Pickled Pixie Potion
+Potion of Flying
+Potion of Giant Strength (clound giant)
+Potion of Invisibility
+Potion of Longevity
+Potion of Speed
+Potion of Vitality
+Spell Scroll ([@Spellslevel6])
+Spell Scroll ([@Spellslevel7])
+Spell Scroll ([@Spellslevel8])
+Endtable:

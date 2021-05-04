@@ -1,0 +1,62 @@
+; Critical Hits.ipt
+; created 4/4/2019 10:16:17 AM
+
+Maxreps: 1
+prompt: Attack Type {Melee|Brawl|Range|Magic} Melee
+
+Table Main
+[@crit_{$prompt1}]
+Endtable:
+
+Table: crit_Melee
+<b>Precision strike.</b> Attacker deals double dice damage to their opponent
+<b>Chink in defenses.</b> Opponent's AC is halved for all of the attacker's strikes until they are damaged by the attacker.
+<b>Followup.</b> Attacker immediately gains an attack of opportunity on their opponent
+<b>Tactical positioning.</b> Attacker can move themselves and/or their opponent a total of two steps. If both are used to step away from each other, then that is treated as a disengage. This can also be used to get behind their opponent or swap positions with them.
+<b>Wide open.</b> Opponent has no dex AC bonus and any attacks on the opponent are at advantage. This lasts until the opponent has a full action/attack.
+<b>Setup.</b> The next attack by the opponent on any target is at a dissadvantage and the attacker gets an attack of opportunity on their opponent immediately after that attack.
+<b>Faint.</b> The next attack by the opponent on the attacker is at dissadvantage. If this blow hits, the attacker makes a DEX save to avoid all damage and only takes half damage if they fail the save.
+<b>Savage advance.</b> The next strike at the opponent by the attacker is at an advantage and the opponent's next strike at the attacker is at a dissadvantage.
+<b>Wound.</b> Opponent takes D4 bleeding damage every subsequent turn of combat after this strike.
+<b>Dissarm.</b> Opponent must make a STR saving throw to keep hold of item in one hand. Opponent cannot use this item until their next full action/attack.
+Endtable:
+
+table crit_Brawl
+<b>Precision strike.</b> Opponent takes double the rolled dice damage for this blow
+<b>Chink in defenses.</b> Opponent's AC is halved for all of the attacker's blows until the target take damage from the attacker.
+<b>Followup.</b> Attacker immediately gains an attack of opportunity on their opponent
+<b>Tactical positioning.</b> Attacker can move themselves and/or their opponent a total of two steps. If both are used to move away from each other, then that is treated as a disengage. (No attack of opportunity can be taken)
+<b>Wide open.</b> Opponent looses any dex AC bonus and any attacks on the target have advantage. This lasts until target has a full action/attack.
+<b>Setup.</b> The next attack by the opponent is at a dissadvantage and the attacker gets an attack of opportunity on them immediately after that attack.
+<b>Faint.</b> The next attack by the target on the attacker is at dissadvantage. If the opponent hits with this attack, the attacker makes a DEX save to avoid all damage, takes half on a fail.
+<b>Savage advance.</b> The next attack on this opponent by the attacker is at an advantage and this opponent's next attack on the attacker is at a dissadvantage.
+<b>Bleed.</b> Opponent takes 1pt of bleeding damage every subsequent turn of combat after this blow.
+<b>Stunned.</b> Opponent must make a CON saving throw with the attacker's STR bonus subtracted from the roll or be unable to act for the remainder of this round and the next full round of combat. If saving throw sucessful then next attack by target is at dissadvantage.
+endtable:
+
+table crit_Range
+<b>Precision strike.</b> Attacker deals double the rolled dice damage to the target
+<b>Chink.</b> in defenses Target's AC is halved for all of the attacker's subsequent shots until the target takes damage from the attacker.
+<b>Followup.</b> Attacker immediately gains an attack of opportunity on the target
+<b>Missdirection.</b> Trajectory of missile is imposible to guage by target
+<b>Perfect shot.</b> Shot does the maximum damage (no roll needed)
+<b>Marked.</b> All further attacks by the attacker on the target are at advantage until line of sight is broken or new target is taken
+<b>Marksman.</b> The next attack made by the attacker in this combat with the same weapon is at advantage
+<b>Cripple.</b> The target falls prone
+<b>Cut.</b> Target takes 1d2 bleeding damage every subsequent turn of combat after this strike.
+<b>Dissarm.</b> Target makes STR saving throw to keep hold of item in one hand. Target cannot use this item until their next full action/attack.
+endtable:
+
+table crit_Magic
+<b>Empowered.</b> The spell is cast at one level higher while still using the same spell slot as intended.
+<b>Dominating.</b> Any saving throws induced by the spell are at dissadvantage.
+<b>Quickened.</b> The caster's bonus action can be used to cast any single action spell that they know.
+<b>Cloaked.</b> The spell is cast in such a way that the caster's location is impossible to determine.
+<b>Supercharged.</b> Any damage dice rolls count as maxed (no need to roll) or the duration of the spell is doubled if there are no dice.
+<b>Instant recall.</b> The casting of the spell does not use that spell slot (not applicable for spells cast through an object or magic item)
+<b>Inspired.</b> The next spell that the caster performs is at advantage
+<b>Forked.</b> An attack of opportunity can be taken to any adjacent target within range with an off-shoot of the origional spell. This does half damage or has half duration and does not use any spell slots.
+<b>Intimidating.</b> Any physical attacks against the caster made by any foes witnessing the spell are at disadvantage. This lasts until the caster takes damage.
+<b>Rout.</b> Target must make a CHA saving throw or flee the battlefield. Success and the target is frightened of the caster.
+endtable:
+

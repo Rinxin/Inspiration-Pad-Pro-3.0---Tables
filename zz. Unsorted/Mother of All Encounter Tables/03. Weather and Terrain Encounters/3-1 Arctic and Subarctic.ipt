@@ -1,0 +1,99 @@
+; 3-1 Arctic and Subarctic.ipt
+; created 1/3/2019 12:48:23 PM
+
+use: Generators/D&D/Mother of All Encounter Tables/Random Terrain.ipt
+use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/3 Notes.ipt
+
+prompt: Terrain {Desert|Plain|Forest|Hill|Mtn.|Marsh} [@Random Terrain]
+
+table: 3-1 Main
+[@3-1 Arctic and Subarctic_{$prompt1}]
+endtable:
+
+
+table: 3-1 Arctic and Subarctic_Desert
+roll: 1d100
+01-04: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+05-17: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+18: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+19-22: <u><b>Flash Flood</u></b>\n [#1 Weather Description]
+23-34: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+35-44: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+45-57: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+58: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+59-62: <u><b>Oasis</u></b>\n [#7 Weather Description]
+63: <u><b>Quicksand</u></b>\n [#8 Weather Description]
+64-73: <u><b>Sand/duststorm</u></b>\n [#1 Weather Description]
+74-77: <u><b>Sinkholes</u></b>\n [#9 Weather Description]
+78-90: <u><b>Snowstorm</u></b>\n [#1 Weather Description]
+91-100: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+Endtable:
+
+table: 3-1 Arctic and Subarctic_Plain
+01-06: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+07-31: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+32: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+33-38: <u><b>Flash Flood</u></b>\n [#1 Weather Description]
+39-46: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+47: <u><b>Grassfire</u></b>\n [#6 Weather Description]
+48-55:<u><b>Heat wave</u></b>\n [#1 Weather Description]
+56-64: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+65: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+66: <u><b>Sinkholes</u></b>\n [#9 Weather Description]
+67-91: <u><b>Snowstorm</u></b>\n [#1 Weather Description]
+92-00: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+endtable:
+
+table: 3-1 Arctic and Subarctic_Forest
+01-07: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+08-36: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+37-38: <u><b>Earthquake</u></b>\n [#4  Weather Description]
+39-45: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+46-47: <u><b>Forest fire</u></b>\n [#5 Weather Description]
+48-54: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+55-61: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+62-63: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+64-93: <u><b>Snowstorm</u></b>\n [#1 Weather Description]
+94-100: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+endtable:
+
+table: 3-1 Arctic and Subarctic_Hill
+01-07: <u><b>Avalanche</u></b>\n [#1 Weather Description]
+08-22: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+23-39: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+40-41: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+42-49: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+50-57: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+58-65: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+66-67: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+68-74: <u><b>Landslide</u></b>\n [#1 Weather Description]
+75-91: <u><b>Snowstorm</u></b>\n [#1 Weather Description]
+92-00: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+endtable:
+
+table: 3-1 Arctic and Subarctic_Mtn
+01-13: <u><b>Avalanche</u></b>\n [#1 Weather Description]
+14-25: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+26-38: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+39: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+40-47: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+48-57: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+58-67: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+68: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+69-76: <u><b>Landslide</u></b>\n [#1 Weather Description]
+77-89: <u><b>Snowstorm</u></b>\n [#1 Weather Description]
+90-99: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+100: <u><b>Volcanic eruption</u></b>\n [#10 Weather Description]
+endtable:
+
+table: 3-1 Arctic and Subarctic_Marsh
+01-31: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+32-33: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+34-41: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+42-49: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+50-57: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+58-59: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+60-61: <u><b>Quicksand</u></b>\n [#8 Weather Description]
+62-91: <u><b>Snowstorm</u></b>\n [#1 Weather Description]
+92-00: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+endtable:

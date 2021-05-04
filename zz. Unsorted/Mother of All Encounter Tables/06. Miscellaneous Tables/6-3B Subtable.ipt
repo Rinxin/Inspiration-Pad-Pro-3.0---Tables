@@ -1,0 +1,60 @@
+; 6-3B Subtable.ipt
+; created 12/11/2018 4:50:14 PM
+
+prompt: Travel Type {Land|Sea|Subterranean} Land
+
+Table: Main
+[@6-3B Subtable_{$prompt1}]
+EndTable: 
+
+
+Table: 6-3B Subtable_Land
+01-11: Hobgoblin  MM
+12-38: Human  PH
+39: Ice Ghoul  CC1
+40-50: Kobold  MM
+51-61: Lizardfolk  MM
+62: Mongrelman  ToH
+63: Ogre, Ogrillon  ToH
+64-90: Orc  MM
+91: Orog  ToH
+92: Slime Reaver  CC2
+93: Vampire,[@6-3 Sentient Races]  MM
+94: Vegepygmy  ToH
+95: Wearboar,[@6-3 Sentient Races]  MM
+96: Werebear,[@6-3 Sentient Races]  MM
+97: Werefox,[@6-3 Sentient Races]  ToH
+98: Wererat,[@6-3 Sentient Races]   MM
+99: Werewolf,[@6-3 Sentient Races]  MM
+100: Snake Men  MM
+EndTable:
+
+Table: 6-3B Subtable_Sea
+01-03: Kuo-toa    MM
+04-37: Locathah    MM
+38-57: Merfolk    MM
+58-77: Sahuagin    MM
+78-97: Triton    MM
+98-100: Vampire,[@6-3 Sentient Races]    MM
+EndTable:
+
+Table: 6-3B Subtable_Subterranean
+01-12: Hobgoblin  MM
+13-24: Human  PH
+25-37: Kobold  MM
+38-40: Kuo-toa  MM
+41-50: Lizardfolk  MM
+51-53: Brain Devourer  MM
+54-56: Mongrelman  ToH
+57: Ogre, Ogrillon  ToH
+58-69: Orc  MM
+70-72: Orog  ToH
+73-75: Pech  ToH
+76: Slime Reaver  CC2
+77-86: Troglodyte  MM
+87: Vampire,[@6-3 Sentient Races]  MM
+88: Vegepygmy  ToH
+89-98: Wererat,[@6-3 Sentient Races]  MM
+99: Werewolf,[@6-3 Sentient Races]  MM
+100: Snake Men  MM
+EndTable:

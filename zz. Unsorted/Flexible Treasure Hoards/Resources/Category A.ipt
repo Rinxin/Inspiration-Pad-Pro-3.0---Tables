@@ -1,0 +1,12 @@
+; Category A.ipt
+; created 12/23/2018 10:22:02 AM
+
+use: PHB\MagicSpells.ipt
+
+#Common Consumables
+
+Table: Category A
+Potion of Climbing
+Spell Scroll ([@SpellsLevel0])
+Spell Scroll ([@SpellsLevel1])
+EndTable:   

@@ -1,0 +1,10 @@
+; Category A.ipt
+; created 3/6/2019 10:51:45 PM
+
+use: Common\srd\MageSpells.ipt
+
+Table: Category A
+Potion of climbing
+Spell scroll (1st level, [@SpellsLevel1])
+Spell scroll (cantrips, [@SpellsLevel0])
+EndTable:

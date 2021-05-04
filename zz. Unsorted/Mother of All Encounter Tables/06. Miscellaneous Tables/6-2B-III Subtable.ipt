@@ -1,0 +1,88 @@
+; 6-2B-III Subtable.ipt
+; created 12/11/2018 5:54:54 PM
+
+Table: Main
+
+EndTable:
+
+Table: 6-2B-III Subtable_Poor
+01-07: Rice 0.325  
+08-38: Rope, Hemp 0.1  
+39-47: Salt 0.35  
+48-54: Seafood 0.4  
+55-62: Stone 0.125  
+63-71: Sugar 0.4  
+72-79: Tea 0.45  
+80-86: Timber 0.15  
+87-93: Vegetables 0.25  
+94-100: Wool 0.36  
+EndTable:
+
+Table: 6-2B-III Subtable_Struggling
+01-05: Rice 0.325    
+06-10: Rope, Hemp 0.1    
+11-13: Rope, Silk 0.5    
+Salt 0.35  14-18  
+Seafood 0.4  19-43  
+Silks 0.75  44-47  
+Stone 0.125  48-52  
+Sugar 0.4  53-56  
+Tea 0.45  57-59   
+Timber 0.15  60-64  
+Tin 0.5  65-67  
+Vegetables 0.25  68-92  
+Wax 0.625  93-95  
+Wool 0.36  96-100  
+EndTable:
+
+Table: 6-2B-III Subtable_Average
+Paper 1.125 01 
+Pipeweed 1.85 02 
+Rice 0.325  03 
+Rope, Hemp 0.1  04 
+Rope, Silk 0.5  05-14 
+Salt 0.35  15 
+Seafood 0.4 16 
+Silks 0.75  17 
+Slaves 0.5  18 
+Stone 0.125  19-22 
+Sugar 0.4  23-24 
+Tea 0.45  50-51 
+Timber 0.15  35 
+Tin 0.5  36 
+Tools 2  37-46 
+Vegetables 0.25  47 
+Wax 0.625 48 
+Weapons 3.5  49 
+Wheat 3  50-74 
+Wine 2.5  75-99 
+Wool 0.36  100 
+EndTable:
+Table: 6-2B-III Subtable_Valuable
+Paper 1.125 01-02
+Pipeweed 1.85 03-04 
+Platinum 500 05 
+Rope, Silk 0.5 06-07 
+Silks 0.75 08-09 
+Silver 5 10-20 
+Slaves 0.5 21-22 
+Spell Components 10 23-24 
+Spice 5 25-49 
+Tea 0.45 50-51 
+Tin 0.5 52 
+Tools 2 53-62 
+Wax 0.625 63 
+Weapons 3.5 64-73 
+Wheat 3 74-75 
+Wine 2.5 76-00 
+EndTable:
+Table: 6-2B-III Subtable_Exotic
+Pipeweed 1.85 01-04
+Platinum 500 05-15
+Silver 5 16-26
+Slaves 0.5 27-30
+Spell Components 10 31-41
+Spice 5 42-92
+Weapons 3.5 93-96
+Wine 2.5 97-100
+EndTable:

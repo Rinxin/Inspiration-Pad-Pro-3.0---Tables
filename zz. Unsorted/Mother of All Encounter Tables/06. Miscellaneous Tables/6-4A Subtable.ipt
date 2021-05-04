@@ -1,0 +1,26 @@
+; 6-4A Subtable.ipt
+; created 12/11/2018 4:37:37 PM
+
+
+Table: 6-4A Subtable
+01-15: 1x Golem, Flesh 7  MM 
+16-21: 1-4x Celestial, Hound Archon 4  MM 
+22-26: 1-4x Celestial, Lantern Archon 2  MM 
+27-31: 1-4x Daemon, Hydrodaemon 8  ToH 
+32-36: 1x Demon, Alu-Demon 5  ToH 
+37-41: 1x Demon, Cambion 6  ToH 
+42-46: 1x Demon, Nabassu (lesser) 9  ToH 
+47-50: 1-4x Demon, Nerizo 8  ToH 
+51-54: 1x Demon, Succubus 9  MM 
+55-59: 1-10x Demon, Vrock (I) 13  MM 
+60-64: 1-10x Devil, Hellcat 7  MM 
+65-68: 1x Devil, Imp 2  MM 
+69-73: 1-4x Devil, Kyton 6  MM 
+74-78: 1-4x Devil, Osyluth 6  MM 
+79-81: 1-10x Formian, Warrior 3  MM 
+82-84: 1-18x Formian, Worker 1/2  MM 
+85-87: 1x Golem, Stone 11  MM 
+88-90: 1x Golem, Stone Guardian 4  ToH 
+91-95: 1-6x Sla’ad, Blue 8  MM 
+96-100: 1-6x Sla’ad, Red 7  MM 
+EndTable:

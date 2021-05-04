@@ -1,0 +1,14 @@
+; 6-2C Table Means of Transport.ipt
+; created 12/11/2018 5:53:49 PM
+
+Table: 6-2C Table Means of Transport
+Pack beast 150
+Cart 200
+Sled 300
+Wagon 400
+Riverboat 4,000
+Barge 20,000
+Merchant ship, small 200,000
+Merchant ship, medium 300,000
+Merchant ship, large 550,000
+EndTable:

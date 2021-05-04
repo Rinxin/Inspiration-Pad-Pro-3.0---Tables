@@ -1,0 +1,19 @@
+; 3 Notes.ipt
+; created 1/3/2019 12:53:47 PM
+
+table: Weather Description
+type: Lookup
+1:Hazard is as per the DMG, Chapter 3, the Environment section.
+2: Calm, windless weather is often a hazard when asea; a calm has a noncumulative 5% chance of ending each hour.
+3: A cliff {20 + 1d6 * 10} feet blocks further progress. If the area is heavily overgrown, those failing a perception check (DC 15) must make a dex save (DC 20) or fall over the edge.
+4: The earthquake lasts for {5+1d20} rounds.  for the duration, structures take {5 + 1d10} of damage, though Hardness applies. All creatures standing must make a Acrobatics check (DC 10 + intensity) each round or fall over; those with four legs get +4 to the
+save, and those with 6 or more need not save.
+5: A forest fire moves at {1d4 * 10} feet per round, and burns in an area for 10-30 minutes before moving on. Those within the fire zone take 3d6 points of damage each round and may be set on fire.
+6: A grassfire moves {1d6 x 10} feet per round, and burns in an area for one minute before moving on. Those caught within the fire zone take 2d6 points of damage each round and risk being set afire.
+7: In a desert, finding a reliable watering hole is a rare occurrence. There is a 10% chance it is poisoned, and 60% it is guarded by some local sentient race if it is not poisoned.
+8: Those within quicksand must make a dex save each round (DC 15) or sink one foot deeper into the mire. Holding still provides a +2 bonus to the roll, but does not help in escaping. A Athletics check (DC 16) is allowed to move 5 feet each round, but the dex save is automatically failed if this is done.
+9: The land in the area is a thin crust over a series of hollowed caverns. Every minute while in the area, there is a 10% chance of breaking through, requiring a dex save (DC 15) to avoid tumbling down 10-20 feet.
+10: A volcanic eruption is generally fairly rare, and active volcanoes are well-known. Those within a few miles of an eruption must deal with earthquakes, falling ash, clouds of toxic gas (as a cloudkill spell), giant cinders falling from above, and possibly molten lava.
+11: Waterspouts are diaphenous twisters seen at sea that can damage sea vessels if it runs across them. Treat as a tornado, but with a Fort save of 18, and only sweeping creatures and objects up for {1d4} rounds.
+12: Whirlpools have a radius increment of {4+1d20} feet. At five times this distance cratures move one increment towards it unless a athletics check is made (DC 15). At 3 times the radius increment, the DC of this check increases to 20; at 2 times the radius increment, the DC increases to 30; and within one increment, the creature or vessel is sucked down to the bottom of the ocean, taking pressure and falling damage accordingly.
+endtable:

@@ -1,0 +1,23 @@
+; Category B.ipt
+; created 3/6/2019 10:51:51 PM
+
+use: Common\srd\MageSpells.ipt
+
+Table: Category B
+| Ammunition +1  | 
+| Dust of Disapperance |
+| Dust of Dryness|
+| Dust of Sneezing and Choking|
+| Keoghtom's Ointment|
+| Oil of Slipperiness|
+| Philter of Love|
+| Potion of Animal Friendship|
+| Potion of Fire Breath|
+| Potion of Hill Giant Strength|
+| Potion of Growth|
+| Potion of Poison|
+| Potion of Resistance|
+| Potion of Water Breathing|
+| Spell scroll (2nd level, [@SpellsLevel2]) | 
+| Spell scroll (3rd level, [@SpellsLevel3]) | 
+EndTable:

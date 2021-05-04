@@ -1,0 +1,97 @@
+; Subtable 4-3.ipt
+; created 1/3/2019 1:25:52 PM
+
+prompt: Travel Method {Overland|Urban|Trade Route|Overseas|Underwater|Subterranean} [@Random Travel]
+
+table: main
+[@4-3_{$prompt1}]
+endtable:
+
+table: 4-3_Overland
+01-02: Ore deposit: An unmined deposit of precious minerals is chanced upon, though asuccessful Spot check (DC 20) is required to notice it.
+03-04:Prophetic dream: Roll or choose a random encounter for the next day. The night before, one of the characters has a prophetic dream that foreshadows this encounter. Feel free to make the encounter more challenging than usual, and the dream as cryptic as you wish.
+05-06: Rare or unique creature wandering the countryside; roll on table 6-4. 
+07-08: Rare plant is found, though a Wilderness Lore check (DC 20) is required to recognize its value. This could be a medicinal plant, a drug, a poisonous plant, or anything the DM determines is viable. Value should be no more than 1d10 x 10 gp total.
+09-10: Ruined settlement: The ruins of a community are found; pick a race indigenous to the region or roll on table x to determine what the dominant race living here was. There is a 60% chance it is now the lair of some beasts. If so, roll on the appropriate wandering monster table for the climate/terrain.
+11-12: Snake surprise: While sleeping, 1-3 snakes seek the warmth of a traveler’s bedroll. These are only 10% likely to be venomous, but the sleeper won’t necessarily know this! A Wisdom check (DC 20) is allowed to initially spot the intrusion; a Dexterity check (DC 20) allows one to slip free without disturbing the visitors. In arctic and subarctic climes, treat as no encounter.
+13-14: Sounds of battle or arguing can be heard from nearby. Investigation reveals a confrontation between two or more species, rolled randomly or chosen by the DM from the wandering monster table of the appropriate climate/terrain.
+15: Strange air coloration: The air has an unusual tint, possibly with an associated strange odor. The effect is harmless unless the DM deems otherwise.
+16-17: Strange hush: An unnatural hush falls over the area; the wind does not blow, no animal sounds are heard, etc. The cause of this is left for the DM to determine.
+20: Teleport zone: All within the area are subject to random teleportation at the DM’s whim. There is a noncumulative 10% chance per ten minutes of this occurring, snatching up all creatures and their possessions.
+21-49: The group unknowingly comes into contact with a disease (from the DMG or of the DM’s devising). Simple ailments such as the common cold or flu are most likely.
+50-97: The remains of an old campsite are found, with fire pit, cleared ground, etc. Wilderness Lore (DC 20) determines the creatures that camped there. There is a 5% chance that some item of value was left behind (max. 100 gp value).
+98: Uncommanded undead: 1-3 skeletons or zombies are encountered, commanded to await instructions by their master, then abandoned.They will not attack unless attacked first, and can be turned orrebuked normally. They carry no treasure or weaponry.
+99: Visitation: The group receives repeated visitations by a ghostly apparition that returns until a particular deed is accomplished. The ghostly figure does not attack, and can be turned but not destroyed. Each time a non-monster random encounter is rolled, there is a 50% chance it is another visitation. The phantom may spook animals, disturb sleep, or inspire dread; it is up to the DM to determine its origin and what needs to be done to let it rest.
+100: Zone of confusion: An area of twisted passages, heavy undergrowth, etc. has been rendered more dangerous due to a faint magical aura that confuses the sense of direction of creatures traveling through it (-20 on Intuit Direction checks).
+endtable:
+
+table: 4-3_Urban
+01-08:Prophetic dream: Roll or choose a random encounter for the next day. The night before, one of the characters has a prophetic dream that foreshadows this encounter. Feel free to make the encounter more challenging than usual, and the dream as cryptic as you wish.
+09: Rare or unique creature wandering the countryside; roll on table 6-4. 
+10-19: Runaway cart: A cart, wagon, or other vehicle is uncontrolled and may be a hazard if on a slope.
+20: Strange hush: An unnatural hush falls over the area; the wind does not blow, no animal sounds are heard, etc. The cause of this is left for the DM to determine.
+18-19: Supernatural climate/terrain: The group comes across a magically produced environment, such as: water that flows uphill, a bottomless pit, a rock or mountain floating in midair, or a collection of smooth stone spires.
+20: Strange hush: An unnatural hush falls over the area; the wind does not blow, no animal sounds are heard, etc. The cause of this is left for the DM to determine.
+21-70: The group unknowingly comes into contact with a disease (from the DMG or of the DM’s devising). Simple ailments such as the common cold or flu are most likely.
+71-80: The PCs suffer the indignity of having a chamberpot emptied as they pass beneath a window. Dex save (DC 15) avoids contents.
+81-88: Thief on the run: A scoundrel has slit one purse too many, and is being chased by the local authorities. He may try using the PCs in some way for aid, either as allies or as a distraction. He may even try slipping the stolen merchandise into a PC’s bag. If he does this and gets away, he’ll be back looking for it later. Treat the thief as a Rogue level 1-6.
+89: Visitation: The group receives repeated visitations by a ghostly apparition that returns until a particular deed is accomplished. The ghostly figure does not attack, and can be turned but not destroyed. Each time a non-monster random encounter is rolled, there is a 50% chance it is another visitation. The phantom may spook animals, disturb sleep, or inspire dread; it is up to the DM to determine its origin and what needs to be done to let it rest.
+90-100: Wreck: An overturned cart, damaged wagon, or wrecked ship. This blocks progress along streets and trade routes, and those involvedmay be angry or in danger.
+endtable:
+
+table: 4-3_Trade Route
+01-03:Prophetic dream: Roll or choose a random encounter for the next day. The night before, one of the characters has a prophetic dream that foreshadows this encounter. Feel free to make the encounter more challenging than usual, and the dream as cryptic as you wish.
+04: Rare or unique creature wandering the countryside; roll on table 6-4. 
+05: Ruined settlement: The ruins of a community are found; pick a race indigenous to the region or roll on table x to determine what the dominant race living here was. There is a 60% chance it is now the lair of some beasts. If so, roll on the appropriate wandering monster table for the climate/terrain.
+06-08: Runaway cart: A cart, wagon, or other vehicle is uncontrolled and may be a hazard if on a slope.
+09-11: Snake surprise: While sleeping, 1-3 snakes seek the warmth of a traveler’s bedroll. These are only 10% likely to be venomous, but the sleeper won’t necessarily know this! A Wisdom check (DC 20) is allowed to initially spot the intrusion; a Dexterity check (DC 20) allows one to slip free without disturbing the visitors. In arctic and subarctic climes, treat as no encounter.
+12-14: Sounds of battle or arguing can be heard from nearby. Investigation reveals a confrontation between two or more species, rolled randomly or chosen by the DM from the wandering monster table of the appropriate climate/terrain.
+15-17: Strange hush: An unnatural hush falls over the area; the wind does not blow, no animal sounds are heard, etc. The cause of this is left for the DM to determine.
+18: Supernatural climate/terrain: The group comes across a magically produced environment, such as: water that flows uphill, a bottomless pit, a rock or mountain floating in midair, or a collection of smooth stone spires.
+19-48: The group unknowingly comes into contact with a disease (from the DMG or of the DM’s devising). Simple ailments such as the common cold or flu are most likely.
+49-78: The remains of an old campsite are found, with fire pit, cleared ground, etc. Wilderness Lore (DC 20) determines the creatures that camped there. There is a 5% chance that some item of value was left behind (max. 100 gp value).
+79: Thief on the run: A scoundrel has slit one purse too many, and is being chased by the local authorities. He may try using the PCs in some way for aid, either as allies or as a distraction. He may even try slipping the stolen merchandise into a PC’s bag. If he does this and gets away, he’ll be back looking for it later. Treat the thief as a Rogue level 1-6.
+80: Visitation: The group receives repeated visitations by a ghostly apparition that returns until a particular deed is accomplished. The ghostly figure does not attack, and can be turned but not destroyed. Each time a non-monster random encounter is rolled, there is a 50% chance it is another visitation. The phantom may spook animals, disturb sleep, or inspire dread; it is up to the DM to determine its origin and what needs to be done to let it rest.
+81-100: Wreck: An overturned cart, damaged wagon, or wrecked ship. This blocks progress along streets and trade routes, and those involvedmay be angry or in danger.
+endtable:
+
+table: 4-3_Overseas
+01-10:Prophetic dream: Roll or choose a random encounter for the next day. The night before, one of the characters has a prophetic dream that foreshadows this encounter. Feel free to make the encounter more challenging than usual, and the dream as cryptic as you wish.
+11-14: Rare or unique creature wandering the countryside; roll on table 6-4. 
+15-25: Strange hush: An unnatural hush falls over the area; the wind does not blow, no animal sounds are heard, etc. The cause of this is left for the DM to determine.
+26-85: The group unknowingly comes into contact with a disease (from the DMG or of the DM’s devising). Simple ailments such as the common cold or flu are most likely.
+86-89: Visitation: The group receives repeated visitations by a ghostly apparition that returns until a particular deed is accomplished. The ghostly figure does not attack, and can be turned but not destroyed. Each time a non-monster random encounter is rolled, there is a 50% chance it is another visitation. The phantom may spook animals, disturb sleep, or inspire dread; it is up to the DM to determine its origin and what needs to be done to let it rest.
+90-100: Wreck: An overturned cart, damaged wagon, or wrecked ship. This blocks progress along streets and trade routes, and those involvedmay be angry or in danger.
+endtable:
+
+table: 4-3_Underwater
+01-07:Prophetic dream: Roll or choose a random encounter for the next day. The night before, one of the characters has a prophetic dream that foreshadows this encounter. Feel free to make the encounter more challenging than usual, and the dream as cryptic as you wish.
+08-14: Rare or unique creature wandering the countryside; roll on table 6-4. 
+15-21: Rare plant is found, though a Wilderness Lore check (DC 20) is required to recognize its value. This could be a medicinal plant, a drug, a poisonous plant, or anything the DM determines is viable. Value should be no more than 1d10 x 10 gp total.
+22-23: Ruined settlement: The ruins of a community are found; pick a race indigenous to the region or roll on table x to determine what the dominant race living here was. There is a 60% chance it is now the lair of some beasts. If so, roll on the appropriate wandering monster table for the climate/terrain.
+check (DC 20) allows one to slip free without disturbing the visitors. In arctic and subarctic climes, treat as no encounter.
+24-30: Sounds of battle or arguing can be heard from nearby. Investigation reveals a confrontation between two or more species, rolled randomly or chosen by the DM from the wandering monster table of the appropriate climate/terrain.
+31-37: Supernatural climate/terrain: The group comes across a magically produced environment, such as: water that flows uphill, a bottomless pit, a rock or mountain floating in midair, or a collection of smooth stone spires.
+38-39: Teleport zone: All within the area are subject to random teleportation at the DM’s whim. There is a noncumulative 10% chance per ten minutes of this occurring, snatching up all creatures and their possessions.
+40-96: The group unknowingly comes into contact with a disease (from the DMG or of the DM’s devising). Simple ailments such as the common cold or flu are most likely.
+97-98: Visitation: The group receives repeated visitations by a ghostly apparition that returns until a particular deed is accomplished. The ghostly figure does not attack, and can be turned but not destroyed. Each time a non-monster random encounter is rolled, there is a 50% chance it is another visitation. The phantom may spook animals, disturb sleep, or inspire dread; it is up to the DM to determine its origin and what needs to be done to let it rest.
+99-100: Zone of confusion: An area of twisted passages, heavy undergrowth, etc. has been rendered more dangerous due to a faint magical aura that confuses the sense of direction of creatures traveling through it (-20 on Intuit Direction checks).
+endtable:
+
+table: 4-3_Subterranean
+01-03: Ore deposit: An unmined deposit of precious minerals is chanced upon, though asuccessful Spot check (DC 20) is required to notice it.
+04-06:Prophetic dream: Roll or choose a random encounter for the next day. The night before, one of the characters has a prophetic dream that foreshadows this encounter. Feel free to make the encounter more challenging than usual, and the dream as cryptic as you wish.
+07-09: Rare or unique creature wandering the countryside; roll on table 6-4. 
+10-12: Rare plant is found, though a Wilderness Lore check (DC 20) is required to recognize its value. This could be a medicinal plant, a drug, a poisonous plant, or anything the DM determines is viable. Value should be no more than 1d10 x 10 gp total.
+13: Ruined settlement: The ruins of a community are found; pick a race indigenous to the region or roll on table x to determine what the dominant race living here was. There is a 60% chance it is now the lair of some beasts. If so, roll on the appropriate wandering monster table for the climate/terrain.
+check (DC 20) allows one to slip free without disturbing the visitors. In arctic and subarctic climes, treat as no encounter.
+14-16: Sounds of battle or arguing can be heard from nearby. Investigation reveals a confrontation between two or more species, rolled randomly or chosen by the DM from the wandering monster table of the appropriate climate/terrain.
+17: Strange air coloration: The air has an unusual tint, possibly with an associated strange odor. The effect is harmless unless the DM deems otherwise.
+18-20: Supernatural climate/terrain: The group comes across a magically produced environment, such as: water that flows uphill, a bottomless pit, a rock or mountain floating in midair, or a collection of smooth stone spires.
+21: Teleport zone: All within the area are subject to random teleportation at the DM’s whim. There is a noncumulative 10% chance per ten minutes of this occurring, snatching up all creatures and their possessions.
+22-65: The group unknowingly comes into contact with a disease (from the DMG or of the DM’s devising). Simple ailments such as the common cold or flu are most likely.
+66-95: The remains of an old campsite are found, with fire pit, cleared ground, etc. Wilderness Lore (DC 20) determines the creatures that camped there. There is a 5% chance that some item of value was left behind (max. 100 gp value).
+96: Uncommanded undead: 1-3 skeletons or zombies are encountered, commanded to await instructions by their master, then abandoned.They will not attack unless attacked first, and can be turned orrebuked normally. They carry no treasure or weaponry.
+97: Visitation: The group receives repeated visitations by a ghostly apparition that returns until a particular deed is accomplished. The ghostly figure does not attack, and can be turned but not destroyed. Each time a non-monster random encounter is rolled, there is a 50% chance it is another visitation. The phantom may spook animals, disturb sleep, or inspire dread; it is up to the DM to determine its origin and what needs to be done to let it rest.
+98-100: Zone of confusion: An area of twisted passages, heavy undergrowth, etc. has been rendered more dangerous due to a faint magical aura that confuses the sense of direction of creatures traveling through it (-20 on Intuit Direction checks).
+endtable:

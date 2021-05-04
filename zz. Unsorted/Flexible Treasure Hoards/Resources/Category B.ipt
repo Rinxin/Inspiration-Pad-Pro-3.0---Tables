@@ -1,0 +1,31 @@
+; Category B.ipt
+; created 12/23/2018 10:39:06 AM
+
+use: PHB\MagicSpells.ipt
+use: DMG\Damage Type.ipt
+
+Table: Category B 
+Ammunition +1
+Dust of Disappearance
+Dust of Dryness
+Dust of Sneezing and Choking
+DoorJam Potion
+Hand of the Five Fingered Viscount
+Keoghtom's Ointment
+Lip Stickers
+Oil of Slipperiness
+Paper Bird
+Philter of Love
+Potion of Animal Friendship
+Potion of Enhance Ability
+Potion of Fire Breath
+Potion of Giant Strength (hill giant)
+Potion of Growth
+Potion of Poison
+Potion of [@Damage Type] Resistance
+Potion of Water Breathing
+Smarmalade Potion
+Smokepowder
+Spell Scroll ([@SpellsLevel2])
+Spell Scroll ([@SpellsLevel3])
+Endtable:

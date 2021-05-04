@@ -1,0 +1,49 @@
+; 1-1 Overland Encounters.ipt
+; created 1/3/2019 1:50:17 PM
+
+;use: Generators/D&D/Mother of All Encounter Tables/.ipt
+use: Generators/D&D/Mother of All Encounter Tables/Random Tables.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/.ipt
+use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/1-1 Overland Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/1-2 Urban Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/1-3 Trade Route Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/1-4 Overseas Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/1-5 Underwater Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/01. Master Tables/1-6 Subterranean Encounters.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/02. Creature Encounter Tables/.ipt
+use: Generators/D&D/Mother of All Encounter Tables/02. Creature Encounter Tables/2-6.ipt
+use: Generators/D&D/Mother of All Encounter Tables/02. Creature Encounter Tables/2-7.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/.ipt
+use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/3-0 Weather and Terran Encounters.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/3-1.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/3-2.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/3-3.ipt
+use: Generators/D&D/Mother of All Encounter Tables/03. Weather and Terrain Encounters/3-4 Weather at Sea.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/04. Unusual Encounters/.ipt
+use: Generators/D&D/Mother of All Encounter Tables/04. Unusual Encounters/4-0 Misc Nonmonster Encounters.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/05. Traveler Encounters/.ipt
+use: Generators/D&D/Mother of All Encounter Tables/05. Traveler Encounters/5-1 Road and Trade Route Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/05. Traveler Encounters/5-2 Overseas Encounters.ipt
+use: Generators/D&D/Mother of All Encounter Tables/05. Traveler Encounters/5-3 Subterranean Trade Route Encounters.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/06. Miscellaneous Tables/.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/06. Miscellaneous Tables/6-1.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/06. Miscellaneous Tables/6-2.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/06. Miscellaneous Tables/6-3.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/06. Miscellaneous Tables/6-4.ipt
+;use: Generators/D&D/Mother of All Encounter Tables/06. Miscellaneous Tables/6-5.ipt                                                                                     
+
+
+
+
+prompt: Terrain {Desert|Plain|Forest|Hill|Mtn.|Marsh} [@Random Terrain]
+prompt: Climate {Arctic|Subarctic|Temperate|Subtropical|Tropical|Asea} [@Random Climate]
+
+table: 1-1 Overland Encounters
+01-20: <u><b>Creature Encounter</u></b>\n [](Table 2-1 to 2-7) Roll on the appropriate table for climate/terrai
+21-25: <u><b>Unusual Weather/Terrain</u></b>\n [@3-0 Main with {$prompt1},{$prompt2}]
+26-30: <u><b>Notable Occurrence</u></b>\n [@4-0 Main]
+31-35: <u><b>Travelers</u></b>\n [@5-1 Main]
+36-40: <u><b>Roll Twice</u></b>\n [#{2d20} 1-1 Overland Encounters]\n [#{2d20} 1-1 Overland Encounters]  
+41-100: NO ENCOUNTER
+endtable:
+

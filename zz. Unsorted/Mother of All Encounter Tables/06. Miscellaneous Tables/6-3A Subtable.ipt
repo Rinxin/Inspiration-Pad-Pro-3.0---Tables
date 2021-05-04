@@ -1,0 +1,54 @@
+; 6-3A Subtable.ipt
+; created 12/11/2018 5:05:14 PM
+
+prompt: Travel Type {Land|Sea|Subterranean} Land
+
+Table: Main
+[@6-3A Subtable_{$prompt1}]
+EndTable:
+
+
+Table: 6-3A Subtable_Land
+01: Atomie   ToH
+02: Blood Sprite   CC2
+03-14: Centaur   MM
+15-21: Dwarf   MM
+22-28: Elf   MM
+29: Giant, Cloud   MM
+30: Giant, Fire   MM
+31: Giant, Frost   MM
+32-39: Giant, Hill   MM
+40: Giant, Sand   ToH
+41: Giant, Stone   MM
+42: Giant, Storm   MM
+43: Giant, Wood   ToH
+44-56: Gnoll   MM
+57-64: Gnoll, Flind   ToH
+65-71: Gnome   MM
+72-78: Goblin   MM
+79: Goblin, Spider-eye   CC1
+80: Grippli   ToH
+81-87: Half-elf   MM
+88-94: Halfling   MM
+95-100: Half-orc   MM
+EndTable:
+
+Table: 6-3A Subtable_Sea
+01-20: Aboleth    MM
+21-00: Elf    MM
+EndTable:
+
+Table: 6-3A Subtable_Subterranean
+01: Aboleth   MM
+02: Dark Creeper   ToH
+03: Dark Stalker   ToH
+04-18: Dwarf   MM
+19: Elf   MM
+20-33: Gnoll   MM
+34-55: Gnoll, Flind   ToH
+56-70: Gnome   MM
+71-85: Goblin   MM
+86: Half-elf   MM
+87: Halfling   MM
+88-100: Half-orc   MM
+EndTable:

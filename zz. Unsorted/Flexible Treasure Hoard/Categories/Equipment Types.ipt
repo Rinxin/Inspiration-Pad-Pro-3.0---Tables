@@ -1,0 +1,99 @@
+; Equipment Types.ipt
+; created 3/26/2019 8:17:39 PM
+
+Table: Armor
+[@Light Armor]
+[@Medium Armor]
+[@Heavy Armor]
+[@Shield]
+EndTable:
+
+Table: Light Armor
+Padded Armor ()
+Leather Armor ()
+Studded Leather Armor ()
+endtable:
+
+Table: Medium Armor
+Hide Armor ()
+Chain Shirt ()
+Scale Mail ()
+Breastplate ()
+Half Plate ()
+endtable:
+
+Table: Heavy Armor
+Ring Mail ()
+Chain Mail ()
+Splint ()
+Plate ()
+endtable:
+
+Table: Shield
+Shield ()
+Tower Shield ()
+endtable:
+
+
+Table: Weapons
+[@Simple Melee Weapons]
+[@Simple Ranged Weapons]
+[@Martial Melee Weapons]
+[@Martial Ranged Weapons]
+endtable:
+
+Table: Simple Melee Weapons
+Club
+Dagger
+Greatclub
+Handaxe
+Javelin
+Light Hammer
+Mace
+Quarterstaff
+Sickle
+Spear
+endtable:
+
+Table: Simple Ranged Weapons
+Crossbow, Light
+Dart
+Shortbow
+Sling
+endtable:
+
+Table: Martial Melee Weapons
+Battleaxe
+Flail
+Glaive
+Greataxe
+Greatsword
+Halberd
+Lance
+Longsword
+Maul
+Morningstar
+Pike
+Rapier
+Scimitar
+Shortsword
+Trident
+War Pick
+Warhammer
+Whip
+endtable:
+
+Table: Martial Ranged Weapons
+Blowgun
+Crossbow, Hand
+Crossbow, Heavy
+Longbow
+Net
+endtable:
+
+Table: Exotic Weapons
+endtable:
+
+
+Table: Adventuring Gear
+endtable:

@@ -1,0 +1,119 @@
+; Category M.ipt
+; created 12/23/2018 10:40:25 AM
+
+#Legendary - Artifacts
+
+Table: Category M 
+Apparatus of Kwalish
+Armor +3
+Armor of Invulnerability
+Azureedge
+Blackstaff
+Belt of Giant Strength (Cloud Giant)
+Belt of Giatn Strenght (Strom Giant)
+Cloak of Invisibility
+Crystal Ball (Legendary)
+Cubic Gate
+Deck of Many Things
+Defender
+Dragonstaff of Ahghairon
+Efreeti Chain
+Hammer of Thunderbolts
+Holy Avenger
+Horn of Valhalla (iron)
+Instrument of the Bards (Ollamh Harp)
+Ioun Stone (Greater Absorption)
+Ioun Stone (Mastery)
+Ioun Stone (Regeneration)
+Iron Flask
+Luck Blade
+Plate Armor of Etherealness
+Ring of Djinni Summoning
+Ring of Elemental Command
+Ring of Invisibility
+Ring of Spell turning
+Ring of Three Wishes
+Robe of the Archmagi
+Rod of Lordly Might
+Rod of Resurrection
+Scarab of Protection
+Sphere of Annihilation
+Staff of the Magi
+Sword of Answering
+Talisman of Pure Good
+Talisman of the Sphere
+Talisman of Ultimate Evil
+The Illuminated Blade
+The Wayfinder
+Thistlewept
+Tome of the Stilled Tongue
+Vorpal Sword
+Well of Many Worlds
+Well of Souls
+[@Artifact Chance]
+Endtable:
+
+Table: Artifact Chance
+01-99: [@Category M]
+100: [@Artifact]
+EndTable:
+
+Table: Artifact
+Aendrim, Crown of
+Aendrim, Shield of
+Aendrim, Sword of
+Arcturus - Sword of the Stars
+Armor of St. Gaed the Confessor
+Armor of the Feywild
+Axe of the Dwarvish Lords
+Bad Omen
+Book of Exalted Deeds
+Book of Vile Darkness
+Canopus - The Sword of Truth
+Cloak of the Elemental
+Codex Dryadalis
+Codex Ignis
+Codex Incabulum
+Codex Miror
+Codex Mortis
+Codex Multiversalis
+Deneb - The Sword of Dreams
+Divine Axe - Rhitta
+Draakhorn
+Eye of Vecna
+Guarded Fate Walkers
+Hand of Vecna
+Holy Rod - Courechouse
+Karn the Bonebreaker
+Monk Title - Master of Mountains
+Monk Title - Master of Ravens
+Monk Title - Master of Souls
+Morning Star - Aldan
+Mox Emerald
+Mox Jet
+Mox Pearl
+Mox Ruby
+Mox Sapphire
+Narada - Sword of Darkness
+Orb of Dragonkind
+Orion - The Master Sword
+Plate of the Dawnmartyr
+Rezur of the Mind
+Rigel - The Sword of Fate
+Ring of Winter
+Scorpius - The Sword of Lies
+Spirit Spear - Chastiefol
+Staff of the Forgotten One
+Stone of Golorr
+Sword of Kas
+The Chronos Codex
+The Codex Automata
+The Codex Terragnosis
+The Codex Umbra
+The Demon Sword - Lostvayne
+Twin Bow - Herritt
+Uriel - The Sword of the Dawn
+Wand of Orcus
+War Hammer - Gideon
+Wyrmskull Throne
+EndTable:

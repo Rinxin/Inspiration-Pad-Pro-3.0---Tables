@@ -1,0 +1,35 @@
+; 6-4C Subtable.ipt
+; created 12/10/2018 10:32:18 PM
+
+use: Generators\D&D\Mother of All Encounter Tables\06. Miscellaneous Tables\6-4D Subtable Unique Creatures.ipt
+
+Table: 6-4C Subtable
+01-04: {1d4}x CR14_Celestial
+05-08: {1d4}x CR12_Celestial     
+09-12: {1d4}x CR10_Celestial
+13-16: CR16_Celestial
+17-19: CR19_Celestial
+20-23: {1d4}x CR14_Celestial
+24-27: {1d4}x CR13_Fiend
+28-31: CR13_Fiend
+32-34: {2d1}x CR18_Fiend
+35-38: {1d4}x CR16_Fiend
+39-41: CR18_Fiend
+42-45: {1d39+9}x CR2_Fiend
+46-49: CR17_Fiend
+50-53: CR16_Fiend
+54-57: CR10_Fiend
+58-61: CR13_Fiend
+62-64: CR18_Fiend
+65-68: CR16_Fiend
+69-71: {2d2}x CR9_Fiend
+72-75: {1d4}x Formian, Mymarch
+76-78: Formian, Queen
+79-82: Golem, Blood
+83-85: Golem, Ice
+86-89: Golem, Iron
+90-92: Golem, Tallow
+93-96: Golem, Wood
+97-99: Obsidian Minotaur
+100: [@6-4D Subtable Unique Creatures]
+EndTable:

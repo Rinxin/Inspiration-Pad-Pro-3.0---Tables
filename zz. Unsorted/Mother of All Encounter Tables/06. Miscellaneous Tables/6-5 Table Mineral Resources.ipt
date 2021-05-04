@@ -1,0 +1,24 @@
+; 6-5 Table Mineral Resources.ipt
+; created 12/10/2018 10:04:14 PM
+
+Table: Table 6-5 Table Mineral Resources
+01: Adamantite
+02-13: Copper
+14-19: Gold
+20-33: Iron
+34-46: Lead
+47: Mithril
+48: [@Other mineral]
+49: Platinum
+50-64: Silver
+65-77: Tin
+78-90: Gems (10gp base value)
+91-94: Gems (50gp base value)
+95-97: Gems (100gp base value)
+98-99: Gems (500gp base value)
+100: Gems (1,000gp base value)
+EndTable:
+
+Table: Other mineral
+Other minerals
+EndTable:

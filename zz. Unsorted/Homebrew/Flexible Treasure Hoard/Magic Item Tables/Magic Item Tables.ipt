@@ -1,0 +1,71 @@
+; Magic Item Tables.ipt
+; created 3/6/2019 9:51:50 PM
+
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category A.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category B.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category C.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category D.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category E.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category F.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category G.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category H.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category I.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category J.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category K.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category L.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Categories\Category M.ipt
+
+
+Table: Magic Item Table A
+01-50:	Potion of healing
+51-70:	[@Category A]
+71-80:	[@Category B]
+81-98:	[@Category F]
+99-100:	[@Category G]
+EndTable:
+
+Table: Magic Item Table B
+01-15:	Potion of greater healing
+16-80:	[@Category B]
+81-100:	[@Category G]
+EndTable:
+
+Table: Magic Item Table C
+01-15:	Potion of superior healing
+16-80:	[@Category C]
+81-85:	[@Category G]
+86-100:	[@Category H]
+EndTable:
+
+Table: Magic Item Table D
+01-20:	Potion of Supreme healing
+21-90:	[@Category D]
+91-93:	[@Category H]
+94-100:	[@Category I]
+EndTable:
+
+Table: Magic Item Table E
+01-50:	[@Category D]
+51-100:	[@Category E]
+EndTable:
+
+Table: Magic Item Table F
+01-100:	[@Category J]
+EndTable:
+
+Table: Magic Item Table G
+01-05:	[@Category J]
+06-100:	[@Category K]
+EndTable:
+
+Table: Magic Item Table H
+01-03:	[@Category J]
+04-10:	[@Category K]
+11-100:	[@Category L]
+EndTable:
+
+Table: Magic Item Table I
+01-08:	[@Category K]
+09-15:	[@Category L]
+16-100:	[@Category M]
+EndTable: 

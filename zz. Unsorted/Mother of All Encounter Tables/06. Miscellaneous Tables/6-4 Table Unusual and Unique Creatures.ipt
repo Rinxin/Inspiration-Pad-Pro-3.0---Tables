@@ -1,0 +1,17 @@
+; 6-4 Table Unusual and Unique Creatures.ipt
+; created 12/11/2018 4:40:13 PM
+
+use: Generators\D&D\Mother of All Encounter Tables\06. Miscellaneous Tables\6-4A Subtable.ipt
+use: Generators\D&D\Mother of All Encounter Tables\06. Miscellaneous Tables\6-4B Subtable.ipt
+use: Generators\D&D\Mother of All Encounter Tables\06. Miscellaneous Tables\6-4C Subtable.ipt
+
+Table: Main
+<b><u>Unusual & Unique Creatures</u></b>\n [@6-4 Table Unusual and Unique Creatures]
+EndTable:
+
+
+Table: 6-4 Table Unusual and Unique Creatures
+01-80: [@6-4A Subtable] 
+81-96: [@6-4B Subtable] 
+97-00: [@6-4C Subtable] 
+EndTable:

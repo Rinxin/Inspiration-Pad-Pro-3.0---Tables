@@ -1,0 +1,15 @@
+; Damage Type.ipt
+; created 12/23/2018 2:08:22 PM
+
+Table: Damage Type
+Acid
+Cold
+Fire
+Force
+Lightning
+Necrotic
+Poison
+Psychic
+Radiant
+Thunder
+EndTable:

@@ -1,0 +1,21 @@
+; Category C.ipt
+; created 3/6/2019 10:51:57 PM
+
+use: Common\srd\MageSpells.ipt
+
+Table: Category C
+| Ammunition +2  |
+| Elixir of Health|
+| Oil of Etherealness|
+| Potion of Clairvoyance|
+| Potion of Diminution|
+| Potion of Gaseous Form|
+| Potion of Fire Giant Strength|
+| Potion of Frost Giant Strength|
+| Potion of Stone Giant Strength|
+| Potion of Heroism|
+| Potion of Invulnerability|
+| Potion of Mind Reading|
+| Spell scroll (4th level, [@SpellsLevel4])|
+| Spell scroll (5th level, [@SpellsLevel5])|
+Endtable:

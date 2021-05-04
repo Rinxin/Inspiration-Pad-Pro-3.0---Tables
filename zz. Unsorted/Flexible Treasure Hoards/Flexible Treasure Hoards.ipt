@@ -1,0 +1,145 @@
+; Flexible Treasure Hoards.ipt
+; created 12/23/2018 9:27:33 AM
+
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Magic Item Tables.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Damage Type.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Weapons.ipt
+use: Generators\D&D\Flexible Treasure Hoards\Resources\Armor.ipt
+
+prompt: Treasure {Individual|Hoard}Hoard
+prompt: CR {0-4|5-10|11-16|17+}0-4
+
+;Table: Main
+;Type: Lookup
+;Indiviual: test
+;Hoard: [@Hoard Treasure with {$prompt2]
+;EndTable:
+
+Table: Hoard Treasure
+Coins:<b><u>Coins</u></b>\n [#{$prompt2} Challenge Coin >> implode]\n <b><u>Treasure</u></b>\n [@Challenge {$prompt2}>> implode]
+EndTable:
+
+Table: Challenge Coin
+type:dictionary
+0-4:{6d6*10} cp, {3d6*100} sp, {2d6*10} gp
+5-10:{2d6*100} gp, {2d6*1000} sp, {6d6*100} gp, {3d6*10} pp 
+11-16:{4d6*1000} gp, {5d6*100} pp
+17+:{12d6*1000} gp, {8d6*1000} pp
+
+EndTAble:
+
+Table: Challenge 0-4
+01–06:	\z
+07–16:	{2d6}x 10 gp gems
+17–26:	{2d4}x 25 gp art objects
+27–36:	{2d6}x 50 gp gems
+37–44:	{2d6}x 10 gp gems\n	[@{1d6} Magic Item Table A >> implode]
+45–52:	{2d4}x 25 gp art objects\n	[@{1d6} Magic Item Table A >> implode]
+53–60:	{2d6}x 50 gp gems\n	[@{1d6} Magic Item Table A >> implode]
+61–65:	{2d6}x 10 gp gems\n	@{1d4} Magic Item Table B >> implode]
+66–70:	{2d4}x 25 gp art objects\n	[@{1d4} Magic Item Table B >> implode]
+71–75:	{2d6}x 50 gp gems\n	[@{1d4} Magic Item Table B >> implode]
+76–78:	{2d6}x 10 gp gems\n	[@{1d4} Magic Item Table C >> implode]
+79–80:	{2d4}x 25 gp art objects\n	[@{1d4} Magic Item Table C >> implode]
+81–85:	{2d6}x 50 gp gems\n	[@{1d4} Magic Item Table C >> implode]
+86–92:	{2d4}x 25 gp art objects\n	[@{1d4} Magic Item Table F >> implode]
+93–97:	{2d6}x 50 gp gems\n	[@{1d4} Magic Item Table F >> implode]
+98–99:	{2d4}x 25 gp art objects\n	[@Magic Item Table G >> implode]
+100:	{2d6}x 50 gp gems\n	[@Magic Item Table G >> implode]
+EndTable:
+
+Table: Challenge 5-10
+01–04:	\z
+05–10:	{2d4}x 25 gp art objects
+11–16:	{3d6}x 50 gp gems
+17–22:	{3d6}x 100 gp gems
+23–28:	{2d4}x 250 gp art objects
+29–32:	{2d4}x 25 gp art objects\n	[@{1d6} Magic Item Table A >> implode]
+33–36:	{3d6}x 50 gp gems\n	[@{1d6} Magic Item Table A >> implode]
+37–40:	{3d6}x 100 gp gems\n	[@{1d6} Magic Item Table A >> implode]
+41–44:	{2d4}x 250 gp art objects\n	[@{1d6} Magic Item Table A >> implode]
+45–49:	{2d4}x 25 gp art objects\n	[@{1d4} Magic Item Table B >> implode]
+50–54:	{3d6}x 50 gp gems\n	[@{1d4} Magic Item Table B >> implode]
+55–59:	{3d6}x 100 gp gems\n	[@{1d4} Magic Item Table B >> implode]
+60–63:	{2d4}x 250 gp art objects\n	[@{1d4} Magic Item Table B >> implode]
+64–66:	{2d4}x 25 gp art objects\n	[@{1d4} Magic Item Table C >> implode]
+67–69:	{3d6}x 50 gp gems\n	[@{1d4} Magic Item Table C >> implode]
+70–72:	{3d6}x 100 gp gems\n	[@{1d4} Magic Item Table C >> implode]
+73–74:	{2d4}x 250 gp art objects\n	[@{1d4} Magic Item Table C >> implode]
+75–76:	{2d4}x 25 gp art objects\n	[@Magic Item Table D >> implode]
+77–78:	{3d6}x 50 gp gems\n	[@Magic Item Table D >> implode]
+79:	{3d6}x 100 gp gems\n	[@Magic Item Table D >> implode]
+80:	{2d4}x 250 gp art objects\n	[@Magic Item Table D >> implode]
+81–84:	{2d4}x 25 gp art objects\n	[@{1d4} Magic Item Table F >> implode]
+85–88:	{3d6}x 50 gp gems\n	[@{1d4} Magic Item Table F >> implode]
+89–91:	{3d6}x 100 gp gems\n	[@{1d4} Magic Item Table F >> implode]
+92–94:	{2d4}x 250 gp art objects\n	[@{1d4} Magic Item Table F >> implode]
+95–96:	{3d6}x 100 gp gems\n	[@{1d4} Magic Item Table G >> implode]
+97–98:	{2d4}x 250 gp art objects\n	[@{1d4} Magic Item Table G >> implode]
+99:	{3d6}x 100 gp gems\n	[@Magic Item Table H >> implode]
+100:	{2d4}x 250 gp art objects\n	[@Magic Item Table H >> implode]
+EndTable:
+
+Table: Challenge 11-16
+01–03:	\z
+04–06:	{2d4}x 250 gp art objects
+07–09:	{2d4}x 750 gp art objects
+10–12:	{3d6}x 500 gp gems
+13–15:	{3d6}x 1,000 gp gems
+16–19:	{2d4}x 250 gp art objects\n 	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+20–23:	{2d4}x 750 gp art objects\n 	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+24–26:	{3d6}x 500 gp gems\n 	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+27–29:	{3d6}x 1,000 gp gems\n 	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+30–35:	{2d4}x 250 gp art objects\n 	[@{1d6} Magic Item Table C >> implode]
+36–40:	{2d4}x 750 gp art objects\n	[@{1d6} Magic Item Table C >> implode]
+41–45:	{3d6}x 500 gp gems\n	[@{1d6} Magic Item Table C >> implode]
+46–50:	{3d6}x 1,000 gp gems\n	[@{1d6} Magic Item Table C >> implode]
+51–54:	{2d4}x 250 gp art objects\n	[@{1d4} Magic Item Table D >> implode]
+55–58:	{2d4}x 750 gp art objects\n	[@{1d4} Magic Item Table D >> implode]
+59–62:	{3d6}x 500 gp gems\n	[@{1d4} Magic Item Table D >> implode]
+63–66:	{3d6}x 1,000 gp gems,	[@{1d4} Magic Item Table D >> implode]
+67–68:	{2d4}x 250 gp art objects\n	[@Magic Item Table E >> implode]
+69–70:	{2d4}x 750 gp art objects\n	[@Magic Item Table E >> implode]
+71–72:	{3d6}x 500 gp gems\n	[@Magic Item Table E >> implode]
+73–74:	{3d6}x 1,000 gp gems,	[@Magic Item Table E >> implode]
+75–76:	{2d4}x 250 gp art objects\n	[@Magic Item Table F >> implode] \n [@{1d4} Magic Item Table G >> implode]
+77–78:	{2d4}x 750 gp art objects\n	[@Magic Item Table F >> implode] \n [@{1d4} Magic Item Table G >> implode]
+79–80:	{3d6}x 500 gp gems\n	[@Magic Item Table F >> implode] \n [@{1d4} Magic Item Table G >> implode]
+81–82:	{3d6}x 1,000 gp gems\n	[@Magic Item Table F >> implode] \n [@{1d4} Magic Item Table G >> implode]
+83–85:	{2d4}x 250 gp art objects\n	[@{1d4} Magic Item Table H >> implode]
+86–88:	{2d4}x 750 gp art objects\n	[@{1d4} Magic Item Table H >> implode]
+89–90:	{3d6}x 500 gp gems\n	[@{1d4} Magic Item Table H >> implode]
+91–92:	{3d6}x 1,000 gp gems\n	[@{1d4} Magic Item Table H >> implode]
+93–94:	{2d4}x 250 gp art objects\n	[@Magic Item Table I >> implode]
+95–96:	{2d4}x 750 gp art objects\n	[@Magic Item Table I >> implode]
+97–98:	{3d6}x 500 gp gems\n	[@Magic Item Table I >> implode]
+99–100:	{3d6}x 1,000 gp gems\n	[@Magic Item Table I >> implode]
+EndTable:
+
+Table: Challenge 17+
+01–02:	\z
+03–05:	{3d6}x 1,000 gp gems\n	[@{1d8} Magic Item Table C >> implode]
+06–08:	{1d10}x 2,500 gp art objects\n	[@{1d8} Magic Item Table C >> implode]
+09–11:	{1d4}x 7,500 gp art objects\n	[@{1d8} Magic Item Table C >> implode]
+12–14:	{1d8}x 5,000 gp gems\n	[@{1d8} Magic Item Table C >> implode]
+15–22:	{3d6}x 1,000 gp gems\n	[@{1d6} Magic Item Table D >> implode]
+23–30:	{1d10}x 2,500 gp art objects\n	[@{1d6} Magic Item Table D >> implode]
+31–38:	{1d4}x 7,500 gp art objects\n	[@{1d6} Magic Item Table D >> implode]
+39–46:	{1d8}x 5,000 gp gems\n	[@{1d6} Magic Item Table D >> implode]
+47–52:	{3d6}x 1,000 gp gems\n	[@{1d6} Magic Item Table E >> implode]
+53–58:	{1d10}x 2,500 gp art objects\n	[@{1d6} Magic Item Table E >> implode]
+59–63:	{1d4}x 7,500 gp art objects\n	[@{1d6} Magic Item Table E >> implode]
+64–68:	{1d8}x 5,000 gp gems\n	[@{1d6} Magic Item Table E >> implode]
+69:	{3d6}x 1,000 gp gems\n	[@{1d4} Magic Item Table G >> implode]
+70:	{1d10}x 2,500 gp art objects\n	[@{1d4} Magic Item Table G >> implode]
+71:	{1d4}x 7,500 gp art objects\n	[@{1d4} Magic Item Table G >> implode]
+72:	{1d8}x 5,000 gp gems\n	[@{1d4} Magic Item Table G >> implode]
+73–74:	{3d6}x 1,000 gp gems\n	[@{1d4} Magic Item Table H >> implode]
+75–76:	{1d10}x 2,500 gp art objects\n	[@{1d4} Magic Item Table H >> implode]
+77–78:	{1d4}x 7,500 gp art objects\n	[@{1d4} Magic Item Table H >> implode]
+79–80:	{1d8}x 5,000 gp gems\n	[@{1d4} Magic Item Table H >> implode]
+81–85:	{3d6}x 1,000 gp gems\n	[@{1d4} Magic Item Table I >> implode]
+86–90:	{1d10}x 2,500 gp art objects\n	[@{1d4} Magic Item Table I >> implode]
+91–95:	{1d4}x 7,500 gp art objects\n	[@{1d4} Magic Item Table I >> implode]
+96–100:	{1d8}x 5,000 gp gems\n	[@{1d4} Magic Item Table I >> implode]
+EndTable:

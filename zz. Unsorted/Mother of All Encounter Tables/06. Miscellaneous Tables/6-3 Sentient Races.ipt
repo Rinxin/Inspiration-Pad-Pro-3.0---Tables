@@ -1,0 +1,27 @@
+; 6-3 Sentient Races.ipt
+; created 12/11/2018 5:15:50 PM
+
+use: Generators\D&D\Mother of All Encounter Tables\06. Miscellaneous Tables\6-3A Subtable.ipt
+use: Generators\D&D\Mother of All Encounter Tables\06. Miscellaneous Tables\6-3B Subtable.ipt
+
+prompt: Travel Type {Land|Sea|Subterranean} Land
+
+Table: Main
+[@6-3 Sentient Races_{$prompt1}]
+EndTable:
+
+Table: 6-3 Sentient Races_Land
+01-61: [@6-3A Subtable]  
+62-100: [@6-3B Subtable]  
+EndTable:
+
+Table: 6-3 Sentient Races_Sea
+01-19: [@6-3A Subtable]   
+20-100: [@6-3B Subtable]   
+EndTable:
+
+Table: 6-3 Sentient Races_Subterranean
+01-32: [@6-3A Subtable]  
+33-100: [@6-3B Subtable]  
+EndTable:
+

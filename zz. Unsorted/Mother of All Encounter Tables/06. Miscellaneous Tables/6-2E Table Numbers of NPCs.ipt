@@ -1,0 +1,24 @@
+; 6-2E Table Numbers of NPCs.ipt
+; created 12/11/2018 5:33:15 PM
+
+prompt: Transport Type {Cart|Sled|Wagon|Riverboat|Barge|Merch. ship, S| Merch. ship, M| Merch. ship, L} Wagon
+
+Maxreps: 1
+
+Table: Main
+[#{$prompt1} 6-2E Table Numbers of NPCs]
+EndTable:
+
+
+Table: 6-2E Table Numbers of NPCs
+Type: dictionary
+Cart: <b>Cart</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 1/wagon 
+Sled: <b>Sled</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 1/sled 
+Wagon: <b>Wagon</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 1/wagon\n <u>Guards:</u> 1/wagon\n <u>Lieutenants:</u> 1 per 3 wagons
+Riverboat: <b>Riverboat</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 2-4/boat\n <u>Guards:</u> 1/boat\n <u>Lieutenants:</u> 1 per 3 boats
+Barge: <b>Barge</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 4-8/barge\n <u>Guards:</u> 2-4/barge\n <u>Lieutenants:</u> 1 per 2 barges
+Merch. ship, S: <b>Merch. ship, S</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 20 sailors\n <u>Guards:</u> 2 marines\n <u>Lieutenants:</u> 1/ship
+Merch. ship, M: <b>Merch. ship, M</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 30 sailors\n <u>Guards:</u> 4 marines\n <u>Lieutenants:</u> 2/ship
+Merch. ship, L: <b>Merch. ship, L</b>\n <u>Leader:</u> 1 overall\n <u>Laborers:</u> 90 sailors\n <u>Guards:</u> 10 marines\n <u>Lieutenants:</u> 3/ship
+EndTable:
+

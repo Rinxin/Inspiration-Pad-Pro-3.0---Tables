@@ -1,0 +1,102 @@
+; Subtable 4-1.ipt
+; created 1/3/2019 1:25:37 PM
+
+prompt: Travel Method {Overland|Urban|Trade Route|Overseas|Underwater|Subterranean} [@Random Travel]
+
+table: main
+[@4-1_{$prompt1}]
+endtable:
+
+
+table: 4-1_Overland
+01-04: A creature from another climate/terrain is encountered, possibly migrating, lost, or on a pilgrimage. Roll a wandering monster from a different climate/terrain table than the one the characters are in.
+05-14: A distant crashing or loud noise is heard, as of a great beast moving about in the distance. It is the DM’s call what is causing the noise.
+02-14: A powerful individual has gotten drunk, smoked bad pipeweed, or is otherwise disturbed and running amok. Treat as a random NPC rolled on table 6-1, with a level no lower than that of the highest-level PC. He will attack anyone who gets in his way, and will otherwise lash out randomly.
+15: A small shack or cave mouth opens into a luxuriously-appointed suite of rooms, which is actually a permanent Leo’s Secure Shelter. Immediately roll for another random encounter to see if it is tenanted.
+16-37: Abandoned lair: The old lair, den, or nest of a particular creature (roll on the random monster table appropriate for the climate/terrain). A Wilderness Lore check (DC 15) identifies the creature that once lived there.
+38: Airless zone: This area is completely barren and devoid of life, for the very good reason that it is a pocket of vacuum. Those who enter immediately begin to suffocate, and suffer 1d4 Con damage each round as their bodily fluids boil away.
+39-42: An area is contaminated with dangerous spores, poisonous gas, etc. Roll 1d100 to determine effect: 01-10 = as ungol dust; 11-20 as burnt othur fumes; 21-40 = as insanity mist; 41-50 = as the cloudkill spell; 51-60 = as id moss (but inhaled); 61-70 = hallucinogenic (acts as a confusion spell, Will save DC 12); 71-80 = euphoria/extreme pleasure (Will save DC 14+1/round of exposure to do anything other than bliss out); 81-90 = coma (Will save DC 15 or fall into a coma, lasting as long as in the area plus 1-4 hours); 91-00 = yellow mold spores.
+43: An army is on the march. They may be moving out as relief troops for a distant outpost, or going to war. Roll 1d100 to determine type: 01-60 = common footsoldiers (1d10 x 50), 61-70 = light cavalry (2d10 x 20), 71-80 = scouts or skirmishers (1d10 x 10), 81-85 = heavy infantry (1d10 x 50), 86-90 = berserkers (2d4 x 10), 91-95 = heavy cavalry (2d100), 96-00 = spellcasting troops (2d20). If at sea their ship will be escorted by at least two small warships. Roll or choose the dominant race from table 6-3.
+44-47: An old shrine to a deity or animal spirit is chanced upon, only 5% likely still in use. Roll 1d100: 01-40 = common deity; 41-60 = nature spirit or force; 61-70 = demon lord/archdevil; 71-00 = cannot be determined. A Knowledge (religion) check(DC 15) identifies the being worshipped if that is possible.
+48-70: Animal snare: Set up by trappers or local intelligent creatures for food, fur, etc. This could be an ankle snare, bear trap, net trap, concealed pit, etc. There is a 10% chance per hour that the creature that set the trap comes to check on it. Spot check (DC 20) avoids the trap.
+71: Antimagic field: An area where magic does not function is encountered, with an overall size determined by the DM. This could be a natural occurrence or the result of an ancient battle. Feel free to roll another wandering encounter right away. 
+72: Assassins have targeted a PC or someone nearby. There are 1d3, and they should be a combined EL equal to the target’s level plus two.
+73: Avatar or sign from a particular deity. 
+74-83: Battle site: Vultures, crows, or other carrion animals are spotted nearby, feasting on the remains of some creatures. Roll or pick two creature encounters from the wandering monster table of the appropriate climate/terrain to determine which creatures fought. Only 5% chance the bodies were unlooted.
+84-87: Burial site: A graveyard, burial mound, mausoleum, or other funerary location is encountered. 15% likely to still be used, 50% likely to be undead-infested. Many such sites are concealed, especially if long unused, and require a Spot check (DC 20) to notice.
+88-97: Caves: A series of natural caves or caverns are discovered.  The size of this cave complex is left for the DM to determine.
+98: Climate variance: An area is encountered, possibly the size of a small valley or island, with a climate different than the normal one, such as a tropical ungle infested with dinosaurs deep in alpine crags, or a bone-drydesert in the center of a murky swamp.
+99: Continuous flame on some object is found, still burning merrily after uncounted hours, days, or years of abandonment.
+100: Cursed item: The group comes across an abandoned campsite, and on searching it (Spot DC 20 or Search DC 10) they come across a valuable-looking item that is actually cursed. The DM can roll a cursed item from the DMG or determine one for himself; it should not appear (or identify) as cursed, however.
+endtable:
+
+table: 4-1_Urban
+01: A creature from another climate/terrain is encountered, possibly migrating, lost, or on a pilgrimage. Roll a wandering monster from a different climate/terrain table than the one the characters are in.
+02-14: A powerful individual has gotten drunk, smoked bad pipeweed, or is otherwise disturbed and running amok. Treat as a random NPC rolled on table 6-1, with a level no lower than that of the highest-level PC. He will attack anyone who gets in his way, and will otherwise lash out randomly.
+15-25: A press gang looking for slaves or “recruits” for the military sees the PCs as possible candidates. These should be War1 or Rog1 NPCs, led by a second level NPC; there should be at least two per PC, or they won’t attempt anything.
+26: An army is on the march. They may be moving out as relief troops for a distant outpost, or going to war. Roll 1d100 to determine type: 01-60 = common footsoldiers (1d10 x 50), 61-70 = light cavalry (2d10 x 20), 71-80 = scouts or skirmishers (1d10 x 10), 81-85 = heavy infantry (1d10 x 50), 86-90 = berserkers (2d4 x 10), 91-95 = heavy cavalry (2d100), 96-00 = spellcasting troops (2d20). If at sea their ship will be escorted by at least two small warships. Roll or choose the dominant race from table 6-3.
+27: An old shrine to a deity or animal spirit is chanced upon, only 5% likely still in use. Roll 1d100: 01-40 = common deity; 41-60 = nature spirit or force; 61-70 = demon lord/archdevil; 71-00 = cannot be determined. A Knowledge (religion) check(DC 15) identifies the being worshipped if that is possible.
+28 : Assassins have targeted a PC or someone nearby. There are 1d3, and they should be a combined EL equal to the target’s level plus two.
+29 : Avatar or sign from a particular deity. 
+30-98: Burial site: A graveyard, burial mound, mausoleum, or other funerary location is encountered. 15% likely to still be used, 50% likely to be undead-infested. Many such sites are concealed, especially if long unused, and require a Spot check (DC 20) to notice.
+99: Continuous flame on some object is found, still burning merrily after uncounted hours, days, or years of abandonment.
+100: Cursed item: The group comes across an abandoned campsite, and on searching it (Spot DC 20 or Search DC 10) they come across a valuable-looking item that is actually cursed. The DM can roll a cursed item from the DMG or determine one for himself; it should not appear (or identify) as cursed, however.
+endtable:
+
+table: 4-1_Trade Route
+01-08: A creature from another climate/terrain is encountered, possibly migrating, lost, or on a pilgrimage. Roll a wandering monster from a different climate/terrain table than the one the characters are in.
+09-16: A distant crashing or loud noise is heard, as of a great beast moving about in the distance. It is the DM’s call what is causing the noise.
+17-18: A powerful individual has gotten drunk, smoked bad pipeweed, or is otherwise disturbed and running amok. Treat as a random NPC rolled on table 6-1, with a level no lower than that of the highest-level PC. He will attack anyone who gets in his way, and will otherwise lash out randomly.
+19-26: A press gang looking for slaves or “recruits” for the military sees the PCs as possible candidates. These should be War1 or Rog1 NPCs, led by a second level NPC; there should be at least two per PC, or they won’t attempt anything.
+27-28: A small shack or cave mouth opens into a luxuriously-appointed suite of rooms, which is actually a permanent Leo’s Secure Shelter. Immediately roll for another random encounter to see if it is tenanted.
+29-55: An army is on the march. They may be moving out as relief troops for a distant outpost, or going to war. Roll 1d100 to determine type: 01-60 = common footsoldiers (1d10 x 50), 61-70 = light cavalry (2d10 x 20), 71-80 = scouts or skirmishers (1d10 x 10), 81-85 = heavy infantry (1d10 x 50), 86-90 = berserkers (2d4 x 10), 91-95 = heavy cavalry (2d100), 96-00 = spellcasting troops (2d20). If at sea their ship will be escorted by at least two small warships. Roll or choose the dominant race from table 6-3.
+56-82: An old shrine to a deity or animal spirit is chanced upon, only 5% likely still in use. Roll 1d100: 01-40 = common deity; 41-60 = nature spirit or force; 61-70 = demon lord/archdevil; 71-00 = cannot be determined. A Knowledge (religion) check(DC 15) identifies the being worshipped if that is possible.
+83-84: Antimagic field: An area where magic does not function is encountered, with an overall size determined by the DM. This could be a natural occurrence or the result of an ancient battle. Feel free to roll another wandering encounter right away. 
+85-86: Assassins have targeted a PC or someone nearby. There are 1d3, and they should be a combined EL equal to the target’s level plus two.
+87-88: Avatar or sign from a particular deity. 
+89-96: Battle site: Vultures, crows, or other carrion animals are spotted nearby, feasting on the remains of some creatures. Roll or pick two creature encounters from the wandering monster table of the appropriate climate/terrain to determine which creatures fought. Only 5% chance the bodies were unlooted.
+97-98: Climate variance: An area is encountered, possibly the size of a small valley or island, with a climate different than the normal one, such as a tropical ungle infested with dinosaurs deep in alpine crags, or a bone-drydesert in the center of a murky swamp.
+99-100: Cursed item: The group comes across an abandoned campsite, and on searching it (Spot DC 20 or Search DC 10) they come across a valuable-looking item that is actually cursed. The DM can roll a cursed item from the DMG or determine one for himself; it should not appear (or identify) as cursed, however.
+endtable:
+
+table: 4-1_Overseas
+01-40: A creature from another climate/terrain is encountered, possibly migrating, lost, or on a pilgrimage. Roll a wandering monster from a different climate/terrain table than the one the characters are in.
+41-80: An army is on the march. They may be moving out as relief troops for a distant outpost, or going to war. Roll 1d100 to determine type: 01-60 = common footsoldiers (1d10 x 50), 61-70 = light cavalry (2d10 x 20), 71-80 = scouts or skirmishers (1d10 x 10), 81-85 = heavy infantry (1d10 x 50), 86-90 = berserkers (2d4 x 10), 91-95 = heavy cavalry (2d100), 96-00 = spellcasting troops (2d20). If at sea their ship will be escorted by at least two small warships. Roll or choose the dominant race from table 6-3.
+81-87: Antimagic field: An area where magic does not function is encountered, with an overall size determined by the DM. This could be a natural occurrence or the result of an ancient battle. Feel free to roll another wandering encounter right away. 
+88-93: Avatar or sign from a particular deity. 
+94-100: Climate variance: An area is encountered, possibly the size of a small valley or island, with a climate different than the normal one, such as a tropical ungle infested with dinosaurs deep in alpine crags, or a bone-drydesert in the center of a murky swamp.
+endtable:
+
+table: 4-1_Underwater
+01-08: A creature from another climate/terrain is encountered, possibly migrating, lost, or on a pilgrimage. Roll a wandering monster from a different climate/terrain table than the one the characters are in.
+09-53: Abandoned lair: The old lair, den, or nest of a particular creature (roll on the random monster table appropriate for the climate/terrain). A Wilderness Lore check (DC 15) identi?es the creature that once lived there.
+54-61: An area is contaminated with dangerous spores, poisonous gas, etc. Roll 1d100 to determine effect: 01-10 = as ungol dust; 11-20 as burnt othur fumes; 21-40 = as insanity mist; 41-50 = as the cloudkill spell; 51-60 = as id moss (but inhaled); 61-70 = hallucinogenic (acts as a confusion spell, Will save DC 12); 71-80 = euphoria/extreme pleasure (Will save DC 14+1/round of exposure to do anything other than bliss out); 81-90 = coma (Will save DC 15 or fall into a coma, lasting as long as in the area plus 1-4 hours); 91-00 = yellow mold spores.
+62: An army is on the march. They may be moving out as relief troops for a distant outpost, or going to war. Roll 1d100 to determine type: 01-60 = common footsoldiers (1d10 x 50), 61-70 = light cavalry (2d10 x 20), 71-80 = scouts or skirmishers (1d10 x 10), 81-85 = heavy infantry (1d10 x 50), 86-90 = berserkers (2d4 x 10), 91-95 = heavy cavalry (2d100), 96-00 = spellcasting troops (2d20). If at sea their ship will be escorted by at least two small warships. Roll or choose the dominant race from table 6-3.
+63: An old shrine to a deity or animal spirit is chanced upon, only 5% likely still in use. Roll 1d100: 01-40 = common deity; 41-60 = nature spirit or force; 61-70 = demon lord/archdevil; 71-00 = cannot be determined. A Knowledge (religion) check(DC 15) identifies the being worshipped if that is possible.
+64: Antimagic field: An area where magic does not function is encountered, with an overall size determined by the DM. This could be a natural occurrence or the result of an ancient battle. Feel free to roll another wandering encounter right away. 
+65: Avatar or sign from a particular deity. 
+66: Battle site: Vultures, crows, or other carrion animals are spotted nearby, feasting on the remains of some creatures. Roll or pick two creature encounters from the wandering monster table of the appropriate climate/terrain to determine which creatures fought. Only 5% chance the bodies were unlooted.
+67: Burial site: A graveyard, burial mound, mausoleum, or other funerary location is encountered. 15% likely to still be used, 50% likely to be undead-infested. Many such sites are concealed, especially if long unused, and require a Spot check (DC 20) to notice.
+68-98: Caves: A series of natural caves or caverns are discovered.  The size of this cave complex is left for the DM to determine.
+99: Climate variance: An area is encountered, possibly the size of a small valley or island, with a climate different than the normal one, such as a tropical ungle infested with dinosaurs deep in alpine crags, or a bone-drydesert in the center of a murky swamp.
+100: Continuous flame on some object is found, still burning merrily after uncounted hours, days, or years of abandonment.
+endtable:
+
+table: 4-1_Subterranean
+01-02: A creature from another climate/terrain is encountered, possibly migrating, lost, or on a pilgrimage. Roll a wandering monster from a different climate/terrain table than the one the characters are in.
+03-04: A distant crashing or loud noise is heard, as of a great beast moving about in the distance. It is the DM’s call what is causing the noise.
+05: A small shack or cave mouth opens into a luxuriously-appointed suite of rooms, which is actually a permanent Leo’s Secure Shelter. Immediately roll for another random encounter to see if it is tenanted.
+06-55: Abandoned lair: The old lair, den, or nest of a particular creature (roll on the random monster table appropriate for the climate/terrain). A Wilderness Lore check (DC 15) identifies the creature that once lived there.
+56: Airless zone: This area is completely barren and devoid of life, for the very good reason that it is a pocket of vacuum. Those who enter immediately begin to suffocate, and suffer 1d4 Con damage each round as their bodily fluids boil away.
+57-71: An area is contaminated with dangerous spores, poisonous gas, etc. Roll 1d100 to determine effect: 01-10 = as ungol dust; 11-20 as burnt othur fumes; 21-40 = as insanity mist; 41-50 = as the cloudkill spell; 51-60 = as id moss (but inhaled); 61-70 = hallucinogenic (acts as a confusion spell, Will save DC 12); 71-80 = euphoria/extreme pleasure (Will save DC 14+1/round of exposure to do anything other than bliss out); 81-90 = coma (Will save DC 15 or fall into a coma, lasting as long as in the area plus 1-4 hours); 91-00 = yellow mold spores.
+72: An army is on the march. They may be moving out as relief troops for a distant outpost, or going to war. Roll 1d100 to determine type: 01-60 = common footsoldiers (1d10 x 50), 61-70 = light cavalry (2d10 x 20), 71-80 = scouts or skirmishers (1d10 x 10), 81-85 = heavy infantry (1d10 x 50), 86-90 = berserkers (2d4 x 10), 91-95 = heavy cavalry (2d100), 96-00 = spellcasting troops (2d20). If at sea their ship will be escorted by at least two small warships. Roll or choose the dominant race from table 6-3.
+73-74: An old shrine to a deity or animal spirit is chanced upon, only 5% likely still in use. Roll 1d100: 01-40 = common deity; 41-60 = nature spirit or force; 61-70 = demon lord/archdevil; 71-00 = cannot be determined. A Knowledge (religion) check(DC 15) identifies the being worshipped if that is possible.
+75-89: Animal snare: Set up by trappers or local intelligent creatures for food, fur, etc. This could be an ankle snare, bear trap, net trap, concealed pit, etc. There is a 10% chance per hour that the creature that set the trap comes to check on it. Spot check (DC 20) avoids the trap.
+90-91: Antimagic Field: An area where magic does not function is encountered, with an overall size determined by the DM. This could be a natural occurrence or the result of an ancient battle. Feel free to roll another wandering encounter right away. 
+92: Avatar or sign from a particular deity. 
+74-83 - 89-96 - 66 93-94: Battle site: Vultures, crows, or other carrion animals are spotted nearby, feasting on the remains of some creatures. Roll or pick two creature encounters from the wandering monster table of the appropriate climate/terrain to determine which creatures fought. Only 5% chance the bodies were unlooted.
+95-96: Burial site: A graveyard, burial mound, mausoleum, or other funerary location is encountered. 15% likely to still be used, 50% likely to be undead-infested. Many such sites are concealed, especially if long unused, and require a Spot check (DC 20) to notice.
+97: Climate variance: An area is encountered, possibly the size of a small valley or island, with a climate different than the normal one, such as a tropical ungle infested with dinosaurs deep in alpine crags, or a bone-drydesert in the center of a murky swamp.
+98-99: Continuous Flame on some object is found, still burning merrily after uncounted hours, days, or years of abandonment.
+100: Cursed item: The group comes across an abandoned campsite, and on searching it (Spot DC 20 or Search DC 10) they come across a valuable-looking item that is actually cursed. The DM can roll a cursed item from the DMG or determine one for himself; it should not appear (or identify) as cursed, however.
+Endtable:

@@ -1,0 +1,93 @@
+; 3-2 Temperate.ipt
+; created 1/3/2019 12:52:15 PM
+
+use: Generators/D&D/Mother of All Encounter Tables/Random Terrain.ipt
+use: Generators/D&D/Mother of All Encounter Tables\03. Weather and Terrain Encounters\3 Notes.ipt
+
+prompt: Terrain {Desert|Plain|Forest|Hill|Mtn.|Marsh} [@Random Terrain]
+
+table: 3-2 Main
+[@3-2 Temperate_{$prompt1}]
+endtable:
+
+table: 3-2 Temperate_Desert
+01-04: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+05-16: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+17-18: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+19-22: <u><b>Flash Flood</u></b>\n [#1 Weather Description]
+23-34: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+35-46: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+47-58: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+59-60: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+61-64: <u><b>Oasis</u></b>\n [#7 Weather Description]
+65-68: <u><b>Quicksand</u></b>\n [#8 Weather Description]
+69-78: <u><b>Sand/duststorm</u></b>\n [#1 Weather Description]
+79-88: <u><b>Sinkholes</u></b>\n [#9 Weather Description]
+89-98: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+99-100: <u><b>Tornado</u></b>\n [#1 Weather Description]
+Endtable:
+
+table: 3-2 Temperate_Plain
+01-05: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+06-19: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+20: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+21-33: <u><b>Flash Flood</u></b>\n [#1 Weather Description]
+34-48: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+49-53: <u><b>Grassfire</u></b>\n [#6 Weather Description]
+54-67: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+68-79: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+80: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+81: <u><b>Sinkholes</u></b>\n [#9 Weather Description]
+82-95: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+96-100: <u><b>Tornado</u></b>\n [#1 Weather Description]
+Endtable:
+
+table: 3-2 Temperate_Forest
+01-11: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+12-27: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+28: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+29-44: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+45-55: <u><b>Forest fire</u></b>\n [#5 Weather Description]
+56-71: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+72-82: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+83: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+84-99: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+100: <u><b>Tornado</u></b>\n [#1 Weather Description]
+Endtable:
+
+table: 3-2 Temperate_Hill
+01-15: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+16-30: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+31: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+32-46: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+47-61: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+62-73: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+74: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+75-84: <u><b>Landslide</u></b>\n [#1 Weather Description]
+85-99: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+100: <u><b>Tornado</u></b>\n [#1 Weather Description]
+Endtable:
+
+table: 3-2 Temperate_Mtn.
+01-15: <u><b>Cliffs</u></b>\n [#3 Weather Description]
+16-30: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+31-32: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+33-47: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+48-62: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+63-72: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+73-74: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+75-83: <u><b>Landslide</u></b>\n [#1 Weather Description]
+84-98: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+99-100: <u><b>Volcanic eruption</u></b>\n [#10 Weather Description]
+Endtable:
+
+table: 3-2 Temperate_Marsh
+01-18: <u><b>Cold snap</u></b>\n [#1 Weather Description]
+19-21: <u><b>Earthquake</u></b>\n [#4 Weather Description]
+22-39: <u><b>Fog bank</u></b>\n [#1 Weather Description]
+40-57: <u><b>Heat wave</u></b>\n [#1 Weather Description]
+58-68: <u><b>Windstorm</u></b>\n [#1 Weather Description]
+69-71: <u><b>Hurricane</u></b>\n [#1 Weather Description]
+72-82: <u><b>Quicksand</u></b>\n [#8 Weather Description]
+83-100: <u><b>Thunderstorm</u></b>\n [#1 Weather Description]
+Endtable:

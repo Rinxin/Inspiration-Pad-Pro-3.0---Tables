@@ -1,0 +1,11 @@
+; Category E.ipt
+; created 3/6/2019 10:52:07 PM
+
+use: Common\srd\MageSpells.ipt
+
+Table: Category E
+Potion of giant strength (storm giant)
+Sovereign glue
+Spell scroll (9th level, [@SpellsLevel9])
+Universal solvent
+EndTable:

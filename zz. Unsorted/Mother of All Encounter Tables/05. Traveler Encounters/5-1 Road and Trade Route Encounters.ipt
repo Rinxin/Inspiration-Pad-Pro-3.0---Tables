@@ -1,0 +1,20 @@
+; 5-1 Road and Trade Route Encounters.ipt
+; created 1/3/2019 1:32:29 PM
+
+table: 5-1 Main
+01-07: NPC adventurers: {1d8} adventurers; \n[@8-1]
+08-19: Traders/caravan: One or more merchants transporting goods. \n[@8-2]
+20-31: Hunting party (food): A group of {1d8} people out hunting game for food. 50% these are Com1 led by a Rgr2; otherwise they are Rgr1 led by a Rgr4.
+32-38: Hunting party (sport): A group of {1d10} aristocrats (level {1d6} each) with a ranger huntmaster (level = one less than highest aristocrat level) and 1-3 retainers per aristocrat. They are 75% likely to be mounted, and 60% likely to have hounds or similar beasts for flushing game.
+39-42: Scouts: A group scouting for a nomadic or barbaric tribe located {1d20} miles away. They will attempt to observe the PCs but avoid a confrontation. The group consists of 1d6 members, each a ranger or rogue of up to 4th level.
+43-46: War band: A military force out to loot and pillage. Consists of {3d20} common members (War1 if a class is needed), led by one first level fighter, ranger, or barbarian per five members, one 3rd level fighter, ranger, or barbarian per ten members, and one fighter, ranger, or barbarian war leader level 5-7. Group is 1% likely per member to have a Clr3 or Adp3, and 1% likely per member to have a Wiz3 or Sor3.
+47-58: Foot patrol: Soliders or militiamen keeping the trade routes safe. 3d6 common soldiers, two 2nd level lieutenants, and a 4th level leader.
+59-65: Mounted patrol: Soldiers mounted on light warhorses or the equivalent. There are {2d8} common soldiers, one 3rd level lieutenant, and one 5th level leader.
+66-72: Brigands: A semiorganized band of {2d10} first level rogues and warriors, led by a single leader ([@8-1] to determine leader’s class and level).
+73-76: Pilgrims: A band of worshippers of a particular deity ([@8-4] to determine which), led by a leader cleric or monk. The pilgrims are 80% commoners, but otherwise are monks or clerics of 1st-3rd level. The leader is always at least 4th level.
+77-80: Lone knight: Seeking to prove his mettle; this could be a paladin, a competent fighter, or a blackguard seeking to slay champions of good. \n[@8-1]
+Will always be mounted on a heavy warhorse and well armed. 80% likely to have {1d3} commoner retainers or slaves.
+81-84: Slavers: {4d6} slaves in chains guarded by {2d4} first level warriors and {1d3} 3rd level lieutenants. Group is led by an expert level {3d2}.
+85-96: Locals: A band of {1d10} local farmers, woodsmen, etc. traveling the road, all Com1-3.
+97-100: [@1-2 Main]\n <em>using the chart based on the largest community within 20 miles.</em>
+endtable:

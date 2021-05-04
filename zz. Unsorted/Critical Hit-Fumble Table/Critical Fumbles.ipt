@@ -1,0 +1,62 @@
+; Critical Fumbles.ipt
+; created 4/4/2019 10:28:21 AM
+
+MaxReps: 1
+
+prompt: Fumbe Type {Melee|Brawl|Range|Magic} Melee
+
+table main
+[@fumble_{$prompt1}]
+endtable:
+
+table: fumble_Melee
+<b>Over reach.</b> Opponet gains advantage on the next strike at the attacker.
+<b>Misjudge distance.</b> Opponet has an opportunity to disengage and they also have advantage on the next strike at the attacker.
+<b>Lose balance.</b> Attacker is unable to take any further attacks or actions this round (including attacks of opportunity or any bonus actions). The opponent has advantage on the next strike at the attacker.
+<b>Slip.</b> Attacker must make a DEX check or become prone. Success and they may take no further actions this round (including attacks of opportunity or bonus actions.) The opponent has advantage on the next strike at the attacker.
+<b>Juggle Weapon.</b> Attacker's next strike at the opponent is at a dissadvantage and cannot employ any feats or class abilities with the strike. The opponent has advantage on the next strike at the attacker.
+<b>Dropped.</b> Attacker must make a STR check or drop their weapon (bonus action to retreve). Success and the next strike at the opponent is at dissadvantage while the opponent has advantage on their next strike at the attacker.
+<b>Crisis of confidence.</b> Attacker must make a CHR check or become frightened of their opponent (Check as a bonus action each round to shake out of it). The opponent has advantage on their next strike at the attacker.
+<b>Collide.</b> Opponenet gains an immediate attack of opportunity that must be a brawling attack. After this, the opponent has advantage on the next strike against the attacker.
+<b>Obvious preperation.</b> The Opponent gains an immediate attack of opportunity on the attacker.
+<b>Strained.</b> Attacker takes D4 muscle damage and the opponent has advantage on the next strike at the attacker.
+Endtable:
+
+table: fumble_Brawl
+<b>Over reach.</b> Opponet gains advantage on the next blow against the attacker.
+<b>Misjudge distance.</b> Opponet has an opportunity to disengage and they also have advantage on the next blow against the attacker.
+<b>Lose balance.</b> Attacker is unable to take any further attacks or actions this round (including attacks of opportunity or any bonus actions). The opponent has advantage on the next blow against the attacker.
+<b>Slip.</b> Attacker must make a DEX check or become prone. Success and they may take no further actions this round (including attacks of opportunity or bonus actions.) The opponent has advantage on the next blow against attacker.
+<b>Walk into it.</b> Attacker must make a STR check or automatically take blow damage from opponent and become stunned (Save for half damage and no stun). The opponent has advantage on the next blow against the attacker.
+<b>Painful impact.</b> Both attacker and target take half damage from the strike. Opponent rolls a CON check to reduce this damage to zero. The Opponent has advantage on their next blow agains the attacker.
+<b>Crisis of confidence.</b> Attacker must make a CHR check or become frightened of their opponent (Check as a bonus action each round to shake out of it). The opponent has advantage on their next blow against the attacker.
+<b>Collide.</b> Opponenet gains an immediate chance to grapple the attacker with advantage as an attack of opportunity . After this, the opponent has advantage on the next strike against the attacker.
+<b>Obvious preperation.</b> The Opponent gains an immediate attack of opportunity on the attacker.
+<b>Strained.</b> Attacker takes D2 muscle damage and the opponent has advantage on the next blow against the attacker.
+Endtable:
+
+table: fumble_Range
+<b>Off target.</b> Shot goes wide and any targets (allies or foes) adjacent to the intended target must make a DEX save to get out the way or become the new target for this shot. Attacker rolls a new attack against this target.
+<b>Distracted.</b> Shot goes wide and the target has a reaction opportunity to find cover. The attacker can make no further actions, bonus actions or reactions this turn and can only move half their movement.
+<b>Snagged.</b> Attacker's clothing gets caught and pulls the shot wide. Attacker is considered grappled until they can spend a bonus action to release themselves.
+<b>Slip.</b> Attacker must make a DEX check or become prove as the shot goes way above target. Success means that the attacker's movement is halved, they can make no further actions, bonus actions or reactions this turn.
+<b>Sweaty palms.</b> The shot goes wide and the grip of the weapon (or method of projection) gets slippy. The next attack made with this weapon is at dissadvantage.
+<b>Damaged.</b> The weapon gets damaged, sending the shot wide. All future attacks using this weapon are at half range until the attacker takes a short rest to repair. If the weapon is thrown, the attacker also takes D2 muscle damage.
+<b>Break.</b> Weapon gets caught and breaks sending the shot wide. Attacker cannot use this weapon until an action and bonus action is spent to temporaraly repair it (half range until a short rest is taken to fully repair). If the weapon is thrown, the attacker takes half the weapon damage.
+<b>Crisis of confidence.</b> The shot is so wide of the target that during this combat all further attacks using this weapon are at dissadvantage until blood is drawn with it.
+<b>Spill ammo.</b> Shot goes wide and all carried ammo is spilled on the ground (1 action or bonus action to lift up to 10 of the loose ammo from the ground)
+<b>Strained.</b> Attacker takes D4 muscle damage as the shot goes wide of the target.
+Endtable:
+
+table: fumble_Magic
+<b>Fizzle.</b> The spell apears to be cast as normal, however as it travels to the target it goes out and there are no actual effects and no damage is delt.
+<b>Drained.</b> The spell acts as normal but takes a higher level spell slot to cast (If unavailable, then the spell slot used as intended as well as the lowest spell slot available).
+<b>Short circuit.</b> The spell is cast, however this and all spells cast from now on inflicts 1 point of psycic damage per level of the spell to the caster (save for half damage). This effect lasts until the next short rest.
+<b>Feeble.</b> The spell is cast as normal, however the effects are halved- either in damage or duration as applicable.
+<b>Mirror feedback.</b> The energy committed is split between target and caster with each suffering half the effects and taking half damage or half duration as applicable. The caster can attampt to make a spell saving throw to avoid the effects.
+<b>Misguided.</b> The spell avoids the intended target and jumps to the nearest random (valid) target instead. If there are no valid targets, the spell effects become inverted. The caster can attampt to make a sucessful saving throw to cancel the spell before it's release (spell slot still used up).
+<b>Crisis of confidence.</b> All future spells cast are at a dissadvantage until one requiring a roll suceeds.
+<b>Unstable.</b> [@fumble_Magic]\n and the fumble chance increases by 2 for all future spells. This increase lasts until the next long rest.
+<b>Blowback.</b> The spell does 1D4 psycic damage per level of the spell to the caster as it is discharged through them without being released. Caster can roll a spell save to reduce this damage by half.
+<b>Surge.</b> A tear in the magic fabric causes <Wild_Surge>
+Endtable:

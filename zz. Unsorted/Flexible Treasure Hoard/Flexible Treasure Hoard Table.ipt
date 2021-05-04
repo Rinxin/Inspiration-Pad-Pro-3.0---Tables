@@ -1,0 +1,147 @@
+; Flexible Treasure Hoard Table.ipt
+; created 3/6/2019 9:29:07 PM
+
+
+use: \\Generators\D&D\Homebrew\Gemstones.ipt
+use: \\Generators\D&D\Homebrew\Flexible Treasure Hoard\Magic Item Tables\Magic Item Tables.ipt
+
+
+prompt: CR Tier {1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20} 1
+
+Table: Main
+[#{$prompt1} CR Tables]
+Endtable:
+
+Table: CR Tables
+0-4: [@Treasure Hoard 0-4 >> implode]
+5-10: [@Treasure Hoard 5-10 >> implode]
+11-16: [@Treasure Hoard 11-16 >> implode]
+17-20: [@Treasure Hoard 17+ >> implode]
+Endtable:
+
+
+
+
+Table: Group Coins
+type:lookup
+1: <b>CR 0-4</b>\n {6d6*100}cp, {3d6*100}sp, {2d6*10}gp \n
+2: <b>CR 5-10</b>\n {2d6*100}cp, {2d6*1000}sp, {6d6*100}gp, {3d6*10}pp \n
+3: <b>CR 11-16</b>\n {4d6*1000}gp,	{5d6*100}pp \n
+4: <b>CR 17+</b>\n {12d6*1000}gp, {8d6*1000}pp \n
+EndTable:
+
+Table: Treasure Hoard 0-4
+6:	[#1 Group Coins]\n
+10:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n
+10:	[#1 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	
+10:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n
+8:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+8:	[#1 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+8:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+5:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+5:	[#1 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+5:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+3:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+2:	[#1 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+5:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+7:	[#1 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table F >> implode]
+5:	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table F >> implode]
+2:	[#1 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table G]
+	[#1 Group Coins]\n           [@{2d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table G]
+Endtable:
+
+Table: Treasure Hoard 5-10
+4:	[#2 Group Coins]\n           
+6:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	
+6:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	
+6:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	
+6:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	
+4:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+4:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+4:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+4:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table A >> implode]
+5:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+5:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+5:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+4:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table B >> implode]
+3:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+3:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+3:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+2:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table C >> implode]
+2:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table D]
+2:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table D]
+1:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table D]
+1:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table D]
+4:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table F >> implode]
+4:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table F >> implode]
+3:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table F >> implode]
+3:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table F >> implode]
+2:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table G >> implode]
+2:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table G >> implode]
+1:	[#2 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table H]
+1:	[#2 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table H]
+Endtable:
+
+Table: Treasure Hoard 11-16
+3:	[#3 Group Coins]\n           
+3:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	
+3:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	
+3:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	
+3:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	
+4:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+4:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+3:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+3:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+6:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table C >> implode]
+5:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table C >> implode]
+5:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table C >> implode]
+5:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table C >> implode]
+4:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table D >> implode]
+4:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table D >> implode]
+4:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table D >> implode]
+4:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table D >> implode]
+2:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table E]
+2:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table E]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table E]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table E]
+2:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+2:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+3:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H >> implode]
+3:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H >> implode]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H >> implode]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H >> implode]
+2:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table I]
+2:	[#3 Group Coins]\n           [@{2d4} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table I]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table I]
+2:	[#3 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@Magic Item Table I]
+Endtable:
+
+Table: Treasure Hoard 17+
+2:	[#4 Group Coins]\n           
+3:	[#4 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d8} Magic Item Table C]
+3:	[#4 Group Coins]\n           [@{1d10} Gemstones Main with {$prompt1} >> implode]\n	[@{1d8} Magic Item Table C]
+3:	[#4 Group Coins]\n           [@{1d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d8} Magic Item Table C]
+3:	[#4 Group Coins]\n           [@{1d8} Gemstones Main with {$prompt1} >> implode]\n	[@{1d8} Magic Item Table C]
+8:	[#4 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table D]
+8:	[#4 Group Coins]\n           [@{1d10} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table D]
+8:	[#4 Group Coins]\n           [@{1d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table D]
+8:	[#4 Group Coins]\n           [@{1d8} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table D]
+6:	[#4 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table E]
+6:	[#4 Group Coins]\n           [@{1d10} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table E]
+5:	[#4 Group Coins]\n           [@{1d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table E]
+5:	[#4 Group Coins]\n           [@{1d8} Gemstones Main with {$prompt1} >> implode]\n	[@{1d6} Magic Item Table E]
+1:	[#4 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table G]
+1:	[#4 Group Coins]\n           [@{1d10} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table G]
+1:	[#4 Group Coins]\n           [@{1d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table G]
+1:	[#4 Group Coins]\n           [@{1d8} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table G]
+2:	[#4 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H]
+2:	[#4 Group Coins]\n           [@{1d10} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H]
+2:	[#4 Group Coins]\n           [@{1d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H]
+2:	[#4 Group Coins]\n           [@{1d8} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table H]
+5:	[#4 Group Coins]\n           [@{3d6} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table I]
+5:	[#4 Group Coins]\n           [@{1d10} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table I]
+5:	[#4 Group Coins]\n           [@{1d4} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table I]
+5:	[#4 Group Coins]\n           [@{1d8} Gemstones Main with {$prompt1} >> implode]\n	[@{1d4} Magic Item Table I]
+Endtable:
