@@ -1,0 +1,27 @@
+Table: FantasyRaces
+orc
+goblin
+ogre
+giant
+kobold
+doppleganger
+10:human
+5:elf
+5:dwarf
+5:halfling
+4:gnome
+
+
+
+Table: FantasyRacesAdj
+orcish
+goblin
+ogrish
+giant
+kobold
+doppleganger
+10:human
+5:elvish
+5:dwarven
+5:halfling
+4:gnomish
