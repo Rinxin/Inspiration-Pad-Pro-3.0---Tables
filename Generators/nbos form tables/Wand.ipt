@@ -1,0 +1,81 @@
+Table: wands
+[@offer], this wand is made with the handle of [@wood] and the length of [@wood], inside both of theses is the wooden core of [@wood] which has the cores of [@core], [@core], and [@core] from different specimens, the wand is [@length] in length and has a [@density] flexibility.
+
+Table:offer
+How about this one
+No, that won't do, try this
+We are getting somewhere, wave this one
+Horrible idea of a pairing it seems, why don't you try this
+Absolutely not, let's try this one
+
+Table: wood
+Acacia
+Alder
+Apple
+Ash
+Aspen
+Beech
+Blackthorn
+Black Walnut
+Cedar
+Cherry
+Chestnut
+Cypress
+Dogwood
+Ebony
+Elder
+Elm
+English Oak
+Fir
+Hawthorn
+Hazel
+Holly
+Hornbeam
+Larch
+Laurel
+Maple
+Pear
+Pine
+Poplar
+Red Oak
+Redwood
+Rowan
+Silver Lime
+Spruce
+Sycamore
+Vine
+Walnut
+Willow
+Yew
+
+Table: core
+Phoenix Tailfeather
+Phoenix Wing Feather
+Unicorn Mane Hair
+Unicorn Tail Hair
+Dragon Heartstring
+Phoenix Tears
+Unicorn Blood
+Unicorn Hoof Shaving
+Unicorn Horn Shaving
+Dragon Claw Shaving
+Dragon Tooth Shaving
+Dragon Blood
+
+Table: length
+short
+fairly short
+above average
+medium
+beneath the average
+really long
+very long
+very short
+long
+
+Table: density
+rather bendy
+hard
+nicely supple
+swishy
+unyielding 
