@@ -1,0 +1,129 @@
+; Aberration.ipt
+; created 12/17/2018 9:44:37 PM
+
+prompt: CR {1/8|1/4|1/2|0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30} 1
+
+#<a href="https:&#47;&#47;www.dndbeyond.com/monsters/">Name Here</a> or <a href="https:&#47;&#47;www.dndbeyond.com/homebrew/monsters/">Name Here</a> for homebrew this is for linking to dndbeyond for quick info to add creatures to your tracker extension. Note Homebrew creatuers have a number before their name anc need to be marked properly to link.
+
+Table: Main
+[@{$prompt1}CR_Aberration]
+EndTable:
+
+Table: 1/8CR_Aberration
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Flumph">Flumph</a>
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Neogi Hatchling">Neogi Hatchling</a>
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Slaad Tadpole">Slaad Tadpole</a>
+EndTable:
+
+Table: 1/4CR_Aberration
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Ixitxachitl">Ixitxachitl</a>
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Star Spawn Grue">Star Spawn Grue</a>
+EndTable:
+
+Table: 1/2CR_Aberration
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Gazer">Gazer</a>
+<a href="https:&#47;&#47;www.dndbeyond.com/monsters/Gazer Familiar">Gazer Familiar</a>
+EndTable:
+
+Table: 0CR_Aberration
+\z 
+EndTable:
+
+Table: 1CR_Aberration
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Choker">Choker</a>
+EndTable:
+Table: 2CR_Aberration
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Berbalang">Berbalang</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Gibbering Mouther">Gibbering Mouther</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Intellect Devourer">Intellect Devourer</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Ixitxachitl Cleric">Ixitxachitl Cleric</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Nothic">Nothic</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Vampiric Ixitxachitl">Vampiric Ixitxachitl</a>
+EndTable:
+Table: 3CR_Aberration
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Flying Horror">Flying Horror</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Grell">Grell</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Neogi">Neogi</a>
+<a href="https:&#47;&#47;www.dndbeyond.com&#47;monsters&#47;Spectator">Spectator</a>
+EndTable:
+Table: 4CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 5CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 5CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 6CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 8CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 9CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 10CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 11CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 12CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 13CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 14CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 15CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 16CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 17CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 18CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 19CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 20CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 21CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 22CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 23CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 24CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 25CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 26CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 26CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 28CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 29CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 30CR_Aberration
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:

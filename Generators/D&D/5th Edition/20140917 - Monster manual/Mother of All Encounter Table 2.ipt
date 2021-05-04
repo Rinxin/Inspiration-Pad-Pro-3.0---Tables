@@ -1,0 +1,120 @@
+; Mother of All Encounter Table 2.ipt
+; created 12/6/2018 10:54:21 AM
+
+prompt: Travel Method {Overland|Urban|Trade Route|Overseas|Underwater|Subterranean} Overland
+prompt: Climate {Arctic|Subarctic|Temperate|Subtropic|Tropic|Aquatic|Subterranean} Temperate
+prompt: Method of Travel (Trade Route/Subterranean {Major Road| Secluded Road|Trail|Primary Passage|Secondary Passage|Tertiary Passage|Aquatic} Major Road
+prompt: Difficultly {Easy|Hard} Easy
+
+Header:  Pending
+
+Table: Main
+[@{$prompt1} Encounters[When]{$prompt1}=Trade Route[do]_{$prompt3}[end][When]{$prompt1}=Subterranean[do]_{$prompt3}[end]]
+EndTable:
+
+
+Table: Overland Encounters
+01-20: <b><u>Creature Encounter</u></b>\n [table 2-1 thru 2-7]-based on climate
+21-25: <b><u>Unusual Weather/Terrain</u></b>\n [Table 3]
+26-30: <b><u>Notable Occurence</u></b>\n [Table 4]
+31-35: <b><u>Travelers</u></b>\n [Table 5-1]
+36-40: [#{2d20} Overland Encounters]\n [#{2d20} Overland Endcounters]
+41-100: <b><u>No Encounter</u></b>
+EndTable:
+
+Table: Urban Encounters
+01-05: <b><u>Unusual Weather/Terrain</u></b>\n [Table 3]
+06-17: <b><u>Notable Occurrence</u></b>\n [Table 4]
+18-26: <b><u>Travelers</u></b>\n [Table 5-1]
+27-30: [#{1d20+1d10} Urban Encounters]\n[#{1d20+1d10} Urban Encounters]
+31-100: <b><u>No Encounter</u></b>\n
+EndTable:
+
+Table: Trade Route Encounters_Major Road
+01-20: <b><u>Travelers</u></b>\n [Table 5-1]
+21-25: <b><u>Creature Encounter</u></b>\n [table 2-1 thru 2-7]-based on climate
+26-30: <b><u>Notable Occurrence</u></b>\n [Table 4]
+31-35: <b><u>Unusual Weather/Terrain</u></b>\n [Table 3]
+36-40: [#{1d20+1d10} Urban Encounters]\n[#{1d20+1d10} Urban Encounters]
+41-100: <b><u>No Encounter</u></b>\n
+EndTable:
+
+Table: Trade Route Encounters_Secluded Road
+01-15: <b><u>Travelers</u></b>\n [Table 5-1]
+16-25: <b><u>Creature Encounter</u></b>\n [table 2-1 thru 2-7]-based on climate
+26-30: <b><u>Notable Occurrence</u></b>\n [Table 4]
+31-35: <b><u>Unusual Weather/Terrain</u></b>\n [Table 3]
+36-40: [#{2d20} Urban Encounters]\n[#{2d20} Urban Encounters]
+41-100: <b><u>No Encounter</u></b>\n
+EndTable:
+
+Table: Trade Route Encounters_Trail
+01-05: <b><u>Travelers</u></b>\n [Table 5-1]
+06-25: <b><u>Creature Encounter</u></b>\n [table 2-1 thru 2-7]-based on climate
+26-30: <b><u>Notable Occurrence</u></b>\n [Table 4]
+31-35: <b><u>Unusual Weather/Terrain</u></b>\n [Table 3]
+36-40: [#{1d20+1d10} Urban Encounters]\n[#{1d20+1d10} Urban Encounters]
+41-100: <b><u>No Encounter</u></b>\n
+EndTable:
+
+Table: Overseas Encounters
+01-10: <b><u>Travelers</u></b>\n [Table 5-2]
+11-18: <b><u>Creature Encounter</u></b>\n [Table 2-6 ]based on climate
+19-20: <b><u>Notable Occurrence</u></b>\n [Table 4]
+21-25: <b><u>Unusual Weather/Terrain</u></b>\n [Table 3-4]
+26-30: [#{1d20+1d10} Overseas Encounters]\n[#{1d20+1d10} Overseas Encounters]
+31-100: <b><u>No Encounter</u></b>\n
+EndTable:
+
+Table: Underwater Encounters
+01-25: <b><u>Creature Encounter</u></b>\n [Table 2-6 ]based on climate
+26-28: <b><u>Notable Occurrence</u></b>\n [Table 4]
+29-30: [#{1d20+1d10} Underwater Encounters]\n[#{1d20+1d10} Underwater Encounters]
+31-100: <b><u>No Encounter</u></b>\n
+EndTable:
+
+Table: Subterranean Encounters_Primary Passage
+01-05: <b><u>Travelers</u></b>\n [Table 5-3]
+06-20: <b><u>Creature Encounter</u></b>\n [Table 2-7 ]based on climate
+21-25: <b><u>Notable Occurrence</u></b>\n [Table 4]
+26-30: [#{1d20+1d10} Subterranean Encounters_Primary Passage]\n[#{1d20+1d10} Subterranean Encounters_Primary Passage]
+31-100: <b><u>No Encounter</u></b>\n
+EndTable:           
+
+Table: Subterranean Encounters_Secondary Passage
+01-03: <b><u>Travelers</u></b>\n [Table 5-3]
+04-18: <b><u>Creature Encounter</u></b>\n [Table 2-7 ]based on climate
+19-25: <b><u>Notable Occurrence</u></b>\n [Table 4]
+26-27: [#{1d20+1d10} Subterranean Encounters_Secondary Passage]\n[#{1d20+1d10} Subterranean Encounters_Secondary Passage]
+28-100: <b><u>No Encounter</u></b>\n
+EndTable: 
+
+Table: Subterranean Encounters_Tertiary Passage
+01: <b><u>Travelers</u></b>\n [Table 5-3]
+02-15: <b><u>Creature Encounter</u></b>\n [Table 2-7 ]based on climate
+16-22: <b><u>Notable Occurrence</u></b>\n [Table 4]
+23-25: [#{1d20+1d10} Subterranean Encounters_Tertiary Passage]\n[#{1d20+1d10} Subterranean Encounters_Tertiary Passage]
+26-100: <b><u>No Encounter</u></b>\n
+EndTable: 
+
+Table: Subterranean Encounters_Aquatic
+01: <b><u>Travelers</u></b>\n [Table 5-3]
+02-08: <b><u>Creature Encounter</u></b>\n [Table 2-7 ]based on climate
+09-11: <b><u>Notable Occurrence</u></b>\n [Table 4]
+12-13: [#{1d20+1d10} Subterranean Encounters_Aquatic]\n[#{1d20+1d10} Subterranean Encounters_Aquatic]
+14-100: <b><u>No Encounter</u></b>\n
+EndTable: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

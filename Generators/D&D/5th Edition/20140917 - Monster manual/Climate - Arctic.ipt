@@ -1,0 +1,25 @@
+; Climate - Arctic.ipt
+; created 1/6/2019 9:59:03 AM
+
+prompt: Terrain{Coastal|Desert|Forest|Grassland|Hill|Mountain|Swamp|Underdark|Underwater|Urban} [Random Terrain]
+
+
+Table: Climate - Arctic_Main
+
+Endtable:
+
+Table: Climate - Arctic_
+:[@Monster Type - Beast_Main]
+:[@Monster Type - Construct_Main]
+:[@Monster Type - Dragon_Main]
+:[@Monster Type - Elemental_Main]
+:[@Monster Type - Fey_Main]
+:[@Monster Type - Fiend_Main]
+:[@Monster Type - Giant_Main]
+:[@Monster Type - Humanoid_Main]
+:[@Monster Type - Monstrosity_Main]
+:[@Monster Type - Ooze_Main]
+:[@Monster Type - Plant_Main]
+:[@Monster Type - Undead_Main]
+Endtable:
+

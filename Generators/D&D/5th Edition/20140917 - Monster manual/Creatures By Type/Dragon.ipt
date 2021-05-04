@@ -1,0 +1,119 @@
+; Dragon.ipt
+; created 12/17/2018 9:58:36 PM
+
+
+
+prompt: CR {1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30} 1
+
+#<a href="#www.dndbeyond.com/monsters/">Name Here</a> or <a href="#www.dndbeyond.com/homebrew/monsters/##">Name Here</a> for homebrew this is for linking to dndbeyond for quick info to add creatures to your tracker extension. Note Homebrew creatuers have a number before their name anc need to be marked properly to link.
+
+Table: Main
+{$prompt1}CR_Beast
+EndTable:
+
+Table: 1/8CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+
+Table: 1/4CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a> 
+EndTable:
+
+Table: 1/2CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a> 
+EndTable:
+
+Table: 0CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a> 
+EndTable:
+
+Table: 1CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 2CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 3CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 4CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 5CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 5CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 6CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 8CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 9CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 10CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 11CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 12CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 13CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 14CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 15CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 16CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 17CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 18CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 19CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 20CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 21CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 22CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 23CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 24CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 25CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 26CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 26CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 28CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 29CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:
+Table: 30CR_Dragon
+\z <a href="#www.dndbeyond.com/monsters/##">Name Here</a>
+EndTable:

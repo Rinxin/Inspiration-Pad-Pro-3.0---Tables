@@ -1,0 +1,104 @@
+# Random Encounters
+
+Prompt:
+
+Table:Random_Encounters
+Roll:1d6
+1-2: No Encounters
+3: [@Mundane_Objects]
+4: [@Interesting_Things]
+5: [@Creatures]
+6: [@Adventure_Seeds]
+EndTable:
+
+Table:Mundane_Objects
+Water Tight Boot. The boot is filled with water and there are a couple of fish swimming about.
+Wagon Wheel. Half buried in the dirt.
+Wizard's Hat: Lonesome on the road. Has a note tucked inside
+Box of Nails: Inside the box are rusty nails.
+Daggers: A tree has a dozen daggers punched into it's trunk.
+Broken Hourglass.
+Empty Satchel.
+Dirty Trousers.
+Ancient Coin
+Holy Symbol
+Copper Ring
+Broken Mirror and Frame
+Sack with Toys
+Chisel
+Bucket with rolls of parchment paper.
+Bear Trap
+50ft of Silk Rope. Separated in three spots.
+Five Bags of Sand
+Rusty Spoon
+Canteen filled with ale.
+EndTable:
+
+Table: Interesting_Things
+1. Tree with Markings: The Tree has Druid markings etched on it.
+2. Signpost: Points to the nearest town. Has the name of the town crossed out
+3. Wooden Sculpture of an Elven Warrior.
+4. Small Graveyard
+5. Obelisk
+6. Rickety Bridge over a River
+7. Shrine to a Nature God
+8. Burnt Down Orphanage
+9. Greenhouse
+10. Tree house
+11. Mushroom Field
+12. A Shed filled with hand painted garden gnomes.
+13. Bubbling Cauldron and Cabin
+14. Enclosed Garden
+15. Druid Grove
+16. Monument inscribed with names of famous heroes
+17. Broken Down Catapult.
+18. Battlefield. Area filled with remnants of a recent battle.
+19. Circular Holes: Huge holes created by a giant burrowing creature.
+20. Mound of Bones: A 10ft high pile of skeletal bodily remains.
+EndTable:
+
+Table: Creatures
+1. Patch of {1d3} Assassin Vines
+2. Solitary Grizzly Bear
+3. Gang of {2d4} Goblins
+4. Band of {2d6} Pixies
+5. Pair of Satyrs
+6. Nest of {2d10} Giant Wasp
+7. Dire Wolverine
+8. Colony of {2d4} Giant Spiders
+9. Band of {2d6} Wood Elves
+10. Pack of {3d4} Wolves
+11. Group of {2d4} Boars
+12. Solitary Pegasus
+13. Pride of {1d3+1} Manticores
+14. Pack of {1d4+1} Werewolves
+15. Flock of {1d6} Cockatrice
+16. Flight of {3d4} Harpies
+17. Grove of {2d4} Dryads
+18. Nest of {1d6+1} Ettercaps and 2d4 Giant Spiders
+19. Yellow Musk Creeper and 1d6 Yellow Musk Zombies
+20. Solitary Young Green Dragon
+EndTable:
+
+Table: Adventure_Seeds
+1. Cocooned: This area of the forest has heavy webbing. Throughout the webbing you find cocooned humanoid bodies waiting to be eaten. In this area lurks Giant Spiders sneaking about ready to attack via the treetop canopies.
+2. Big Oak Tree: The largest oak tree in the forest. The oak tree is home to the Oakman. A fey who can treestride about and loves to insults adventurers. At the base of the giant Oak Tree is a table with pies. The pies are made up of leaves and fungi. Each pie has a different effect. One pie might heal you. One pie might poison you.
+3. Sword in the Pond: You find a pond. 10ft deep in the center of the pond is a sword glowing. Inside the pond a water elemental patiently waits. The sword is also curse.
+4. Topiary: Walled off in a squared hedge boxed. A dozen Topiary are crafted to appear as large forest animals. While exploring this Topiary garden two of them animate and attack.
+5. Wagon Trouble: Two horses are recently slain on the road. A dozen yards away is the remnants of the wagon. Four human bodies are scattered about. If disturbed they animate as zombies and attack.
+6. Sacked Hamlet: A small hamlet in the forest has been sacked by a tribe of goblins. All the women have been kidnapped. The men tied up. The goblins hired an Ogre to help secure the town. The adventurers hear about the sacked hamlet from a lone woman escaping through the woods.
+7. Wolf Howl: A Druid has died. His animal companion was a wolf. A lone howl in the night always comes from the east. Every night the group hears the howls. If they follow the sounds it leads to a Druid Cave and his grim remains.
+8. Mad Dwarf: An Insane Dwarf has started construction on a staircase to the Sun. He tries to enlist the Player Characters to help him finish his project. He claims that the Sun is a perfect mining opportunity.
+9.Petrified: A pair of petrified humans. Closer inspection you notice they were bitten. Every 100ft or so you find another petrified body. A Flock of Cockatrice has made a lair in a nearby cave.
+10. Abandoned Town: You stumble upon a town that has been abandoned for about a year. What drove these folks off?
+11.Falling Comet: A Comet has fallen to the earth. While camping at night they see the fiery trail crash land with a huge explosion. If they investigate they notice strange other worldly aberrations springing forth.
+12.Sinkhole: Part of the forest has a recent sinkhole. Dozens of feet into the earth you notice stone chambers leading to a dungeon from the ancient past.
+13. Knights on Patrol: A band of Knight are searching the forest. They have a warrant out for the arrest of a suspected murderer. One of the Players Characters fits the description of the murderer.
+14. Cabin with Cats: The group stumbles upon an abandoned cabin. A Colony of Undead Cats have laid claim. Any disturbance causes them to stir. Once the cats are killed an Old Lady approaches the Cabin claiming the group are a bunch of murderer for killing her little kittens.
+15. The Well: A lonesome well in the middle of the forest. If you listen closely you can hear screams echo from down below.
+16. Tea Party: A devious fey has arranged a table with chairs under a large tree. There are a dozen chairs and half the occupants are dead. Their faces have been painted to appear smiling.
+17. Cauldron: The group bumps into a young child. The Child claims that a group of them got kidnap by a witch. All his friend are currently being prepped by the Witch to be cooked in a Cauldron. He was able to escape and was looking for help.
+18. Caged: Dozens of human sized cages form a circle. Inside the cages are the skeletal remains of criminals. They were left to starve in these cages. One cage has a lone half-orc on the brink of death. He pleads for the group to save him.
+19. Blind Man: A lone human with no eyes has lost his way. He also doesn't know who he is.
+20. Vault: Buried under a mound of dirt you can make out a circular metal door. Once cleared you find the the metal vault door and it's dials. If you can figure out the right combination you can find a treasure of a lifetime or unleash death upon the world....
+EndTable:

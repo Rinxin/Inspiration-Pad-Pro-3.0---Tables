@@ -1,0 +1,9 @@
+; Test table.ipt
+; created 10/30/2018 7:51:32 AM
+
+propmt: Travel {Overland|Urban|Trade Route|Overseas|Underwater|Subterranean}Overland
+prompt: Climate {Artic|Subartic|Temperate|Subtropic|Tropic|Aquatic|Subterranean}Temperate
+prompt: Terian {Desert|Plains|Forest|Hill|Mountain|Marsh} Hill      
+prompt: Time {Daytime|Nighttime} Daytime
+
+[@{}]

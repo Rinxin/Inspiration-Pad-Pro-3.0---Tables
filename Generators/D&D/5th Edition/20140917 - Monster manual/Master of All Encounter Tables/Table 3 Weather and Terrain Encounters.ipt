@@ -1,0 +1,98 @@
+; Table 3 Weather and Terrain Encounters.ipt
+; created 10/31/2018 9:29:35 PM
+
+prompt: Climate {Artic|Subartic|Temperate|Subtropic|Tropic|Sea} Temperate
+prompt: Terrain {Desert|Plain|Forest|Hill|Mountian|Marsh} Forest
+
+ 
+
+Table: 3-1
+[when]{$p2}=Desert[do]- [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]01-07 [end][when]{$p2}=Mountain[do]01-13 [end][when]{$p2}=Marsh[do]-[end]: Avalanche [#1 Note] 
+[when]{$p2}=Desert[do]01-04 [end][when]{$p2}=Plain[do]01-06 [end][when]{$p2}=Forest[do]01-07 [end][when]{$p2}=Hill[do]08-22 [end][when]{$p2}=Mountain[do]14-25 [end][when]{$p2}=Marsh[do]-[end]: Cliffs [#3 Note] 
+[when]{$p2}=Desert[do]05-17 [end][when]{$p2}=Plain[do]07-31 [end][when]{$p2}=Forest[do]08-36 [end][when]{$p2}=Hill[do]23-39 [end][when]{$p2}=Mountain[do]26-38 [end][when]{$p2}=Marsh[do]01-31[end]: Cold snap [#1 Note] 
+[when]{$p2}=Desert[do]18 [end][when]{$p2}=Plain[do]32 [end][when]{$p2}=Forest[do]37-38 [end][when]{$p2}=Hill[do]40-41 [end][when]{$p2}=Mountain[do]39 [end][when]{$p2}=Marsh[do]32-33[end]: Earthquake [#4 Note] 
+[when]{$p2}=Desert[do]19-22 [end][when]{$p2}=Plain[do]33-38 [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Flash flood [#1 Note] 
+[when]{$p2}=Desert[do]23-34 [end][when]{$p2}=Plain[do]39-46 [end][when]{$p2}=Forest[do]39-45 [end][when]{$p2}=Hill[do]42-49 [end][when]{$p2}=Mountain[do]40-47 [end][when]{$p2}=Marsh[do]34-41[end]: Fog bank [#1 Note] 
+[when]{$p2}=Desert[do] - [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]46-47 [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Forest fire [#5 Note]
+[when]{$p2}=Desert[do]- [end][when]{$p2}=Plain[do]47 [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Grassfire [#6 Note] 
+[when]{$p2}=Desert[do]35-44 [end][when]{$p2}=Plain[do]48-55 [end][when]{$p2}=Forest[do]48-54 [end][when]{$p2}=Hill[do]50-57 [end][when]{$p2}=Mountain[do]48-57 [end][when]{$p2}=Marsh[do]42-49[end]: Heat wave [#1 Note] 
+[when]{$p2}=Desert[do]45-57 [end][when]{$p2}=Plain[do]56-64 [end][when]{$p2}=Forest[do]55-61 [end][when]{$p2}=Hill[do]58-65 [end][when]{$p2}=Mountain[do]58-67 [end][when]{$p2}=Marsh[do]50-57[end]: Windstorm [#1 Note] 
+[when]{$p2}=Desert[do]58 [end][when]{$p2}=Plain[do]65 [end][when]{$p2}=Forest[do]62-63 [end][when]{$p2}=Hill[do]66-67 [end][when]{$p2}=Mountain[do]68 [end][when]{$p2}=Marsh[do]58-59[end]: Hurricane [#1 Note] 
+[when]{$p2}=Desert[do]- [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]68-74 [end][when]{$p2}=Mountain[do]69-76 [end][when]{$p2}=Marsh[do]-[end]: Landslide [#1 Note] 
+[when]{$p2}=Desert[do]59-62 [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Oasis [#7 Note] 
+[when]{$p2}=Desert[do]63 [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]60-61[end]: Quicksand [#8 Note] 
+[when]{$p2}=Desert[do]64-73 [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Sand/duststorm [#1 Note] 
+[when]{$p2}=Desert[do]74-77 [end][when]{$p2}=Plain[do]66 [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Sinkholes [#9 Note] 
+[when]{$p2}=Desert[do]78-90 [end][when]{$p2}=Plain[do]67-91 [end][when]{$p2}=Forest[do]64-93 [end][when]{$p2}=Hill[do]75-91 [end][when]{$p2}=Mountain[do]77-89 [end][when]{$p2}=Marsh[do]62-91[end]: Snowstorm [#1 Note] 
+[when]{$p2}=Desert[do]91-100 [end][when]{$p2}=Plain[do]92-100 [end][when]{$p2}=Forest[do]94-100 [end][when]{$p2}=Hill[do]92-100 [end][when]{$p2}=Mountain[do]90-99[end][when]{$p2}=Marsh[do]92-100[end]: Thunderstorm [#1 Note] 
+[when]{$p2}=Desert[do]- [end][when]{$p2}=Plain[do]- [end][when]{$p2}=Forest[do]- [end][when]{$p2}=Hill[do]- [end][when]{$p2}=Mountain[do]100[end][when]{$p2}=Marsh[do]-[end]: Volcanic eruption [#10 Note] 
+EndTable:
+
+Table: 3-2
+[when]{$p2}=Desert[do]01-04[end][when]{$p2}=Plain[do]01-05[end][when]{$p2}=Forest[do]01-11[end][when]{$p2}=Hill[do]01-15[end][when]{$p2}=Mountain[do]01-15[end][when]{$p2}=Marsh[do] -[end]: Cliffs [#3 Note] 
+[when]{$p2}=Desert[do]05-16[end][when]{$p2}=Plain[do]06-19[end][when]{$p2}=Forest[do]12-27[end][when]{$p2}=Hill[do]16-30[end][when]{$p2}=Mountain[do]16-30[end][when]{$p2}=Marsh[do] 01-18[end]: Cold snap [#1 Note] 
+[when]{$p2}=Desert[do]17-18[end][when]{$p2}=Plain[do]20[end][when]{$p2}=Forest[do]28[end][when]{$p2}=Hill[do]31[end][when]{$p2}=Mountain[do]31-32[end][when]{$p2}=Marsh[do] 19-21[end]: Earthquake [#4 Note] 
+[when]{$p2}=Desert[do]19-22[end][when]{$p2}=Plain[do]21-33[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]-[end][when]{$p2}=Marsh[do] -[end]: Flash flood [#1 Note] 
+[when]{$p2}=Desert[do]23-34[end][when]{$p2}=Plain[do]34-48[end][when]{$p2}=Forest[do]29-44[end][when]{$p2}=Hill[do]32-46[end][when]{$p2}=Mountain[do]33-47[end][when]{$p2}=Marsh[do] 22-39[end]: Fog bank [#1 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]45-55[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Forest fire [#5 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]49-53[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]-[end][when]{$p2}=Marsh[do] -[end]: Grassfire [#6 Note] 
+[when]{$p2}=Desert[do]35-46[end][when]{$p2}=Plain[do]54-67[end][when]{$p2}=Forest[do]56-71[end][when]{$p2}=Hill[do]47-61[end][when]{$p2}=Mountain[do]48-62 [end][when]{$p2}=Marsh[do]40-57[end]: Heat wave [#1 Note] 
+[when]{$p2}=Desert[do]47-58[end][when]{$p2}=Plain[do]68-79[end][when]{$p2}=Forest[do]72-82[end][when]{$p2}=Hill[do]62-73[end][when]{$p2}=Mountain[do]63-72 [end][when]{$p2}=Marsh[do]58-68[end]: Windstorm [#1 Note] 
+[when]{$p2}=Desert[do]59-60[end][when]{$p2}=Plain[do]80[end][when]{$p2}=Forest[do]83[end][when]{$p2}=Hill[do]74[end][when]{$p2}=Mountain[do]73-74 [end][when]{$p2}=Marsh[do]69-71[end]: Hurricane [#1 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]75-84[end][when]{$p2}=Mountain[do]75-83 [end][when]{$p2}=Marsh[do]-[end]: Landslide [#1 Note] 
+[when]{$p2}=Desert[do]61-64[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Oasis [#7 Note] 
+[when]{$p2}=Desert[do]65-68[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]72-82[end]: Quicksand [#8 Note] 
+[when]{$p2}=Desert[do]69-78[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Sand/duststorm [#1 Note] 
+[when]{$p2}=Desert[do]79-88[end][when]{$p2}=Plain[do]81[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Sinkholes [#9 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]-[end][when]{$p2}=Marsh[do] -[end]: Snowstorm [#1 Note] 
+[when]{$p2}=Desert[do]89-98[end][when]{$p2}=Plain[do]82-95[end][when]{$p2}=Forest[do]84-99[end][when]{$p2}=Hill[do]85-99[end][when]{$p2}=Mountain[do]84-98[end][when]{$p2}=Marsh[do] 83-100[end]: Thunderstorm [#1 Note] 
+[when]{$p2}=Desert[do]99-100[end][when]{$p2}=Plain[do]96-100[end][when]{$p2}=Forest[do]100[end][when]{$p2}=Hill[do]100[end][when]{$p2}=Mountain[do]-[end][when]{$p2}=Marsh[do] -[end]: Tornado [#1 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]99-100 [end][when]{$p2}=Marsh[do]-[end]: Volcanic eruption [#10 Note] 
+EndTable:
+
+Table: 3-3
+[when]{$p2}=Desert[do]01-05[end][when]{$p2}=Plain[do]01-08[end][when]{$p2}=Forest[do]01-11[end][when]{$p2}=Hill[do]01-14[end][when]{$p2}=Mountain[do]01-14 [end][when]{$p2}=Marsh[do]-[end]: Cliffs [#3 Note] 
+[when]{$p2}=Desert[do]06-18[end][when]{$p2}=Plain[do]09-21[end][when]{$p2}=Forest[do]12-26[end][when]{$p2}=Hill[do]15-28[end][when]{$p2}=Mountain[do]15-27 [end][when]{$p2}=Marsh[do]01-16[end]: Cold snap [#1 Note] 
+[when]{$p2}=Desert[do]19-20[end][when]{$p2}=Plain[do]22-23[end][when]{$p2}=Forest[do]27-29[end][when]{$p2}=Hill[do]29-31[end][when]{$p2}=Mountain[do]28-30 [end][when]{$p2}=Marsh[do]17-18[end]: Earthquake [#4 Note] 
+[when]{$p2}=Desert[do]21-25[end][when]{$p2}=Plain[do]24-33[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Flash flood [#1 Note] 
+[when]{$p2}=Desert[do]26-38[end][when]{$p2}=Plain[do]34-46[end][when]{$p2}=Forest[do]30-43[end][when]{$p2}=Hill[do]32-45[end][when]{$p2}=Mountain[do]31-44 [end][when]{$p2}=Marsh[do]19-34[end]: Fog bank [#1 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]44-52[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Forest fire [#5 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]47-54[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Grassfire [#6 Note] 
+[when]{$p2}=Desert[do]39-51[end][when]{$p2}=Plain[do]55-67[end][when]{$p2}=Forest[do]53-67[end][when]{$p2}=Hill[do]46-59[end][when]{$p2}=Mountain[do]45-58 [end][when]{$p2}=Marsh[do]35-50[end]: Heat wave [#1 Note] 
+[when]{$p2}=Desert[do]52-60[end][when]{$p2}=Plain[do]68-77[end][when]{$p2}=Forest[do]68-78[end][when]{$p2}=Hill[do]60-69[end][when]{$p2}=Mountain[do]59-68 [end][when]{$p2}=Marsh[do]51-62[end]: Windstorm [#1 Note] 
+[when]{$p2}=Desert[do]61-62[end][when]{$p2}=Plain[do]78-85[end][when]{$p2}=Forest[do]79-87[end][when]{$p2}=Hill[do]70-77[end][when]{$p2}=Mountain[do]69-76 [end][when]{$p2}=Marsh[do]63-68[end]: Hurricane [#1 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]78-85[end][when]{$p2}=Mountain[do]77-84 [end][when]{$p2}=Marsh[do]-[end]: Landslide [#1 Note] 
+[when]{$p2}=Desert[do]63-67[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Oasis [#7 Note] 
+[when]{$p2}=Desert[do]68-72[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]69-84[end]: Quicksand [#8 Note] 
+[when]{$p2}=Desert[do]73-81[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Sand/duststorm [#1 Note] 
+[when]{$p2}=Desert[do]82-88[end][when]{$p2}=Plain[do]86-87[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]- [end][when]{$p2}=Marsh[do]-[end]: Sinkholes [#9 Note] 
+[when]{$p2}=Desert[do]89-100[end][when]{$p2}=Plain[do]88-100[end][when]{$p2}=Forest[do]88-100[end][when]{$p2}=Hill[do]86-100[end][when]{$p2}=Mountain[do]85-98 [end][when]{$p2}=Marsh[do]85-100[end]: Thunderstorm [#1 Note] 
+[when]{$p2}=Desert[do]-[end][when]{$p2}=Plain[do]-[end][when]{$p2}=Forest[do]-[end][when]{$p2}=Hill[do]-[end][when]{$p2}=Mountain[do]99-100 [end][when]{$p2}=Marsh[do]-[end]: Volcanic eruption [#10 Note] 
+EndTable:
+
+Table: 3-4
+01-14: Calm [#2 Note] 
+15-28: Cold snap [#1 Note] 
+29-42: Fog bank [#1 Note] 
+43-56: Heat wave [#1 Note] 
+57-68: Windstorm [#1 Note] 
+69-76: Hurricane [#1 Note] 
+77-90: Thunderstorm [#1 Note] 
+91-97: Waterspout [#11 Note] 
+98-100: Whirlpool [#12 Note] 
+EndTable:
+
+Table: Note
+1:\n<u>Note:</u>\n\t<em> Hazard is as per the DMG, Chapter 3, the Environment section.<em>
+2:\n<u>Note:</u>\n\t<em> Calm, windless weather is often a hazard when asea; a calm has a noncumulative 5% chance of ending each hour.</em>
+3:\n<u>Note:</u>\n\t<em> A cliff {20 + 1d6 * 10} feet blocks further progress. If the area is heavily overgrown, those failing a Spot check (DC 15) must make a Re?ex save (DC 20) or fall over the edge.</em>
+4:\n<u>Note:</u>\n\t<em> The earthquake lasts for {5+1d20} rounds. It's intensity is {1d10}; for the duration, structures take 5 + intensity points of damage, though Hardness applies. All creatures standing must make a Acrobatics check (DC 10 + intensity) each round or fall over; those with four legs get +4 to the save, and those with 6 or more need not save.</em>
+5:\n<u>Note:</u>\n\t<em> A forest fire moves at {1d4 * 10} feet per round, and burns in an area for {1d21+9} minutes before moving on. Those within the fire zone take 3d6 points of damage each round and may be set on fire.</em>
+6:\n<u>Note:</u>\n\t<em> A grassfire moves 1d6 x 10 feet per round, and burns in an area for one minute before moving on. Those caught within the ?re zone take 2d6 points of damage each round and risk being set afire.</em>
+7:\n<u>Note:</u>\n\t<em> In a desert, finding a reliable watering hole is a rare occurrence. There is a 10% chance it is poisoned, and 60% it is guarded by some local sentient race if it is not poisoned.</em>
+8:\n<u>Note:</u>\n\t<em> Those within quicksand must make a Re?ex save each round (DC 15) or sink one foot deeper into the mire. Holding still provides a +2 bonus to the roll, but does not help in escaping. A Swim check (DC 16) is allowed to move 5 feet each round, but the Dex save is automatically failed if this is done.</em>
+9:\n<u>Note:</u>\n\t<em> The land in the area is a thin crust over a series of hollowed caverns. Every minute while in the area, there is a 10% chance of breaking through, requiring a Dex save (DC 15) to avoid tumbling down {1d11+9} feet.</em>
+10:\n<u>Note:</u>\n\t<em> A volcanic eruption is generally fairly rare, and active volcanoes are well-known. Those within a few miles of an eruption must deal with earthquakes, falling ash, clouds of toxic gas (as a cloudkill spell), giant cinders falling from above, and possibly molten lava.</em>
+11:\n<u>Note:</u>\n\t<em> Waterspouts are diaphenous twisters seen at sea that can damage sea vessels if it runs across them. Treat as a tornado, but with a Con save of 18, and only sweeping creatures and objects up for 1d4 rounds.</em>
+12:\n<u>Note:</u>\n\t<em> Whirlpools have a radius increment of {4+1d20} feet. At ?ve times this distance cratures move one increment towards it unless a Swim or Profession (sailor) check is made (DC 15). At 3 times the radius increment, the DC of this check increases to 20; at 2 times the radius increment, the DC increases to 30; and within one increment, the creature or vessel is sucked down to the bottom of the ocean, taking pressure and falling damage accordingly.</em>
+EndTable:

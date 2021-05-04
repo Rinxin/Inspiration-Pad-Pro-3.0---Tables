@@ -1,0 +1,39 @@
+; Diseases.ipt
+; created 6/9/2019 6:58:06 PM
+
+prompt: Diseases {Blinding_Sickness| Cackle_Fever| Cascade_Flu|Cerebral_Parasites|Demon_Fever|Devil_Chills|Filth_Fever|Mindfire|Mummy_Rot|Red_Ache|The_Shakes|Slimy_Doom} 
+
+Table: Main_Diseases
+set: value={$prompt1}
+\t Successful saves do not allow the character to recover. Only magical healing can save the character.\n&
+\n\t Use of the Heal skill can help a diseased character. Every time a diseased character makes a saving throw against disease effects, the healer makes a check. The diseased character can use the healer’s result in place of his saving throw if the Heal check result is higher. The diseased character must be in the healer’s care and must have spent the previous 8 hours resting. \n&
+\n\tCharacters recover points lost to ability score damage at a rate of 1 per day per ability damaged, and this rule applies even while a disease is in progress. That means that a character with a minor disease might be able to withstand it without accumulating any damage.\n&
+\n\t [#{value} Diseases]
+Endtable:
+
+
+
+
+Table: Diseases
+type: dictionary
+default: [@Diseases]
+Blinding Sickness \n\t Spread in tainted water. \n&
+<b><u>Infection</u></b> Ingested 16	1d3 days	1d4 Str  \n&
+<b><u>Effect:</u></b> Each time the victim takes 2 or more damage from the disease, he must make another Constitution save or be permanently blinded.
+Cackle Fever \n\t Symptoms include high fever, disorientation, and frequent bouts of hideous laughter. Also known as “the shrieks.”  <b><u>/Infection</u></b> Ingested 16	1d3 days	1d4 Str 
+Cascade Flu \n\t Spread by brain moles and other vermin. A psionic cascade is a loss of control over psionic abilities. Using power points becomes dangerous for a character infected by cascade flu, once the incubation period has run its course. Every time an afflicted character manifests a power, she must make a DC 16 Concentration check. On a failed check, a psionic cascade is triggered. The power operates normally, but during the following round, without the character’s volition, two additional powers she knows manifest randomly, and their power cost is deducted from the character’s reserve. During the next round, three additional powers manifest, and so on, until all the psionic character’s power points are drained. Powers with a range of personal or touch always affect the diseased character. For other powers that affect targets, roll d%: On a \n&
+01–50 result, the power affects the diseased character \n& 
+51–00 indicates that the power targets other creatures in the vicinity. \n&
+\t Psionic creatures (those that manifest their powers without paying points) cascade until all the powers they know have manifested at least twice. <b><u>/Infection</u></b> Injury 13	1 day	
+Cerebral Parasites \n\t Spread by contact with infected psionic creatures. Cerebral parasites are tiny organisms, undetectable to normal sight. An afflicted character may not even know he carries the parasites—until he discovers he has fewer power points for the day than expected. Psionic creatures with cerebral parasites are limited to using each of their known powers only once per day (instead of freely manifesting them).Contact 15	1d4 days	1d8 power points Psionic creatures with cerebral parasites are limited to using each of their known powers only once per day.
+Demon Fever \n\t Night hags spread it. Can cause permanent ability drain. <b><u>/Infection</u></b> Injury 18	1 day	1d6 Con Effect: When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead.
+Devil Chills \n\t Barbazu and pit fiends spread it. It takes three, not two, successful saves in a row to recover from devil chills.Injury 14	1d4 days	1d4 Str Effect: The victim must make three successful Fortitude saving throws in a row to recover from devil chills.
+Filth Fever \n\t Dire rats and otyughs spread it. Those injured while in filthy surroundings might also catch it. \n&
+<b><u>/Infection</u></b> <b><u>/Infection</u></b> Injury DC 12	{1d3} days	{1d3} Dex, {1d3} Con
+Mindfire \n\t Feels like your brain is burning. Causes stupor. <b><u>/Infection</u></b> Inhaled 12	1 day	{1d4} Int
+Mummy Rot \n\t Spread by mummies. Successful saving throws do not allow the character to recover (though they do prevent damage normally).<b><u>/Infection</u></b> Contact 20	1 day	{1d6} Con
+Red Ache \n\t Skin turns red, bloated, and warm to the touch. <b><u>/Infection</u></b> Injury 15	1d3 days	{1d6} Str
+The Shakes \n\t Causes involuntary twitches, tremors, and fits. <b><u>/Infection</u></b> Contact 13	1 day	{1d8} Dex
+Slimy Doom \n\t Victim turns into infectious goo from the inside out. Can cause permanent ability drain. <b><u>/Infection</u></b> Contact 14	1 day	{1d4} Con \n&
+<b><u>Effect:</u></b> When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead. 
+EndTable:

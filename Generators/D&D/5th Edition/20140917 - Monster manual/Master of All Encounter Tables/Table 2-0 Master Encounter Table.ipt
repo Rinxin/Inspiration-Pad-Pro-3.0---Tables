@@ -1,0 +1,41 @@
+; Table 2-0 Master Encounter Table.ipt
+; created 11/21/2018 8:04:42 PM
+
+ prompt: Climate {Arctic|SubArctic|Temperate|SubTropic|Tropic|Sea|Underdark|Urban} Arctic
+ prompt: Terrain {Desert|Plains|Forest|Hill|Mountain|Marsh} Plain
+ prompt: CR {1/8|1/4|1/3|1/2|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20}
+ 
+
+Table: Main
+Type: Lookup
+[@Climate with {$prompt1}]
+EndTable:
+
+Table: Climate
+Type: Lookup
+Arctic: [@Arctic]
+SubArctic: [@SubArctic]
+Temperate: [@Temperate]
+SubTropic: [@SubTropic]
+Tropic: [@Tropic]
+EndTable:
+
+Table: Arctic
+[when]{$p2}="Desert"[do]44[end][when]{$p2}="Plains"[do]37[end][when]{$p2}="Forest"[do]29[end][when]{$p2}="Hill"[do]27[end][when]{$p2}="Mountain"[do]19[end][when]{$p2}="Marsh"[do]32[end]: [@Aberration_{$p3 with {$p3}]
+EndTable:
+
+Table: SubArctic
+
+EndTable:
+
+Table: Temperate
+
+EndTable:
+
+Table: SubTropic
+
+EndTable:
+
+Table: Tropic
+
+EndTable:

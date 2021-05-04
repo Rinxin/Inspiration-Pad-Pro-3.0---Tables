@@ -1,0 +1,67 @@
+; Table 6-3 Sentient Races.ipt
+; created 10/30/2018 8:10:32 AM
+
+propmt: Terain {Land|Sea|Subterranean} Land
+
+Table:6-3
+[When]{$p1}=Land[do]01-61[end][When]{$p1}=Sea[do]01-19[end][When]{$p1}=Subterranean[do]01-32[end]: [@6-3A] 
+[When]{$p1}=Land[do]62-00[end][When]{$p1}=Sea[do]20-00[end][When]{$p1}=Subterranean[do]33-00[end]: [@6-3B] 
+EndTable:
+
+
+Table:6-3A
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]01-20 [end][When]{$p1}=Subterranean[do]01[end]: Aboleth 
+[When]{$p1}=Land[do]01 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Atomie 
+[When]{$p1}=Land[do]02 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Blood Sprite 
+[When]{$p1}=Land[do]03-14 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Centaur 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]02 [end]: Dark Creeper 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]03 [end]: Dark Stalker 
+[When]{$p1}=Land[do]15-21 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]04-18 [end]: Dwarf 
+[When]{$p1}=Land[do]22-28 [end][When]{$p1}=Sea[do]21-100 [end][When]{$p1}=Subterranean[do]19 [end]: Elf 
+[When]{$p1}=Land[do]29 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Cloud 
+[When]{$p1}=Land[do]30 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Fire 
+[When]{$p1}=Land[do]31 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Frost 
+[When]{$p1}=Land[do]32-39 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Hill 
+[When]{$p1}=Land[do]40 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Sand 
+[When]{$p1}=Land[do]41 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Stone 
+[When]{$p1}=Land[do]42 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Storm 
+[When]{$p1}=Land[do]43 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Giant, Wood 
+[When]{$p1}=Land[do]44-56 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]20-33 [end]: Gnoll 
+[When]{$p1}=Land[do]57-64 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]34-55 [end]: Gnoll, Flind 
+[When]{$p1}=Land[do]65-71 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]56-70 [end]: Gnome 
+[When]{$p1}=Land[do]72-78 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]71-85 [end]: Goblin 
+[When]{$p1}=Land[do]79 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Goblin, Spider-eye 
+[When]{$p1}=Land[do]80 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Grippli 
+[When]{$p1}=Land[do]81-87 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]86 [end]: Half-elf 
+[When]{$p1}=Land[do]88-94 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]87 [end]: Halfling 
+[When]{$p1}=Land[do]95-100 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]88-100 [end]: Half-orc 
+EndTable:
+
+Table: 6-3B
+[When]{$p1}=Land[do]01-11 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]01-12 [end]: Hobgoblin 
+[When]{$p1}=Land[do]12-38 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]13-24 [end]: Human 
+[When]{$p1}=Land[do]39 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Ice Ghoul 
+[When]{$p1}=Land[do]40-50 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]25-37 [end]: Kobold 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]01-03 [end][When]{$p1}=Subterranean[do]38-40 [end]: Kuo-toa 
+[When]{$p1}=Land[do]51-61 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]41-50 [end]: Lizardfolk 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]04-37 [end][When]{$p1}=Subterranean[do]- [end]: Locathah 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]38-57 [end][When]{$p1}=Subterranean[do]- [end]: Merfolk 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]51-53 [end]: Brain Devourer 
+[When]{$p1}=Land[do]62 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]54-56 [end]: Mongrelman 
+[When]{$p1}=Land[do]63 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]57 [end]: Ogre, Ogrillon 
+[When]{$p1}=Land[do]64-90 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]58-69 [end]: Orc 
+[When]{$p1}=Land[do]91 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]70-72 [end]: Orog 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]73-75 [end]: Pech 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]58-77 [end][When]{$p1}=Subterranean[do]- [end]: Sahuagin 
+[When]{$p1}=Land[do]92 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]76 [end]: Slime Reaver 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]78-97 [end][When]{$p1}=Subterranean[do]- [end]: Triton 
+[When]{$p1}=Land[do]- [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]77-86 [end]: Troglodyte 
+[When]{$p1}=Land[do]93 [end][When]{$p1}=Sea[do]98-100 [end][When]{$p1}=Subterranean[do]87 [end]: Vampire* 
+[When]{$p1}=Land[do]94 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]88 [end]: Vegepygmy 
+[When]{$p1}=Land[do]95 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Wearboar* 
+[When]{$p1}=Land[do]96 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Werebear* 
+[When]{$p1}=Land[do]97 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]- [end]: Werefox* 
+[When]{$p1}=Land[do]98 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]89-98 [end]: Wererat* 
+[When]{$p1}=Land[do]99 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]99 [end]: Werewolf* 
+[When]{$p1}=Land[do]100 [end][When]{$p1}=Sea[do]- [end][When]{$p1}=Subterranean[do]100 [end]: Snake Men 
+EndTable:

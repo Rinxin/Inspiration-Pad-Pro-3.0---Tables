@@ -1,0 +1,54 @@
+; Table 2- Arctic Creature Encouters.ipt
+; created 12/6/2018 11:46:09 AM
+
+prompt: Terrain {Desert|Grassland|Forest|Hill|Mountain|Swamp}Grassland
+prompt: Difficulty {Easy|Hard}Easy
+
+Table: Main
+[@{$prompt2}_Arctic_Encounters]  
+EndTable:
+
+#Desert-Grassland-Forest-Hill-Mountain-Swamp
+#[When]{$prompt1}=Desert[do][end][When]{$prompt1}=Grassland[do][end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do][end]:
+Table: Easy_Arctic_Encounters
+Roll:1d1000
+001: {1d8}x[Achaierai]
+002: 1x[Aerial Servant]
+003: 1x [CR_5_Undead]
+004: {1d4}x[Amphisbaerna]
+005: {1d4}x[Apparition]
+006: {1d6}x [CR_4_Fiend]
+;[When]{$prompt1}=Desert[do]007-015[end][When]{$prompt1}=Grassland[do]007-012[end][When]{$prompt1}=Forest[do]007-012[end][When]{$prompt1}=Hill[do]007-012[end][When]{$prompt1}=Mountain[do]007-013[end][When]{$prompt1}=Swamp[do]007-013[end]:{1d6}x[CR_3_Monstrosity]
+;[When]{$prompt1}=Desert[do]016[end][When]{$prompt1}=Grassland[do]013[end][When]{$prompt1}=Forest[do]013[end][When]{$prompt1}=Hill[do]013[end][When]{$prompt1}=Mountain[do]014[end][When]{$prompt1}=Swamp[do]014[end]:{1d2}x[Basilisk, Greater]
+;[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do]014-038[end][When]{$prompt1}=Hill[do]014-035[end][When]{$prompt1}=Mountain[do]015-034[end][When]{$prompt1}=Swamp[do]0[end]:{1d2}x[CR_1_Beast]
+;[When]{$prompt1}=Desert[do]017-056[end][When]{$prompt1}=Grassland[do]014-046[end][When]{$prompt1}=Forest[do]039-063[end][When]{$prompt1}=Hill[do]036-057[end][When]{$prompt1}=Mountain[do]035-054[end][When]{$prompt1}=Swamp[do]015-047[end]:{1d2}x[CR_2_Beast]
+;[When]{$prompt1}=Desert[do]057-065[end][When]{$prompt1}=Grassland[do]047-052[end][When]{$prompt1}=Forest[do]064-070[end][When]{$prompt1}=Hill[do]058-063[end][When]{$prompt1}=Mountain[do]055-061[end][When]{$prompt1}=Swamp[do]048-054[end]:{1d2}x[CR_11_Monstrosity]
+;[When]{$prompt1}=Desert[do]066[end][When]{$prompt1}=Grassland[do]053[end][When]{$prompt1}=Forest[do]071[end][When]{$prompt1}=Hill[do]064[end][When]{$prompt1}=Mountain[do]062[end][When]{$prompt1}=Swamp[do]055[end]:{1d6}x[Eye Tyrant]
+;[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do]072[end][When]{$prompt1}=Hill[do]0[end][When]{$prompt1}=Mountain[do]0[end][When]{$prompt1}=Swamp[do]0[end]:{1d5}x[Bitter Tree]
+;[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do]073[end][When]{$prompt1}=Hill[do]0[end][When]{$prompt1}=Mountain[do]063[end][When]{$prompt1}=Swamp[do]0[end]:{2d2}x[Blood Sprite]
+;[When]{$prompt1}=Desert[do]067[end][When]{$prompt1}=Grassland[do]54[end][When]{$prompt1}=Forest[do]074[end][When]{$prompt1}=Hill[do]065[end][When]{$prompt1}=Mountain[do]064[end][When]{$prompt1}=Swamp[do]056[end]:{1d5}x[Bloody Bones]
+;[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do]0[end][When]{$prompt1}=Hill[do]0[end][When]{$prompt1}=Mountain[do]0[end][When]{$prompt1}=Swamp[do]057[end]:{1d10}x[Bog Mummy]
+;[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do]0[end][When]{$prompt1}=Hill[do]0[end][When]{$prompt1}=Mountain[do]0[end][When]{$prompt1}=Swamp[do]058-064[end]:{1d5}x[Boggart]
+;[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do]075[end][When]{$prompt1}=Hill[do]0[end][When]{$prompt1}=Mountain[do]0[end][When]{$prompt1}=Swamp[do]0[end]:{1d12}x[Carnivorous Tree]
+[When]{$prompt1}=Desert[do]068[end][When]{$prompt1}=Grassland[do]055[end][When]{$prompt1}=Forest[do]076[end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]065[end]:{1d5}x[Cave Cricket]
+[When]{$prompt1}=Desert[do]069-077[end][When]{$prompt1}=Grassland[do]056-061[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]066-072[end]:{1d13}x[CR_6_Monstrosity]
+[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:{1d4}x[Cobra Flower]
+[When]{$prompt1}=Desert[do]078[end][When]{$prompt1}=Grassland[do]062[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]073[end]:1x[Coffer Corpse]
+[When]{$prompt1}=Desert[do]079[end][When]{$prompt1}=Grassland[do]063[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]074[end]:{1d9}x[Cooshee]
+[When]{$prompt1}=Desert[do]080[end][When]{$prompt1}=Grassland[do]064[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]075[end]:1x[Corpse Whisperer]
+[When]{$prompt1}=Desert[do]081[end][When]{$prompt1}=Grassland[do]065[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]076[end]:1x[Dananshee]
+[When]{$prompt1}=Desert[do]082[end][When]{$prompt1}=Grassland[do]066[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]077[end]:{1d4}x[Darnoc]
+[When]{$prompt1}=Desert[do]083[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:1x[Death Worm]
+[When]{$prompt1}=Desert[do]084[end][When]{$prompt1}=Grassland[do]067[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]078[end]:1x[Demiurge]
+[When]{$prompt1}=Desert[do]085-093[end][When]{$prompt1}=Grassland[do]068-073[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]079[end]:{1d16}x[Devil Dog]
+[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]074-079[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:{1d2}x[Dire Bear]
+[When]{$prompt1}=Desert[do]094[end][When]{$prompt1}=Grassland[do]0[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:{1d12}x[Dire Goat]
+[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]080-085[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:{1d10}x[Dire Lion]
+[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]086[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:{1d5}x[Dire Porcupine]
+[When]{$prompt1}=Desert[do]095-134[end][When]{$prompt1}=Grassland[do]087-119[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]080-112[end]:{1d20}x[Dire Rat]
+[When]{$prompt1}=Desert[do]0[end][When]{$prompt1}=Grassland[do]120-125[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]0[end]:{1d2}x[Dire Tiger]
+[When]{$prompt1}=Desert[do]135[end][When]{$prompt1}=Grassland[do]126[end][When]{$prompt1}=Forest[do][end][When]{$prompt1}=Hill[do][end][When]{$prompt1}=Mountain[do][end][When]{$prompt1}=Swamp[do]113[end]:{1d8}x [CR_1_Beast]
+
+
+
+[When]{$prompt1}=Desert[do]481-1000[end][When]{$prompt1}=Grassland[do]550-1000[end][When]{$prompt1}=Forest[do]569-1000[end][When]{$prompt1}=Hill[do]569-1000[end][When]{$prompt1}=Mountain[do]565-1000[end][When]{$prompt1}=Swamp[do]586-1000[end]:No Encounter

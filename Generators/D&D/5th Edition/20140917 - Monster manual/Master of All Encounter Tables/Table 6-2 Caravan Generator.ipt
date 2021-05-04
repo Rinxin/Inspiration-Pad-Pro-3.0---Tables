@@ -1,0 +1,149 @@
+; Table 6-2 Caravan Generator.ipt
+; created 10/30/2018 8:12:38 AM
+
+ Set:value={@6-2A};
+ 
+
+Table: 6-2
+<u>Caravan</u>\n Caravan's Value is [@Value=6-2A]\n<u>Caravan's Goods</u>\n [@6-2B]\n [@6-2C]
+EndTable:
+
+table: variables
+{value}
+endtable:
+
+Table: 6-2A
+01-25:Poor (0-25 gp)
+26-50:Struggling (26-250 gp)
+51-80:Average (250-2,500 gp)
+81-96:Valuable (2,500-25,000 gp)
+97-100:Exotic (25,000+ gp) 
+EndTable:
+
+Table: 6-2B
+[When]Value=[#1 6-2A][do]01-36[end][When]Value=[#26 6-2A][do]01-30[end][When]Value=[#51 6-2A][do]01-35[end][When]Value=[#81 6-2A][do]01-30[end][When]Value=[#97 6-2A][do]01-59[end]: [@6-2B-I]
+[When]Value=[#1 6-2A][do]37-52[end][When]Value=[#26 6-2A][do]31-65[end][When]Value=[#51 6-2A][do]36-72[end][When]Value=[#81 6-2A][do]31-59[end][When]Value=[#97 6-2A][do]60-63[end]: [@6-2B-II]
+[When]Value=[#1 6-2A][do]53-00[end][When]Value=[#26 6-2A][do]66-00[end][When]Value=[#51 6-2A][do]73-00[end][When]Value=[#81 6-2A][do]60-00[end][When]Value=[#97 6-2A][do]64-00[end]: [@6-2B-III] 
+EndTable:
+
+Table: 6-2B-I
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]-[end][When]Value=[#97 6-2A][do]01[end]: Adamantine 800(gp/lb)
+[When]Value=[#01 6-2A][do]01-08 [end][When]Value=[#26 6-2A][do]01-10 [end][When]Value=[#51 6-2A][do]01-12 [end][When]Value=[#81 6-2A][do]01-02 [end][When]Value=[#97 6-2A][do]-[end]: Ale 0.5(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]03 [end][When]Value=[#97 6-2A][do]02-07[end]: Amber 80(gp/lb)
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]13-14 [end][When]Value=[#81 6-2A][do]04-05 [end][When]Value=[#97 6-2A][do]-[end]: Animals, Wild 1.25(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]15-16 [end][When]Value=[#81 6-2A][do]06-15 [end][When]Value=[#97 6-2A][do]08-09[end]: Armor 3.75(gp/lb)
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]10-15[end]: Artwork 700(gp/lb)
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]17-18 [end][When]Value=[#81 6-2A][do]16-17 [end][When]Value=[#97 6-2A][do]16[end]: Books 3(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]19-30 [end][When]Value=[#81 6-2A][do]18-19 [end][When]Value=[#97 6-2A][do]-[end]: Bronze 2.5(gp/lb) 
+[When]Value=[#01 6-2A][do]09-23 [end][When]Value=[#26 6-2A][do]11-20 [end][When]Value=[#51 6-2A][do]31-32 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Chalk 0.13(gp/lb) 
+[When]Value=[#01 6-2A][do]24-48 [end][When]Value=[#26 6-2A][do]21-30 [end][When]Value=[#51 6-2A][do]33-34 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Cheese 0.3(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]31 [end][When]Value=[#51 6-2A][do]35-47 [end][When]Value=[#81 6-2A][do]20-21 [end][When]Value=[#97 6-2A][do]-[end]: Cloth 1.25(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]48-60 [end][When]Value=[#81 6-2A][do]22-70 [end][When]Value=[#97 6-2A][do]-[end]: Clothing 2.25(gp/lb) 
+[When]Value=[#01 6-2A][do]49-73 [end][When]Value=[#26 6-2A][do]32-49 [end][When]Value=[#51 6-2A][do]61-63 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Coal 0.125(gp/lb) 
+[When]Value=[#01 6-2A][do]74-77 [end][When]Value=[#26 6-2A][do]50-57 [end][When]Value=[#51 6-2A][do]64-65 [end][When]Value=[#81 6-2A][do]71-72 [end][When]Value=[#97 6-2A][do]-[end]: Coffee 0.75(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]58-65 [end][When]Value=[#51 6-2A][do]66-75 [end][When]Value=[#81 6-2A][do]73-74 [end][When]Value=[#97 6-2A][do]-[end]: Copper 0.5(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]75 [end][When]Value=[#97 6-2A][do]17-22[end]: Cosmetics 150(gp/lb) 
+[When]Value=[#01 6-2A][do]78-92 [end][When]Value=[#26 6-2A][do]66-82 [end][When]Value=[#51 6-2A][do]76-78 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Cotton 0.1(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]76-77 [end][When]Value=[#97 6-2A][do]23-58[end]: Dyes 125(gp/lb) 
+[When]Value=[#01 6-2A][do]93-100 [end][When]Value=[#26 6-2A][do]83-98 [end][When]Value=[#51 6-2A][do]79-88 [end][When]Value=[#81 6-2A][do]78[end][When]Value=[#97 6-2A][do]-[end]: Fruit 0.75(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]99 [end][When]Value=[#51 6-2A][do]89-98 [end][When]Value=[#81 6-2A][do]79-88 [end][When]Value=[#97 6-2A][do]-[end]: Furs 2(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]59-64[end]: Gems 7000(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]00 [end][When]Value=[#51 6-2A][do]99-00 [end][When]Value=[#81 6-2A][do]89-90 [end][When]Value=[#97 6-2A][do]-[end]: Glass 0.625(gp/lb) 
+[When]Value=[#01 6-2A][do]00 [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]91-100 [end][When]Value=[#97 6-2A][do]65-100[end]: Gold 50(gp/lb) 
+EndTable:
+
+Table: 6-2B-II
+[When]Value=[#01 6-2A][do]01-35 [end][When]Value=[#26 6-2A][do]01-17 [end][When]Value=[#51 6-2A][do]01-08 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Grain 0.3(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]18 [end][When]Value=[#51 6-2A][do]09 [end][When]Value=[#81 6-2A][do]01-03 [end][When]Value=[#97 6-2A][do]-[end]: Hardwood 1(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]10-22 [end][When]Value=[#81 6-2A][do]04-47 [end][When]Value=[#97 6-2A][do]-[end]: Herbs 3.25(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]19-28 [end][When]Value=[#51 6-2A][do]23-35 [end][When]Value=[#81 6-2A][do]48-50 [end][When]Value=[#97 6-2A][do]-[end]: Horses See PHB(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]36 [end][When]Value=[#81 6-2A][do]51-60 [end][When]Value=[#97 6-2A][do]01-72[end]: Incense 3.5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]37-38 [end][When]Value=[#81 6-2A][do]61-70 [end][When]Value=[#97 6-2A][do]-[end]: Ink 2.75(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]29 [end][When]Value=[#51 6-2A][do]39-51 [end][When]Value=[#81 6-2A][do]71-80 [end][When]Value=[#97 6-2A][do]-[end]: Iron 1.25(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]52 [end][When]Value=[#81 6-2A][do]81-83 [end][When]Value=[#97 6-2A][do]73-76[end]: Ivory 1.75(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]53 [end][When]Value=[#81 6-2A][do]84-86 [end][When]Value=[#97 6-2A][do]77-80[end]: Jade 2.25(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]81-84[end]: Jewelry 1500(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]30-33 [end][When]Value=[#51 6-2A][do]54-55 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Lead 0.875(gp/lb) 
+[When]Value=[#01 6-2A][do]36-41 [end][When]Value=[#26 6-2A][do]34-43 [end][When]Value=[#51 6-2A][do]56-68 [end][When]Value=[#81 6-2A][do]87-89 [end][When]Value=[#97 6-2A][do]-[end]: Leather 0.625(gp/lb) 
+[When]Value=[#01 6-2A][do]42-76 [end][When]Value=[#26 6-2A][do]44-60 [end][When]Value=[#51 6-2A][do]69-76 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Livestock 0.375(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]90 [end][When]Value=[#97 6-2A][do]85-88[end]: Magic Items See DMG(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]61 [end][When]Value=[#51 6-2A][do]77-78 [end][When]Value=[#81 6-2A][do]91 [end][When]Value=[#97 6-2A][do]-[end]: Marble 2(gp/lb) 
+[When]Value=[#01 6-2A][do]77-88 [end][When]Value=[#26 6-2A][do]62-71 [end][When]Value=[#51 6-2A][do]79-86 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Meat Foods 0.45(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]92 [end][When]Value=[#97 6-2A][do]89-92[end]: Medicine 175(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]93 [end][When]Value=[#97 6-2A][do]93-96[end]: Mirrors 4(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]94 [end][When]Value=[#97 6-2A][do]97-100[end]: Mithril 500(gp/lb) 
+[When]Value=[#01 6-2A][do]89-100 [end][When]Value=[#26 6-2A][do]72-75 [end][When]Value=[#51 6-2A][do]87-88 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Nuts 0.375(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]89 [end][When]Value=[#81 6-2A][do]95 [end][When]Value=[#97 6-2A][do]-[end]: Obsidian 1.5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]76-92 [end][When]Value=[#51 6-2A][do]90-97 [end][When]Value=[#81 6-2A][do]96-98 [end][When]Value=[#97 6-2A][do]-[end]: Oil, Lamp 0.5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]93-96 [end][When]Value=[#51 6-2A][do]98-99 [end][When]Value=[#81 6-2A][do]99 [end][When]Value=[#97 6-2A][do]-[end]: Oil, Olive 0.75(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]97-100 [end][When]Value=[#51 6-2A][do]00 [end][When]Value=[#81 6-2A][do]00 [end][When]Value=[#97 6-2A][do]-[end]: Oil, Whale 0.75(gp/lb) 
+EndTable:
+
+Table: 6-2B-III
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]01 [end][When]Value=[#81 6-2A][do]01-02 [end][When]Value=[#97 6-2A][do]-[end]: Paper 1.125(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]02 [end][When]Value=[#81 6-2A][do]03-04 [end][When]Value=[#97 6-2A][do]01-04[end]: Pipeweed 1.85(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]05 [end][When]Value=[#97 6-2A][do]05-15[end]: Platinum 500(gp/lb) 
+[When]Value=[#01 6-2A][do]01-07 [end][When]Value=[#26 6-2A][do]01-05 [end][When]Value=[#51 6-2A][do]03 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Rice 0.325(gp/lb) 
+[When]Value=[#01 6-2A][do]08-38 [end][When]Value=[#26 6-2A][do]06-10 [end][When]Value=[#51 6-2A][do]04 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Rope, Hemp 0.1(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]11-13 [end][When]Value=[#51 6-2A][do]05-14 [end][When]Value=[#81 6-2A][do]06-07 [end][When]Value=[#97 6-2A][do]-[end]: Rope, Silk 0.5(gp/lb) 
+[When]Value=[#01 6-2A][do]39-47 [end][When]Value=[#26 6-2A][do]14-18 [end][When]Value=[#51 6-2A][do]15 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Salt 0.35(gp/lb) 
+[When]Value=[#01 6-2A][do]48-54 [end][When]Value=[#26 6-2A][do]19-43 [end][When]Value=[#51 6-2A][do]16 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Seafood 0.4(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]44-47 [end][When]Value=[#51 6-2A][do]17 [end][When]Value=[#81 6-2A][do]08-09 [end][When]Value=[#97 6-2A][do]-[end]: Silks 0.75(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]10-20 [end][When]Value=[#97 6-2A][do]16-26[end]: Silver 5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]18 [end][When]Value=[#81 6-2A][do]21-22 [end][When]Value=[#97 6-2A][do]27-30[end]: Slaves 0.5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]23-24 [end][When]Value=[#97 6-2A][do]31-41[end]: Spell Components 10(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]- [end][When]Value=[#81 6-2A][do]25-49 [end][When]Value=[#97 6-2A][do]42-92[end]: Spice 5(gp/lb) 
+[When]Value=[#01 6-2A][do]55-62 [end][When]Value=[#26 6-2A][do]48-52 [end][When]Value=[#51 6-2A][do]19-22 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Stone 0.125(gp/lb) 
+[When]Value=[#01 6-2A][do]63-71 [end][When]Value=[#26 6-2A][do]53-56 [end][When]Value=[#51 6-2A][do]23-24 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Sugar 0.4(gp/lb) 
+[When]Value=[#01 6-2A][do]72-79 [end][When]Value=[#26 6-2A][do]57-59 [end][When]Value=[#51 6-2A][do]25-34 [end][When]Value=[#81 6-2A][do]50-51 [end][When]Value=[#97 6-2A][do]-[end]: Tea 0.45(gp/lb) 
+[When]Value=[#01 6-2A][do]80-86 [end][When]Value=[#26 6-2A][do]60-64 [end][When]Value=[#51 6-2A][do]35 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Timber 0.15(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]65-67 [end][When]Value=[#51 6-2A][do]36 [end][When]Value=[#81 6-2A][do]52 [end][When]Value=[#97 6-2A][do]-[end]: Tin 0.5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]37-46 [end][When]Value=[#81 6-2A][do]53-62 [end][When]Value=[#97 6-2A][do]-[end]: Tools 2(gp/lb) 
+[When]Value=[#01 6-2A][do]87-93 [end][When]Value=[#26 6-2A][do]68-92 [end][When]Value=[#51 6-2A][do]47 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Vegetables 0.25(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]93-95 [end][When]Value=[#51 6-2A][do]48 [end][When]Value=[#81 6-2A][do]63 [end][When]Value=[#97 6-2A][do]-[end]: Wax 0.625(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]49 [end][When]Value=[#81 6-2A][do]64-73 [end][When]Value=[#97 6-2A][do]93-96[end]: Weapons 3.5(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]50-74 [end][When]Value=[#81 6-2A][do]74-75 [end][When]Value=[#97 6-2A][do]-[end]: Wheat 3(gp/lb) 
+[When]Value=[#01 6-2A][do]- [end][When]Value=[#26 6-2A][do]- [end][When]Value=[#51 6-2A][do]75-99 [end][When]Value=[#81 6-2A][do]76-00 [end][When]Value=[#97 6-2A][do]97-100[end]: Wine 2.5(gp/lb) 
+[When]Value=[#01 6-2A][do]94-100 [end][When]Value=[#26 6-2A][do]96-100 [end][When]Value=[#51 6-2A][do]100 [end][When]Value=[#81 6-2A][do]- [end][When]Value=[#97 6-2A][do]-[end]: Wool 0.36(gp/lb) 
+EndTable:
+
+Table: 6-2C
+Pack beast (150 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#1 6-2E]
+Cart (200 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#1 6-2E] 
+Sled (300 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#2 6-2E]  
+Wagon (400 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#3 6-2E]  
+Riverboat (4,000 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#4 6-2E]  
+Barge (20,000 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#5 6-2E]  
+Merchant ship, small (200,000 lbs.) \n\t<u>NPC Quality</u>\n[@6-2D-filter]\n<u>NPCs</u>\n [#6 6-2E] 
+Merchant ship, medium (300,000 lbs.) \n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#7 6-2E]  
+Merchant ship, large (550,000 lbs.)\n<u>NPC Quality</u>\n\t [@6-2D-filter]\n<u>NPCs</u>\n [#8 6-2E]  
+EndTable:
+
+Table: 6-2D-filter
+[When]{value}=[#01 6-2A][do][#1 6-2D][else][!6-2D-filter][end]
+[When]{value}=[#26 6-2A][do][#2 6-2D][else][!6-2D-filter][end]
+[When]{value}=[#51 6-2A][do][#3 6-2D][else][!6-2D-filter][end]
+[When]{value}=[#81 6-2A][do][#4 6-2D][else][!6-2D-filter][end]
+[When]{value}=[#97 6-2A][do][#5 6-2D][else][!6-2D-filter][end]
+EndTable:
+
+Table: 6-2D
+type: dictionary
+1:Leader: Com1-3, Laborers: Com1
+2:Leader: Com 1-4, Laborers: Com 1-2, Guards: War1
+3:Leader: Exp1-3, Laborers: Com1, Guards: War1, Lieutenants: Ftr2 
+4:Leader: Exp4-6, Laborers: Com3, Guards: War3, Lieutenants: Ftr5  
+5:Leader: Exp6-9, Laborers: War3, Guards: Ftr3, Lieutenants: Classed NPCs of level 4-8  
+EndTable:
+
+Table: 6-2E
+Type: Lookup
+1: Cart Leader: 1 overall, Laborers: 1/wagon
+2: Sled Leader: 1 overall, Laborers: 1/sled
+3: Wagon Leader: 1 overall, Laborers: 1/wagon, Guards: 1/wagon, Lieutenants: 1 per 3 wagons
+4: Riverboat Leader: 1 overall, Laborers: 2-4/boat, Guards: 1/boat, Lieutenants: 1 per 3 boats
+5: Barge Leader: 1 overall, Laborers: 4-8/barge, Guards: 2-4/barge, Lieutenants: 1 per 2 barges
+6: Merch. ship, S Leader: 1 overall, Laborers: 20 sailors, Guards: 2 marines, Lieutenants: 1/ship
+7: Merch. ship, M Leader: 1 overall, Laborers: 30 sailors, Guards: 4 marines, Lieutenants: 2/ship
+8: Merch. ship, L Leader: 1 overall, Laborers: 90 sailors, Guards: 10 marines, Lieutenants: 3/ship
+EndTable:

@@ -1,0 +1,3630 @@
+; Table 2-1A Arctic Creature Encounters-Daytime.ipt
+; created 10/11/2018 10:32:29 PM
+
+Prompt: Terrain Type {Desert|Plains|Forest|Hill|Mountain|Marsh} Forest
+prompt: Time {Daytime|Nighttime} Daytime
+
+Table: Table 2
+[@2-1A] 
+EndTable:
+
+#Arctic-Daytime
+Table: 2-1A
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Allip 3 1 MM 003 003 003 003 003 003
+Amphisbaena 4 1-4 ToH 004 004 004 004 004 004
+Apparition 7 1-4 ToH 005 005 005 005 005 005
+Barghest 4 1-6 MM 006 006 006 006 006 006
+Basilisk, Common 5 1-6 MM 007-015 007-012 007-012 007-012 007-013 007-013
+Basilisk, Greater 7 1-2 ToH 016 013 013 013 014 014
+Bear, Brown 2 1-2 MM - - 014-038 014-035 015-034 -
+Bear, Polar 4 1-2 MM 017-056 014-046 039-063 036-057 035-054 015-047
+Behir 8 1-2 MM 057-065 047-052 064-070 058-063 055-061 048-054
+Eye Tyrant 13 1-6 MM 066 053 071 064 062 055
+Bitter tree or DM’s choice 10 1-5 CC2 - - 072 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 073 - 063 -
+Bloody Bones 4 1-5 ToH 067 054 074 065 064 056
+Bog Mummy 6 1-10 ToH - - - - - 057
+Boggart 7 1-5 ToH - - - - - 058-064
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 075 - - -
+Cave Cricket 1 1-5 ToH 068 055 076 066 065 065
+Chimera 7 1-13 MM 069-077 056-061 077-081 067-072 066-072 066-072
+Cobra Flower 4 1-4 ToH - - 082 - 073 -
+Coffer Corpse 3 1 ToH 078 062 083 073 074 073
+Cooshee 2 1-9 ToH 079 063 084-089 074-079 075 074
+Corpse Whisperer or DM’s choice 15 var 1 CC2 080 064 090 080 076 075
+Dananshee or DM’s choice 16 var 1 CC2 081 065 091 081 077 076
+Darnoc 6 1-4 ToH 082 066 092 082 078 077
+Death Worm 6 1 ToH 083 - - - - -
+Demiurge 6 1 ToH 084 067 093 083 079 078
+Devil Dog 3 1-16 ToH 085-093 068-073 094-099 084-089 080-086 079
+Dire Bear 7 1-2 MM - 074-079 100-105 090-095 087-093 -
+Dire Goat 2 1-12 ToH 094 - 106 096-101 094-100 -
+Dire Lion 5 1-10 MM - 080-085 107-112 102-107 101-107 -
+Dire Porcupine 3 1-5 ToH - 086 113-118 108-113 - -
+Dire Rat 1/3 1-20 MM 095-034 087-119 119-143 114-135 108-127 080-112
+Dire Tiger 8 1-2 MM - 120-125 144-149 136-141 128-134 -
+Dire Wolf 3 1-8 MM 035 126 150 142 135 113
+Dog (wild) 1/3 1-12 MM 036-075 127-159 151-175 143-164 136-155 114-146
+Dog, War (wild-riding) 1 1-12 MM 076-115 160-192 176-200 165-186 156-175 147-179
+Doppleganger 3 1-6 MM 116 193 201 187 176 180
+Dracolisk, Black 7 1-6 ToH 117 194 202 188 177 181
+Dracolisk, Blue 7 1-6 ToH 118 195 203 189 178 182
+Dracolisk, Green 7 1-6 ToH 119 196 204 190 179 183
+Dracolisk, Red 7 1-6 ToH 120 197 205 191 180 184
+Dracolisk, White 7 1-6 ToH 121 198 206 192 181 185
+Dragon, Black 8 var 1 MM - - - - - 186-218
+Dragon, Gold 8 var 1 MM 122 199 207 193 182 219
+Dragon, White 8 var 1 MM 123-162 200-232 208-232 194-215 183-202 220-252
+Drake, Ice 4 1-8 ToH - - - 216 203 -
+Eagle 1/2 1-2 MM - 233-238 233-238 217-221 204-210 -
+Elemental, Air 29 var 1-4 MM 163 239 239 222 211 253
+Elemental, Earth 29 var 1-4 MM 164 240 240 223 212 254
+Elemental, Fire 29 var 1-4 MM 165 - - 224 213 -
+Elemental, Water 29 var 1-4 MM - - - - - 255
+Emperor Stag or DM’s choice 6 1 CC1 - - 241 - - -
+Ettin 5 1-4 MM - - - 225 214 -
+Fatling or DM’s choice 5 1 CC1 166 241 242 226 215 256
+Fen Witch 5 1 ToH - - - - - 257
+Feral or DM’s choice 12 var 1-15 CC1 167 242 243 227 216 258
+Fire Nymph 7 1 ToH 168 243 244 228 217 259
+Fire Snake 1 1-5 ToH 169 244 245 229 218 300
+Flail Snail 3 1 ToH 170 245 246 230 219 301
+Frost Man 2 1 ToH 171 246 247 231 220
+Gargoyle 4 1-16 MM 172-180 247-252 248-253 232-237 221-227 302-308
+Gargoyle, Green Guardian 4 1-16 ToH 181 253 254 238 228 309
+Gargoyle, Margoyle 5 1-2 ToH 182 254 255 239 229 310
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 183 255 256 240 230 311
+Genie, Djinni 5 1-15 MM 184 256 257 241 231 312
+Genie, Efreeti 8 1-15 MM 185 257 258 242 232 313
+Genie, Janni 4 1-15 MM 186 258 259 243 233 314
+Giant Eagle 3 1-2 MM 259 260 244 234 -
+Giant, Fire 10 1-5 MM 187 - - 245 235 -
+Giant, Fire (hunting party) 32 var 6-9 MM 188 - 261 246 236 -
+Giant, Frost 9 1-5 MM 189-197 260-265 262-267 247-252 237-243 315-321
+Giant, Frost (hunting party) 33 var 6-9 MM 198-206 266-271 268-273 253-258 244-250 321-328
+Giant, Hill 7 1-5 MM 259-280 251-270
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 281-302 271-290 -
+Giant, Stone 8 1-5 MM - - - 303 291-310 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 304 311-317 -
+Gorgimera 8 1-2 ToH 207 272 274 305 318 329
+Gray Render 8 1 MM 208-216 273-278 275-280 306-311 319-325 330-336
+Groaning Spirit 7 1 ToH 217 279 281 312 326 337
+Hag (covey) 18 var 3 MM 218 280 282 313 327 338
+Hag, Annis 6 1 MM 219 281 283 314 328 339
+Hag, Ice or DM’s choice 6 1-2 CC1 220 282 284 315 329 340
+Hag, Storm or DM’s choice 7 1-2 CC1 221 283 - 316 330 -
+Hangman Tree 6 1 ToH - - 285 - - -
+Haunt 4 1 ToH 222 284 286 317 331 341
+Hell Hound 3 1-12 MM 223 285 287 318 332 342
+Hoar Fox 2 1-5 ToH 224-232 286-291 288-293 319-324 333-340 343-349
+Hobgoblin 1/2 4-9 MM - 292 294 325 - -
+Hobgoblin (warband) 1/2 10-24 MM - 293 295 326 - -
+Homunculus 1 1 MM 233 294 296 327 341 350
+Horse, Heavy (wild) 1 1-30 MM 234 295 297 328 342 351
+Huecuva 3 1-10 ToH 235 296 298 329 343 352
+Hydra 1 var 1 MM - - - - - 353-359
+Ice Basilisk or DM’s choice 7 1-5 CC1 236-244 297-302 299-304 330-335 344-350 360-366
+Ice Ghoul (war party) or DM’s choice 9 var 11-20 CC1 245 303-308 305-310 336 351 367-373
+Ice Ghoul (hunting party) or DM’s choice 1 2-8 CC1 246 309-314 311-316 337 352 374-380
+Invisible Stalker 7 1 MM 247 315 317 338 353 381
+Kech 3 2-8 ToH - - 318 - - -
+Kobold 1/6 4-9 MM - - 319 - - -
+Lamia 6 1-4 MM 248 - - 339 - -
+Leech, Giant 2 2-15 ToH - - - - - 382-388
+Medusa 7 1-4 MM 249 316 320 340 354 389
+Mimic 4 1 MM 250-258 321 321-326 341-346 355-361 390-396
+Mongrelman 1 1-5 ToH 259 322 327 347 362 397
+Moose 3 1 ToH - 323-327 328-333 348-353 - -
+Mummy 3 1-10 MM 260 - - - - -
+Night Hag 9 1 or 3 MM 261 328 334 354 363 398
+Nymph 6 1 MM 262 329 335 355 364 399
+Ogre 2 1-8 MM 263-271 330-335 336-360 356-377 365-384 400-406
+Ogre Mage 22 var 1-2 MM 272 336 361 378 385 407
+Ogre, Half-Ogre 1 1-8 ToH 273 337-341 362-367 379-384 386 408
+Ogre, Ogrillon 1 1-5 ToH 274 342-347 368-373 385-390 387 409
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 275 348-353 374-379 391-396 388 410
+Ooze, Black Pudding 7 1 MM - - - - - 411-417
+Ooze, Gray Ooze 4 1 MM - - - - - 418
+Ooze, Mustard Jelly 7 1 ToH - - - - - 419
+Ooze, Ochre Jelly 5 1 MM - - - - - 420-426
+Ooze, Undead or DM’s choice 4 1 CC1 276 354 380 397 389 427
+Ooze, White Pudding 10 1 ToH 277-285 355-360 381-386 398-403 390-396 428-434
+Orc 1/2 2-4 MM 286 361 387 404 397 435
+Orc (squad) 21 var 11-20 MM 287 362 388 405 398 436
+Orog 1 1-4 ToH 288-296 363-368 389-394 406-411 399-405 437-443
+Orog (squad) 21 var 11-20 ToH 297-305 369-374 395-400 412-417 406-412 444-450
+Phase Spider 5 1-5 MM 306 375 401 418 413 451
+Quipper 1/4 5-100 ToH - - - - - 452
+Rat Swarm 1/8 20-100 MM 307 376 402 419 414 453
+Rat, Ethereal 2 6-11 ToH 308 377 403 420 415 454
+Ratman, Daywalker or DM’s choice 1 1-2 CC2 309 - - - - -
+Ratman, Daywalker (warband) or DM’s choice 10 var 10-120 CC2 310 - - - - -
+Remorhaz 7 1 MM 311-319 378-383 404 421 416 455-461
+Salamander 2 1-5 MM 320 384 405 422 417 462
+Salamander, Flamebrother 5 1-5 MM 321 385 406 423 418 463
+Salamander, Noble 9 1-14 MM 322 386 407 424 419 464
+Sand Mummy or DM’s choice 3 1 CC2 323 - - - - -
+Sandling 2 1 ToH 324-332 387 408 425 420 465
+Sandman 3 1-4 ToH 333-341 388 409 426 421 466
+Skeleton 5 var var MM 342-350 389-394 410-415 427-432 422-428 467-473
+Spriggan 4 1-12 ToH 351 395 416 433 429 474
+Sprite 1 2-12 ToH - 396 417 - - -
+Sprite Tribe 1 10-100 ToH - 397 418 - - -
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 475
+Taer 2 1-40 ToH - - - 434 430-436 -
+Tenebrous Worm 8 1 ToH 352 398 419 435 437 476
+Tentamort 4 1-5 ToH - - - - - 477
+Therianthrope, Foxwere 2 1-5 ToH - 399 420 - - 478
+Therianthrope, Jackalwere 2 1-5 ToH 353 400 421 436 438 479
+Therianthrope, Wolfwere 3 1-5 ToH - 401 422 437 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 402 423 438 - -
+Thunder Beast 4 5-20 ToH 354 403 - 439 - -
+Tiger 4 1 MM 404-409 424-429 440-445 439-445 -
+Titan 21 1-2 MM 355 410 430 446 446 480
+Treant 8 1-7 MM - - 431-436 - - -
+Troglodyte 1 2-5 MM - - - - 447 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 448 -
+Troll 5 1-4 MM 356-395 411-443 437-461 447-468 449-468 481-513
+Troll, Ice 3 3-6 ToH 396-435 444-476 462-486 469-490 469-488 514-546
+Troll, Swamp 3 1-4 ToH - - - - - 547
+Troll, Two-headed 6 1-4 ToH 436 477 487 491 489 548
+Winter Wolf 5 1-5 MM 437-476 478-510 488-512 492-513 490-509 549-581
+Wolf 1 1-16 MM - 511-543 513-537 514-535 510-539 -
+Wolf, Ghoul Wolf 2 1-16 ToH 477 544 538 536 540 582
+Wolverine 2 1 MM - - 539-563 537-558 - -
+Worg 2 1-11 MM - 545 564 559 541 -
+Xorn 6 1-5 MM 478 546 565 560 542 583
+Yeti 4 1-4 ToH - 547 566 561-566 543-562 -
+Zombie 4 var var MM 479 548 567 567 563 584
+Zombie, Juju 3 var var ToH 480 549 568 568 564 585
+NO ENCOUNTER - - - 481-1000 550-1000 569-1000 569-1000 565-1000 586-1000
+EndTable:
+
+#Arctic-Nighttime
+Table: 2-1B
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Allip 3 1 MM 003 003 003 003 003 003
+Amphisbaena 4 1-4 ToH 004 004 004 004 004 004
+Apparition 7 1-4 ToH 005 005 005 005 005 005
+Barghest 4 1-6 MM 006 006 006 006 006 006
+Basilisk, Common 5 1-6 MM 007-012 007-011 007-011 007-011 007-011 007-011
+Basilisk, Greater 7 1-2 ToH 013 012 012 012 012 012
+Bear, Brown 2 1-2 MM - - 013-039 013-035 013-032 -
+Bear, Polar 4 1-2 MM 014-056 013-049 040-066 036-058 033-052 013-049
+Behir 8 1-2 MM 057-062 050-054 067-071 059-063 053-057 050-054
+Eye Tyrant 13 1-6 MM 063 055 072 064 058 055
+Bitter tree or DM’s choice 10 1-5 CC2 - - 073 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 074 - 059 -
+Bloody Bones 4 1-5 ToH 064 056 075 065 060 056
+Bodak 8 1-4 MM 065 057 076 066 061 057
+Bog Mummy 6 1-10 ToH - - - - - 058
+Boggart 7 1-5 ToH - - - - - 059-063
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 077 - - -
+Cave Cricket 1 1-5 ToH 066 058 078 067 062 064
+Chimera 7 1-13 MM 067-072 059-063 079-083 068-072 063-067 065-069
+Cobra Flower 4 1-4 ToH - - 084 - 068 -
+Coffer Corpse 3 1 ToH 073 064 085 073 069 070
+Cooshee 2 1-9 ToH 074 065 086 074 070 071
+Corpse Whisperer or DM’s choice 15 var 1 CC2 075 066 087 075 071 072
+Dananshee or DM’s choice 16 var 1 CC2 076 067 088 076 072 073
+Darnoc 6 1-4 ToH 077 068 089 077 073 074
+Death Worm 6 1 ToH 078 - - - - -
+Demiurge 6 1 ToH 079 069 090 078 074 075
+Devil Dog 3 1-16 ToH 080-085 070-074 091-095 079-083 075-079 076
+Dire Bear 7 1-2 MM - 075-079 096-100 084-088 080-084 -
+Dire Goat 2 1-12 ToH 086 - 101 089-093 085-089 -
+Dire Lion 5 1-10 MM - 080-084 102-106 094-098 090-094 -
+Dire Porcupine 3 1-5 ToH - 085 107-111 099-103 - -
+Dire Rat 1/3 1-20 MM 087-308 086-232 112-253 104-244 095-241 077-304
+Dire Tiger 8 1-2 MM - 233-237 254-258 245-249 242-246 -
+Dire Wolf 3 1-8 MM 309-314 238-242 259-263 250-254 247-251 305-309
+Dog (wild) 1/3 1-12 MM 315 243 264 255 252 310
+Dog, War (wild-riding) 1 1-12 MM 316 244 265 256 253 311
+Doppleganger 3 1-6 MM 317 245 266 257 254 312
+Dracolisk, Black 7 1-6 ToH 318 246 267 258 255 313
+Dracolisk, Blue 7 1-6 ToH 319 247 268 259 256 314
+Dracolisk, Green 7 1-6 ToH 320 248 269 260 257 315
+Dracolisk, Red 7 1-6 ToH 321 249 270 261 258 316
+Dracolisk, White 7 1-6 ToH 322 250 271 262 259 317
+Dragon, Black 8 var 1 MM - - - - - 318-354
+Dragon, Gold 8 var 1 MM 323 251 272 263 260 355
+Dragon, White 8 var 1 MM 324-366 252-288 273-299 264-286 261-280 356-392
+Drake, Ice 4 1-8 ToH - - - 287 281 -
+Elemental, Air 29 var 1-4 MM 367 289 300 288 282 393
+Elemental, Earth 29 var 1-4 MM 368 290 301 289 283 394
+Elemental, Fire 29 var 1-4 MM 369 - - 290 284 -
+Elemental, Water 29 var 1-4 MM - - - - - 395
+Emperor Stag or DM’s choice 6 1 CC1 - - 302 - - -
+Ettin 5 1-4 MM - - - 291 285 -
+Fatling or DM’s choice 5 1 CC1 370 291 303 292 286 396
+Fen Witch 5 1 ToH - - - - - 397
+Feral or DM’s choice 12 var 1-15 CC1 371 292 304 293 287 398
+Fire Nymph 7 1 ToH 372 293 305 294 288 399
+Fire Snake 1 1-5 ToH 373 294 306 295 289 400
+Flail Snail 3 1 ToH 374 295 307 296 290 401
+Frost Man 2 1 ToH 375 296 308 297 291 -
+Gargoyle 4 1-16 MM 376-381 297-301 308-313 298-302 292-296 402-406
+Gargoyle, Green Guardian 4 1-16 ToH 382 302 314 303 297 407
+Gargoyle, Margoyle 5 1-2 ToH 383 303 315 304 298 408
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 384 304 316 305 299 409
+Genie, Djinni 5 1-15 MM 385 305 317 306 300 410
+Genie, Efreeti 8 1-15 MM 386 306 318 307 301 411
+Genie, Janni 4 1-15 MM 387 307 319 308 302 412
+Ghast 3 1-4 MM 388-393 308-312 320-324 309-313 303-307 413-417
+Ghast (pack) 31 var 2-4 MM 394 313 325 314 308 418
+Ghoul 1 1-12 MM 395-400 314-318 326-330 315-319 309-313 419-513
+Giant Owl 3 1-5 MM - 319-323 331-335 320-324 314-318 -
+Giant, Fire 10 1-5 MM 401 - - 325 319 -
+Giant, Fire (hunting party) 32 var 6-9 MM 402 - 336 326 320 -
+Giant, Frost 9 1-5 MM 403-408 324-328 337-341 327-331 321-325 514-518
+Giant, Frost (hunting party) 33 var 6-9 MM 409-414 329-333 341-346 332-336 326-330 519-523
+Giant, Hill 7 1-5 MM - - - 337-359 331-350 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 360-382 351-370 -
+Giant, Stone 8 1-5 MM - - - 383 371-390 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 384 391-395 -
+Gorgimera 8 1-2 ToH 415 334 347 385 396 524
+Gray Render 8 1 MM 416-421 335-339 348-352 386-390 397-401 525-529
+Groaning Spirit 7 1 ToH 422 340 353 391 402 530
+Hag (covey) 18 var 3 MM 423 341 354 392 403 531
+Hag, Annis 6 1 MM 424 342 355 393 404 532
+Hag, Ice or DM’s choice 6 1-2 CC1 425 343 356 394 405 533
+Hag, Storm or DM’s choice 7 1-2 CC1 426 344 - 395 406 -
+Hangman Tree 6 1 ToH - - 357 - - -
+Haunt 4 1 ToH 427 345 358 396 407 534
+Hell Hound 3 1-12 MM 428 346 359 397 408 535
+Hell Moth 6 1-6 ToH 429 347 360 398 409 536
+Hoar Fox 2 1-5 ToH 430-435 348-352 361-365 399-403 410-414 537-541
+Hobgoblin 1/2 4-9 MM - 353 366 404 - -
+Hobgoblin Warband 1/2 10-24 MM - 354 367 405 - -
+Homunculus 1 1 MM 436 355 368 406 415 542
+Horse, Heavy (wild) 1 1-30 MM 437 356 369 407 416 543
+Huecuva 3 1-10 ToH 438 357 370 408 417 544
+Hydra 1 var 1 MM - - - - - 545-549
+Ice Basilisk or DM’s choice 7 1-5 CC1 439 358 371 409 418 550
+Ice Ghoul (war party) or DM’s choice 9 var 11-20 CC1 440 359 372 410 419 551
+Ice Ghoul (hunting party) or DM’s choice 1 2-8 CC1 441 360 373 411 420 552
+Ice Haunt or DM’s choice 4 1-20 CC1 - - - - 421 -
+Invisible Stalker 7 1 MM 442 361 374 412 422 553
+Kech 3 2-8 ToH - - 375 - - -
+Kobold 1/6 4-9 MM - - 376-380 - - -
+Lamia 6 1-4 MM 443 - - 413 - -
+Leech, Giant 2 2-15 ToH - - - - - 554-558
+Medusa 7 1-4 MM 444 362 381-385 414 423 559
+Mimic 4 1 MM 445-460 363-367 386-390 415-419 424-428 560-564
+Mongrelman 1 1-5 ToH 461 368 391 420 429 565
+Moose 3 1 ToH - 369-373 392-396 421-425 - -
+Mummy 3 1-10 MM 462 - - - - -
+Night Hag 9 1 or 3 MM 463 374 397 426 430 566
+Nightshade, Nightcrawler 18 1-2 MM 464 375 398 427 431 567
+Nightshade, Nightwalker 16 1-4 MM 465 376 399 428 432 568
+Nightshade, Nightwing 14 1-6 MM 466 377 400 429 433 569
+Nymph 6 1 MM 467 378 401 430 434 570
+Ogre 2 1-8 MM 468-473 379-383 402-428 431-453 435-454 571-575
+Ogre Mage 22 var 1-2 MM 474 384 429 454 455 576
+Ogre, Half-Ogre 1 1-8 ToH 475 385-389 430-434 455-459 456 577
+Ogre, Ogrillon 1 1-5 ToH 476 390-394 435-439 460-464 457 578
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 477 395-399 440-444 465-469 458 579
+Ooze, Black Pudding 7 1 MM - - - - - 580-584
+Ooze, Gray Ooze 4 1 MM - - - - - 585
+Ooze, Mustard Jelly 7 1 ToH - - - - - 586
+Ooze, Ochre Jelly 5 1 MM - - - - - 587-591
+Ooze, Undead or DM’s choice 4 1 CC1 478 400 445 470 459 592
+Ooze, Vampiric 8 1 ToH - - - - - 593
+Ooze, White Pudding 10 1 ToH 479-484 401-405 446-450 471-475 460-464 594-598
+Orc 1/2 2-4 MM 485-527 406-442 451-477 476-498 484 599-635
+Orc (squad) 21 var 11-20 MM 528-533 443-447 478-482 499-503 485-489 636-640
+Orog 1 1-4 ToH 534-539 448-452 483-488 504-508 490-494 641-645
+Orog (squad) 21 var 11-20 ToH 540-545 453-457 489-493 509-513 495-499 646-650
+Phase Spider 5 1-5 MM 546 458 494 514 500 651
+Quipper 1/4 5-100 ToH - - - - - 652
+Rat Swarm 1/8 20-100 MM 547-552 459-463 495-499 515-519 501-505 653-657
+Rat, Ethereal 2 6-11 ToH 553 464 500 520 506 658
+Rat, Shadow 1 6-20 ToH 554 465 501 521 507 659
+Rat, Shadow Dire 3 1-12 ToH 555 466 502 522 508 660
+Ratman, Stalker or DM’s choice 13 var 1 CC2 556 467 503 523 509 661
+Ratman, White Wraith or DM’s choice 1 1-2 CC2 557 468 504 524 510 662
+Ratman, White Wraith (warband) or DM’s choice 10 var 10-100 CC2 558 469 505 525 511 663
+Remorhaz 7 1 MM 559-564 470-474 506 526 512 664-668
+Salamander 2 1-5 MM 565 475 507 527 513 669
+Salamander, Flamebrother 5 1-5 MM 566 476 508 528 514 670
+Salamander, Noble 9 1-14 MM 567 477 509 529 515 671
+Sand Mummy or DM’s choice 3 1 CC2 568 - - - - -
+Sandling 2 1 ToH 569-574 478 510 530 516 672
+Sandman 3 1-4 ToH 575-580 479 511 531 517 673
+Shadow 3 1-11 MM 581-586 480-484 512-516 532-536 518-522 674-678
+Skeleton 5 var var MM 587-629 485-521 517-543 537-559 523-542 679-715
+Slime Crawler 1 1-20 ToH - - - 560 543 716
+Spectre 7 1-11 MM 630 522 544 561 544 717
+Spriggan 4 1-12 ToH 631 523 545 562 545 718
+Sprite 1 2-12 ToH - 524 546 - - -
+Sprite Tribe 1 10-100 ToH - 525 547 - - -
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 719
+Taer 2 1-40 ToH - - - 563 546-550 -
+Tenebrous Worm 8 1 ToH 632 526 548 564 551 720
+Tentamort 4 1-5 ToH - - - - - 721
+Therianthrope, Foxwere 2 1-5 ToH - 527 549 - - 722
+Therianthrope, Jackalwere 2 1-5 ToH 633 528 550 565 552 723
+Therianthrope, Wolfwere 3 1-5 ToH - 529 551 566 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 530 552 567 - -
+Thunder Beast 4 5-20 ToH 634 531 - 568 - -
+Tiger 4 1 MM - 532-536 553-557 569-573 553-557 -
+Titan 21 1-2 MM 635 537 558 574 558 724
+Treant 8 1-7 MM - - 559-563 - - -
+Troglodyte 1 2-5 MM - - - - 559-578 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 579-583 -
+Troll 5 1-4 MM 636-678 538-574 564-590 575-597 584-603 725-761
+Troll, Cave 5 1-4 ToH - - - 598 604 -
+Troll, Ice 3 3-6 ToH 679-721 575-611 591-617 599-621 605-624 762-798
+Troll, Swamp 3 1-4 ToH - - - - - 799
+Troll, Two-headed 6 1-4 ToH 722 612 618 622 625 800
+Vampire Spawn 4 1-5 MM 723 613 619 623 626 801
+Wight 3 1-11 MM 724-729 614-618 620-624 624-628 627-631 802-806
+Will-o’-Wisp 6 1-4 MM - - - - - 807-811
+Winter Wolf 5 1-5 MM 730-772 619-655 625-651 629-651 632-651 812-848
+Wolf 1 1-16 MM - 656-801 652-793 652-793 652-798 -
+Wolf, Ghoul Wolf 2 1-16 ToH 773 802 794 794 799 849
+Wolf, Shadow 3 1-12 ToH 774-779 803-807 795-799 795-799 800-804 850-854
+Wolverine 2 1 MM - - 800-826 800-822 - -
+Worg 2 1-11 MM - 808-844 827-853 823-845 805-824 -
+Wraith 5 1-11 MM 780 845 854 846 825 855
+Xorn 6 1-5 MM 781 846 855 847 826 856
+Yeti 4 1-4 ToH - 847 856 848-852 827-846 -
+Zombie 4 var var MM 782-787 848-852 857-861 853-857 847-851 857-861
+Zombie, Juju 3 var var ToH 788 853 862 858 852 862
+NO ENCOUNTER - - - 789-000 854-000 863-000 859-000 853-000 863-000
+EndTable:
+
+#Subartic-Daytime
+Table: 2-2A
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Allip 3 1 MM 003 003 003 003 003 003
+Amphisbaena 4 1-4 ToH 004 004 004 004 004 004
+Apparition 7 1-4 ToH 005 005 005 005 005 005
+Atomie 1 2-4 ToH - - 006 - - -
+Barghest 4 1-6 MM 006 006 007 006 006 006
+Basilisk, Common 5 1-6 MM 007-014 007-011 008-012 007-011 007-011 007-013
+Basilisk, Greater 7 1-2 ToH 015 012 013 012 012 014
+Bear, Brown 2 1-2 MM - - 014-038 013-037 013-037 -
+Bee, Giant 1/2 1-20 MM 016 013 039 - - -
+Beetle, Giant: Bombardier 2 2-12 MM 017 014 040 038 - -
+Beetle, Giant: Deathwatch 6 1 ToH - - 041 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 018 015 042 039 - -
+Behir 8 1-2 MM 019-026 016-020 043-047 040-044 038-042 015-021
+Eye Tyrant 13 1-6 MM 027 021 048 045 043 022
+Bison 2 1-30 MM - 022-051 - - - -
+Bitter tree or DM’s choice 10 1-5 CC2 - - 049 - - -
+Blink Dog 2 1-16 MM - 052 - - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 050 - 044 -
+Bloody Bones 4 1-5 ToH 028 053 051 046 045 023
+Boar 2 1 MM - - 052-076 - - -
+Bog Mummy 6 1-10 ToH - - - - - 024
+Boggart 7 1-5 ToH - - - - - 025-031
+Brownie 1 2-12 ToH - - 077 - - -
+Buckawn 2 2-20 ToH - - 078 - - -
+Camel 1 1 MM 029 - - 047 046 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 079-083 - - -
+Caterwaul 3 1 ToH - - 084 - 047 -
+Cave Cricket 1 1-5 ToH 030 054 085 048 048 032
+Chimera 7 1-13 MM 031-038 055-059 086-090 049-053 049-053 033-039
+Cobra Flower 4 1-4 ToH - - 091-095 - 054-058 040
+Coffer Corpse 3 1 ToH 039 060 096 054 059 041
+Cooshee 2 1-9 ToH 040-047 061-065 097-101 055-059 060-064 042-048
+Corpse Whisperer or DM’s choice 15 var 1 CC2 048 066 102 060 065 049
+Dananshee or DM’s choice 16 var 1 CC2 049 067 103 061 066 050
+Dark Creeper 2 2-4 ToH - - 104 062 067 -
+Darnoc 6 1-4 ToH 050 068 105 063 068 051
+Death Worm 6 1 ToH 051 - - - - -
+Demiurge 6 1 ToH 052 069 106 064 069 052
+Devil Dog 3 1-16 ToH 053 070 107 065 070 053
+Dire Bear 7 1-2 MM - 071-075 108-112 066-070 071-075 -
+Dire Bison 6 1-30 ToH - 076-080 - 071 - -
+Dire Boar 4 1-8 MM - - 113-137 - - -
+Dire Goat 2 1-12 ToH 054 081 138 072-076 076-080 -
+Dire Lion 5 1-10 MM - 082-086 139-143 077-081 081-085 -
+Dire Porcupine 3 1-5 ToH - 087-091 144-168 082-106 - -
+Dire Ram 3 1 ToH - 92 - 107-111 086-090 -
+Dire Rat 1/3 1-20 MM 055-097 093-122 169-193 112-136 091-115 054-080
+Dire Tiger 8 1-2 MM - 123-127 194-198 137-141 116-120 -
+Dire Wolf 3 1-8 MM 098 128 199 142 121 -
+Dog (wild) 1/3 1-12 MM 099-317 129-354 200-331 143-251 122-233 081-306
+Dog, War (wild-riding) 1 1-12 MM 318-535 355-579 332-463 252-360 234-345 307-531
+Doppleganger 3 1-6 MM 536 580 464 361 346 532
+Dracolisk, Black 7 1-6 ToH 537 581 465 362 347 533
+Dracolisk, Blue 7 1-6 ToH 538 582 466 363 348 534
+Dracolisk, Green 7 1-6 ToH 539 583 467 364 349 535
+Dracolisk, Red 7 1-6 ToH 540 584 468 365 350 536
+Dracolisk, White 7 1-6 ToH 541 585 469 366 351 537
+Dragon, Black 8 var 1 MM - - - - - 538-564
+Dragon, Blue 8 var 1 MM 542 - - - - -
+Dragon, Brass 8 var 1 MM 543 586 - - - -
+Dragon, Gold 8 var 1 MM 544 587 470 367 352 565
+Dragon, Green 8 var 1 MM - - 471 - - -
+Dragon, Red 8 var 1 MM - - - 368-372 353-357 -
+Dragon, White 8 var 1 MM 545 588 472 373 358 566
+Drake, Fire 4 1-8 ToH - - - 374 359 -
+Drake, Ice 4 1-8 ToH - - - 375 360 -
+Eagle 1/2 1-2 MM - 589-593 473-477 376-380 361-365 -
+Elemental, Air 29 var 1-4 MM 546 594 478 381 366 567
+Elemental, Earth 29 var 1-4 MM 547 595 479 382 367 568
+Elemental, Fire 29 var 1-4 MM 548 - - 383 368 -
+Elemental, Water 29 var 1-4 MM - - - - - 569
+Emperor Stag or DM’s choice 6 1 CC1 - - 480 - - -
+Ettin 5 1-4 MM - - - 384 369 -
+Fatling or DM’s choice 5 1 CC1 549 596 481 385 370 570
+Fen Witch 5 1 ToH - - - - - 571
+Feral or DM’s choice 12 var 1-15 CC1 550 597 482 386 371 572
+Fire Nymph 7 1 ToH 551 598 483 387 372 573
+Fire Snake 1 1-5 ToH 552 599 484 388 373 574
+Flail Snail 3 1 ToH 553 600 485 389 374 575
+Fly, Giant 2 1-12 ToH 554 601 486 390 375 576
+Forester’s Bane 5 1-2 ToH - 602 487 391 376 -
+Gargoyle 4 1-16 MM 555-562 603-607 488-492 392-396 377-401 577-583
+Gargoyle, Green Guardian 4 1-16 ToH 563 608 493 397 402 584
+Gargoyle, Margoyle 5 1-2 ToH 564 609 494 398 403 585
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 565 610 495 399 404 586
+Genie, Djinni 5 1-15 MM 566 611 496 400 405 587
+Genie, Efreeti 8 1-15 MM 567 612 497 401 406 588
+Genie, Janni 4 1-15 MM 568 613 498 402 407 589
+Giant Eagle 3 1-2 MM - 614-618 499-503 403-407 408-412 -
+Giant, Fire 10 1-5 MM 569 - - 408 413 -
+Giant, Fire (hunting party) 32 var 6-9 MM 570 - 504 409 414 -
+Giant, Frost 9 1-5 MM 571 619 505 410 415 590
+Giant, Frost (hunting party) 33 var 6-9 MM 572-579 620-624 506-510 411-415 416-420 591-597
+Giant, Hill 7 1-5 MM - - - 416-525 421-532 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 526-550 533-557 -
+Giant, Stone 8 1-5 MM - - - 551 558-582 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 552 583-587 -
+Giant, Storm 13 1 MM - - - - 588 -
+Giant, Wood 5 1-5 ToH - - 511 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 512 - - -
+Giant, Wood (trading party) 5 1-5 ToH - - 513 - - -
+Gnoll 1 1-5 MM 580 625 514 553 589 598
+Goblin 1/4 4-9 MM 581-588 626-630 515-519 554 590-594 599-605
+Goblin (warband) 17 var 10-24 MM 589-596 631-635 520-524 559 595-599 606-612
+Gorgimera 8 1-2 ToH 597 636 525 564 600 613
+Gorgon 8 1-13 MM 598 637 526 565 601 614
+Gray Render 8 1 MM 599-606 638-642 527-531 566 602-606 615-621
+Groaning Spirit 7 1 ToH 607 643 532 571 607 622
+Hag (covey) 18 var 3 MM 608 644 533 572 608 623
+Hag, Annis 6 1 MM 609 645 534 573 609 624
+Hag, Storm or DM’s choice 7 1-2 CC1 610 646 - 574 610 -
+Hamster, Giant 2 1-4 ToH - - - 575 - -
+Hangman Tree 6 1 ToH - - 535 - - -
+Haunt 4 1 ToH 611 647 536 576 611 625
+Hell Hound 3 1-12 MM 612 648 537 577 612 626
+Hippogriff 2 1-12 MM - 649 - 578 - -
+Hoar Fox 2 1-5 ToH 613 650 538 579 613 627
+Hobgoblin 1/2 4-9 MM 614 651 539 580 614 628
+Hobgoblin (warband) 1/2 10-24 MM 615 652 540 581 615 629
+Homunculus 1 1 MM 616 653 541 582 616 630
+Hornsaw Unicorn or DM’s choice 5 1-8 CC1 - - 542 - - -
+Horse, Heavy (wild) 1 1-30 MM 617-659 654-683 543-567 583-607 617-641 631-657
+Horse, Light (wild) 1 1-30 MM 660-702 684-713 568-592 608-632 642-666 658-684
+Huecuva 3 1-10 ToH 703 714 593 633 667 685
+Hydra 1 var 1 MM - - - - - 686-712
+Inphidian 3 1-5 ToH 704 715 594 634 668 713
+Invisible Stalker 7 1 MM 705 716 595 635 669 714
+Kech 3 2-8 ToH - - 596 - - -
+Kelpie 4 1-4 ToH - - - - - 715
+Kobold 1/6 4-9 MM - - 597 - - -
+Korred 4 1-4 ToH - - 598 - - -
+Lamia 6 1-4 MM 706 - - 636 - -
+Leech, Giant 2 2-15 ToH - - - - - 716-722
+Leprechaun 4 2-20 ToH - - 599 - - -
+Medusa 7 1-4 MM 707-714 717-721 600-604 637-641 670-674 723-729
+Mimic 4 1 MM 715-722 722-726 605-609 642-646 675-679 730-736
+Mongrelman 1 1-5 ToH 723 727 610 647 680 737
+Moose 3 1 ToH - 728-732 611-615 648-652 - -
+Mudman 1 1-12 ToH - - - - - 738
+Mummy 3 1-10 MM 724 - - - - -
+Naga, Spirit 9 1-4 MM 725 733 616 653 681 739
+Night Hag 9 1 or 3 MM 726 734 617 654 682 740
+Nymph 6 1 MM 727 735 618 655 683 741
+Ogre 2 1-8 MM 728-770 736-765 619-750 656-765 684-796 742-768
+Ogre Mage 22 var 1-2 MM 771 766 751 766 797 769
+Ogre, Half-Ogre 1 1-8 ToH 772-779 767-771 752-756 767-771 798-802 770-776
+Ogre, Ogrillon 1 1-5 ToH 780-787 772-776 757-761 772-776 803-807 777-783
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 788 777-781 762-766 777-781 808-812 784
+Ooze, Black Pudding 7 1 MM - - - - - 785-811
+Ooze, Brown Pudding 7 1 ToH - - - - - 812
+Ooze, Gray Ooze 4 1 MM - - - - - 813-819
+Ooze, Mustard Jelly 7 1 ToH - - - - - 820
+Ooze, Ochre Jelly 5 1 MM - - - - - 821-847
+Ooze, Undead or DM’s choice 4 1 CC1 789 782 767 782 813 848
+Ooze, White Pudding 10 1 ToH 790 783 768 783 814-818 849
+Orc 1/2 2-4 MM 791 784 769 784 819 850
+Orc (squad) 21 var 11-20 MM 792 785 770 785 820 851
+Orog 1 1-4 ToH 793-800 786-790 771-775 786-790 821-825 852-858
+Orog (squad) 21 var 11-20 ToH 801-808 791-795 776-780 791-795 826-830 859-865
+Owlbear 4 1-8 MM - - 781 - - -
+Phase Spider 5 1-5 MM 809 796 782 796 831 866
+Pony (small wild horse) 1/4 1-30 MM 810-852 797-826 783-807 797-821 832-856 867-893
+Praying Mantis, Giant 2 1 MM 853-860 827-831 808-812 822-826 857-861 894-900
+Quickling 3 2-12 ToH - - 813 - - -
+Quickwood 8 1 ToH - - 814 827 - -
+Quipper 1/4 5-100 ToH - - - - - 901
+Rat Swarm 1/8 20-100 MM 861-868 832-836 815-819 828-832 862-866 902-908
+Rat, Brain 1 2-12 ToH 869 837 820 833 867 909
+Rat, Ethereal 2 6-11 ToH 870 838 821 834 868 910
+Ratman, Daywalker or DM’s choice 1 1-2 CC2 871 - - - - -
+Ratman, Daywalker (warband) or DM’s choice 10 var 10-120 CC2 872 - - - - -
+Remorhaz 7 1 MM 873 839 - 835 869 911
+Salamander 2 1-5 MM 874 840 822 836 870 912
+Salamander, Flamebrother 5 1-5 MM 875 841 823 837 871 913
+Salamander, Noble 9 1-14 MM 876 842 824 838 872 914
+Sand Mummy or DM’s choice 3 1 CC2 877 - - - - -
+Sandling 2 1 ToH 878-885 843 825 839 873 915
+Sandman 3 1-4 ToH 886-893 844 826 840 874 916
+Satyr 24 var 1-10 MM - - 827 - - -
+Shambling Mound 6 1 MM - - 828 - - 917
+Skeleton 5 var var MM 894-901 845-849 829-833 841-845 875-879 918-924
+Skunk 1/6 1-5 ToH - - 834 846-850 - -
+Spire Wyvern or DM’s choice 4 1-2 CC1 902 850 835-839 851 880 925
+Spriggan 4 1-12 ToH 903 851 840 852 881 926
+Sprite 1 2-12 ToH - 852-856 841-845 - - -
+Sprite Tribe 1 10-100 ToH - 857 846 - - -
+Sprite, Pixie 4 1-10 MM - - 847 - - -
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 927
+Taer 2 1-40 ToH - - - - 882 -
+Tenebrous Worm 8 1 ToH 904 858 848 853 883 928
+Tentamort 4 1-5 ToH - - - - - 929-935
+Therianthrope, Foxwere 2 1-5 ToH - 859 849 - - 936
+Therianthrope, Jackalwere 2 1-5 ToH 905 860 850 854 884 937
+Therianthrope, Wolfwere 3 1-5 ToH - 861-865 851-855 855-859 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 866-870 856-860 860-864 - -
+Thunder Beast 4 5-20 ToH 906 871 - 865 - -
+Tiger 4 1 MM - 872-901 861-885 866-890 885-909 -
+Titan 21 1-2 MM 907 902 886 891 910 938
+Treant 8 1-7 MM - - 887-891 - - -
+Troglodyte 1 2-5 MM - - - - 911-915 -
+Troglodyte (squad) 25 var 6-11 MM - - - 916 -
+Troll 5 1-4 MM 908-950 903-932 892-916 892-916 917-941 939-965
+Troll, Ice 3 3-6 ToH 951 933 917 917 942 966
+Troll, Swamp 3 1-4 ToH - - - - - 967
+Troll, Two-headed 6 1-4 ToH 952 934 918 918 943 968
+Unicorn 3 1-6 MM - - 919 - - -
+Winter Wolf 5 1-5 MM 953 935 920 919 944 969
+Wolf 1 1-16 MM - 936-965 921-945 920-944 945-969 -
+Wolf, Ghoul Wolf 2 1-16 ToH 954 966 946 945 970 970
+Wolverine 2 1 MM - - 947-971 946-970 - -
+Worg 2 1-11 MM - 967 972 971 971 -
+Xorn 6 1-5 MM 955 968 973 972 972 971
+Yeti 4 1-4 ToH - - - 973 973 -
+Zombie 4 var var MM 956 969 974 974 974 972
+Zombie, Juju 3 var var ToH 957 970 975 975 975 973
+NO ENCOUNTER - - - 958-000 971-000 976-000 976-000 976-000 974-000
+EndTable:
+
+#Subarctic-Nighttime
+Table: 2-2B
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Allip 3 1 MM 003 003 003 003 003 003
+Amphisbaena 4 1-4 ToH 004 004 004 004 004 004
+Apparition 7 1-4 ToH 005 005 005 005 005 005
+Atomie 1 2-4 ToH - - 006 - - -
+Barghest 4 1-6 MM 006 006 007 006 006 006
+Basilisk, Common 5 1-6 MM 007-012 007-010 008-011 007-010 007-011 007-011
+Basilisk, Greater 7 1-2 ToH 013 011 012 011 012 012
+Bat Swarm 1/10 30-50 MM 014-019 012-015 013-016 012-015 - -
+Bear, Brown 2 1-2 MM - - 017-035 016-036 013-032 -
+Beetle, Giant: Bombardier 2 2-12 MM 020 016 036 037 - -
+Beetle, Giant: Fire 1/3 2-12 MM 021 017 037 038 - -
+Behir 8 1-2 MM 022-027 018-021 038-041 039-042 033-037 013-017
+Eye Tyrant 13 1-6 MM 028 022 042 043 038 018
+Bison 2 1-30 MM - 023-047 - - - -
+Bitter tree or DM’s choice 10 1-5 CC2 - - 043 - - -
+Blink Dog 2 1-16 MM - 048 - - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 044 - 039 -
+Bloody Bones 4 1-5 ToH 029 049 045 044 040 019
+Boar 2 1 MM - - 046-064 - - -
+Bodak 8 1-4 MM 030 050 065 045 041 020
+Bog Mummy 6 1-10 ToH - - - - - 021
+Boggart 7 1-5 ToH - - - - - 022-026
+Brownie 1 2-12 ToH - - 066 - - -
+Buckawn 2 2-20 ToH - - 067 - - -
+Camel 1 1 MM 031 - - 046 042 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 068-071 - - -
+Caterwaul 3 1 ToH - - 072 - 043 -
+Cave Cricket 1 1-5 ToH 032 051 073 047 044 027
+Chimera 7 1-13 MM 033-038 052-055 074-077 048-051 045-049 028-032
+Cobra Flower 4 1-4 ToH - - 078-081 - 050-054 033
+Coffer Corpse 3 1 ToH 039 056 082 052 055 034
+Cooshee 2 1-9 ToH 040 057-060 083-086 053-056 056-059 035-039
+Corpse Whisperer or DM’s choice 15 var 1 CC2 041 061 087 057 060 040
+Dananshee or DM’s choice 16 var 1 CC2 042 062 088 058 061 041
+Dark Creeper 2 2-4 ToH - - 089 059 062 -
+Dark Stalker 4 1 ToH - - 090 - 063 -
+Darnoc 6 1-4 ToH 043 063 091 060 064 042
+Death Worm 6 1 ToH 044 - - - - -
+Demiurge 6 1 ToH 045 064 092 061 065 043
+Devil Dog 3 1-16 ToH 046 065 093 062 066 044
+Dire Bear 7 1-2 MM - 066-069 094-097 063-066 067-071 -
+Dire Bison 6 1-30 ToH - 070-073 - 067 - -
+Dire Boar 4 1-8 MM - - 098-116 - - -
+Dire Goat 2 1-12 ToH 047 074 117 068-071 072-076 -
+Dire Lion 5 1-10 MM - 075-078 118-121 072-075 077-081 -
+Dire Porcupine 3 1-5 ToH - 079-082 122-140 076-096 - -
+Dire Ram 3 1 ToH - 083 - 097 082 -
+Dire Rat 1/3 1-20 MM 048-155 084-171 141-209 098-159 083-141 045-155
+Dire Tiger 8 1-2 MM - 172-175 210-213 160-163 142-146 -
+Dire Wolf 3 1-8 MM 156-161 176-179 214-217 164-167 147-151 156-160
+Dog (wild) 1/3 1-12 MM 162-269 180-267 218-286 168-229 152-210 161-271
+Dog, War (wild-riding) 1 1-12 MM 270-377 268-354 287-354 230-291 211-269 272-382
+Doppleganger 3 1-6 MM 378 355 355 292 270 383
+Dracolisk, Black 7 1-6 ToH 379 356 356 293 271 384
+Dracolisk, Blue 7 1-6 ToH 380 357 357 294 272 385
+Dracolisk, Green 7 1-6 ToH 381 358 358 295 273 386
+Dracolisk, Red 7 1-6 ToH 382 359 359 296 274 387
+Dracolisk, White 7 1-6 ToH 383 360 360 297 275 388
+Dragon, Black 8 var 1 MM - - - - - 389-409
+Dragon, Blue 8 var 1 MM 384 - - - - -
+Dragon, Brass 8 var 1 MM 385 361 - - - -
+Dragon, Gold 8 var 1 MM 386 362 361 298 276 410
+Dragon, Green 8 var 1 MM - - 362 - - -
+Dragon, Red 8 var 1 MM - - - 299 277 -
+Dragon, White 8 var 1 MM 387 363 363 300 278 411
+Drake, Fire 4 1-8 ToH - - - 301 279 -
+Drake, Ice 4 1-8 ToH - - - 302 280 -
+Elemental, Air 29 var 1-4 MM 388 364 364 303 281 412
+Elemental, Earth 29 var 1-4 MM 389 365 365 304 282 413
+Elemental, Fire 29 var 1-4 MM 390 - - 305 283 -
+Elemental, Water 29 var 1-4 MM - - - - - 414
+Emperor Stag or DM’s choice 6 1 CC1 - - 366 - - -
+Ettin 5 1-4 MM - - - 306 284 -
+Fatling or DM’s choice 5 1 CC1 391 366 367 307 285 415
+Fen Witch 5 1 ToH - - - - - 416
+Feral or DM’s choice 12 var 1-15 CC1 392 367 368 308 286 417
+Fire Nymph 7 1 ToH 393 368 369 309 287 418
+Fire Snake 1 1-5 ToH 394 369 370 310 288 419
+Flail Snail 3 1 ToH 395 370 371 311 289 420
+Fly, Giant 2 1-12 ToH 396 371 372 312 290 421
+Forester’s Bane 5 1-2 ToH - 372 373 313 291
+Gargoyle 4 1-16 MM 397-402 373-376 374-377 314-317 292-311 422-426
+Gargoyle, Green Guardian 4 1-16 ToH 403 377 378 318 312 427
+Gargoyle, Margoyle 5 1-2 ToH 404 378 379 319 313 428
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 405 379 380 320 314 429
+Genie, Djinni 5 1-15 MM 406 380 381 321 315 430
+Genie, Efreeti 8 1-15 MM 407 381 382 322 316 431
+Genie, Janni 4 1-15 MM 408 382 383 323 317 432
+Ghast 3 1-4 MM 409-441 383-407 384-402 324-344 318-337 433-453
+Ghast (pack) 31 var 2-4 MM 442-447 408-411 403-406 345-348 338-342 454-458
+Ghoul 1 1-12 MM 448-480 412-436 407-425 349-369 343-362 459-479
+Giant Owl 3 1-5 MM - 437-440 426-429 370-373 363-367 -
+Giant, Fire 10 1-5 MM 481 - - 374 368 -
+Giant, Fire (hunting party) 32 var 6-9 MM 482 - 430 375 369 -
+Giant, Frost 9 1-5 MM 483 441 431 376 370 480
+Giant, Frost (hunting party) 33 var 6-9 MM 484-489 442-445 432-435 377-380 371-375 481-485
+Giant, Hill 7 1-5 MM - - - 381-442 376-434 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 443-463 435-454 -
+Giant, Stone 8 1-5 MM - - - 464 455-474 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 465 475-479 -
+Giant, Storm 13 1 MM - - - - 480 -
+Giant, Wood 5 1-5 ToH - - 436 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 437 - - -
+Giant, Wood (trading party) 5 1-5 ToH - - 438 - - -
+Gnoll 1 1-5 MM 490-495 446-449 439-442 466-469 481-485 486-490
+Goblin 1/4 4-9 MM 496-528 450-474 443-461 470-490 486-505 491-511
+Goblin (warband) 17 var 10-24 MM 529-534 475-478 462-465 491-494 506-510 512-516
+Gorgimera 8 1-2 ToH 535 479 466 495 511 517
+Gorgon 8 1-13 MM 536 480 467 496 512 518
+Gray Render 8 1 MM 537-542 481 468-471 497-500 513-517 519-523
+Groaning Spirit 7 1 ToH 543 485 472 501 518 524
+Hag (covey) 18 var 3 MM 544 486 473 502 519 525
+Hag, Annis 6 1 MM 545 487 474 503 520 526
+Hag, Moon or DM’s choice 13 1-2 CC1 - - 475 - 521 -
+Hag, Storm or DM’s choice 7 1-2 CC1 546 488 - 504 522 -
+Hamster, Giant 2 1-4 ToH - - - 505 - -
+Hangman Tree 6 1 ToH - - 476 - - -
+Haunt 4 1 ToH 547 489 477 506 523 527
+Hell Hound 3 1-12 MM 548 490 478 507 524 528
+Hell Moth 6 1-6 ToH 549 491 479 508 525 529
+Hippogriff 2 1-12 MM - - - - - -
+Hoar Fox 2 1-5 ToH 550 492 480 509 526 530
+Hobgoblin 1/2 4-9 MM 551 493-496 481-484 510-513 527 531
+Hobgoblin (warband) 1/2 10-24 MM 552 497-500 485-488 514-517 528 532
+Homunculus 1 1 MM 553 501 489 518 529 533
+Hornsaw Unicorn or DM’s choice 5 1-8 CC1 - - 490 - - -
+Horse, Heavy (wild) 1 1-30 MM 554-559 502-505 491-494 519-522 530-534 534-538
+Horse, Light (wild) 1 1-30 MM 560-565 506-509 495-498 523-526 535-539 539-543
+Huecuva 3 1-10 ToH 566 510 499 527 540 544
+Hydra 1 var 1 MM - - - - - 545-565
+Ice Haunt or DM’s choice 4 1-20 CC1 - - - - 541 -
+Inphidian 3 1-5 ToH 567 511 500 528 542 566
+Invisible Stalker 7 1 MM 568 512 501 529 543 567
+Kech 3 2-8 ToH - - 502 - - -
+Kelpie 4 1-4 ToH - - - - - 568
+Kobold 1/6 4-9 MM 569-574 513-516 503-521 530-533 544-548 569-573
+Korred 4 1-4 ToH - - 522 - - -
+Lamia 6 1-4 MM 575 - - 534 - -
+Leech, Giant 2 2-15 ToH - - - - - 574-578
+Leprechaun 4 2-20 ToH - - 523 - - -
+Medusa 7 1-4 MM 576-581 517-520 524-527 535-538 549-552 579-583
+Mimic 4 1 MM 582-587 521-524 528-531 539-542 553-557 584-588
+Mongrelman 1 1-5 ToH 588 525 532 543 558 589
+Moose 3 1 ToH - 526-529 533-536 544-547 - -
+Mudman 1 1-12 ToH - - - - - 590
+Mummy 3 1-10 MM 589 - - -
+Naga, Spirit 9 1-4 MM 590 530 537 548 559 591
+Night Hag 9 1 or 3 MM 591 531 538 549 560 592
+Nightshade, Nightcrawler 18 1-2 MM 592 532 539 550 561 593
+Nightshade, Nightwalker 16 1-4 MM 593 533 540 551 562 594
+Nightshade, Nightwing 14 1-6 MM 594 534 541 552 563 595
+Nymph 6 1 MM 595 535 542 553 564 596
+Ogre 2 1-8 MM 596-628 536-560 543-611 554-616 565-623 597-617
+Ogre Mage 22 var 1-2 MM 629 561 612 617 624 618
+Ogre, Half-Ogre 1 1-8 ToH 630-635 562-565 613-616 618-621 625-629 619-623
+Ogre, Ogrillon 1 1-5 ToH 636-641 566-569 617-620 622-625 630-634 624-628
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 642 570-573 621-624 626-629 635-639 629
+Ooze, Black Pudding 7 1 MM - - - - - 630-650
+Ooze, Brown Pudding 7 1 ToH - - - - - 651
+Ooze, Gray Ooze 4 1 MM - - - - - 652-656
+Ooze, Mustard Jelly 7 1 ToH - - - - - 657
+Ooze, Ochre Jelly 5 1 MM - - - - - 658-678
+Ooze, Undead or DM’s choice 4 1 CC1 643 574 625 630 640 679
+Ooze, Vampiric 8 1 ToH - - - - - 680
+Ooze, White Pudding 10 1 ToH 644 575 626 631 641-645 681
+Orc 1/2 2-4 MM 645-753 576-663 627-695 632-694 646-704 682-793
+Orc (squad) 21 var 11-20 MM 754-786 664-688 696-714 695-715 705-724 794-814
+Orog 1 1-4 ToH 787-792 689-692 715-718 716-719 725-729 815-819
+Orog (squad) 21 var 11-20 ToH 793-798 693-696 719-722 720-723 730-734 820-824
+Owlbear 4 1-8 MM - - 723 - - -
+Phase Spider 5 1-5 MM 799 697 724 724 735 825
+Pony (small wild horse) 1/4 1-30 MM 800-805 698-701 725-728 725-728 736-740 826-830
+Praying Mantis, Giant 2 1 MM 806 702 729 729 741 831
+Quickling 3 2-12 ToH - - 730 - - -
+Quickwood 8 1 ToH - - 731 730 - -
+Quipper 1/4 5-100 ToH - - - - - 832
+Rat Swarm 1/8 20-100 MM 807-839 703-727 732-750 731-751 742-761 833-853
+Rat, Brain 1 2-12 ToH 840 728 751 752 762 854
+Rat, Ethereal 2 6-11 ToH 841 729 752 753 763 855
+Rat, Shadow 1 6-20 ToH 842 730 753 754 764 856
+Rat, Shadow Dire 3 1-12 ToH 843 731 754 755 765 857
+Ratman, Stalker or DM’s choice 13 var 1 CC2 844 732 755 756 766 858
+Ratman, White Wraith or DM’s choice 1 1-2 CC2 845 733 756 757 767 859
+Ratman, White Wraith (warband) or DM’s choice 10 var 10-100 CC2 846 734 757 758 768 860
+Remorhaz 7 1 MM 847 735 - 759 769 861
+Salamander 2 1-5 MM 848 736 758 760 770 862
+Salamander, Flamebrother 5 1-5 MM 849 737 759 761 771 863
+Salamander, Noble 9 1-14 MM 850 738 760 762 772 864
+Sand Mummy or DM’s choice 3 1 CC2 851 - - - - -
+Sandling 2 1 ToH 852-857 739 761 763 773 865
+Sandman 3 1-4 ToH 858-863 740 762 764 774 866
+Shadow 3 1-11 MM 864-869 741-744 763-766 765-768 775-779 867-871
+Shambling Mound 6 1 MM - - 767 - - 872
+Skeleton 5 var var MM 870-902 745-769 768-786 769-789 780-799 873-893
+Skunk 1/6 1-5 ToH - - 787-790 790-793 - -
+Slime Crawler 1 1-20 ToH - - 791 794 800 894
+Spectre 7 1-11 MM 903 770 792 795 801 895
+Spire Wyvern or DM’s choice 4 1-2 CC1 - - - - 802 -
+Spriggan 4 1-12 ToH 904 771 793 796 803 896
+Sprite 1 2-12 ToH - 772-775 794-797 - - -
+Sprite Tribe 1 10-100 ToH - 776 798 - - -
+Sprite, Pixie 4 1-10 MM - - 799 - - -
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 897
+Taer 2 1-40 ToH - - - - 804 -
+Tenebrous Worm 8 1 ToH 905 777 800 797 805 898
+Tentamort 4 1-5 ToH - - - - - 899-903
+Therianthrope, Foxwere 2 1-5 ToH - 778 801 - - 904
+Therianthrope, Jackalwere 2 1-5 ToH 906 779 802 798 806 905
+Therianthrope, Wolfwere 3 1-5 ToH - 780-783 803-806 799-802 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 784-787 807-810 803-806 - -
+Thunder Beast 4 5-20 ToH 907 788 - 807 - -
+Tiger 4 1 MM - 789-813 811-829 808-828 807-826 -
+Titan 21 1-2 MM 908 814 830 829 827 906
+Treant 8 1-7 MM - - 831-834 - - -
+Troglodyte 1 2-5 MM - - - - 828-847 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 848-852 -
+Troll 5 1-4 MM 909-941 815-839 835-853 830-850 853-872 907-927
+Troll, Cave 5 1-4 ToH - - - 851 873 -
+Troll, Ice 3 3-6 ToH 942 840 854 852 874 928
+Troll, Swamp 3 1-4 ToH - - - - - 929-933
+Troll, Two-headed 6 1-4 ToH 943 841-844 855 853-856 875-879 934
+Tsathar 2 1-10 ToH - - - - - 935
+Tsathar Scourge 3 1-10 ToH - - - - - 936
+Tsathar Scourge (hunting party) 41 var 2-8 ToH - - - - - 937
+Unicorn 3 1-6 MM - - 856 - - -
+Vampire Spawn 4 1-5 MM 944 845 857 857 880 938
+Wight 3 1-11 MM 945-950 846-849 858-861 858-861 881-885 939-943
+Will-o’-Wisp 6 1-4 MM - - - - - 944-964
+Winter Wolf 5 1-5 MM 951 850 862 862 886 965
+Wolf 1 1-16 MM - 851-938 863-931 863-924 887-945 -
+Wolf, Ghoul Wolf 2 1-16 ToH 952 939 932 925 946 966
+Wolf, Shadow 3 1-12 ToH 953-958 940-943 933-936 926-929 947-951 967-971
+Wolverine 2 1 MM - - 937-955 930-950 - -
+Worg 2 1-11 MM - 944-968 956-974 951-971 952-971 -
+Wraith 5 1-11 MM 959 969 975 972 972 972
+Xorn 6 1-5 MM 960 970 976 973 973 973
+Yeti 4 1-4 ToH - - - 974 974 -
+Zombie 4 var var MM 961-966 971-974 977-980 975-978 975-979 974-978
+Zombie, Juju 3 var var ToH 967 975 981 979 980 979
+NO ENCOUNTER - - - 968-000 976-000 982-000 980-000 981-000 980-000
+EndTable:
+
+#Temperate-Daytime
+Table: 2-3A
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Algoid 4 1-6 ToH - - 003 - - 003-005
+Allip 3 1 MM 003 003 004 003 003 006
+Amalthean Ram or DM’s choice 6 2-4 CC1 - - - - 004 -
+Amphisbaena 4 1-4 ToH 004 004 005 004 005 007
+Ankheg 3 1-4 MM - 005-007 006-007 - - -
+Ant Lion 5 1-4 ToH 005-008 008 008 005 - -
+Ant, Giant, Soldier 2 1-4 MM 009-012 009-011 009-010 006-008 - -
+Ant, Giant, Worker 1 2-12 MM 013-016 012-014 011-012 009-011 - -
+Apparition 7 1-4 ToH 017 015 013 012 006 008
+Aranea 4 1-6 MM - - 014 - - -
+Assassin Vine 3 1-4 MM - - 015-016 - - 009-011
+Athach 7 1-12 MM - - - 013 007 -
+Atomie 1 2-4 ToH - - 017-018 - - -
+Aurumvorax 8 1 ToH - 016 019 014 - -
+Axe Beak 2 1-6 ToH 018-036 017-029 020-030 015-026 008-010 012-014
+Barghest 4 1-6 MM 037 030 031 027 011 015
+Basilisk, Common 5 1-6 MM 038-041 031-033 032-033 028-030 012-014 016-018
+Basilisk, Greater 7 1-2 ToH 042 034 034 031 015 019
+Bear, Black 2 1-2 MM - - 035-084 032-081 016-075 -
+Bear, Brown 2 1-2 MM - - 085-096 082-093 076-086 -
+Bee, Giant 1/2 1-20 MM 043-046 035-037 097-098 094-096 087-089 020-022
+Beetle, Giant: Bombardier 2 2-12 MM 047-105 038-116 099-148 097-146 090-149 023-099
+Beetle, Giant: Boring 3 2-12 ToH 106-164 117-195 149-198 147-196 150-209 100-176
+Beetle, Giant: Deathwatch 6 1 ToH - - 199 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 165-223 196-274 200-249 197-246 210-269 177-253
+Beetle, Giant: Slicer 4 2-12 ToH - - 250-251 - - -
+Beetle, Giant: Stag 4 2-12 MM - - 252-262 - - -
+Behir 8 1-2 MM 224-227 275-277 263-264 247-249 270-272 254-256
+Eye Tyrant 13 1-6 MM 228 278 265 250 273 257
+Berserker Wasp Swarm or DM’s choice 5 3-30 CC1 - 279 - - - -
+Bison 2 1-30 MM - 280-292 - - - -
+Bitter tree or DM’s choice 10 1-5 CC2 - - 266 - - -
+Blink Dog 2 1-16 MM - 293-295 - - - -
+Blood Moth or DM’s choice 1/4 10-50 CC2 - 296 267 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 268 - 274 -
+Bloody Bones 4 1-5 ToH 229 297 269 251 275 258
+Boar 2 1 MM - - 270-319 - - -
+Bog Beast 5 1-5 ToH - - - - - 259-261
+Bog Mummy 6 1-10 ToH - - - - - 262
+Boggart 7 1-5 ToH - - - - - 263-265
+Bonesnapper 3 1-4 ToH - - 320-321 - - 266-268
+Brownie 1 2-12 ToH - - 322-323 - - -
+Buckawn 2 2-20 ToH - - 324-325 - - -
+Bulette 7 1-2 MM 230 298 326 252 276 269
+Bunyip 3 1 ToH - - - - - 270-272
+Camel 1 1 MM 231-234 - - 253 277 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 327-328 - - -
+Caterwaul 3 1 ToH - 299 329-330 254 278-280 -
+Cathedral Beetle or DM’s choice 4 1-16 CC1 235 300 331-332 255 281 -
+Cave Cricket 1 1-5 ToH 236 301 333 256 282 273
+Centaur 3 1-8 MM - - 334-335 - - -
+Centaur (troop) 28 var 1-8 MM - - 336-337 - - -
+Chimera 7 1-13 MM 237-240 302-304 338-339 257-259 283-285 274-276
+Chuul 7 1-5 MM - - 340 - - 277
+Cobra Flower 4 1-4 ToH - 305 341-342 260 286-288 278
+Cockatrice 3 1-13 MM 241-244 306-308 343 261-263 289-291 279
+Coffer Corpse 3 1 ToH 245 309 344 264 292 280
+Cooshee 2 1-9 ToH 246-249 310-312 345-346 265-267 293-295 281-283
+Corpse Whisperer or DM’s choice 15 var 1 CC2 250 313 347 268 296 284
+Cray?sh, Monstrous 3 1-5 ToH - - - - - 285
+Dananshee or DM’s choice 16 var 1 CC2 251 314 348 269 297 286
+Dark Creeper 2 2-4 ToH - - 349 270 298 -
+Darnoc 6 1-4 ToH 252 315 350 271 299 287
+Death Worm 6 1 ToH 253 - - - - -
+Demiurge 6 1 ToH 254 316 351 272 300 288
+Dire Badger 2 1-5 MM - 317-329 352-363 273-284 - -
+Dire Bear 7 1-2 MM - 330-332 364-365 285-287 301-303 -
+Dire Bison 6 1-30 ToH - 333-335 - 288 - -
+Dire Boar 4 1-8 MM - - 366-377 - - -
+Dire Goat 2 1-12 ToH 255 336 378-379 289-300 304-314 289
+Dire Lion 5 1-10 MM - 337-349 380-391 301-312 315-325 -
+Dire Porcupine 3 1-5 ToH - 350-362 392-402 313-324 - -
+Dire Ram 3 1 ToH - 363-365 - 325-336 326-336 -
+Dire Rat 1/3 1-20 MM 256-275 366-378 403-414 337-348 337-347 290-304
+Dire Tiger 8 1-2 MM - 379-381 415-416 349-351 348-350 -
+Dire Weasel 2 1-2 MM - 382-384 417-418 352-354 351-353 -
+Dire Wolf 3 1-8 MM 276 385 419 355 354 305
+Dire Wolverine 4 1-2 MM - 386-388 420-421 356-358 - -
+Displacer Cat 4 1-10 MM - - 422 359 355 -
+Dog (wild) 1/3 1-12 MM 277-335 389-467 423-472 360-409 356-415 306-382
+Dog, War (wild-riding) 1 1-12 MM 336-393 468-546 473-522 410-459 416-475 383-459
+Doppleganger 3 1-6 MM 394 547 523 460 476 460
+Dracolisk, Black 7 1-6 ToH 395 548 524 461 477 461
+Dracolisk, Blue 7 1-6 ToH 396 549 525 462 478 462
+Dracolisk, Green 7 1-6 ToH 397 550 526 463 479 463
+Dracolisk, Red 7 1-6 ToH 398 551 527 464 480 464
+Dracolisk, White 7 1-6 ToH 399 552 528 465 481 465
+Dragon, Black 8 var 1 MM - - - - - 466-481
+Dragon, Blue 8 var 1 MM 400-403 - - - - -
+Dragon, Brass 8 var 1 MM 404-422 553-565 - - - -
+Dragon, Cloud 8 var 1-5 ToH - - - - 482 -
+Dragon, Copper 8 var 1 MM 423-426 - - 466-468 483-485 -
+Dragon, Faerie 2 1-6 ToH - - 529 - - -
+Dragon, Gold 8 var 1 MM 427 566 530 469 486 482
+Dragon, Green 8 var 1 MM - - 531-532 - - -
+Dragon, Mist 8 var 1-5 ToH - - 533-534 - - -
+Dragon, Red 8 var 1 MM - - - 470-472 487-489 -
+Dragon, Silver 8 var 1 MM - - - - 490 -
+Dragon?y, Giant 4 1-5 ToH 428-431 567-569 535-536 473 491 483-485
+Dragonne 7 1-10 MM 432 - - 474 - -
+Dragonnel 6 1-4 ToH - - - 475 492 -
+Drake, Fire 4 1-8 ToH - - - 476 493 -
+Drake, Salt 9 1-5 ToH 433 - - - - -
+Dryad 1 1-7 MM - - 537 - - -
+Dune Delver or DM’s choice 5 1 CC1 434 - - - - -
+Eagle 1/2 1-2 MM - 570-572 538-539 477-479 494-496 -
+Eblis 3 4-16 ToH - - - - - 486
+Eel, Electric 2 1-2 ToH - - - - - 487-489
+Elemental, Air 29 var 1-4 MM 435 573 540 480 497 490
+Elemental, Earth 29 var 1-4 MM 436 574 541 481 498 491
+Elemental, Fire 29 var 1-4 MM 437 - - 482 499 -
+Elemental, Water 29 var 1-4 MM - - - - - 492
+Emperor Stag or DM’s choice 6 1 CC1 - - 542 - - -
+Ettercap 30 var 1-2 MM - - 543-554 - - -
+Ettin 5 1-4 MM - - - 483 500 -
+Fatling or DM’s choice 5 1 CC1 438 575 555 484 501 493
+Fen Witch 5 1 ToH - - - - - 494
+Feral or DM’s choice 12 var 1-15 CC1 439 576 556 485 502 495
+Fire Nymph 7 1 ToH 440 577 557 486 503 496
+Fire Snake 1 1-5 ToH 441 578 558 487 504 497
+Flail Snail 3 1 ToH 442 579 559 488 505 498
+Flesh Strippers 1/4 5-50 CC2 443 580 560 489 506 499
+Fly, Giant or DM’s choice 2 1-12 ToH 444 581 561 490 507 500
+Forester’s Bane 5 1-2 ToH - 582 562 491 508 -
+Forlarren 2 1 ToH 445 583 563 492 509 501
+Froghemoth 13 1 ToH - - - - - 502
+Gargoyle 4 1-16 MM 446-449 584-586 564-565 493-495 510-520 503-505
+Gargoyle, Green Guardian 4 1-16 ToH 450 587 566 496 521 506
+Gargoyle, Margoyle 5 1-2 ToH 451 588 567 497 522 507
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 452 589 568 498 523 508
+Genie, Djinni 5 1-15 MM 453 590 569 499 524 509
+Genie, Efreeti 8 1-15 MM 454 591 570 500 525 510
+Genie, Janni 4 1-15 MM 455 592 571 501 526 511
+Ghoul-Stirge 2 1-8 ToH - - 572 - - -
+Giant Eagle 3 1-2 MM - 593-595 573-574 502-504 527-529 -
+Giant Owl 3 1-5 MM - - - - - -
+Giant, Cloud 11 1-4 MM - - 575 505 530-532 -
+Giant, Fire 10 1-5 MM - - - 506 533-543 -
+Giant, Fire (hunting party) 32 var 6-9 MM - 596 576 507-509 544-554 -
+Giant, Hill 7 1-5 MM - - - 510-559 555-614 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 560-571 615-625 -
+Giant, Stone 8 1-5 MM - - - 572 626-636 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 573 637-639 -
+Giant, Storm 13 1 MM - - - 574 640-642 -
+Giant, Wood 5 1-5 ToH - - 577-578 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 579-580 - - -
+Giant, Wood (trading party) 5 1-5 ToH 456 597 581-582 575 643 512
+Gnoll 1 1-5 MM 457 598 583 576 644 513
+Gnoll, Flind 1 1-5 ToH 458-461 599-601 584-585 577-579 645-647 514-516
+Gnoll, Flind (mob) 36 var 2-5 ToH 462 602-604 586-587 580-582 648-650 517
+Goblin 1/4 4-9 MM 463-482 605-617 588-599 583-595 651-661 518-533
+Goblin (warband) 17 var 10-24 MM 483-486 618-620 600-601 596-598 662-664 534-536
+Gorgimera 8 1-2 ToH 487 621 602 599 665 537
+Gorgon 8 1-13 MM 488-491 622-624 603 600-602 666-668 538
+Gray Render 8 1 MM 492-495 625-627 604-605 603-605 669-671 539-541
+Griffon 4 1-10 MM - 628-630 - 606-617 672-682 -
+Groaning Spirit 7 1 ToH 496 631 606 618 683 542
+Hag (covey) 18 var 3 MM 497 632 607 619 684 543
+Hag, Annis 6 1 MM 498 633 608 620 685 544
+Hag, Green 5 1 MM - - 609 - - 545
+Hag, Storm or DM’s choice 7 1-2 CC1 499 634 - 621 686 -
+Hamster, Giant 2 1-4 ToH - 635 - 622 - -
+Hangman Tree 6 1 ToH - - 610 - - -
+Harpy 4 1-12 MM 500 636-648 611-622 623-634 687-697 546-561
+Haunt 4 1 ToH 501 649 623 635 698 562
+Hell Hound 3 1-12 MM 502 650 624 636 699 563
+Hill Howler or DM’s choice 2 1 CC1 - 651 - 637 - -
+Hippogriff 2 1-12 MM - 652-654 - 638-640 - -
+Hobgoblin 1/2 4-9 MM 503-506 655-657 625-626 641-643 700-702 564-566
+Hobgoblin (warband) 1/2 10-24 MM 507-510 658-660 627-628 644-646 703-705 567-569
+Homunculus 1 1 MM 511 661 629 647 706 570
+Hornsaw Unicorn or DM’s choice 5 1-8 CC1 - - 630 - - -
+Horse, Heavy (wild) 1 1-30 MM 512-531 662-674 631-642 648-659 707-717 571-586
+Horse, Light (wild) 1 1-30 MM 532-551 675-687 643-654 660-671 718-728 587-602
+Huecuva 3 1-10 ToH 552 688 655 672 729 603
+Hydra 1 var 1 MM - - - - - 604-618
+Inphidian 3 1-5 ToH 553 689 656 673 730 619
+Invisible Stalker 7 1 MM 554 690 657 674 731 620
+Kamadan 4 1 ToH 555 691 658 675 732 621
+Kech 3 2-8 ToH - - 659-660 - - -
+Kelpie 4 1-4 ToH - - - - - 622
+Kobold 1/6 4-9 MM - - 661 - - -
+Korred 4 1-4 ToH - - 662 - - -
+Lamia 6 1-4 MM 556 - - 676 - -
+Leech, Giant 2 2-15 ToH - - - - - 623-637
+Leeching willow or DM’s choice 7 1 CC2 - - 663 - - 638
+Leprechaun 4 2-20 ToH - - 664-665 - - -
+Lion, Mountain (leopard) 2 1-2 MM 557 692 666 677 733 -
+Lizardfolk 1 2-3 MM - - - - - 639-641
+Manticore 5 1-6 MM 558-577 693-705 667-678 678-689 734-745 642-657
+Medusa 7 1-4 MM 578-581 706-708 679-680 690-692 746-748 658-660
+Mere-lurker or DM’s choice 1/4 5-10 CC1 - 709 681 - - 661-663
+Mimic 4 1 MM 582-585 710-712 682-683 693-695 749-751 664-666
+Mongrelman 1 1-5 ToH 586 713 684 696 752 667
+Monstrous Centipede 2 var var MM 587-606 714-726 685-696 697-708 753-763 668-682
+Monstrous Frog, Abyssal Dire 5 1-2 ToH - 727 697 709 764 683
+Monstrous Frog, Dire 4 1-2 ToH - 728 698 710 765 684-686
+Monstrous Frog, Giant 2 1-2 ToH 607 729-731 699-700 711 766 687-701
+Monstrous Frog, Killer 1 2-18 ToH - 732 701 712 767 702-704
+Monstrous Frog, Poisonous 1 2-18 ToH - 733-735 702-703 713-715 768-770 705-707
+Monstrous Scorpion 2 var var MM 608-627 736-748 704-715 716-727 771-781 708-722
+Monstrous Spider 2 var var MM 628-647 749-761 716-727 728-739 782-792 723-737
+Moose 3 1 ToH - 762 728 740 - -
+Mudman 1 1-12 ToH - - - - - 738
+Mummy 3 1-10 MM 648 - - - - -
+Naga, Guardian 10 1-4 MM 649 763 729 741 793 739
+Naga, Spirit 9 1-4 MM 650-653 764-766 730-731 742-744 794 740-742
+Naga, Water 7 1-4 MM - - - - - 743-745
+Night Hag 9 1 or 3 MM 654 767 732 745 797 746
+Nymph 6 1 MM 655 768 733-734 746 798 747
+Ogre 2 1-8 MM 656-714 769-847 735-784 747-796 799-858 748-824
+Ogre Mage 22 var 1-2 MM 715 848 785 797 859 825
+Ogre, Half-Ogre 1 1-8 ToH 716-719 849-851 786-787 798-800 860-862 826-828
+Ogre, Ogrillon 1 1-5 ToH 720-723 852-854 788-789 801-803 863-865 829-831
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 724 855-857 790-791 804-806 866-868 832-834
+Ooze, Black Pudding 7 1 MM - - - - - 835-849
+Ooze, Brown Pudding 7 1 ToH - - - - - 850-852
+Ooze, Gray Ooze 4 1 MM - - - - - 853-855
+Ooze, Mustard Jelly 7 1 ToH - - - - - 856
+Ooze, Ochre Jelly 5 1 MM - - - - - 857-871
+Ooze, Undead or DM’s choice 4 1 CC1 725 858 792 807 869 872
+Orc 1/2 2-4 MM 726 859 793 808 870 873
+Orc (squad) 21 var 11-20 MM 727 860 794 809 871 874
+Orog 1 1-4 ToH 728-731 861-863 795-796 810-812 872-874 875-877
+Orog (squad) 21 var 11-20 ToH 732-735 864-866 797-798 813-815 875-877 878-880
+Owlbear 4 1-8 MM - - 799-800 - - -
+Pegasus 3 1-10 MM - - 801 816 - -
+Phase Spider 5 1-5 MM 736 867 802 817 878 881
+Plaguecat or DM’s choice 2 5-8 CC1 - 868-870 - - - -
+Pony (small wild horse) 1/4 1-30 MM 737-756 871-883 803-814 818-829 879-889 882-897
+Praying Mantis, Giant 2 1 MM 757-760 884-886 815-816 830-832 890-892 898-900
+Pyrolisk 4 1-12 ToH 761-764 887 817 833 893 901
+Quickling 3 2-12 ToH - - 818 - - -
+Quickwood 8 1 ToH - - 819 834 894 -
+Rat Swarm 1/8 20-100 MM 765-783 888-900 820-831 835-846 895-905 902-916
+Rat, Brain 1 2-12 ToH 784 901 832 847 906 917
+Rat, Ethereal 2 6-11 ToH 785 902 833 848 907 918
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 786 903 834 849 908 919
+Ratman, Daywalker or DM’s choice 1 1-2 CC2 787-790 - - - - -
+Ratman, Daywalker (warband) or DM’s choice 10 var 10-120 CC2 791-794 - - - - -
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 795 904 835 850 909 920
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 796 905 836 851 910 921
+Ratman, Red Witch or DM’s choice 1 1 CC1 797 906 837 852 911 922
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 798 907 838 853 912 923
+Roc 9 1-2 MM 913-915 -
+Salamander 2 1-5 MM 799-802 908 839 854 916-918 924
+Salamander, Flamebrother 5 1-5 MM 803 909 840 855 919 925
+Salamander, Noble 9 1-14 MM 804 910 841 856 920 926
+Sand Burrower or DM’s choice 7 1 CC1 805 - - - - -
+Sand Mummy or DM’s choice 3 1 CC2 806 - - - - -
+Sand Wyvern or DM’s choice 3 1-12 CC2 807 - - - - -
+Sandling 2 1 ToH 808-811 911 842 857 921 927
+Sandman 3 1-4 ToH 812-815 912 843 858 922 928
+Satyr 24 var 1-10 MM - - 844-845 - - -
+Shambling Mound 6 1 MM - - 846-847 - - 929-931
+Skeleton 5 var var MM 816-819 913-915 848-849 859-861 923-925 932-934
+Skunk 1/6 1-5 ToH - - 850-899 862-911 - -
+Slime Crawler 1 1-20 ToH - - 900 912 926 -
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - - - 935-937
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - - - 938-940
+Slug, Giant 6 1 ToH - - - - - 941
+Snake, Black Snake, Redbellied 1/2 1 ToH - - 901-902 - - 942-944
+Snake, Copperhead 1/2 1 ToH - 916-918 - 913 - -
+Snake, Cottonmouth 1/2 1 ToH - - - - - 945
+Snake, Rattlesnake, Desert 1/2 1 ToH 820-877 - - - - -
+Snake, Rattlesnake, Diamondback 1/2 1 ToH 878-881 - - - - -
+Snake, Rattlesnake, Rock 1/2 1 ToH 882-885 - - 914-916 927-929 -
+Snake, Rattlesnake, Tiger 1/2 1 ToH - 919-921 903-904 - - -
+Snake, Sidewinder 1/2 1 ToH 886-944 - - - - -
+Snake, Viper, Desert 1/2 1 ToH 945-948 - - - - -
+Spider, Scarlet 1/4 8-40 ToH 949-952 922-924 905 917 930 946-948
+Spire Wyvern or DM’s choice 4 1-2 CC1 953 925 906 918 931 949
+Spriggan 4 1-12 ToH 954 926 907 919 932 950
+Sprite 1 2-12 ToH - 927-929 908-909 - - -
+Sprite Tribe 1 10-100 ToH - 930 910 - - -
+Sprite, Grig 1 1-10 MM - - 911 - - -
+Sprite, Nixie 1 1-10 MM - - - - - 951-953
+Sprite, Pixie 4 1-10 MM - - 912-913 - - -
+Squealer 8 1-4 ToH - - 914 - - -
+Stegocentipede 4 1 ToH 955-958 931 915 920 933 954
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 955
+Stirge 1/2 2-13 MM - 932-934 916-927 921-923 - 956-958
+Strangle Weed 3 1-4 ToH - - - - - 959-961
+Stymphalian Bird 4 1-5 ToH - - 928 924 - 962
+Tenebrous Worm 8 1 ToH 959 935 929 925 934 963
+Tentamort 4 1-5 ToH - - - - - 964-966
+Therianthrope, Foxwere 2 1-5 ToH - 936 930 - - 967
+Therianthrope, Jackalwere 2 1-5 ToH 960 937 931 926 935 968
+Therianthrope, Wolfwere 3 1-5 ToH - 938-940 932-933 927-929 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 941-943 934-935 930-932 - -
+Thunder Beast 4 5-20 ToH 961 944 - 933 - -
+Tick, Giant 1 3-12 ToH 962-965 945-947 936-937 934-936 936 969-971
+Tiger 4 1 MM - 948-960 938-948 937-948 937-347 -
+Titan 21 1-2 MM 966 961 949 949 948 972
+Treant 8 1-7 MM - - 950-951 - - -
+Troglodyte 1 2-5 MM - - - - 949-951 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 952 -
+Trogodon or DM’s choice 3 1-7 CC1 - - - - - 973
+Troll 5 1-4 MM 967-986 962-974 952-963 950-962 953-964 974-989
+Troll, Swamp 3 1-4 ToH - - - - - 990
+Troll, Two-headed 6 1-4 ToH 987 975 964 963 965 991
+Tunnel Worm 7 1-5 ToH 988-991 976-978 965-966 964-966 966-968 992
+Unicorn 3 1-6 MM - - 967-968 - - -
+Wasp, Giant 3 1-20 MM 992-995 979-981 969-970 967-969 969-971 993-995
+Wolf 1 1-16 MM - 982-994 971-982 970-982 972-983 -
+Wolf, Ghoul Wolf 2 1-16 ToH 996 995 983 983 984 996
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 997 996 984 984 985 997
+Worg 2 1-11 MM - 997 985 985 986 -
+Wyvern 6 1-6 MM - - 986-997 986-997 987-997 -
+Xorn 6 1-5 MM 998 998 998 998 998 998
+Zombie 4 var var MM 999 999 999 999 999 999
+Zombie, Juju 3 var var ToH 000 000 000 000 000 000
+EndTable:
+
+#Temperate-Nighttime
+Table: 2-3B
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Algoid 4 1-6 ToH - - 003 - - 003-005
+Allip 3 1 MM 003 003 004 003 003 006
+Amalthean Ram or DM’s choice 6 2-4 CC1 - - - - 004 -
+Amphisbaena 4 1-4 ToH 004 004 005 004 005 007
+Ankheg 3 1-4 MM - 005-007 006-007 - - -
+Ant Lion 5 1-4 ToH 005-007 008 008 005 - -
+Ant, Giant, Soldier 2 1-4 MM 008-010 009-011 009-010 006-008 - -
+Ant, Giant, Worker 1 2-12 MM 011-013 012-014 011-012 009-011 - -
+Apparition 7 1-4 ToH 014 015 013 012 006 008
+Aranea 4 1-6 MM - - 014 - - -
+Assassin Vine 3 1-4 MM - - 015-016 - - 009-011
+Athach 7 1-12 MM - - - 013 007 -
+Atomie 1 2-4 ToH - - 017-018 - - -
+Axe Beak 2 1-6 ToH 015-017 016-018 019-020 014-016 008 012
+Barghest 4 1-6 MM 018 019 021 017 009 013
+Basilisk, Common 5 1-6 MM 019-021 020-022 022-023 018-020 010-012 014-016
+Basilisk, Greater 7 1-2 ToH 022 023 024 021 013 017
+Bat Swarm 1/10 30-50 MM 023-038 024-035 025-036 022-033 - -
+Bat, Doombat 4 1-8 ToH 039 036-038 037-038 034-036 014 018
+Bear, Black 2 1-2 MM - - 039-070 037-068 015-048 -
+Bear, Brown 2 1-2 MM - - 071-082 069-080 049-059 -
+Bee, Giant 1/2 1-20 MM 040 039 083 081 060 019
+Beetle, Giant: Bombardier 2 2-12 MM 041-056 040-051 084-094 082-093 061-071 020-033
+Beetle, Giant: Boring 3 2-12 ToH 057-072 052-063 095-106 094-105 072-082 034-047
+Beetle, Giant: Deathwatch 6 1 ToH - - 107 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 073-088 064-075 108-118 106-117 083-093 048-061
+Beetle, Giant: Slicer 4 2-12 ToH - - 119-120 - - -
+Beetle, Giant: Stag 4 2-12 MM - - 121-122 - - -
+Behir 8 1-2 MM 089-091 076-078 123-124 118-120 094-096 062-064
+Eye Tyrant 13 1-6 MM 092 079 125 121 097 065
+Bison 2 1-30 MM - 080-091 - - - -
+Bitter tree 10 1-5 CC2 - - 126 - - -
+Blink Dog 2 1-16 MM - 092-094 - - - -
+Blood Moth or DM’s choice 1/4 10-50 CC2 - 095 127 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 128 - 098 -
+Bloody Bones 4 1-5 ToH 093 096 129 122 099 066
+Boar 2 1 MM - - 130-161 - - -
+Bodak 8 1-4 MM 094 097 162 123 100 067
+Bog Beast 5 1-5 ToH - - - - - 068-070
+Bog Mummy 6 1-10 ToH - - - - - 071
+Boggart 7 1-5 ToH - - - - - 072-074
+Bonesnapper 3 1-4 ToH - - 163 - - 075
+Brownie 1 2-12 ToH - - 164-165 - - -
+Buckawn 2 2-20 ToH - - 166-167 - - -
+Bulette 7 1-2 MM 095 098 168 124 101 076
+Bunyip 3 1 ToH - - - - - 077-079
+Camel 1 1 MM 096-098 - - 125 102 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 169-170 - - -
+Caterwaul 3 1 ToH - 099 171-172 126 103-105 -
+Cathedral Beetle or DM’s choice 4 1-16 CC1 099 100 173-174 127 106 -
+Cave Cricket 1 1-5 ToH 100-102 101-103 175-176 128-130 107-109 080-082
+Centaur 3 1-8 MM - - 177 - - -
+Centaur (troop) 28 var 1-8 MM - - 178 - - -
+Chimera 7 1-13 MM 103-105 104-106 179-180 131-133 110-112 083-085
+Chuul 7 1-5 MM - - 181 - - 086
+Cobra Flower 4 1-4 ToH - 107 182-183 134 113-115 087
+Cockatrice 3 1-13 MM 106-108 108-110 184 135-137 116-118 088
+Coffer Corpse 3 1 ToH 109 111 185 138 119 089
+Cooshee 2 1-9 ToH 110 112 186-187 139-141 120-122 090
+Corpse Whisperer or DM’s choice 15 var 1 CC2 111 113 188 142 123 091
+Cray?sh, Monstrous 3 1-5 ToH - - - - - 092
+Dananshee or DM’s choice 16 var 1 CC2 112 114 189 143 124 093
+Dark Creeper 2 2-4 ToH - - 190-191 144-146 125-127 -
+Dark Stalker 4 1 ToH - - 192 147 128 -
+Darnoc 6 1-4 ToH 113 115 193 148 129 094
+Death Worm 6 1 ToH 114 - - - - -
+Demiurge 6 1 ToH 115 116 194 149 130 095
+Dire Badger 2 1-5 MM - 117-128 195-206 150-161 - -
+Dire Bat 2 1-8 MM 116-131 129-140 207-218 162-173 131-141 -
+Dire Bear 7 1-2 MM - 141-143 219-220 174-176 142-144 -
+Dire Bison 6 1-30 ToH - 144-146 - 177 - -
+Dire Boar 4 1-8 MM - - 221-232 - - -
+Dire Goat 2 1-12 ToH 132 147 233-234 178-189 145-155 096
+Dire Lion 5 1-10 MM - 148-159 235-246 190-200 156-166 -
+Dire Porcupine 3 1-5 ToH - 160-171 247-257 201-211 - -
+Dire Ram 3 1 ToH - 172 - 212 167 -
+Dire Rat 1/3 1-20 MM 133-182 173-214 258-289 213-244 168-201 097-141
+Dire Tiger 8 1-2 MM - 215-217 290-291 245-247 202-204 -
+Dire Weasel 2 1-2 MM - 218-220 292-293 248-250 205-207 -
+Dire Wolf 3 1-8 MM 183-185 221-223 294-295 251-253 208-210 142-144
+Dire Wolverine 4 1-2 MM - 224-226 296-297 254-256 - -
+Displacer Cat 4 1-10 MM - - 298 257 211 -
+Dog (wild) 1/3 1-12 MM 186-235 227-268 299-330 258-289 212-244 145-189
+Dog, War (wild-riding) 1 1-12 MM 236-285 269-310 331-362 290-321 245-277 190-234
+Doppleganger 3 1-6 MM 286 311 363 322 278 235
+Dracolisk, Black 7 1-6 ToH 287 312 364 323 279 236
+Dracolisk, Blue 7 1-6 ToH 288 313 365 324 280 237
+Dracolisk, Green 7 1-6 ToH 289 314 366 325 281 238
+Dracolisk, Red 7 1-6 ToH 290 315 367 326 282 239
+Dracolisk, White 7 1-6 ToH 291 316 368 327 283 240
+Dragon, Black 8 var 1 MM - - - - - 241-254
+Dragon, Blue 8 var 1 MM 292-294 - - - - -
+Dragon, Brass 8 var 1 MM 295-310 317-328 - - - -
+Dragon, Cloud 8 var 1-5 ToH - - - - 284 -
+Dragon, Copper 8 var 1 MM 311-313 - - 328-330 285-287 -
+Dragon, Faerie 2 1-6 ToH - - 369 - - -
+Dragon, Gold 8 var 1 MM 314 329 370 331 288 255
+Dragon, Green 8 var 1 MM - - 371-372 - - -
+Dragon, Mist 8 var 1-5 ToH - - 373 - - -
+Dragon, Red 8 var 1 MM - - - 332-334 289-291 -
+Dragon, Silver 8 var 1 MM - - - - 292 -
+Dragon?y, Giant 4 1-5 ToH 315 330 374 335 293 256-258
+Dragonne 7 1-10 MM 316 - - 336 - -
+Drake, Fire 4 1-8 ToH - - - 337 294 -
+Drake, Salt 9 1-5 ToH 317 - - - - -
+Dryad 1 1-7 MM - - 375 - - -
+Dune Delver or DM’s choice 5 1 CC1 318 - - - - -
+Eblis 3 4-16 ToH - - - - - 259
+Eel, Electric 2 1-2 ToH - - - - - 260-262
+Elemental, Air 29 var 1-4 MM 319 331 376 338 295 263
+Elemental, Earth 29 var 1-4 MM 320 332 377 339 296 264
+Elemental, Fire 29 var 1-4 MM 321 - - 340 297 -
+Elemental, Water 29 var 1-4 MM - - - - - 265
+Emperor Stag or DM’s choice 6 1 CC1 - - 378 - - -
+Ettercap 30 var 1-2 MM - - 379-389 - - -
+Ettin 5 1-4 MM - - - 341 298 -
+False Spider, Pedipalp 1 1-5 ToH 322 333 390 342 299 -
+False Spider, Solifugid 3 1-5 ToH 323 334 391 343 300 -
+Fatling or DM’s choice 5 1 CC1 324 335 392 344 301 266
+Fen Witch 5 1 ToH - - - - - 267
+Feral or DM’s choice 12 var 1-15 CC1 325 336 393 345 302 268
+Fire Nymph 7 1 ToH 326 337 394 346 303 269
+Fire Snake 1 1-5 ToH 327 338 395 347 304 270
+Flail Snail 3 1 ToH 328 339 396 348 305 271
+Flesh Strippers or DM’s choice 1/4 5-50 CC2 329 340 397 349 306 272
+Fly, Giant 2 1-12 ToH 330 341 398 350 307 273
+Forester’s Bane 5 1-2 ToH - 342 399 351 308 -
+Forlarren 2 1 ToH 331 343 400 352 309 274
+Froghemoth 13 1 ToH - - - - - 275
+Gargoyle 4 1-16 MM 332-334 344-346 401-402 353-355 310-320 276-278
+Gargoyle, Green Guardian 4 1-16 ToH 335 347 403 356 321 279
+Gargoyle, Margoyle 5 1-2 ToH 336 348 404 357 322 280
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 337 349 405 358 323 281
+Genie, Djinni 5 1-15 MM 338 350 406 359 324 282
+Genie, Efreeti 8 1-15 MM 339 351 407 360 325 283
+Genie, Janni 4 1-15 MM 340 352 408 361 326 284
+Ghast 3 1-4 MM 341-356 353-364 409-419 362-373 327-337 285-298
+Ghast (pack) 31 var 2-4 MM 357-359 365-367 420-421 374-376 338-340 299-301
+Ghoul 1 1-12 MM 360-375 368-379 422-433 377-388 341-351 302-315
+Ghoul-Stirge 2 1-8 ToH - - 434 - - -
+Giant Owl 3 1-5 MM - 380-382 435-436 389-391 352-354 -
+Giant, Cloud 11 1-4 MM - - 437 392 355-357 -
+Giant, Fire 10 1-5 MM - - - 393 358-368 -
+Giant, Fire (hunting party) 32 var 6-9 MM - 383 438 394-396 369-379 -
+Giant, Hill 7 1-5 MM - - - 397-428 380-412 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 429-440 413-423 -
+Giant, Stone 8 1-5 MM - - - 441 424-434 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 442 435-437 -
+Giant, Storm 13 1 MM - - - 443 438-440 -
+Giant, Wood 5 1-5 ToH - - 439 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 440 - - -
+Giant, Wood (trading party) 5 1-5 ToH 376 384 441 444 441 316
+Gnoll 1 1-5 MM 377-392 385-396 442-453 445-456 442-452 317-330
+Gnoll, Flind 1 1-5 ToH 393-395 397-399 454-455 457-459 453-455 331-333
+Gnoll, Flind (mob) 36 var 2-5 ToH 396 400-402 456-457 460-462 456-458 334
+Goblin 1/4 4-9 MM 397-412 403-414 458-469 463-474 459-469 335-348
+Goblin (warband) 17 var 10-24 MM 413-415 415-417 470-471 475-477 470-472 349-351
+Gorgimera 8 1-2 ToH 416 418 472 478 473 352
+Gorgon 8 1-13 MM 417-419 419-421 473 479-481 474-476 353
+Gray Render 8 1 MM 420-422 422-424 474-475 482-484 477-479 354-356
+Groaning Spirit 7 1 ToH 423 425 476 485 480 357
+Hag (covey) 18 var 3 MM 424 426 477 486 481 358
+Hag, Annis 6 1 MM 425 427 478 487 482 359
+Hag, Green 5 1 MM - - 479 - - 360
+Hag, Moon or DM’s choice 13 1-2 CC1 - - 480 - 483 -
+Hag, Storm or DM’s choice 7 1-2 CC1 426 428 - 488 484 -
+Hamster, Giant 2 1-4 ToH - 429 - 489 - -
+Hangman Tree 6 1 ToH - - 481 - - -
+Harpy 4 1-12 MM 427 430-432 482-483 490-492 485-487 361-363
+Haunt 4 1 ToH 428 433 484 493 488 364
+Hell Hound 3 1-12 MM 429 434 485 494 489 365
+Hell Moth 6 1-6 ToH 430 435 486 495 490 366
+Hill Howler or DM’s choice 2 1 CC1 - 436 - 496 - -
+Hobgoblin 1/2 4-9 MM 431-446 437-448 487-498 497-508 491-501 367-380
+Hobgoblin (warband) 1/2 10-24 MM 447-462 449-460 499-509 509-519 502-512 381-394
+Homunculus 1 1 MM 463 461 510 520 513 395
+Hornsaw Unicorn or DM’s choice 5 1-8 CC1 - - 511 - - -
+Horse, Heavy (wild) 1 1-30 MM 464-466 462-464 512-513 521-523 514-516 396-398
+Horse, Light (wild) 1 1-30 MM 467-469 465-467 514-515 524-526 517-519 399-401
+Huecuva 3 1-10 ToH 470 468 516 527 520 402
+Hydra 1 var 1 MM - - - - - 403-415
+Inphidian 3 1-5 ToH 471 469 517 528 521 416
+Invisible Stalker 7 1 MM 472 470 518 529 522 417
+Kamadan 4 1 ToH 473 471-473 519-520 530-532 523 418-420
+Kech 3 2-8 ToH - - 521-522 - - -
+Kelpie 4 1-4 ToH - - - - - 421
+Kobold 1/6 4-9 MM 474-476 474-476 523-533 533-535 524-526 422-424
+Korred 4 1-4 ToH - - 534 - - -
+Lamia 6 1-4 MM 477 - - 536 - -
+Leech, Giant 2 2-15 ToH - - - - - 425-438
+Leeching willow or DM’s choice 7 1 CC2 - - 535 - - 439
+Leprechaun 4 2-20 ToH - - 536-537 - - -
+Lion, Mountain (leopard) 2 1-2 MM 478-493 477-488 538-548 537-548 527-537 -
+Lizardfolk 1 2-3 MM - - - - - 440
+Manticore 5 1-6 MM 494-496 489-491 549-550 549-551 538-540 441-443
+Medusa 7 1-4 MM 497-499 492-494 551-552 552-554 541-543 444-446
+Mere-lurker or DM’s choice 1/4 5-10 CC1 - 495 553 - - 447-449
+Mimic 4 1 MM 500-502 496-498 554-555 555-557 544-546 450-452
+Mongrelman 1 1-5 ToH 503 499 556 558 547 453
+Monstrous Centipede 2 var var MM 504-553 500-541 557-588 559-590 548-581 454-498
+Monstrous Frog, Abyssal Dire 5 1-2 ToH - 542 589 591 582 499
+Monstrous Frog, Dire 4 1-2 ToH - 543-545 590-591 592-594 583-585 500-513
+Monstrous Frog, Giant 2 1-2 ToH 554 546-548 592-593 595 586 514-527
+Monstrous Frog, Killer 1 2-18 ToH - 549 594 596 587 528-530
+Monstrous Frog, Poisonous 1 2-18 ToH - 550-552 595-596 597-599 588-590 531-533
+Monstrous Scorpion 2 var var MM 555-604 553-594 597-628 600-631 591-624 534-578
+Monstrous Spider 2 var var MM 605-654 595-636 629-660 632-663 625-658 579-623
+Moose 3 1 ToH - 637 661 664 - -
+Mudman 1 1-12 ToH - - - - - 624
+Mummy 3 1-10 MM 655 - - - - -
+Naga, Guardian 10 1-4 MM 656 638 662 665 659 625
+Naga, Spirit 9 1-4 MM 657 639 663 666 660 626
+Naga, Water 7 1-4 MM - - - - - 627-629
+Night Hag 9 1 or 3 MM 658 640 664 667 661 630
+Night Terror or DM’s choice 2 6-10 CC1 - 641 665 - - -
+Nightshade, Nightcrawler 18 1-2 MM 659 642 666 668 662 631
+Nightshade, Nightwalker 16 1-4 MM 660 643 667 669 663 632
+Nightshade, Nightwing 14 1-6 MM 661 644 668 670 664 633
+Nilbog 2 4-20 ToH - - 671 665 -
+Nymph 6 1 MM 662 645 669 672 666 634
+Ogre 2 1-8 MM 663-712 646-687 670-701 673-704 667-700 635-679
+Ogre Mage 22 var 1-2 MM 713 688 702 705 701 680
+Ogre, Half-Ogre 1 1-8 ToH 714-716 689-691 703-704 706-708 702-704 681-683
+Ogre, Ogrillon 1 1-5 ToH 717-719 692-694 705-706 709-711 705-707 684-686
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 720 695-697 707-708 712-714 708-710 687-689
+Ooze, Black Pudding 7 1 MM - - - - - 690-703
+Ooze, Brown Pudding 7 1 ToH - - - - - 704-706
+Ooze, Gray Ooze 4 1 MM - - - - - 707-709
+Ooze, Mustard Jelly 7 1 ToH - - - - - 710
+Ooze, Ochre Jelly 5 1 MM - - - - - 711-724
+Ooze, Undead or DM’s choice 4 1 CC1 721 698 709 715 711 725
+Ooze, Vampiric 8 1 ToH - - - - - 726
+Orc 1/2 2-4 MM 722-771 699-740 710-741 716-747 712-745 727-771
+Orc (squad) 21 var 11-20 MM 772-821 741-782 742-773 748-779 746-778 772-816
+Orog 1 1-4 ToH 822-824 783-785 774-775 780-782 779-781 817-819
+Orog (squad) 21 var 11-20 ToH 825-827 786-788 776-777 783-785 782-784 820-822
+Owlbear 4 1-8 MM - - 778-779 - - -
+Phase Spider 5 1-5 MM 828 789 780 786 785 823
+Plaguecat or DM’s choice 2 5-8 CC1 - 790 - - - -
+Pony (small wild horse) 1/4 1-30 MM 829-831 791-793 781-782 787-789 786-788 824-826
+Praying Mantis, Giant 2 1 MM 832 794 783 790 789 827
+Pyrolisk 4 1-12 ToH 833 795 784 791 790 828
+Quickling 3 2-12 ToH - - 785 - - -
+Quickwood 8 1 ToH - - 786 792 791 -
+Rat Swarm 1/8 20-100 MM 834-883 796-837 787-818 793-824 792-825 829-873
+Rat, Brain 1 2-12 ToH 884 838 819 825 826 874
+Rat, Ethereal 2 6-11 ToH 885 839 820 826 827 875
+Rat, Shadow 1 6-20 ToH 886 840 821 827 828 876
+Rat, Shadow Dire 3 1-12 ToH 887 841 822 828 829 877
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 888 842 823 829 830 878
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 889 843 824 830 831 879
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 890 844 825 831 832 880
+Ratman, Red Witch or DM’s choice 1 1 CC1 891 845 826 832 833 881
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 892 846 827 833 834 882
+Ratman, Stalker or DM’s choice 13 var 1 CC2 893 847 828 834 835 883
+Ratman, White Wraith or DM’s choice 1 1-2 CC2 894 848 829 835 836 884
+Ratman, White Wraith (warband) or DM’s choice 10 var 10-100 CC2 895 849 830 836 837 885
+Salamander 2 1-5 MM 896 850 831 837 838 886
+Salamander, Flamebrother 5 1-5 MM 897 851 832 838 839 887
+Salamander, Noble 9 1-14 MM 898 852 833 839 840 888
+Sand Burrower or DM’s choice 7 1 CC1 899 - - - - -
+Sand Mummy or DM’s choice 3 1 CC2 900 - - - - -
+Sandling 2 1 ToH 901-903 853 834 840 841 889
+Sandman 3 1-4 ToH 904-906 854 835 841 842 890
+Shadow 3 1-11 MM 907-909 855-857 836-837 842-844 843-845 891-893
+Shambling Mound 6 1 MM - - 838-839 - - 894-896
+Skeleton 5 var var MM 910-925 858-869 840-850 845-856 846-856 897-910
+Skunk 1/6 1-5 ToH - - 851-882 857-888 - -
+Slime Crawler 1 1-20 ToH 926 870 883-884 889-891 857-859 911
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - - - 912
+Slime Reaver Cluster or DM’s choice 1 3-6 CC2 - - - - - 913
+Slug, Giant 6 1 ToH - - - - - 914-916
+Snake, Adder, Night 1/2 1 ToH 927-929 871-873 885-886 - - -
+Snake, Black Snake, Redbellied 1/2 1 ToH - - 887 - - 917
+Snake, Sidewinder 1/2 1 ToH 930-932 - - - - -
+Snake, Viper, Desert 1/2 1 ToH 933-948 - - - - -
+Snake, Viper, Pit 1 1 ToH 949-951 874-876 888-889 892 860 918
+Spectre 7 1-11 MM 952 877 890 893 861 919
+Spider, Scarlet 1/4 8-40 ToH 953-955 878-880 891 894 862 920-922
+Spriggan 4 1-12 ToH 956 881 892 895 863 923
+Sprite 1 2-12 ToH - 882-884 893-894 - - -
+Sprite Tribe 1 10-100 ToH - 885 895 - - -
+Sprite, Grig 1 1-10 MM - - 896 - - -
+Sprite, Nixie 1 1-10 MM - - - - - 924-926
+Sprite, Pixie 4 1-10 MM - - 898-899 - - -
+Squealer 8 1-4 ToH - - 900 - - -
+Stegocentipede 4 1 ToH 957-959 886 901 896 864 927
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 928
+Stirge 1/2 2-13 MM - 887 902-903 897 - 929
+Strangle Weed 3 1-4 ToH - - - - - 930-932
+Stymphalian Bird 4 1-5 ToH - - 904 898 - 933
+Tenebrous Worm 8 1 ToH 960 888 905 899 865 934
+Tentamort 4 1-5 ToH - - - - - 935-937
+Therianthrope, Foxwere 2 1-5 ToH - 889 906 - - 938
+Therianthrope, Jackalwere 2 1-5 ToH 961 890 907 900 866 939
+Therianthrope, Wolfwere 3 1-5 ToH - 891-893 908-909 901-903 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 894-896 910-911 904-906 - -
+Thunder Beast 4 5-20 ToH 962 897 - 907 - -
+Tick, Giant 1 3-12 ToH 963-965 898-900 912-913 908-910 867 940-942
+Tiger 4 1 MM - 901-912 914-925 911-922 868-878 -
+Titan 21 1-2 MM 966 913 926 923 879 943
+Treant 8 1-7 MM - - 927-928 - - -
+Troglodyte 1 2-5 MM - - - - 880-912 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 913-923 -
+Trogodon or DM’s choice 3 1-7 CC1 - - - - - 944
+Troll 5 1-4 MM 967-982 914-925 929-940 924-935 924-934 945-958
+Troll, Cave 5 1-4 ToH - - - 936 935 -
+Troll, Swamp 3 1-4 ToH - - - - - 959-961
+Troll, Two-headed 6 1-4 ToH 983 926-928 941 937-939 936-938 962
+Tsathar 2 1-10 ToH - - - - - 963-965
+Tsathar Scourge 3 1-10 ToH - - - - - 966-968
+Tsathar Scourge (hunting party) 41 var 2-8 ToH - - - - - 969-971
+Tunnel Worm 7 1-5 ToH 984-986 929-931 942-943 940-942 939-941 972
+Unicorn 3 1-6 MM - - 944-945 - - -
+Vampire Spawn 4 1-5 MM 987 932 946 943 942 973
+Wasp, Giant 3 1-20 MM 988 933 947 944 943 974
+Wight 3 1-11 MM 989-991 934-936 948-949 945-947 944-946 975-977
+Will-o’-Wisp 6 1-4 MM - - - - - 978-991
+Wolf 1 1-16 MM - 937-979 950-981 948-979 947-980 -
+Wolf, Ghoul Wolf 2 1-16 ToH 992 980 982 980 981 992
+Wolf, Shadow 3 1-12 ToH 993 981 983 981 982 993
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 994 982 984 982 983 994
+Worg 2 1-11 MM - 983-994 985-995 983-994 984-994 -
+Wraith 5 1-11 MM 995 995 996 995 995 995
+Xorn 6 1-5 MM 996 996 997 996 996 996
+Zombie 4 var var MM 997-999 997-999 998-999 997-999 997-999 997-999
+Zombie, Juju 3 var var ToH 000 000 000 000 000 000
+EndTable:
+
+#Subtropic-Daytime
+Table: 2-4A
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Algoid 4 1-6 ToH - - 003 - - 003-005
+Allip 3 1 MM 003 003 004 003 003 006
+Amalthean Ram or DM’s choice 6 2-4 CC1 - - - - 004 -
+Amphisbaena 4 1-4 ToH 004 004 005 004 005 007
+Ankheg 3 1-4 MM - 005-007 006-007 - - -
+Ant Lion 5 1-4 ToH 005-007 008-010 008 005-008 - -
+Ant, Giant, Soldier 2 1-4 MM 008-010 011-013 009-010 009-012 - -
+Ant, Giant, Worker 1 2-12 MM 011-013 014-016 011-012 013-016 - -
+Apparition 7 1-4 ToH 014 017 013 017 006 008
+Aranea 4 1-6 MM - - 014-015 - - -
+Assassin Vine 3 1-4 MM - - 016-017 - - 009-011
+Athach 7 1-12 MM - - - 018 007 -
+Atomie 1 2-4 ToH - - 018 - - -
+Aurumvorax 8 1 ToH - 018 019 019 - -
+Axe Beak 2 1-6 ToH 015-030 019-030 020-029 020-029 008-010 012-014
+Barghest 4 1-6 MM 031 031 030 030 011 015
+Basilisk, Common 5 1-6 MM 032-034 032-034 031-032 031-034 012-014 016-018
+Basilisk, Greater 7 1-2 ToH 035 035 033 035 015 019
+Bear, Black 2 1-2 MM - - 034-087 036-085 016-076 -
+Bear, Brown 2 1-2 MM - - 088-097 086-095 077-086 -
+Bee, Giant 1/2 1-20 MM 036-038 036-038 098-099 096-099 087-089 020-022
+Beetle, Giant: Bombardier 2 2-12 MM 039-091 039-110 100-153 100-149 090-150 023-082
+Beetle, Giant: Boring 3 2-12 ToH 092-144 111-182 154-207 150-199 151-211 083-142
+Beetle, Giant: Deathwatch 6 1 ToH - - 208 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 145-197 183-255 209-262 200-249 212-272 143-202
+Beetle, Giant: Rhinoceros 6 2-12 ToH - - 263-264 - - -
+Beetle, Giant: Slicer 4 2-12 ToH - - 265-266 - - -
+Beetle, Giant: Stag 4 2-12 MM - 256 267-276 250 - -
+Behir 8 1-2 MM 198-200 257-259 277-278 251-254 273-275 203-205
+Eye Tyrant 13 1-6 MM 201 260 279 255 276 206
+Berserker Wasp Swarm or DM’s choice 5 3-30 CC1 - 261-263 280-281 - - -
+Bitter tree or DM’s choice 10 1-5 CC2 - - 282 - - -
+Blink Dog 2 1-16 MM - 264 - - - -
+Blood Moth or DM’s choice 1/4 10-50 CC2 - 265 283 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 284 - 277 -
+Bloody Bones 4 1-5 ToH 202 266 285 256 278 207
+Boalisk 4 1 ToH - - 286-287 - - 208-210
+Boar 2 1 MM - - 288-341 - - -
+Bog Beast 5 1-5 ToH - - - - - 211-213
+Bog Mummy 6 1-10 ToH - - - - - 214
+Boggart 7 1-5 ToH - - - - - 215-217
+Bonesnapper 3 1-4 ToH - - 342-343 - - 218-220
+Brownie 1 2-12 ToH - - 344-345 - - -
+Buckawn 2 2-20 ToH - - 346 - - -
+Bulette 7 1-2 MM 203 267 347 257 279 221
+Bunyip 3 1 ToH - - - - - 222-224
+Camel 1 1 MM 204-219 - - 258-261 280-282 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 348-349 - - -
+Caterwaul 3 1 ToH - - 350 - 283 -
+Cathedral Beetle or DM’s choice 4 1-16 CC1 - 268 351-352 262 284 -
+Cave Cricket 1 1-5 ToH 220 269 353 263 285 225
+Centaur 3 1-8 MM - - 354-355 - - -
+Centaur (troop) 28 var 1-8 MM - - 356 - - -
+Cheetah 2 1-5 MM - 270 - - - -
+Chimera 7 1-13 MM 221-223 271-273 357-358 264-267 286-288 226-228
+Chuul 7 1-5 MM - - 359 - - 229
+Cobra Flower 4 1-4 ToH - - 360 - 289 -
+Cockatrice 3 1-13 MM 224-226 274-276 361-362 268-271 290-292 230-232
+Coffer Corpse 3 1 ToH 227 277 363 272 293 233
+Cooshee 2 1-9 ToH 228-230 278-280 364-365 273-276 294-296 234-236
+Corpse Whisperer or DM’s choice 15 var 1 CC2 231 281 366 277 297 237
+Cray?sh, Monstrous 3 1-5 ToH - - - - - 238-240
+Dananshee or DM’s choice 16 var 1 CC2 232 282 367 278 298 241
+Dark Creeper 2 2-4 ToH - - 368 279 299 -
+Darnoc 6 1-4 ToH 233 283 369 280 300 242
+Death Dog 2 5-10 ToH 234 - - - - -
+Death Worm 6 1 ToH 235-237 - - - - -
+Demiurge 6 1 ToH 238 284 370 281 301 243
+Dire Badger 2 1-5 MM - 285-296 371-380 282-291 - -
+Dire Bear 7 1-2 MM - 297-299 381-382 292-295 302-304 -
+Dire Boar 4 1-8 MM - - 383-392 - - -
+Dire Goat 2 1-12 ToH 239 300 393 296-299 305-314 244
+Dire Hippopotamus 4 1-5 ToH - 301 - - - 245-247
+Dire Lion 5 1-10 MM - 302-313 394-403 300-308 315-324 -
+Dire Porcupine 3 1-5 ToH - 314-316 404-413 309-318 - -
+Dire Ram 3 1 ToH - 317 - 319-322 325-327 -
+Dire Rat 1/3 1-20 MM 240-255 318-329 414-423 323-332 328-337 248-261
+Dire Sloth 6 1-2 ToH - - 424 - - -
+Dire Tiger 8 1-2 MM - 330-332 425-426 333-336 338-340 -
+Dire Weasel 2 1-2 MM - - 427 337 - -
+Dire Wolf 3 1-8 MM 256 333 428 338 341 262
+Dire Wolverine 4 1-2 MM - 334-336 429-430 339-342 - -
+Displacer Cat 4 1-10 MM - - 431-432 343 342 -
+Dog (wild) 1/3 1-12 MM 257-309 337-409 433-486 344-393 343-403 263-321
+Dog, War (wild-riding) 1 1-12 MM 310-362 410-482 487-540 394-443 404-464 322-380
+Doppleganger 3 1-6 MM 363 483 541 444 465 381
+Dracolisk, Black 7 1-6 ToH 364 484 542 445 466 382
+Dracolisk, Blue 7 1-6 ToH 365 485 543 446 467 383
+Dracolisk, Green 7 1-6 ToH 366 486 544 447 468 384
+Dracolisk, Red 7 1-6 ToH 367 487 545 448 469 385
+Dracolisk, White 7 1-6 ToH 368 488 546 449 470 386
+Dragon, Black 8 var 1 MM - - - - - 387-400
+Dragon, Blue 8 var 1 MM 369-371 - - - - -
+Dragon, Brass 8 var 1 MM 372-387 489-500 - - - -
+Dragon, Cloud 8 var 1-5 ToH - - - - 471 -
+Dragon, Copper 8 var 1 MM 388 - - 450-453 472-474 -
+Dragon, Faerie 2 1-6 ToH - - 547 - - -
+Dragon, Gold 8 var 1 MM 391 501 548 454 475 401
+Dragon, Green 8 var 1 MM - - 549-550 - - -
+Dragon, Mist 8 var 1-5 ToH - - 551-552 - - -
+Dragon, Red 8 var 1 MM - - - 455-458 476-478 -
+Dragon, Silver 8 var 1 MM - - - - 479 -
+Dragon?y, Giant 4 1-5 ToH 392 502 553-554 459-462 480 402-404
+Dragonne 7 1-10 MM 393 - - 463 - -
+Dragonnel 6 1-4 ToH - - - 464 481 -
+Drake, Fire 4 1-8 ToH - - - 465 482 -
+Drake, Salt 9 1-5 ToH 394 - - - - -
+Dryad 1 1-7 MM - - 555 - - -
+Dune Delver or DM’s choice 5 1 CC1 395 - - - - -
+Dust Digger 4 1-20 ToH 396 - - - - -
+Eagle 1/2 1-2 MM - 503-505 556-557 466-469 483-485 -
+Eblis 3 4-16 ToH - - - - - 405
+Eel, Electric 2 1-2 ToH - - - - - 406-408
+Elemental, Air 29 var 1-4 MM 397 506 558 470 486 409
+Elemental, Earth 29 var 1-4 MM 398 507 559 471 487 410
+Elemental, Fire 29 var 1-4 MM 399 - - 472 488 -
+Elemental, Water 29 var 1-4 MM - - - - - 411
+Elephant 8 1-30 MM - 508-519 560-569 - - -
+Emperor Stag or DM’s choice 6 1 CC1 - - 570 - - -
+Ettercap 30 var 1-2 MM - - 571-580 - - -
+Fatling or DM’s choice 5 1 CC1 400 520 581 473 489 412
+Fen Witch 5 1 ToH - - - - - 413
+Feral or DM’s choice 12 var 1-15 CC1 401 521 582 474 490 414
+Fire Lizard 8 1-2 ToH 402 522 - 475 - 415
+Fire Nymph 7 1 ToH 403 523 583 476 491 416
+Fire Snake 1 1-5 ToH 404 524 584 477 492 417
+Flail Snail 3 1 ToH 405 525 585 478 493 418
+Flesh Strippers or DM’s choice 1/4 5-50 CC2 406 526-528 586 479-482 494 419
+Fly, Giant 2 1-12 ToH 407 529 587 483 495 420
+Forester’s Bane 5 1-2 ToH - 530 588 484 496 -
+Froghemoth 13 1 ToH - - - - - 421
+Gargoyle 4 1-16 MM 408-410 531-533 589-590 485-488 497-506 422-424
+Gargoyle, Green Guardian 4 1-16 ToH 411 534 591 489 507 425
+Gargoyle, Margoyle 5 1-2 ToH 412 535 592 490 508 426
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 413 536 593 491 509 427
+Genie, Djinni 5 1-15 MM 414 537 594 492 510 428
+Genie, Efreeti 8 1-15 MM 415 538 595 493 511 429
+Genie, Janni 4 1-15 MM 416 539 596 494 512 430
+Ghoul-Stirge 2 1-8 ToH - - 597 - - -
+Giant Eagle 3 1-2 MM - 540-542 598-599 495-498 513-515 -
+Giant, Cloud 11 1-4 MM - - 600 499 516-518 -
+Giant, Fire 10 1-5 MM - - - 500 519-528 -
+Giant, Fire (hunting party) 32 var 6-9 MM - 543 601 501-504 529-538 -
+Giant, Hill 7 1-5 MM - - - 505-554 539-597 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 555-564 598-607 -
+Giant, Sand 14 1-4 ToH 417 - - - - -
+Giant, Sand (raiding party) 38 var 6-9 ToH 418 - - - - -
+Giant, Stone 8 1-5 MM - - - 565 608-617 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 566 618-620 -
+Giant, Storm 13 1 MM - - - 567 621-623 -
+Giant, Wood 5 1-5 ToH - - 602-603 - - -
+Giant, Wood (Hunting party) 5 1-5 ToH - - 604-605 - - -
+Giant, Wood (Trading party) 5 1-5 ToH 419 544 606-607 568 624 431
+Gnoll 1 1-5 MM 420 545 608 569 625 432
+Gnoll, Flind 1 1-5 ToH 421-423 546-548 609-610 570-573 626-628 433-435
+Gnoll, Flind (mob) 36 var 2-5 ToH 424 549-551 611-612 574-577 629-631 436
+Goblin 1/4 4-9 MM 425-440 552-563 613-622 578-587 632-641 437-450
+Goblin (warband) 17 var 10-24 MM 441-443 564-566 623-624 588-591 642-644 451-453
+Gorgimera 8 1-2 ToH 444 567 625 592 645 454
+Gorgon 8 1-13 MM 445-447 568-570 626 593-596 646-648 455
+Gorilla Bear 4 1-7 ToH - - 627-628 - - -
+Gray Render 8 1 MM 448-450 571-573 629-630 597-600 649-651 456-458
+Griffon 4 1-10 MM - 574-576 - 601-609 652-661 -
+Grippli 1 1-12 ToH - - 631 - - 459-461
+Groaning Spirit 7 1 ToH 451 577 632 610 662 462
+Hag (covey) 18 var 3 MM 452 578 633 611 663 463
+Hag, Annis 6 1 MM 453 579 634 612 664 464
+Hag, Green 5 1 MM - - 635 - - 465
+Hag, Storm or DM’s choice 7 1-2 CC1 454 580 - 613 665 -
+Hag, Swamp or DM’s choice 6 1-2 CC1 - - - - - 466
+Hamster, Giant 2 1-4 ToH - 581 - 614 - -
+Hangman Tree 6 1 ToH - - 636 - - -
+Harpy 4 1-12 MM 455-470 582-593 637-646 615-624 666-675 467-480
+Haunt 4 1 ToH 471 594 647 625 676 481
+Hell Hound 3 1-12 MM 472 595 648 626 677 482
+Hill Howler or DM’s choice 2 1 CC1 - - - 627 - -
+Hippogriff 2 1-12 MM - 596-598 - 628-631 - -
+Hippopotamus 4 1-12 ToH - 599 - - - 483-485
+Hobgoblin 1/2 4-9 MM 473-475 600-602 649-650 632-635 678-680 486-488
+Hobgoblin (warband) 1/2 10-24 MM 476-478 603-605 651-652 636-639 681-683 489-491
+Homunculus 1 1 MM 479 606 653 640 684 492
+Horse, Heavy (wild) 1 1-30 MM 480-495 607-618 654-663 641-650 685-694 493-506
+Horse, Light (wild) 1 1-30 MM 496-511 619-630 664-673 651-660 695-704 507-520
+Huecuva 3 1-10 ToH 512 631 674 661 705 521
+Hydra 1 var 1 MM - - - - - 522-535
+Inphidian 3 1-5 ToH 513 632 675 662 706 536-538
+Invisible Stalker 7 1 MM 514 633 676 663 707 539
+Jaguar (leopard) 2 1-2 MM 515 634 677 664 708 -
+Kamadan 4 1 ToH 516 635 678 665 709 540
+Kech 3 2-8 ToH - - 679-680 - - -
+Kelpie 4 1-4 ToH - - - - - 541
+Kobold 1/6 4-9 MM - - 681 - - -
+Korred 4 1-4 ToH - - 682 - - -
+Lamia 6 1-4 MM 517 - - 666 - -
+Lammasu 8 1 MM 518 - - - - -
+Leech, Giant 2 2-15 ToH - - - - - 542-555
+Leeching Willow or DM’s choice 7 1 CC2 - - 683 - - 556-558
+Leprechaun 4 2-20 ToH - - 684 - - -
+Lion 3 1-10 MM - 636-638 - - - -
+Lion, Mountain (leopard) 2 1-2 MM 519 639 685 667 710 -
+Lizard, Giant 2 1 MM 520-522 640-642 686-687 668-671 711-713 559-561
+Lizard, Rock-horned 3 1 ToH 523 643 688 672 714 562
+Lizardfolk 1 2-3 MM - - - - - 563-576
+Manticore 5 1-6 MM 524-539 644-655 689-698 673-681 715-724 577-590
+Marmoset, Giant 1 2-11 ToH - - 699-700 - - -
+Medusa 7 1-4 MM 540-542 656-658 701-702 682-685 725-727 591-593
+Mere-lurker or DM’s choice 1/4 5-10 CC1 - - - - - 594
+Mimic 4 1 MM 543-545 659-661 703-704 686-689 728-730 595-597
+Mongrelman 1 1-5 ToH 546 662 705 690 731 598
+Monstrous Centipede 2 var var MM 547-562 663-674 706-715 691-700 732-741 599-612
+Monstrous Frog, Abyssal Dire 5 1-2 ToH - 675 716 701 742 613
+Monstrous Frog, Dire 4 1-2 ToH - 676-678 717-718 702-705 743 614-616
+Monstrous Frog, Giant 2 1-2 ToH 563 679-681 719-720 706-709 744 617-630
+Monstrous Frog, Killer 1 2-18 ToH - 682 721 710 745 631-633
+Monstrous Frog, Poisonous 1 2-18 ToH - 683-685 722-723 711-714 746-748 634-636
+Monstrous Scorpion 2 var var MM 564-579 686-697 724-733 715-724 749-758 637-650
+Monstrous Spider 2 var var MM 580-595 698-709 734-743 725-734 759-768 651-664
+Mudman 1 1-12 ToH - - - - - 665
+Mummy 3 1-10 MM 596 - - - - -
+Naga, Guardian 10 1-4 MM 597 710 744 735 769 666
+Naga, Spirit 9 1-4 MM 598-600 711-713 745-746 736-739 770-772 667-669
+Naga, Water 7 1-4 MM - - - - - 670-672
+Night Hag 9 1 or 3 MM 601 714 747 740 773 673
+Night Terror or DM’s choice 2 6-10 CC1 - - 748 - - -
+Nymph 6 1 MM 602 715 749-750 741 774 674
+Ogre 2 1-8 MM 603-656 716-788 751-805 742-791 775-835 675-734
+Ogre Mage 22 var 1-2 MM 657 789 806 792 836 735
+Ogre, Half-Ogre 1 1-8 ToH 658-660 790-792 807-808 793-796 837-839 736-738
+Ogre, Ogrillon 1 1-5 ToH 661-663 793-795 809-810 797-800 840-842 739-741
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 664 796-798 811-812 801-804 843-845 742-744
+Ooze, Black Pudding 7 1 MM - - - - - 745-758
+Ooze, Brown Pudding 7 1 ToH - - - - - 759-772
+Ooze, Dun Pudding 7 1 ToH 665 799 813 805-808 846 -
+Ooze, Gray Ooze 4 1 MM - - - - - 773-775
+Ooze, Magma 7 1 ToH - - - - 847 -
+Ooze, Mustard Jelly 7 1 ToH - - - - - 776
+Ooze, Ochre Jelly 5 1 MM - - - - - 777-790
+Ooze, Undead or DM’s choice 4 1 CC1 666 800 814 809 848 791
+Orc 1/2 2-4 MM 667 801 815 810 849 792
+Orc (squad) 21 var 11-20 MM 668 802 816 811 850 793
+Orog 1 1-4 ToH 669-671 803-805 817-818 812-815 851-853 794-796
+Orog (squad) 21 var 11-20 ToH 672-674 806-808 819-820 816-819 854-856 797-799
+Owlbear 4 1-8 MM - - 821 - - -
+Pegasus 3 1-10 MM - - 822 820 - -
+Phase Spider 5 1-5 MM 675 809 823 821 857 800
+Pony (small wild horse) 1/4 1-30 MM 676-691 810-821 824-833 822-831 858-867 801-814
+Praying Mantis, Giant 2 1 MM 692-694 822-824 834-835 832-835 868-870 815-817
+Pyrolisk 4 1-12 ToH 695-697 825-827 836 836-839 871 818
+Quickling 3 2-12 ToH - - 837 - - -
+Quickwood 8 1 ToH - - 838 840 872 -
+Rat Swarm 1/8 20-100 MM 698-713 828-839 839-848 841-850 873-882 819-832
+Rat, Brain 1 2-12 ToH 714 840 549 851 883 833
+Rat, Ethereal 2 6-11 ToH 715 841 850 852 884 834
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 716 842 851 853 885 835
+Ratman, Daywalker or DM’s choice 1 1-2 CC2 717-719 - - - - -
+Ratman, Daywalker (warband) or DM’s choice 10 var 10-120 CC2 720-722 - - - - -
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 723 843 852 854 886 836
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 724 844 853 855 887 837
+Ratman, Red Witch or DM’s choice 1 1 CC1 725 845 854 856 888 838
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 726 846 855 857 889 839
+Rhinoceros 4 1-12 MM - 847-849 - - - -
+Roc 9 1-2 MM - - - - 890-892 -
+Salamander 2 1-5 MM 727-729 850 856 858 893-895 840
+Salamander, Flamebrother 5 1-5 MM 730 851 857 859 896 841
+Salamander, Noble 9 1-14 MM 731 852 858 860 897 842
+Sand Burrower or DM’s choice 7 1 CC1 732-734 - - - - -
+Sand Mummy or DM’s choice 3 1 CC2 735 - - - - -
+Sand Wyvern or DM’s choice 3 1-12 CC2 736-738 - - - - -
+Sandling 2 1 ToH 739-741 853 859 861 898 843
+Sandman 3 1-4 ToH 742-744 854 860 862 899 844
+Satyr 24 var 1-10 MM - - 861 - - -
+Shambling Mound 6 1 MM - - 862-863 - - 845-847
+Shedu 7 2-8 ToH 745-747 855-857 864-865 863-866 900-902 848-850
+Shedu, Greater 9 1-2 ToH 748 858 866 867 903 851
+Shocker Lizard 2 1-11 MM - - - - - 852-854
+Skeleton 5 var var MM 749-751 859-861 867-868 868-871 904-906 855-857
+Skunk 1/6 1-5 ToH - - 869-878 872-881 - -
+Slime Crawler 1 1-20 ToH - - - 882 907 -
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - - - 858-860
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - - - 861-863
+Slug, Giant 6 1 ToH - - - - - 864-866
+Snake, Adder, Death 1/2 1 ToH - 862-864 879-880 - - -
+Snake, Adder, Night 1/2 1 ToH - - - - - -
+Snake, Asp 1/2 1 ToH 752-767 865-867 - 883 - -
+Snake, Boa (constrictor) 2 1 MM - - 881-882 - - 867-869
+Snake, Boomslang 1/2 1 ToH - 868-870 - - - -
+Snake, Brownsnake 1/2 1 ToH 768-770 871-873 - - - -
+Snake, Copperhead 1/2 1 ToH - 874-876 - 884-887 - -
+Snake, Coral Snake 1/2 1 ToH - 877 883-884 - - 870-872
+Snake, Cottonmouth 1/2 1 ToH - - - - - 873-932
+Snake, Fer-de-Lance 1 1 ToH - - 885 - - 933
+Snake, Mamba, Black 1 1 ToH - 878-889 - - - -
+Snake, Mamba, Green 1 1 ToH - - 886-887 - - 934-936
+Snake, Rattlesnake, Desert 1/2 1 ToH 771-823 - - - - -
+Snake, Rattlesnake, Diamondback 1/2 1 ToH 824-839 890-892 - - - -
+Snake, Rattlesnake, Rock 1/2 1 ToH 840-842 - - 888-897 908-917 -
+Snake, Rattlesnake, Tiger 1/2 1 ToH - 893-904 888-897 - - -
+Snake, Sidewinder 1/2 1 ToH 843-895 - - - - -
+Snake, Tiger Snake 1/2 1 ToH 896-898 905-907 - 898-901 - -
+Snake, Viper, Desert 1/2 1 ToH 899-901 - - - - -
+Snake, Viper, Gaboon 1 1 ToH - 908-919 - 902-905 - -
+Snake, Viper, Sand 1 1 ToH 902 - - - - -
+Snake, Viper, Saw-scaled 1/2 1 ToH 903-955 920-922 - - - -
+Snake, Viper, Sharp-nosed 1 1 ToH - - 898-907 906-915 918-927 -
+Sphinx, Andro- 9 1 MM 956 923 908 916 928 937
+Sphinx, Crio- 7 1 MM - - 909 - - -
+Sphinx, Gyno- 8 1-4 MM 957 924 910 917 929 938
+Sphinx, Hieraco- 5 1-7 MM - - - 918 - -
+Spider, Scarlet 1/4 8-40 ToH 958-960 925-927 911-912 919-922 930-932 939-941
+Spider-eye Goblin (raiders) or DM’s choice 11 var 3-18 CC1 - - 913 - - -
+Spider-eye Goblin (gang) or DM’s choice 1/2 1-6 CC1 - - 914 - - -
+Spire Wyvern or DM’s choice 4 1-2 CC1 961 928 915-916 923 933-935 942
+Spriggan 4 1-12 ToH 962 929 917 924 936 943
+Sprite 1 2-12 ToH - 930-932 918-919 - - -
+Sprite Tribe 1 10-100 ToH - 933 920 - - -
+Sprite, Grig 1 1-10 MM - - 921 - - -
+Sprite, Pixie 4 1-10 MM - - 922 - - -
+Squealer 8 1-4 ToH - - 923 - - -
+Stegocentipede 4 1 ToH 963-965 934 924 925 937 944
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 945
+Stirge 1/2 2-13 MM - 935-937 925-934 926-929 - 946-948
+Strangle Weed 3 1-4 ToH - - - - - 949-962
+Stymphalian Bird 4 1-5 ToH - - 935 930 - 963
+Tenebrous Worm 8 1 ToH 966 938 936 931 938 964
+Tentamort 4 1-5 ToH - - - - - 965-967
+Therianthrope, Jackalwere 2 1-5 ToH 967 939 937 932 939 968
+Therianthrope, Lionwere 5 1-5 ToH - 940 - - - -
+Therianthrope, Wolfwere 3 1-5 ToH - 941-943 938-939 933-936 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 944-946 940-941 937-940 - -
+Thunder Beast 4 5-20 ToH 968 947 - 941 - -
+Tick, Giant 1 3-12 ToH 969-971 948-950 942-943 942-945 940-942 969-971
+Tiger 4 1 MM - 951-962 944-953 946-955 943-952 -
+Titan 21 1-2 MM 972 963 954 956 953 972
+Treant 8 1-7 MM - - 955-956 - - -
+Troglodyte 1 2-5 MM - - - - 954-956 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 957 -
+Trogodon or DM’s choice 3 1-7 CC1 - - - - - 973-975
+Troll 5 1-4 MM 973-988 964-975 957-966 957-966 958-967 976-989
+Troll, Swamp 3 1-4 ToH - - - - - 990
+Troll, Two-headed 6 1-4 ToH 989 976 967 967 968 991
+Tunnel Worm 7 1-5 ToH 990-992 977-979 968-969 968-971 969-971 992
+Unicorn 3 1-6 MM - - 970 - - -
+Vegepygmy 1/2 4-9 ToH - - 971 - - -
+Vegepygmy (warband) 6 var 10-24 ToH - - 972 - - -
+Wasp, Giant 3 1-20 MM 993-995 980-982 973-974 972-975 972-974 993-995
+Wolf 1 1-16 MM - 983-994 975-984 976-985 975-984 -
+Wolf, Ghoul Wolf 2 1-16 ToH 996 995 985 986 985 996
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 997 996 986 987 986 997
+Worg 2 1-11 MM - 997 987 988 987 -
+Wyvern 6 1-6 MM - - 988-997 989-997 988-997 -
+Xorn 6 1-5 MM 998 998 998 998 998 998
+Zombie 4 var var MM 999 999 999 999 999 999
+Zombie, Juju 3 var var ToH 000 000 000 000 000 000
+EndTable:
+
+#Subtropic-Nighttime
+Table: 2-4B
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Algoid 4 1-6 ToH - - 003 - - 003-004
+Allip 3 1 MM 003 003 004 003 003 005
+Amalthean Ram or DM’s choice 6 2-4 CC1 - - - - 004 -
+Amphisbaena 4 1-4 ToH 004 004 005 004 005 006
+Ankheg 3 1-4 MM - 005-007 006-007 - - -
+Ant Lion 5 1-4 ToH 005-007 008-010 008 005-006 - -
+Ant, Giant, Soldier 2 1-4 MM 008-010 011-013 009-010 007-008 - -
+Ant, Giant, Worker 1 2-12 MM 011-013 014-016 011-012 009-010 - -
+Apparition 7 1-4 ToH 014 017 013 011 006 007
+Aranea 4 1-6 MM - - 014-015 - - -
+Assassin Vine 3 1-4 MM - - 016-017 - - 008-009
+Athach 7 1-12 MM - - - 012 007 -
+Atomie 1 2-4 ToH - - 018 - - -
+Axe Beak 2 1-6 ToH 015-017 018-020 019-020 013-014 008 010
+Barghest 4 1-6 MM 018 021 021 015 009 011
+Basilisk, Common 5 1-6 MM 019-021 022-024 022-023 016-017 010-012 012-013
+Basilisk, Greater 7 1-2 ToH 022 025 024 018 013 014
+Bat Swarm 1/10 30-50 MM 023-037 026-036 025-034 019-029 - -
+Bat, Doombat 4 1-8 ToH 038-040 037-039 035-036 030-031 014-016 015
+Bat, Mobat 3 1-8 ToH 041-043 040-042 037-038 032-033 - -
+Bear, Black 2 1-2 MM - - 039-068 034-067 017-048 -
+Bear, Brown 2 1-2 MM - - 069-078 068-078 049-058 -
+Bee, Giant 1/2 1-20 MM 044 043 079 079 059 016
+Beetle, Giant: Bombardier 2 2-12 MM 045-059 044-054 080-089 080-090 060-069 017-028
+Beetle, Giant: Boring 3 2-12 ToH 060-074 055-065 090-099 091-101 070-079 029-040
+Beetle, Giant: Deathwatch 6 1 ToH - - 100 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 075-089 066-076 101-110 102-112 080-089 041-052
+Beetle, Giant: Rhinoceros 6 2-12 ToH - - 111 - - -
+Beetle, Giant: Slicer 4 2-12 ToH - - 112-113 - - -
+Beetle, Giant: Stag 4 2-12 MM - 077 114-115 113 - -
+Behir 8 1-2 MM 090-092 078-080 116-117 114-115 090-092 053-054
+Eye Tyrant 13 1-6 MM 093 081 118 116 093 055
+Bitter tree or DM’s choice 10 1-5 CC2 - - 119 - - -
+Blink Dog 2 1-16 MM - 082 - - - -
+Blood Moth or DM’s choice 1/4 10-50 CC2 - 083 120 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 121 - 094 -
+Bloody Bones 4 1-5 ToH 094 084 122 117 095 056
+Boalisk 4 1 ToH - - 123-124 - - 057-058
+Boar 2 1 MM - - 125-155 - - -
+Bodak 8 1-4 MM 095 085 156 118 096 059
+Bog Beast 5 1-5 ToH - - - - - 060-061
+Bog Mummy 6 1-10 ToH - - - - - 062
+Boggart 7 1-5 ToH - - - - - 063-064
+Bonesnapper 3 1-4 ToH - - 157 - - 065
+Brownie 1 2-12 ToH - - 158-159 - - -
+Buckawn 2 2-20 ToH - - 160 - - -
+Bulette 7 1-2 MM 096 086 161 119 097 066
+Bunyip 3 1 ToH - - - - - 067-068
+Camel 1 1 MM 097-111 - - 120-121 098-100 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 162-163 - - -
+Caterwaul 3 1 ToH - - 164 - 101 -
+Cathedral Beetle or DM’s choice 4 1-16 CC1 - 087 165-166 122 102 -
+Cave Cricket 1 1-5 ToH 112-114 088-090 167-168 123-124 103-105 069-070
+Centaur 3 1-8 MM - - 169 - - -
+Centaur (troop) 28 var 1-8 MM - - 170 - - -
+Cheetah 2 1-5 MM - 091 - - - -
+Chimera 7 1-13 MM 115-117 092-094 171-172 125-126 106-108 071-072
+Chuul 7 1-5 MM - - 173 - - 073
+Cobra Flower 4 1-4 ToH - - 174 - 109 -
+Cockatrice 3 1-13 MM 118-120 095-097 175-176 127-128 110-112 074-075
+Coffer Corpse 3 1 ToH 121 098 177 129 113 076
+Cooshee 2 1-9 ToH 122-124 099-101 178-179 130-131 114-116 077-078
+Corpse Whisperer or DM’s choice 15 var 1 CC2 125 102 180 132 117 079
+Cray?sh, Monstrous 3 1-5 ToH - - - - - 080-081
+Dananshee or DM’s choice 16 var 1 CC2 126 103 181 133 118 082
+Dark Creeper 2 2-4 ToH - - 182-183 134 119-121 -
+Dark Stalker 4 1 ToH - - 184 135 122 -
+Darnoc 6 1-4 ToH 127 104 185 136 123 083
+Death Dog 2 5-10 ToH 128 - - - - -
+Death Worm 6 1 ToH 129-131 - - - - -
+Demiurge 6 1 ToH 132 105 186 137 124 084
+Dire Badger 2 1-5 MM - 106-116 187-196 138-148 - -
+Dire Bat 2 1-8 MM 133-147 117-127 197-206 149-159 125-134 -
+Dire Bear 7 1-2 MM - 128-130 207-208 160-161 135-137 -
+Dire Boar 4 1-8 MM - - 209-218 - - -
+Dire Goat 2 1-12 ToH 148 131 219 162-163 138-147 085
+Dire Hippopotamus 4 1-5 ToH - 132 - - - 086-087
+Dire Lion 5 1-10 MM - 133-143 220-229 164-174 148-157 -
+Dire Porcupine 3 1-5 ToH - 144-146 230-239 175-185 - -
+Dire Ram 3 1 ToH - 147 - 186 158 -
+Dire Rat 1/3 1-20 MM 149-179 148-182 240-269 187-220 159-190 088-128
+Dire Sloth 6 1-2 ToH - - 270 - - -
+Dire Tiger 8 1-2 MM - 183-185 271-272 221-222 191-193 -
+Dire Weasel 2 1-2 MM - - 273 223 - -
+Dire Wolf 3 1-8 MM 180-182 186-188 274-275 224-225 194-196 129-130
+Dire Wolverine 4 1-2 MM - 189-191 276-277 226-227 - -
+Displacer Cat 4 1-10 MM - - 278-279 228 197 -
+Dog (wild) 1/3 1-12 MM 183-213 192-226 280-309 229-262 198-229 131-170
+Dog, War (wild-riding) 1 1-12 MM 214-244 227-261 310-339 263-296 230-261 171-210
+Doppleganger 3 1-6 MM 245 262 340 297 262 211
+Dracolisk, Black 7 1-6 ToH 246 263 341 298 263 212
+Dracolisk, Blue 7 1-6 ToH 247 264 342 299 264 213
+Dracolisk, Green 7 1-6 ToH 248 265 343 300 265 214
+Dracolisk, Red 7 1-6 ToH 249 266 344 301 266 215
+Dracolisk, White 7 1-6 ToH 250 267 345 302 267 216
+Dragon, Black 8 var 1 MM - - - - - 217-228
+Dragon, Blue 8 var 1 MM 251-253 - - - - -
+Dragon, Brass 8 var 1 MM 254-268 268-278 - - - -
+Dragon, Cloud 8 var 1-5 ToH - - - - 268 -
+Dragon, Copper 8 var 1 MM 269-271 - - 303-304 269-271 -
+Dragon, Faerie 2 1-6 ToH - - 346 - - -
+Dragon, Gold 8 var 1 MM 272 279 347 305 272 229
+Dragon, Green 8 var 1 MM - - 348-349 - - -
+Dragon, Mist 8 var 1-5 ToH - - 350 - - -
+Dragon, Red 8 var 1 MM - - - 306-307 273-275 -
+Dragon, Silver 8 var 1 MM - - - - 276 -
+Dragon?y, Giant 4 1-5 ToH 273 280 351 308 277 230-231
+Dragonne 7 1-10 MM 274 - - 309 - -
+Drake, Fire 4 1-8 ToH - - - 310 278 -
+Drake, Salt 9 1-5 ToH 275 - - - - -
+Dryad 1 1-7 MM - - 352 - - -
+Dune Delver or DM’s choice 5 1 CC1 276 - - - - -
+Dust Digger 4 1-20 ToH 277-291 - - - - -
+Eblis 3 4-16 ToH - - - - - 232
+Eel, Electric 2 1-2 ToH - - - - - 233-234
+Elemental, Air 29 var 1-4 MM 292 281 353 311 279 235
+Elemental, Earth 29 var 1-4 MM 293 282 354 312 280 236
+Elemental, Fire 29 var 1-4 MM 294 - - 313 281 -
+Elemental, Water 29 var 1-4 MM - - - - - 237
+Elephant 8 1-30 MM - 283-293 355-364 - - -
+Emperor Stag or DM’s choice 6 1 CC1 - - 365 - - -
+Ettercap 30 var 1-2 MM - - 366-375 - - -
+False Spider, Pedipalp 1 1-5 ToH 295 294 376 314 282 -
+False Spider, Solifugid 3 1-5 ToH 296 295 377 315 283 -
+Fatling or DM’s choice 5 1 CC1 297 296 378 316 284 238
+Fen Witch 5 1 ToH - - - - - 239
+Feral or DM’s choice 12 var 1-15 CC1 298 297 379 317 285 240
+Fire Lizard 8 1-2 ToH 299 298 - 318 - 241
+Fire Nymph 7 1 ToH 300 299 380 319 286 242
+Fire Snake 1 1-5 ToH 301 300 381 320 287 243
+Flail Snail 3 1 ToH 302 301 382 321 288 244
+Flesh Strippers or DM’s choice 1/4 5-50 CC2 303 302-304 383 322-323 289 245
+Fly, Giant 2 1-12 ToH 304 305 384 324 290 246
+Forester’s Bane 5 1-2 ToH - 306 385 325 291 -
+Froghemoth 13 1 ToH - - - - - 247
+Gargoyle 4 1-16 MM 305-307 307-309 386-387 326-327 292-301 248-249
+Gargoyle, Green Guardian 4 1-16 ToH 308 310 388 328 302 250
+Gargoyle, Margoyle 5 1-2 ToH 309 311 389 329 303 251
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 310 312 390 330 304 252
+Genie, Djinni 5 1-15 MM 311 313 391 331 305 253
+Genie, Efreeti 8 1-15 MM 312 314 392 332 306 254
+Genie, Janni 4 1-15 MM 313 315 393 333 307 255
+Ghast 3 1-4 MM 314-328 316-326 394-403 334-344 308-317 256-267
+Ghast (pack) 31 var 2-4 MM 329-331 327-329 404-405 345-346 318-320 268-269
+Ghoul 1 1-12 MM 332-346 330-340 406-415 347-357 321-330 270-281
+Ghoul-Stirge 2 1-8 ToH - - 416 - - -
+Giant Owl 3 1-5 MM - 341-343 417-418 358-359 331-333 -
+Giant, Cloud 11 1-4 MM - - 419 360 334-336 -
+Giant, Fire 10 1-5 MM - - - 361 337-346 -
+Giant, Fire (hunting party) 32 var 6-9 MM - 344 420 362-363 347-356 -
+Giant, Hill 7 1-5 MM - - - 364-396 357-388 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 397-407 389-398 -
+Giant, Sand 14 1-4 ToH 347 - - - - -
+Giant, Sand (raiding party) 38 var 6-9 ToH 348 - - - - -
+Giant, Stone 8 1-5 MM - - - 408 399-408 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 409 409-411 -
+Giant, Storm 13 1 MM - - - 410 412-414 -
+Giant, Wood 5 1-5 ToH - - 421 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 422 - - -
+Giant, Wood (trading party) 5 1-5 ToH 349 345 423 411 415 282
+Gnoll 1 1-5 MM 350-364 346-356 424-433 412-422 416-425 283-294
+Gnoll, Flind 1 1-5 ToH 365-367 357-359 434-435 423-424 426-428 295-296
+Gnoll, Flind (mob) 36 var 2-5 ToH 368 360-362 436-437 425-426 429-431 297
+Goblin 1/4 4-9 MM 369-383 363-373 438-447 427-437 432-441 298-309
+Goblin (warband) 17 var 10-24 MM 384-386 374-376 448-449 438-439 442-444 310-311
+Gorgimera 8 1-2 ToH 387 377 450 440 445 312
+Gorgon 8 1-13 MM 388-390 378-380 451 441-442 446-448 313
+Gorilla Bear 4 1-7 ToH - - 452 - - -
+Gray Render 8 1 MM 391-393 381-383 453-454 443-444 449-451 314-315
+Grippli 1 1-12 ToH - - 455 - - 316-317
+Groaning Spirit 7 1 ToH 394 384 456 445 452 318
+Hag (covey) 18 var 3 MM 395 385 457 446 453 319
+Hag, Annis 6 1 MM 396 386 458 447 454 320
+Hag, Green 5 1 MM - - 459 - - 321
+Hag, Moon or DM’s choice 13 1-2 CC1 - - - - 455 -
+Hag, Storm or DM’s choice 7 1-2 CC1 397 387 - 448 456 -
+Hag, Swamp or DM’s choice 6 1-2 CC1 - - - - - 322
+Hamster, Giant 2 1-4 ToH - 388 - 449 - -
+Hangman Tree 6 1 ToH - - 460 - - -
+Harpy 4 1-12 MM 398-400 389-391 461-462 450-451 457-459 323-324
+Haunt 4 1 ToH 401 392 463 452 460 325
+Hell Hound 3 1-12 MM 402 393 464 453 461 326
+Hell Moth 6 1-6 ToH 403 394 465 454 462 327
+Hill Howler or DM’s choice 2 1 CC1 - - - 455 - -
+Hippopotamus 4 1-12 ToH - 395 - - - 328-329
+Hobgoblin 1/2 4-9 MM 404-418 396-406 466-475 456-466 463-472 330-341
+Hobgoblin (warband) 1/2 10-24 MM 419-433 407-417 476-485 467-477 473-482 342-353
+Homunculus 1 1 MM 434 418 486 478 483 354
+Horse, Heavy (wild) 1 1-30 MM 435-437 419-421 487-488 479-480 484-486 355-356
+Horse, Light (wild) 1 1-30 MM 438-440 422-424 489-490 481-482 487-489 357-358
+Huecuva 3 1-10 ToH 441 425 491 483 490 359
+Hydra 1 var 1 MM - - - - - 360-371
+Inphidian 3 1-5 ToH 442 426 492 484 491 372-373
+Invisible Stalker 7 1 MM 443 427 493 485 492 374
+Jaguar (leopard) 2 1-2 MM 444-446 428-430 494-495 486-487 493-495 -
+Kamadan 4 1 ToH 447-449 431-433 496-497 488-489 496-498 375-376
+Kech 3 2-8 ToH - - 498-499 - - -
+Kelpie 4 1-4 ToH - - - - - 377
+Kobold 1/6 4-9 MM 450-452 434-436 500-509 490-491 499-501 378-379
+Korred 4 1-4 ToH - - 510 - - -
+Fishman (patrol) 20 var 2-4 MM - - - - - 380
+Fishman (squad) 20 var 6-11 MM - - - - - 381
+Lamia 6 1-4 MM 453 - - 492 - -
+Leech, Giant 2 2-15 ToH - - - - - 382-393
+Leeching Willow or DM’s choice 7 1 CC2 - - 511 - - 394-395
+Leprechaun 4 2-20 ToH - - 512 - - -
+Lion 3 1-10 MM - 437-439 - - - -
+Lion, Mountain (leopard) 2 1-2 MM 454-468 440-450 513-522 493-503 502-511 -
+Lizard, Giant 2 1 MM 469-471 451-453 523-524 504-505 512-514 396-397
+Lizard, Rock-horned 3 1 ToH 472 454 525 506 515 398
+Lizardfolk 1 2-3 MM - - - - - 399
+Manticore 5 1-6 MM 473-475 455-457 526-527 507-508 516-518 400-401
+Marmoset, Giant 1 2-11 ToH - - 528-529 - - -
+Medusa 7 1-4 MM 476-478 458-460 530-531 509-510 519-521 402-403
+Mere-lurker or DM’s choice 1/4 5-10 CC1 - - - - - 404
+Mimic 4 1 MM 479-481 461-463 532-533 511-512 522-524 405-406
+Mongrelman 1 1-5 ToH 482 464 534 513 525 407
+Monstrous Centipede 2 var var MM 483-513 465-498 535-564 514-547 526-557 408-448
+Monstrous Frog, Abyssal Dire 5 1-2 ToH - 499 565 548 558 449
+Monstrous Frog, Dire 4 1-2 ToH - 500-510 566-575 549-559 559-561 450-461
+Monstrous Frog, Giant 2 1-2 ToH 514 511-513 576-577 560-561 562 462-473
+Monstrous Frog, Killer 1 2-18 ToH - 514 578 562 563 474-475
+Monstrous Frog, Poisonous 1 2-18 ToH - 515-517 579-580 563-564 564-566 476-477
+Monstrous Scorpion 2 var var MM 515-545 518-551 581-610 565-598 567-598 478-518
+Monstrous Spider 2 var var MM 546-576 552-585 611-640 599-632 599-630 519-559
+Mudman 1 1-12 ToH - - - - - 560
+Mummy 3 1-10 MM 577 - - - - -
+Naga, Guardian 10 1-4 MM 578 586 641 633 631 561
+Naga, Spirit 9 1-4 MM 579 587 642 634 632 562
+Naga, Water 7 1-4 MM - - - - - 563-564
+Night Hag 9 1 or 3 MM 580 588 643 635 633 565
+Night Terror or DM’s choice 2 6-10 CC1 - 589 644 - - -
+Night Tyrant or DM’s choice 4 1 CC1 - - 645 - - -
+Nightshade, Nightcrawler 18 1-2 MM 581 590 646 636 634 566
+Nightshade, Nightwalker 16 1-4 MM 582 591 647 637 635 567
+Nightshade, Nightwing 14 1-6 MM 583 592 648 638 636 568
+Nilbog 2 4-20 ToH - - - 639 637 -
+Nymph 6 1 MM 584 593 649 640 638 569
+Ogre 2 1-8 MM 585-615 594-628 650-679 641-674 639-671 570-610
+Ogre Mage 22 var 1-2 MM 616 629 680 675 672 611
+Ogre, Half-Ogre 1 1-8 ToH 617-619 630-632 681-682 676-677 673-675 612-613
+Ogre, Ogrillon 1 1-5 ToH 620-622 633-635 683-684 678-679 676-678 614-615
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 623 636-638 685-686 680-681 679-681 616-617
+Ooze, Black Pudding 7 1 MM - - - - - 618-629
+Ooze, Brown Pudding 7 1 ToH - - - - - 630-641
+Ooze, Dun Pudding 7 1 ToH 624-626 639 687 682 682 -
+Ooze, Gray Ooze 4 1 MM - - - - - 642-643
+Ooze, Magma 7 1 ToH - - - - 683 -
+Ooze, Mustard Jelly 7 1 ToH - - - - - 644
+Ooze, Ochre Jelly 5 1 MM - - - - - 645-656
+Ooze, Undead or DM’s choice 4 1 CC1 627 640 688 683 684 657
+Ooze, Vampiric 8 1 ToH - - - - - 658
+Orc 1/2 2-4 MM 628-658 641-675 689-719 684-717 685-716 659-699
+Orc (squad) 21 var 11-20 MM 659-688 676-710 720-749 718-751 717-748 700-740
+Orog 1 1-4 ToH 689-691 711-713 750-751 752-753 749-751 741-742
+Orog (squad) 21 var 11-20 ToH 692-694 714-716 752-753 754-755 752-754 743-744
+Owlbear 4 1-8 MM - - 754 - - -
+Phase Spider 5 1-5 MM 695 717 755 756 755 745
+Pony (small wild horse) 1/4 1-30 MM 696-698 718-720 756-757 757-758 756-758 746-747
+Praying Mantis, Giant 2 1 MM 699-701 721-723 758-759 759-760 759-761 748-749
+Pyrolisk 4 1-12 ToH 702 724 760 761 762 750
+Quickling 3 2-12 ToH - - 761 - - -
+Quickwood 8 1 ToH - - 762 762 763 -
+Rat Swarm 1/8 20-100 MM 703-733 725-759 763-792 763-795 764-795 751-790
+Rat, Brain 1 2-12 ToH 734 760 793 796 796 791
+Rat, Ethereal 2 6-11 ToH 735 761 794 797 797 792
+Rat, Shadow 1 6-20 ToH 736 762 795 798 798 793
+Rat, Shadow Dire 3 1-12 ToH 737 763 796 799 799 794
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 738 764 797 800 800 795
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 739 765 798 801 801 796
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 740 766 799 802 802 797
+Ratman, Red Witch or DM’s choice 1 1 CC1 741 767 800 803 803 798
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 742 768 801 804 804 799
+Ratman, Stalker or DM’s choice 13 var 1 CC2 743 769 802 805 805 800
+Ratman, White Wraith or DM’s choice 1 1-2 CC2 744 770 803 806 806 801
+Ratman, White Wraith (warband) or DM’s choice 10 var 10-100 CC2 745 771 804 807 807 802
+Rhinoceros 4 1-12 MM - 772-774 - - - -
+Salamander 2 1-5 MM 746 775 805 808 808 803
+Salamander, Flamebrother 5 1-5 MM 747 776 806 809 809 804
+Salamander, Noble 9 1-14 MM 748 777 807 810 810 805
+Sand Burrower or DM’s choice 7 1 CC1 749 - - - - -
+Sand Mummy or DM’s choice 3 1 CC2 750 - - - - -
+Sandling 2 1 ToH 751-753 778 808 811 811 806
+Sandman 3 1-4 ToH 754-756 779 809 812 812 807
+Shadow 3 1-11 MM 757-759 780-782 810-811 813-814 813-815 808-809
+Shambling Mound 6 1 MM - - 812-813 - - 810-811
+Shedu 7 2-8 ToH 760 783 814 815 816 812
+Shedu, Greater 9 1-2 ToH 761 784 815 816 817 813
+Shocker Lizard 2 1-11 MM - - - - - 814-815
+Skeleton 5 var var MM 762-776 785-795 816-825 817-827 818-827 816-827
+Skunk 1/6 1-5 ToH - - 826-835 828-838 - -
+Slime Crawler 1 1-20 ToH 777-779 796-798 836-837 839-840 828-830 828-829
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - - - 830
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - - - 831
+Slug, Giant 6 1 ToH - - - - - 832-843
+Snake, Adder, Death 1/2 1 ToH - 799 838 - - -
+Snake, Adder, Night 1/2 1 ToH 780-782 800-802 839-840 841-842 - 844-845
+Snake, Boa (constrictor) 2 1 MM - - 841 - - 846-847
+Snake, Cobra, Common 1/2 1 ToH 783-813 803-837 842-851 843-853 831-833 848-888
+Snake, Cobra, Desert 1/2 1 ToH 814-844 838 - - - -
+Snake, Cobra, King 1 1 ToH 845-847 839-841 852-853 854-855 834 889-890
+Snake, Cobra, Spitting 1 1 ToH 848-850 842-844 854-855 856-857 835 891-892
+Snake, Cobra, Water 1 1 ToH - - - - - 893-904
+Snake, Fer-de-Lance 1 1 ToH - - 856-857 - - 905-906
+Snake, Krait, Banded 1/2 1 ToH 851-865 845-855 858-867 858-868 836-838 907-918
+Snake, Mamba, Black 1 1 ToH - 856-858 - - - -
+Snake, Mamba, Green 1 1 ToH - - 868-869 - - 919
+Snake, Sidewinder 1/2 1 ToH 866-868 - - - - -
+Snake, Viper, Desert 1/2 1 ToH 869-899 - - - - -
+Snake, Viper, Gaboon 1 1 ToH - 859-869 - 869-870 - -
+Snake, Viper, Mountain 1/2 1 ToH - - - 871-881 839-848 -
+Snake, Viper, Pit 1 1 ToH 900-914 870-880 870-879 882-883 849 920-921
+Snake, Viper, Sand 1 1 ToH 915-917 - - - - -
+Snake, Viper, Saw-scaled 1/2 1 ToH 918-948 881-883 - - - -
+Snake, Viper, Sharp-nosed 1 1 ToH - - 880-889 884-894 850-859 -
+Spectre 7 1-11 MM 949 884 890 895 860 922
+Sphinx, Andro- 9 1 MM 950 885 891 896 861 923
+Sphinx, Crio- 7 1 MM - - 892 - - -
+Sphinx, Gyno- 8 1-4 MM 951 886 893 897 862 924
+Sphinx, Hieraco- 5 1-7 MM - - - 898 - -
+Spider, Scarlet 1/4 8-40 ToH 952-954 887-889 894-895 899-900 863-865 925-926
+Spider-eye Goblin (raiders) or DM’s choice 11 var 3-18 CC1 - 890 896 901 866 927
+Spider-eye Goblin (gang) or DM’s choice 1/2 1-6 CC1 - 891 897 902 867 928
+Spriggan 4 1-12 ToH 955 892 898 903 868 929
+Sprite 1 2-12 ToH - 893-895 899-900 - - -
+Sprite Tribe 1 10-100 ToH - 896 901 - - -
+Sprite, Grig 1 1-10 MM - - 902-903 - - -
+Sprite, Pixie 4 1-10 MM - - 904 - - -
+Squealer 8 1-4 ToH - - 905 - - -
+Stegocentipede 4 1 ToH 956-958 897 906 904 869 930
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 931
+Stirge 1/2 2-13 MM - 898 907-908 905 - 932
+Strangle Weed 3 1-4 ToH - - - - - 933-944
+Stymphalian Bird 4 1-5 ToH - - 909 906 - 945
+Tenebrous Worm 8 1 ToH 959 899 910 907 870 946
+Tentamort 4 1-5 ToH - - - - - 947-948
+Therianthrope, Jackalwere 2 1-5 ToH 960 900 911 908 871 949
+Therianthrope, Lionwere 5 1-5 ToH - 901 - - - -
+Therianthrope, Wolfwere 3 1-5 ToH - 902-904 912-913 909-910 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 905-907 914-915 911-912 - -
+Thunder Beast 4 5-20 ToH 961 908 - 913 - -
+Tick, Giant 1 3-12 ToH 962-964 909-911 916-917 914-915 872-874 950-951
+Tiger 4 1 MM - 912-922 918-927 916-926 875-884 -
+Titan 21 1-2 MM 965 923 928 927 885 952
+Treant 8 1-7 MM - - 929-930 - - -
+Troglodyte 1 2-5 MM - - - - 886-917 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 918-927 -
+Trogodon or DM’s choice 3 1-7 CC1 - - - - - 953
+Troll 5 1-4 MM 966-980 924-934 931-940 928-938 928-937 954-965
+Troll, Cave 5 1-4 ToH - - - 939 938 -
+Troll, Swamp 3 1-4 ToH - - - - - 966-967
+Troll, Two-headed 6 1-4 ToH 981-983 935-937 941-942 940-941 939-941 968-969
+Tsathar 2 1-10 ToH - - - - - 970-971
+Tsathar Scourge 3 1-10 ToH - - - - - 972-973
+Tsathar Scourge (hunting party) 41 var 2-8 ToH - - - - - 974-975
+Tunnel Worm 7 1-5 ToH 984-986 938-940 943-944 942-943 942-944 976
+Unicorn 3 1-6 MM - - 945 - - -
+Vampire Spawn 4 1-5 MM 987 941 946 944 945 977
+Vegepygmy 1/2 4-9 ToH - - 947 - - -
+Vegepygmy (warband) 6 var 10-24 ToH - - 948 - - -
+Wasp, Giant 3 1-20 MM 988 942 949 945 946 978
+Wight 3 1-11 MM 989-991 943-945 950-951 946-947 947-949 979-980
+Will-o’-Wisp 6 1-4 MM - - - - - 981-992
+Wolf 1 1-16 MM - 946-980 952-982 948-981 950-981 -
+Wolf, Ghoul Wolf 2 1-16 ToH 992 981 983 982 982 993
+Wolf, Shadow 3 1-12 ToH 993 982 984 983 983 994
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 994 983 985 984 984 995
+Worg 2 1-11 MM - 984-994 986-995 985-995 985-994 -
+Wraith 5 1-11 MM 995 995 996 996 995 996
+Xorn 6 1-5 MM 996 996 997 997 996 997
+Zombie 4 var var MM 997-999 997-999 998-999 998-999 997-999 998-999
+Zombie, Juju 3 var var ToH 000 000 000 000 000 000
+EndTable:
+
+#Tropic-Daytime
+Table: 2-5A
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Algoid 4 1-6 ToH - - 003-004 - - 003-004
+Allip 3 1 MM 003 003 005 003 003 005
+Amphisbaena 4 1-4 ToH 004 004 006 004 004 006
+Ankheg 3 1-4 MM - 005-006 007-008 - - -
+Ant Lion 5 1-4 ToH 005-007 007-008 009-010 005-006 - -
+Ant, Giant, Soldier 2 1-4 MM 008-010 009-010 011-012 007-008 - -
+Ant, Giant, Worker 1 2-12 MM 011-013 011-012 013-014 009-010 - -
+Ape 2 1-5 MM - - 015 - 005 -
+Apparition 7 1-4 ToH 014 013 016 011 006 007
+Aranea 4 1-6 MM - - 017-018 - - -
+Assassin Vine 3 1-4 MM - - 019-020 - - 008-009
+Athach 7 1-12 MM - - - 012 007 - -
+Axe Beak 2 1-6 ToH 015-029 014-025 021-028 013-023 008-018 010-011
+Baboon 1/2 10-40 MM 030-079 026-078 - - - - -
+Barghest 4 1-6 MM 080 079 029 024 019 012
+Basilisk, Common 5 1-6 MM 081-083 080-081 030-031 025-026 020-022 013-014
+Basilisk, Greater 7 1-2 ToH 084 082 032 027 023 015
+Bear, Black 2 1-2 MM - - 033-075 028-080 024-077 -
+Bear, Brown 2 1-2 MM - - 076-083 081-091 078-088 -
+Bee, Giant 1/2 1-20 MM 085-087 083-084 084 092 089-091 016-017
+Beetle, Giant: Bombardier 2 2-12 MM 088-137 085-136 085-127 093-145 092-145 018-071
+Beetle, Giant: Boring 3 2-12 ToH 138-187 137-188 128-170 146-198 146-199 072-125
+Beetle, Giant: Deathwatch 6 1 ToH - - 171 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 188-237 189-240 172-214 199-251 200-253 126-179
+Beetle, Giant: Rhinoceros 6 2-12 ToH - - 215-222 - - -
+Beetle, Giant: Slicer 4 2-12 ToH - - 223-224 - - -
+Beetle, Giant: Stag 4 2-12 MM - 241 225-232 252-253 - -
+Behir 8 1-2 MM 238-240 242-243 233-234 254-255 254-256 180-181
+Eye Tyrant 13 1-6 MM 241 244 235 256 257 182
+Berserker Wasp Swarm or DM’s choice 5 3-30 CC1 - - 236-237 - - -
+Bitter tree or DM’s choice 10 1-5 CC2 - - 238 - - -
+Blood Moth or DM’s choice 1/4 10-50 CC2 - 245 239-240 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 241 - 258 -
+Bloody Bones 4 1-5 ToH 242 246 242 257 259 183
+Boalisk 4 1 ToH - - 243-244 - - 184-185
+Boar 2 1 MM - - 245-288 - - -
+Bog Beast 5 1-5 ToH - - - - - 186-187
+Bog Mummy 6 1-10 ToH - - - - - 188
+Boggart 7 1-5 ToH - - - - - 189-190
+Bonesnapper 3 1-4 ToH - - 289-296 - - 191-200
+Brownie 1 2-12 ToH - - 297-298 - - -
+Bunyip 3 1 ToH - - - - - 201-202
+Camel 1 1 MM 243-292 - - 258-268 260-262 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 299-300 - - -
+Caterwaul 3 1 ToH - - - - 263 -
+Cathedral Beetle or DM’s choice 4 1-16 CC1 - 247 301-302 269 264 -
+Cave Cricket 1 1-5 ToH 293 248 303-304 270 265 203
+Cheetah 2 1-5 MM - 249-250 - - - -
+Chimera 7 1-13 MM 294-296 251-252 305-306 271-272 266-268 204-205
+Chuul 7 1-5 MM - - 307 - - 206
+Cockatrice 3 1-13 MM 297-299 253-254 308-309 273-274 269-271 207-208
+Coffer Corpse 3 1 ToH 300 255 310 275 272 209
+Cooshee 2 1-9 ToH 301-303 256-257 311-312 276-277 273-275 210-211
+Corpse Whisperer or DM’s choice 15 var 1 CC2 304 258 313 278 276 212
+Couatl 10 1-6 MM - - 314 - - -
+Cray?sh, Monstrous 3 1-5 ToH - - - - - 213-214
+Crocodile 2 1-11 MM - - - - - 215-269
+Crocodile, Giant 4 1-11 MM - - - - - 270-271
+Dananshee or DM’s choice 16 var 1 CC2 305 259 315 279 277 272
+Darnoc 6 1-4 ToH 306 260 316 280 278 273
+Death Dog 2 5-10 ToH 307 261 - - - -
+Death Worm 6 1 ToH 308-310 262 - - - -
+Demiurge 6 1 ToH 311 263 317 281 279 274
+Dinosaur, Deinonychus 3 1-6 MM - 264 318 282 - 275
+Dinosaur, Megaraptor 6 1-6 MM - 265 319 283 - 276
+Dinosaur, Triceratops 7 1-8 MM - 266 320 284 - -
+Dinosaur, Tyrannosaurus 8 1-2 MM - 267 321 285 - 277
+Dire Ape 3 1-8 MM - - 322-323 - 280 -
+Dire Bear 7 1-2 MM - 268-269 324-325 286-287 281-283 -
+Dire Hippopotamus 4 1-5 ToH - 270 - - - 278-279
+Dire Lion 5 1-10 MM - 271-282 326-333 288-298 284-294 -
+Dire Porcupine 3 1-5 ToH - 283-284 334-335 299-309 295-297 -
+Dire Rat 1/3 1-20 MM 312-327 285-296 336-343 310-320 298-308 280-289
+Dire Sloth 6 1-2 ToH - - 344-345 - - -
+Dire Tiger 8 1-2 MM - 297-298 346-347 321-322 309-311 -
+Dire Wolf 3 1-8 MM 328 299 348 323 312 290
+Displacer Cat 4 1-10 MM - - 349-350 324 313 -
+Dog (wild) 1/3 1-12 MM 329-378 300-351 351-394 325-378 314-368 291-344
+Dog, War (wild-riding) 1 1-12 MM 379-428 352-404 395-438 379-431 369-422 345-398
+Doppleganger 3 1-6 MM 429 405 439 432 423 399
+Dracolisk, Black 7 1-6 ToH 430 406 440 433 424 400
+Dracolisk, Blue 7 1-6 ToH 431 407 441 434 425 401
+Dracolisk, Green 7 1-6 ToH 432 408 442 435 426 402
+Dracolisk, Red 7 1-6 ToH 433 409 443 436 427 403
+Dracolisk, White 7 1-6 ToH 434 410 444 437 428 404
+Dragon, Black 8 var 1 MM - - - - - 405-414
+Dragon, Blue 8 var 1 MM 435-437 - - - - -
+Dragon, Brass 8 var 1 MM 438-453 411-422 - - - -
+Dragon, Cloud 8 var 1-5 ToH - - - - 429 -
+Dragon, Copper 8 var 1 MM 454-456 - - 438-439 430-432 -
+Dragon, Faerie 2 1-6 ToH - - 445 - - -
+Dragon, Gold 8 var 1 MM 457 423 446 440 433 415
+Dragon, Green 8 var 1 MM - - 447-448 - - -
+Dragon, Mist 8 var 1-5 ToH - - 449-450 - - -
+Dragon, Red 8 var 1 MM - - - 441-442 434-436 -
+Dragon, Silver 8 var 1 MM - - - - 437 -
+Dragon?y, Giant 4 1-5 ToH - 424 451-452 443-444 438 416-425
+Dragonne 7 1-10 MM 458 - - 445 - -
+Dragonnel 6 1-4 ToH - - - 446-447 439-441 -
+Drake, Salt 9 1-5 ToH 459 425 - - - -
+Dryad 1 1-7 MM - - 453 - - -
+Dune Delver or DM’s choice 5 1 CC1 460-462 - - - - -
+Dust Digger 4 1-20 ToH 463 - - - - -
+Eagle 1/2 1-2 MM - 426-427 454-455 448-449 442-444 -
+Eblis 3 4-16 ToH - - - - - 426-427
+Eel, Electric 2 1-2 ToH - - - - - 428-429
+Elemental, Air 29 var 1-4 MM 464 428 456 450 445 430
+Elemental, Earth 29 var 1-4 MM 465 429 457 451 446 431
+Elemental, Fire 29 var 1-4 MM 466 - - 452 447 -
+Elemental, Water 29 var 1-4 MM - - - - - 432
+Elephant 8 1-30 MM - 430-482 458-501 - - -
+Emperor Stag or DM’s choice 6 1 CC1 - - 502 - - -
+Ettercap 30 var 1-2 MM - - 503-510 - - -
+Fatling or DM’s choice 5 1 CC1 467 483 511 453 448 433
+Fen Witch 5 1 ToH - - - - - 434
+Feral or DM’s choice 12 var 1-15 CC1 468 484 512 454 449 435
+Fire Lizard 8 1-2 ToH 469 485 513 455 450 436
+Fire Nymph 7 1 ToH 470 486 514 456 451 437
+Fire Snake 1 1-5 ToH 471 487 515 457 452 438
+Flail Snail 3 1 ToH 472 488 516 458 453 439
+Flesh Strippers or DM’s choice 1/4 5-50 CC2 473 489-490 517-518 459-460 454-456 440-441
+Fly, Giant 2 1-12 ToH 474 491 519 461 457 442
+Froghemoth 13 1 ToH - - - - - 443
+Gargoyle 4 1-16 MM 475-477 492-493 520-521 462-463 458-468 444-445
+Gargoyle, Green Guardian 4 1-16 ToH 478 494 522 464 469 446
+Gargoyle, Margoyle 5 1-2 ToH 479 495 523 465 470 447
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 480 496 524 466 471 448
+Genie, Djinni 5 1-15 MM 481 497 525 467 472 449
+Genie, Efreeti 8 1-15 MM 482 498 526 468 473 450
+Genie, Janni 4 1-15 MM 483 499 527 469 474 451
+Ghoul-Stirge 2 1-8 ToH - - 528 - - -
+Giant Eagle 3 1-2 MM - 500-501 529-530 470-471 475-477 -
+Giant, Cloud 11 1-4 MM - - 531 472 478-480 -
+Giant, Fire 10 1-5 MM - - - 473 481-491 -
+Giant, Fire (hunting party) 32 var 6-9 MM - 502 532 474-475 492-494 -
+Giant, Hill 7 1-5 MM - - - 476-528 495-548 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 529-539 549-559 -
+Giant, Sand 14 1-4 ToH 484-486 503 - - - -
+Giant, Sand (raiding party) 38 var 6-9 ToH 487-489 504 - - - -
+Giant, Stone 8 1-5 MM - - - 540 560-570 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 541 571-573 -
+Giant, Storm 13 1 MM - - - 542 574-576 -
+Giant, Wood 5 1-5 ToH - - 533-534 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 535-536 - - -
+Giant, Wood (trading party) 5 1-5 ToH 490 505 537-538 543 577 452
+Gnoll 1 1-5 MM 491 506 539 544 578 453
+Gnoll, Flind 1 1-5 ToH 492-494 507-508 540-541 545-546 579-581 454-455
+Gnoll, Flind (mob) 36 var 2-5 ToH 495 509-510 542-543 547-548 582-584 456
+Goblin 1/4 4-9 MM 496-511 511-522 544-551 549-559 585-595 457-466
+Goblin (warband) 17 var 10-24 MM 512-514 523-524 552-553 560-561 596-598 467-468
+Gorgimera 8 1-2 ToH 515 525 554 562 599 469
+Gorgon 8 1-13 MM 516-518 526-527 555 563-564 600-602 470
+Gorilla Bear 4 1-7 ToH - - 556 - - -
+Gray Render 8 1 MM 519-521 528-529 564-565 565-566 603-605 471-472
+Griffon 4 1-10 MM - 530-531 - 567-577 606-616 -
+Grippli 1 1-12 ToH - - 566-567 - - 473-474
+Groaning Spirit 7 1 ToH 522 532 568 578 617 475
+Hag (covey) 18 var 3 MM 523 533 569 579 618 476
+Hag, Annis 6 1 MM 524 534 570 580 619 477
+Hag, Green 5 1 MM - - 571 - - 478
+Hag, Moon or DM’s choice 13 1-2 CC1 - - - - 620 -
+Hag, Storm or DM’s choice 7 1-2 CC1 525 535 - 581 621 -
+Hag, Swamp or DM’s choice 6 1-2 CC1 - - - - - 479
+Hangman Tree 6 1 ToH - - 572 - - -
+Harpy 4 1-12 MM 526-541 536-547 573-580 582-592 622-632 480-489
+Haunt 4 1 ToH 542 548 581 593 633 490
+Hell Hound 3 1-12 MM 543 549 582 594 634 491
+Hippogriff 2 1-12 MM - 550-551 - 595-596 - -
+Hippopotamus 4 1-12 ToH - 552-553 - - - 492-501
+Hobgoblin 1/2 4-9 MM 544-546 554-555 583-584 597-598 635-637 502-503
+Hobgoblin (warband) 1/2 10-24 MM 547-549 556-557 585-586 599-600 638-640 504-505
+Homunculus 1 1 MM 550 558 587 601 641 506
+Horse, Heavy (wild) 1 1-30 MM 551-566 559-570 588-595 602-612 642-652 507-516
+Horse, Light (wild) 1 1-30 MM 567-582 571-582 596-603 613-623 653-663 517-526
+Huecuva 3 1-10 ToH 583 583 604 624 664 527
+Hydra 1 var 1 MM - - - - - 528-537
+Inphidian 3 1-5 ToH 584 584 605-606 625 665 538-539
+Invisible Stalker 7 1 MM 585 585 607 626 666 540
+Jaguar (leopard) 2 1-2 MM 586-588 586-587 608-609 627-628 667-669 -
+Kamadan 4 1 ToH 589 588 610-611 629-630 670-672 541-542
+Kech 3 2-8 ToH - - 612-613 - - -
+Kelpie 4 1-4 ToH - - - - - 543
+Kobold 1/6 4-9 MM - - 614-615 - - -
+Lamia 6 1-4 MM 590 - - 631 - -
+Lammasu 8 1 MM 591 589 616 632 673 544
+Leech, Giant 2 2-15 ToH - - - - - 545-554
+Leeching Willow or DM’s choice 7 1 CC2 - - 617-618 - - 555-556
+Leopard 2 1-2 MM - 590-591 619-620 - - -
+Lion 3 1-10 MM - 592-603 - - - -
+Lion, Mountain (leopard) 2 1-2 MM 592 604 621 633 674 -
+Lizard, Giant 2 1 MM 593-607 605-616 622-629 634-644 675-685 557-566
+Lizard, Rock-horned 3 1 ToH 608-610 617-618 630-631 645-646 686-688 567-568
+Lizardfolk 1 2-3 MM - - - - - 569-578
+Lotus Flower, Blue or DM’s choice N/A N/A CC1 - - - - - 579
+Lotus Flower, Golden or DM’s choice N/A N/A CC1 - - 632 - - -
+Lotus Flower, Red or DM’s choice N/A N/A CC1 - - 633 - - -
+Lotus Flower, White or DM’s choice N/A N/A CC1 - - 634 - - -
+Manticore 5 1-6 MM 611-626 619-630 635-642 647-657 689-699 580-589
+Marmoset, Giant 1 2-11 ToH - - 643-650 - - -
+Medusa 7 1-4 MM 627-629 631-632 651-652 658-659 700-702 590-591
+Mimic 4 1 MM 630-632 633-634 653-654 660-661 703-705 592-593
+Mongrelman 1 1-5 ToH 633 635 655 662 706 594
+Monstrous Centipede 2 var var MM 634-648 636-647 656-663 663-673 707-717 595-604
+Monstrous Frog, Abyssal Dire 5 1-2 ToH - 648 664 674 718 605
+Monstrous Frog, Dire 4 1-2 ToH - 649-650 665-666 675-676 719-721 606-607
+Monstrous Frog, Giant 2 1-2 ToH 649 651-652 667-674 677-678 722-724 608-617
+Monstrous Frog, Killer 1 2-18 ToH - 653-654 675-682 679-680 725-727 618-627
+Monstrous Frog, Poisonous 1 2-18 ToH - 655-656 683-690 681-682 728-730 628-637
+Monstrous Scorpion 2 var var MM 650-664 657-668 691-698 683-693 731-741 638-647
+Monstrous Spider 2 var var MM 665-679 669-680 699-706 694-704 742-752 648-657
+Mudman 1 1-12 ToH - - - - - 658
+Mummy 3 1-10 MM 680 - - - - -
+Naga, Guardian 10 1-4 MM 681 681 707 705 753 659
+Naga, Spirit 9 1-4 MM 682-684 682-683 708-709 706-707 754-756 660-661
+Naga, Water 7 1-4 MM - - - - - 662-663
+Night Hag 9 1 or 3 MM 685 684 710 708 757 664
+Night Terror or DM’s choice 2 6-10 CC1 - - 711 - - -
+Nymph 6 1 MM 686 685 712-713 709 758 665
+Ogre 2 1-8 MM 687-736 686-737 714-757 710-762 759-812 666-719
+Ogre Mage 22 var 1-2 MM 737 738 758 763 813 720
+Ogre, Half-Ogre 1 1-8 ToH 738-740 739-740 759-760 764-765 814-816 721-722
+Ogre, Ogrillon 1 1-5 ToH 741-743 741-742 761-762 766-767 817-819 723-724
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 744-746 743-744 763-764 768-769 820-822 725-726
+Ooze, Black Pudding 7 1 MM - - - - - 727-736 -
+Ooze, Brown Pudding 7 1 ToH - - - - - 737-746 -
+Ooze, Dun Pudding 7 1 ToH 747-749 745 - 770 823 - -
+Ooze, Gray Ooze 4 1 MM - - - - - 747-748 -
+Ooze, Magma 7 1 ToH - - - - 824-826 - -
+Ooze, Mustard Jelly 7 1 ToH - - - - - 749 -
+Ooze, Ochre Jelly 5 1 MM - - - - - 750-759
+Ooze, Undead or DM’s choice 4 1 CC1 750 746 765 771 827 760
+Orc 1/2 2-4 MM 751 747 766 772 828 761
+Orc (squad) 21 var 11-20 MM 752 748-748 767 773 829 762
+Orog 1 1-4 ToH 753-755 749-750 768-769 774-775 830-832 763-764
+Orog (squad) 21 var 11-20 ToH 756-758 751-752 770-771 776-777 833-835 765-766
+Panther, Black (leopard) 2 1-2 MM - - 772-773 - - -
+Pegasus 3 1-10 MM - - - 778 - -
+Phase Spider 5 1-5 MM 759 753 774 779 836 767
+Pony (small wild horse) 1/4 1-30 MM 760-775 754-765 775-782 780-790 837-847 768-777
+Praying Mantis, Giant 2 1 MM 776-778 766-767 783-784 791-792 848-850 778-779
+Pyrolisk 4 1-12 ToH 779-781 768-769 785 793-794 851-853 780-781
+Rat Swarm 1/8 20-100 MM 782-797 770-781 786-793 795-805 854-864 782-791
+Rat, Brain 1 2-12 ToH 798 782 794 806 865 792
+Rat, Ethereal 2 6-11 ToH 799 783 795 807 866 793
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 800 784 796 808 867 794
+Ratman, Daywalker or DM’s choice 1 1-2 CC2 801-803 - - - - -
+Ratman, Daywalker (warband) or DM’s choice 10 var 10-120 CC2 804-806 - - - - -
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 807 785 797 809 868 795
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 808 786 798 810 869 796
+Ratman, Red Witch or DM’s choice 1 1 CC1 809 787 799 811 870 797
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 810 788 800 812 871 798
+Rhinoceros 4 1-12 MM - 789-800 - - -
+Roc 9 1-2 MM - - - 813-814 872-874 -
+Salamander 2 1-5 MM 811-813 801 801 815 875-877 799
+Salamander, Flamebrother 5 1-5 MM 814 802 802 816 878 800
+Salamander, Noble 9 1-14 MM 815 803 803 817 879 801
+Sand Burrower or DM’s choice 7 1 CC1 816-818 - - - - -
+Sand Mummy or DM’s choice 3 1 CC2 819 - - - - -
+Sand Wyvern or DM’s choice 3 1-12 CC2 820-822 - - - - -
+Sandling 2 1 ToH 823-825 804 804 818 880 802
+Sandman 3 1-4 ToH 826-828 805 805 819 881 803
+Shambling Mound 6 1 MM - - 806-807 - - 804-805
+Shedu 7 2-8 ToH 829-831 806-807 808-809 820-821 882-884 806-807
+Shedu, Greater 9 1-2 ToH 832 808 810 822 885 808
+Shocker Lizard 2 1-11 MM - - 811-812 - - 809-818
+Skeleton 5 var var MM 833-835 809-810 813-814 823-824 886-888 819-820
+Slime Crawler 1 1-20 ToH 836 811 815 825 889 821
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - - - 822-823
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - - - 824-825
+Slug, Giant 6 1 ToH - - - - - 826-827
+Snake, Adder, Death 1/2 1 ToH - 812-813 - - - -
+Snake, Adder, Puff 1/2 1 ToH 837-839 814-815 816-817 826-827 - 828-829
+Snake, Anaconda (giant constrictor) 5 1 MM - - 818-819 - - 830-831
+Snake, Asp 1/2 1 ToH 840-855 816-868 820-827 828-838 890 832-841
+Snake, Boa (constrictor) 2 1 MM - - 828-835 - - 842-851
+Snake, Boomslang 1/2 1 ToH - 869-880 - - - -
+Snake, Brownsnake 1/2 1 ToH 856-871 881-892 - 839-840 - -
+Snake, Brownsnake, King 1/2 1 ToH 872 893 - - - -
+Snake, Bushmaster 1/2 1 ToH - - 836-879 - - 852-906
+Snake, Copperhead 1/2 1 ToH - 894 - 841-842 - -
+Snake, Coral Snake 1/2 1 ToH - 895 880-881 - - 907-908
+Snake, Cottonmouth 1/2 1 ToH - - - - - 909
+Snake, Fer-de-Lance 1 1 ToH - - 882-883 - - 910-911
+Snake, Mamba, Black 1 1 ToH - 896-907 - 843-844 - -
+Snake, Mamba, Green 1 1 ToH - - 884-891 - - 912-921
+Snake, Python (giant constrictor) 5 1 MM - - 892-899 - - 922-931
+Snake, Rattlesnake, Diamondback 1/2 1 ToH 873-887 908-909 - - - -
+Snake, Rattlesnake, Rock 1/2 1 ToH 888-890 910 - 845-855 891-901 -
+Snake, Taipan 1 1 ToH 891-893 - - - - -
+Snake, Tiger Snake 1/2 1 ToH 894-896 911-912 - 856-857 - -
+Snake, Viper, Desert 1/2 1 ToH 897-899 - - - - -
+Snake, Viper, Gaboon 1 1 ToH - 913-924 - 858-868 - -
+Snake, Viper, Sand 1 1 ToH 900-902 - - - - -
+Snake, Viper, Saw-scaled 1/2 1 ToH 903-952 925-926 - - - -
+Snake, Viper, Sharp-nosed 1 1 ToH - 927-928 900-907 869-922 902-912 -
+Snake, Viper, Tree 1/2 1 ToH - - 908-915 - - 932-941
+Sphinx, Andro- 9 1 MM 953 929 916 923 913 942
+Sphinx, Crio- 7 1 MM - 930 917-918 924 - -
+Sphinx, Gyno- 8 1-4 MM 954-956 931-932 919-920 925-926 914-916 943-944
+Sphinx, Hieraco- 5 1-7 MM - 933 - 927-928 917 -
+Spider, Scarlet 1/4 8-40 ToH 957-959 934-935 921-922 929-930 918-920 945-946
+Spider-eye Goblin (raiders) or DM’s choice 11 var 3-18 CC1 - - 923-924 - - -
+Spider-eye Goblin (gang) or DM’s choice 1/2 1-6 CC1 - - 925-926 - - -
+Spire Wyvern or DM’s choice 4 1-2 CC1 960-962 936-937 927-928 931-932 921-931 947-948
+Spriggan 4 1-12 ToH 963 938 929 933 932 949
+Sprite 1 2-12 ToH - 939-940 930-931 - - -
+Sprite Tribe 1 10-100 ToH - 941 932 - - -
+ Sprite, Grig 1 1-10 MM - - 933 - - -
+Squealer 8 1-4 ToH - - 934 - - -
+Stegocentipede 4 1 ToH 964-966 942 935 934 933 950
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 951
+Stirge 1/2 2-13 MM - 943-944 936-943 935-936 - 952-953
+Strangle Weed 3 1-4 ToH - - - - - 954-963
+Stymphalian Bird 4 1-5 ToH - - 944 937 - 964-965
+Swamp Mite or DM’s choice 1/8 10-100 CC2 - - - - - 966-967
+Swamp Tyrant or DM’s choice 7 1 CC2 - - - - - 968-969
+Swampling or DM’s choice 3 2-16 CC2 - - - - - 970-971
+Tenebrous Worm 8 1 ToH 967 945 945 938 934 972
+Tentamort 4 1-5 ToH - - - - 973-974
+Therianthrope, Jackalwere 2 1-5 ToH 968 946 946 939 935 975
+Therianthrope, Lionwere 5 1-5 ToH - 947 - - - -
+Therianthrope, Wolfwere 3 1-5 ToH - 948 947 940 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 949 948 941 - -
+Thunder Beast 4 5-20 ToH 969 950 - 942 - -
+Tick, Giant 1 3-12 ToH 970-972 951-952 949-950 943-944 936-938 976-977
+Tiger 4 1 MM - 953-964 951-958 945-955 939-949 -
+Titan 21 1-2 MM 973 965 959 956 950 978
+Treant 8 1-7 MM - - 960-961 - - -
+Troglodyte 1 2-5 MM - - - - 951-953 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 954 -
+Trogodon or DM’s choice 3 1-7 CC1 - - - - - 979-980
+Troll 5 1-4 MM 974-988 966-977 962-969 957-967 955-965 981-990
+Troll, Swamp 3 1-4 ToH - - - - - 991
+Troll, Two-headed 6 1-4 ToH 989 978 970 968 966 992
+Tunnel Worm 7 1-5 ToH 990-992 979-980 971-972 969-970 967-969 993
+Vegepygmy 1/2 4-9 ToH - - 973 - - -
+Vegepygmy (warband) 6 var 10-24 ToH - - 974 - - -
+Wasp, Giant 3 1-20 MM 993-995 981-982 975-976 971-972 970-972 994-995
+Wolf 1 1-16 MM - 983-994 977-984 973-983 973-983 -
+Wolf, Ghoul Wolf 2 1-16 ToH 996 995 985 984 984 996
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 997 996 986 985 985 997
+Worg 2 1-11 MM - 997 987 986 986 -
+Wyvern 6 1-6 MM - - 988-995 987-997 987-997 -
+Xorn 6 1-5 MM 998 998 996 998 998 998
+Snake Men 5 1-4 MM - - 997 - - -
+Snake Men (troupe) 26 var 1-4 MM - - 998 - - -
+Zombie 4 var var MM 999 999 999 999 999 999
+Zombie, Juju 3 var var ToH 000 000 000 000 000 000
+EndTable:
+
+#Tropic-Nighttime
+Table: 2-5B
+Achaierai 5 1-8 MM 001 001 001 001 001 001
+Aerial Servant 10 1 ToH 002 002 002 002 002 002
+Algoid 4 1-6 ToH - - 003-004 - - 003-004
+Allip 3 1 MM 003 003 005 003 003 005
+Amphisbaena 4 1-4 ToH 004 004 006 004 004 006
+Ankheg 3 1-4 MM - 005-006 007-008 - - -
+Ant Lion 5 1-4 ToH 005-007 007-008 009-010 005-006 - -
+Ant, Giant, Soldier 2 1-4 MM 008-010 009-010 011-012 007-008 - -
+Ant, Giant, Worker 1 2-12 MM 011-013 011-012 013-014 009-010 - -
+Ape 2 1-5 MM - - 015 - 005 -
+Apparition 7 1-4 ToH 014 013 016 011 006 007
+Aranea 4 1-6 MM - - 017-018 - - -
+Assassin Vine 3 1-4 MM - - 019-020 - - 008-009
+Athach 7 1-12 MM - - - 012 007 -
+Axe Beak 2 1-6 ToH 015-017 014-015 021-022 013-014 008-010 010
+Baboon 1/2 10-40 MM 018-020 016-017 - - - -
+Barghest 4 1-6 MM 021 018 023 015 011 011
+Basilisk, Common 5 1-6 MM 022-024 019-020 024-025 016-017 012-014 012-013
+Basilisk, Greater 7 1-2 ToH 025 021 026 018 015 014
+Bat Swarm 1/10 30-50 MM 026-036 022-032 027-034 019-030 - -
+Bat, Doombat 4 1-8 ToH 037-039 033-034 035-036 031-032 016-018 015
+Bat, Mobat 3 1-8 ToH 040-042 035-036 037-038 033-034 - -
+Bear, Black 2 1-2 MM - - 039-059 035-058 019-043 -
+Bear, Brown 2 1-2 MM - - 060-067 059-070 044-054 -
+Bee, Giant 1/2 1-20 MM 043 037-038 068-069 071-072 055 016
+Beetle, Giant: Bombardier 2 2-12 MM 044-054 039-049 070-077 073-084 056-066 017-026
+Beetle, Giant: Boring 3 2-12 ToH 055-065 050-060 078-085 085-096 067-077 027-036
+Beetle, Giant: Deathwatch 6 1 ToH - - 086 - - -
+Beetle, Giant: Fire 1/3 2-12 MM 066-076 061-071 087-094 097-108 078-088 037-046
+Beetle, Giant: Rhinoceros 6 2-12 ToH - - 095-096 - - -
+Beetle, Giant: Slicer 4 2-12 ToH - - 097-098 - - -
+Beetle, Giant: Stag 4 2-12 MM - 072 099-106 109 - -
+Behir 8 1-2 MM 077-079 073-074 107-108 110-111 089-091 047-048
+Eye Tyrant 13 1-6 MM 080 075 109 112 092 049
+Bitter tree or DM’s choice 10 1-5 CC2 - - 110 - - -
+Blood Moth or DM’s choice 1/4 10-50 CC2 - 076 111-112 - - -
+Blood Sprite or DM’s choice 1/2 2-4 CC2 - - 113 - 093 -
+Bloody Bones 4 1-5 ToH 081 077 114 113 094 050
+Boalisk 4 1 ToH - - 115-116 - - 051-052
+Boar 2 1 MM - - 117-138 - - -
+Bodak 8 1-4 MM 082 078 139 114 095 053
+Bog Beast 5 1-5 ToH - - - - - 054-055
+Bog Mummy 6 1-10 ToH - - - - - 056
+Boggart 7 1-5 ToH - - - - - 057-058
+Bonesnapper 3 1-4 ToH - - 140-141 - - 059-060
+Brownie 1 2-12 ToH - - 142-143 - - -
+Bunyip 3 1 ToH - - - - - 061-062
+Camel 1 1 MM 083-114 - - 115-126 096-098 -
+Carnivorous Tree or DM’s choice 6 1-12 CC2 - - 144-145 - - -
+Caterwaul 3 1 ToH - - - - 099 -
+Cathedral Beetle or DM’s choice 4 1-16 CC1 - 079 146-147 127 100 -
+Cave Cricket 1 1-5 ToH 115-117 080-081 148-149 128-129 101-103 063-064
+Cheetah 2 1-5 MM - 082 - - - -
+Chimera 7 1-13 MM 118-120 083-084 150-151 130-131 104-106 065-066
+Chuul 7 1-5 MM - - 152 - - 067
+Cockatrice 3 1-13 MM 121-123 085-086 153-154 132-133 107-109 068-069
+Coffer Corpse 3 1 ToH 124 087 155 134 110 070
+Cooshee 2 1-9 ToH 125-127 088-089 156-157 135-136 111-113 071-072
+Corpse Whisperer or DM’s choice 15 var 1 CC2 128 090 158 137 114 073
+Couatl 10 1-6 MM - - 159 - - -
+Cray?sh, Monstrous 3 1-5 ToH - - - - - 074-075
+Crocodile 2 1-11 MM - - - - - 076-101
+Crocodile, Giant 4 1-11 MM - - - - - 102-103
+Dananshee or DM’s choice 16 var 1 CC2 129 091 160 138 115 104
+Darnoc 6 1-4 ToH 130 092 161 139 116 105
+Death Dog 2 5-10 ToH 131 093 - - - -
+Death Worm 6 1 ToH 132-134 094 - - - -
+Demiurge 6 1 ToH 135 095 162 140 117 106
+Dinosaur, Deinonychus 3 1-6 MM - 096 163 141 - 107
+Dire Ape 3 1-8 MM - - 164-165 - 118 -
+Dire Bat 2 1-8 MM 136-146 097-107 166-173 142-153 119-129 -
+Dire Bear 7 1-2 MM - 108-109 174-175 154-155 130-130 -
+Dire Hippopotamus 4 1-5 ToH - 110 - - - 108-109
+Dire Lion 5 1-10 MM - 111-121 176-183 156-167 133-143 -
+Dire Porcupine 3 1-5 ToH - 122-123 184-185 168-179 144-146 -
+Dire Rat 1/3 1-20 MM 147-178 124-153 186-207 180-204 147-171 110-135
+Dire Sloth 6 1-2 ToH - - 208-209 - - -
+Dire Tiger 8 1-2 MM - 154-155 210-211 205-206 172-174 -
+Dire Wolf 3 1-8 MM 179-181 156-157 212-213 207-208 175-177 136-137
+Displacer Cat 4 1-10 MM - - 214-215 209 178 -
+Dog (wild) 1/3 1-12 MM 182-213 158-187 216-237 210-234 179-203 138-163
+Dog, War (wild-riding) 1 1-12 MM 214-245 188-216 238-259 235-258 204-228 164-189
+Doppleganger 3 1-6 MM 246 217 260 259 229 190
+Dracolisk, Black 7 1-6 ToH 247 218 261 260 230 191
+Dracolisk, Blue 7 1-6 ToH 248 219 262 261 231 192
+Dracolisk, Green 7 1-6 ToH 249 220 263 262 232 193
+Dracolisk, Red 7 1-6 ToH 250 221 264 263 233 194
+Dracolisk, White 7 1-6 ToH 251 222 265 264 234 195
+Dragon, Black 8 var 1 MM - - - - - 196-205
+Dragon, Blue 8 var 1 MM 252-254 - - - - -
+Dragon, Brass 8 var 1 MM 255-265 223-233 - - - -
+Dragon, Cloud 8 var 1-5 ToH - - - - 235 -
+Dragon, Copper 8 var 1 MM 266-268 - - 265-266 236-238 -
+Dragon, Faerie 2 1-6 ToH - - 266 - - -
+Dragon, Gold 8 var 1 MM 269 234 267 267 239 206
+Dragon, Green 8 var 1 MM - - 268-269 - - -
+Dragon, Mist 8 var 1-5 ToH - - 270-271 - - -
+Dragon, Red 8 var 1 MM - - - 268-269 240-242 -
+Dragon, Silver 8 var 1 MM - - - - 243 -
+Dragon?y, Giant 4 1-5 ToH - 235 272 270 244 207-208
+Dragonne 7 1-10 MM 270 - - 271 - -
+Drake, Salt 9 1-5 ToH 271 236 - - - -
+Dryad 1 1-7 MM - - 273 - - -
+Dune Delver or DM’s choice 5 1 CC1 272-274 - - - - -
+Dust Digger 4 1-20 ToH 275-285 - - - - -
+Eblis 3 4-16 ToH - - - - - 209
+Eel, Electric 2 1-2 ToH - - - - - 210-211
+Elemental, Air 29 var 1-4 MM 286 237 274 272 245 212
+Elemental, Earth 29 var 1-4 MM 287 238 275 273 246 213
+Elemental, Fire 29 var 1-4 MM 288 - - 274 247 -
+Elemental, Water 29 var 1-4 MM - - - - - 214
+Elephant 8 1-30 MM - 239-268 276-297 - - -
+Emperor Stag or DM’s choice 6 1 CC1 - - 298 - - -
+Ettercap 30 var 1-2 MM - - 299-306 - - -
+False Spider, Pedipalp 1 1-5 ToH 289 269 307 275 248 -
+False Spider, Solifugid 3 1-5 ToH 290 270 308 276 249 -
+Fatling or DM’s choice 5 1 CC1 291 271 309 277 250 215
+Fen Witch 5 1 ToH - - - - - 216
+Feral or DM’s choice 12 var 1-15 CC1 292 272 310 278 251 217
+Fire Lizard 8 1-2 ToH 293 273 311 279 252 218
+Fire Nymph 7 1 ToH 294 274 312 280 253 219
+Fire Snake 1 1-5 ToH 295 275 313 281 254 220
+Flail Snail 3 1 ToH 296 276 314 282 255 221
+Flesh Strippers or DM’s choice 1/4 5-50 CC2 297 277-278 315-316 283-284 256-258 222-223
+Fly, Giant 2 1-12 ToH 298 279 317 285 259 224
+Froghemoth 13 1 ToH - - - - - 225
+Gargoyle 4 1-16 MM 299-301 280-281 318-319 286-287 260-270 226-227
+Gargoyle, Green Guardian 4 1-16 ToH 302 282 320 288 271 228
+Gargoyle, Margoyle 5 1-2 ToH 303 283 321 289 272 229
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 304 284 322 290 273 230
+Genie, Djinni 5 1-15 MM 305 285 323 291 274 231
+Genie, Efreeti 8 1-15 MM 306 286 324 292 275 232
+Genie, Janni 4 1-15 MM 307 287 325 293 276 233
+Ghast 3 1-4 MM 308-318 288-298 326-333 294-305 277-287 234-243
+Ghast (pack) 31 var 2-4 MM 319-321 299-300 334-335 306-307 288-290 244-245
+Ghoul 1 1-12 MM 322-332 301-311 336-343 308-319 291-301 246-255
+Ghoul-Stirge 2 1-8 ToH - - 344 - - -
+Giant Owl 3 1-5 MM - 312-313 345-346 320-321 302-304 -
+Giant, Cloud 11 1-4 MM - - 347 322 305-307 -
+Giant, Fire 10 1-5 MM - - - 323 308-318 -
+Giant, Fire (hunting party) 32 var 6-9 MM - 314 348 324-325 319-321 -
+Giant, Hill 7 1-5 MM - - - 326-349 322-346 -
+Giant, Hill (hunting party) 34 var 6-9 MM - - - 350-361 347-357 -
+Giant, Sand 14 1-4 ToH 333-335 315 - - - -
+Giant, Sand (raiding party) 38 var 6-9 ToH 336-338 316 - - - -
+Giant, Stone 8 1-5 MM - - - 362 358-368 -
+Giant, Stone (hunting party) 35 var 6-9 MM - - - 363 369-371 -
+Giant, Storm 13 1 MM - - - 364 372-374 -
+Giant, Wood 5 1-5 ToH - - 349-350 - - -
+Giant, Wood (hunting party) 5 1-5 ToH - - 351-352 - - -
+Giant, Wood (trading party) 5 1-5 ToH 339 317 353-354 365 375 256
+Gnoll 1 1-5 MM 340-350 318-328 355-362 366-377 376-386 257-266
+Gnoll, Flind 1 1-5 ToH 351-353 329-330 363-364 378-379 387-389 267-268
+Gnoll, Flind (mob) 36 var 2-5 ToH 354 331-332 365-366 380-381 390-392 269
+Goblin 1/4 4-9 MM 355-365 333-343 367-374 382-393 393-403 270-279
+Goblin (warband) 17 var 10-24 MM 366-368 344-345 375-376 394-395 404-406 280-281
+Gorgimera 8 1-2 ToH 369 346 377 396 407 282
+Gorgon 8 1-13 MM 370-372 347-348 378 397-398 408-410 283
+Gorilla Bear 4 1-7 ToH - - 379-380 - - -
+Gray Render 8 1 MM 373-375 349-350 381-382 399-400 411-413 284-285
+Grippli 1 1-12 ToH - - 383-384 - - 286-287
+Groaning Spirit 7 1 ToH 376 351 385 401 414 288
+Hag (covey) 18 var 3 MM 377 352 386 402 415 289
+Hag, Annis 6 1 MM 378 353 387 403 416 290
+Hag, Green 5 1 MM - - 388 - - 291
+Hag, Moon or DM’s choice 13 1-2 CC1 - - - - 417 -
+Hag, Storm or DM’s choice 7 1-2 CC1 379 354 - 404 418 -
+Hag, Swamp or DM’s choice 6 1-2 CC1 - - - - - 292
+Hangman Tree 6 1 ToH - - 389 - - -
+Harpy 4 1-12 MM 380-382 355-356 390-391 405-406 419-421 293-294
+Haunt 4 1 ToH 383 357 392 407 422 295
+Hell Hound 3 1-12 MM 384 358 393 408 423 296
+Hell Moth 6 1-6 ToH 385 359 394 409 424 297
+Hippopotamus 4 1-12 ToH - 360-361 - - - 298-307
+Hobgoblin 1/2 4-9 MM 386-396 362-372 395-402 410-421 425-435 308-317
+Hobgoblin Warband 1/2 10-24 MM 397-407 373-383 403-410 422-433 436-446 318-327
+Homunculus 1 1 MM 408 384 411 434 447 328
+Horse, Heavy (wild) 1 1-30 MM 409-411 385-386 412-413 435-436 448-450 329-330
+Horse, Light (wild) 1 1-30 MM 412-414 387-388 414-415 437-438 451-453 331-332
+Huecuva 3 1-10 ToH 415 389 416 439 454 333
+Hydra 1 var 1 MM - - - - - 334-343
+Inphidian 3 1-5 ToH 416 390 417-418 440 455 344-345
+Invisible Stalker 7 1 MM 417 391 419 441 456 346
+Jaguar (leopard) 2 1-2 MM 418-428 392-402 420-427 442-453 457-467 -
+Kamadan 4 1 ToH 429-431 403-404 428-435 454-465 468-470 347-348
+Kech 3 2-8 ToH - - 436-437 - - -
+Kelpie 4 1-4 ToH - - - - - 349
+Kobold 1/6 4-9 MM 432-434 405-406 438-445 466-467 471-473 350-351
+Fishman (patrol) 20 var 2-4 MM - - - - - 352
+Fishman (squad) 20 var 6-11 MM - - - - - 353
+Lamia 6 1-4 MM 435 - - 468 - -
+Leech, Giant 2 2-15 ToH - - - - - 354-363
+Leeching Willow or DM’s choice 7 1 CC2 - - 446-447 - - 364-365
+Leopard 2 1-2 MM - 407-417 448-455 - - -
+Lion 3 1-10 MM - 418-428 - - - -
+Lion, Mountain (leopard) 2 1-2 MM 436-446 429-439 456-463 469-480 474-484 -
+Lizard, Giant 2 1 MM 447-457 440-450 464-471 481-492 485-495 366-375
+Lizard, Rock-horned 3 1 ToH 458-460 451-452 472-473 493-494 496-498 376-377
+Lizardfolk 1 2-3 MM - - - - - 378-379
+Lotus Flower, Blue or DM’s choice N/A N/A CC1 - - - - - 380
+Lotus Flower, Golden or DM’s choice N/A N/A CC1 - - 474 - - -
+Lotus Flower, Red or DM’s choice N/A N/A CC1 - - 475 - - -
+Lotus Flower, White or DM’s choice N/A N/A CC1 - - 476 - - -
+Manticore 5 1-6 MM 461-463 453-454 477-478 495-496 499-501 381-382
+Marmoset, Giant 1 2-11 ToH - - 479-486 - - -
+Medusa 7 1-4 MM 464-466 455-456 487-488 497-498 502-504 383-384
+Mimic 4 1 MM 467-469 457-458 489-490 499-500 505-507 385-386
+Mongrelman 1 1-5 ToH 470 459 491 501 508 387
+Monstrous Centipede 2 var var MM 471-501 460-489 492-513 502-526 509-533 388-413
+Monstrous Frog, Abyssal Dire 5 1-2 ToH - 490 514 527 534 414
+Monstrous Frog, Dire 4 1-2 ToH - 491-501 515-522 528-539 535-545 415-424
+Monstrous Frog, Giant 2 1-2 ToH 502 502-503 523-530 540-541 546-548 425-434
+Monstrous Frog, Killer 1 2-18 ToH - 504-505 531-538 542-543 549-551 435-444
+Monstrous Frog, Poisonous 1 2-18 ToH - 506-507 539-546 544-545 552-554 445-454
+Monstrous Scorpion 2 var var MM 503-533 508-537 547-568 546-570 555-579 455-480
+Monstrous Spider 2 var var MM 534-564 538-567 569-590 571-595 580-604 481-506
+Mudman 1 1-12 ToH - - - - - 507
+Mummy 3 1-10 MM 565 - - - - -
+Naga, Guardian 10 1-4 MM 566 568 591 596 605 508
+Naga, Spirit 9 1-4 MM 567 569 592 597 606 509
+Naga, Water 7 1-4 MM - - - - - 510-511
+Night Hag 9 1 or 3 MM 568 570 593 598 607 512
+Night Terror or DM’s choice 2 6-10 CC1 - 571 594 - - -
+Night Tyrant or DM’s choice 4 1 CC1 - - 595 - - -
+Nightshade, Nightcrawler 18 1-2 MM 569 572 596 599 608 513
+Nightshade, Nightwalker 16 1-4 MM 570 573 597 600 609 514
+Nightshade, Nightwing 14 1-6 MM 571 574 598 601 610 515
+Nilbog 2 4-20 ToH - - - 602 611 -
+Nymph 6 1 MM 572 575 599 603 612 516
+Ogre 2 1-8 MM 573-603 576-605 600-620 604-627 613-636 517-541
+Ogre Mage 22 var 1-2 MM 604 606 621 628 637 542
+Ogre, Half-Ogre 1 1-8 ToH 605-607 607-608 622-623 629-630 638-640 543-544
+Ogre, Ogrillon 1 1-5 ToH 608-610 609-610 624-625 631-632 641-643 545-546
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 611-613 611-612 626-627 633-634 644-646 547-548
+Ooze, Black Pudding 7 1 MM - - - - - 549-558
+Ooze, Brown Pudding 7 1 ToH - - - - - 559-568
+Ooze, Dun Pudding 7 1 ToH 614-616 613-614 - 635-636 647 -
+Ooze, Gray Ooze 4 1 MM - - - - - 569-570
+Ooze, Magma 7 1 ToH - - - - 648-650 -
+Ooze, Mustard Jelly 7 1 ToH - - - - - 571
+Ooze, Ochre Jelly 5 1 MM - - - - - 572-581
+Ooze, Undead or DM’s choice 4 1 CC1 617 615 628 637 651 582
+Ooze, Vampiric 8 1 ToH - - - - - 583
+Orc 1/2 2-4 MM 618-649 616-645 629-650 638-662 652-676 584-609
+Orc (squad) 21 var 11-20 MM 650-681 646-675 651-671 663-687 677-701 610-634
+Orog 1 1-4 ToH 682-684 676-677 672-673 688-689 702-704 635-636
+Orog (squad) 21 var 11-20 ToH 685-687 678-679 674-675 690-691 705-707 637-638
+Panther, Black (leopard) 2 1-2 MM - - 676-683 - - -
+Phase Spider 5 1-5 MM 688 680 684 692 708 639
+Pony (small wild horse) 1/4 1-30 MM 689-691 681-682 685-686 693-694 709-711 640-641
+Praying Mantis, Giant 2 1 MM 692-694 683-684 687-688 695-696 712-714 642-643
+Pyrolisk 4 1-12 ToH 695 685 689 697 715 644
+Rat Swarm 1/8 20-100 MM 696-726 686-715 690-711 698-721 716-740 645-670
+Rat, Brain 1 2-12 ToH 727 716 712 722 741 671
+Rat, Ethereal 2 6-11 ToH 728 717 713 723 742 672
+Rat, Shadow 1 6-20 ToH 729 718 714 724 743 673
+Rat, Shadow Dire 3 1-12 ToH 730 719 715 725 744 674
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 731 720 716 726 745 675
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 732 721 717 727 746 676
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 733 722 718 728 747 677
+Ratman, Red Witch or DM’s choice 1 1 CC1 734 723 719 729 748 678
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 735 724 720 730 749 679
+Ratman, Stalker or DM’s choice 13 var 1 CC2 736 725 721 731 750 680
+Ratman, White Wraith or DM’s choice 1 1-2 CC2 737 726 722 732 751 681
+Ratman, White Wraith (warband) or DM’s choice 10 var 10-100 CC2 738 727 723 733 752 682
+Rhinoceros 4 1-12 MM 728-738
+Salamander 2 1-5 MM 739 739 724 734 753 683
+Salamander, Flamebrother 5 1-5 MM 740 740 725 735 754 684
+Salamander, Noble 9 1-14 MM 741 741 726 736 755 685
+Sand Burrower or DM’s choice 7 1 CC1 742 - - - - -
+Sand Mummy or DM’s choice 3 1 CC2 743 - - - - -
+Sandling 2 1 ToH 744-746 742 727 737 756 686
+Sandman 3 1-4 ToH 747-749 743 728 738 757 687
+Shadow 3 1-11 MM 750-752 744-745 729-730 739-740 758-760 688-689
+Shambling Mound 6 1 MM - - 731-732 - - 690-691
+Shedu 7 2-8 ToH 753 746 733 741 761 692
+Shedu, Greater 9 1-2 ToH 754 747 734 742 762 693
+Shocker Lizard 2 1-11 MM - - 735-736 - - 694-703
+Skeleton 5 var var MM 755-765 748-758 737-744 743-754 763-773 704-713
+Slime Crawler 1 1-20 ToH 766-768 759-760 745-746 755-756 774-776 714-715
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - - - 716
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - - - 717
+Slug, Giant 6 1 ToH - - - - - 718-727
+Snake, Adder, Death 1/2 1 ToH - 761 - - - -
+Snake, Anaconda (giant constrictor) 5 1 MM - - 747-748 - - 728-729
+Snake, Boa (constrictor) 2 1 MM - - 749-756 - - 730-739
+Snake, Bushmaster 1/2 1 ToH - - 757-764 - - 740-749
+Snake, Cobra, Common 1/2 1 ToH 769-800 762-791 765-786 757-781 777-787 750-775
+Snake, Cobra, Desert 1/2 1 ToH 801-832 792-793 - - - -
+Snake, Cobra, King 1 1 ToH 833-835 794-795 787-788 782-783 788-790 776-777
+Snake, Cobra, Spitting 1 1 ToH 836-838 796-797 789-790 784-785 791-793 778-779
+Snake, Cobra, Water 1 1 ToH - - - - - 780-805
+Snake, Cobra, Yellow 1 1 ToH 839-841 798-799 791-792 786-787 - 806-807
+Snake, Fer-de-Lance 1 1 ToH - - 793-812 - - 808-832
+Snake, Krait, Banded 1/2 1 ToH 842-852 800-829 813-833 788-812 794-804 833-858
+Snake, Krait, Blue 1/2 1 ToH - - 834-855 - - 859-883
+Snake, Mamba, Black 1 1 ToH - 830-831 - 813 - -
+Snake, Mamba, Green 1 1 ToH - - 856-857 - - 884-885
+Snake, Python (giant constrictor) 5 1 MM - - 858-865 - - 886-895
+Snake, Taipan 1 1 ToH 853-855 - - - - -
+Snake, Tic-polonga 1 1 ToH - 832-842 866-873 814-838 805-829 -
+Snake, Viper, Desert 1/2 1 ToH 856-887 - - - - -
+Snake, Viper, Gaboon 1 1 ToH - 843-853 - 839-850 - -
+Snake, Viper, Mountain 1/2 1 ToH - - - 851-875 830-854 -
+Snake, Viper, Pit 1 1 ToH 888-898 854-883 874-875 876-877 855-857 896-897
+Snake, Viper, Rhinoceros 1 1 ToH 899-909 884-894 - - - -
+Snake, Viper, Sand 1 1 ToH 910-920 - - - - -
+Snake, Viper, Saw-scaled 1/2 1 ToH 921-952 895-896 - - - -
+Snake, Viper, Sharp-nosed 1 1 ToH - 897 876-883 878-902 858-868 -
+Snake, Viper, Tree 1/2 1 ToH - - 884-905 - - 898-923
+Spectre 7 1-11 MM 953 899 906 903 869 924
+Sphinx, Andro- 9 1 MM 954 900 907 904 870 925
+Sphinx, Crio- 7 1 MM - - 908 - - -
+Sphinx, Gyno- 8 1-4 MM 955 901 909 905 871 926
+Sphinx, Hieraco- 5 1-7 MM - 902 - 906-907 872 -
+Spider, Scarlet 1/4 8-40 ToH 956-958 903-904 910-911 908-909 873-875 927-928
+Spider-eye Goblin (raiders) or DM’s choice 11 var 3-18 CC1 - 905 912-913 910 876 929
+Spider-eye Goblin (gang) or DM’s choice 1/2 1-6 CC1 - 906 914-915 911 877 930
+Spriggan 4 1-12 ToH 959 907 916 912 878 931
+Sprite 1 2-12 ToH - 908-909 917-918 - - -
+Sprite Tribe 1 10-100 ToH - 910 919 - - -
+Sprite, Grig 1 1-10 MM - - 920-921 - - -
+Squealer 8 1-4 ToH - - 922 - - -
+Stegocentipede 4 1 ToH 960-962 911 923 913 879 932
+Stench Toad or DM’s choice 2 1-4 CC2 - - - - - 933
+Stirge 1/2 2-13 MM - 912 924-925 914 - 934
+Strangle Weed 3 1-4 ToH - - - - - 935-944
+Stymphalian Bird 4 1-5 ToH - - 926 915 - 945-946
+Swamp Mite or DM’s choice 1/8 10-100 CC2 - - - - - 947
+Swamp Tyrant or DM’s choice 7 1 CC2 - - - - - 948
+Swampling or DM’s choice 3 2-16 CC2 - - - - - 949
+Tenebrous Worm 8 1 ToH 963 913 927 916 880 950
+Tentamort 4 1-5 ToH - - - - - 951-952
+Therianthrope, Jackalwere 2 1-5 ToH 964 914 928 917 881 953
+Therianthrope, Lionwere 5 1-5 ToH - 915 - - - -
+Therianthrope, Wolfwere 3 1-5 ToH - 916 929 918 - -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH - 917 930 919 - -
+Thunder Beast 4 5-20 ToH 965 918 - 920 - -
+Tick, Giant 1 3-12 ToH 966-968 919-920 931-932 921-922 882-884 954-955
+Tiger 4 1 MM - 921-931 933-940 923-934 885-895 -
+Titan 21 1-2 MM 969 932 941 935 896 956
+Treant 8 1-7 MM - - 942-943 - - -
+Troglodyte 1 2-5 MM - - - - 897-921 -
+Troglodyte (squad) 25 var 6-11 MM - - - - 922-932 -
+Trogodon or DM’s choice 3 1-7 CC1 - - - - - 957
+Troll 5 1-4 MM 970-980 933-943 944-951 936-947 933-943 958-967
+Troll, Cave 5 1-4 ToH - - - 948 944 -
+Troll, Swamp 3 1-4 ToH - - - - - 968-969
+Troll, Two-headed 6 1-4 ToH 981-983 944-945 952-953 949-950 945-947 970-971
+Tsathar 2 1-10 ToH - - - - - 972-973
+Tsathar Scourge 3 1-10 ToH - - - - - 974-975
+Tsathar Scourge (hunting party) 41 var 2-8 ToH - - - - - 976-977
+Tunnel Worm 7 1-5 ToH 984-986 946-947 954-955 951-952 948-950 978
+Vampire Spawn 4 1-5 MM 987 948 956 953 951 979
+Vegepygmy 1/2 4-9 ToH - - 957 - - -
+Vegepygmy (warband) 6 var 10-24 ToH - - 958 - - -
+Wasp, Giant 3 1-20 MM 988 949 959 954 952 980
+Wight 3 1-11 MM 989-991 950-951 960-961 955-956 953-955 981-982
+Will-o’-Wisp 6 1-4 MM - - - - - 983-992
+Wolf 1 1-16 MM - 952-981 962-982 957-980 956-980 -
+Wolf, Ghoul Wolf 2 1-16 ToH 992 982 983 981 981 993
+Wolf, Shadow 3 1-12 ToH 993 983 984 982 982 994
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 994 984 985 983 983 995
+Worg 2 1-11 MM - 985-995 986-993 984-995 984-994 -
+Wraith 5 1-11 MM 995 996 994 996 995 996
+Xorn 6 1-5 MM 996 997 995 997 996 997
+Snake Men 5 1-4 MM - - 996 - - -
+Snake Men (troupe) 26 var 1-4 MM - - 997 - - -
+Zombie 4 var var MM 997-999 998-999 998-999 998-999 997-999 998-999
+Zombie, Juju 3 var var ToH 000 000 000 000 000 000
+EndTable:
+
+#Aquatic
+Table: 2-6
+Aquantis or DM’s choice 5 1-20 CC1 001-028 - - -
+Barracuda, Giant 2 2-12 ToH - - 001-008 001-008
+Barracuda, Medium 1 2-12 ToH - - 009-033 009-040
+Barracuda, Small 1/4 2-12 ToH - - 034-058 041-073
+Boalisk 4 1 ToH 029-056 - - -
+Bunyip 3 1 ToH 057-084 - - -
+Caribe, Giant 1 5-30 ToH - - 059-066 074-081
+Clam, Giant 2 1-10 ToH - 001-115 - 082-113
+Crab, Monstrous 2 1-12 ToH - - 067-074 114-146
+Crabman 2 2-12 ToH - - 075-082 147-179
+Cray?sh, Monstrous 3 1-5 ToH 085-179 116-229 - -
+Crocodile 2 1-11 MM 180-275 - 083-107 -
+Crocodile, Giant 4 1-11 MM 276-281 - 108-115 -
+Dinosaur, Elasmosaurus 5 1-2 MM - - 116-118 180-182
+Dire Hippopotamus 4 1-5 ToH 282-287 - - -
+Dire Shark 9 1-5 MM - - 119-143 183-215
+Dragon Turtle 9 1 MM - - 144-146 216-223
+Dragon, Bronze 8 var 1 MM 288-315 230-254 147-154 224-226
+Dragon, Mist 8 var 1-5 ToH 316-343 - 155-157 -
+Draug 4 1 ToH 344-349 255-279 158-160 227-229
+Draug (with crew) 7 var 1 ToH - - 161-163 230-232
+Eel, Ebon or DM’s choice 1 1 CC1 - - 164-171 -
+Eel, Electric 2 1-2 ToH 350-377 - - -
+Eel, Giant Moray 4 1-8 ToH - - 172-196 233-240
+Elemental, Water 29 var 1-4 MM 378-383 280-304 197-199 241-243
+Eye of the Deep 8 1-6 ToH - - 200-202 244-251
+Floating Eye 1/10 3-12 ToH - - 203-205 252-254
+Gargoyle, Green Guardian 4 1-16 ToH 384-389 305-329 206-208 255-257
+Ghoul, Lacedon 1 1-12 MM - - 209-216 258-265
+Hag (covey) 18 var 3 MM 390-395 330-354 217-219 266-268
+Hag, Brine or DM’s choice 6 1-2 CC1 - - - 269-276
+Hag, Sea 4 1 MM 396-401 355-379 220-222 277-279
+Hippocampus 3 1-8 ToH - - 223-230 280-287
+Hippopotamus 4 1-12 ToH 402-429 - - -
+Jelly?sh, Monstrous 2 1-25 ToH - - 231-238 288-290
+Kelp Devil 8 1 ToH 430-435 380-404 239-241 291-293
+Kelpie 4 1-4 ToH 436-441 - 242-244 294-296
+Kraken 12 1 MM - - - 297-304
+Fishman (patrol) 20 var 2-4 MM - 405-519 - 305-337
+Fishman (squad) 20 var 6-11 MM - 520-633 - 338-345
+Leech, Giant 2 2-15 ToH 442-536 - - -
+Locathah 1/2 2-4 MM - - 245-252 346-353
+Locathah (patrol) 21 var 11-20 MM - - 253-260 354-361
+Mere-lurker or DM’s choice 1/4 5-10 CC1 537-542 - - -
+Merfolk 1/2 2-4 MM - - 261-285 362-369
+Merfolk (patrol) 21 var 11-20 MM - - 286-310 370-377
+Monstrous Frog, Giant 2 1-2 ToH 543-638 - - -
+Mudman 1 1-12 ToH 639-644 - - -
+Mummy of the Deep 4 1-4 ToH - - - 378-385
+Nereid 6 1-4 ToH - - 311-313 -
+Nereid (troupe) 39 var 2-4 ToH - - 314-316 -
+Octopus, Giant 8 1 MM - - 317-324 386-393
+Ogre 2 1-8 MM 645-672 634-747 - -
+Porpoise 1/2 2-20 MM - - 325-396 -
+Quipper 1/4 5-100 ToH 673-678 748-861 - -
+Sahuagin 2 1-5 MM - - 397-421 394-426
+Sahuagin (patrol) 23 var 11-20 MM - - 422-446 427-458
+Sea Lion 4 1-12 MM - - 447-471 459-466
+Seaspark 1/2 5-120 CC1 679-684 - 472-479 -
+Shark, Huge 4 1-11 MM - - 480-487 467-474
+Shark, Large 2 1-11 MM - - 488-559 475-555
+Shark, Medium 1 1-11 MM - - 560-631 556-636
+Shocker Lizard 2 1-11 MM 685-712 - - -
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 713-718 - - -
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 719-724 - - -
+Snake, Sea Snake 1/2 1 ToH - - 632-703 637-717
+Sprite, Nixie 1 1-10 MM 725-753 - 704-711 -
+Squid, Giant 9 1 MM - - 712-719 718-725
+Strangle Weed 3 1-4 ToH 754-849 - - -
+Tentamort 4 1-5 ToH 850-877 - - -
+Tiger Barb, Giant 2 2-12 ToH - - 720-744 726-733
+Triton 4 2-11 MM - - 745-752 734-741
+Troll 5 1-4 MM 878-972 862-975 753-777 742-749
+Turtle, Giant Snapping 9 1-4 ToH 973-000 976-000 - -
+Whale, Baleen 5 1 MM - - 778-848 750-830
+Whale, Cachalot 6 1-11 MM - - 849-920 831-911
+Whale, Orca 5 1-11 MM - - 921-992 912-992
+Zombie, Brine 1 2-12 ToH - - 993-000 993-000
+EndTable:
+
+#Underground-Near
+Table: 2-7A
+Aboleth 7 1-4 MM - - - 001-004
+Achaierai 5 1-8 MM 001 001 - -
+Aerial Servant 10 1 ToH 002 002 001 -
+Allip 3 1 MM 003 003 002 -
+Amphisbaena 4 1-4 ToH 004 004 003 -
+Ankheg 3 1-4 MM 005-006 005-006 - -
+Ant Lion 5 1-4 ToH 007 007-008 - -
+Ant, Giant, Soldier 2 1-4 MM 008-013 009-015 004-012 -
+Ant, Giant, Worker 1 2-12 MM 014-019 016-022 013-021 -
+Apparition 7 1-4 ToH 020 023 022 -
+Ascomoid 6 1 ToH 021 024 023 -
+Assassin Vine 3 1-4 MM 022-023 025-026 024-026 -
+Athach 7 1-12 MM 024-025 027-028 027-029 -
+Barghest 4 1-6 MM 026 029 030 -
+Barrow Worm or DM’s choice 8 1 CC1 027-032 030-031 - 005-008
+Basidirond 5 1-2 ToH 033-034 032-033 031-033 -
+Basilisk, Common 5 1-6 MM 035-040 034-040 034-042 -
+Basilisk, Greater 7 1-2 ToH 041 041 043 -
+Bat Swarm 1/10 30-50 MM 042-065 042-065 044-066 -
+Bat, Doombat 4 1-8 ToH 066-067 066-067 067-069 -
+Bat, Mobat 3 1-8 ToH 068-069 068-069 070-072 -
+Bear, Brown 2 1-2 MM 070-075 070-076 073-081 -
+Bee, Giant 1/2 1-20 MM 076-081 077-078 082-084 -
+Beetle, Giant: Bombardier 2 2-12 MM 082-105 079-101 085-093 -
+Beetle, Giant: Boring 3 2-12 ToH 106-129 102-124 094-115 -
+Beetle, Giant: Deathwatch 6 1 ToH 130 125 116 -
+Beetle, Giant: Fire 1/3 2-12 MM 131-154 126-148 117-125 -
+Beetle, Giant: Rhinoceros 6 2-12 ToH 155-160 149-155 126-128 -
+Beetle, Giant: Slicer 4 2-12 ToH 161-162 156-157 129-131 -
+Beetle, Giant: Stag 4 2-12 MM 163-164 158-159 132 -
+Behir 8 1-2 MM 165-166 160-161 133-135 -
+Eye Tyrant 13 1-6 MM 167 162 136 -
+Bloody Bones 4 1-5 ToH 168 163 137 -
+Bodak 8 1-4 MM 169 164 138 -
+Bonesnapper 3 1-4 ToH 170 165 139-141 -
+Bugbear 2 1-4 MM 171-176 166-172 142-150 -
+Bulette 7 1-2 MM 177 173 151 -
+Carrion Worm 4 1-5 MM 178-183 174-180 152-160 -
+Cave Cricket 1 1-5 ToH 184-185 181-182 161-163 -
+Cave Fisher 2 1-4 ToH 186-187 183-184 164-166 -
+Chimera 7 1-13 MM 188-189 185-186 167-169 -
+Chuul 7 1-5 MM 190 187 - -
+Clam, Giant 2 1-10 ToH - - - 009-019
+Cloaker 5 1-12 MM 191 188 170 -
+Cockatrice 3 1-13 MM 192-197 189-195 171-179 -
+Coffer Corpse 3 1 ToH 198 196 180 -
+Cooshee 2 1-9 ToH 199 197 181 -
+Corpse Whisperer or DM’s choice 15 var 1 CC2 200 198 182 -
+Cray?sh, Monstrous 3 1-5 ToH - - - 020-045
+Crocodile 2 1-11 MM - - - 046-071
+Crocodile, Giant 4 1-11 MM - - - 072-082
+Dark Creeper 2 2-4 ToH 201-202 199-200 183-185 -
+Dark Stalker 4 1 ToH 203 201 186 -
+Darnoc 6 1-4 ToH 204 202 187 -
+Death Dog 2 5-10 ToH 205 203 188 -
+Demiurge 6 1 ToH 206 204 189 -
+Dire Ape 3 1-8 MM 207 205 190 -
+Dire Badger 2 1-5 MM 208-209 206-207 191-193 -
+Dire Bat 2 1-8 MM 210-215 208-214 194-202 -
+Dire Bear 7 1-2 MM 216-217 215-216 203-205 -
+Dire Lion 5 1-10 MM 218-219 217-218 206-208 -
+Dire Monitor or DM’s choice 3 1 CC1 - - - 083-108
+Dire Rat 1/3 1-20 MM 220-244 219-242 209-231 109-134
+Dire Tiger 8 1-2 MM 245-246 243-244 232-234 -
+Dire Weasel 2 1-2 MM 247-248 245-246 235-237 -
+Dire Wolf 3 1-8 MM 249-250 247-248 238-240 -
+Dire Wolverine 4 1-2 MM 251-252 249-250 241-243 -
+Displacer Cat 4 1-10 MM 253-254 251-252 244-246 -
+Doppleganger 3 1-6 MM 255 253 247 -
+Dracolisk, Black 7 1-6 ToH 256 254 248 -
+Dracolisk, Blue 7 1-6 ToH 257 255 249 -
+Dracolisk, Green 7 1-6 ToH 258 256 250 -
+Dracolisk, Red 7 1-6 ToH 259 257 251 -
+Dracolisk, White 7 1-6 ToH 260 258 252 -
+Dragon, Black 8 var 1 MM 261-262 259 - -
+Dragon, Blue 8 var 1 MM 263-264 260 - -
+Dragon, Brass 8 var 1 MM 265-270 261 - -
+Dragon, Bronze 8 var 1 MM 271-272 262 - 135-145
+Dragon, Copper 8 var 1 MM 273-274 263 - -
+Dragon, Gold 8 var 1 MM 275 - - -
+Dragon, Green 8 var 1 MM 276-277 264 - -
+Dragon, Mist 8 var 1-5 ToH - - - 146-149
+Dragon, Red 8 var 1 MM 278-279 265 - -
+Dragon, Silver 8 var 1 MM 280 - - -
+Dragon, White 8 var 1 MM 281-286 266 - -
+Dragonne 7 1-10 MM 287 267 253 -
+Drake, Fire 4 1-8 ToH 288 268 - -
+Drake, Ice 4 1-8 ToH 289 269 - -
+Eel, Electric 2 1-2 ToH - - - 150-160
+Elemental, Earth 29 var 1-4 MM 290-291 270-271 254-256 -
+Elemental, Water 29 var 1-4 MM - - - 161-164
+Ettercap 30 var 1-2 MM 292-297 272-278 257-265 -
+Ettin 5 1-4 MM 298 279 266 -
+False Spider, Pedipalp 1 1-5 ToH 299 280 267 -
+False Spider, Solifugid 3 1-5 ToH 300 281 268 -
+Fatling or DM’s choice 5 1 CC1 301 282 269 -
+Feral or DM’s choice 12 var 1-15 CC1 302 283 270 -
+Fire Lizard 8 1-2 ToH 303 284 271 -
+Fire Snake 1 1-5 ToH 304 285 272 -
+Flail Snail 3 1 ToH 305 286 273 -
+Flumph 1 1-16 ToH 306 287 274-276 -
+Fly, Giant 2 1-12 ToH 307 288 277 -
+Frost Man 2 1 ToH 308 289 278 -
+Fungus, Shrieker 1 1-5 MM 309-314 290-296 279-287 -
+Fungus, Violet 3 1-4 MM 315-316 297-298 288-290 -
+Gargoyle 4 1-16 MM 317-322 299-305 291-299 -
+Gargoyle, Green Guardian 4 1-16 ToH 323 306 300 165-168
+Gargoyle, Margoyle 5 1-2 ToH 324-325 307-308 301-303 -
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 326 309 304 -
+Ghast 3 1-4 MM 327-328 310-311 305-307 -
+Ghast (pack) 31 var 2-4 MM 329-330 312-313 308-310 -
+Ghoul 1 1-12 MM 331-354 314-337 311-333 -
+Ghoul, Lacedon 1 1-12 MM - - - 169-179
+Ghoul-Stirge 2 1-8 ToH 355 338 334 -
+Giant, Cloud 11 1-4 MM 356-357 - - -
+Giant, Fire 10 1-5 MM 358-363 339-340 - -
+Giant, Fire (hunting party) 32 var 6-9 MM 364-365 341 - -
+Giant, Frost 9 1-5 MM 366-367 342 - -
+Giant, Frost (hunting party) 33 var 6-9 MM 368-369 343 - -
+Giant, Hill 7 1-5 MM 370-393 344-366 335-337 -
+Giant, Hill (hunting party) 34 var 6-9 MM 394-399 367-373 - -
+Giant, Stone 8 1-5 MM 400-405 374-380 338-340 -
+Giant, Stone (hunting party) 35 var 6-9 MM 406-411 381-382 - -
+Gnoll 1 1-5 MM 412-417 383-389 341-349 -
+Gnoll, Flind 1 1-5 ToH 418-419 390-391 350-352 -
+Gnoll, Flind (mob) 36 var 2-5 ToH 420-421 392-393 353-355 -
+Goblin 1/4 4-9 MM 422-446 394-417 356-378 -
+Goblin (warband) 17 var 10-24 MM 447-452 418-419 - -
+Gorgimera 8 1-2 ToH 453 420 379 -
+Gorgon 8 1-13 MM 454-455 421-422 380-382 -
+Gray Render 8 1 MM 456-457 423-424 383-385 -
+Groaning Spirit 7 1 ToH 458 425 386 -
+Hag (covey) 18 var 3 MM 459 426 387 180-183
+Hag, Annis 6 1 MM 460 427 388 -
+Hag, Cavern or DM’s choice 5 1-2 CC1 461 428 389-391 -
+Hag, Moon or DM’s choice 13 1-2 CC1 - 429 392 -
+Hag, Sea 4 1 MM - - - 184-187
+Harpy 4 1-12 MM 462-463 430 - -
+Haunt 4 1 ToH 464 431 393 -
+Hell Hound 3 1-12 MM 465 432 394 -
+Hell Moth 6 1-6 ToH 466 433 395 -
+Hobgoblin 1/2 4-9 MM 467-491 434-457 396-418 -
+Hobgoblin (warband) 1/2 10-24 MM 492-497 458-464 419-421 -
+Homunculus 1 1 MM 498 465 422 -
+Huecuva 3 1-10 ToH 499 466 423 -
+Hydra 1 var 1 MM 500-501 467 - -
+Inphidian 3 1-5 ToH 502 468 424 -
+Invisible Stalker 7 1 MM 503 469 425 -
+Kampfult 2 1 ToH 504 470 426 -
+Kelp Devil 8 1 ToH - - - 188-198
+Kelpie 4 1-4 ToH - - - 199-202
+Kobold 1/6 4-9 MM 505-529 471-494 427-449 -
+Fishman (patrol) 20 var 2-4 MM 530 495 450 203-213
+Fishman (squad) 20 var 6-11 MM 531 496 451 214-224
+Lamia 6 1-4 MM 532 497 452 -
+Lammasu 8 1 MM 533 498 453 -
+Lard Worm or DM’s choice 1/4 1-200 CC1 - 499 454 -
+Leech, Giant 2 2-15 ToH - - - 225-250
+Lurker Above 7 1 ToH 534-539 500-506 455-463 -
+Manticore 5 1-6 MM 540-545 507-513 464-466 -
+Medusa 7 1-4 MM 546-547 514-515 467-469 -
+Mimic 4 1 MM 548-549 516-517 470-472 -
+Brain Devourer 8 1-5 MM 550-551 518 473 -
+Minotaur 4 1-4 MM 552-553 519-520 474-482 -
+Mongrelman 1 1-5 ToH 554 521 483 -
+Monstrous Centipede 2 var var MM 555-578 522-545 484-506 -
+Monstrous Frog, Abyssal Dire 5 1-2 ToH 579 546 507 251-254
+Monstrous Frog, Dire 4 1-2 ToH 580-585 547-553 508-516 255-280
+Monstrous Frog, Giant 2 1-2 ToH 586 554 517 281-291
+Monstrous Frog, Killer 1 2-18 ToH 587 555 518 292-302
+Monstrous Frog, Poisonous 1 2-18 ToH 588 556 519 303-306
+Monstrous Scorpion 2 var var MM 589-612 557-580 520-542 -
+Monstrous Spider 2 var var MM 613-636 581-604 543-565 -
+Mudman 1 1-12 ToH - - 566 307-317
+Mummy 3 1-10 MM 637 605 567 -
+Naga, Guardian 10 1-4 MM 638 606 568 -
+Naga, Spirit 9 1-4 MM 639-640 607-608 569-571 -
+Naga, Water 7 1-4 MM 641-642 609-610 572-574 318-343
+Night Hag 9 1 or 3 MM 643 611 575 -
+Nightshade, Nightcrawler 18 1-2 MM 644 612 576 -
+Nightshade, Nightwalker 16 1-4 MM 645 613 577 -
+Nightshade, Nightwing 14 1-6 MM 646 - - -
+Nilbog 2 4-20 ToH - - 578 -
+Ogre 2 1-8 MM 647-671 614-637 579-600 344-493
+Ogre Mage 22 var 1-2 MM 672 638 601 -
+Ogre, Half-Ogre 1 1-8 ToH 673-674 639-640 602-604 -
+Ogre, Ogrillon 1 1-5 ToH 675-676 641-642 605-607 -
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 677-678 643-644 608-610 -
+Ooze, Black Pudding 7 1 MM 679-684 645-651 611-619 494-519
+Ooze, Brown Pudding 7 1 ToH 685 652-653 620-622 520-545
+Ooze, Dun Pudding 7 1 ToH 686 654 623 -
+Ooze, Gelatinous Cube 3 1 MM 687-692 655-661 - -
+Ooze, Gray Ooze 4 1 MM 693-698 662-668 624-632 546-571
+Ooze, Magma 7 1 ToH - 669 633 -
+Ooze, Mercury 4 1 ToH 699 670 634 -
+Ooze, Mustard Jelly 7 1 ToH 700 671 635-637 572-582
+Ooze, Ochre Jelly 5 1 MM 701-706 672-678 638-646 583-608
+Ooze, Undead or DM’s choice 4 1 CC1 707 679 647 -
+Ooze, Vampiric 8 1 ToH 708 680 648 609-612
+Ooze, White Pudding 10 1 ToH 709 681 649 -
+Orc 1/2 2-4 MM 710-733 682-705 650-672 -
+Orc (squad) 21 var 11-20 MM 734-758 706-729 673-681 -
+Orog 1 1-4 ToH 759-760 730-731 682-684 -
+Orog (squad) 21 var 11-20 ToH 761-762 732-733 685-687 -
+Otyugh 4 1-4 MM 763-768 734-740 688-696 -
+Pech 3 2-20 ToH 769 741-742 697-699 -
+Phase Spider 5 1-5 MM 770-771 743-744 700-702 -
+Piercer 1/6 5-20 ToH 772-777 745-751 703-711 -
+Praying Mantis, Giant 2 1 MM 778-779 752-753 712 -
+Pyrolisk 4 1-12 ToH 780-781 754-755 713-715 -
+Quipper 1/4 5-100 ToH - - - 613-623
+Rat Swarm 1/8 20-100 MM 782-805 756-779 716-738 -
+Rat, Brain 1 2-12 ToH 806 780 739-741 -
+Rat, Ethereal 2 6-11 ToH 807 781 742 -
+Rat, Shadow 1 6-20 ToH 808 782 743-745 -
+Rat, Shadow Dire 3 1-12 ToH 809 783 746-748 -
+Ratman, Brown Gorger (warband) or DM’s choice 10 var 15-90 CC1 810 784 749 -
+Ratman, Diseased (warband) or DM’s choice 10 var 15-120 CC1 811 785 750 -
+Ratman, Foamer (warband) or DM’s choice 10 var 15-120 CC1 812 786 751 -
+Ratman, Red Witch or DM’s choice 1 1 CC1 813 787 752 -
+Ratman, Slitheren (warband) or DM’s choice 10 var 15-120 CC1 814 788 753 -
+Roper 10 1-6 MM 815-816 789-790 754-756 -
+Rust Monster 3 1-2 MM 817-822 791-797 757-759 -
+Salamander 2 1-5 MM 823 798 760 -
+Salamander, Flamebrother 5 1-5 MM 824 799 761 -
+Salamander, Noble 9 1-14 MM 825 800 762 -
+Sandling 2 1 ToH 826 801 763 -
+Sandman 3 1-4 ToH 827 802 764 -
+Shadow 3 1-11 MM 828-833 803-809 765-773 -
+Shambling Mound 6 1 MM 834-835 810-811 774-776 -
+Shocker Lizard 2 1-11 MM - - - 624-649
+Skeleton 5 var var MM 836-841 812-818 777-785 -
+Slime Crawler 1 1-20 ToH 842 819-820 786-794 -
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - 650-660
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - 661-671
+Slithering Tracker 4 1 ToH 843-844 821 795-797 -
+Slug, Giant 6 1 ToH 845-850 823-829 798-800 672-697
+Snake, Adder, Night 1/2 1 ToH 851-852 830-831 801-803 -
+Snake, Cobra, Common 1/2 1 ToH 853-858 832-838 804-812 -
+Snake, Cobra, King 1 1 ToH 859 839 813 -
+Snake, Cobra, Spitting 1 1 ToH 860-861 840-841 814-816 -
+Snake, Cobra, Water 1 1 ToH - - - 698-723
+Snake, Cobra, Yellow 1 1 ToH 862-863 842-843 817-819 -
+Snake, Tic-polonga 1 1 ToH 864-865 844-845 820-822 -
+Snake, Viper, Desert 1/2 1 ToH 866 846-846 823 -
+Snake, Viper, Mountain 1/2 1 ToH 867-868 847-848 824-826 -
+Snake, Viper, Pit 1 1 ToH 869-892 849-872 827-849 -
+Spectre 7 1-11 MM 893-894 873-874 850-852 -
+Spider, Scarlet 1/4 8-40 ToH 895-896 875-876 853-855 -
+Spider-eye Goblin (raiders) or DM’s choice 11 var 3-18 CC1 897 877 - -
+Spider-eye Goblin (gang) or DM’s choice 1/2 1-6 CC1 898 878 856 -
+Spriggan 4 1-12 ToH 899 879 857 -
+Squid, Giant 9 1 MM - - - 724-727
+Stegocentipede 4 1 ToH 900 880-881 858-860 -
+Stench Toad or DM’s choice 2 1-4 CC2 901 882 861 728-738
+Stirge 1/2 2-13 MM 902-907 883-889 862-870 -
+Strangle Weed 3 1-4 ToH - - - 739-742
+Tenebrous Worm 8 1 ToH 908 890 871 -
+Tentamort 4 1-5 ToH - - - 743-753
+Therianthrope, Jackalwere 2 1-5 ToH 909 891 872 -
+Therianthrope, Lionwere 5 1-5 ToH 910 892 873 -
+Therianthrope, Wolfwere 3 1-5 ToH 911-912 893-894 874-876 -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH 913-914 895-896 877-879 -
+Tick, Giant 1 3-12 ToH 915-916 897-898 880-882 -
+Titan 21 1-2 MM 917 - - -
+Trapper 7 1 ToH 918-919 899-900 883-885 -
+Troglodyte 1 2-5 MM 920-943 901-924 886-908 754-903
+Troglodyte (squad) 25 var 6-11 MM 944-949 925-931 909-917 904-929
+Troll 5 1-4 MM 950-955 932-938 918-926 930-956
+Troll, Cave 5 1-4 ToH 956-957 939-945 927-929 -
+Troll, Rock 6 1-4 ToH 958 946 930 -
+Troll, Two-headed 6 1-4 ToH 959-960 947-948 931-933 -
+Tsathar 2 1-10 ToH 961-962 949-950 934-936 957-967
+Tsathar Scourge 3 1-10 ToH 963-964 951-952 937-939 968-978
+Tsathar Scourge (hunting party) 41 var 2-8 ToH 965-966 953-954 940-942 979-989
+Tunnel Worm 7 1-5 ToH 967-968 955-961 943-951 -
+Turtle, Giant Snapping 9 1-4 ToH - - - 990-000
+Subterranian Hulk 7 1-4 MM 969-970 962-963 952-954 -
+Vampire Spawn 4 1-5 MM 971 964 955 -
+Vegepygmy 1/2 4-9 ToH 972 965 956 -
+Vegepygmy (warband) 6 var 10-24 ToH 973 966 957 -
+Wasp, Giant 3 1-20 MM 974-975 967-968 958-960 -
+Wight 3 1-11 MM 976-981 969-975 961-969 -
+Winter Wolf 5 1-5 MM 982 976 970 -
+Wolf, Shadow 3 1-12 ToH 983-984 977-978 971-973 -
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 985 979 974 -
+Worg 2 1-11 MM 986-991 980-986 975-983 -
+Wraith 5 1-11 MM 992-993 987-988 984-986 -
+Xorn 6 1-5 MM 994-995 989-995 987-995 -
+Snake Men 5 1-4 MM 996 996 996 -
+Snake Men (troupe) 26 var 1-4 MM 997 997 - -
+Zombie 4 var var MM 998-999 998-999 997-999 -
+Zombie, Juju 3 var var ToH 000 000 000 -
+EndTable:
+
+#Underground-Deepearth
+Table: 2-7B
+Aboleth 7 1-4 MM - - - 001-025
+Aboleth (slaver brood) 27 var 2-4 MM - - - 026-035
+Achaierai 5 1-8 MM 001 001 - -
+Aerial Servant 10 1 ToH 002 002 001 -
+Allip 3 1 MM 003 003 - -
+Amphisbaena 4 1-4 ToH 004 004 002 -
+Ankheg 3 1-4 MM 005-006 005-006 - -
+Ant Lion 5 1-4 ToH 007 007 - -
+Ant, Giant, Soldier 2 1-4 MM 008-013 008-013 003-011 -
+Ant, Giant, Worker 1 2-12 MM 014-019 014-019 012-020 -
+Apparition 7 1-4 ToH 020 020 021 -
+Ascomoid 6 1 ToH 021 021-022 022 -
+Assassin Vine 3 1-4 MM 022-023 023-024 023-024 -
+Athach 7 1-12 MM 024-025 025-026 025-026 -
+Barghest 4 1-6 MM 026 027 027 -
+Barrow Worm or DM’s choice 8 1 CC1 027-028 028 - 036-039
+Basidirond 5 1-2 ToH 029-030 029-030 028-029 -
+Basilisk, Common 5 1-6 MM 031-036 031-036 030-038 -
+Basilisk, Greater 7 1-2 ToH 037 037 039 -
+Bat Swarm 1/10 30-50 MM 038-068 038-068 040-072 -
+Bat, Doombat 4 1-8 ToH 069-070 069-070 073-074 -
+Bat, Mobat 3 1-8 ToH 071-072 071-072 075-076 -
+Bear, Brown 2 1-2 MM 073 073 077 -
+Bee, Giant 1/2 1-20 MM 074 074 078 -
+Beetle, Giant: Bombardier 2 2-12 MM 075-080 075-080 079-080 -
+Beetle, Giant: Boring 3 2-12 ToH 081-086 081-086 081-089 -
+Beetle, Giant: Deathwatch 6 1 ToH 087 087-088 090-091 -
+Beetle, Giant: Fire 1/3 2-12 MM 088-093 089-094 092-093 -
+Beetle, Giant: Rhinoceros 6 2-12 ToH 094-095 095-096 094-095 -
+Beetle, Giant: Slicer 4 2-12 ToH 096-097 097-098 096-097 -
+Beetle, Giant: Stag 4 2-12 MM 098 099 098 -
+Behir 8 1-2 MM 099-100 100-101 099-100 -
+Eye Tyrant 13 1-6 MM 101 102 101 -
+Bloody Bones 4 1-5 ToH 102 103 102 -
+Bodak 8 1-4 MM 103 104 103 -
+Bonesnapper 3 1-4 ToH 104 105-106 104-105 -
+Bugbear 2 1-4 MM 105-110 107-112 106-114 -
+Bulette 7 1-2 MM 111-112 113-114 115-116 -
+Carrion Worm 4 1-5 MM 113-118 115-120 117-125 -
+Cave Cricket 1 1-5 ToH 119-120 121-122 126-127 -
+Cave Fisher 2 1-4 ToH 121-122 123-124 128-129 -
+Chimera 7 1-13 MM 123-124 125-126 130-131 -
+Chuul 7 1-5 MM 125-126 127-128 - -
+Clam, Giant 2 1-10 ToH - - - 040-049
+Cloaker 5 1-12 MM 127-128 129-130 132-133 -
+Cockatrice 3 1-13 MM 129-134 131-136 134-142 -
+Coffer Corpse 3 1 ToH 135 137 143 -
+Cooshee 2 1-9 ToH 136 138 144 -
+Corpse Whisperer or DM’s choice 15 var 1 CC2 137 139 145 -
+Crabman 2 2-12 ToH - - - 050-053
+Cray?sh, Monstrous 3 1-5 ToH - - - 054-078
+Crocodile 2 1-11 MM - - - 079-082
+Crocodile, Giant 4 1-11 MM - - - 083-107
+Dark Creeper 2 2-4 ToH 138-139 140-141 146-147 -
+Dark Stalker 4 1 ToH 140 142 148 -
+Darnoc 6 1-4 ToH 141 143 149 -
+Death Dog 2 5-10 ToH 142 144 150 -
+Demiurge 6 1 ToH 143 145 151 -
+Dire Ape 3 1-8 MM 144 146 152 -
+Dire Badger 2 1-5 MM 145 147 153 -
+Dire Bat 2 1-8 MM 146-151 148-153 154-162 -
+Dire Bear 7 1-2 MM 152-153 154-155 163-164 -
+Dire Lion 5 1-10 MM 154-155 156-157 165-166 -
+Dire Monitor or DM’s choice 3 1 CC1 - - - 108-117
+Dire Rat 1/3 1-20 MM 156-186 158-188 167-199 118-142
+Dire Tiger 8 1-2 MM 187-188 189-190 200-201 -
+Dire Weasel 2 1-2 MM 189-190 191-192 202-203 -
+Dire Wolf 3 1-8 MM 191-192 193-194 204-205 -
+Dire Wolverine 4 1-2 MM 193-194 195-196 206-207 -
+Displacer Cat 4 1-10 MM 195-196 197-198 208-209 -
+Doppleganger 3 1-6 MM 197 199 210 -
+Dracolisk, Black 7 1-6 ToH 198 200 211 -
+Dracolisk, Blue 7 1-6 ToH 199 201 212 -
+Dracolisk, Green 7 1-6 ToH 200 202 213 -
+Dracolisk, Red 7 1-6 ToH 201 203 214 -
+Dracolisk, White 7 1-6 ToH 202 204 215 -
+Dragon, Black 8 var 1 MM 203-204 205 - -
+Dragon, Blue 8 var 1 MM 205-206 206 - -
+Dragon, Brass 8 var 1 MM 207-212 207 - -
+Dragon, Bronze 8 var 1 MM 213-214 208 - 143-152
+Dragon, Copper 8 var 1 MM 215-216 209 - -
+Dragon, Gold 8 var 1 MM 217 - - -
+Dragon, Green 8 var 1 MM 218-219 210 - -
+Dragon, Mist 8 var 1-5 ToH - - - 153-156
+Dragon, Red 8 var 1 MM 220-221 211 - -
+Dragon, Silver 8 var 1 MM 222 - - -
+Dragon, White 8 var 1 MM 223-228 212 - -
+Dragonne 7 1-10 MM 229 213 216 -
+Draug 4 1 ToH - - - 157-160
+Eel, Electric 2 1-2 ToH - - - 161-164
+Elemental, Earth 29 var 1-4 MM 230-231 214-215 217-218 -
+Elemental, Fire 29 var 1-4 MM 232-233 216-217 219-220 -
+Elemental, Water 29 var 1-4 MM - - - 165-168
+Ettercap 30 var 1-2 MM 234-239 218-223 221-229 -
+Ettin 5 1-4 MM 240-241 224-225 230-231 -
+False Spider, Pedipalp 1 1-5 ToH - 226 232 -
+False Spider, Solifugid 3 1-5 ToH - 227 233 -
+Fatling or DM’s choice 5 1 CC1 242 228 234 -
+Feral or DM’s choice 12 var 1-15 CC1 243 229 235 -
+Fire Lizard 8 1-2 ToH 244 230 236 -
+Fire Snake 1 1-5 ToH 245 231 237 -
+Flail Snail 3 1 ToH 246 232 238 -
+Flumph 1 1-16 ToH 247 233 239-240 -
+Fly, Giant 2 1-12 ToH 248 234 241 -
+Frost Man 2 1 ToH 249 235 242 -
+Fungus, Shrieker 1 1-5 MM 250-255 236-241 243-251 -
+Fungus, Violet 3 1-4 MM 256-257 242-243 252-253 -
+Gargoyle 4 1-16 MM 258-263 244-249 254-262 -
+Gargoyle, Green Guardian 4 1-16 ToH 264 250 263 169-172
+Gargoyle, Margoyle 5 1-2 ToH 265-270 251-256 264-265 -
+Gargoyle, Margoyle (wing) 37 var 1-2 ToH 271-272 257-258 266 -
+Ghast 3 1-4 MM 273-278 259-264 267-275 -
+Ghast (pack) 31 var 2-4 MM 279-284 265-270 276-284 -
+Ghoul 1 1-12 MM 285-315 271-301 285-318 -
+Ghoul, Lacedon 1 1-12 MM - - - 173-182
+Ghoul-Stirge 2 1-8 ToH 316 302 319 -
+Giant, Cloud 11 1-4 MM 317-318 - - -
+Giant, Fire 10 1-5 MM 319-324 303-304 - -
+Giant, Fire (hunting party) 32 var 6-9 MM 325-330 305-306 - -
+Giant, Frost 9 1-5 MM 331-332 307 - -
+Giant, Frost (hunting party) 33 var 6-9 MM 333-334 308-309 - -
+Giant, Hill 7 1-5 MM 335-365 310-341 320-321 -
+Giant, Hill (hunting party) 34 var 6-9 MM 366-397 342-373 - -
+Giant, Stone 8 1-5 MM 398-403 374-379 322-323 -
+Giant, Stone (hunting party) 35 var 6-9 MM 404-409 380-381 - -
+Gnoll 1 1-5 MM 410-411 382-383 324-325 -
+Gnoll, Flind 1 1-5 ToH 412-413 384-385 326-327 -
+Gnoll, Flind (mob) 36 var 2-5 ToH 414-415 386-387 328-329 -
+Goblin 1/4 4-9 MM 416-446 388-418 330-362 -
+Goblin (warband) 17 var 10-24 MM 447-452 419-424 - -
+Gorgimera 8 1-2 ToH 453 425 363 -
+Gorgon 8 1-13 MM 454-455 426-427 364-365 -
+Gray Render 8 1 MM 456-457 428-429 366-367 -
+Groaning Spirit 7 1 ToH 458 430 368 -
+Hag (covey) 18 var 3 MM 459 431 369 183-186
+Hag, Annis 6 1 MM 460 432 370-371 -
+Hag, Cavern or DM’s choice 5 1-2 CC1 461 433-434 372-373 -
+Hag, Moon or DM’s choice 13 1-2 CC1 462 435 374 -
+Hag, Sea 4 1 MM - - - 187-190
+Harpy 4 1-12 MM 463 436 - -
+Haunt 4 1 ToH 464 437 375 -
+Hell Hound 3 1-12 MM 465 438 376 191-194
+Hell Moth 6 1-6 ToH 466 439 377 -
+Hobgoblin 1/2 4-9 MM 467-497 440-471 378-410 -
+Hobgoblin (warband) 1/2 10-24 MM 498-503 472-477 411-412 -
+Homunculus 1 1 MM 504 478 413 -
+Huecuva 3 1-10 ToH 505 479 414 -
+Hydra 1 var 1 MM 506-511 480-481 - -
+Inphidian 3 1-5 ToH 512 482 415 -
+Invisible Stalker 7 1 MM 513 483 416 -
+Kampfult 2 1 ToH 514 484 417 -
+Kelp Devil 8 1 ToH - - - 195-204
+Kelpie 4 1-4 ToH - - - 205-208
+Kobold 1/6 4-9 MM 515-516 485-490 418-426 -
+Fishman (patrol) 20 var 2-4 MM 517-522 491-496 427-428 209-233
+Fishman (squad) 20 var 6-11 MM 523-528 497-502 429-430 234-258
+Lamia 6 1-4 MM 529 503 431 -
+Lammasu 8 1 MM 530 504 432 -
+Lard Worm or DM’s choice 1/4 1-200 CC1 - 505 433 -
+Leech, Giant 2 2-15 ToH - - - 259-283
+Lurker Above 7 1 ToH 531-536 506-511 434-442 -
+Manticore 5 1-6 MM 537-542 512-517 443-444 -
+Medusa 7 1-4 MM 543-544 518-519 445-446 -
+Mimic 4 1 MM 545-546 520-521 447-448 -
+Brain Devourer 8 1-5 MM 547-552 522-523 449-450 -
+Minotaur 4 1-4 MM 553-554 524-525 451-459 -
+Mongrelman 1 1-5 ToH 555 526 460 -
+Monstrous Centipede 2 var var MM 556-586 527-558 461-494 -
+Monstrous Frog, Abyssal Dire 5 1-2 ToH 587 559 495 284-287
+Monstrous Frog, Dire 4 1-2 ToH 588-593 560-565 496-504 288-312
+Monstrous Frog, Giant 2 1-2 ToH 594 566 505 313-322
+Monstrous Frog, Killer 1 2-18 ToH 595 567 506 323-332
+Monstrous Frog, Poisonous 1 2-18 ToH 596 568 507 333-336
+Monstrous Scorpion 2 var var MM 597-627 569-600 508-541 -
+Monstrous Spider 2 var var MM 628-658 601-632 542-575 -
+Mudman 1 1-12 ToH - - 576 337-346
+Mummy 3 1-10 MM 659 633 577 -
+Naga, Guardian 10 1-4 MM 660 634 578 -
+Naga, Spirit 9 1-4 MM 661-662 635-636 579-580 -
+Naga, Water 7 1-4 MM 663-664 637-638 581-582 347-371
+Night Hag 9 1 or 3 MM 665 639 583 -
+Nightshade, Nightcrawler 18 1-2 MM 666 640 584 -
+Nightshade, Nightwalker 16 1-4 MM 667 641 - -
+Nightshade, Nightwing 14 1-6 MM 668 - - -
+Nilbog 2 4-20 ToH - 642 585 -
+Ogre 2 1-8 MM 669-699 643-674 586-619 372-499
+Ogre Mage 22 var 1-2 MM 700-701 675-676 620-621 -
+Ogre, Half-Ogre 1 1-8 ToH 702-703 677-678 622-623 -
+Ogre, Ogrillon 1 1-5 ToH 704-705 679-680 624-625 -
+Ogre, Ogrillon (warband) 40 var 3-8 ToH 706-707 681-682 626-627 -
+Ooze, Black Pudding 7 1 MM 708-713 683-688 628-636 500-524
+Ooze, Brown Pudding 7 1 ToH 714 689-690 637-638 525-549
+Ooze, Gelatinous Cube 3 1 MM 715-720 691-696 - -
+Ooze, Gray Ooze 4 1 MM 721-726 697-702 639-647 550-574
+Ooze, Magma 7 1 ToH 727-728 703-704 648-649 -
+Ooze, Mercury 4 1 ToH 729 705-706 650-651 -
+Ooze, Mustard Jelly 7 1 ToH 730 707-708 652-653 575-584
+Ooze, Ochre Jelly 5 1 MM 731-736 709-714 654-662 585-609
+Ooze, Undead or DM’s choice 4 1 CC1 737 715 663 -
+Ooze, Vampiric 8 1 ToH 738 716 664-665 610-619
+Ooze, White Pudding 10 1 ToH 739 717-718 666-667 -
+Orc 1/2 2-4 MM 740-770 719-749 668-700 -
+Orc (squad) 21 var 11-20 MM 771-802 750-781 701-733 -
+Orog 1 1-4 ToH 803-804 782-783 734-735 -
+Orog (squad) 21 var 11-20 ToH 805-806 784-785 736-737 -
+Otyugh 4 1-4 MM 807-812 786-791 738-746 -
+Pech 3 2-20 ToH 813 792-793 747-748 -
+Phase Spider 5 1-5 MM 814-815 794-795 749-750 -
+Piercer 1/6 5-20 ToH 816-821 796-801 751-759 -
+Praying Mantis, Giant 2 1 MM 822-823 802-803 760 -
+Pyrolisk 4 1-12 ToH 824-825 804-805 761-762 -
+Quipper 1/4 5-100 ToH - - - 620-644
+Rat Swarm 1/8 20-100 MM 826-831 806-811 763-771 -
+Rat, Brain 1 2-12 ToH 832 812-813 772-773 -
+Rat, Ethereal 2 6-11 ToH 833 814 774 -
+Rat, Shadow 1 6-20 ToH 834 815-816 775-776 -
+Rat, Shadow Dire 3 1-12 ToH 835 817-818 777-778 -
+Roper 10 1-6 MM 836-837 819-824 779-780 -
+Rust Monster 3 1-2 MM 838-839 825-826 781-782 -
+Salamander 2 1-5 MM 840-841 827-828 783-784 -
+Salamander, Flamebrother 5 1-5 MM 842 829 785 -
+Salamander, Noble 9 1-14 MM 843 830 786 -
+Sandling 2 1 ToH 844 831 787 -
+Sandman 3 1-4 ToH 845 832 788 -
+Shadow 3 1-11 MM 846-851 833-838 789-797 -
+Shambling Mound 6 1 MM 852-853 839-840 798-799 -
+Shark, Huge 4 1-11 MM - - - 645-654
+Shark, Large 2 1-11 MM - - - 655-679
+Shark, Medium 1 1-11 MM - - - 680-704
+Shocker Lizard 2 1-11 MM - - - 705-714
+Skeleton 5 var var MM 854-859 841-846 800-808 -
+Slime Crawler 1 1-20 ToH 860 847-848 809-817 -
+Slime Reaver (patrol) or DM’s choice 14 var 5-8 CC2 - - - 715-718
+Slime Reaver (cluster) or DM’s choice 1 3-6 CC2 - - - 719-722
+Slithering Tracker 4 1 ToH 861-862 849-850 818-819 -
+Slug, Giant 6 1 ToH 863-868 851-856 820-821 723-747
+Snake, Adder, Night 1/2 1 ToH 869-870 857-858 822-823 -
+Snake, Cobra, Water 1 1 ToH - - - 748-751
+Snake, Cobra, Yellow 1 1 ToH 871-876 859-864 824-832 -
+Snake, Viper, Pit 1 1 ToH 877-882 865-870 833-841 -
+Spectre 7 1-11 MM 883-884 871-872 842-843 -
+Spider, Scarlet 1/4 8-40 ToH 885-886 873-874 844-845 -
+Spider-eye Goblin (raiders) or DM’s choice 11 var 3-18 CC1 887 875 846 -
+Spriggan 4 1-12 ToH 888 876 847 -
+Squid, Giant 9 1 MM - - - 752-761
+Stegocentipede 4 1 ToH 889-890 877-878 848-849 -
+Stench Toad or DM’s choice 2 1-4 CC2 891 879 850 762-771
+Stirge 1/2 2-13 MM 892-897 880-885 851-859 -
+Strangle Weed 3 1-4 ToH - - 860 -
+Tenebrous Worm 8 1 ToH 898 886 861 -
+Tentamort 4 1-5 ToH - - - 772-781
+Therianthrope, Jackalwere 2 1-5 ToH 899 887 862 -
+Therianthrope, Lionwere 5 1-5 ToH 900 888 863 -
+Therianthrope, Wolfwere 3 1-5 ToH 901-902 889-890 864-865 -
+Therianthrope, Wolfwere (troop) 42 var 1-5 ToH 903-904 891-892 866-867 -
+Tick, Giant 1 3-12 ToH 905-906 893-894 868-869 -
+Titan 21 1-2 MM 907 - -
+Trapper 7 1 ToH 908-909 895-896 870-871 -
+Troglodyte 1 2-5 MM 910-940 897-927 872-904 782-916
+Troglodyte (squad) 25 var 6-11 MM 941-946 928-933 905-913 917-941
+Troll 5 1-4 MM 947-952 934-939 914-922 942-966
+Troll, Cave 5 1-4 ToH 953-954 940-945 923-931 -
+Troll, Rock 6 1-4 ToH 955-956 946-951 932-940 -
+Troll, Two-headed 6 1-4 ToH 957-958 952-953 941-942 -
+Tsathar 2 1-10 ToH 959 954 943 967-970
+Tsathar Scourge 3 1-10 ToH 960-961 955-956 944-945 971-980
+Tsathar Scourge (hunting party) 41 var 2-8 ToH 962-963 957-958 946-947 981-990
+Tunnel Worm 7 1-5 ToH 964-965 959-964 948-956 -
+Turtle, Giant Snapping 9 1-4 ToH - - - 991-000
+Subterranian Hulk 7 1-4 MM 966-967 965-966 957-958 -
+Vampire Spawn 4 1-5 MM 968 967-968 959-960 -
+Vegepygmy 1/2 4-9 ToH 969 969 961 -
+Vegepygmy (warband) 6 var 10-24 ToH 970 970 962 -
+Wasp, Giant 3 1-20 MM 971-972 971-972 963-964 -
+Wight 3 1-11 MM 973-978 973-978 965-973 -
+Winter Wolf 5 1-5 MM 979 979 974 -
+Wolf, Shadow 3 1-12 ToH 980 980 975 -
+Wolf-Spider, Giant or DM’s choice 3 1-20 CC1 981 981 976 -
+Worg 2 1-11 MM 982-987 982-987 977-985 -
+Wraith 5 1-11 MM 988-989 988-989 986-987 -
+Xorn 6 1-5 MM 990-995 990-995 988-996 -
+Snake Men 5 1-4 MM 996 996 997 -
+Snake Men (troupe) 26 var 1-4 MM 997 997 - -
+Zombie 4 var var MM 998-999 998-999 998-999 -
+Zombie, Juju 3 var var ToH 000 000 000 -
+EndTable:

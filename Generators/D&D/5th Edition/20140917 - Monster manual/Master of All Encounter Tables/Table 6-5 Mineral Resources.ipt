@@ -1,0 +1,36 @@
+; Table 6-5 Mineral Resources.ipt
+; created 10/30/2018 7:58:12 AM
+
+Use:Generators\D&D\Equipment\Magic Item Tables\Treasure Hoards.ipt
+
+Header:
+
+
+
+Table: Mineral Resources
+1: Adamantite (Armor: Crit Immune, Weapons: Hardedge-siege +1die damage on crit)
+11: Copper
+6: Gold
+13: Iron
+12: Lead
+1: Mithril
+1: [@Other mineral]
+1: Platinum
+14: Silver
+12: Tin
+12: [@10gp Gems] 
+4: [@50gp Gems] 
+3: [@100gp Gems] 
+2: [@500gp Gems] 
+00: [@1000gp Gems] 
+EndTable:
+
+Table: Other minerals
+Boonstone
+Jade
+Oricalcum
+Sanguine
+Spidersilk
+Stradium
+Tristone
+Endtable:
