@@ -1,0 +1,5 @@
+use: nbos\names\Human.ipt
+
+Table: Human Name
+[@MasterHumanName]
+

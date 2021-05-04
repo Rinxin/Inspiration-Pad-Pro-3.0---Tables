@@ -1,0 +1,235 @@
+; Magic Item List  G.ipt
+; Uncommon Magic Items
+; created 9/19/2019 10:02:57 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List G
+Adamantine Armor
+Alchemy Jug
+Ammunition, +1
+Amulet of Proof against Detection and Location
+Amulet of the Drunkard
+Amulet of the Frog
+Augmier's Homemade Buckshot Cannon
+Augmier's Orb of Armament
+Bag of Bounty
+Bag of Holding
+Bag of Tricks, [|Grey|Rust|Tan]
+Balance of Harmony
+Balloon Pack
+Bear of Resting
+Beauty Sleep Mask
+Blade of the Empire
+Blade of the Northern Tribe
+Bladestaff
+Blood Spear
+Boomerang, +1
+Boots of Blasting 
+Boots of Elvenkind
+Boots of Striding and Springing
+Boots of the Fiendish Deceiver
+Boots of the Winterlands
+Bracers of Archery
+Brineheart's Favorite Coat
+Brooch of Living Essence
+Brooch of Shielding
+Broom of Flying
+Cap of Water Breathing
+Charm of the Eye
+Chop
+Circlet of Blasting
+Circlet of Human Perfection
+Cloak of Elvenkind
+Cloak of Protection
+Cloak of the Manta Ray
+Coin of Draconic Luck
+Coinbox of Holding
+Comb of Vanity
+Cornucopeia of the Harvest
+Craek's Jumping Stick
+Crossbow Cannon
+Crown of the Forest
+Crystalline Crusher
+Cursed Luckstone
+Deathbane Shield
+Decanter of Endless Water
+Deck of Illusions
+Diplomat's Pouch
+Doss Lute (Instrument of the Bards)
+Downfall
+Dragon Satchel
+Dragon's Greed
+Driftglobe
+Earring of Whisper
+Earworm
+Efficient Quiver
+Elder Cartographer’s Glossography
+Elemental Gem, [|Blue Sapphire|Yellow Diamond|Red Corundum|Emerald]
+Eversmoking Bottle
+Extract of Acid
+Extract of Cold
+Extract of Fire
+Extract of Lightning
+Extract of Poison
+Eyes of Charming
+Eyes of Minute Seeing
+Eyes of the Eagle
+Finder’s Goggles
+Fochlucan Bandore (Instrument of the Bards)
+Gapcloser 2000
+Gauntlets of Ogre Power
+Gloves of Missile Snaring
+Gloves of Swimming and Climbing
+Gloves of Thievery
+G'nehr's Ceremonial Censer
+Goggles of Night
+Goggles of Object Reading
+Greataxe of the Hills
+Grinder of Many Spices
+Guild Signet
+Hand of the Five Fingered Viscount
+Hat of Disguise
+Headband of Intellect
+Hellfire Weapon
+Helm of Comprehending Languages
+Helm of Telepathy
+Helm of Underwater Action
+Hew
+Ikrian Gloves
+Immovable Rod
+Inawanic Shortbow
+Infernal Puzzle Box
+Inquisitive’s Goggles
+Insignia of Claws
+Iron Curtain
+Ironwood Sapling
+Jade Xiphos
+Jakkin's Trick Pony
+Javelin of Lightning
+Keighton's Chimes
+Keoghtom's Ointment
+Lantern of Revealing
+Lightbringer
+Living Gloves
+Lunar Scimitar
+Mac-Fuirmidh Cittern (Instrument of the Bards)
+Map Beacons
+Mariner's Armor
+Mask of the Beast
+Medallion of Thoughts
+Mind Carapace Armor
+Mithral Armor
+Mizzium Apparatus
+Moonscraper
+Necklace of Adaptation
+Necklace of Many Hands
+Night Caller
+Nightliner
+Orb of the Dryad
+Orc Stone
+Pamsprei's Blinding Chalkbow
+Pamsprei's Peephole
+Paper Bird
+Pearl of Power
+Periapt of Health
+Periapt of Wound Closure
+Pipes of Haunting
+Pipes of the Sewers
+Piwafwi (Cloak of Elvenkind)
+Plate of the Protector
+Plucky Gloves
+Poison-Root Gauntlets
+Port-a-Boulder
+Propeller Helm
+Psi Crystal
+Purifying Waterskin
+Pyroconverger
+Quill of Lies
+Quiver of Ehlonna
+Quiver of the Forest
+Rebounding Flail
+Reynier's Amulet of Radiance
+Reynier's Cold Light
+Reynier's Miniature Raincloud
+Ring of Jumping
+Ring of Mind Shielding
+Ring of Obscuring
+Ring of Rapid Regeneration
+Ring of Swimming
+Ring of Truth Telling
+Ring of Warmth
+Ring of Water Walking
+Rings of Shared Suffering
+Robe of Serpents
+Robe of Useful Items
+Rod of Retribution
+Rod of the Pact Keeper, +1
+Rope of Climbing
+Ruby Evertorch
+Saddle of the Cavalier
+Sahaguin Stimulant
+Sanctified Gilded Skull
+Seafarer's Map Table
+Seeker Dart
+Sending Stone
+Sending Stones
+Sentinel Shield
+Shattering Flail
+Shatterspike
+Shield of the Roc
+Shield, +1
+Shooting Shot Bag
+Silver Raven (Figurine of Wondrous Power)
+Skyblinder Staff
+Sling of Piercing
+Slippers of Spider Climbing
+Smokepowder
+Socks of Finding
+Soul Coin
+Spell Gem (Lapis Lazuli)
+Spell Gem (Obsidian)
+Spies’ Murmur
+Spymaster's Cloak
+Staff of the Adder
+Staff of the Python
+Stage of the Mime
+Stone of Good Luck (Luckstone)
+Stone of Ill Luck
+Storm Boomerang
+Sword of Vengeance
+Talisman of the Satyr
+Thundering Chime
+Tightrope Treads
+Tiny Duck Crown
+Token of the Sea Speaker
+Totem of Tongues
+Travel Alchemical Kit
+Trident of Fish Command
+Twin Hook Swords
+Twin Serpent Staff
+Uncommon Glamerweave
+Vial of Thundering Orbs
+Wand of Mending
+Wand of the War Mage, +1
+Waterwalkers
+Wayfinder
+Weapon of Warning
+Weapon, +1
+Wheel of Wind and Water
+Whistle of the Wind
+Willow's Whisper
+Winged Boots
+Wingwear
+Winter’s Dark Bite
+Yklwa, +1
+EndTable:

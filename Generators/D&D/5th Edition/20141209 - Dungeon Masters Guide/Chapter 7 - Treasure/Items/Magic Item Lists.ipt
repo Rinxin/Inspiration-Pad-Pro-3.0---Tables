@@ -1,0 +1,628 @@
+; Common Treasure.ipt
+; created 5/29/2018 12:42:55 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Armor Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+#Minor-Consumables Common
+Table:Magic Item List A 
+Beef Jerky of Healing (4)
+Buzzkill Honey
+Carriagefruit
+Cheese Ye-Ari
+Dapplewater
+Joker's Dice
+Labyrinth Twine
+Nowhere Cape
+Oat Token
+Potion of Climbing
+Pumpkin Powder
+Skein of Water
+Spell Scroll ([@Level-0])
+Spell Scroll ([@Level-1])
+Torrent Jar
+Urkmurk
+EndTable:
+
+#Minor-Consumables Uncommon
+Table:Magic Item List B
+Beef Jerky of Greater Healing (4)
+Ammunition +1
+DoorJam Potion
+Dust of Disappearance
+Dust of Dryness
+Dust of Sneezing and Choking
+Keoghtom's Ointment
+Oil of Slipperiness
+Philter of Love
+Potion of Animal Friendship
+Potion of Fire Breath
+Potion of Giant Strength (Hill Giant)
+Potion of Growth
+Potion of Resistance [@Damage_Type]
+Smarmalade Potion
+Spell Scroll ([@Level-2])
+Spell Scroll ([@Level-3])
+EndTable:
+
+#Minor-Consumables Rare
+Table:Magic Item List C
+Ammunition +2
+Beef Jerky of Superior Healing (4)
+Elixir of Health
+Oil of Etherealness
+Pallo Aldo Sauce Potion
+Poition of Mind Reading
+Potion of Clairvoyance
+Potion of Diminution
+Potion of Gaseous Form
+Potion of Giant Strength (Fire Giant)
+Potion of Giant Strength (Frost Giant)
+Potion of Giant Strength (Stone Giant)
+Potion of Heroism
+Potion of Invulnerability
+Spell Scroll ([@Level-4])
+Spell Scroll ([@Level-5])
+EndTable:
+
+#Minor-Consumables Very Rare
+Table:Magic Item List D
+Beef Jerky of Supreme Healing (4)
+Ammuniton +3
+Arrow of Slaying
+Funiest Joke in the Realm Scroll
+Oil of Sharpness
+Pickled Pixie Potion
+Potion of Flying
+Potion of Giant Strength (Cloud Giant)
+Potion of Invisibility
+Potion of Longevity
+Potion of Speed
+Potion of Vitality
+Spell Scroll ([@Level-6])
+Spell Scroll ([@Level-7])
+Spell Scroll ([@Level-8])
+EndTable:
+
+#Minor-Consumables Legendary
+Table:Magic Item List E
+Potion of Giant Strength(Storm Giant)
+Sovereign Glue
+Spell Scroll ([@Level-9])
+Universal Solvent
+EndTable:
+
+#Minor Common
+Table:Magic Item List F
+Adder Tongue
+Agonus Figure
+Alchemic Sprout
+Arcane Putty
+Armor of Gleaming ()
+Baleen Needle
+Bead of Nourishment
+Bead of Refreshment
+Beetle Clock
+Bertha's Treads
+Boots of False Tracks
+Candle of the Deep
+Cast-off Armor ()
+Charlatan's Die
+Clamberling
+Cloak of Billowing
+Cloak of Many Fashions
+Clockwork Amulet
+Clothes of Mending
+Coral Anklet
+Dark Shard Amulet
+Dimstone
+Door Wood
+Dread Helm
+Drum Lumin
+Ear Horn of Hearing
+Earrings of Volk
+Eil Pendant
+Elytra Wings
+Enduring Spellbook
+Equinox Jewel
+Ersatz Eye
+Factorin Beads
+Fjeld Belt
+Flat-Book
+Frailty Crystal
+Gearpack
+Gel Flask
+Geode Antares
+Gill Choker
+Gonish Gyro-Focus
+Hat of Vermin
+Hat of Wizardry
+Heartseaker
+Heward's Handy Spice Pouch
+Hilltop Hat
+Horn of Silent Alarm
+Hound's Herb
+Hullwood
+Ibis Carving
+Ice Cap
+Iena's Notes
+Imptail Rope
+Instrument of Illusions
+Instrument of Scribing
+Jailor's Key
+Jasmine Locket
+Jinxed Stone
+Kelpie Eye
+Kingsknife
+Knotwire
+Korin Spoon
+Lamia Fang
+Laurel Pack
+Lock of Trickery
+Lyre of Rain
+Manits Lens
+marbles of Play
+Mars' Ring
+Mimic Mirror
+Moon-touched Sword
+Mystery Key
+Nap Cap
+Night's Tale
+Nupital Ring
+Occult slippers
+Orb of Direction
+Orb of Time
+Org Orangutan
+Ornament Box
+Paints of Sonis
+Pastry Lithis
+Perfume of Bewitching
+Pipe of Smoke Monsters
+Pole of Angling
+Pole of Collapsing
+Pot of Awakening
+Putty Vivis
+Quaint Blanket
+Questingman
+Quill of Lyne
+Quilted Bag
+Raisin Deciever
+Readyclasp
+Regal Circlet
+Ring of the Linguist
+Roaring Horn
+Rope of Mending
+Ruby of the War Mage
+Saltwater Coin
+Saturn's Ring
+Scented Dagger
+Shield of Expression
+Smoldering Armor
+Staff of Adornment
+Staff of Birdcalls
+Staff of Flowers
+Tadpole Mummy
+Talking Doll
+Tankard of Sobriety
+Torchlight Fork
+Tyrant Ace
+Umber Pages
+Umbra Goggles
+Unbreakable {}
+Urn of Ashes
+Veil of visions
+Velvet Stockings
+Veteran's Cane
+Vharen's Iron
+Visage pyris
+Walloping Ammunition {}
+Wand of Pyrotechnics
+Wand of Scowls
+Wand of Smiles
+Warbling Chime
+Weatherskin
+Weaver's Wand
+Wildrune Globe
+Xander's Ash
+Xenolith Boots
+Yellowspice
+Yew Greenling
+Yorescript
+Zealot's Spoon
+Zoro's Cape
+EndTable:
+
+#Minor Uncommon
+Table:Magic Item List G
+Hand of the Five Fingered Viscount
+Jakkin's Trick Pony
+Keighton's Chimes
+Lip Stickers
+Alchemy Jug
+Bag of Holding
+Cap of Water Breathing
+Cloak of the Manta Ray
+Decanter of Endless Water
+Driftglobe
+Elemental Gem
+Eyes of Minute Seeing
+Goggles of Night
+Helm of Conprehending Languages
+Immovable Rod
+Lantern of Revealing
+Mariner's Armor
+Periapt of Health
+Ring of Swimming
+Robe of Useful items
+Rope of ClimbingSaddle of the Cavalier
+Satchel of Unmet Needs
+Sending Stones
+Wand of Magic Detection
+Wand of Secrets
+The Boot Camp
+Plucky Gloves
+EndTable:
+
+#Minor Rare
+Table:Magic Item List H
+Stargazer
+Thorn Walkers
+Valkyr's Winged Headband
+Way Darts
+Rosewood
+Mirrogold
+Bag of Colding
+Bag of Golding
+Bag of Beans
+Bead of Force
+Chime of Opening
+Folding Boat
+Heward's Handy Haversack
+Horseshoes of Speed
+Necklace of Fireballs
+Portable Hole
+Quaal's Feather Token
+Scroll of Protection
+Bloom Mic
+EndTable:
+
+#Minor Very Rare
+Table:Magic Item List I
+Pilfer's Passe-Partout
+Book of Kel'eld
+Bag of Devouring
+Horseshoes of a Zephyr
+Nolzur's Marvelous Pigments
+EndTable:
+
+#Major Uncommon
+Table:Magic Item List J
+Adamantine Armor {}
+Amulet of Proof against Detection and Location
+Bag of Tricks
+Boots of Elvenkind
+Boots of Striding and Springing
+Boots of the Winterlands
+Bracers of Archery
+Brooch of Shielding
+Broom of Flying
+Circlet of Blasting
+Cloak of Elvenkind
+Cloak of Protection
+Deck of Illusions
+Eversmoking Bottle
+Eyes of Charming
+Eyes of the Eagle
+Figurine of Wondrous Power (raven)
+Gauntlets of Ogre Power
+Gem of Brightness
+Gloves of Missile Snaring
+Gloves of Swimming and Climbing
+Gloves of Thievery
+Hat of Disguise
+Headband of Intellect
+Helm of Telepathy
+Instrument of the Bard (Doss Lute)
+Instrument of the Bard (Fochlucan Bandore)
+Instrument of the Bard (Mac-Fuirmidh cittern)
+Javelin of Lightning
+Medallion of Thoughts
+Necklace of Adaptation
+Pearl of Power
+Periapt of Wound Closure
+Pipes of Haunting
+Pipes of the Sewers
+Quiver of Ehlonna
+Ring of Jumping
+Ring of Mind Shielding
+Ring of Warmth
+Ring of Water Walking
+Rod of the Pactkeeper +1
+Sentinel Shield
+Shield +1
+Slippers of Spider Climbing
+Staff of the Adder
+Staff of the Python
+Stone of Good Luck (luckstone)
+Sword of Vengeance
+Trident of Fish Command
+Wand of Magic Missile
+Wand of the War Mage +1
+Wand of Web
+Weapon +1 ()
+Weapon of Warning ()
+Wing Fan
+Winged Boots
+Mostly Immovable Rod
+EndTable:
+
+#Major Rare
+Table:Magic Item List K
+Comet's Tail
+Amulet of Health
+Armor +1
+Armor of Resistance
+Armor of Vulnerability
+Arrow-catching shield
+Belt of Dwarvenkind
+Belt of Giant Strength (Hill Giant)
+Berserker Axe
+Boots of Levitation
+Boots of Speed
+Bowl of Commanding Water Elementals
+Brazier of Commanding Fire Elementals
+Cape of the Mountebank
+Censer of Controlling Air Elementals
+Cloak of Displacement
+Cloak of the Bat
+Cube of Force
+Daern's Instant Fortress
+Dagger of Venom
+Dimensional Shackles
+Dragon Slayer
+Elven Chain
+Figurine of Wondrous Power (bronze horse)
+Figurine of Wondrous Power (ebony fly)
+Figurine of Wondrous Power (golden lions)
+Figurine of Wondrous Power (ivory goats)
+Figurine of Wondrous Power (marble elephant)
+Figurine of Wondrous Power (serpentine owl)
+Flame Tongue
+Gem of Seeing
+Giant Slayer
+Glamoured studded leather
+Helm of teleportation
+Horn of blasting
+Horn of Valhalla (silver)
+Horn of Valhalla (Brass)
+Instrument of the bard (Carnaith Mandolin)
+Instrument of the bard (Cli lyre)
+Ioun Stone (awareness)
+Ioun Stone (protection)
+Ioun Stone (reserve)
+Ioun Stone (sustenance)
+Iron bands of Bilarro
+Mace of Disruption
+Mace of Smiting
+Mace of Terror
+Mantle of Spell resistance
+Necklace of prayer beads
+Periapt of proof against poison
+Ring of animal influence
+Ring of Evasion
+Ring of Feather falling
+Ring of Free Action
+Ring of Protection
+Ring of resistance
+Ring of Spell Storing
+Ring of the Ram
+Ring of X-Ray Vision
+Robe of Eyes
+Rod of Rulership
+Rod of the pact keeper, +2
+Rope of entanglement
+Shield +2
+Shield of missile attraction
+Staff of charming
+Staff of healing
+Staff of swarming insects
+Staff of the woodlands
+Staff of withering
+Stone of Controlling earth elementals
+Sun blade
+Sword of life stealing
+Sword of wounding
+Tentacle rod
+Vicious weapon
+Wand of binding
+Wand of enemy detection
+Wand of fear
+Wand of fireballs
+Wand of lightning bolts
+Wand of paralysis
+Wand of the war mage +2
+Wand of wonder
+Wings of Flying
+EndTable:
+
+#Major Very Rare
+Table:Magic Item List L
+Frog Plate
+Messaging Stones
+Holy Moiety
+Dawnplate
+Bramblehart
+Amulet of the planes
+Animated shield
+Armor +2
+Belt of Giant Strength (Fire Giant)
+Belt of Giant Strength (Frost Giant)
+Belt of Giant Strength (Stone Giant)
+Candle of Incocation
+Carpet of Flying
+Cloak of Arachnida
+Crystal Ball (very rare)
+Dancing Sword
+Demon Armor
+Dragon Scale Mail [Color]
+Dwarven plate
+Dwarven Thrower
+Efreeti Bottle
+Figurine of Wondrous Power (obsidian steed)
+Frost Brand
+Helm of Brilliance
+Horn of Valhalla (bronze)
+Instrument of the Bard (Anstruth harp)
+Ioun Stone(absorption)
+Ioun Stone(agility)
+Ioun Stone(fortitude)
+Ioun Stone(insight)
+Ioun Stone(intellect)
+Ioun Stone(leadership)
+Ioun Stone(strength)
+Manual of Bodily Health
+Manual of gainful exercise
+Manual of golems
+Manual of quickness of action
+Mirror of life trapping
+Nine lives stealer
+Oathbow
+Ring of regeneration
+Ring of Shooting Stars
+Ring of Telekinesis
+Robe of Scintillation colors
+Robe of Stars
+Rod of Absorption
+Rod of Alertness
+Rod of Security
+Rod of the pactkeeper +3
+Scimitar of Speed
+Shield +3
+Spellguard Shield
+Staff of Fire
+Staff of Frost
+Staff of Power
+Staff of Striking
+Staff of Thunder and Lightning
+Sword of sharpness
+Tome of clear thought
+Tome of leadership and influence
+Tome of understanding
+Wand of polymorph
+Wand of the war mage +3
+Weapon +3
+EndTable:
+
+#Major Legendary
+Table:Magic Item List M
+Apparatus of Kwalish
+Armor +3
+Armor of Invulnerability
+Belt of Giant Strength (Cloud Giant)
+Belt of Giant Strength (Storm Giant)
+Cloak of Invisibility
+Crystal Ball (legendary)
+Cubic Gate
+Deck of many things
+Defender
+Efeeti chain
+Hammer of thunderbolts
+Holy avenger
+Horn of Valhalla (iron)
+Instrument of the bard (ollamh harp)
+Ioun Stone (greater absorption)
+Ioun Stone (mastery)
+Ioun Stone (regeneration)
+Iron Flask
+Luck Blade
+Emerald Mox
+Jet Mox
+Pearl Mox
+Ruby Mox
+Sapphire Mox
+Plate Armor of etherealness
+Ring of Djinni summoning
+Ring of Elemental Command
+Ring of Invisibility
+Ring of Spell Turning
+Ring of Three Wishes
+Robe of the Archmagi
+Rod of Lordly Might
+Rod of Resurrection
+Scarab of protection
+Sphere of Annihilation
+Staff of the magi
+Sword of answering
+Talisman of pure good
+Talisman of ultimate evil
+Tome of the stilled tongue
+Vorpal Sword
+Well of many worlds
+[@Artifacts]
+EndTable:
+
+
+Table: Artifacts
+The Codex Terranosis
+Rezur of the Mind
+Karn the Bonebreaker
+Guarded Fate Walkers
+Axe of the Dwarvish Lords
+Bad Omen
+Book of Exalted Deeds
+Book of Vile Darkness
+Eye of Vecna
+Hand of Vecna
+Orb of Dragonkind([@Damage Types])
+Sword of Kas
+Bad Omen (Anathema ShadowBinder)
+Bookmark
+The Codex Furinstruma
+The Codex Terranosis
+Drown
+Ironfang
+Lost Crown of Besilmer
+Orcsplitter
+Ring of Winter
+Staff of the Forgotten One
+Tinderstrike
+Windvane
+Agony
+Armor of the Valiant Soul
+Cabal's Ruin
+Circlet of Barbed Vision
+Condemner
+Deathwalker's Ward
+Fenthiras
+Honor's Last Stand
+Kiss of the Chaingebringer
+Mythcarver
+Plate of the Dawnmartyr
+Pyremaul
+Spire of Conflux
+Titanstone Knuckles
+Whisper
+Wraps of Dyamak
+Arcturus - Sword of the Stars
+Deneb - The Sword of Dreams
+Gemini - The Sword of Truth
+Narada - The Sword of Darkness
+Orion - The Master Sword
+Rigel - The Sword of Fate
+Scorpius - The Sword of Lies
+Uriel - The Sword of the Dawn
+The Demon Sword - Lostvayne
+Divine Axe - Rhitta
+Holy Rod - Courechouse
+Morning Star - Aldan
+Spirit Spear - Chastiefol
+Twin Bow - Herritt
+War Hammer - Gideon
+The Illuminated Blade
+Thistlewept
+The Wayfinder
+Well of Souls
+EndTable:
+

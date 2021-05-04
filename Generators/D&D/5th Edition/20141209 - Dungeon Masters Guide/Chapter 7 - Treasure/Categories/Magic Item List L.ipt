@@ -1,0 +1,21 @@
+; Magic Item List  L.ipt
+; created 9/19/2019 10:03:20 PM
+
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List K.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List M.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List L
+Roll:1d100
+1-99:[@Magic Item List K]
+100:[Magic Item List M]
+Endtable:

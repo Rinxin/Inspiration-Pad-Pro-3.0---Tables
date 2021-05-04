@@ -1,0 +1,72 @@
+; Magic Item List  D.ipt
+; Very Rare Consumables
+; created 9/19/2019 10:02:39 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List D
+Absorbing Tattoo (UA)
+Arrow of Slaying ([|Aberration|Beast|Celestial|Construct|Dragon|Elemental|Fey|Fiend|Giant|Humanoid|Monstrosity|Ooze|Plant|Undead])
+Banshee Arrow
+Barrier Tattoo (UA)
+Black Widow
+Bond of the Red Queen
+Bottle of Sudden Dusk
+Death Adder
+Deathstalker
+Desert Rose
+Devastation Orb, Air
+Devastation Orb, Earth
+Devastation Orb, Fire
+Devastation Orb, Water
+Diamondback
+Dispelling Stone
+Enchanter's Nightshade
+Funniest Joke in the Realm
+Gila Monster
+Goblet of the Crimson Lady
+Gold Sand Scorpion
+Kudu
+Manablock Arrow
+Manual of Bodily Health
+Manual of Gainful Exercise
+Manual of Quickness of Action
+Marvelous Pigments
+Oil of Sharpness
+Phoenix Arrow
+Pickled Pixie
+Pilfer's Passe-Partout
+Potion of Flying
+Potion of Giant Strength, Cloud
+Potion of Invisibility
+Potion of Longevity
+Potion of Mind Control, Beast
+Potion of Mind Control, Humanoid
+Potion of Mind Control, Monster
+Potion of Possibility
+Potion of Speed
+Potion of Supreme Healing
+Potion of Vitality
+Rattlesnake
+Redback Spider
+Sand Star
+Scepter of the Blue Nebula
+Shadowfell Brand Tattoo (UA)
+Sling Bullets of Althemone
+Spell Scroll, Level 6 Spell
+Spell Scroll, Level 7 Spell
+Spell Scroll, Level 8 Spell
+Tome of Clear Thought
+Tome of Leadership and Influence
+Tome of Understanding
+Wand of Polymorph
+EndTable:

@@ -1,0 +1,6 @@
+use: nbos/names/skrat.ipt
+
+Header: A name generator for a race of muskrat-men
+
+Table: SkratName
+[@MasterSkratName >> Proper]

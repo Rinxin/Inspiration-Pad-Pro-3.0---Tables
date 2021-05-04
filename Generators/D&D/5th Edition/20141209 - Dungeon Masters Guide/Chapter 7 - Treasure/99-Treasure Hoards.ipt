@@ -1,0 +1,135 @@
+; Treasure Hoards.ipt
+; created 10/23/2018 9:29:03 PM
+
+Use: Common\DMG\Tables\Magic Item Tables.ipt
+Use: Common\DMG\Gemstones.ipt
+Use: Common\DMG\Art Objects.ipt
+
+prompt: Party Avg Lvl {00-04|05-10|11-16|17} 00-04
+
+Table:Main
+<u>Treasure</u>\n[@Treasure_Hoard_{$prompt1}]\n <u>Coins</u>\n [When]{$prompt1}=00-04[do][#1 Treasure_Hoard_Coins][end][When]{$prompt1}=05-10[do][#2 Treasure_Hoard_Coins][end][when]{$prompt1}=11-16[do][#3 Treasure_Hoard_Coins][end][when]{$prompt1}=17[do][#4 Treasure_Hoard_Coins][end]
+EndTable:
+
+Table:Treasure_Hoard_Coins
+1: <font color=copper>{6d6*100}cp</font>, <font color=silver>{3d6*100}sp</font>, <font color=gold>{2d6*10}gp</font>
+2: <font color=copper>{2d6*100}cp</font>, <font color=silver>{2d6*1000}sp</font>, <font color=gold>{6d6*100}gp</font>, <font color=platiunum>{3d6*10}pp</font>
+3: <font color=gold>{4d6*1000}gp</font>, <font color=platinum>{5d6*100}pp</font>
+4: <font color=gold>{12d6*1000}gp</font>, <font color=platinum>{8d6*1000}pp</font>
+EndTable:
+
+Table:Treasure_Hoard_00-04
+01-06: \z
+07-16: [@{2d6} 10gp Gems >> Implode]
+17-26: [@{2d4} 25gp Art >> Implode]
+27-36: [@{2d6} 50gp Gems >> Implode]
+37-44: [@{2d6} 10gp Gems >> Implode], \n\n [@{1d6} Magic Item Table A >> Implode]
+45-52: [@{3d6} 25gp Art >> Implode],\n\n [@{1d6} Magic Item Table A >> Implode]
+53-60: [@{2d6} 50gp Gems >> Implode],\n\n [@{1d6} Magic Item Table A >> Implode]
+61-65: [@{2d6} 10gp Gems >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+66-70: [@{2d4} 25gp Art >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+71-75: [@{2d6} 50gp Gems >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+76-78: [@{2d6} 10gp Gems >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+79-80: [@{2d4} 25gp Art >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+81-85: [@{2d6} 50gp Gems >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+86-92: [@{2d4} 25gp Art >> Implode],\n\n [@{1d4} Magic Item Table F >> Implode]
+93-97: [@{2d6} 50gp Gems >> Implode],\n\n [@{1d4} Magic Item Table F >> Implode]
+98-99: [@{2d4} 25gp Art >> Implode],\n\n [@Magic Item Table G]
+100: [@{2d6} 50gp Gems >> Implode],\n\n [@Magic Item Table G]
+EndTable:
+
+Table:Treasure_Hoard_05-10
+01–04: \z
+05–10:	[@{2d4} 25gp Art >> Implode]
+11–16:	[@{3d6} 50gp Gem >> Implode]
+17–22:	[@{3d6} 100gp Gems >> Implode]
+23–28:	[@{2d4} 25gp Art >> Implode]
+29–32:	[@{2d4} 25gp Art >> Implode],\n\n [@{1d6} Magic Item Table A >> Implode]
+33–36:	[@{3d6} 50gp Gems >> Implode],\n\n [@{1d6} Magic Item Table A >> Implode]
+37–40:	[@{3d6} 100gp Gems >> Implode],\n\n [@{1d6} Magic Item Table A >> Implode]
+41–44:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d6} Magic Item Table A >> Implode]
+45–49:	[@{2d4} 25gp Art >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+50–54:	[@{3d6} 50gp Gems >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+55–59:	[@{3d6} 100gp Gems >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+60–63:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d4} Magic Item Table B >> Implode]
+64–66:	[@{2d4} 25gp Art >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+67–69:	[@{3d6} 50gp Gems >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+70–72:	[@{3d6} 100gp Gems >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+73–74:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d4} Magic Item Table C >> Implode]
+75–76:	[@{2d4} 25gp Art >> Implode],\n\n [@Magic Item Table D >> Implode]
+77–78:	[@{3d6} 50gp Gems >> Implode],\n\n [@Magic Item Table D >> Implode]
+79:	[@{3d6} 100gp Gems >> Implode],\n\n [@Magic Item Table D >> Implode]
+80:	[@{2d4} 250gp Art >> Implode],\n\n [@Magic Item Table D >> Implode]
+81–84:	[@{2d4} 25gp Art >> Implode],\n\n [@{1d4} Magic Item Table F >> Implode]
+85–88:	[@{3d6} 50gp Gems >> Implode],\n\n [@{1d4} Magic Item Table F >> Implode]
+89–91:	[@{3d6} 100gp Gems >> Implode],\n\n [@{1d4} Magic Item Table F >> Implode]
+92–94:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d4} Magic Item Table F >> Implode]
+95–96:	[@{3d6} 100gp Gems >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+97–98:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d6} Magic Item Table G >> Implode]
+99:	[@{3d6} 100gp Gems >> Implode],\n\n [@Magic Item Table H >> Implode]
+100:	[@{2d4} 250gp Art >> Implode],\n\n [@Magic Item Table H >> Implode]
+EndTable:
+
+Table:Treasure_Hoard_11-16
+01–03: \z	–	–
+04–06:	[@{2d4} 250gp Art >> Implode]
+07–10:	[@{2d4} 750gp Art >> Implode]
+11–12:	[@{3d6} 500gp Gems >> Implode]
+13–15:	[@{3d6} 1000gp Gems >> Implode]
+16–19:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d4} Magic Item Table A >> Implode],\n\n [@{1d6} Magic Item Table B >> Implode]
+20–23:	[@{2d4} 750gp Art >> Implode],\n\n [@{1d4} Magic Item Table A >> Implode],\n\n [@{1d6} Magic Item Table B >> Implode]
+24–26:	[@{3d6} 500gp Gems >> Implode],\n\n [@{1d4} Magic Item Table A >> Implode],\n\n [@{1d6} Magic Item Table B >> Implode]
+27–29:	[@{3d6} 1000gp Gems >> Implode],\n\n [@{1d4} Magic Item Table A >> Implode],\n\n [@{1d6} Magic Item Table B >> Implode]
+30–35:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d6} Magic Item Table C >> Implode]
+36–40:	[@{2d4} 750gp Art >> Implode],\n\n [@{1d6} Magic Item Table C >> Implode]
+41–45:	[@{3d6} 500gp Gems >> Implode],\n\n [@{1d6} Magic Item Table C >> Implode]
+46–50:	[@{3d6} 1000gp Gems >> Implode],\n\n [@{1d6} Magic Item Table C >> Implode]
+51–54:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d4} Magic Item Table D >> Implode]
+55–58:	[@{2d4} 750gp Art >> Implode],\n\n [@{1d4} Magic Item Table D >> Implode]
+59–62:	[@{3d6} 500gp Gems >> Implode],\n\n [@{1d4} Magic Item Table D >> Implode]
+63–66:	[@{3d6} 1000gp Gems >> Implode],\n\n [@{1d4} Magic Item Table D >> Implode]
+67–68:	[@{2d4} 250gp Art >> Implode],\n\n [@Magic Item Table E >> Implode]
+69–70:	[@{2d4} 750gp Art >> Implode],\n\n [@Magic Item Table E >> Implode]
+71–72:	[@{3d6} 500gp Gems >> Implode],\n\n [@Magic Item Table E >> Implode]
+73–74:	[@{3d6} 1000gp Gems >> Implode],\n\n [@Magic Item Table E >> Implode]
+75–76:	[@{2d4} 250gp Art >> Implode],\n\n [@Magic Item Table F >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+77–78:	[@{2d4} 750gp Art >> Implode],\n\n [@Magic Item Table F >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+79–80:	[@{3d6} 500gp Gems >> Implode],\n\n [@Magic Item Table F >> Implode] and ,\n\n [@{1d4} Magic Item Table G >> Implode]
+81–82:	[@{3d6} 1000gp Gems >> Implode],\n\n [@Magic Item Table F >> Implode] and ,\n\n [@{1d4} Magic Item Table G >> Implode]
+83–85:	[@{2d4} 250gp Art >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+86–88:	[@{2d4} 750gp Art >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+89–90:	[@{3d6} 500gp Gems >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+91–92:	[@{3d6} 1000gp Gems >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+93–94:	[@{2d4} 250gp Art >> Implode],\n\n [@Magic Item Table I >> Implode]
+95–96:	[@{3d6} 500gp Gems >> Implode],\n\n [@Magic Item Table I >> Implode]
+97–98:	[@{3d6} 1000gp Gems >> Implode],\n\n [@Magic Item Table I >> Implode]
+99–00:	[@{3d6} 1000gp Gems >> Implode],\n\n [@Magic Item Table I >> Implode]
+EndTable:
+
+Table:Treasure_Hoard_17
+01–02: \z	–	–
+03–05:	[@{3d6} 1000gp gems >> Implode],\n\n [@{1d8} Magic Item Table C >> Implode]
+06–08:	[@{1d10} 2500gp art >> Implode],\n\n [@{1d8} Magic Item Table C >> Implode]
+09–11:	[@{1d4} 7500gp art >> Implode],\n\n [@{1d8} Magic Item Table C >> Implode]
+12–14:	[@{1d8} 5000gp gems >> Implode],\n\n [@{1d8} Magic Item Table C >> Implode]
+15–22:	[@{3d6} 1000gp gems >> Implode],\n\n [@{1d6} Magic Item Table D >> Implode]
+23–30:	[@{1dl0} 2500gp art >> Implode],\n\n [@{1d6} Magic Item Table D >> Implode]
+31–38:	[@{1d4} 7500gp art >> Implode],\n\n [@{1d6} Magic Item Table D >> Implode]
+39–46:	[@{1d8} 5000gp gems >> Implode],\n\n [@{1d6} Magic Item Table D >> Implode]
+47–52:	[@{3d6} 1000gp gems >> Implode],\n\n [@{1d6} Magic Item Table E >> Implode]
+53–58:	[@{1d10} 2500gp art >> Implode],\n\n [@{1d6} Magic Item Table E >> Implode]
+59–63:	[@{1d4} 7500gp art >> Implode],\n\n [@{1d6} Magic Item Table E >> Implode]
+64–68:	[@{1d8} 5000gp gems >> Implode],\n\n [@{1d6} Magic Item Table E >> Implode]
+69:	[@{3d6} 1000gp gems >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+70:	[@{1d10} 2500gp art >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+71:	[@{1d4} 7500gp art >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+72:	[@{1d8} 5000gp gems >> Implode],\n\n [@{1d4} Magic Item Table G >> Implode]
+73–74:	[@{3d6} 1000gp gems >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+75–76:	[@{ld10} 2500gp art >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+77–78:	[@{1d4} 7500gp art >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+79–80:	[@{1d8} 5000gp gems >> Implode],\n\n [@{1d4} Magic Item Table H >> Implode]
+81–85:	[@{3d6} 1000gp gems >> Implode],\n\n [@{1d4} Magic Item Table I >> Implode]
+86–90:	[@{1d10} 2500gp art >> Implode],\n\n [@{1d4} Magic Item Table I >> Implode]
+91–95:	[@{ld4} 7500gp art >> Implode],\n\n [@ Magic Item Table F >> Implode],\n\n [@ {1d4} Magic Item Table G >> Implode]
+96–100:	[@{1d8} 5000gp gems >> Implode],\n\n [@{1d4} Magic Item Table I >> Implode]
+EndTable:

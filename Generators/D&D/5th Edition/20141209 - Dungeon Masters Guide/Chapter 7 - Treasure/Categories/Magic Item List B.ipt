@@ -1,0 +1,103 @@
+; Magic Item List  B.ipt
+; Uncommon Consumables
+; created 9/19/2019 10:02:26 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List B
+Band of Brothers
+Barrier Tattoo (UA)
+Beads of Many Flavors
+Big Game Hunter's Arrow
+Blackout Candle
+Blackroot
+Blood Blanket
+Blood of the Lycanthrope Antidote
+Blue Curls
+Bola Arrow
+Bond of Battle
+Bottled Breath
+Bowman's Plant
+Butterfly Weed
+Carpenter's Herb
+Clustered Woodlover
+Cobwebs
+Coiling Grasp Tattoo (UA)
+Culversphysic
+Curlycup
+Door Jam
+Dust of Deliciousness
+Dust of Disappearance
+Dust of Dryness
+Dust of Sneezing and Choking
+Eldritch Claw Tattoo (UA)
+Eyes of the Blind
+Flashfire Glypherine
+Fluxweed
+Frostnova Glypherine
+Gem of Brightness
+Goodberry Sapling
+Gumweed
+Heal-All
+Injection Arrow
+John's Wort
+Jojoba
+Kindlespark Wand
+Knight's Friend
+L'Arcana #23
+Lip Stickers
+Mummy Rot Antidote
+Oil of Slipperiness
+Philter of Love
+Pignut
+Potion of Animal Friendship
+Potion of Enhance Ability
+Potion of Fire Breath
+Potion of Giant Strength, Hill
+Potion of Greater Healing
+Potion of Growth
+Potion of Poison
+Potion of Resistance
+Potion of Water Breathing
+Restorative Ointment
+Runechalk - Alabaster White
+Runechalk - Bright Yellow
+Runechalk - Charming Pink
+Runechalk - Cloudy Grey
+Runechalk - Flame Red
+Runechalk - Midnight Black
+Runechalk - Navy Blue
+Runechalk - Royal Purple
+Runechalk - Sky Blue
+Runechalk - Vine Green
+Runechalk - Warm Orange
+Self-Help
+Smarmalade
+Spell Scroll, Level 2 Spell
+Spell Scroll, Level 3 Spell
+Spellwrought Tattoo([@SpellsLevel2]) (UA)
+Spellwrought Tattoo([@SpellsLevel3]) (UA)
+Sphagnum Moss
+Spikes of Alarm
+Stalker's Dart
+Sulphur Tuft
+Tangleseed Arrow
+Thessaltoxin Antidote
+Wand of Entangle
+Wand of Magic Detection
+Wand of Magic Missiles
+Wand of Secrets
+Wand of Web
+Wild Hazel
+Wind Fan
+Windroot
+EndTable:

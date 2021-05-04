@@ -1,0 +1,41 @@
+; Individual Treasure.ipt
+; created 10/2/2020 1:47:58 PM
+
+Prompt: CR {0-4|5-10|11-16|17-20|}
+
+Table: Individual Treasure Main
+[@Individual Treasure: Challenge {$prompt1}]
+EndTable:
+
+Table: Individual Treasure: Challenge 0-4
+Roll:1d100
+1-30: {5d6}cp
+31-60: {4d6}sp
+61-70: {3d6}ep
+71-95: {3d6}gp
+96-100: {1d6}pp
+EndTable:
+
+Table: Individual Treasure: Challenge 5-10
+Roll:1d100
+1-30: {4d6*100}cp, {1d6*10}ep
+31-60: {6d6*10}sp, {2d6*10}gp
+61-70: {3d6*10}ep, {2d6*10}gp
+71-95: {4d6*10}gp
+96-100: {2d6*10}gp, {3d6}pp
+EndTable:
+
+Table: Individual Treasure: Challenge 11-16
+Roll:1d100
+1-20: {4d6*100}sp, {1d6*100}gp
+21-35: {1d6*100}ep, {1d6*100}gp
+36-75: {2d6*100}gp, {1d6*10}pp
+76-100: {2d6*100}gp, {2d6*10}pp
+EndTable:
+
+Table: Individual Treasure: Challenge 17-20
+Roll:1d100
+1-15: {2d6*1000}ep, {8d6*100}gp 
+16-55: {1d6*1000)gp, {1d6*100}pp
+56-100: {1d6*1000}gp, {2d6*100}pp
+EndTable:

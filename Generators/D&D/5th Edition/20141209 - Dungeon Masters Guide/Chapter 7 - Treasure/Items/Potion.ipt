@@ -1,0 +1,57 @@
+
+
+
+Table: Common_Potion
+Potion of Climbing ""
+Potion of Healing ""
+EndTable:
+
+Table: Uncommon_Potion
+Bottled Breath ""
+Oil of Slipperiness ""
+Philter of Love ""
+Potion of Animal Friendship ""
+Potion of Fire Breath ""
+Potion of Greater Healing ""
+Potion of Growth ""
+Potion of Hill Giant Strength ""
+Potion of Poison ""
+Potion of Resistance ""
+Potion of Water Breathing ""
+EndTable:
+
+Table: Rare_Potion
+Elixir of Health ""
+Oil of Etherealness ""
+Potion of Clairvoyance ""
+Potion of Diminution ""
+Potion of Fire Giant Strength ""
+Potion of Frost Giant Strength ""
+Potion of Gaseous Form ""
+Potion of Heroism ""
+Potion of Invulnerability ""
+Potion of Mind Reading ""
+Potion of Stone Giant Strength ""
+Potion of Superior Healing ""
+EndTable:
+
+Table: Very_Rare_Potion
+Oil of Sharpness ""
+Potion of Cloud Giant Strength ""
+Potion of Flying ""
+Potion of Invisiblity ""
+Potion of Longevity ""
+Potion of Speed ""
+Potion of Supreme Healing ""
+Potion of Vitality ""
+EndTable:
+
+Table: Legendary_Potion
+Potion of Storm Giant Strength ""
+Potion of Giant Size ""
+[@Artifact/Unique_Potion]
+EndTable:
+
+Table: Artifact/Unique_Potion
+\z
+EndTable:

@@ -1,0 +1,38 @@
+
+
+
+Table: Common_Staff
+Staff of Adornment
+Staff of Birdcalls
+Staff of Flowers
+EndTable:
+
+Table: Uncommon_Staff
+Staff of the Adder
+Staff of the Python
+EndTable:
+
+Table: Rare_Staff
+Staff of Charming
+Staff of Healing
+Staff of Swarming Insects
+Staff of the Woodlands
+Staff of Withering
+EndTable:
+
+Table: Very_Rare_Staff
+Staff of Fire
+Staff of Frost
+Staff of Power
+Staff of Striking
+Staff of Thunder and Lightning
+EndTable:
+
+Table: Legendary_Staff
+Staff of the Magi
+[@Artifact/Unique_Staff]
+EndTable:
+
+Table: Artifact/Unique_Staff
+Spire of Conflux ([|Normal|Awakened|Exalted])
+EndTable:

@@ -1,0 +1,48 @@
+
+
+
+Table: Common_Ring
+\z
+EndTable:
+
+Table: Uncommon_Ring
+Ring of Jumping
+Ring of Mind Shielding
+Ring of Swimming
+Ring of Warmth
+Ring of Waterwalking
+EndTable:
+
+Table: Rare_Ring
+Ring of Animal Influence
+Ring of Evasion
+Ring of Feather Falling
+Ring of Free Action
+Ring of Protection
+Ring of Resistance
+Ring of Spell Storing
+Ring of the Ram
+Ring of X-Ray Vision
+EndTable:
+
+Table: Very_Rare_Ring
+Ring of Regeneration
+Ring of Shooting Stars
+Ring of Telekinesis
+EndTable:
+
+Table: Legendary_Ring
+Ring of Air Elemental Command
+Ring of Djinni Summoning
+Ring of Earth Elemental Command
+Ring of Fire Elemental Command
+Ring of Invisibility
+Ring of Spell Turning
+Ring of Three Wishes
+Ring of Water Elemental Command
+[@Artifact/Unique_Ring]
+EndTable:
+
+Table: Artifact/Unique_Ring
+\z
+EndTable:

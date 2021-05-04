@@ -1,0 +1,309 @@
+; Rare Treasure.ipt
+; created 5/29/2018 2:34:22 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Armor Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+Table:Common_Armor
+EndTable:
+
+Table:Common_Potion
+EndTable:
+
+Table:Common_Ring
+EndTable:
+
+Table:Common_Rod
+EndTable:
+
+Table:Common_Scoll
+EndTable:
+
+Table:Common_Staff
+EndTable:
+
+Table:Common_Wand
+EndTable:
+
+Table:Common_Weapon
+EndTable:
+
+Table:Common_Wondrous Item
+EndTable:
+
+Table: Rare Treasure
+[@Random Weapon] of Disruption
+[@Random Weapon] of Smiting
+[@Random Weapon] of Terror
+{1d20}x Ammunition, +2 ([|Arrow|Bolts|sling bullets])
+{1d4 + 4} Beads of Force
+@Quaal's Feather Token
+\a [@Gems] jeweled anklet
+1d4 + 4 Beads of Force
+4th Level Spell Scroll ([@Level-4])
+5th Level Spell Scroll ([@Level-5])
+A necklace string of small pink pearls
+A Study of Orcs, by Darius Woodherd
+Adamant Leaf
+Alexandrite Emerald
+Amulet of Health
+Ancient Temple Replica
+Animated Pet Rock
+Animated Toy Soldier
+Aphrodisiac Root
+Aquamarine
+Arbalest
+Architect's Underwear of Confidence
+Armor of [@Damage Type-Elemental] Resistance ([@Random Armor])
+Armor of Barbarian Rage
+Armor of Vulnerability ([@Random Armor])
+Armor, +1 ([@Random Armor])
+Arrow-catching Shield
+Arval's Soundpiece
+Backpack of Effortlessness
+Bad Coin
+Bag of Angel Feathers
+Bag of Ash
+Bag of Beans ([{3d4} Beans])
+Bag of Tricks, Rust
+Bag of Tricks, Tan
+Ballistic Fist Hammer
+Banshee Spirit Dagger
+Bead of Force
+Belt of Baby Fire Giant Strength
+Belt of Dwarvenkind
+Belt of Hill Giant Strength
+Berserker Axe
+Bioluminescent Fluid Lantern
+Black Opal
+Black Pearl
+Blacksalt’s Luckmaker
+Bleeding Rock
+Blindfold of Reading
+Blindfold of Trap Awareness
+Blood Scabbard
+Blue Sapphire Ring
+Blue Spinel Ring
+Bolt of Chaos
+Bone Crushing Mace
+Bone Stylus
+Booming Scepter
+Boots of Feral Leaping
+Boots of Levitation
+Boots of Speed
+Bottle
+Bottle of Giant's Urine
+Bottle Stopper
+Bowl of Commanding Water Elementals
+Bracers of Defense
+Brazier of Commanding Fire Elementals
+Buckler of Friendship
+Bullet Bag
+Canary Diamond
+Cape of Mountebank
+Carlin's Courageous Chickens
+Ceremonial Dagger
+Chime of Opening
+Cinder Glove
+Circlet of Inconsolable Weeping
+Cloak of Displacement
+Cloak of the Bat
+Coiling Rope (50 feet)
+Collapsible Rod
+Countdown Cutlass
+Cowardly Blade
+Crate of Chaos Mushrooms
+Crescent Armor Spikes
+Crystal Prism
+Cube of Force
+Cursed Tarot Cards
+Daern's Instant Fortress
+Dagger of Bleeding
+Dagger of Venom
+Dehydrated Minotaur Helm
+Digiridoom
+Dimensional Shackles
+Dowsing Compass
+Dowsing Rod
+Dragon Comb Set
+Dragon Scale Tombe
+Dragon Slayer ([@Random Melee])
+Dreaming Nightfeather
+Elixir of Health
+Elixir of Madness
+Elven Chain ([|Chainshirt|Chain mail]}
+Embroidered glove set with [@Gems] chips
+Embroidered Gloves
+Embroidered silk and velvet mantle set with numerous [@Gems]
+Emerald
+Extra-Dimensional Flask
+Eye Patch
+Eye patch with a mock eye set in [@Gems] and [@Gems]
+Figurine of Wondrous Power (Bronze Griffon)
+Figurine of Wondrous Power (Ebony Fly)
+Figurine of Wondrous Power (Golden Lion)
+Figurine of Wondrous Power (Ivory Goats)
+Figurine of Wondrous Power (Marble Elephants)
+Figurine of Wondrous Power (Onyx Dog)
+Figurine of Wondrous Power (Serpintine Owl)
+Filligins Uncontrollable Flame
+Filthy Bucket
+Fine gold chain set with \a [@Gems]
+Fire Blanket
+Fire Opal
+Fire Opal Chain
+Flail of Flagellation
+Flame Tongue ([@Random Weapon])
+Folding Boat
+Frostbite Lilly
+Gauntlets
+Gem of Seeing
+Giant Slayer ([@Random Weapon])
+Giant Temple Candles
+Girdle of Femininity/Masculinity
+Glamoured [@Light Armor]
+Gold Circlet
+Gold circlet with four [@Gems]
+Gold Idol
+Gold music box
+Gold Plated Idols
+Grog of Substantial Whimsy
+Hammer of Thunderous Power
+Harp
+Headband of Enslavement
+Headdress of the Dawn Dancer
+Helm of Confusion
+Helm of Teleportation
+Helm of Unsurvivable Knowledge
+Heward's Handy Haversack
+Hollow Glass Sphere
+Horn of Blasting
+Horn of Valhalla (Brass)
+Horn of Valhalla (Silver)
+Horseshoes of Speed
+Hyperstone
+Instruments of the Bards (Canaith Mandolin)
+Instruments of the Bards (Cli Lyre)
+Ioun Stone (Awareness)
+Ioun Stone (Protection)
+Ioun Stone (Reserve)
+Ioun Stone (Sustenance)
+Iron Bands of Bilarro
+Javelin of Explosions
+Jeweled Anklet
+Jeweled Anklet
+Lost Diamond
+Magmatic Elixir
+Magnetic Grappling Hook
+Malluf's Not-Quite-Full, Not-Quite-Empty Quiver
+Mantle of Spell Resistance
+Mantle Set
+Masterpiece Painting
+Mongrel Collar
+Music Box
+Necklace of Fireballs
+Necklace of Prayer Beads
+Necromancer's Saddle
+Nightmare Pipeweed
+Obsidian Statuette
+Oil of Etherealness
+Old masterpiece painting
+Olivewood Staff
+Opal
+Ornate Longsword
+Outdated Book of Prophecies
+Pearl Necklace
+Periapt of Proof Against Poison
+Peridot Gemstone
+Philter of Blave
+Platinum Bracelet
+Platinum bracelet set with \a [@Gems]
+Portable Hole
+Potion of Clairvoyance
+Potion of Diminution
+Potion of Fire Giant Strength
+Potion of Frost Giant Strength
+Potion of Gaseous Form
+Potion of Heroism
+Potion of Invulnerability
+Potion of Mind Reading
+Potion of Stone Giant Strength
+Potion of Superior Healing
+Pouch of Healing Potions
+Prism of Paranoia
+Rafting Cloak
+Ring of [@Damage Type-Elemental] Resistance
+Ring of Animal Influence
+Ring of Contrariness
+Ring of Evasion
+Ring of Feather Falling
+Ring of Free Action
+Ring of Protection
+Ring of Spell Storing
+Ring of the Ram
+Ring of X-ray Vision
+Robe of Eyes
+Rod of Rulership
+Rod of Rulership
+Rod of the Pact Keeper, +2
+Rope of Entanglement
+Scroll of Protection
+Shield of Bashing
+Shield of Missle Attraction
+Shield, +2
+Silver and Gold Brooch
+Silver Chalice
+Silver Platter of Feathers
+Staff of Charming
+Staff of Healing
+Staff of Swarming Insects
+Staff of the Woodlands
+Staff of Withering
+Star of Morning's Glory
+Star Ruby
+Star Sapphire
+Stone of Controlling Earth Elemental
+Stones of Ruin
+Sun Blade ([@Random Weapon])
+Sun Gem
+Sword of Bleeding
+Sword of Life Stealing ([@Random Weapon])
+Sword of Wounding ([@Random Weapon])
+Telescoping Glaive
+Tentacle Rod
+The Clegane Bowl
+The Iron Thorn
+Tome of Alchemy
+Topaz
+Uncut Diamond
+Vicious Weapon ([@Random Weapon])
+Wand of [@Random Spell]
+Wand of Arcane Errata
+Wand of Binding
+Wand of Enemy Detection
+Wand of Fear
+Wand of Fireballs
+Wand of Lightning Bolts
+Wand of Paralysis
+Wand of Prestidigitation
+Wand of the War Mage, +2
+Wand of Wonder
+War Mask
+Weapon, +2 ([@Random Weapon])
+Wellwizard's Teacups
+Whispering Bauble
+Wings of Flying
+[@Gems]
+EndTable:
+
+Table: Gems
+Alexandrite
+Aquamarine
+Black Pearl
+Blue Spinel
+Peridot
+Topaz
+Yellow Sapphire
+EndTable:

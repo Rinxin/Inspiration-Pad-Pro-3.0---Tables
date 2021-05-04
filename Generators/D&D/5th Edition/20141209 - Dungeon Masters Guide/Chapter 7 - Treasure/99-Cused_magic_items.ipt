@@ -1,0 +1,23 @@
+; Cused_magic_items.ipt
+; created 8/5/2018 7:20:18 PM
+
+Table:cursed_magic_items
+Roll:1d20
+1-2:Bag of Devouring
+3-4:Censer of Hostile [@elemental_type] Elementals 
+5-6:Cloak of Poison
+7-8:Crystal Ball of Sugesstion
+9-10:Dancing Boots
+11-12:Flask of Stoppered Cursed
+13-14:Horn of Collapse
+15-16:Medallion of Projecting Thoughts
+17-18:Mirror of Opposition
+19-20:Robe of Feeblemindedness
+EndTable:
+
+Table:elemental_type
+Air
+Earth
+Fire
+Water
+EndTable:

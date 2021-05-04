@@ -1,0 +1,263 @@
+; Homebrew Treasure Hoard.ipt
+; created 10/2/2020 2:01:03 PM
+
+Header: Buying Magic Items, costs 100gp and 1 week min. +1 for every additonal ammount spent to search for item(s).
+
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Gems and Art\Gemstones.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Gems and Art\Art Objects.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List A.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List B.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List C.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List D.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List E.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List F.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List G.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List H.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List I.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List J.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List K.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List L.ipt
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List M.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+prompt: CR {0-4|5-10|11-16|17-20} 0-4
+prompt: Buying Magic Item Roll {} 0 
+prompt: Type {Hoard|Buying} Hoard
+
+Table: Homebrew Treasure Hoard Main
+[When]{prompt3}=Hoard[do][@Homebrew Treasure Hoard][else][@{$prompt2+10} Buying Magic Items][end]
+EndTable:
+
+Table:Homebrew Treasure Hoard
+[#{$prompt1} Homebrew Treasure Hoard: Coins] &
+\n [@Homebrew Treasure Hoard: Challenge {$prompt1}]
+EndTable: 
+
+Table: Buying Magic Items
+Type: Lookup
+Roll: 1d100
+1-5: [@{1d6} Magic Item Table A]
+6-10: [@{1d4} Magic Item Table B]
+11-15: [@{1d4} Magic Item Table C]
+16-20: [@{1d4} Magic Item Table D]
+21-25: [@{1d4} Magic Item Table E]
+26-30: [@{1d4} Magic Item Table F]
+31-35: [@{1d4} Magic Item Table G]
+36-40: [@{1d4} Magic Item Table H]
+40-100: [@{1d4} Magic Item Table I]
+EndTable:
+
+Table: Homebrew Treasure Hoard: Coins
+type: dictionary
+0-4: {6d6*100}cp, {3d6*100}sp, {2d6*10}gp
+5-10: {2d6*100}cp, {2d6*1000}sp, {6d6*100}gp, {3d6*10}pp
+11-16: {4d6*1000}gp, {5d6*100}pp
+17-20: {12d6*1000}gp, {8d6*1000}pp
+EndTable:
+
+
+Table: Homebrew Treasure Hoard: Challenge 0-4
+Type: Lookup
+Roll:1d100
+01–06:	\z
+07–16:	[@{2d6} Gemstones Main with CR >> implode]
+17–26:	[@{2d4} 25gp Art Objects >> implode]
+27–36:	[@{2d6} Gemstones Main with CR >> implode]
+37–44:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table A >> implode]
+45–52:	[@{2d4} 25gp Art Objects >> implode]\n\n       	[@{1d6} Magic Item Table A >> implode]
+53–60:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table A >> implode]
+61–65:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table B >> implode]
+66–70:	[@{2d4} 25gp Art Objects >> implode]\n\n       	[@{1d4} Magic Item Table B >> implode]
+71–75:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table B >> implode]
+76–78:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table C >> implode]
+79–80:	[@{2d4} 25gp Art Objects >> implode]\n\n       	[@{1d4} Magic Item Table C >> implode]
+81–85:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table C >> implode]
+86–92:	[@{2d4} 25gp Art Objects >> implode]\n\n       	[@{1d4} Magic Item Table F >> implode]
+93–97:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table F >> implode]
+98–99:	[@{2d4} 25gp Art Objects >> implode]\n\n       	[@Magic Item Table G]
+100:	[@{2d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table G]
+EndTable:
+
+Table: Homebrew Treasure Hoard: Challenge 5-10
+Type: Lookup
+Roll:1d100
+01–04:	\z
+05–10:	[@{2d4} 25gp Art Objects >> implode]
+11–16:	[@{3d6} Gemstones Main with CR >> implode]
+17–22:	[@{3d6} Gemstones Main with CR >> implode]
+23–28:	[@{2d4} 250gp Art Objects >> implode]
+29–32:	[@{2d4} 25gp Art Objects >> implode]\n\n     	[@{1d6} Magic Item Table A >> implode]
+33–36:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table A >> implode]
+37–40:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table A >> implode]
+41–44:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d6} Magic Item Table A >> implode]
+45–49:	[@{2d4} 25gp Art Objects >> implode]\n\n   	[@{1d4} Magic Item Table B >> implode]
+50–54:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table B >> implode]
+55–59:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table B >> implode]
+60–63:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d4} Magic Item Table B >> implode]
+64–66:	[@{2d4} 25gp Art Objects >> implode]\n\n   	[@{1d4} Magic Item Table C >> implode]
+67–69:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table C >> implode]
+70–72:	[@{3d6} Gemstones Main with CR >> implode]\n\n     [@{1d4} Magic Item Table C >> implode]
+73–74:	[@{2d4} 250gp Art Objects >> implode]\n\n        	[@{1d4} Magic Item Table C >> implode]
+75–76:	[@{2d4} 25gp Art Objects >> implode]\n\n   	[@Magic Item Table D]
+77–78:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table D]
+79:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table D]
+80:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@Magic Item Table D]
+81–84:	[@{2d4} 25gp Art Objects >> implode]\n\n   	[@{1d4} Magic Item Table F >> implode]
+85–88:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table F >> implode]
+89–91:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table F >> implode]
+92–94:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d4} Magic Item Table F >> implode]
+95–96:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table G >> implode]
+97–98:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d4} Magic Item Table G >> implode]
+99:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table H]
+100:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@Magic Item Table H]
+EndTable:
+
+Table: Homebrew Treasure Hoard: Challenge 11-16
+Type: Lookup
+Roll:1d100
+01–03:	\z
+04–06:	[@{2d4} 250gp Art Objects >> implode]
+07–09:	[@{2d4} 750gp Art Objects >> implode]
+10–12:	[@{3d6} Gemstones Main with CR >> implode]
+13–15:	[@{3d6} Gemstones Main with CR >> implode]
+16–19:	[@{2d4} 250gp Art Objects >> implode]\n\n    	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+20–23:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+24–26:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+27–29:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table A >> implode] \n [@{1d6} Magic Item Table B >> implode]
+30–35:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d6} Magic Item Table C >> implode]
+36–40:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@{1d6} Magic Item Table C >> implode]
+41–45:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table C >> implode]
+46–50:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table C >> implode]
+51–54:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d4} Magic Item Table D >> implode]
+55–58:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@{1d4} Magic Item Table D >> implode]
+59–62:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table D >> implode]
+63–66:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table D >> implode]
+67–68:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@Magic Item Table E]
+69–70:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@Magic Item Table E]
+71–72:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table E]
+73–74:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table E]
+75–76:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@Magic Item Table F] \n [@{1d4} Magic Item Table G >> implode]
+77–78:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@Magic Item Table F] \n [@{1d4} Magic Item Table G >> implode]
+79–80:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table F] \n [@{1d4} Magic Item Table G >> implode]
+81–82:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table F] \n [@{1d4} Magic Item Table G >> implode]
+83–85:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@{1d4} Magic Item Table H >> implode]
+86–88:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@{1d4} Magic Item Table H >> implode]
+89–90:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table H >> implode]
+91–92:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table H >> implode]
+93–94:	[@{2d4} 250gp Art Objects >> implode]\n\n      	[@Magic Item Table I]
+95–96:	[@{2d4} 750gp Art Objects >> implode]\n\n  	[@Magic Item Table I]
+97–98:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table I]
+99–100:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@Magic Item Table I]
+EndTable:
+
+Table: Homebrew Treasure Hoard: Challenge 17-20
+Type: Lookup
+Roll:1d100
+01–02:	\z
+03–05:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d8} Magic Item Table C >> implode]
+06–08:	[@{1d10} 2500gp Art Objects >> implode]\n\n	[@{1d8} Magic Item Table C >> implode]
+09–11:	[@{1d4} 7500gp Art Objects >> implode]\n\n  	[@{1d8} Magic Item Table C >> implode]
+12–14:	[@{1d8} Gemstones Main with CR >> implode]\n\n	[@{1d8} Magic Item Table C >> implode]
+15–22:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table D >> implode]
+23–30:	[@{1d10} 2500gp Art Objects >> implode]\n\n	[@{1d6} Magic Item Table D >> implode]
+31–38:	[@{1d4} 7500gp Art Objects >> implode]\n\n  	[@{1d6} Magic Item Table D >> implode]
+39–46:	[@{1d8} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table D >> implode]
+47–52:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table E >> implode]
+53–58:	[@{1d10} 2500gp Art Objects >> implode]\n\n	[@{1d6} Magic Item Table E >> implode]
+59–63:	[@{1d4} 7500gp Art Objects >> implode]\n\n  	[@{1d6} Magic Item Table E >> implode]
+64–68:	[@{1d8} Gemstones Main with CR >> implode]\n\n	[@{1d6} Magic Item Table E >> implode]
+69:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table G >> implode]
+70:	[@{1d10} 2500gp Art Objects >> implode]\n\n	[@{1d4} Magic Item Table G >> implode]
+71:	[@{1d4} 7500gp Art Objects >> implode]\n\n  	[@{1d4} Magic Item Table G >> implode]
+72:	[@{1d8} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table G >> implode]
+73–74:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table H >> implode]
+75–76:	[@{1d10} 2500gp Art Objects >> implode]\n\n	[@{1d4} Magic Item Table H >> implode]
+77–78:	[@{1d4} 7500gp Art Objects >> implode]\n\n  	[@{1d4} Magic Item Table H >> implode]
+79–80:	[@{1d8} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table H >> implode]
+81–85:	[@{3d6} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table I >> implode]
+86–90:	[@{1d10} 2500gp Art Objects >> implode]\n\n	[@{1d4} Magic Item Table I >> implode]
+91–95:	[@{1d4} 7500gp Art Objects >> implode]\n\n  	[@{1d4} Magic Item Table I >> implode]
+96–100:	[@{1d8} Gemstones Main with CR >> implode]\n\n	[@{1d4} Magic Item Table I >> implode]
+EndTable:
+
+
+Table: Magic Item Table A
+Type: Lookup 
+Roll:1d100
+1-50: \n<b>Potion of Healing</b>\n<em>Potion, common</em>\n\nYou regain 2d4 + 2 hit points when you drink this potion. The potion's red liquid glimmers when agitated.\n<b>Value: </b>{1d6*10}gp
+51-70: \n[@Magic Item List A]
+71-80: \n[@Magic Item List B]
+81-98: \n[@Magic Item List F]
+99-100: \n[@Magic Item List G] 
+EndTable:
+
+Table: Magic Item Table B
+Type: Lookup 
+Roll:1d100
+1-15: \n<b>Potion of Greater Healing</b>\n<em>Potion, common</em>\n\nYou regain 4d4 + 4 hit points when you drink this potion. The potion's red liquid glimmers when agitated.
+16-80: \n[@Magic Item List B]
+81-100: \n[@Magic Item List G]
+EndTable:
+
+Table: Magic Item Table C
+Type: Lookup 
+Roll:1d100
+1-15: \n<b>Potion of Superior Healing</b>\n<em>Potion, common</em>\n\nYou regain 8d4 + 8 hit points when you drink this potion. The potion's red liquid glimmers when agitated.
+16-80: \n[@Magic Item List C] 
+81-85: \n[@Magic Item List G] 
+86-100: \n[@Magic Item List H] 
+EndTable:
+
+Table: Magic Item Table D
+Type: Lookup 
+Roll:1d100
+1-20: \n<b>Potion of Supreme Healing</b>\n<em>Potion, common</em>\n\nYou regain 10d4 + 20 hit points when you drink this potion. The potion's red liquid glimmers when agitated.
+21-90: \n[@Magic Item List D]
+91-93: \n[@Magic Item List H]
+94-100: \n[@Magic Item List I]
+EndTable:
+
+Table: Magic Item Table E
+Type: Lookup 
+Roll:1d100
+1-50: \n[@Magic Item List D]
+51-100: \n[@Magic Item List E]
+EndTable:
+
+Table: Magic Item Table F
+Type: Lookup 
+Roll:1d100
+\n[@Magic Item List J]
+EndTable:
+
+Table: Magic Item Table G
+Type: Lookup 
+Roll:1d100
+01-05: \n[@Magic Item List J]
+6-100: \n[@Magic Item List K]
+EndTable:
+
+Table: Magic Item Table H
+Type: Lookup 
+Roll:1d100
+1-3: \n[@Magic Item List J]
+4-10: \n[@Magic Item List K]
+11-100: \n[@Magic Item List L]
+EndTable:
+
+Table: Magic Item Table I
+Type: Lookup 
+Roll:1d100
+1-8: \n[@Magic Item List K]
+9-15: \n[@Magic Item List L]
+16-100: \n[@Magic Item List M]
+EndTable:

@@ -1,0 +1,39 @@
+; Magic Item List  M.ipt
+; Vestigies and Boons
+; created 9/19/2019 10:03:20 PM
+
+use: Generators\D&D\5e\20141209 - Dungeon Masters Guide\Chapter 7 - Treasure\Categories\Magic Item List K.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+
+Table: Magic Item List M
+Roll:1d100
+1-99: [@Magic Item List K]
+100: [@Vestigies/Boons]
+EndTable:
+
+Table: Vestigies/Boons
+Blessing of Health. Your Constitution score increases by 2, up to a maximum of 22.
+Blessing of Protection. You gain a +1 bonus to AC and saving throws.
+Blessing of Magic Resistance. You have advantage on saving throws against spells and other magical effects.
+Blessing of Understanding. Your Wisdom score increases by 2, up to a maximum of 22.
+Blessing of Valhalla. This blessing grants you the power to summon spirit warriors, as if you had blown a silver horn of Valhalla. Once you use this blessing, you can’t use it again until 7 days have passed.
+Blessing of Weapon Enhancement. One nonmagical weapon in your possession becomes a +1 weapon whenever you wield it.
+Blessing of Wound Closure. This blessing grants you the benefits of a periapt of wound closure.
+Charm of Animal Conjuring. This charm allows you to cast the conjure animals spell (3rd-level version) as an action. Once used three times, the charm vanishes from you.
+Charm of Darkvision. This charm allows you to cast the darkvision spell as an action, no components required. Once used three times, the charm goes away.
+Charm of Feather Falling. This charm grants you the benefits of a ring of feather falling. These benefits last for 10 days, after which the charm vanishes from you.
+Charm of Heroism. This charm allows you to give yourself the benefit of a potion of heroism as an action. Once you do so, the charm vanishes from you.
+Charm of Restoration. This charm has 6 charges. You can use an action to expend some of its charges to cast one of the following spells: greater restoration (4 charges) or lesser restoration (2 charges). Once all its charges have been expended, the charm vanishes from you.
+Charm of the Slayer. One sword in your possession becomes a dragon slayer or giant slayer (DM’s choice) for the next 9 days. The charm then vanishes from you, and the weapon returns to normal.
+Charm of Vitality. This charm allows you to give yourself the benefit of a potion of vitality as an action. Once you do so, the charm vanishes from you.
+EndTable:

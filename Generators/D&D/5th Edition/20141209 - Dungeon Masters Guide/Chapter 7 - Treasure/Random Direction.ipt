@@ -1,0 +1,13 @@
+; Random Direction.ipt
+; created 7/6/2018 9:13 PM
+
+Table: Direction
+Northwest
+North
+Northeast
+East
+Southeast
+South
+Southwest
+West
+EndTable:

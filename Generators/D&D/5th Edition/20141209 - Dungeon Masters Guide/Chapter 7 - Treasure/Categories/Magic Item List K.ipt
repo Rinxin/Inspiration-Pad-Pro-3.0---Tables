@@ -1,0 +1,63 @@
+; Magic Item List  K.ipt
+; Artifact/Unique Magic Items
+; created 9/19/2019 10:03:20 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List K
+Akmon, Hammer of Purphoros
+Axe of the Dwarvish Lords
+Blade of Avernus
+Blade of Broken Mirrors
+Book of Exalted Deeds
+Book of Vile Darkness
+Codex Dryadalis
+Codex Ignis
+Codex Incabulum
+Codex Miror
+Codex Mortis
+Codex Multiversalis
+Dekella, Bident of Thassa
+Draakhorn
+Ephixis, Bow of Nylea
+Eye and Hand of Vecna
+Grovelthrash
+Incantations of Iriolarthas
+Khrusor, Spear of Heliod
+Lash of Shadows
+Mace of the Black Crown
+Mask of the Dragon Queen
+Mastix, Whip of Erebos
+Orb of Dragonkind
+Orrery of the Wanderer
+Ring of the Golden Defender
+Ring of Winter
+Ruin's Wake
+Ruinstone
+Shoon's Golden Cube
+Silken Spite
+Staff of the Forgotten One
+Stone of Golorr
+Sword of Kas
+Sword of Zariel
+The Bloody End
+The Chronos Codex
+The Codex Automata
+The Codex Terragnosis
+The Codex Umbra
+The Codicil of White
+The Infernal Machine of Lum the Mad
+Wand of Orcus
+Well of Souls
+Will of the Talon
+Wyrmskull Throne
+Endtable:

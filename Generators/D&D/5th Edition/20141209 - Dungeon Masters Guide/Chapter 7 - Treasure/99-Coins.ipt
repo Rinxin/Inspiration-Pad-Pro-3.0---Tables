@@ -1,0 +1,54 @@
+; Coins.ipt
+; created 3/25/2019 10:51:08 PM
+
+
+prompt: Select Treasure {Individual Treasure: 0-4| Individual Treasure: 5-10| Individual Treasure: 11-16| Individual Treasure: 17+|Treasue Hoard: 0-4|Treasue Hoard: 5-10|Treasue Hoard: 11-15|Treasue Hoard: 17+}
+
+Table Main:
+[@{$prompt1}]
+Endtable:
+
+Table: Individual Treasure: 0-4
+30:{5d6} cp
+30:{4d6} sp
+10:{3d6} ep
+35:{3d6} gp
+5:{1d6} pp
+Endtable:
+
+Table: Individual Treasure: 5-10
+30:{4d6*100} cp, {1d6*10} ep
+30:{6d6*10} sp, {2d6*10} gp
+10:{3d6*10} ep, {2d6*10} gp
+25:{4d6*10} gp
+5:{2d6*10} gp, {3d6} pp
+Endtable:
+
+Table: Individual Treasure: 11-16
+20:{4d6 * 100} cp, {1d6*10} ep
+15:{1d6  *100} ep, {1d6*100} gp
+40:{2d6 * 100} gp, {1d6*10} pp
+25:{2d6 * 100} gp, {2d6*10} pp
+Endtable:
+
+Table: Individual Treasure: 17+
+15:{2d6*1000} ep, {8d6*100} gp
+40:{1d6*1000} gp, {1d6*100} pp
+45:{1d6*1000} gp, {2d6*10} pp
+Endtable:
+
+Table: Treasue Hoard: 0-4
+{6d6*100} cp, {3d6*100} sp, {2d6*10} gp
+Endtable:
+
+Table: Treasue Hoard: 5-10
+{2d6*100} cp, {2d6*1000} sp, {6d6*100} gp, {3d6*10} pp
+Endtable:
+
+Table: Treasue Hoard: 11-15
+{} cp, {} sp, {} ep, {} gp, {} pp
+Endtable:
+
+Table: Treasue Hoard: 17+
+{} cp, {} sp, {} ep, {} gp, {} pp
+Endtable:

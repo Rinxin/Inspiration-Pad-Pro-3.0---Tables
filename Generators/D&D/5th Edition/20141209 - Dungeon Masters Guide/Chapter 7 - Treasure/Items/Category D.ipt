@@ -1,0 +1,19 @@
+; Category D.ipt
+; created 3/6/2019 10:52:02 PM
+
+use: Common\srd\MageSpells.ipt
+
+Table: Category D
+Ammunition +3
+Arrow of slaying
+Oil of sharpness
+Potion of flying
+Potion of giant strength (cloud giant)
+Potion of invisibility
+Potion of longevity
+Potion of speed
+Potion of vitality
+Spell scroll (6th level, [@SpellsLevel6])
+Spell scroll (7th level, [@SpellsLevel7])
+Spell scroll (8th level, [@SpellsLevel8])
+EndTable:

@@ -1,0 +1,258 @@
+
+Use: PHB/Equipment.ipt
+Use: Generators/Treasure/Spell Book.ipt
+Use: Generators/Treasure/Random Book.ipt
+
+Table: Common_Wondrous_Item
+\n[@RandomBookDetails]\n
+{1d{1d20}}[@PHB_Gear]
+[@Spellbook]
+Bead of Nourishment
+Bead of Refreshment
+Boots of False Tracks
+Candle of the Deep
+Charlatan's Die
+Cloak of Billowing
+Cloak of Many Fashions
+Clockwork Amulet
+Clothes of Mending
+Dark Shard Amulet
+Dread Helm
+Ear Horn of Hearing
+Enduring Spellbook
+Ersatz Eye
+Hat of Vermin
+Hat of Wizardry
+Heward's Handy Spice Pouch
+Horn of Silent Alarm
+Instrument of Illusions
+Instrument of Scribing
+Lock of Trickery
+Mystery Key
+Orb of Direction
+Orb of Time
+Perfume of Bewitching
+Pipe of Smoke Monsters
+Pole of Angling
+Pole of Collapsing
+Pot of Awakening
+Rope of Mending
+Ruby of the War Mage
+Talking Doll
+Tankard of Sobriety
+Veteran's Cane
+EndTable:
+
+Table: Uncommon_Wondrous_Item
+[#{1d52+50} Spellbook]
+Alchemy Jug
+Amulet of Proof Against Detection and Location
+Bag of Holding
+Bag of Tricks
+Ballon Pack
+Boots of Elvenkind
+Boots of Striding and Springing
+Bracers of Archery
+Brooch of Shielding
+Broom of Flying
+Cap of Water Breathing
+Circlet of Blasting
+Claws of the Umber Hulk
+Cloak of Elvenkind
+Cloak of Protection
+Cloak of the Manta Ray
+Decanter of Endless Water
+Deck of Illusions
+Driftglobe
+Dust of Disappearance
+Dust of Dryness
+Dust of Sneezing and Choking
+Elemental Gem
+Eversmoking Bottle
+Eyes of Minute Seeing
+Eyes of the Eagle
+Figurine of Wondrous Power (Silver Raven)
+Gauntlets of Ogre Power
+Gem of Brightness
+Gloves of Missile Snaring
+Gloves of Swimming and Climbing
+Gloves of Thievery
+Goggles of Night
+Hat of Disguise
+Headband of Telepathy
+Helm of Comprehending Languages
+Instrument of the Bards (Doss Lute)
+Instrument of the Bards (Fochlucan Bandore)
+Instrument of the Bards (Mac-Fuirmidh Cittern)
+Keoghtom's Ointment
+Lantern of Revealing
+Medallion of Thoughts
+Necklace Adaptation
+Pearl of Power
+Periapt of Health
+Periapt of Wound Closure
+Pipes of Haunting
+Pipes of the Sewers
+Quiver of Ehlonna
+Robe of Useful Items
+Robe of Serpents
+Rope of Climbing
+Saddle of the Cavalier
+Sending Stones
+Slippers fo Spider Climbing
+Stone of Good Luck (Luck-Stone)
+Wind Fan
+Winged Boots
+Wingwear
+EndTable:
+
+Table: Rare_Wondrous_Item
+[#{1d27+75} Spellbook]
+Amulet of Health
+Bag of Beans
+Banner of the Krig Rune
+Bead of Force
+Belt of Dwarvenkind
+Belt of Hill Giant Strength
+Blod Stone
+Boots of Levitation
+Boots of Speed
+Bowl of Commanding Fire Elementals
+Cape of the Mountebank
+Censer of Controling Air Elementals
+Chime of Opening
+Cloak of Displacement
+Cloak of the Bat
+Claw of the Wyrm Rune
+Cube of Force
+Daern's Instant Fortress
+Dimensional Shackles
+Figurine of Wondrous Power (Bronze Griffon)
+Figurine of Wondrous Power (Ebony Fly)
+Figurine of Wondrous Power (Golden Lion)
+Figurine of Wondrous Power (Ivory Goats)
+Figurine of Wondrous Power (Marble Elephant)
+Figurine of Wondrous Power (Onyx Dog)
+Figurine of Wondrous Power (Serpentine Owl)
+Folding Boat
+Gavel of the Venn Rune
+Gem of Seeing
+Helm of Teleportation
+Heward's Handy Haversack
+Horn of Blasting
+Horn of Valhalla (silver or brass)
+Horseshoes of Speed
+Instrument of the Bards (Canaith Mandolin)
+Instrument of the Bards (Cli Lyre)
+Ioun Stone (awareness)
+Ioun Stone (Protection)
+Ioun Stone (reserve)
+Ioun Stone (Sustenance)
+Iron Bands of Bilarro
+Mantle of Spell Resistance
+Necklace of Fireballs
+Necklace of Prayer Beads
+Opal of the Ild Rune
+Orb of the Stein Rune
+Periapt of Proof Against Poison
+Portable Hole
+Quaal's Feather Token ()
+Robe of Eyes
+Rope of Entanglement
+Stone of Controling Earth Elementals
+Weird Tank
+Wings of Flying
+EndTable:
+
+Table: Very_Rare_Wondrous_Item
+[#{1d22+80} Spellbook]
+Amulet of the Planes
+Bag of Devouring
+Belt of Fire Giant Strength
+Belt of Frost Giant Strength
+Belt of Stone Giant Strength
+Candle of Invocation
+Carpet of Flying
+Cloak of Arachnida
+Conch of Teleportation
+Crystal Ball
+Devastation Orb ([|Air|Earth|Fir|Water])
+Efreetie Bottle
+Figurine of Wondrous Power (Obsidian Steed)
+Helm of Brilliance
+Horn of Valhalla (Bronze)
+Horseshoes of a Zephyr
+Ingot of the Skold Rune
+Instrument of the Bards (Anstruth Harp)
+Ioun Stone (Absorption)
+Ioun Stone (Agility)
+Ioun Stone (Fortitude)
+Ioun Stone (Insight)
+Ioun Stone (Intellect)
+Ioun Stone (Leadership)
+Ioun Stone (Strength)
+Korolnor Scepter
+Manual of Bodily Health
+Manual of Gainful Exercise
+Manual of Golems
+Manual of Quickness of Action
+Mirror of Life Trapping
+Navigation Orb
+Nolzur's Marvelous Pigments
+Pennant of the Vind Rune
+Robe of Scintillating Colors
+Robe of Stars
+Shard of the Ise Rune
+Tome of Clear Thoughts
+Tome of Leadership and Influence
+Tome of Understanding
+EndTable:
+
+Table: Legendary_Wondrous_Item
+[#{1d12+90} Spellbook]
+Apparatus of Kwalish
+Belt of Cloud Giant Strength
+Belt of Storm Giant Strength
+Cloak of Invisibility
+Crystal Ball (legendary)
+Cubic Gate
+Deck of Many Things
+Horn of Valhalla (Iron)
+Instrument of the Bards (Ollamh harp)
+Ioun Stone (greater absorption)
+Ioun Stone (Mastery)
+Ioun Stone (regeneration)
+Iron Flask
+Robe of the Archmagi
+Scarab of Protection
+Sovereign Glue
+Sphere of Annihilation
+Talisman of Pure Good
+Talisman of the Sphere
+Talisman of Ultimate Evil
+Tome of the Stilled Tongue
+Well of Many Worlds
+Universal Solvent
+[@Artifact/Unique_Wondrous_Item]
+EndTable:
+
+Table: Artifact/Unique_Wondrous_Item
+[#{1d6+96}Spellbook]
+Book of Exalted Deeds
+Book of Vile Darkness
+Draakhorn
+Dragon Mask ([|Black|Blue|Green|Red|White])
+Eye of Vecna
+Hand of Vecna
+Lost Crown of Besilmer
+Cabal's Ruin ([|Normal|Awakened|Exalted])
+Circlet of Barbed Vision ([|Normal|Awakened|Exalted])
+Kiss of the Changebringer ([|Normal|Awakened|Exalted])
+Mask of the Dragon Queen ({1d5} masks)
+Orb of Dragonkind
+Sword of Kas
+Titanstone Knuckles ([|Normal|Awakened|Exalted])
+Wand of Orcus
+Wraps of Dyamak
+Wyrmskull Throne
+EndTable:

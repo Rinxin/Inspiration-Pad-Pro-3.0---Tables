@@ -1,0 +1,103 @@
+; Magic Item List  C.ipt
+; Rare Consumables
+; created 9/19/2019 10:02:30 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List C
+Aloe Vera
+Arid Monitor
+Bag of Beans
+Barrier Tattoo (UA)
+Bead of Force
+Bell Bottle
+Big Bluestem
+Blessed Acorn
+Bloodwort
+Bloody Fingers (Grassland)
+Blue Curls
+Bluebell
+Bluejoint
+Bottle of Sudden Twilight
+Bushmaster
+Carpenter's Herb
+Catsfoot
+Climbing Monitor
+Creeping Charlie
+Dead Men's Bells
+Distilled Acid Arrow
+Elixir of Health
+Explosive Arrow
+Failed Experiment Wand
+Fairy Flower
+Fairy Thimbles
+False Earthstar
+Field Balm
+Forceclasp Glypherine
+Foxgloves
+Ghost Step Tattoo (UA)
+Gil-Over-The-Ground
+Ground Ivy
+Heal-All
+Joint Pine
+Lachesis Viper
+Lifewell Tattoo (UA)
+Littlefeather
+Lockcrawler
+Milfoil
+Nosebleed
+Oil of Etherealness
+Pallo Aldo Sauce
+Poisonburst Glypherine
+Potion of Aqueous Form
+Potion of Clairvoyance
+Potion of Diminution
+Potion of Gaseous Form
+Potion of Giant Strength, Fire
+Potion of Giant Strength, Frost
+Potion of Giant Strength, Stone
+Potion of Heroism
+Potion of Invulnerability
+Potion of Maximum Power
+Potion of Mind Reading
+Potion of Superior Healing
+Powerpunch Arrow
+Quaal's Feather Token
+Repurosded Eyestalk
+Run-away-Robin
+Runechalk - Swamp Green
+Scout's Arrow
+Scroll of Protection
+Self-Help
+Soldier's Safety
+Spell Scroll, Level 4 Spell
+Spell Scroll, Level 5 Spell
+Spellwrought Tattoo([@SpellsLevel4]) (UA)
+Spellwrought Tattoo([@SpellsLevel5]) (UA)
+Spider Bullets
+Spitting Fat-Tail
+Tears of Ra
+Thick-Tail Scorpion
+Wand of Binding
+Wand of Enemy Detection
+Wand of Fear
+Wand of Fireballs
+Wand of Lightning Bolts
+Wand of Paralysis
+Wand of the Kitten
+Wand of Viscid Globs
+Wand of Winter
+Wand of Wonder
+Wood Bell
+Woundwort
+Yarrow
+EndTable:

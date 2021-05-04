@@ -1,0 +1,53 @@
+; Magic Item List A.ipt
+; Common Consumables
+; created 9/19/2019 10:02:13 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List A
+Bloody Fingers (Forest)
+Bolas
+Bond of Paternity/Maternity
+Candle of the Deep
+Candlewood
+Channeling Circuits
+Coachwhip
+Curlycup
+Dandelion
+Dead Men's Bells
+Desert Coral
+Fairy Thimbles
+Feather Token (Feather Fall)
+Foxgloves
+Grapple Arrow
+Gumweed
+Heward’s Handy Spice Pouch
+Illuminator’s Tattoo (UA)
+Lover's Link
+Masquerade Tattoo (UA)
+Perfume of Bewitching
+Potion of Climbing
+Potion of Comprehension
+Potion of Healing
+Potion of Watchful Rest
+Slimwood
+Spell Scroll, Cantrips
+Spell Scroll, Level 1 Spell
+Spellwrought Tattoo([@SpellsLevel0]) (UA)
+Spellwrought Tattoo([@SpellsLevel1]) (UA)
+Unbreakable Arrow
+Walloping Ammunition
+Wand of Conducting
+Wand of Pyrotechnics
+Wand of Scowls
+Wand of Smiles
+Endtable:

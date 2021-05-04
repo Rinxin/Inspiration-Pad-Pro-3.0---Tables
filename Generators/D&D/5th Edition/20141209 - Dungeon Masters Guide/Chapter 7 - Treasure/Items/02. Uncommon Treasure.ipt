@@ -1,0 +1,275 @@
+; Uncommon Treasure.ipt
+; created 5/29/2018 2:16:27 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Armor Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+Table:Common_Armor
+EndTable:
+
+Table:Common_Potion
+EndTable:
+
+Table:Common_Ring
+EndTable:
+
+Table:Common_Rod
+EndTable:
+
+Table:Common_Scoll
+EndTable:
+
+Table:Common_Staff
+EndTable:
+
+Table:Common_Wand
+EndTable:
+
+Table:Common_Weapon
+EndTable:
+
+Table:Common_Wondrous Item
+EndTable:
+
+
+Table: Uncommon Treasure
+{1d20+1}x Ammunition, +1 ([|Arrow|Bolt|Sling Ammo])
+2nd Level Spell Scroll ([@Level-2])
+3rd Level Spell Scroll ([@Level-3])
+Adamantine Armor ([|[@Medium Armor]|[@Heavy Armor]])
+Alchemy Jug
+Allmagic Scrolls
+Amber Gemstone
+Amethyst Drinking Cup
+Amulet of Proof Against Detection and Location
+Ancient Coins
+Ancient Gold Cube
+Ancient Mummy
+Ancient Wand Box
+Animal Figurines
+Anthracite Chair
+Armageddon Diorama
+Armentarious' Scroll Tube
+Astrologer's Chart
+Aumurille's Chest
+Bag of Holding
+Bag of Saffron
+Bag of Tricks, Grey
+Bat Sack
+Battle Banner
+Bear Claw Boots
+Behir Horn
+Belt of the Shippey
+Bird Cage
+Black Lotus Pollen
+Black Mountain Stout Recipe
+Blood Waterskin
+Blue Dragon Figurine
+Boots of Elvenkind
+Boots of Striding and Springing
+Boots of the Winterlands
+Bottle stopper cork embossed with gold leaf and set with [@Gems]
+Box o' Diseases
+Box of Evil Miniatures
+Bracers of Archery
+Bracers of Binding
+Brass Dragon Egg
+Brass Mug
+Bronze Caltrops
+Bronze Crown
+Brooch of Shielding
+Broom of Flying
+Bull's Head Ring
+Bullette Horn Barding
+Cap of Water Breathing
+Carved harp of exotic wood with ivory inlay and \a [@Gems]
+Ceramic Jars
+Chess Set
+Chrysoberyl Gem
+Circlet of Blasting
+Clàrsach Harp
+Cloak of Elvenkind
+Cloak of Protection
+Cloak of the Manta Ray
+Companion Cube
+Coral Circlet
+Crayon Torches
+Crystal Sword
+Crystal Sword [@Weapon Types]
+Dagger of Slicing
+Death Talker Charm
+Debt of a Soul
+Decanter of Endless Water
+Deck of Cards
+Deck of Illusions
+Decrepit Skeleton in Armor
+Dragon Balm
+Dragon Statuette
+Driftglobe
+Druid's Magnet
+Drums of Endurance
+Duergar Compass
+Dust of Appearance
+Dust of Coughing and Sneezing
+Dust of Disappearance
+Dust of Dispelling
+Dust of Sneezing and Choking
+Edible Greatsword
+Eldritch Flint & Steel
+Elemental Gem
+Elven Engraved Combs
+Empty Mason Jar
+Enchanted Apple
+Eversmoking Bottle
+Exploding Gold Coins
+Exploding Rations
+Eyes of Charming
+Eyes of Minute Seeing
+Eyes of the Eagle
+F**k You Fireworks
+Figurine of Wondrous Power (Silver Raven)
+Finely Woven Rug
+Flask of Nightmare Ale
+Flask of St. Cuthbert
+Fundial
+Garnet Gemstone
+Gauntlets of Ogre Power
+Gem of Brightness
+Giant-King's Necklace
+Giant's Arrow
+Glaive
+Globe of Invulnerability
+Gloves of Missile Snaring
+Gloves of Slapping
+Gloves of Swimming and Climbing
+Gloves of Thievery
+Gnome Camo Paint
+God Ring
+Goggles of Night
+Gold Bracelet
+Gold dragon comb set with [@Gems] as eyes
+Gold Ring
+Golden Arrows
+Golden Tablet
+Greataxe of Blindness
+Hat of Disguise
+Headband of Intellect
+Heart Shaped Token
+Helm of Comprehending Languages
+Helm of Telepathy
+Hero Dolls
+Horn Coral Gem
+Immovable Rod
+Instrument of the Bards (Doss Lute)
+Instrument of the Bards (Fochlucan Bandore)
+Instrument of the Bards (Mac-Fuimidh Cittern)
+Ivory Statuette
+Jade Buttons
+Jade Statue
+Jade Telescope
+Javelin of Lightning
+Jet Brooch
+Jewel Encrusted Sarcophagus
+Jewel Encrusted Sarcophagus
+Kazoo of Intimidation
+Keoghtom's Ointment
+Lantern of Revealing
+Large Snow Globe
+Lava Rocks
+Leomund's Loot Rack
+Longsword of Balanced Sums
+Lucky Coin
+Lucky Dodge Belt
+Magic Litmus Paper
+Mariner's Armor ([@Random Armor])
+Meal Table
+Medallion of Courage
+Medallion of Thoughts
+Menesta's Book of Stored Skill
+Merchant's Dagger Box
+Minting Tools
+Mithral Armor ([@Random Armor])
+Moonbar Gemstone
+Moss Earplugs
+Mostly Immovable Rod
+Necklace of Adaptation
+Oil of Slipperiness
+Painted gold war mask
+Pearl
+Pearl of Power
+Periapt of Health
+Periapt of Wound Closure
+Philter of Love
+Pipes of Haunting
+Pipes of the Sewers
+Potion of [@Damage Type-Elemental] Resistance
+Potion of Animal Friendship
+Potion of Fire Breath
+Potion of Greater Healing
+Potion of Growth
+Potion of Hill Giant Strength
+Potion of Poison
+Potion of Water Breathing
+Pouch of Healing Potions
+Pouch of Mushrooms
+Quiver of Ehlonna
+Ring of Dubious Might
+Ring of Jumping
+Ring of Mind Shielding
+Ring of Swimming
+Ring of Warmth
+Ring of Water Walking
+Robe of Useful Items
+Rod of the Pact Keeper, +1
+Rope of Climbing
+Saddle of the Cavalier
+Sending Stones
+Sentient Dagger of Sneaking
+Sentinel Shield
+Shield, +1
+Silk Robe
+Silver and gold brooch
+Silver chalice set with \a [@Gems]
+Silver Necklace
+Silver-plated steel longsword with \a [@Gems] set in hilt
+Slippers of Spider Climbing
+Small gold idol
+Sphene Gem
+Spinel Necklace
+Staff of the Adder
+Staff of the Python
+Stone of Good Luck (Luck-Stone)
+Sword of Vengeance ([@Random Weapon])
+Tapestry
+The Rhinoclean Helm
+The Rhinocles Helm
+Tourmaline Gemstone
+Townshend's Cudgel
+Trident of Fish Command
+Wand of Magic Detection
+Wand of Magic Missiles
+Wand of Secrets
+Wand of the War Mage, +1
+Wand of Web
+Water Opal
+Weapon of Warning ([@Random Weapon])
+Weapon, +1 ([@Random Weapon])
+Wind Fan
+Winged Boots
+[@Gems]
+EndTable:
+
+Table: Gems
+Amber
+Amethyst
+Chrysoberyl
+Coral
+Garnet
+Jade
+Jet
+Pearl
+Spinel
+Tourmaline
+EndTable:

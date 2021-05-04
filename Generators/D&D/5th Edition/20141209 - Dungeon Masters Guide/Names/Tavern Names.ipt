@@ -1,0 +1,4 @@
+use: nbos/names/taverns.ipt
+
+Table: Tavern Name
+[@MasterTavernName]

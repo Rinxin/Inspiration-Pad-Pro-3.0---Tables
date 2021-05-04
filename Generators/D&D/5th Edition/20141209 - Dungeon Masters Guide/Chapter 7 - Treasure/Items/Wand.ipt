@@ -1,0 +1,43 @@
+
+
+
+Table: Common_Wand
+Wand of Conducting
+Wand of Pyrotechnics
+Wand of Scowls
+Wand of Smiles
+EndTable:
+
+Table: Uncommon_Wand
+Wand of Magic Detection
+Wand of Magic Missles
+Wand of Secrets
+Wand of the War Mage, +1
+Wand of Web
+EndTable:
+
+Table: Rare_Wand
+Wand of Binding
+Wand of Enemy Detection
+Wand of Fear
+Wand of Fireballs
+Wand of Lightning Bolts
+Wand of Paralysis
+Wand of the War Mage, +2
+Wand of Winter
+Wand of Wonder
+EndTable:
+
+Table: Very_Rare_Wand
+Wand of Polymorph
+Wand of the War Mage, +3
+EndTable:
+
+Table: Legendary_Wand
+\z
+[@Artifact/Unique_Wand]
+EndTable:
+
+Table: Artifact/Unique_Wand
+\z
+EndTable:

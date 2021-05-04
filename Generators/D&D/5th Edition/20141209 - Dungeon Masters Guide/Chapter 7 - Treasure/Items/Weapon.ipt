@@ -1,0 +1,82 @@
+
+Use: PHB\Equipment.ipt
+
+Table: Common_Weapon
+[@PHB_Melee_Weapon]
+[@PHB_Range_Weapon]
+Moon-touched [|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]]
+Unbreakable Ammunition ([|Arrow|Bolt|Bullet])
+Walloping ([|Arrow|Bolt|Bullet])
+EndTable:
+
+Table: Uncommon_Weapon
+Ammunition, +1 ([|Arrow|Bolt|Bullet])
+Javelin of Lightning
+Seek Dart
+Storm Boomerang
+[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]] of Vengeance
+Trident of Fish Command
+[@PHB_Melee_Weapon] of Warning
+Weapon, +1 ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+EndTable:
+
+Table: Rare_Weapon
+Ammunition, +2 ([|Arrow|Bolt|Bullet])
+Berserker [@PHB_Melee_Weapon]
+Dagger of Venom
+Dragon Slayer
+Dragontooth Dagger ([|Black|Blue|Green|Red|White])
+Flame Tongue ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+Giant Slayer ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+[@PHB_Melee_Weapon] of Disruption
+[@PHB_Melee_Weapon] of Smiting
+[@PHB_Melee_Weapon] of Terror
+Sun Blade ([@PHB_Melee_Weapon])
+[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]] of Life Stealing
+[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]] of Wounding
+Vicious [[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]]]
+Weapon, +2 ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+EndTable:
+
+Table: Very_Rare_Weapon
+Ammunition, +3 ([|Arrow|Bolt|Bullet])
+Dancing [@PHB_Melee_Weapon]
+Dwarven Thrower
+Frost Brand ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+Nine Lives Stealer ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+Oathbow
+[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]] of Speed
+[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]] of Sharpness
+Weapon, +3 ([|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]])
+EndTable:
+
+Table: Legendary_Weapon
+Axe of the Dwarvish Lords
+Defender
+Gurt's Greataxe
+Hammer of Thunderbolts
+Holy Avenger
+Luck Blade
+Moonblade
+[|[@PHB_Melee_Weapon]|[@PHB_Range_Weapon]] of Answering
+Vorpal Weapon ([@PHB_Melee_Weapon])
+[@Artifact/Unique_Weapon]
+EndTable:
+
+Table: Artifact/Unique_Weapon
+Agony ([|Normal|Awakened|Exalted])
+Blackrazor
+Condemner ([|Normal|Awakened|Exalted])
+Drown
+Fenthras ([|Normal|Awakened|Exalted])
+Hazirawn
+Ironfang
+Mythcarver ([|Normal|Awakened|Exalted])
+Orcsplitter
+Pyremaul ([|Normal|Awakened|Exalted])
+Tinderstrike
+Wave
+Whelm
+Whisper ([|Normal|Awakened|Exalted])
+Windvane
+EndTable:

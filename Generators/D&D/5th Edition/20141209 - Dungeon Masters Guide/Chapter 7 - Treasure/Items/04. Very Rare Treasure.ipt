@@ -1,0 +1,202 @@
+; Very Rare Treasure.ipt
+; created 5/29/2018 2:45:59 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Armor Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+Table:Common_Armor
+EndTable:
+
+Table:Common_Potion
+EndTable:
+
+Table:Common_Ring
+EndTable:
+
+Table:Common_Rod
+EndTable:
+
+Table:Common_Scoll
+EndTable:
+
+Table:Common_Staff
+EndTable:
+
+Table:Common_Wand
+EndTable:
+
+Table:Common_Weapon
+EndTable:
+
+Table:Common_Wondrous Item
+EndTable:
+
+Table: Very Rare Treasure
+[@Random Weapon] of Speed
+{1d20}x Ammunition, +3 ([|Arrow|Bolt|Sling])
+{2d4 + 2}x [|Arrow|Bolt|Sling] of Slaying
+6th Level Spell Scroll ([@Level-6])
+7th Level Spell Scroll ([@Level-7])
+8th Level Spell Scroll ([@Level-8])
+Amulet of the Planes
+Amulets of Inedibility
+Anderson's Medallion
+Animated Rope
+Animated Shield
+Armor, +2 ([@Random Armor])
+Arrow of Slaying 
+Back to the Beginning Ring
+Bag of Devouring
+Bardweave Parisol
+Bejeweled ivory drinking horn with gold filigree
+Belt of Fire Giant Strength
+Belt of Frost Giant Strength
+Belt of Stone Giant Strength
+Black Obelisk
+Blink Dagger
+Bloodied Harp
+Boots of Dry Land
+Brazier of Infinite Imps
+Buzzing Buckler
+Candle of Invocation
+Carpet of Flying
+Cloak of Arachnida
+Companion Rings
+Crown of Fingers
+Crystal Ball (Very Rare)
+Crystal Pyramid
+Cursed Eye
+Dancing Sword ([@Random Weapon])
+Dark Gemini Ring
+Demon Armor ([@Random Armor])
+Donkey Legs
+Dragon Scale ([@Random Armor])
+Dwarven Plate
+Dwarven Thrower
+Earthbreaker Totem
+Efreeti Bottle
+Eldhand's Mind Slug
+Encyclopedia Approximatus
+Figurine of Wondrous Power (Obsidian Steed)
+Frost Brand ([@Random Weapon])
+Fulcrum Ring
+Gladiator's Prizeblade
+Gold Crown
+Gold cup set with \a [@Gems]
+Gold Jewelry Box
+Gold Jewelry box with platinum filigree
+Gold Statuette
+Harkol's Agonizing Instruments
+Heavenly Armor
+Helm of Brilliance
+Horn of Halhalla (Bronze)
+Horshoes of a Zephyr
+Instrument of the Bards (Anstruth Harp)
+Ioun Stone (Absorption)
+Ioun Stone (Agility)
+Ioun Stone (Fortitude)
+Ioun Stone (Insight)
+Ioun Stone (Intellect)
+Ioun Stone (Leadership)
+Ioun Stone (Strength)
+Ivory Drinking Horn
+Jade Game Board
+Jade game board with solid gold playing pieces
+Jeweled gold crown
+Jeweled platinum ring
+King's Tears
+Links of Truth
+Manual of Bodily Health
+Manual of Gainful Exercise
+Manual of Golems
+Manual of Quickness of Action
+Mirror of Life Trapping
+Mother's Love
+Mysterious Dwarven Club Hammer
+Nevermore Seed
+Nine Lives Stealer ([@Random Weapon])
+Nolzur's Marvelous pigments
+Oathbow ([|Shortbow|Longbow|L. Crossbow| H. Crossbow])
+Oil of Sharpness
+Painted gold child's sarcophagus
+Phamea's Pocket Steed
+Pink Nayla Petal
+Platinum Ring
+Potion of Cloud Giant Strength
+Potion of Flying
+Potion of Longevity
+Potion of Lycanthropy Immunization
+Potion of Speed
+Potion of Sudden Translocation
+Potion of Supreme Healing
+Potion of Vitality
+Pouch of Healing Potions
+Powder of Piercing
+Powder of Piercing 
+Ring of Regeneration
+Ring of Shooting Stars
+Ring of Telekinesis
+Robe of Scintillating Colors
+Robe of Stars
+Rod of Absorption
+Rod of Alertness
+Rod of Security
+Rod of the Pact Keeper, +3
+Rogue Stone
+Sarcophagus
+Set of Golden Cups
+Shield, +3
+Small gold statuette set with \a [@Gems]
+Spellguard Shield
+Staff of Fire
+Staff of Frost
+Staff of Power
+Staff of Striking
+Staff of the Verdant Grove
+Staff of Thunder and Lightning
+Stern Sword of Grammar Correction
+Stick of Rage
+Sunfire Chakrams
+Sunfire Shurikens
+Sword of Sharpness ([@Random Weapon])
+The Blaze of Glory
+The Olm Shield
+Thunderhead Bolts
+Tome of Clear Thought
+Tome of Leadership and Influence
+Tome of Understanding
+Wand of Polymorph
+Wand of the War Mage, +3
+Weapon, +3 ([@Random Weapon])
+Winged Eye
+Zoltar's Pearlescent Ring
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+[@Gems]
+EndTable:
+
+Table: Gems
+Black Opal
+Black Sapphire
+Blue Sapphire
+Diamond
+Emerald
+Fire Opal
+Jacinth
+Opal
+Ruby
+Star Ruby
+Star Sapphire
+Yellow Sapphire
+EndTable:

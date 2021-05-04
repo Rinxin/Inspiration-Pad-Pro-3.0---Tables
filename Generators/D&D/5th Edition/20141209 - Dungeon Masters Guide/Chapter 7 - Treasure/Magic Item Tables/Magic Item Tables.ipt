@@ -1,0 +1,79 @@
+; Magic Item Tables.ipt
+; created 9/19/2019 10:13:47 PM
+
+use: Generators\D&D\5e\Treasure Tables\Categories\Category A.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category B.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category C.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category D.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category E.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category F.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category G.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category H.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category I.ipt
+use: Generators\D&D\5e\Treasure Tables\Categories\Category J.ipt
+
+
+
+
+Table: Magic Item Table A
+Roll:1d100
+01-50:	\n<b>Potion of healing</b>\n
+51-70:	\n[@Category A]
+71-80:	\n[@Category B]
+81-98:	\n[@Category F]
+99-100:	\n[@Category G]
+EndTable:
+
+Table: Magic Item Table B
+Roll:1d100
+01-15:	\n<b>Potion of greater healing</b>\n
+16-80:	\n[@Category B]
+81-100:	\n[@Category G]
+EndTable:
+
+Table: Magic Item Table C
+Roll:1d100
+01-15:	\n<b>Potion of superior healing</b>\n
+16-80:	\n[@Category C]
+81-85:	\n[@Category G]
+86-100:	\n[@Category H]
+EndTable:
+
+Table: Magic Item Table D
+Roll:1d100
+01-20:	\n<b>Potion of Supreme healing</b>\n
+21-90:	\n[@Category D]
+91-93:	\n[@Category H]
+94-100:	\n[@Category I]
+EndTable:
+
+Table: Magic Item Table E
+Roll:1d100
+01-50:	\n[@Category D]
+51-100:	\n[@Category E]
+EndTable:
+
+Table: Magic Item Table F
+Roll:1d100
+01-100:	\n[@Category G]
+EndTable:
+
+Table: Magic Item Table G
+Roll:1d100
+01-05:	\n[@Category G]
+06-100:	\n[@Category H]
+EndTable:
+
+Table: Magic Item Table H
+Roll:1d100
+01-03:	\n[@Category G]
+04-10:	\n[@Category H]
+11-100:	\n[@Category I]
+EndTable:
+
+Table: Magic Item Table I
+Roll:1d100
+01-08:	\n[@Category H]
+09-15:	\n[@Category I]
+16-100:	\n[@Category J]
+EndTable:

@@ -1,0 +1,180 @@
+; Legendary Treasure.ipt
+; created 5/29/2018 2:49:01 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Armor Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+Table:Common_Armor
+EndTable:
+
+Table:Common_Potion
+EndTable:
+
+Table:Common_Ring
+EndTable:
+
+Table:Common_Rod
+EndTable:
+
+Table:Common_Scoll
+EndTable:
+
+Table:Common_Staff
+EndTable:
+
+Table:Common_Wand
+EndTable:
+
+Table:Common_Weapon
+EndTable:
+
+Table:Common_Wondrous Item
+EndTable:
+
+Table: Legendary Treasure
+48-sided Garnet Gemstone
+9th Level Spell Scroll ([@Level-9])
+Apparatus of Kwalish
+Armor of Invulnerability ([@Random Armor])
+Armor, +3 ([@Random Armor])
+Balering, the Sword of Balance
+Belt of Cloud Giant Strength
+Belt of Storm Giant Strength
+Black Sapphire
+Bloodgaze, Champion of Vingaret
+Brass Halo
+Bronze Halo
+Cloak of Invisibility
+Cloak of the Shadow General
+Copper Band of the Deceiver
+Copper Halo
+Crystal Ball (Legendary)
+Cubic Gate
+Deck of Many Things
+Defender ([@Random Melee])
+Diamond
+Efreeti Chain
+Eternity Armor
+Golden Halo
+Hallowed Skin
+Hammer of Thunderbolts
+Holy Avenger ([@Random Melee])
+Horn of Valhalla (Iron)
+Instrument of Bards (Ollamh Harp)
+Ioun Stone (Greater Absorption)
+Ioun Stone (Mastery)
+Ioun Stone (Regeneration)
+Iron Flask
+Jacinth
+Luck Blade ([@Random Melee])
+Observer's Ring
+Plate Armor of Etherealness
+Pocket Tornado
+Potion of Storm Giant Strength
+Potion of Temporary Immortality
+Ring of Air Elemental Command
+Ring of Dijinni Summoning
+Ring of Earth Elemental Command
+Ring of Fire Elemental Command
+Ring of Invisibility
+Ring of Spell Turning
+Ring of Three Wishes
+Ring of Water Elemental Command
+Robe of the Archmagi
+Rod of Lordly Might
+Rod of Resurrection
+Ruby
+Scarab of Protection
+Seaglass Earring
+Silver Halo
+Smoldering Cloak
+Solarion
+Sovereign Glue
+Sphere of Annihilation
+Staff of the Magi
+Sword of Answering ([@Random Melee])
+Talisman of Pure Good
+Talisman of the Sphere
+Talisman of Ultimate Evil
+Thaxton's Hammer
+The Book of Kaza
+The Box of 'Do Want'
+The Eye of Far Seeing
+Tome of the Stilled Tongue
+Universal Solvent
+Vial #2
+Vorpal Sword ([@Random Melee])
+Well of Many Worlds
+[@Special]
+EndTable:
+
+Table: Special
+Roll:1d100
+01-97:[@Legendary Magic Items]
+98: [@Teeth of the Dragon]
+99:[@Artifacts]
+100:[@Vestiges]
+
+Table: Artifacts
+Axe of the Dwarvish Lords
+Book of Exalted Deeds
+Book of Vile Darkness
+Eye of Vecna
+Hand of Vecna
+Orb of Dragonkind([@Damage Types])
+Sword of Kas
+Bad Omen (Anathema ShadowBinder)
+Bookmark
+The Codex Furinstruma
+The Codex Terranosis
+Drown
+Ironfang
+Lost Crown of Besilmer
+Orcsplitter
+Ring of Winter
+Staff of the Forgotten One
+Tinderstrike
+Windvane
+EndTable:
+
+Table: Vestiges
+Agony
+Armor of the Valiant Soul
+Cabal's Ruin
+Circlet of Barbed Vision
+Condemner
+Deathwalker's Ward
+Fenthiras
+Honor's Last Stand
+Kiss of the Chaingebringer
+Mythcarver
+Plate of the Dawnmartyr
+Pyremaul
+Spire of Conflux
+Titanstone Knuckles
+Whisper
+Wraps of Dyamak
+EndTable:
+
+Table: Teeth of the Dragon
+Arcturus - Sword of the Stars
+Deneb - The Sword of Dreams
+Gemini - The Sword of Truth
+Narada - The Sword of Darkness
+Orion - The Master Sword
+Rigel - The Sword of Fate
+Scorpius - The Sword of Lies
+Uriel - The Sword of the Dawn
+EndTable:
+
+Table: Divine Swords
+The Demon Sword - Lostvayne
+Divine Axe - Rhitta
+Holy Rod - Courechouse
+Morning Star - Aldan
+Spirit Spear - Chastiefol
+Twin Bow - Herritt
+War Hammer - Gideon
+EndTable:

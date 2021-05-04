@@ -1,0 +1,60 @@
+; Magic Item Tables.ipt
+; created 5/29/2018 12:39:53 PM
+
+Use: Common\DMG\Items\Magic Item Lists.ipt
+
+
+
+Table: Magic Item Table A
+01-50: Potion of Healing
+51-70: [@Magic Item List A]
+71-80: [@Magic Item List B]
+81-98: [@Magic Item List F]
+99-100: [@Magic Item List G]
+EndTable:
+
+Table: Magic Item Table B
+01-15: Potion of Greater Healing
+16-80: [@Magic Item List B]
+81-100: [@Magic Item List G]
+EndTable:
+
+Table: Magic Item Table C
+01-15:Potion of Superior Healing
+16-80: [@Magic Item List C]
+81-85:[@Magic Item List G]
+86-100:[@Magic Item List H]
+EndTable:
+
+Table: Magic Item Table D
+01-20: Potion of Supreme Healing
+21-90: [@Magic Item List D]
+91-93: [@Magic Item List H]
+94-100: [@Magic Item List I]
+EndTable:
+
+Table: Magic Item Table E
+01-50: [@Magic Item List D]
+51-100: [@Magic Item List E]
+EndTable:
+
+Table: Magic Item Table F
+01-100: [@Magic Item List J]
+EndTable:
+
+Table: Magic Item Table G
+01-05: [@Magic Item List J]
+06-100: [@Magic Item List K]
+EndTable:
+
+Table: Magic Item Table H
+01-03: [@Magic Item List J]
+04-10: [@Magic Item List K]
+11-100: [@Magic Item List L]
+EndTable:
+
+Table: Magic Item Table I
+01-08: [@Magic Item List K]
+09-15: [@Magic Item List L]
+16-100: [@Magic Item List M]
+EndTable:

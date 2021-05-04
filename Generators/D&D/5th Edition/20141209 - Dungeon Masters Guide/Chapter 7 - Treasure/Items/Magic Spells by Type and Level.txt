@@ -1,0 +1,24 @@
+Spell List
+
+
+
+
+
+
+Table: Main
+[@Arcane]Bard, Fighter, Rogue, Sorcerer, Wizard
+[@Divine]Cleric, Paladin,
+[@Other]Barbarian, Druid, monk, Psychic, Ranger, Warlock
+EndTable:
+
+Table: Arcane
+
+EndTable:
+
+Table: Divine
+
+EndTable:
+
+Table: Other
+
+EndTable:

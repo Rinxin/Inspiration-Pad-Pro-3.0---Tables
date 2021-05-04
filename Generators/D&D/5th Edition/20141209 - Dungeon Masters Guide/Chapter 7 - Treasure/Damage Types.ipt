@@ -1,0 +1,15 @@
+; Damage Types.ipt
+; created 5/29/2018 9:29:16 PM
+
+Table: Damage Type-Elemental
+Acid
+Cold
+Fire
+Force
+Lightning
+Necrotic
+Poison
+Psychic
+Radiant
+Thunder
+EndTable:

@@ -1,0 +1,375 @@
+; Magic Item List  H.ipt
+; Rare Magic Items
+; created 9/19/2019 10:03:01 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt
+
+Table: Magic Item List H
+Acheron Blade
+Ammunition, +2
+Amulet of Absolute Vision
+Amulet of Health
+Amulet of Protection from Turning
+Amulet of the Huntress
+Amulet of the Warmage
+Ancient Sword of the Scribe
+Arctic Beans
+Arm of the Fire Genasi Veteran
+Armor of Resistance
+Armor of St. Gaed the Confessor
+Armor of the Tundra Ranger
+Armor of Vanishing
+Armor of Vulnerability
+Armor, +1
+Arrow-Catching Shield
+Augmier's Blast Shield
+Augmier's Boots of Travel
+Augmier's Handaxe Accelerator
+Augmier's Shattered Sphere
+Augmirer's Scorching Orb
+Axe of the Swarm
+Badge of the Watch
+Band of the Firm Grip
+Band of the Runebinder
+Banner of the Krig Rune
+Battering Shield
+Belt of Dwarvenkind
+Belt of Giant Strength, Hill
+Berserker Axe
+Berserker Belt
+Black Market Exchange Chest
+Black Scorpion
+Blade of the Deep One
+Blod Stone
+Bloodwraught
+Bloom Mic
+Blue Arcing Blade
+Bonecounter
+Bones of a Wandering Soul
+Boom-erang
+Boomerang, +2
+Boots of Levitation
+Boots of Speed
+Bowl of Commanding Water Elementals
+Bracer of Flying Daggers
+Bracers of Defense
+Bracers of the Bodyguard
+Brazier of Commanding Fire Elementals
+Breaker's Bow
+Bridle of Capturing
+Brightwood Wanderer's Staff
+Brightwood Warden's Cloak
+Brightwood Warrior's Blade
+Bronze Griffon (Figurine of Wondrous Power)
+Butcher's Bib
+Cael Hammer
+Call of the Void
+Canaith Mandolin (Instrument of the Bards)
+Candles of Accord
+Cannonshot Sling
+Cape of the Mountebank
+Cauldron of Plenty
+Censer of Controlling Air Elementals
+Chain of the Abyss
+Chains of the Brothers in Arms
+Charm of Plant Command
+Chime of Opening
+Chromatic Collar
+Claw of the Wyrm Rune
+Claws of the Umber Hulk
+Cli Lyre (Instrument of the Bards)
+Cloak of Displacement
+Cloak of Solitude
+Cloak of the Bat
+Cloak of the First Snow
+Cloud Giant's Hammer
+Comet's Tail
+Concertina
+Corpse Slayer
+Corrupted Hammer of Life
+Craek's Rod of Fishing
+Craek's Whirling Battleblade
+Cube of Force
+Curse Jar
+Cursebreaker's Cutlass
+Daern's Instant Fortress
+Dagger of Blindsight
+Dagger of Shadowy Displacement
+Dagger of Venom
+Dance
+Deck of Many Flavors
+Decoding Ring
+Derrahk's Portable Battlement
+Derrahk's Stone Bracers
+Derrahk's Stone Javelin
+Desert's Reach
+Dimensional Shackles
+Docent
+Dodecahedron of Doom
+Dragon Slayer
+Dragonguard
+Dragon's Breath
+Dragontooth Dagger
+Duality Blade
+Dubloonblaster
+Eagle Whistle
+Eaglewood Bow
+Ebony Fly (Figurine of Wondrous Power)
+Efreeti's Kusarigama
+Elven Chain
+Elytriss' Rod of Numbing
+Elytriss' Staff of Static Barriers
+Emberblast
+Ethereal Blade
+Executioner's Remorse
+Eye of the Deep One
+Fang Repeater
+Feather of Diatryma Summoning
+Feather Token
+Flame Tongue
+Flying Chariot
+Folding Boat
+Frost Reaper
+Galder’s Bubble Pipe
+Gambler’s Blade
+Gauntlet of Adni
+Gauntlet of Midas
+Gauntlet of Vesz
+Gauntlets of Flaming Fury
+Gauntlets of the Glacier
+Gavel of the Venn Rune
+Gem of Seeing
+Ghost Lantern
+Giant Slayer
+Glamoured Studded Leather
+Gloves of Nullification
+Gloves of the Verdant Sentry
+G'nehr's Arboreal Arsenal
+G'nehr's Vest of Vines
+G'nehr's Woodland Wrath
+Golden Lions (Figurine of Wondrous Power)
+Grace
+Granite Orbiting Hammer
+Gravedigger's Staff
+Greater Charm of the Eye
+Greater Deathbane Shield
+Gulthias Staff
+Halberd of the Northern Tribe
+Hand Wraps of the Gathering Storm
+Handy Haversack
+Hell Hound Cloak
+Helm of Selective Hearing
+Helm of Teleportation
+Helm of the Gods
+Helm of the Hummingbird
+Heward's Handy Haversack
+Hide of the Behir
+Hood of the Deciever
+Hook of Fisher’s Delight
+Horn of Blasting
+Horn of the Endless Maze
+Horn of Valhalla, Brass
+Horn of Valhalla, Silver
+Horselord's Curved Blade
+Horseshoes of Speed
+Inferno Sling
+Instant Fortress
+Instrument of Bardic Assistance
+Ioun Stone: Awareness
+Ioun Stone: Historical Knowledge
+Ioun Stone: Language Knowledge
+Ioun Stone: Natural Knowledge
+Ioun Stone: Protection
+Ioun Stone: Religious Knowledge
+Ioun Stone: Reserve
+Ioun Stone: Self-Preservation
+Ioun Stone: Supreme Intellect
+Ioun Stone: Sustenance
+Iron Bands of Bilarro
+Iron Bands of Binding
+Ivory Goat of Terror (Figurine of Wondrous Power)
+Ivory Goat of Travail (Figurine of Wondrous Power)
+Ivory Goat of Traveling (Figurine of Wondrous Power)
+Knave’s Eye Patch
+Kraken Seer's Eyepatch
+La Cuillotina
+Lead Hex Crossbow
+Leather Golem Armor
+Lesser Conjuration Clay
+Lesser Gloves of Silence
+Lesser Mental Barrier Bracers
+Lightforged Chakram
+Lightning Bowstring
+Limbo Goggles
+Living Wooden Blade
+Loadstone
+Mace of Disruption
+Mace of Smiting
+Mace of Terror
+Mantle of Regency
+Mantle of Spell Resistance
+Marble Elephant (Figurine of Wondrous Power)
+Marble Mallet
+Mask of the Raven Disciple
+Master’s Amulet
+Melf's Meteor Helm
+Merfolk Blade
+Midwinter Mittens
+Mind Blade
+Mind Lash
+Mirrogold
+Mirror of the Past
+Misfit's Wardrobe
+Mithral Half-Plate, +1
+Mizzium Armor
+Mizzium Mortar
+Molten Bronze Skin
+Molten Gold of the Alchemist
+Mountainguard's Greataxe
+Mummified Cloth of the Void
+Necklace of Fireballs
+Necklace of Prayer Beads
+Necklace of Tree Striding
+Needle of Mending
+Ol' Shipwrecker
+Onyx Dog (Figurine of Wondrous Power)
+Opal of the Ild Rune
+Orb of the Stein Rune
+Pariah’s Shield
+Pen of Many Messages
+Pendant of the Dreamer
+Periapt of Proof against Poison
+Phantom Mask of Manipulation
+Piercer
+Piercer of the Purple Rose
+Piwafwi of Fire Resistance
+Portable Cabinet of Supplying
+Portable Hole
+Primal Staff of the Queen Bee
+Professor Orb
+Professor Skant
+Psionic Crystal, Huge
+Psionic Crystal, Large
+Psionic Crystal, Medium
+Psionic Crystal, Small
+Remedial Bucket of Frost
+Remnant fo the Defeated
+Remorhaz's Plate Armor
+Reynier's Overwhelming Beam
+Ring of Animal Influence
+Ring of Divination
+Ring of Eldritch Energy
+Ring of Evasion
+Ring of Feather Falling
+Ring of Free Action
+Ring of Protection
+Ring of Resistance
+Ring of Spell Storing
+Ring of Temporal Salvation
+Ring of the Fey
+Ring of the Lone Captain
+Ring of the Ram
+Ring of X-ray Vision
+Ritual Dagger of the Moon
+Robe of Eyes
+Robe of Summer
+Robe of the Brotherhood
+Rod of Rulership
+Rod of the Pact Keeper, +2
+Rod of the Vonindod
+Rope of Entanglement
+Rosewood
+Ruby Blade
+Saint Markovia’s Thighbone
+Sapphire Claws
+Satchel of Sustenance
+Scalpel of the Blooddrainer
+Scorpion Armor
+Scrap Musket
+Serpintine Owl (Figurine of Wondrous Power)
+Shadow of the Mimic
+Shadowborn's Second Skin
+Shadowglass Dagger
+Shield Guardian Amulet
+Shield of Far Sight
+Shield of Missile Attraction
+Shield, +2
+Silver Bands of the Vine
+Silver Dragon's Boon
+Silver Togued Lyre
+Siren Song Lyre
+Skirt of the Merchant Princess
+Song
+Speaking Stone
+Spell Gem (Bloodstone)
+Spell Gem (Quartz)
+Spider Staff
+Spider's Sting
+Spined Bucklers
+Spiritwalker's Flail
+Spyglass of the Seaspecter
+Staff of Amplification
+Staff of Charming
+Staff of Defense
+Staff of Healing
+Staff of Swarming Insects
+Staff of the Arbor Abode
+Staff of the Ivory Claw
+Staff of the Woodlands
+Staff of Thundering Orbs
+Staff of Withering
+Stargazer
+Stasis Hammer
+Stone of Controlling Earth Elementals
+Stonespeaker Crystal
+Storm Whip
+Sun Blade
+Sunforger
+Surveyor's Compass
+Sword of Life Stealing
+Sword of Wounding
+Tentacle Rod
+The Tapestry of Reweaving
+Thorn of the North
+Thorn Walkers
+Thorns of Greed
+Traceless Slippers
+Treasure Hunter's Shovel
+Twistbreeze Longbow
+Two-Birds Sling
+Urn of the Lava Bearer
+Velorin's Laboratory
+Ventilating Lungs
+Vial of Overgrowth
+Vial of the Watery Steed
+Vicious Rapier, +1
+Vicious Weapon
+Violin of the Afterlife
+Walkyr's Winged Headband
+Wand of the War Mage, +2
+War Machete
+Warden's Hammer of Life
+Warlute
+Watery Shield
+Wavecaller
+Way Darts
+Weapon of Certain Death
+Weapon of the Forgotten Pact
+Weapon, +2
+Weird Tank
+Whispering Stone of Warning
+Wings of Flying
+Winter's Edge
+Wound
+Wrath of the Tempest
+Yklwa, +2
+EndTable:

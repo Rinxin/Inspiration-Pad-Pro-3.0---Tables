@@ -1,0 +1,213 @@
+; Mundane Treasure.ipt
+; created 5/29/2018 12:42:55 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+Table: Mundane Treasure
+Ancient Sword
+Andar Gem
+Azurite Gem
+Bale of Furs
+Banded Agate
+Banded Agate Gem
+Barrel o' Eels
+Barrel o' Nails
+Beaver Pelts
+Belt
+Black Velvet Mask
+Black velvet stitched with silver thread
+Blank Scroll
+Blanket
+Blood Stained Dress
+Blood-Soaked Book
+Blue Quartz
+Blue Quartz Gem
+Blue Scarf
+Bone Butter Churn
+Bone Dice
+Bone Fragments
+Bone Needle
+Broken Sword
+Candle
+Carved Bone Statuette
+Carved bone statuette
+Chalk
+Cloth Scrap
+Cloth-of-gold Vestments
+Cloth-of-gold vestments
+Comb
+Cooking Pot
+Copper Acorns
+Copper Chalice
+Copper chalice with silver filigree
+Crowbar
+Crude Box
+Crude Holy Symbol
+Crude Pipe
+Curious Powder Box
+Dead Fey
+Deer Bust
+Dehydrated Homunculi
+Demon's Vale Wine
+Die (6 Sided)
+Dinosaur Bacon
+Dire Bat Wings
+Disk of Balance
+Do You Even Lift?
+Draining Dagger
+Dried Flower
+Dust Ruby
+Electrum Bracer
+Electrum Ring
+Embroidered silk handkerchief
+Empty Vial
+Eye Agate
+Eye Agate Gem
+Fat Cat Statue
+Fine Cheese
+Fishing Tackle
+Flesh Shield
+Flint & Steel
+Fool's Gold
+Fragrant Torches
+Frolee's Guide to Follicle Perfection
+Garlic
+Gem
+Gem of Azurite
+Glass Sphere
+Glittering Glass
+Glitternight Dust
+Glow Stones
+Goat Jerky
+Gold Bracelet
+Gold Locket
+Gold locket with a painted portrait inside
+Hammer
+Hand Mirror
+Hematite
+Holy Bones
+Holy Book
+Holy Ice Symbol
+Holy Symbol
+Honey
+Honeysuckle Potion
+Hope Chest
+Inhalation Herbs & Essences
+Ink
+Iron Buckle
+Iron Earring
+Iron Nail
+Iron Spike
+Iron Torc
+Ivory Peg Leg
+Jar o' Eyeballs
+Jerked Meats
+Keg o' Nails
+Knee Breeches
+Lantern
+Lapis Lazuli
+Lapis Lazuli Gem
+Large Pile of Coal
+Lead Coins
+Leather Quiver
+Leather Satchel
+Little Riding Hood
+Lynx Eye Gem
+Lynx Eye Gem
+Magical Ring of Engagement
+Magnifying Glass
+Malachite
+Malachite Bracelet
+Malachite Gem
+Man Mask
+Mechanical Mice
+Mistletoe
+Moss Agate
+Moss Agate Gem
+Net
+Obsidian
+Obsidian Gem
+Oil
+Old Hat
+Old Pouch
+Old Round Shield
+Old Saddlebag
+Old Wheelbarrow
+Pair of engraved bone dice
+Parchment
+Pick Axe
+Playing Cards
+Potpourri
+Rhodochrosite
+Rhodochrosite Gem
+River Stone
+Rope
+Saw
+Scroll Case
+Silk Handkerchief
+Silver Ewer
+Silver ewer
+Small gold bracelet
+Small Mirror
+Small mirror set in painted wooden frame
+Soap
+Spork of Positive Reinforcement
+Steel Chain
+Steel Lockbox
+Threatening Probe
+Tiger Eye
+Tiger Eye Gem
+Tin Cup
+Tinderbox
+Tobacco
+Torch
+Turquoise
+Turquoise Gem
+Unreadable Note
+Used Whetstone
+Vanishing Ring
+Walking Stick
+Wasplight Lantern
+Waterskin
+Weighted Die (6 Sided)
+Whistle
+Wolf Pelt
+Wooden Board
+Wooden Spike
+Wormrose Incense
+Wormscrape
+EndTable:
+
+
+Table: Random Armor
+[@Light_Armor]
+[@Medium_Armor]
+[@Heavy_Armor]
+EndTable:
+
+Table: Light_Armor
+Padded Armor
+Leather Armor
+Studded Leather Armor
+EndTable:
+
+Table: Medium_Armor
+Hide Armor
+Chain Shirt Armor
+Scale Mail Armor
+Breastplate Armor
+Half Plate Armor
+EndTable:
+
+Table: Heavy_Armor
+Ring Mail Armor
+Chain Mail Armor
+Splint Armor
+Plate Armor
+EndTable:
+
+Table: Shields
+Shield
+EndTable:

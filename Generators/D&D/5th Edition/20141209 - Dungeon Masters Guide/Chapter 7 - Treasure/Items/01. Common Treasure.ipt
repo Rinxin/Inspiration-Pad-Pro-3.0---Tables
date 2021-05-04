@@ -1,0 +1,256 @@
+; Common Treasure.ipt
+; created 5/29/2018 12:42:55 PM
+
+Use: Common\DMG\Spells by Level.ipt
+Use: Common\DMG\Resource Files\Weapon Types.ipt
+Use: Common\DMG\Resource Files\Armor Types.ipt
+Use: Common\DMG\Resource Files\Damage Types.ipt
+
+Table:Common_Armor
+EndTable:
+
+Table:Common_Potion
+Potion of Climbing (https://www.dndbeyond.com/magic-items/potion-of-climbing)
+Potion of Healing (https://www.dndbeyond.com/magic-items/potion-of-healing)
+EndTable:
+
+Table:Common_Ring
+EndTable:
+
+Table:Common_Rod
+EndTable:
+
+Table:Common_Scoll
+0 Level Spell Scroll ([@Level-0])
+1st Level Spell Scroll ([@Level-1])
+EndTable:
+
+Table:Common_Staff
+EndTable:
+
+Table:Common_Wand
+EndTable:
+
+Table:Common_Weapon
+EndTable:
+
+Table:Common_Wondrous Item
+EndTable:
+
+Table: Common Treasure
+"The Art of Potionmaking" by Zygmunt Brigge
+Agni Mani Necklace
+Among the Kobolds
+Ancient Tome
+Aquamarine Necklace
+Armor of Gleaming ([@Random Armor])
+Bead of Nourishment
+Bead of Refreshment
+Bedroll
+Bloodstone
+Bonesaw
+Boots of False Tracks
+Box of turquoise animal figurines
+Brandistock
+Brass Chamber Pot
+Brass Knuckles
+Brass mug with \a [@Gems] inlay
+Bronze Crown
+Bronze Tower Shield
+Candle of the Deep
+Carnelian Gemstone
+Carthus Tome of Pyromancy
+Carved ivory statuette
+Carved Wooden Mantle
+Cast-off Armor ([@Random Armor])
+Cat Pendant
+Cestus
+Chalcedony Gemstone
+Charlantan's Die
+Chicken Eggs
+Child's Mittens and Hat
+Chrysoprase Gemstone
+Citrine Gemstone
+Classy Shirt
+Climbing Harness
+Cloak of Billowing
+Cloak of Griffon Feathers
+Cloak of Many Fashions
+Clockwork Amulet
+Cloth Doll
+Clothes of Mending
+Clothier's Dye
+Cockatrice Statue
+Colloquial Black Speech for Orcs, Trolls and Men
+Copper Bars
+Copper Necklace
+Copper Tongue Scraper
+Cow
+Crystal Vase
+Dark Shard Amulet
+Dart
+Dead Warrior
+Door Rubble
+Double Spear
+Dragon Banner
+Dragon Head Shield
+Dread Helm
+Drow Medallion
+Dwarven Compass
+Dwarven Holy Symbol
+Ear Horn of Hearing
+Echo Crystal
+Electrum Rose
+Electrum Sheet
+Elephant Tusks
+Enduring Spellbook
+Ersatz Eye
+Fairy Wing Cage
+Field Tent
+Fire Agate Gem
+Flask Bandolier
+Flask Belt
+Fluted Short Spear
+Foul Ivory Statue
+Frost Giant's Necklace
+Frying Pan
+Fur Basket
+Glass Window
+Glowing Crystal
+Gold bird cage with electum filigree
+Gold ring set with \a [@Gems]
+Golden Horn
+Golden Orb
+Golden Signet Ring
+Grandfather's Broadsword
+Great Spear
+Hand Axe
+Hand Harp
+Harpy Feather Fan
+Hat of Vermin
+Hat of Wizardry
+Hell Scented Potpourri
+Hemp Rope
+Heward's Handy Spice Pouch
+Hidden Blade Bracer
+Hidden Daggers
+Holy Sword of Pentorus
+Holy Symbol
+Holy Water
+Horn of Silent Alarm
+How to Win Friends and Influence People
+Instrument of Illusions
+Instrument of Scribing
+Iol Gem
+Iron Flask
+Ivory Dress
+Ivory Mice
+Jade Fountain
+Jade Pendant
+Jallak's Shield
+Jasper Gem
+Jewel Wood
+Kilan Wester's Royal Recipes
+Knife Vest
+Large Bronze Bell
+Large gold bracelet
+Large well-made tapestry
+Leather Bag of Dragon Scales
+Leviathan Organ
+Libatius Borage's Advanced Potion Making
+Lich Skull
+Lock of Trickery
+Malivar's Wardrobe
+Mallius Metallius, A Layman's Guide to Metallurgy
+Mammoth Sword
+Manticora Branding Iron
+Manual of Bodily Health
+Manual of Gainful Exercise
+Manual of Quickness of Action
+Masquerade Mask
+Masterwork Gaming Darts
+Matroshka Seeds
+Medicinal Herbs
+Mineral Oil
+Moon-touched Sword ([@Random Weapon])
+Moonstone
+Moonstone Sheath
+Moradin's Magical Bestiary
+Mystery Key
+Onyx Gemstone
+Orb of Direction
+Orb of Time
+Orb Of Venom
+Orcish Cookbook
+Perfume of Bewitching
+Pipe of Smoke Monsters
+Pole of Angling
+Pole of Collapsing
+Pot of Awakening
+Potion of Climbing
+Potion of Healing
+Pouch
+Pouch of Healing Potions
+Rope of Mending
+Ruby of the War Mage
+Sardonyx Gemstone
+Scythe
+Seimai's Guide to Healing Tonics
+Shandon Gem
+Shield of Expression
+Silk robe with gold embroidery
+Silver necklace with \a [@Gems] pendant
+Skydrop Gem
+Smoldering Armor ([@Random Armor])
+Spade
+Staff of Adornment
+Staff of Birdcalls
+Staff of Flowers
+Star Diopside Gem
+Star Rose Quartz
+Sunstone Gem
+Talking Doll
+Tankard of Sobriety
+Tchazar Gem
+The Art of Potionmaking by Zygmunt Brigge
+The Recipes and Ruminations of One Dradeel of Tethir
+The Three Rules to Poisoncraft
+Tobacco Cask
+Tome of Clear Thought
+Tome of Understanding
+Tourmaline Chain
+Unbreakable ([|Arrow|Bolt|Sling Bullet])
+Unfinished Zircon Gem
+Unusable Scroll
+Usk Brandy
+Veteran's Cane ([@Random Weapon])
+Vial of Antitoxin
+Walloping Ammunition ([|Arrow|Bolt|Sling Bullet])
+Wand of Conductiong
+Wand of Pyrotechnics
+Wand of Scowls
+Wand of Smiles
+Waterstar Gem
+Wooden Wind Chimes
+[@Gem] Gemstone
+[@Gem] Gemstone
+[@Gems]
+EndTable:
+
+Table: Gems
+Ziose Gemstone
+Zircon Gemstone
+Bloodstone
+Carnelian
+Chalcedony
+Chrysoprase
+Citrine
+Jasper
+Moonstone
+Onyx
+Quartz
+Sardonyx
+Star Rose
+Ziose
+Zircon
+EndTable:

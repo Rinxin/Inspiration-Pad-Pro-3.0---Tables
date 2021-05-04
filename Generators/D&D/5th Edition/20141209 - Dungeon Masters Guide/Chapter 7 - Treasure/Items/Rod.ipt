@@ -1,0 +1,35 @@
+
+
+
+Table: Common_Rod
+\z
+EndTable:
+
+Table: Uncommon_Rod
+Immovable Rod
+Rod of the Pact Keeper, +1 ([|Celestial|Fey|Fiend|Hexblade|Old God])
+EndTable:
+
+Table: Rare_Rod
+Rod of Rulership
+Rod of the Pactkeeper, +2 ([|Celestial|Fey|Fiend|Hexblade|Old])
+Rod of the Vonindod
+Tentacle Rod
+EndTable:
+
+Table: Very_Rare_Rod
+Rod of Absorption
+Rod of Alertness
+Rod of Security
+Rod of the Pactkeeper, +3 ([|Celestial|Fey|Fiend|Hexblade|Old])
+EndTable:
+
+Table: Legendary_Rod
+Rod of Lordly Might
+Rod of Resurrection
+[@Artifact/Unique_Rod]
+EndTable:
+
+Table: Artifact/Unique_Rod
+\z
+EndTable:

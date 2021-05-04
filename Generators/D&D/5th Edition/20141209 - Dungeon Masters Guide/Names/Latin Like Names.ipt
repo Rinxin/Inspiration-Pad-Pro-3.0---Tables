@@ -1,0 +1,4 @@
+use: nbos/names/latin.ipt
+
+Table: LatinLike
+[@LatinName >> Proper]

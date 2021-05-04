@@ -1,0 +1,55 @@
+
+
+Table: Common_Armor
+[@PHB_Light_Armor]
+[@PHB_Medium_Armor]
+[@PHB_Heavy_Armor]
+Armor of Gleaming ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Cast-off Armor ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Shield of Expression
+Smoldering Armor ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+EndTable:
+
+Table: Uncommon_Armor
+Adamantine Armor ([|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Mariner's Armor ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]])
+Mithral Armor ([|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Sentinel Shield
+Shield, +1
+EndTable:
+
+Table: Rare_Armor
+([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]]) of Resistance ([|Acid|Cold|Fire|Force|Lightning|Necrotic|Poison|Psychic|Radiant|Thuder])
+Armor of Vulnerability
+Armor, +1 ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Arrow-catching Shield
+Elven Chain 
+Glamoured ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Shield of Missile Attraction
+Shield, +2
+EndTable:
+
+Table: Very_Rare_Armor
+Animated Shield
+Armor, +2 ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Demon Armor ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Dragon Scale Mail ([|Black|Blue|Brass|Bronze|Copper|Gold|Green|Red|Silver|White])
+Dwarven Plate
+Shield, +3
+Spellguard Shield
+EndTable:
+
+Table: Legendary_Armor
+Armor of Invulnerability
+Armor, +3 ([|[@PHB_Light_Armor]|[@PHB_Medium_Armor]|[@PHB_Heavy_Armor]])
+Efreeti Chain ([|Air|Earth|Fire|Water])
+Plate Armor of Etherealness
+[@Artifact/Unique_Armor]
+EndTable:
+
+Table: Artifact/Unique_Armor
+Armor of the Valiant Soul ([|Normal|Awakened|Exalted])
+Deathwalker's Ward ([|Normal|Awakened|Exalted])
+Honor's Last Stand([|Normal|Awakened|Exalted])
+Plate of the Dawnmartyr ([|Normal|Awakened|Exalted])
+EndTable:

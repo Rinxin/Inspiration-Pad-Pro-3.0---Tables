@@ -1,0 +1,33 @@
+
+
+
+Table: Common_Scroll
+Spell Scroll ([@SpellsMageLevel0])
+Spell Scroll ([@SpellsMageLevel1])
+EndTable:
+
+Table: Uncommon_Scroll
+Spell Scroll ([@SpellsMageLevel2])
+Spell Scroll ([@SpellsMageLevel3])
+EndTable:
+
+Table: Rare_Scroll
+Scroll of Protection
+Spell Scroll ([@SpellsMageLevel4])
+Spell Scroll ([@SpellsMageLevel5])
+EndTable:
+
+Table: Very_Rare_Scroll
+Spell Scroll ([@SpellsMageLevel6])
+Spell Scroll ([@SpellsMageLevel7])
+Spell Scroll ([@SpellsMageLevel8])
+EndTable:
+
+Table: Legendary_Scroll
+Spell Scroll ([@SpellsMageLevel9])
+[@Artifact/Unique_Scroll]
+EndTable:
+
+Table: Artifact/Unique_Scroll
+\z
+EndTable:

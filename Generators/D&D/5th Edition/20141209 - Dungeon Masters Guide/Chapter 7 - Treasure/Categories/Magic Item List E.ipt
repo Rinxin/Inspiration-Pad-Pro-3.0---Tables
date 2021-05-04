@@ -1,0 +1,34 @@
+; Magic Item List  E.ipt
+; Legendary Consumables
+; created 9/19/2019 10:02:46 PM
+
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel0.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel1.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel2.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel3.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel4.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel5.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel6.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel7.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel8.ipt
+use: Generators\D&D\5e\20140814 - Player's Handbook\Spells\SpellsLevel9.ipt	
+
+Table: Magic Item List E
+Bark Scorpion
+Blood Fury Tattoo (UA)
+Burning Bush
+Death Adder
+Fraxinella
+Gas Plant
+Gnomengarde Grenade
+Humble Button
+Potion of Giant Size
+Potion of Giant Strength, Storm
+Scroll of Tarrasque Summoning
+Scroll of the Comet
+Snakewood
+Sovereign Glue
+Spell Scroll, Level 9 Spell
+Strychnine Tree
+Universal Solvent
+EndTable:
