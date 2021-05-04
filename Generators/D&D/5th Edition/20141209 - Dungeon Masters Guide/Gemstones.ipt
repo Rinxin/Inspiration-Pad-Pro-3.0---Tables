@@ -1,0 +1,317 @@
+; Gemstones.ipt
+; created 6/13/2017 7:13:01 PM
+
+use: \\Common\PHB\MageSpells.ipt
+
+Header: Gems
+
+Prompt: CR { } 1
+
+Define: CR={{$prompt1}*{1d6}+1d100}
+
+Table: Gemstones Main
+[#{CR} Size] [#{CR} GemType], [#{CR} Quality], {round({{@BaseValue}*{@SizeMod}*{@QualityMod}*{@FinishMod}*{@SetMod}})} gp\n
+EndTable:
+
+Table: GemType
+Type: Lookup 
+Default: <font color=Purple>[@Precious]</font>{@BaseValue==(4d6+16)}
+1-50:<font color=Grey>[@MundaneMineral]</font>{@BaseValue==(1d6)}
+51-80:<font color=Green>[@OrnamentalStone]</font>{@BaseValue==(1d6+4)}
+81-90:<font color=Blue>[@SemiPrecious]</font>{@BaseValue==(2d6+8)}
+91-97:<font color=Purple>[@Precious]</font>{@BaseValue==(4d6+16)}
+98-100:<font color=Gold>[@Extraordinary]</font>{@BaseValue==(10d6+40)}
+101-160:<font color=Purple>[@Precious]</font>{@BaseValue==(4d6+16)}
+161-200:<font color=Gold>[@Extraordinary]</font>{@BaseValue==(10d6+40)}
+201-240:<font color=Purple>[@Precious]</font>{@BaseValue==(4d6+16)}
+241-280:<font color=Gold>[@Extraordinary]</font>{@BaseValue==(10d6+40)}
+EndTable:
+
+Table: Spell Gem Chance_0
+1-90: \z
+91-100: [#0 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_1
+1-90: \z
+91-100: [#1 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_2
+1-90: \z
+91-100: [#2 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_3
+1-90: \z
+91-100: [#3 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_4
+1-90: \z
+91-100: [#4 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_5
+1-90: \z
+91-100: [#5 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_6
+1-90: \z
+91-100: [#6 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_7
+1-90: \z
+91-100: [#7 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_8
+1-90: \z
+91-100: [#8 Spell Gem Spell]
+EndTable:
+Table: Spell Gem Chance_9
+1-90: \z
+91-100: [#9 Spell Gem Spell]
+EndTable:
+
+Table: Spell Gem Spell
+Type: lookup
+0:(cantrip - [@SpellsLevel0])
+1:(1st lvl - [@SpellsLevel1])
+2:(2nd lvl - [@SpellsLevel2])
+3:(3rd lvl - [@SpellsLevel3])
+4:(4th lvl - [@SpellsLevel4])
+5:(5th lvl - [@SpellsLevel5])
+6:(6th lvl - [@SpellsLevel6])
+7:(7th lvl - [@SpellsLevel7])
+8:(8th lvl - [@SpellsLevel8])
+9:(9th lvl - [@SpellsLevel9])
+EndTable:
+   
+Table: MundaneMineral
+Blue Quartz 
+Zircon
+Moss Agate
+Banded Agate
+Smoky Quartz
+Tiger Eye
+Feldspar
+Fire Agate
+Hematite
+Pyrite
+Chalcedony
+Malachite
+Rose Quartz
+Eye Agate
+EndTable:
+
+Table: OrnamentalStone
+Onyx
+Obsidian [@Spell Gem Chance_[|0|1]]
+Coral
+Jasper
+Carnelian
+Chrysoberyl
+Bloodstone [@Spell Gem Chance_[|2|3]]
+Chrysoprase
+Citrine
+Jet
+Moonstone
+Lapis Lazuli [@Spell Gem Chance_[|0|1]]
+Turquoise
+Quartz [@Spell Gem Chance_[|2|3]]
+EndTable:
+
+Table: SemiPrecious
+Pearl
+Amber [@Spell Gem Chance_[|4|5|6]]
+Garnet
+Aquamarine
+Peridot
+Spinel
+Topaz [@Spell Gem Chance_[|4|5|6]]
+Tanzanite
+Jade [@Spell Gem Chance_[|4|5|6]]
+Amythist
+Tourmaline
+EndTable:
+
+Table: Precious
+Blue Sapphire
+Star Sapphire
+Star Ruby [@Spell Gem Chance_[|7|8|9]]
+Black Pearl
+Emerald
+Black Opal
+Blue Opal
+Fire Opal
+Opal
+Yellow Sapphire
+Black Diamond
+Brown Diamond
+EndTable:
+
+Table: Extraordinary
+White-blue Diamond [@Spell Gem Chance_[|7|8|9]]
+Pink Diamond
+Canary Diamond
+Ruby [@Spell Gem Chance_[|7|8|9]]
+Black Sapphire
+Jacinth
+EndTable:
+
+Table: Size
+Type: Lookup
+Default: Medium {@SizeMod==3}
+01-20: Tiny {@SizeMod==0.5}
+21-60: Small {@SizeMod==1}
+61-90: Medium {@SizeMod==3}
+90-97: Large {@SizeMod==8}
+98-99: <font color=red>Huge</font> {@SizeMod==15}
+100: <font color=red>Monumental</font> {@SizeMod==40} 
+101-145: Medium {@SizeMod==3}
+146-190: Large {@SizeMod==8}
+191-197: <font color=red>Huge</font> {@SizeMod==15}
+198-200: <font color=red>Monumental</font> {@SizeMod==40} 
+201-220: Medium {@SizeMod==3}
+221-260: Large {@SizeMod==8}
+261-272: <font color=red>Huge</font> {@SizeMod==15}
+273-280: <font color=red>Monumental</font> {@SizeMod==40} 
+EndTable:
+
+Table: Quality
+Type: Lookup
+Default: Near Flawless, [#{CR} Finish]{@QualityMod==4}
+01-15: Damaged, [#{1d100-15} Finish]{@QualityMod==0.5}
+16-60: Flawed, [#{{CR}*0.7}} Finish]{@QualityMod==1}
+61-98: Near Flawless, [#{CR} Finish]{@QualityMod==4}
+99-100: <font color=red>Flawless</font>, [#{{CR}*1.1+15} Finish]{@QualityMod==10}
+101-125: Flawed, [#{{CR}*0.7}} Finish]{@QualityMod==1}
+126-190: Near Flawless, [#{CR} Finish]{@QualityMod==4}
+191-200: <font color=red>Flawless</font>, [#{{CR}*1.1+15} Finish]{@QualityMod==10}
+201-210: Flawed, [#{{CR}*0.7}} Finish]{@QualityMod==1}
+211-260: Near Flawless, [#{CR} Finish]{@QualityMod==4}
+261-280: <font color=red>Flawless</font>, [#{{CR}*1.1+15} Finish]{@QualityMod==10}
+EndTable:
+
+Table: Finish
+Type: Lookup
+Default: Raw and unfinished{@FinishMod==0.5}{@SetMod==1}
+01-15: Raw and unfinished{@FinishMod==0.5}{@SetMod==1}
+16-55: Rough finished{@FinishMod==1}{@SetMod==1}
+56-80: Polished{@FinishMod==2}[#{1d100-20} Setting]
+81-96: Polished and cut{@FinishMod==5}[#{1d100} Setting]
+97-100: <font color=red>Expertly polished and cut</font>{@FinishMod==8}[#{1d80 +20} Setting]
+101-125: Rough finished{@FinishMod==1}{@SetMod==1}
+126-175: Polished{@FinishMod==2}[#{1d100-40} Setting]
+176-195: Polished and cut{@FinishMod==5}[#{1d100} Setting]
+196-200: <font color=red>Expertly polished and cut</font>{@FinishMod==8}[#{1d80 +20} Setting]
+201-220: Rough finished{@FinishMod==1}{@SetMod==1}
+221-250: Polished{@FinishMod==2}[#{1d100-40} Setting]
+251-270: Polished and cut{@FinishMod==5}[#{1d100} Setting]
+271-280: <font color=red>Expertly polished and cut</font>{@FinishMod==8}[#{1d80 +20} Setting]
+281-300: Polished and cut{@FinishMod==5}[#{1d100} Setting]
+301-330: <font color=red>Expertly polished and cut</font>{@FinishMod==8}[#{1d80 +20} Setting]
+EndTable:
+
+Table: Setting
+Type: Lookup
+Default: \z{@SetMod==1}
+01-45: \z{@SetMod==1}
+46-75:, Set in a simple [|silver|gold] [#{@SizeMod} Jewelry]{@SetMod==1.2}
+76-99:<font color=red>, Set in a finely crafted and ornate [@Fine] [#{@SizeMod} Jewelry]</font>{@SetMod==1.5}
+100:<font color=red>, Set in an epic and regal [@Epic] [#{@SizeMod} Jewelry]</font>{@SetMod==3}
+EndTable:
+
+Table: Fine
+1: silver
+2: electrum
+8: gold
+4: platinum
+EndTable:
+
+Table: Epic
+1: electrum
+6: gold
+5: platinum
+EndTable:
+
+Table: Jewelry
+Type: Lookup
+Default: [@Tiny]
+1: [@Small]
+3: [@Medium]
+8: [@Large]
+15: [@Huge]
+40: [@Monumental]
+EndTable:
+
+Table: Tiny
+2: pendant
+4: earing
+2: matched pair of earings
+6: ring
+1: figurine
+EndTable:
+
+Table: Small
+2: pendant
+1: broach
+2: amulet
+6: ring
+4: matched pair of earings
+2: earing
+1: wand
+2: figurine
+1: circlet
+EndTable:
+
+Table: Medium
+4: necklace
+1: pendant
+2: broach
+4: bracelet
+1: buckle
+2: scabbard
+2: amulet
+6: ring
+2: matched pair of earings
+2: earing
+1: wand
+1: figurine
+1: circlet
+EndTable:
+
+Table: Large
+3: necklace
+1: broach
+1: bracelet
+1: buckle
+1: scabbard
+2: amulet
+2: ring
+1: wand
+1: circlet
+3: pommel
+1: staff
+1: septer
+1: tiara
+1: orb
+1: idol
+EndTable:
+
+Table: Huge
+3: necklace
+3: amulet
+1: crown
+1: buckle
+2: pommel
+2: staff
+1: septer
+1: tiara
+1: orb
+2: idol
+EndTable:
+
+Table: Monumental
+1: crown
+2: staff
+1: septer
+1: tiara
+1: orb
+2: idol
+EndTable:
