@@ -1,0 +1,72 @@
+; Foraging for Food.ipt
+; created 4/10/2021 7:26:25 PM
+Prompt: What Kind of things are Found: {Normal|Forest|Mountain|Berries|Fruits|Poison} NormRural
+Prompt: How Many People are Foraging:
+MaxReps:1 
+Table: Main
+[!{({2d4}*{Prompt2})} Yay]
+Table: Yay
+Shuffle: Yay
+[#{$prompt1} Secondary]\n
+table: Secondary
+Type: Dictionary
+Normal: [@NormRural]
+Forest: [@Forest]
+Mountain: [@Mound]
+Berries: [@Berry]
+Fruits: [@Fruit]
+Poison: [@Poisonous]
+table: NormRural
+Dandelions (greens)
+Ferns (fiddleheads)
+Wild carrots (roots)
+[@Berry]
+Chantarelle(mushrooms)
+[@Fruit]
+Table: Forest
+Frogs (animal, cook)
+Crayfish (animal, cook)
+Pine Needles (leaf, boil)
+Pine Seeds (inside pine cone scale, cook)
+Earthworms (animal, cook) 
+Wood Sorrel (greens)
+Hazelnuts
+Acorns
+Morel (mushroom)
+Persimmon (fruit)
+Hen-of-the-woods (mushroom)
+Kudzu (leaf)
+Table: Mound
+Cloud Berry
+Miner's Lettuce (greens)
+Stinging Nettle (greens, must cook)
+Pine nuts
+Serviceberries (bush)
+Clover (greens)
+Sagebrush (herb)
+Table: Berry
+Chokeberries (cook many recipe)
+Elderberries (cook)
+Salmonberries (tree, prefer cook)
+Saskatoon Berries (tree, cook many recipe)
+Strawberries (bush)
+Blackberries (vine)
+Blueberries (bush)
+Raspberries (vine)
+Mulberries (tree)
+Huckleberries (bush)
+Gooseberry (bush)
+Table: Poisonous
+Mistletoe (berries)
+Castor beans
+Butterweed (greens)
+Horse nettle (greens)
+Honeyvine (vine/greens)
+Hemlock (looks like parsley)
+Table: Fruit
+Crabapple
+Apple
+Wild plum
+Apricot
+Cherry
+Pear
