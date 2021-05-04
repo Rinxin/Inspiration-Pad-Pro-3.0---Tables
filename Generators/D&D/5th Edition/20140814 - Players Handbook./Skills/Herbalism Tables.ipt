@@ -1,0 +1,158 @@
+; Herbalism Tables.ipt
+; created 8/26/2018 7:47:02 PM
+
+Prompt: Terrain Type {Arctic|Coastal/Underwater|Desert|Forest|Grasslands|Hills|Mountain|Swamp|Underdark|Common Ingredients} Common Ingredients
+
+Table: Main
+[@{$prompt1}]
+EndTable:
+
+Table:Arctic
+Roll:2d6
+2: Silver Hibiscus
+3: Mortflesh Powder
+4: Ironwood Heart
+5: 2x Frozen Seedlings
+6: [@Common Ingredients]
+7: [@Common Ingredients]
+8: [@Common Ingredients]
+9: 2x Artic Creeper
+10: Fennel Silk
+11: Fiend's Ivy
+12: Voidroot
+EndTable:
+
+Table:Coastal/Underwater
+Roll:2d6
+2: {1d4}x Hydrathistle
+3: Amanita Cap (Coastal)
+4: {1d4/2}x Chromus Slime
+5: [@Common Ingredients]
+6:
+7:
+8:
+9: Lavender Sprig (Costal)
+10: Blue Toadshade (Costal)
+11: Wrackwart Bulbs
+12: {1d4/2}x Cosmos Glands
+EndTable:
+
+Table:Desert
+Roll:2d6
+2: Cosmos Glond
+3: Arrow Root
+4: Dried Ephedra
+5: Cactus Juice
+6:
+7:
+8:
+9: Drakus Flower
+10: Scillia Beans
+11: Spineflower Berries
+12: Voidroot, Elemental Water
+EndTable:
+
+Table:Forest
+Roll:2d6
+2: Harrad Leaf
+3: Nightshade Berries
+4: Emetic Wax
+5: Verdant Nettle
+6:
+7:
+8:
+9: Arrow Root
+10: Ironwood Heart
+11: Blue Toadshade
+12: 2x Wisp Stalks (re-roll during day)
+EndTable:
+
+Table:Grasslands
+Roll:2d6
+2: Harrada Leaf
+3: Drakus Flower
+4: 2x Lavender Sprig
+5: Arrow Root
+6:
+7:
+8:
+9: 2x Scillia Beans
+10: Cactus Juice
+11: Tail Leaf
+12: Hyacinth Nectar
+EndTable:
+
+Table:Arctic
+Roll:2d6
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+EndTable:
+
+Table:Arctic
+Roll:2d6
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+EndTable:
+
+Table:Arctic
+Roll:2d6
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+EndTable:
+
+Table:Arctic
+Roll:2d6
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
+11:
+12:
+EndTable:
+
+Table:Common Ingredients
+Roll:2d6
+2: Mandrake Root
+3: Quicksilver Lichen
+4: Quicksilver Lichen
+5: Wild Sageroot
+6: Wild Sageroot
+7: Bloodgrass (re-roll if not tracking provisions)
+8: Wyrmtongue Petals
+9: Wyrmtongue Petals
+10: Milkweed Seeds
+11: Milkweed Seeds
+12: Mandrake Root
+EndTable:
