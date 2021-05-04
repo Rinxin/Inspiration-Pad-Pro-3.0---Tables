@@ -1,0 +1,30 @@
+; SpellsLevel9.ipt
+; created 10/12/2020 12:02:26 AM
+
+Table: SpellsLevel9
+\n<b>Astral Projection</b> <sup>phb 215</sup> \n<em>9th, Necromancy</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M(for each creature you affect with this spell, you must provide one jacinth worth at least 1,000 gp and one ornately carved bar of silver worth at least 100 gp, all of which the spell consumes)\n<b>Casting Time:</b>1 hour\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Foresight</b> <sup>phb 244</sup> \n<em>9th, Divination</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 minute\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Gate</b> <sup>phb 244</sup> \n<em>9th, Conjuration (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Imprisonment</b> <sup>phb 252</sup> \n<em>9th, Abjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 minute\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Invulnerability</b> <sup>xge 160</sup> \n<em>9th, Abjuration (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Mass Heal</b> <sup>phb 258</sup> \n<em>9th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Mass Polymorph</b> <sup>xge 160</sup> \n<em>9th, Transmutation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Meteor Swarm</b> <sup>phb 259</sup> \n<em>9th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Power Word Heal</b> <sup>phb 266</sup> \n<em>9th, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Power Word Kill</b> <sup>phb 266</sup> \n<em>9th, Enchantment</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Prismatic Wall</b> <sup>phb 267</sup> \n<em>9th, Abjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Psychic Scream</b> <sup>xge 163</sup> \n<em>9th, Enchantment</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>S\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Shapechange</b> <sup>phb 274</sup> \n<em>9th, Transmutation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Storm of Vengeance</b> <sup>phb 279</sup> \n<em>9th, Conjuration (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Time Stop</b> <sup>phb 283</sup> \n<em>9th, Transmutation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>True Polymorph</b> <sup>phb 283</sup> \n<em>9th, Transmutation (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>True Resurrection</b> <sup>phb 284</sup> \n<em>9th, Necromancy</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S, M\n<b>Casting Time:</b>1 hour\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Weird</b> <sup>phb 288</sup> \n<em>9th, Illusion (ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+\n<b>Wish</b> <sup>phb 288</sup> \n<em>9th, Conjuration</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>V\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+"\n<b>Blade of Disaster</b> <sup>Icewindale: Rime of the Frostmaiden</sup> \n<em>9th, Conjuration</em>\n<b>Class:</b> <em>Wizard</em>\n\n<b>Components: </b>V, S\n<b>Casting Time:</b>1 bonus action\n<b>Duration:</b>Concentration, up to 1 minute\n<b>Range:</b>60 ft.\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\nYou create a blad-shaped planar rift about 3 feet long in an unoccupied space you can see within range. The blade lasts for the duration. When you cast this spell, you can make up to two melee spell attacks with the blade, each one against a creature, loose object, or structure withing 5 feet  of the blade. On a hit, the target takes 4d12 force damage. This attack scores a critical hit if the number on the d20 is 18 or higher. On a critical hit, the blade deals an extra 8d12 force damage (for a total of 12d12 force damage).&
+\n\n&
+As a bonus action on your turn, you can move the blade up to 30 feet to an unoccupied space you can see and then make up to melee spell attacks with it again.&
+\n\n&
+The blade can harmlessly pass through any barrier, including a wall of force."
+
+EndTable:
