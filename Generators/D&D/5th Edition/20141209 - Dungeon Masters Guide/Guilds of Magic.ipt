@@ -1,0 +1,126 @@
+// Guilds of Magic -- Jonathan Dale 2015, 2016
+
+Table: GuildsOfMagic
+[@MagicAdjective] [@MagicNoun] [@GuildType]
+[@MagicAdjective] [@MagicNoun]
+[@MagicNoun] [@GuildType]
+[@MagicAdjective] [@GuildType]
+[@GuildType] of the [@MagicAdjective] [@MagicNoun]
+
+Table: MagicAdjective
+White
+Argent
+Aureate
+Rutiliate
+Ebon
+Arcane
+Storm
+Unending
+Infinite
+Ruby
+Red
+Amber
+Topaz
+Sapphire
+Diamond
+Emerald
+Amethyst
+Rutilated
+Quartz
+Pearl
+Pure
+Ice
+Blue
+Cerulean
+Wise
+Eternal
+Ancient
+Gold
+Great
+Iron
+Adamantite
+Mithril
+Star
+Young
+Northern
+Southern
+Eastern
+Western
+Elemental
+Elements of the
+Ritual
+Crystal
+Runic
+
+Table: MagicNoun
+Draconis
+Dragon
+Aquila
+Talon
+Mountain
+Path
+Way
+Storm
+Spider
+Pyramid
+Strand
+Mark
+Sign
+Ouroboros
+Guide
+Sigil
+Sky
+Tower
+Quartz
+Sandstorm
+Lava
+Blizzard
+Fire
+Ward
+Word
+Foundation
+Wall
+Vangard
+Flame
+Guardian
+Star
+Drake
+Moon
+Chalice
+Night
+Wyrm
+Salamander
+Mephit
+Gargoyle
+Basilisk
+Luna
+Orbis
+Elements
+Elementals
+Ritual
+Wyvern
+Orb
+Terraneum
+Phoenix
+Cold Drake
+Wendigo
+Zephyr
+Djinn
+Quill
+Master
+Will
+Rune
+
+Table: GuildType
+Guild
+Conclave
+Consilium
+Concilium
+Council
+Convocation
+Circle
+Ring
+Coterie
+Society
+Brotherhood
+Vanguard

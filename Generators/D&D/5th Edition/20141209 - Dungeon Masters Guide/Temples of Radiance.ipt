@@ -1,0 +1,122 @@
+// Temples of Radiance (or any light-based religion)
+//  Jonathan Dale                                     
+
+Table: TempleOfRadiance
+[@TempleType] of [@TempleAdjective] [@TempleNoun]
+[@TempleAdjective] [@TempleNoun] [@TempleType]
+
+Table: TempleType
+Consilium
+Concilium
+Council
+Convocation
+Brotherhood
+Temple
+Temple 
+Sanctuary
+Cathedral
+Basilica 
+Chancel
+Abbey
+Chantry 
+Chapel 
+Shrine
+Sanctum
+Abbey
+Chantry
+Sanctum
+Tabernacle
+Reliquary
+
+Table: TempleAdjective
+The White
+The Aureate
+The Unending
+The Infinite
+The Diamond
+Pure
+Wise
+Eternal
+The Ancient
+The Gold
+Great
+Young
+Northern
+Southern
+Eastern
+Western
+Crystal
+The Blazing
+The Bright
+The Glowing
+The Burnished
+Lucent
+Luminous
+Lustrous
+Radiant
+Refulgent
+Scintillant
+Shining
+Humble
+Lighting the
+Kindling the
+The Burning
+Revealed
+The Revealing
+Auric
+Golden
+Blessed
+Chaste
+Consecrated
+Devout
+Righteous
+Venerated
+
+Table: TempleNoun
+Ablaze
+Avatar
+Path
+Way
+Mark
+Sign
+Guide
+Sky
+Tower
+Fire
+Word
+Foundation
+Flame
+Guardian
+Orbis
+Orb
+Phoenix
+Aurora
+Beacon
+Blaze
+Brightness
+Brilliancy
+Candle
+Coruscation
+Dawn
+Daybreak
+Effulgence
+Flare
+Fulgor
+Glare
+Glimmer
+Glow
+Illumination
+Incandescence
+Lantern
+Lighthouse
+Radiance
+Refulgence
+Scintillation
+Splendor
+Sun
+Solaris
+Beam
+Sunrise
+Torch
+Spark
+Blessing

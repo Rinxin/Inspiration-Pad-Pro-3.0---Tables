@@ -1,0 +1,108 @@
+// Syllabus of courses at a school of magic
+// Jonathan Dale
+
+Table: MagicSyllabus
+[[@CourseType] [@TopicA] [@TopicB] >> replace /- /-/]
+
+Table: CourseType
+Elements of
+Introduction to
+Overview of
+Advanced
+Theoretical
+Advanced Theoretical
+Principles of
+Symbolic
+Topics in
+Seminar on
+Symposium for
+Applied
+History of
+Historical
+Remedial
+
+Table: TopicA
+Basic
+Beginning
+Intermediate
+Historical
+Creative
+Theoretical
+Runic
+Pseudo-Runic
+Meta-Runic
+Quasi-Runic
+Mana
+Quasi-Magical
+Void
+Dynamic Void
+Non-Void
+Sinistral
+Fire
+Elemental
+Quasi-Elemental
+Meta-Elemental
+Ice
+Storm
+Dynamic Storm
+Poly-Elemental Storm
+Trans-Elemental
+Defensive
+Gate
+Symbolic
+Meta-
+Counter-
+Anti-
+Dynamic
+Pictomantic
+Quasi-
+Pseudo-
+Dark
+Semi-Harmonic
+Noncorporeal
+Transregnal
+Discordian
+Neo-Discordian
+Neo-
+Nihilian
+Shadow
+Will
+Matrix
+Trans-Symbolic
+Trans-
+Terminal
+
+Table: TopicB
+Spellcraft
+Summoning
+Ritual
+Magic
+Design
+Casting
+Magic Working
+Problem Solving
+Matrix Design
+Array Development
+Pattern Construction
+Animation
+Augmentation
+Reconstruction
+Will
+Creatures
+Entities
+Pacts
+Connections
+Defenses
+Wards
+Sigils
+Runes
+Mentalism
+Wizardry
+Alchemy
+Undead
+Golems
+Constructs
+Automatons
+Semiotics
+History
+
