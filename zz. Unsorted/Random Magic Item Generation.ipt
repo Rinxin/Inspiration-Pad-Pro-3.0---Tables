@@ -1,0 +1,618 @@
+; Random Magic Item Generation.ipt
+; created 8/12/2019 11:40:38 AM
+
+prompt: number of items (5|10|15|20|25) 5
+prompt: Magic Item Tier (Minor|Medium|Major) Medium
+
+Maxreps: {$prompt1}
+
+
+Table:
+{1d{$prompt1}[@{$prompt2}]
+Endtable:
+
+Table: Minor
+roll: 1d100
+01-04: <h2>Armor and shields</h2>\n [@Table 7-2_Minor]
+05-09: <h2>Weapons</h2>\n [@Table 7-9_Minor]
+10-44: <h2>Potions</h2>\n [@Table 7-17_Minor]
+45-46: <h2>Rings</h2>\n [@Table 7-18_Minor]
+47-81: <h2>Scrolls</h2>\n [@Table 7-20_Minor]
+82-91: <h2>Wands</h2>\n [@Table 7-26_Minor]
+92-100: <h2>Wondrous Item</h2>\n [@Table 7-27_Minor], [@Table 7-28_Minor], [@Table 7-29_Minor] 
+Endtable:
+
+Table: Medium
+roll:1d100
+01-10: <h2>Armor and shields</h2>\n [@Table 7-2_Medium]
+11-20: <h2>Weapons</h2>\n [@Table 7-9_Medium]
+21-30: <h2>Potions</h2>\n [@Table 7-17_Medium]
+31-40: <h2>Rings</h2>\n [@Table 7-18_Medium]
+41-50: <h2>Rods</h2>\n [@Table 7-19_Medium]
+51-65: <h2>Scrolls</h2>\n [@Table 7-20_Medium]
+66-68: <h2>Staffs</h2>\n [@Table 7-25_Medium]
+69-83: <h2>Wands</h2>\n [@Table 7-26_Medium]
+84-100: <h2>Wondrous Item</h2>\n [@Table 7-27_Medium], [@Table 7-28_Medium], [@Table 7-29_Medium] 
+Endtable:
+
+Table: Major
+roll:1d100
+01-10: <h2>Armor and shields</h2>\n [@Table 7-2_Major]
+11-20: <h2>Weapons</h2>\n [@Table 7-9_Major]
+21-25: <h2>Potions</h2>\n [@Table 7-17_Major]
+36-35: <h2>Rings</h2>\n [@Table 7-18_Major]
+36-45: <h2>Rods</h2>\n [@Table 7-19_Major]
+46-55: <h2>Scrolls</h2>\n [@Table 7-20_Major]
+56-75: <h2>Staffs</h2>\n [@Table 7-25_Major]
+76-80: <h2>Wands</h2>\n [@Table 7-26_Major]
+81-100: <h2>Wondrous Item</h2>\n [@Table 7-27_Major], [@Table 7-28_Major], [@Table 7-29_Major]
+Endtable:
+
+;Armor and Shields
+Table: Table 7-2_Minor
+01-60: [@Table 7-4], +1 \n [@Table 7-6_Minor]
+61-80: [@Table 7-3], +1 \n [@Table 7-5_Minor]
+81-85: [@Table 7-4], +2 \n [@Table 7-6_Minor]
+86-87: [@Table 7-3], +2 \n [@Table 7-5_Minor]
+88-89: [@Table 7-7]
+90-91: [@Table 7-8]
+92-100: [#{1d91} Table 7-2_Minor]\n<b>Armor</b>\n [@Table 7-5_Minor]\n<b>Shield</b>\n [@Table 7-6_Minor]
+EndTable:
+
+;Armor and Shields
+Table: Table 7-2_Medium
+Roll:1d100
+01-07: [@Table 7-4], +1 \n [@Table 7-6_Medium]
+08-14: [@Table 7-3], +1 \n [@Table 7-5_Medium]
+16-25: [@Table 7-4], +2 \n [@Table 7-6_Medium]
+26-36: [@Table 7-3], +2 \n [@Table 7-5_Medium]
+37-45: [@Table 7-4], +3 \n [@Table 7-6_Medium]
+46-57: [@Table 7-3], +3 \n [@Table 7-5_Medium]
+58-60: [@Table 7-7]
+61-63: [@Table 7-8]
+64-100: [#{1d63} Table 7-2_Medium]\n<b>Armor</b>\n [@Table 7-5_Medium]\n<b>Shield</b>\n [@Table 7-6_Medium]
+EndTable:
+
+;Armor and Shields
+Table: Table 7-2_Major
+Roll:1d100
+01-08: [@Table 7-4], +1 \n [@Table 7-6_Major]
+09-16: [@Table 7-3], +1 \n [@Table 7-5_Major]
+17-27: [@Table 7-4], +2 \n [@Table 7-6_Major]
+28-38: [@Table 7-3], +2 \n [@Table 7-5_Major]
+39-49: [@Table 7-4], +3 \n [@Table 7-6_Major]
+50-57: [@Table 7-3], +3 \n [@Table 7-5_Major]
+58-60: [@Table 7-7]
+61-63: [@Table 7-8]
+64-100: [#{1d63} Table 7-2_Major]\n<b>Armor</b>\n [@Table 7-5_Major]\n<b>Shield</b>\n [@Table 7-6_Major]
+EndTable:
+
+;Random Armor Type
+Table: Table 7-3
+roll:1d100
+01: Padded Armor
+02: Leather Armor
+03-17: Studded Leather Armor
+18-32: Chain shirt
+33-42: Hide Armor
+43: Scale Mail
+44: Chainmail
+45:-57: Breastplate
+58: Splint Mail
+59: Banded Mail
+60: Half-plate Armor
+61-100: Full Plate Armor
+endTable:
+
+; Random shield
+Table: Table 7-4
+Roll:1d100
+01-10: Buckler ({|[Metal]|[Leather]|[Wooden]})
+11-15: Shield, Light, ([Wooden])
+16-20: Shield, Light, ([Metal])
+21-30: Shield, Heavy, ([Wooden])
+31-95: Shield, Heavy, ([Metal])
+96-100: Shield, Tower ({|[Metal|[Wooden]})
+EndTable:
+
+;
+Table: Damage Type
+roll:1d13
+1:Acid
+2:Bludgeoning
+3:Cold
+4:Fire
+5:Force
+6:Lightning
+7:Necrotic
+8:Piercing
+9:Poison
+10:Psychic
+11:Radiant
+12:Slashing
+13:Thunder
+Endtable:
+
+;
+Table: Table 7-5_Minor
+Roll:1d100
+01-25: \n<b>Glammered</b> \n A suit of armor with this ability appears normal. Upon command, the armor changes shape and form to assume the appearance of a normal set of cloathing. The armor retains all its protperties (includeing weight) when glammered. Only a true seeing spell of similar magic reveals the true nature of the armor when disguised.
+26-32: \n<b>Fortificication, Light</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (25%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+33-52: \n<b>Slick</b> \n Slick armor seems coated at all times with a slightly greasy oil. It provides a <b>+1 bonus</b> on applicable checks in escaping or moving through tight spaces. 
+53-72: \n<b>Shadow</b>\n This armor is jet black and blurs the wearer whenever in the shadows, granting a <b>+1 bonus</b> on stealth checks.
+73-92: \n<b>Silent Moves</b> \n This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it. This armor removes <b>disadvantage</b> from armor if it has it, or it provides a <b>+1 bonus</b> to Sleigh of Hand if it does not have the prior effect.
+93-96: \n<b>Spell Resistance (19)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+97: \n<b>Slick, improved</b> \n Slick armor seems coated at all times with a slightly greasy oil. It provides a <b>+2 bonus</b> on applicable checks in escaping or moving through tight spaces.
+98: \n<b>Shadow, improved</b>\n This armor is jet black and blurs the wearer whenever in the shadows, granting a <b>+2 bonus</b> on stealth checks.
+99: \n<b>Silent Moves, improved</b> \n This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it. This armor removes <b>disadvantage</b> from armor if it has it, or it provides a <b>+2 bonus</b> to Sleigh of Hand if it does not have the prior effect.
+100: \n[@Table 7-5_Minor] \n[@Table 7-5_Minor]
+Endtable:
+
+;
+Table: Table 7-5_Medium
+Roll:1d100
+01-05: \n<b>Glamered</b> \n A suit of armor with this ability appears normal. Upon command, the armor changes shape and form to assume the appearance of a normal set of cloathing. The armor retains all its protperties (includeing weight) when glammered. Only a true seeing spell of similar magic reveals the true nature of the armor when disguised.
+06-08: \n<b>Fortification, Light</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (25%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+09-11: \n<b>Slick</b> \n Slick armor seems coated at all times with a slightly greasy oil. It provides a <b>+1 bonus</b> on applicable checks in escaping or moving through tight spaces.
+12-14: \n<b>Shadow</b>\n This armor is jet black and blurs the wearer whenever in the shadows, granting a <b>+1 bonus</b> on stealth checks.
+15-17: \n<b>Silent Moves</b> \n This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it. This armor removes <b>disadvantage</b> from armor if it has it, or it provides a <b>+1 bonus</b> to Sleigh of Hand if it does not have the prior effect.
+18-19: \n<b>Spell Resistance (19)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+20-29: \n<b>Slick, improved</b> \n Slick armor seems coated at all times with a slightly greasy oil. It provides a <b>+2 bonus</b> on applicable checks in escaping or moving through tight spaces.
+30-39: \n<b>Shadow, improved</b>\n This armor is jet black and blurs the wearer whenever in the shadows, granting a <b>+2 bonus</b> on stealth checks.
+40-49: \n<b>Silent Moves, impoved</b> \n This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it. This armor removes <b>disadvantage</b> from armor if it has it, or it provides a <b>+2 bonus</b> to Sleigh of Hand if it does not have the prior effect.
+50-74: \n<b>[@Damage Type] Resistance<b/>\n Reduced damage of the given type by 50%.
+75-79: \n<b>Ghost Touch</b>\n This armor or shield seems almost translucent. Both its enhancement bouns and its armor count against the special attacks of incorporeal attacks. This prevents the loss of the AC value and/or <b>advantage</b> on saving throws for their abilities.
+80-84: \n<b>Invulnerability</b>\n This armor grants damage reduction of 1d12.
+85-89: \n<b>Fortification, moderate</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (75%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+90-94: \n<b>Spell Resistance (17)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+95-99: \n<b>Wild</b>\n The wearer of a suit of armor or shield with this ability preserves the armor bonus (and any enchancements) while in a wild shape. Armor and shields with this ability usually appear to be made covered in natural patterns. While the wearer is in  a whild shape they can choose to have the armor incorporated into their appearance or not. 
+100: \n[@Table 7-5_Minor] \n[@Table 7-5_Minor]
+Endtable:
+
+;
+Table: Table 7-5_Major
+Roll:1d100
+01-03: \n<b>Glamered</b> \n A suit of armor with this ability appears normal. Upon command, the armor changes shape and form to assume the appearance of a normal set of cloathing. The armor retains all its protperties (includeing weight) when glammered. Only a true seeing spell of similar magic reveals the true nature of the armor when disguised.
+04: \n<b>Fortification, Light</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (25%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+05-07: \n<b>Slick, improved</b> \n Slick armor seems coated at all times with a slightly greasy oil. It provides a <b>+2 bonus</b> on applicable checks in escaping or moving through tight spaces.
+08-10: \n<b>Shadow, improved</b>\n This armor is jet black and blurs the wearer whenever in the shadows, granting a <b>+2 bonus</b> on stealth checks.
+11-13: \n<b>Silent Moves, improved</b> \n This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it. This armor removes <b>disadvantage</b> from armor if it has it, or it provides a <b>+2 bonus</b> to Sleigh of Hand if it does not have the prior effect.
+14-28: \n<b>[@Damage Type] Resistance \n Reduced damage of the given type by 50%.
+29-33: \n<b>Ghost Touch</b>\n This armor or shield seems almost translucent. Both its enhancement bouns and its armor count against the special attacks of incorporeal attacks. This prevents the loss of the AC value and/or <b>advantage</b> on saving throws for their abilities.
+34-35: \n<b>Invulnerability</b>\n This armor grants damage reduction of 1d12.
+36-40: \n<b>Fortification, Moderate</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (75%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+41-42: \n<b>Spell Resistance (19)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+43: \n<b>Wild<b>\n The wearer of a suit of armor or shield with this ability preserves the armor bonus (and any enchancements) while in a wild shape. Armor and shields with this ability usually appear to be made covered in natural patterns. While the wearer is in  a whild shape they can choose to have the armor incorporated into their appearance or not.
+44-48: \n<b>Slick, Greater</b> \n Slick armor seems coated at all times with a slightly greasy oil. It provides a <b>+3 bonus</b> on applicable checks in escaping or moving through tight spaces.
+49-53: \n<b>Shadow, Greater</b>\n This armor is jet black and blurs the wearer whenever in the shadows, granting a <b>+3 bonus</b> on stealth checks.
+54-58: \n<b>Silent Moves, Greater</b> \n This armor is well oiled and magically constructed so that it not only makes little sound, but it dampens sound around it. This armor removes <b>disadvantage</b> from armor if it has it, or it provides a <b>+3 bonus</b> to Sleigh of Hand if it does not have the prior effect.
+59-83: \n<b>[@Damage Type] Resistance, improved</b> \n Reduced damage of the given type by 50% as well as abosorb the first 1d10 damage of the type.
+84-88: \n<b>Spell Resistance (17)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+89: \n<b>Etheralness</b>\n As a bonus action, the wearer becomes etheral (once per day). The character can remain ethereal for 1 hour.
+90: \n<b>Undead Controlling</b.\n The wearer of this equipment may control up to 4x their hit dice  of undead per day as with the <em>control undead<em> spell. At dawn each day, the wearer loses control of any undead still under their sway.
+91-92: \n<b>Fortification, Heavy</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (100%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+93-94: \n<b>Spell Resistance (15)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+95-99: \n<b>[@Damage Type] Immunity
+100: \n[@Table 7-5_Minor] \n[@Table 7-5_Minor]
+Endtable:
+
+; Shield Special Abilities
+Table: Table 7-6_Minor
+roll:1d100
+01-20: <b>Arrow Catching<b>\n A shield with this ability attacts ranged weapons to it. It has a deflection bonus of +1 against ranged weapons. If within 5ft of a target of a ranged attack the target shifts to the wielder of this weapon.(ignore this effect if in full cover) This does not effect magic ammuntion with a bouns greater than the bonus of this shield. This can be activated with a bounus action.
+21-40: <b>Bashing<b>\n A shield with this ability is designed to performe shield bash.  This causes the shield to deal damage as if it were two size categories larger.(med light deals 1d6, med heavy deals 1d8) 
+41-50: <b>Blinding<b>\n A shield with this ability flashes with a briliant light up to twice per day as a bonus action. Anyone within 20ft. except for the wielder must make a DC 14 Dexterity saving throw or be blinded for 1d4 rounds.
+51-75: <b>Fortification, Light</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (25%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+76-92: <b>Arrow Deflection<b>\n This shield protects the weilder as if they had deflect arrows ability. You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + This items modifier.
+93-97: <b>Animated<b>\n As an (Action|Bonus Action) The shield floats within 2 feet of the  wielder, protecting them as if being held.
+98-99: <b>Spell Resistance (19)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+100: \n[@Table 7-6_Minor] \n[@Table 7-6_Minor]
+Endtable:
+
+;
+Table: Table 7-6_Medium
+roll:1d100
+01-10: <b>Arrow Catching<b>\n A shield with this ability attacts ranged weapons to it. It has a deflection bonus of +1 against ranged weapons. If within 5ft of a target of a ranged attack the target shifts to the wielder of this weapon.(ignore this effect if in full cover) This does not effect magic ammuntion with a bouns greater than the bonus of this shield. This can be activated with a bounus action.
+11-20: <b>Bashing<b>\n A shield with this ability is designed to performe shield bash.  This causes the shield to deal damage as if it were two size categories larger.(med light deals 1d6, med heavy deals 1d8)
+21-25: <b>Blinding<b>\n A shield with this ability flashes with a briliant light up to twice per day as a bonus action. Anyone within 20ft. except for the wielder must make a DC 14 Dexterity saving throw or be blinded for 1d4 rounds.
+26-40: <b>Fortification, light</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (25%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+41-50: <b>Arrow Deflection<b>\n This shield protects the weilder as if they had deflect arrows ability. You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + This items modifier.
+51-57: <b>Animated<b>\n As an (Action|Bonus Action) The shield floats within 2 feet of the  wielder, protecting them as if being held.
+58-59: <b>Spell Resistance (19)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+60-79: <b>[@Damage Type] Resistance</b> \n Reduced damage of the given type by 50%.
+80-85: <b>Ghost Touch</b>\n This armor or shield seems almost translucent. Both its enhancement bouns and its armor count against the special attacks of incorporeal attacks. This prevents the loss of the AC value and/or <b>advantage</b> on saving throws for their abilities.
+86-95: <b>Fortification, Moderate</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (75%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+96-98: <b>Spell Resistance (17)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+99: <b>Wild<b>\n The wearer of a suit of armor or shield with this ability preserves the armor bonus (and any enchancements) while in a wild shape. Armor and shields with this ability usually appear to be made covered in natural patterns. While the wearer is in  a whild shape they can choose to have the armor incorporated into their appearance or not.
+100: \n [@Table 7-6_Medium]\n [@Table 7-6_Medium]
+Endtable:
+
+;
+Table: Table 7-6_Major
+roll:1d100
+01-05: <b>Arrow Catching<b>\n A shield with this ability attacts ranged weapons to it. It has a deflection bonus of +1 against ranged weapons. If within 5ft of a target of a ranged attack the target shifts to the wielder of this weapon.(ignore this effect if in full cover) This does not effect magic ammuntion with a bouns greater than the bonus of this shield. This can be activated with a bounus action.
+06-08: <b>Bashing<b>\n A shield with this ability is designed to performe shield bash.  This causes the shield to deal damage as if it were two size categories larger.(med light deals 1d6, med heavy deals 1d8)
+09-10: <b>Blinding<b>\n A shield with this ability flashes with a briliant light up to twice per day as a bonus action. Anyone within 20ft. except for the wielder must make a DC 14 Dexterity saving throw or be blinded for 1d4 rounds.
+11-15: <b>Fortification, light</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (25%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+16-20: <b>Arrow Deflection<b>\n This shield protects the weilder as if they had deflect arrows ability. You can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + This items modifier.
+21-25: <b>Animated<b>\n As an (Action|Bonus Action) The shield floats within 2 feet of the  wielder, protecting them as if being held.
+26-40: <b>[@Damage Type] Resistance</b> \n Reduced damage of the given type by 50%.
+41-46: <b>Ghost Touch</b>\n This armor or shield seems almost translucent. Both its enhancement bouns and its armor count against the special attacks of incorporeal attacks. This prevents the loss of the AC value and/or <b>advantage</b> on saving throws for their abilities.
+47-56: <b>Fortificatin, Moderate</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (75%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+57-58: <b>Spell Resistance (19)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+59: <b>Wild<b>\n The wearer of a suit of armor or shield with this ability preserves the armor bonus (and any enchancements) while in a wild shape. Armor and shields with this ability usually appear to be made covered in natural patterns. While the wearer is in  a whild shape they can choose to have the armor incorporated into their appearance or not.
+60-84: <b>[@Damage Type] Resistance, Improved</b> \n Reduced damage of the given type by 50% as well as abosorb the first 1d10 damage of the type.
+85-86: <b>Spell Resistance(17)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+87: <b>Undead Controlling</b.\n The wearer of this equipment may control up to 2x their hit dice  of undead per day as with the <em>control undead<em> spell. At dawn each day, the wearer loses control of any undead still under their sway.
+88-91: <b>Fortification, Heavy</b> \n When a critical hit or sneak attack is scored on the wearer, there is a chance (100%) that the critical hit or sneak atack is negated and damage is instead rolled normally.
+92-93: <b>Relfecting</b>\n This shield seems like a mirror. Its surface is completely reflective, once per day it can be called to reflect a spell back at its caster like the <em>spell turning<em> spell.
+94: <b>Spell Resistance (15)</b>\n This property grants the armor's wearer spell resistance with the given dc to take half damage from a magic damage.
+95-99: <b>[@Damage Type] Immunity
+100: \n [@Table 7-6_Major]\n [@Table 7-6_Major]  
+Endtable:
+
+; dragon color
+Table: Dragon Color
+roll:1d11
+1:Black
+2:Blue
+3:Green
+4:Red
+5:White
+6:Brass
+7:Bronze
+8:Copper
+9:Gold
+10:Silver
+11:Gemstone ()
+Endtable:
+
+
+;Specific armor
+Table: Table 7-7_Minor
+roll:1d100
+01-50: Mirthral Shirt
+51-80: [@Dragon Color] Dragonhide [@Table 7-3] 
+81-100: Elven Chain
+Endtable:
+
+;
+Table: Table 7-7_Medium
+roll:1d100
+01-25: Mithral Shirt
+26-45: [@Dragon Color] Dragonhide [@Table 7-3]
+46-57: Elven Chain
+58-67: Rhino Hide
+68-82: Adamantine [#{1d83+17} Table 7-3]
+83-97: Dwarven Plate
+98-100: [@Table 7-3] of Luck 
+Endtable:
+
+;
+Table: Table 7-7_Major
+roll:1d100
+01-10: Adamantine [#{1d83+17} Table 7-3]
+11-20: Dwarven Plate
+21-32: [@Table 7-3] of Luck
+33-50: Celestia Armor
+51-60: [@Table 7-3] of the deep
+61-75: [@Table 7-3] of command
+76-90: [@Metal] [#{1d83+17} Table 7-3] of speed
+91-100: Demon armor, [@Table 7-3]
+Endtable:
+
+;Specific shields
+Table: Table 7-8_Minor
+roll:1d100
+01-30: Darkwood Buckler
+31-80: Darkwood Shield
+81-95: Mithral Heavy Shield
+96-100: Caster's Shield
+Endtable:
+
+;Specific shields
+Table: Table 7-8_Medium
+roll:1d100
+01-20: Darkwood Buckler
+21-45: Darkwood Shield
+46-70: Mithral Heavy Shield
+71-85: Caster's Shield
+86-90: Spined Shield
+91-95: Lion's Shield
+96-100: Winged Shield
+Endtable:
+
+;Specific shields
+Table: Table 7-8_Major
+roll:1d100
+01-20: Caster's Shield
+21-40: Spined Shield
+41-60: Lion's Shield
+61-90: Winged Shield
+91-100: Absorbing Shield\n  Once every two days you may cast a melee disintergrate spell. DC 15 
+Endtable:
+
+;Weapons
+Table: Table 7-9_Minor
+roll:1d100
+01-70: [@Table 7-10],+1
+71-85: [@Table 7-10],+2
+86-90: [@Table 7-16]
+91-100: [#{1d90} Table 7-9_Minor]\n<b>Melee Weapons</b>\n [@Table 7-14_Minor]\n<b>Ranged Weapons</b>\n [@Table 7-15_Minor]
+Endtable:
+
+;
+Table: Table 7-9_Medium
+roll:1d100
+01-11: [@Table 7-10],+1
+12-31: [@Table 7-10],+2
+32-60: [@Table 7-10],+3
+61-68: [@Table 7-16]
+69-100: [#{1d68} Table 7-9_Minor]\n<b>Melee Weapons</b>\n [@Table 7-14_Minor]\n<b>Ranged Weapons</b>\n [@Table 7-15_Minor]
+Endtable:
+
+;
+Table: Table 7-9_Major
+roll:1d100
+01-20: [@Table 7-10],+1
+21-38: [@Table 7-10],+2
+39-49: [@Table 7-10],+3
+50-63: [@Table 7-16]
+64-100: [#{1d63} Table 7-9_Minor]\n<b>Melee Weapons</b>\n [@Table 7-14_Minor]\n<b>Ranged Weapons</b>\n [@Table 7-15_Minor]
+Endtable:
+
+;Weapon type determination
+Table: Table 7-10
+roll:1d100
+01-70: [@Table 7-11] \n [@Table 7-14_{$prompt2}]
+71-80: [@Table 7-12] \n [@Table 7-14_{$prompt2}]
+81-100: [@Table 7-13] \n [@Table 7-15_{$prompt2}]
+Endtable:
+
+;simple Melee
+Table: Table 7-11
+Club
+Dagger
+Handaxe
+Javelin
+Light Hammer
+Mace
+Quaterstaff
+Sickle
+Spear
+Endtable:
+
+;Martial Melee
+Table: 7-12
+Battleaxe
+Falchion
+Flail
+Glaive
+Greataxe
+Greatsword
+Halberd
+Kukri
+Lance
+Longsword
+Maul
+Morningstar
+Pike
+Rapier
+Scimitar
+Shortsword
+Trident
+War Pick
+Warhammer
+Whip
+Endtable:
+
+;Ranged Weapons
+Table: 7-13
+Blowgun
+Bolas
+Crossbow, Hand
+Crossbow, Heavy
+Crossbow, Light
+Dart
+Longbow
+Net
+Shortbow
+Sling
+Endtable:
+
+;Melee Weapon Special ability
+Table: Table 7-14_Minor
+roll:1d100
+01-10: Bane
+11-17: Defending
+18-47: +1d6 [@Damage Type] 
+48-56: Ghost Touch
+57-67: Keen
+68-71: Ki Focus
+72-75: Merciful
+76-82: Mighty Cleaving
+83-87: Spell Storing
+88-91: Throwing
+92-95: Thundering
+96-99: Vicious
+100: \n[@Table 7-14_Minor]\n[@Table 7-14_Minor]
+Endtable:
+
+;Melee Weapon Special ability
+Table: Table 7-14_Medium
+roll:1d100
+01-06: Bane
+07-12: Defending
+13-33: +1d8 [@Damage Type]
+34-38: Ghost Touch
+39-44: Keen
+45-48: Ki Focus
+49-50: Merciful
+51-54: Mighty Cleaving
+55-59: Spell Storing
+60-63: Throwing
+64-65: Thundering
+66-69: Vicious
+70-72: Anarchic
+73-75: Axiomatic
+76-78: Disruption
+79-93: [@Damage Type] Burst
+94-95: Wounding
+96-100: \n[@Table 7-14_Medium]\n[@Table 7-14_Medium]
+Endtable:
+
+;Melee Weapon Special ability
+Table: Table 7-14_Major
+roll:1d100
+01-03: [#Bane Weapon Traits]
+04-12: +1d10 [@Damage Type]
+13-15: [#Ghost Touch Weapon Traits]
+16-19: [#Ki Focus Weapon Traits]
+20-21: [#Mighty Cleaving Weapon Traits]
+22-24: [#Spell Storing Weapon Traits]
+25-28: [#Throwing Weapon Traits]
+29-32: [#Thundering Weapon Traits]
+33-36: [#Vicious Weapon Traits]
+37-41: [#Anarchic Weapon Traits]
+42-46: [#Axiomatic Weapon Traits]
+47-49: [#Disruption Weapon Traits]
+50-74: [@Damage Type] burst
+75-78: [#Wounding Weapon Traits]
+79-83: [#Speed Weapon Traits]
+84-86: [#Brilliant Energy Weapon Traits]
+87-88: [#Dancing Weapon Traits]
+89-90: [#Vorpal Weapon Traits]
+91-100: \n[@Table 7-14_Major]\n[@Table 7-14_Major]
+Endtable:
+
+;Ranged Wepaon Special ability
+Table: Table 7-15_Minor
+roll:1d100
+01-12: Bane
+13-25: Distance
+26-55: [@Damage Type] 
+56-60: Merciful
+61-68: Returning
+69-83: Shock
+84-93: Seeking
+94-99: Thundering
+100: \n[@Table 7-15_Minor] \n[@Table 7-15_Minor]
+EndTable:
+
+;Ranged Wepaon Special ability
+Table: Table 7-15_Medium
+roll:1d100
+01-08: Bane
+09-16: Distance
+17-40: [@Damage Type]
+41-42: Merciful
+43-47: Returning
+48-59: Shocking
+60-64: Seeking
+65-68: Thundering
+69-71: Anarchic
+72-74: Axiomatic
+75-95: [@Damage Type] Burst
+96-100: \n[@Table 7-15_Medium] \n[@Table 7-15_Medium]
+EndTable:
+
+;Ranged Wepaon Special ability
+Table: Table 7-15_Major
+roll:1d100
+01-04: Bane
+05-08: Distance
+09-16: [@Damage Type]
+17-21: Returning
+22-25: Shock
+26-27: Seeking
+28-29: Thundering
+30-34: Anarchic
+35-39: Axiomatic
+40-79: [@Damage Type] Burst
+80-84: Speed
+85-90: Brilliant Energy
+91-100: \n[@Table 7-15_Major] \n[@Table 7-15_Major]   
+EndTable:
+
+;Weapon Abilities
+Table: Weapon Traits
+Type: Dictionary
+Anarchic:
+Axiomatic:
+Bane: [@Designated Foe]
+Brilliant Energy:
+Dacing:
+Defending:
+Disruption:
+Distance:
+Damage Type:
+Burst:
+Ghost Touch:
+Keen:
+Ki Focus:
+Merciful:
+Mighty Cleaving:
+Returning:
+Seeking:
+Speed:
+Spell Storing:
+Thundering:
+Throwing:
+Vicious:
+Vorpal:
+Wounding:
+Endtable:
+
+;
+Table: Designated Foe
+roll:1d100
+01-05: Aberrations
+06-09: Animals
+10-16: Constructs
+17-22: Dragons
+23-27: Elementals
+28-32: Fey
+33-39: Giants
+40: Humanoids, Aquatic
+41-42: Humanoids, dwarf
+43-44: Humanoids, elf
+45: Humanoids, gnoll
+46: Humanoids, gnome
+47-49: Humanoids, goblinoid
+50: Humanoids, halfling
+51-54: Humanoids, human
+55-57: Humanoids, reptillian
+58-60: Humanoids, orc
+61-65: Magical beasts
+66-70: Monstrous humanoids
+71-72: Oozes
+73-88: Outsiders
+89-90: Plants
+91-98: Undead
+99-199: Vermin
+Endtable:
+
+;Specific Weapons
+Table: Table 7-16_Minor
+roll:1d100
+01-15: Sleep Arrow
+16-25: Screaming Bolt
+26-45: Silver Dagger, masterwork
+46-65: Cold iron longsword, masterwork
+66-75: Javelin of Lightning
+76-80: Slaying Arrow [@Designated Foe]
+81-90: Adamantine Dagger
+91-100: Adamantine Battleaxe
+Endtable:
+
+;Specific Weapons
+Table: Table 7-16_Medium
+roll:1d100
+01-09: Javelin of Lightning
+10-15: Slaying Arrow [@Designated Foe]
+Endtable:
+
+;Specific Weapons
+Table: Table 7-16_Major
+roll:1d100
+Endtable:

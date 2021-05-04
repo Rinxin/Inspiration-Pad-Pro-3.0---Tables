@@ -1,0 +1,17 @@
+; The Feywild Encounter Tables.ipt
+; created 9/6/2019 11:34:41 AM
+
+Table: The Feywild Encounter
+roll:1d100
+01-02: Dream Dragon
+03-04: Giant Basilisk
+05-06: Frog Witch
+07-08: Ice Princess
+09-10: Headless Horseman
+11-12: Tree of Dread
+13-14: Doom Rider
+15-16: Sandman
+17-18: Harvest Maiden
+19-20: Green Unicorn
+21-22: 
+Endtable:

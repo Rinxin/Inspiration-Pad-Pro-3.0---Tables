@@ -1,0 +1,50 @@
+; Spell Effects.ipt
+; created 12/28/2018 4:46:21 PM
+
+Table: Main
+The spell []
+EndTable:
+
+Table: Spell
+Opens or closes a portal to [@portal]
+Compels or forces the subject to [@compel/force]
+Allows the subject to [@Allow]
+Discerns the direction to the nearest [@Direction]
+Locates a specific [@Locate]
+Changes the subject's form to that of [@Change form]
+Makes the subject feel [@Feel]
+Creates an illusion of [@Illusion]
+Communes with [@Commune]
+Sends out blast of [@Blast]
+Fills the area with [@Area]
+Summons [@Summon]
+EndTable:
+
+ 1.	Altar chamber	Become diseased	Become invisible	Animal life	Arcane focus	Close acquaintance
+2.	Nearby tree	Become petrified	Become invulnerable	Cursed object	Beast	Small aquatic beast
+3.	Nearby shadow	Become poisoned	Breathe underwater	Dead body	Fiend	Dangerous beast
+4.	Distant land	Turn on allies	Feel rested	Evil being	Friend	Harmless beast
+5.	Extradimensional prison	Come closer	Heal miraculously	Exit	Gem	Small winged beast
+6.	Plane of shadow and death	Move slower	Jump higher	Gold	Grave	Nearby creature
+7.	Plane of dreams and magic	Obey commands	Lift heavy objects	Magical effect	Magic weapon	Well-known person
+8.	Plane of elemental forces	Speak gibberish	Move faster	Plant life	Monster	Individual of same race
+9.	Plane of eternal torment	Tell truth	Speak new language	Trap	Person	Individual of another race
+10.	Sacred grove of trees	Provide aid	Read glyphs and runes	Poison	Soul	Individual of opposite sex
+11.	Sacred circle of stones	Run away	Resist diseases	Undead creature	Temple or shrine	Sprout wings, fins, or horns
+12.	Wizard's tower	Wither and die	Resist poisons	Water source	Treasure hoard	Grow thick mustache
+
+
+
+
+  1.	Afraid	Beautiful maiden	Aberrant presence	Acid	Darkness	Aberrant beast
+2.	Amorous	Bush or hedge	Angel	Cold	Dense fog	Fey beast
+3.	Confused	Slavering beast	Demon prince	Daggers	Flames	Shadow beast
+4.	Enraged	Wooden door	Angry demon	Fire	Healing energy	Wild beast
+5.	Euphoric	Feeling of falling	Arch-devil	Force	Light	Hungry demon
+6.	Friendly	Legion of warriors	Conniving devil	Necrotic energy	Peace	Uncontrollable demon
+7.	Lethargic	Nightmarish creature	Elemental lord	Poisoned needles	Choking smoke	War-trained devil
+8.	Like dancing	Treasure chest	Fey being	Psychic energy	Malevolent spirits	Air elemental
+9.	Like singing	Sound of battle	Ghostly presence	Radiant energy	Swirling shadows	Earth elemental
+10.	Sad	Sound of footsteps	Long-dead hero	Lightning	Stone spikes	Fire elemental
+11.	Self-important	Sound of whispering	Shadow being	Thunder	Thorny hedges	Water elemental
+12.	Sleepy	Stone wall	Tree spirit	Wind	Rising water	Imp

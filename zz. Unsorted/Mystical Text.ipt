@@ -1,0 +1,53 @@
+; Fantasy Language Text Text.ipt
+; created 12/6/2018 10:22:12 AM
+
+#Goal to flip this to request input and which language then dispaly the runes/symbols to spell it.
+
+Table: MysticalText
+Maxreps: 1
+
+Prompt: Select a material {stone1|stone2|wood1|marble1|marble2|paper1|paper2|vellum1}stone2
+
+<table background="G:\OneDrive/Documents/Inspiration Pad Pro/Generators/Runes/{$Prompt1}.jpg"><tr><td>[@{2d4-1} Paragraphs]</td></tr></table>
+
+Table: Paragraphs
+[@{2d6-1} Words >> implode &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]\n\n
+
+Table: Words
+[@Runes][@{3d4-2} Runes]
+
+Table: Runes
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Isa.gif" alt="Isa (I)" title="Isa (I)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Berkano.gif" alt="Berkano (B)" title="Berkano (B)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Dagaz.gif" alt="Dagaz (D)" title="Dagaz (D)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Ehwaz.gif" alt="Ehwaz (E)" title="Ehwaz (E)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Eihwaz.gif" alt="Eihwaz (Y)" title="Eihwaz (Y)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Ansuz.gif" alt="Ansuz (A)" title="Ansuz (A)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Elhaz.gif" alt="Elhaz (Z)" title="Elhaz (Z)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Fehu.gif" alt="Fehu (F)" title="Fehu (F)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Gebo.gif" alt="Gebo (G)" title="Gebo (G)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Hagalaz.gif" alt="Hagalaz (H)" title="Hagalaz (H)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Ingwaz.gif" alt="Ingwaz (Q)" title="Ingwaz (Q)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Jera.gif" alt="Jera (J)" title="Jera (J)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Kenaz.gif" alt="Kenaz (K)" title="Kenaz (K)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Laguz.gif" alt="Laguz (L)" title="Laguz (L)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Mannaz.gif" alt="Mannaz (M)" title="Mannaz (M)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Nauthiz.gif" alt="Nauthiz (N)" title="Nauthiz (N)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Othala.gif" alt="Othala (O)" title="Othala (O)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Perthro.gif" alt="Perthro (P)" title="Perthro (P)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Raidho.gif" alt="Raidho (R)" title="Raidho (R)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Sowilo.gif" alt="Sowilo (S)" title="Sowilo (S)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Thurisaz.gif" alt="Thurisaz (X)" title="Thurisaz (X)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Tiwaz.gif" alt="Tiwaz (T)" title="Tiwaz (T)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Uruz.gif" alt="Uruz (U)" title="Uruz (U)">
+<img src="G:\\OneDrive\\Documents\\Inspiration Pad Pro\\Generators\\Runes\\Wunjo.gif" alt="Wunjo (W)" title="Wunjo (W)">
+
+Table: BGImage
+stone1
+stone2
+wood1
+marble1
+marble2
+paper1
+paper2
+vellum1

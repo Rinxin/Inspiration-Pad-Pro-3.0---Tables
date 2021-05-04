@@ -1,0 +1,35 @@
+; Horror.ipt
+; created 9/7/2019 10:10:25 AM
+
+Table: RandomHorrorGaming
+<b>WHERE</b> <i>does the adventure take place?</i> <b>WHY</b> <i>are the PCs involved?</i> <br>[@WHEREandWHY]<p><b>WHO</b> <i>are the PCS?</i> <br>[@WHO]<p><b>WHAT</b> <i>stands against the PCs?</i> <br>[@WHAT]
+EndTable:
+
+MaxReps: 5
+
+Table: WHEREandWHY
+A haunted house on the outskirts of town. Because they will receive a valuable reward if they can rid the house of evil.
+A remote burial ground. Because the Villain attempts to abduct or kill them.
+A small town that doesn’t appear on any map. Because they need to rest and resupply if they want to make their deadline.
+A deserted ship. Because they need to get it repaired and underway before the Villain arrives.
+A temple to a dark god. Because they need to prevent a monster being summoned.
+A pocket Hell dimension full of demons. Because they must work together to escape.
+EndTable:
+
+Table: WHO
+Everyday folks just going about their day, like a Delivery Person, Homemaker, Cashier, Homeless Drifter, Food Vendor, etc.
+Neighborhood children dressed up in a variety of Halloween costumes, like a Witch, Ghost, Ballerina, Spider-Man, Pirate, etc.
+Members of a gang, like the Leader, Second-in-Command, Bruiser, Medic, Psycho, etc.
+Monster hunter squad, like the Leader, Second-in-Command, Wizard, Medic, Metahuman, etc.
+Non-humans with human intelligence, like a Dog, Bird, Robot, Alien, Truck, etc.
+Severely broken/evil people, like a Serial Killer, Escaped Felon, Drug Dealer, Addict, Vigilante, etc.
+EndTable:
+
+Table: WHAT
+A rival group that mirrors the PCs’ own.
+Well-funded and well-trained mercenaries.
+An immortal with only one real weakness.
+A monster/alien.
+Non-humans with human intelligence.
+Wicked, murderous demons.
+EndTable:

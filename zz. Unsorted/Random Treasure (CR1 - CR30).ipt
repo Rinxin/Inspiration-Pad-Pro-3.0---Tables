@@ -1,0 +1,45 @@
+#
+# This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+#
+Header: Random treasure for the selected Challenge Rating, based on the OGL treasure tables.  Use the prompt at the bottom left of the window to select CR.
+Footer: <br />This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+
+Prompt: Choose a CR (1-20) {00-04|05-10|11-16|17-20}00-04
+
+Use:common/srd/SRDTreasure.ipt
+Use:common/srd/Categories.ipt
+Use:common/srd/Equipment-Weapons--Armor.ipt
+
+Table: TreasureProxy
+[@TreasureByCR]
+EndTable:
+
+Table: TreasureByCR
+Set: CoinsTable={$prompt1}Coins
+Set: GoodsTable={$prompt1}Goods
+Set: ItemsTable={$prompt1}Items
+Set: CoinsCount=0
+Set: GoodsCount=0
+Set: ItemsCount=0
+Set: CoinsValue=0
+Set: GoodsValue=0
+Set: ItemsValue=0
+CR ({$prompt1}) Treasure...<ul><li>Coins: [@{$CoinsTable}]</li><BR /><BR /><li>Goods:<ul>[@{$GoodsTable}]</ul><BR />Total Value for {$GoodsCount} Good[when not]{$GoodsCount}=1[do]s[end]: [@GoldCheck with {$GoodsValue}]</li><BR /><BR /><li>Items:<ul>[@{$ItemsTable}]</ul><BR />Total Value for {$ItemsCount} Item[when not]{$ItemsCount}=1[do]s[end]: [@GoldCheck with {$ItemsValue}]</li></ul>Total CR {$prompt1} Treasure Value: [@GoldCheck with {!TotalValue={$CoinsValue}+{$GoodsValue}+{$ItemsValue}}]
+EndTable:
+
+Table: GoldCheck
+Set: SubmittedValue={$1}
+Set: SubmittedFloor={! floor({$SubmittedValue})}
+Set: SilverCheck={! ({$SubmittedValue}-{$SubmittedFloor})*10 }
+[@AddCommas with {$SubmittedFloor}] gp[when]{$SilverCheck}>0[do] {$SilverCheck} sp[end]
+EndTable:
+
+Table: AddCommas
+Set: NewValue={$1}
+Set: CurrentLength=[{$NewValue} >> Length]
+Set: NewLength={! {$CurrentLength}-1}
+Set: NextCharacter=[{$NewValue} >> Substr 1]
+Set: CeilCheck={! ceil({$NewLength}/3)}
+Set: NormalCheck={! {$NewLength}/3}
+{$NextCharacter}[when]{$NewLength}=0[do]{!CeilCheck=={$NormalCheck}+1}[end][when]{$CeilCheck}={$NormalCheck}[do],[end][when]{$NewLength}>0[do][@AddCommas with [{$NewValue} >> Substr 2 {$NewLength}]][end]
+EndTable:

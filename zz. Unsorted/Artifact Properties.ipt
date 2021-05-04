@@ -1,0 +1,81 @@
+; Artifact Properties.ipt
+; created 8/12/2019 9:36:35 PM
+
+use:common/srd/MageSpells.ipt
+
+prompt: Type {Minor Beneficial|Major Beneficial|Minor Detrimental|Major Detrimental} Minor Beneficial
+
+Table: Main Artifact Properties
+[@{$prompt1}]
+EndTable:
+
+Table: Minor Beneficial
+roll:1d100
+01–20:	While attuned to the artifact, you gain proficiency in one skill of the DM’s choice.
+21–30:	While attuned to the artifact, you are immune to disease.
+31–40:	While attuned to the artifact, you can’t be charmed or frightened.
+41–50:	While attuned to the artifact, you have resistance against one damage type of the DM’s choice.
+51–60:	While attuned to the artifact, you can use an action to cast one cantrip (chosen by the DM) from it.<b>[@SpellsMageLevel0]</b>
+61–70:	While attuned to the artifact, you can use an action to cast one 1st-level spell <b>[@SpellsMageLevel1]</b> (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+71–80:	While attuned to the artifact, you can use an action to cast one 2nd level. <b>[@SpellsMageLevel2]</b> After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+81–90:	While attuned to the artifact, you can use an action to cast one 3rd level. <b>[@SpellsMageLevel3]</b> After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+91–100:	While attuned to the artifact, you gain a +1 bonus to Armor Class.
+EndTable:
+
+Table: Major Beneficial
+roll:1d100
+01–20:	While attuned to the artifact, one of your ability scores (DM’s choice) increases by 2, to a maximum of 24.
+21–30:	While attuned to the artifact, you regain 1d6 hit points at the start of your turn if you have at least 1 hit point.
+31–40:	When you hit with a weapon attack while attuned to the artifact, the target takes an extra 1d6 damage of the weapon’s type.
+41–50:	While attuned to the artifact, your walking speed increases by 10 feet.
+51–60:	While attuned to the artifact, you can use an action to cast one 4th-level spell <b>[@SpellsMageLevel4]</b> (chosen by the DM) from it. After you cast the spell, roll a d6. On a roll of 1–5, you can’t cast it again until the next dawn.
+61–70:	While attuned to the artifact, you can use an action to cast one 5th level. <b>[@SpellsMageLevel5]</b>
+71–80:	While attuned to the artifact, you can use an action to cast one 6th level. <b>[@SpellsMageLevel6]</b>
+81–90:	While attuned to the artifact, you can use an action to cast one 7th level. <b>[@SpellsMageLevel7]</b>
+91–100:	While attuned to the artifact, you can’t be blinded, deafened, petrified, or stunned.
+EndTable:
+
+Table: Minor Detrimental
+roll:1d100
+01–05:	While attuned to the artifact, you have disadvantage on saving throws against spells.
+06–10:	The first time you touch a gem or piece of jewelry while attuned to this artifact, the value of the gem or jewelry is reduced by half.
+11–15:	While attuned to the artifact, you are blinded when you are more than 10 feet away from it.
+16–20:	While attuned to the artifact, you have disadvantage on saving throws against poison.
+21–30:	While attuned to the artifact, you emit a sour stench noticeable from up to 10 feet away.
+31–35:	While attuned to the artifact, all holy water within 10 feet of you is destroyed.
+36–40:	While attuned to the artifact, you are physically ill and have disadvantage on any ability check or saving throw that uses Strength or Constitution.
+41–45:	While attuned to the artifact, your weight increases by 1d4 × 10 pounds.
+46–50:	While attuned to the artifact, your appearance changes as the DM decides.
+51–55:	While attuned to the artifact, you are deafened when you are more than 10 feet away from it.
+56–60:	While attuned to the artifact, your weight drops by 1d4 × 5 pounds.
+61–65:	While attuned to the artifact, you can’t smell.
+66–70:	While attuned to the artifact, nonmagical flames are extinguished within 30 feet of you.
+71–80:	While you are attuned to the artifact, other creatures can’t take short or long rests while within 300 feet of you.
+81–85:	While attuned to the artifact, you deal 1d6 necrotic damage to any plant you touch that isn’t a creature.
+86–90:	While you are attuned to the artifact, animals within 30 feet of you are hostile toward you.
+91–95:	While attuned to the artifact, you must eat and drink six times the normal amount each day.
+96–100:	While you are attuned to the artifact, your flaw is amplified in a way determined by the DM.
+EndTable:
+
+Table: Major Detrimental
+roll:1d100
+01–05:	While you are attuned to the artifact, your body rots over the course of four days, after which the rotting stops. You lose your hair by the end of day 1, finger tips and toe tips by the end of day 2, lips and nose by the end of day 3, and ears by the end of day 4. A regenerate spell restores lost body parts.
+06–10:	While you are attuned to the artifact, you determine your alignment daily at dawn by rolling a d6 twice. On the first roll, a 1–2 indicates lawful, 3–4 neutral, and 5–6 chaotic. On the second roll, a 1–2 indicates good, 3–4 neutral, and 5–6 evil.
+11–15:	When you first attune to the artifact, it gives you a quest determined by the DM. You must complete this quest as if affected by the geas spell. Once you complete the quest, you are no longer affected by this property.
+16–20:	The artifact houses a bodiless life force that is hostile toward you. Each time you use an action to use one of the artifact’s properties, there is a 50 percent chance that the life force tries to leave the artifact and enter your body. If you fail a DC 20 Charisma saving throw, it succeeds, and you become an NPC under the DM’s control until the intruding life force is banished using magic such as the dispel evil and good spell.
+21–25:	Creatures with a challenge rating of 0, as well as plants that aren’t creatures, drop to 0 hit points when within 10 feet of the artifact. 
+26–30:	The artifact imprisons a death slaad  (see the Monster Manual). Each time you use one of the artifact’s properties as an action, the slaad has a 10 percent chance of escaping, whereupon it appears within 15 feet of you and attacks you.
+31–35:	While you are attuned to the artifact, creatures of a particular type other than humanoid (as chosen by the DM) are always hostile toward you.
+36–40:	The artifact dilutes magic potions within 10 feet of it, rendering them nonmagical.
+41–45:	The artifact erases magic scrolls within 10 feet of it, rendering them nonmagical.
+46–50:	Before using one of the artifact’s properties as an action, you must use a bonus action to draw blood, either from yourself or from a willing or incapacitated creature within your reach, using a piercing or slashing melee weapon. The subject takes 1d4 damage of the appropriate type.
+51–60:	When you become attuned to the artifact, you gain a form of long-term madness (see “Running the Game”).
+61–65:	You take 4d10 psychic damage when you become attuned to the artifact.
+66–70:	You take 8d10 psychic damage when you become attuned to the artifact.
+71–75:	Before you can become attuned to the artifact, you must kill a creature of your alignment.
+76–80:	When you become attuned to the artifact, one of your ability scores is reduced by 2 at random. A greater restoration spell restores the ability to normal.
+81–85:	Each time you become attuned to the artifact, you age 3d10 years. You must succeed on a DC 10 Constitution saving throw or die from the shock. If you die, you are instantly transformed into a wight  (see the Monster Manual) under the DM’s control that is sworn to protect the artifact.
+86–90:	While attuned to the artifact, you lose the ability to speak.
+91–95:	While attuned to the artifact, you have vulnerability to all damage.
+96–100:	When you become attuned to the artifact, there is a 10 percent chance that you attract the attention of a god that sends an avatar to wrest the artifact from you. The avatar has the same alignment as its creator and the statistics of an empyrean  (see the Monster Manual). Once it obtains the artifact, the avatar vanishes.
+EndTable:

@@ -1,0 +1,156 @@
+; Table of Tables.ipt
+; created 12/28/2018 4:06:07 PM
+
+#Dungons/Locations
+Basic Dungeon
+Dungon Dressing
+Dungeon Encounters
+Text-based Dungeon Generator
+Castle
+Caverns
+Dungeon, Castle
+Elemental Dungeons
+-Air
+-Earth
+-Fire
+-Water
+Feydark caverns
+Feywild dungeons
+Infernal Dungeon
+Mage's Tower
+Mine
+Monastery
+Prison
+Sewers
+Shadowfell Dungeons
+Temple
+Tomb
+
+#Factions/Groups
+Acting troupes
+Assassins' guilds
+crafting guilds
+Cults
+druid circles
+Goblin gangs
+Mercenary troops
+Merchant guilds
+Military companies
+Noble Houses
+Orkish Clan
+Outlaw bands
+Pirate crews
+Savage hordes
+Secret societies
+Urban gangs
+Watchmen
+
+#Food
+Breakfast
+-City cafe
+Traveler's inn
+
+Dinner
+-Among desert nomads
+-Among easterlings
+-Among islanders
+-among jungle dwellers
+-among swampfolk
+-around the campfire
+-country inn
+-dockside tavern
+-dwarvish alehouse
+-elvish dwelling
+-golbin hideout
+-hunter's lodge
+-mages'academy dining hall
+-mining town pub
+-orkish camp
+-seaside cafe
+-undead feasthall
+-witch's hovel
+Exotic fruits and vegetables
+fish, daily catch
+street food
+wines
+
+#Magic
+Alchmical mishaps
+Altars, holy
+Altars, unholy
+Bag of holding and heward's handy haversack
+Diseases
+Divination
+Herb lore
+Legendary weapons
+Magic wands
+Magic item drawbacks
+necromantic effects
+Patheons
+poisoncraft
+potions
+religious relics
+rings
+scroll scribing mishaps
+spell effects
+warlock contracts
+
+#monsters
+Reskinning Monsters
+-Beasts
+-Humanoids
+-Monstrosities
+Animials
+-Bats
+-bears
+-cats
+-monkeys
+-rats
+-spiders
+-wolves
+Beasts, fantastic
+-Aberrant beasts
+-celestial beasts
+-demonic beasts
+-fey beasts
+-fire beasts
+-infernal beasts
+-legendary beasts
+-sea beasts
+-shadow beasts
+-storm beasts
+-undead beasts
+-winter beasts
+Cultists
+Dragons
+Faeriefolk
+fiends
+Giant,fire
+Giant, frost
+Giant, Stone
+Giant, Storn
+Goblins
+-Goblin Gangs
+Golems
+Hobgoblins
+Kobolds
+Lizardfolk
+Lycanthropes
+Merfolk
+Mutant creatures
+Ogres
+-In the ogre's pockets
+Oozes
+Orcs
+-Orkish clans
+Orc Warlords
+Serial Killers
+Treefolk
+trolls
+Undead, restless
+Vampires
+Withces
+
+#NPC
+NPC Apperance and Personality
+NPC Motivations

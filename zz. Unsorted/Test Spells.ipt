@@ -1,0 +1,7 @@
+; Test Spells.ipt
+; created 9/29/2020 10:11:14 AM
+Table: Main
+{(1d4+1)*10}gp\n<b>Fire Bolt</b> <sup>phb 242</sup> \n<em>Cantrip, Evocation</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>VS\n<b>Casting Time:</b>1 action\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+{(1d4+1)*10}gp\n<b>Friends</b> <sup>phb 244</sup> \n<em>Cantrip, Enchantment(ritual)</em>\n<b>Class:</b> <em></em>\n\n<b>Components: </b>SM\n<b>Casting Time:</b>1 action(+10mins)\n<b>Duration:</b>\n<b>Range:</b>\n<b>Area of Effect:</b>\n<b>Saving Throw:</b>\n\n
+
+EndTable:

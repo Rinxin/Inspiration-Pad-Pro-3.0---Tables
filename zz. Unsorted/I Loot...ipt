@@ -1,0 +1,25 @@
+; I Loot...ipt
+; created 2/26/2019 5:47:21 AM
+
+prompt: I Loot the: {Bandit|Cultist|Evil Mage|Goblin|Hobgoblin|Kobold|Orc} Evil Mage
+
+Table: Main
+I Loot the ...{prompt1$} and find /n [@{prompt1$}]
+EndTable:
+
+Table: Evil Mage
+Shrunken Head (The leathery, perserved head of a dwarf)
+{1d4} Vials of Blood (For summoning demons.
+Crystal Orb (A clear orb the size of a human's fist.)
+Red Ink & Bone Quill (It's probably blood. The quill is quite nice.)
+Silk Pouch (Contains charcoal, incense, and quality herbs.)
+Blood Stained Tome (A thick tome that is barely legible.)
+Black Robes (Very nice black robes.)
+{1d4} Blank Scrolls (For writing down spells)
+Skull Staff (There is a humanoid skull at the end.)
+Black Onyx Stone (Worth 150gp, Component to create undead)
+Alchemist's Supplies (The kit needed to make useful concotions.)
+Potion of Poison (Looks, smells, and tastes like a Potion of Healing, but is actually poison)
+EndTable:
+
+

@@ -1,0 +1,17 @@
+use: srd\MageSpells.ipt
+
+Header: Random Spell Book, using Personal Conent.
+Define: NumSpells ={1d12}
+
+Table: Spellbook
+Roll: 1d102
+1-50:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]
+51-75:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]
+76-80:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n 
+81-90:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n\n <u>Fourth Level Spells:</u>\n[!{$NumSpells} Level_4 >> sort >> implode]\n 
+91-96:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n\n <u>Fourth Level Spells:</u>\n[!{$NumSpells} Level_4 >> sort >> implode]\n\n <u>Fifth Level Spells:</u>\n[!{$NumSpells} Level_5 >> sort >> implode]\n 
+97-99:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n\n <u>Fourth Level Spells:</u>\n[!{$NumSpells} Level_4 >> sort >> implode]\n\n <u>Fifth Level Spells:</u>\n[!{$NumSpells} Level_5 >> sort >> implode]\n\n <u>Sixth Level Spells:</u>\n[!{$NumSpells} Level_6 >> sort >> implode]\n 
+100:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n\n <u>Fourth Level Spells:</u>\n[!{$NumSpells} Level_4 >> sort >> implode]\n\n <u>Fifth Level Spells:</u>\n[!{$NumSpells} Level_5 >> sort >> implode]\n\n <u>Sixth Level Spells:</u>\n[!{$NumSpells} Level_6 >> sort >> implode]\n\n <u>Seventh Level Spells:</u>\n[!{$NumSpells} Level_7 >> sort >> implode]\n 
+101:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n\n <u>Fourth Level Spells:</u>\n[!{$NumSpells} Level_4 >> sort >> implode]\n\n <u>Fifth Level Spells:</u>\n[!{$NumSpells} Level_5 >> sort >> implode]\n\n <u>Sixth Level Spells:</u>\n[!{$NumSpells} Level_6 >> sort >> implode]\n\n <u>Seventh Level Spells:</u>\n[!{$NumSpells} Level_7 >> sort >> implode]\n\n <u>Eigth Level Spells:</u>\n[!{$NumSpells} Level_8 >> sort >> implode]\n 
+102:<u>First Level Spells:</u>\n[!{$NumSpells} Level_1 >> sort >> implode]\n\n <u>Second Level Spells:</u>\n[!{$NumSpells} Level_2 >> sort >> implode]\n\n <u>Third Level Spells:</u>\n[!{$NumSpells} Level_3 >> sort >> implode]\n\n <u>Fourth Level Spells:</u>\n[!{$NumSpells} Level_4 >> sort >> implode]\n\n <u>Fifth Level Spells:</u>\n[!{$NumSpells} Level_5 >> sort >> implode]\n\n <u>Sixth Level Spells:</u>\n[!{$NumSpells} Level_6 >> sort >> implode]\n\n <u>Seventh Level Spells:</u>\n[!{$NumSpells} Level_7 >> sort >> implode]\n\n <u>Eigth Level Spells:</u>\n[!{$NumSpells} Level_8 >> sort >> implode]\n\n <u>Nineth Level Spells:</u>\n[!{$NumSpells} Level_9 >> sort >> implode]\n 
+

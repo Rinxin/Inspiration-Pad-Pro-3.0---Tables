@@ -1,0 +1,21 @@
+; CritonomiconReborn 5e.ipt
+; created 9/15/2018 10:05:45 PM
+#https://www.scribd.com/document/386581720/The-Critonomicon-Reborn-for-5e
+
+#d6 Crits
+Table: 1.1 #d6 Crits
++0 Normal Crit
++0 Armor damaged, -2 AC
++0 Leg damaged, -5 to base movement until healed
++0 Weapon arm damaged, -2 to hit until healed
++1 Knocked Prone
++1 Knocked Prone
+EndTable:
+
+Table: 1.2
+
+EndTable:
+
+Table: 1.3
+
+EndTable:

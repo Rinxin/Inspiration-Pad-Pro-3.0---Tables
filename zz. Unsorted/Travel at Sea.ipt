@@ -1,0 +1,75 @@
+; Hazards at Sea.ipt
+; created 9/8/2019 3:49:01 PM
+
+Table: Main_Hazards
+roll:1d20
+1-3: <b>Crew Conflict</b>\n[@Crew Conflict]
+4-6: <b>Fire</b>\n[@Fire]
+7-9: <b>Fog</b>\n[@Fog]
+10-12: <b>Infestation</b>\n[@Infestation]
+13-20: <b>Storm</b>\n[@Storm]
+EndTable:
+
+Table: Crew Conflict
+[@Crew_DC] \n[#Crew Checks]
+EndTable:
+
+Table: Crew_DC
+8:(DC 10) Minor scuffle or petty theft
+4:(DC 15) Brawl involving several people, theft of a valuable
+2:(DC 20) Large brawl resulting in several injuries, theft of a prized item
+1:(DC 25) Murder, serious brawl involving most of the crew
+EndTable:
+
+Table: Fire 
+[@Fire_DC] \n[#Fire Checks]
+EndTable:
+
+Table: Fire_DC
+8:(DC 10) small, contained fire, equivalent to an oil lantern
+4:(DC 15) Dangerous flame, equivalent to a large campfire, or multiple, smaller fires ignited at once.
+2:(DC 20) Intense fire with significant chance to spread, equivalent to a bonfire.
+1:(DC 25) Sudden, pervasive flames, such as from igniting a hold filled with flammable cargo.
+EndTable:
+
+Table: Fog 
+[@Fog_DC] \n[#Fog Checks]
+EndTable:
+
+Table: Fog_DC
+8:(DC 10) Light Fog
+4:(DC 15) Moderate Fog
+2:(DC 20) Heavy Fog
+1:(DC 25) Very Heavy Fog
+EndTable:
+
+Table: Infestation
+[@Infestation_DC] \n[#Infestation Checks] 
+EndTable:
+
+Table: Infestation_DC
+8:(DC 10) Minor bug or rat infestation, common cold.
+4:(DC 15) Persistent bug or rat infestation, contagious flu or spoiled food.
+2:(DC 20) Serious bug or rat infestation, contagious flu or spoiled food.
+1:(DC 25) Overwhelming bug or rat infestation, lethal plague.
+EndTable:
+
+Table: Storm 
+[@Storm_DC] \n[#Storm Checks] 
+EndTable:
+
+Table: Storm_DC
+8: (DC 10) Heavy Gale
+4: (DC 15) Strong Storm
+2: (DC 20) Typical Hurricane
+1: (DC 25) Overhelming Hurricane
+EndTable:
+
+Table: Checks
+type:dictionary
+Crew: \n<u>Captian</u>: Charisma (Intimidation) \n<u>First Mate</u>: Charisma (Intimidation) \n<u>Cook</u>: Intelligence (Brewer's Supplies)\n\n<b>Total Success</b> The crew's quality score increases by 1 for {1d4} days and the hazard ends.\n<b>Success</b> The hazard ends.\n<b>Failure</b> The crew's quality score decreases by 1.\n<Total Failure</b> The crew's quality score decreases by 1, and the crew immediately mutinies.
+Fire: \n<u>Captain</u>: Intelligence (Water Vehicles) \n<u>First Mate</u>: Charisma (Intimidation) \n<u>Bosun</u>: Strength (Carpenter's tools) \n<u>Surgeon</u>: Intelligence (Medicine)\n\n<b>Total Success</b> The ship survives unscathed. The crew's quality score increases by 1 for {1d4}(1d4) days.\n<b>Success</b> The ship survives unscathed.\n<b>Failure</b> The ship's components each take {4d10} bludgeoning damage. The crew's quality score decreases by 1. The ship struggles, moving at half speed that day.\n<b>Total Failure</b> The ship's components each take {10d10} bludgeoning damage. The crew's quality score decreases by 2, and 10 percent of the crew is washed overboard and lost. The ship is blown off course and struggles to recover its bearings, moving in a random direction.
+Fog: \n<u>Captain</u>: Intelligence (Water Vehicles) \n<u>Quartermaster</u>: Wisdom (Nature)\n\n<b>Total Success</b> The fire is extinguished with nothing beyond cosmetic damage.\n<b>Success</b> The fire is extinguished, but the hull and {1d3} other random components take {6d6} fire damage.\n<b>Failure</b> The hull and  {1d3} other random components take {6d6} fire damage, and the fire continues. Make another set of checks.\n<b>Total Failure</b> The crew's quality score decreases by 1 due to injuries, while the hull and {1d3} other random components take {6d6} fire damage. The fire continues. Make another set of checks.
+Infestation: \n<u>Captain</u>: Intelligence (Water Vehicles) \n<u>First Mate</u>: Charisma (Persuasion) \n<u>Surgeon</u>: Intelligence (Medicine) \n<u>Cook</u>: Constitution (Cook's Utensils)\n\n<b>Total Success</b> The fog has no effect on navigation, and the crew's quality increases by 1 for {1d3} days.\n<b>Success</b> The fog has no effect on navigation.\n<b>Failure</b> The fog slows the ship, reducing its travel pace and speed by half for the day.\n<b>Total Failure</b> The fog slows the ship and disorients the crew, reducing the vessel's travel pace and speed by half for the day and causing it to move in a random direction. 
+Storm: \n<u>Captain</u>: Intelligence (Water Vehicles) \n<u>First Mate</u>: Charisma (Intimidation) \n<u>Bosun</u>: Strength (Carpenter's tools) \n<u>Quartermaster</u>: Widsom (Nature)\n\n<b>Total Success</b> The crew's quality score increases by 1 for {1d4} days, and the hazard ends. \n<b>Success</b>The hazard ends.\n<b>Failure</b> The crew's quality score decreases by 1.\n<b>Total Failure</b> The crew's quality score decreases by 1, and the distration casued by the crisis forces the ship to move at half speed that day. 
+EndTable:

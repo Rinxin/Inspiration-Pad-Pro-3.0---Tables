@@ -1,0 +1,338 @@
+; Flexible Treasures.ipt
+; created 7/3/2019 10:38:34 PM
+
+use: \\Common\DMG\Items\Category A.ipt
+use: \\Common\DMG\Items\Category B.ipt
+use: \\Common\DMG\Items\Category C.ipt
+use: \\Common\DMG\Items\Category D.ipt
+use: \\Common\DMG\Items\Category E.ipt
+use: \\Common\DMG\Items\Category F.ipt
+use: \\Common\DMG\Items\Category G.ipt
+use: \\Common\DMG\Items\Category H.ipt
+use: \\Common\DMG\Items\Category I.ipt
+use: \\Common\DMG\Items\Category J.ipt
+use: \\Common\DMG\Items\Category K.ipt
+use: \\Common\DMG\Items\Category L.ipt
+use: \\Common\DMG\Items\Category M.ipt
+use: \\Generators\D&D\Homebrew\gemstones.ipt 
+ 
+prompt: CR Tier {1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20} 1
+prompt: Roll On {Treasure Hoard| Solo Coins} Treasure Hoard
+
+
+Table: Main
+[when]{$prompt2}="Solo Coin"[do][@Solo Coin][else][#{$prompt1} CR Tables][end]
+Endtable:
+
+
+Table: CR Tables
+0-4: \n<b>Coins</b>\n[#1 Group Coins >> implode] \n<b>Gems</b>\n[#1 Gems and Art >> implode] \n<b>Treasure</b>\n[@Treasure Hoard 0-4 >> implode]
+5-10: \n<b>Coins</b>\n[#2 Group Coins >> implode] \n<b>Gems</b>\n[#2 Gems and Art >> implode] \n<b>Treasure</b>\n[@Treasure Hoard 5-10 >> implode]
+11-16: \n<b>Coins</b>\n[#3 Group Coins >> implode] \n<b>Gems</b>\n[#3 Gems and Art >> implode] \n<b>Treasure</b>\n[@Treasure Hoard 11-16 >> implode]
+17-20: \n<b>Coins</b>\n[#4 Group Coins >> implode] \n<b>Gems</b>\n[#4 Gems and Art >> implode] \n<b>Treasure</b>\n[@Treasure Hoard 17+ >> implode]
+Endtable:
+
+Table: Solo Coins
+0-4: [@Solo Coins_0-4]
+5-10: [@Solo Coins_5-10]
+11-16: [@Solo Coins_11-16]
+17-20: [@Solo Coins_17-20]
+EndTable:
+
+Table: Solo Coins_0-4
+1-30: {5d6}cp
+31-60: {4d6}sp
+61-70: {3d6}ep
+71-95: {3d6}gp
+96-100: {1d6}pp
+EndTable:
+
+Table: Solo Coins_5-10
+01–30:	{4d6 * 100}cp, {1d6 * 10}ep
+31–60:	{6d6 * 10}sp, {2d6 * 10}gp
+61–70:	{3d6 * 10}ep, {2d6 * 10}gp
+71–95:	{4d6 * 10}gp
+96–100:	{2d6 * 10}gp, {3d6}pp
+EndTable:
+
+Table: Solo Coins_11-16
+01–20:	{4d6 * 100}sp, {1d6 * 100}gp
+21–35:	{1d6 * 100}ep, {1d6 * 100}gp
+36–75:	{2d6 * 100}gp, {1d6 * 10}pp
+76–100:	{2d6 * 100}gp, {2d6 * 10}pp
+EndTable:
+
+Table: Solo Coins_17-20
+01–15:	{2d6 × 1,000}ep, {8d6 × 100}gp
+16–55:	{1d6 × 1,000}gp, {1d6 × 100}pp
+56–00:	{1d6 × 1,000}gp, {2d6 × 100}pp
+EndTable:
+
+Table: Group Coins
+type:lookup
+1: <b>CR 0-4</b>\n {6d6*100}cp, {3d6*100}sp, {2d6*10}gp \n
+2: <b>CR 5-10</b>\n {2d6*100}cp, {2d6*1000}sp, {6d6*100}gp, {3d6*10}pp \n
+3: <b>CR 11-16</b>\n {4d6*1000}gp,	{5d6*100}pp \n
+4: <b>CR 17+</b>\n {12d6*1000}gp, {8d6*1000}pp \n
+EndTable:
+
+Table: Gems and Art
+0-4:   [@[|{2d4}|{2d6}] Gemstones Main with {$prompt1} >> implode]\n
+5-10:  [@[|{2d4}|{3d6}] Gemstones Main with {$prompt1} >> implode]\n
+11-16: [@[|{2d4}|{3d6}] Gemstones Main with {$prompt1} >> implode]\n
+17-20: [@[|{1d4}|{3d6}|{1d8}|{1d10}] Gemstones Main with {$prompt1} >> implode]\n
+EndTable:
+
+
+Table: Treasure Hoard 0-4
+Roll: 1d100
+1-6:   \z
+7-16:  \z	  
+17-26: \z	  	
+27-36: \z	  
+37-44: [@{1d6} Magic Item Table A >> implode]
+45-52: [@{1d6} Magic Item Table A >> implode]
+53-60: [@{1d6} Magic Item Table A >> implode]
+61-65: [@{1d4} Magic Item Table B >> implode]
+66-70: [@{1d4} Magic Item Table B >> implode]
+71-75: [@{1d4} Magic Item Table B >> implode]
+76-78: [@{1d4} Magic Item Table C >> implode]
+79-80: [@{1d4} Magic Item Table C >> implode]
+81-85: [@{1d4} Magic Item Table C >> implode]
+86-92: [@{1d4} Magic Item Table F >> implode]
+93-97: [@{1d4} Magic Item Table F >> implode]
+98-99: [@Magic Item Table G]
+100:   [@Magic Item Table G]
+Endtable:
+
+Table: Treasure Hoard 5-10
+Roll: 1d100
+1-4:	\z           
+5-10:	\z
+11-16:	\z
+17-22:	\z
+23-28:	\z
+29-32:	[@{1d6} Magic Item Table A >> implode]
+33-36:	[@{1d6} Magic Item Table A >> implode]
+37-40:	[@{1d6} Magic Item Table A >> implode]
+41-44:	[@{1d6} Magic Item Table A >> implode]
+45-49:	[@{1d4} Magic Item Table B >> implode]
+50-54:	[@{1d4} Magic Item Table B >> implode]
+55-59:	[@{1d4} Magic Item Table B >> implode]
+60-63:	[@{1d4} Magic Item Table B >> implode]
+64-66:	[@{1d4} Magic Item Table C >> implode]
+67-69:	[@{1d4} Magic Item Table C >> implode]
+70-72:	[@{1d4} Magic Item Table C >> implode]
+73-74:	[@{1d4} Magic Item Table C >> implode]
+75-76:	[@Magic Item Table D]
+77-78:	[@Magic Item Table D]
+79:	[@Magic Item Table D]
+80:	[@Magic Item Table D]
+81-84:	[@{1d4} Magic Item Table F >> implode]
+85-88:	[@{1d4} Magic Item Table F >> implode]
+89-91:	[@{1d4} Magic Item Table F >> implode]
+92-94:	[@{1d4} Magic Item Table F >> implode]
+95-96:	[@{1d4} Magic Item Table G >> implode]
+97-98:	[@{1d4} Magic Item Table G >> implode]
+99:	[@Magic Item Table H]
+100:	[@Magic Item Table H]
+Endtable:
+
+Table: Treasure Hoard 11-16
+Roll: 1d100
+1-3:    \z	           
+4-6:    \z	
+7-9:    \z	
+10-12:  \z	
+12-15:  \z	
+16-19:	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+20-23:	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+24-26:	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+27-29:	[@{1d4} Magic Item Table A >> implode] [@{1d6} Magic Item Table B >> implode]
+30-35:	[@{1d6} Magic Item Table C >> implode]
+36-40:	[@{1d6} Magic Item Table C >> implode]
+41-45:	[@{1d6} Magic Item Table C >> implode]
+46-50:	[@{1d6} Magic Item Table C >> implode]
+51-54:	[@{1d4} Magic Item Table D >> implode]
+55-58:	[@{1d4} Magic Item Table D >> implode]
+59-62:	[@{1d4} Magic Item Table D >> implode]
+63-66:	[@{1d4} Magic Item Table D >> implode]
+67-68:	[@Magic Item Table E]
+69-70:	[@Magic Item Table E]
+71-72:	[@Magic Item Table E]
+73-74:	[@Magic Item Table E]
+75-76:	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+77-78:	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+79-80:	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+81-82:	[@Magic Item Table F], [@{1d4} Magic Item Table G >> implode]
+83-85:	[@{1d4} Magic Item Table H >> implode]
+86-88:	[@{1d4} Magic Item Table H >> implode]
+89-90:	[@{1d4} Magic Item Table H >> implode]
+91-92:	[@{1d4} Magic Item Table H >> implode]
+93-94:	[@Magic Item Table I]
+95-96:	[@Magic Item Table I]
+97-98:	[@Magic Item Table I]
+99-100:	[@Magic Item Table I]
+Endtable:
+
+Table: Treasure Hoard 17-20
+Roll: 1d100
+1-2:	\z           
+3-5:	[@{1d8} Magic Item Table C]
+6-8:	[@{1d8} Magic Item Table C]
+9-11:	[@{1d8} Magic Item Table C]
+12-14:	[@{1d8} Magic Item Table C]
+15-22:	[@{1d6} Magic Item Table D]
+23-30:	[@{1d6} Magic Item Table D]
+31-38:	[@{1d6} Magic Item Table D]
+39-46:	[@{1d6} Magic Item Table D]
+47-52:	[@{1d6} Magic Item Table E]
+53-58:	[@{1d6} Magic Item Table E]
+59-63:	[@{1d6} Magic Item Table E]
+64-68:	[@{1d6} Magic Item Table E]
+69:	[@{1d4} Magic Item Table G]
+70:	[@{1d4} Magic Item Table G]
+71:	[@{1d4} Magic Item Table G]
+72:	[@{1d4} Magic Item Table G]
+73-74:	[@{1d4} Magic Item Table H]
+75-76:	[@{1d4} Magic Item Table H]
+77-78:	[@{1d4} Magic Item Table H]
+79-80:	[@{1d4} Magic Item Table H]
+81-85:	[@{1d4} Magic Item Table I]
+86-90:	[@{1d4} Magic Item Table I]
+91-95:	[@{1d4} Magic Item Table I]
+96-100:	[@{1d4} Magic Item Table I]
+Endtable:
+
+
+; Flexible Magic Item Tables to sort items into new distribution resutls
+
+Table: Magic Item Table A
+Roll: 1d100
+50:	Potion of healing
+20:	[@Category A] \n [@Maps]
+10:	[@Category B] \n [@Maps]
+18:	[@Category F] \n [@Maps]
+2:	[@Category G] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table B
+Roll: 1d100
+15:	Potion of greater healing
+65:	[@Category B] \n [@Maps]
+20:	[@Category G] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table C
+Roll: 1d100
+15:	Potion of superior healing
+65:	[@Category C] \n [@Maps]
+5:	[@Category G] \n [@Maps]
+15:	[@Category H] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table D
+Roll: 1d100
+20:	Potion of Supreme healing
+70:	[@Category D] \n [@Maps]
+3:	[@Category H] \n [@Maps]
+7:	[@Category I] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table E
+Roll: 1d100
+50:	[@Category D] \n [@Maps]
+50:	[@Category E] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table F
+Roll: 1d100
+       [@Category J]  \n [@Maps]
+EndTable:
+
+Table: Magic Item Table G
+Roll: 1d100
+5:	[@Category J] \n [@Maps]
+95:	[@Category K] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table H
+Roll: 1d100
+3:	[@Category J] \n [@Maps]
+7:	[@Category K] \n [@Maps]
+90:	[@Category L] \n [@Maps]
+EndTable:
+
+Table: Magic Item Table I
+Roll: 1d100
+8:	[@Category K] \n [@Maps]
+7:	[@Category L] \n [@Maps]
+85:	[@Category M] \n [@Maps]
+EndTable: 
+
+
+; Treasure Maps from AD&D
+
+Table: Maps
+1-5: Fasle map
+6-70: <u>Map to Monetary Treasure</u> \n[@Monetary Treasure]
+71-90: <u>Map to Magic Treasure</u> \n [@Magic Treasure]
+91-100: <u>Map to Combined Hoard</u> \n [@Combined Hoard]
+EndTable:
+
+Table: Map Location
+1-20: Labyrinth of caves found in the lair
+21-60: outdoors, 5-8 miles distant, [@Treasure Status]
+61-90: outdoors, 10-40 miles distant, [@Treasure Status]
+91-100: outdoors, 50-500 miles distant, [@Treasure Status]
+EndTable:
+
+Table: Treasure Status
+1-10: Buried and unguarded
+11-20: Hidden in water
+21-70: Guarded in a lair
+71-80: Somewhere in a ruins
+81-90: In a burial crypt
+91-100: Secreted in a town
+EndTable:
+
+Table: Monetary Treasure
+Roll: 1d20
+1-2: {2d4*10000}cp, {{1d4+1}* 10000}sp
+3-5: {5d6*1000}ep
+6-10: {3d6*1000}gp
+11-12: {5d4*100}pp
+13-15: [@{1d10*10} Gemstones Main with {$prompt1} >> implode]
+16-17: [@{5d10} Gemstones Main with {$prompt1} >> implode]
+18: [#{1d17} Monetary Treasure >> Implode], [#{1d17} Monetary Treasure >> Implode]
+19: [#{1d17} Monetary Treasure >> Implode], [#{1d17} Monetary Treasure >> Implode], [#{1d17} Monetary Treasure >> Implode]
+20: [#1 Monetary Treasure], [#3 Monetary Treasure], [#6 Monetary Treasure], [#11 Monetary Treasure], [#13 Monetary Treasure], [#16 Monetary Treasure]
+EndTable:
+
+Table: Magic Treasure
+Roll: 1d20
+1-5: Any item rolled on Magic ltem Table, plus 4 Potions
+6-8: Any 2 items rolled on Magic ltem Table
+9-12: 1 Sword, 1 Armor or Shield, 1 Miscellaneous Weapon
+13-14: Any 3 items, no Sword or Potions
+15-18: Any6 Potions and any 6 Scrolls
+19: Any 4 items, 1 is a Ring, 1 is a Rod
+20: Any 5 items, 1 is a Rod, 1 is Miscellaneous Magic
+EndTable:
+
+Table: Combined Hoard
+01-20: [#1 Monetary Treasure] and [#1 Magic Treasure]
+21-40: [#6 Monetary Treasure] and [#1 Magic Treasure]
+41-55: [#3  Monetary Treasure],  [#6 Monetary Treasure] and [#1 Magic Treasure] & [#15 Magic Treasure]
+56-65: [#1 Monetary Treasure], [#3  Monetary Treasure] & [#6 Monetary Treasure] and [#9 Magic Treasure] & [#13 Magic Treasure]
+66-75: [#6 Monetary Treasure], [#11 Monetary Treasure] and[#6 Magic Treasure]& [#15 Magic Treasure]
+76-80: [#3 Monetary Treasure], [#6  Monetary Treasure], [#11  Monetary Treasure]  [#16 Monetary Treasure] and [#1 Magic Treasure] & [#9 Magic Treasure]
+81-85: [#20 Monetary Treasure] and map to Magic Treasure: [#1 Magic Treasure]
+86-90: [#20 Monetary Treasure] and map to Magic Treasure: [#19 Magic Treasure]
+91-96: Map to Monatary: [#1 Monetary Treasure] & [#3 Monetary Treasure], [#20 Magic Treasure] on hand
+97-100: Map to Monatary Treasure: [#11  Monetary Treasure] and [#13 Monetary Treasure] plus [#15 Magic Treasure], [#20 Magic Treasure] on hand
+EndTable:
+
+
+
+

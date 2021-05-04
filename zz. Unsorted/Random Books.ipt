@@ -1,0 +1,127 @@
+Use: nbos\Studies.ipt
+Use: nbos\FantasyRaces.ipt
+Use: nbos\Monsters.ipt
+Use: nbos\Languages.ipt
+Use: nbos\Professions.ipt
+Use: nbos\names\Human.ipt
+Use: nbos\names\Elf.ipt
+Use: nbos\names\Dwarf.ipt
+Use: nbos\names\towns.ipt
+
+Use: nbos\Animals.ipt
+
+Define: Complete =[||||Complete|Brief|Concise|Collected]
+Define: Illustrated =[|||Illustrated]
+
+
+Table: RandomBookDetails
+Set: AuthorName =[@Author]
+<u>[@RandomBookName >> Proper]</u>, by {$AuthorName} [@AuthorAnd]<br>\n{1d200+20} Pages.  [@BookBinding] [@BookCondition] [@BookContents]
+
+Table: RandomBookName
+Set: Subject=[@BookSubject]
+{$Subject}, [|A|The] {$Complete} {$Illustrated} [@BookType2]
+[|A|The] {$Complete} {$Illustrated} [@BookType] {$Subject}
+[||{$AuthorName}'s] {$Complete} {$Illustrated} {$Subject}
+A [|man's|woman's] {$Complete} {$Illustrated} [@BookType] {$Subject}
+How to raise \a [@NormalAnimals]
+The History of [@Author]
+The History of [@MasterTownName]
+My [|Journey to|travel to|exploration of] [@MasterTownName]
+The {$Subject} of [@MasterTownName]
+[@MasterTownName], \a {$Complete} {$Illustrated} History
+The {$Complete} {$Illustrated} [|Works|Tales|Stories|Genius|Lyrics|Poetry] of [@MasterHumanName]
+The {$Complete} {$Illustrated} [|Works|Tales|Stories|Genius|Lyrics|Poetry] of {$AuthorName}
+[@Author], \a {$Complete} {$Illustrated} Biography
+{$AuthorName}, \a {$Complete} {$Illustrated} autobiography
+\a {$Complete} {$Illustrated} field guide to the [@Monsters]
+Introductory {$Subject}
+{$AuthorName}, in my Own Words
+{$Subject} for the curious [@FantasyRaces]
+\a [@FantasyRaces]'s {$Complete} {$Illustrated} guide to {$subject}
+[|the|\a] [@Professions]'s {$Complete} {$Illustrated} [|Handbook|Field Guide|Study Book|Dictionary]
+[|the|\a] {$Complete} [@Professions]
+
+Table: Author
+5:[@MasterHumanName]
+2:[@MasterElfName]
+1:[@MasterDwarfName]
+
+Table: AuthorAnd
+10:\z
+,et. al.
+and [@Author]
+, [@Author], and [@Author]
+
+
+Table: BookType
+4: Guide to
+Encyclopedia of
+Manual of
+Tome of
+Thesis on
+Essay on
+Study of
+Compendium of
+History of
+Field Guide to
+Handbook of
+
+Table: BookType2
+4: Guide
+Encyclopedia
+Manual
+Tome
+Thesis
+Essay
+Study
+Compendium
+History
+Field Guide
+Handbook
+
+
+Table: BookSubject
+8:[@BookCulture] [@Studies]
+[@Languages]
+[@BookCulture] [||||Contemporary|Ancient|Modern] [||||Religious|Ritual|Mystical|Interpretive|Erotic] [|Dance|Painting|Art|Sculpture|Music|Poetry]
+
+Table: BookCulture
+10:\z
+[@FantasyRacesAdj]
+
+
+Table: BookReview
+An excellent read for those interested in {$Subject}
+A dull read, with little to interest those who study {$Subject}
+If you're interested in {$Subject}, this book is for you!
+
+Table: BookBinding
+5:a [|well|poorly] bound book, with [@BookCover] cover.  The title of the book is [|plainly marked on the cover|marked on the spine|found only inside the cover].  The [@BookPaper] pages of the book itself [|are not bound|are bound by a leather tie|are bound by a metal latch|are bound by a locked metal latch].
+This book is in the form of {2d6} [@BookPaper] scrolls.
+
+Table: BookCover
+an illustrated [|leather|leather|wooden|brass]
+a bare [|leather|leather|wooden|brass] 
+
+Table: BookPaper
+5:paper
+papyus
+5:parchment
+vellum
+
+Table: BookCondition
+The writing is easily readable.
+The writing is faded, but readable.
+The penmanship is poor, but pen strokes clear.
+The writing is faded and tough to make out, but readable.
+The writing is hard to read.
+The writing is nearly impossible to desciper - both the penmanship is bad and the writing is faded.
+
+Table: BookContents
+The contents are very well researched and documented.
+The contents cover the subject thoroughly.
+The book covers it's subject well, but could be better
+The contents cover some basics, but that's about it.
+The contents basically cover the subject, but go off on frequent tangents.
+This book is an awful read, with the contents meandering off on tangents and rarely sticking to the topic.

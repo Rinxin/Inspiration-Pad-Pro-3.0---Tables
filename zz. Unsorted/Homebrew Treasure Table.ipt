@@ -1,0 +1,108 @@
+; Homebrew Treasure Table.ipt
+; created 9/25/2018 11:37:56 PM
+
+Use: Common/DMG/Armor.ipt
+Use: Common/DMG/Potion.ipt
+Use: Common/DMG/Ring.ipt
+Use: Common/DMG/Rod.ipt
+Use: Common/DMG/Scroll.ipt
+Use: Common/DMG/Staff.ipt
+Use: Common/DMG/Wand.ipt
+Use: Common/DMG/Weapon.ipt
+Use: Common/DMG/Wondrous Item.ipt
+Use: Common/DMG/Treasure-Coin-Gems.ipt
+;<font color=grey></font>
+;<font color=green></font>
+;<font color=blue></font>
+;<font color=purple></font>
+;<font color=orange></font>
+;<font color=red></ront>
+
+
+Table: Main
+<u>Magic Items</u>\n[@{1d8} Items >> implode], \n<u>Treasures</u>\n[#1d12 Treasure >> implode], \n<u>Coins</u>\n[@Coins] 
+EndTable:
+
+Table: Items
+1-8:[@{[|1d1|1d4|1d6|1d8]} Main_Armor >> implode]\n
+9-40:[@{[|1d1|1d4|1d6|1d8]} Main_Potion >> implode]\n
+41-44:[@{[|1d1|1d4|1d6|1d8]} Main_Ring >> implode]\n
+45-47:[@{[|1d1|1d4|1d6|1d8]} Main_Rod >> implode]\n
+48-61:[@{[|1d1|1d4|1d6|1d8]} Main_Scroll >> implode]\n
+62-63:[@{[|1d1|1d4|1d6|1d8]} Main_Staff >> implode]\n
+64-65:[@{[|1d1|1d4|1d6|1d8]} Main_Wand >> implode]\n
+66-77:[@{[|1d1|1d4|1d6|1d8]} Main_Weapon >> implode]\n
+78-100:[@{[|1d1|1d4|1d6|1d8]} Main_Wondrous_Item >> implode]\n
+EndTable:
+
+Table:Main_Armor
+1-100: <font color=grey>[@Common_Armor]</font>
+1-15: <font color=green>[@Uncommon_Armor]</font>
+16-47: <font color=blue>[@Rare_Armor]</font>
+48-61: <font color=purple>[@Very_Rare_Armor]</font>
+62-69: <font color=orange>[@Legendary_Armor]</font>
+EndTable:
+
+Table:Main_Potion
+1-100: <font color=grey>[@Common_Potion]</font>
+1-15: <font color=green>[@Uncommon_Potion]</font>
+16-47: <font color=blue>[@Rare_Potion]</font>
+48-61: <font color=purple>[@Very_Rare_Potion]</font>
+62-69: <font color=orange>[@Legendary_Potion]</font>
+EndTable:
+
+Table:Main_Ring
+1-100: <font color=grey>[@Common_Ring]</font>
+1-15: <font color=green>[@Uncommon_Ring]</font>
+16-47: <font color=blue>[@Rare_Ring]</font>
+48-61: <font color=purple>[@Very_Rare_Ring]</font>
+62-69: <font color=orange>[@Legendary_Ring]</font>
+EndTable:
+
+Table:Main_Rod
+0: <font color=grey>[@Common_Rod]</font>
+1-15: <font color=green>[@Uncommon_Rod]</font>
+16-47: <font color=blue>[@Rare_Rod]</font>
+48-61: <font color=purple>[@Very_Rare_Rod]</font>
+62-69: <font color=orange>[@Legendary_Rod]</font>
+EndTable:
+
+Table:Main_Scroll
+0: <font color=grey>[@Common_Scroll]</font>
+1-15: <font color=green>[@Uncommon_Scroll]</font>
+16-47: <font color=blue>[@Rare_Scroll]</font>
+48-61: <font color=purple>[@Very_Rare_Scroll]</font>
+62-69: <font color=orange>[@Legendary_Scroll]</font>
+EndTable:
+
+Table:Main_Staff
+1-100: <font color=grey>[@Common_Staff]</font>
+1-15: <font color=green>[@Uncommon_Staff]</font>
+16-47: <font color=blue>[@Rare_Staff]</font>
+48-61: <font color=purple>[@Very_Rare_Staff]</font>
+62-69: <font color=orange>[@Legendary_Staff]</font>
+EndTable:
+
+Table:Main_Wand
+1-100: <font color=grey>[@Common_Wand]</font>
+1-15: <font color=green>[@Uncommon_Wand]</font>
+16-47: <font color=blue>[@Rare_Wand]</font>
+48-61: <font color=purple>[@Very_Rare_Wand]</font>
+62-69: <font color=orange>[@Legendary_Wand]</font>
+EndTable:
+
+Table:Main_Weapon
+1-100: <font color=grey>[@Common_Weapon]</font>
+1-15: <font color=green>[@Uncommon_Weapon]</font>
+16-47: <font color=blue>[@Rare_Weapon]</font>
+48-61: <font color=purple>[@Very_Rare_Weapon]</font>
+62-69: <font color=orange>[@Legendary_Weapon]</font>
+EndTable:
+
+Table:Main_Wondrous_Item
+1-100: <font color=grey>[@Common_Wondrous_Item]</font>
+1-15: <font color=green>[@Uncommon_Wondrous_Item]</font>
+16-47: <font color=blue>[@Rare_Wondrous_Item]</font>
+48-61: <font color=purple>[@Very_Rare_Wondrous_Item]</font>
+62-69: <font color=orange>[@Legendary_Wondrous_Item]</font>
+EndTable:

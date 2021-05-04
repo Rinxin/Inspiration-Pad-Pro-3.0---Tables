@@ -1,0 +1,251 @@
+; This is Your Life (backstory).ipt
+; created 11/28/2019 1:16:05 PM
+
+Table: This is Your Life (backstory) - Main
+
+EndTable:
+
+Table: Parents
+Roll:1d100
+01-95: You know who your parents [|are|were].
+96-100: You do not know who your parent were.
+EndTable:
+
+Table: Half-Elf Parents
+Roll:1d8
+1-5: One parent was an elf and the other was human.
+6: One parent was an elf and the other was a half-elf.
+7: One parent was a human and the other was a half-elf.
+8: Both parents were half-elves.
+EndTable:
+
+Table: Half-Orc Parents
+Roll:1d8
+1-3: One parent was an orc and the other was human.
+4-5: One parent was an orc and the other was a half-orc.
+6-7: One parent was a human and the other was a half-orc.
+8: Both parents were half-orcs.
+EndTable:
+
+Table: Tiefling Parents
+Roll:1d8
+1-4: Both parents were human, thier infernal heritage dormant until you came along.
+5-6: One parent was a tiefling and the other was a human.
+7: One parent was a tiefling and the other was a devil.
+8: One parent was a human and the other was a devil.
+EndTable:
+
+Table: Birthplace
+Roll:1d100
+EndTable: 
+
+Table: Number of Siblings
+Roll:1d10
+EndTable:
+
+Table: Birth Order
+Roll:2d6
+EndTable:
+
+Table: Family
+Roll:1d100
+EndTable:
+
+Table: Absent Parent
+Roll:1d4
+EndTable:
+
+Table: Family Lifestyle
+Roll:3d6
+EndTable:
+
+Table: Childhood Home
+Roll:1d100+{$Family_Lifestyle}
+EndTable:
+
+Table: Childhood Memories
+Roll:3d6+{$Cha_Mod}
+EndTable:
+
+Table: Background
+
+EndTable:
+
+Table: Background - Acolyte 
+Roll:1d6
+EndTable:
+
+Table: Background - Charlatan 
+Roll:1d6
+EndTable:
+
+Table: Background - Criminal 
+Roll:1d6
+EndTable:
+
+Table: Background - Entertainer 
+Roll:1d6
+EndTable:
+
+Table: Background - Folk Hero 
+Roll:1d6
+EndTable:
+
+Table: Background - Guild Artisan 
+Roll:1d6
+EndTable:
+
+Table: Background - Hermit 
+Roll:1d6
+EndTable:
+
+Table: Background - Noble 
+Roll:1d6
+EndTable:
+
+Table: Background - Outlander 
+Roll:1d6
+EndTable:
+
+Table: Background - Sage 
+Roll:1d6
+EndTable:
+
+Table: Background - Sailor 
+Roll:1d6
+EndTable:
+
+Table: Background - Soldier 
+Roll:1d6
+EndTable:
+
+Table: Background - Urchin 
+Roll:1d6
+EndTable:
+
+
+Table: Class - Art  
+Roll:1d6
+EndTable:
+
+Table: Class - Barbarian  
+Roll:1d6
+EndTable:
+
+Table: Class - Bard  
+Roll:1d6
+EndTable:
+
+Table: Class - Cleric  
+Roll:1d6
+EndTable:
+
+Table: Class - Druid  
+Roll:1d6
+EndTable:
+
+Table: Class - Fighter  
+Roll:1d6
+EndTable:
+
+Table: Class - Monk  
+Roll:1d6
+EndTable:
+
+Table: Class - Paladin  
+Roll:1d6
+EndTable:
+
+Table: Class - Ranger  
+Roll:1d6
+EndTable:
+
+Table: Class - Rogue  
+Roll:1d6
+EndTable:
+
+Table: Class - Sorcerer  
+Roll:1d6
+EndTable:
+
+Table: Class - Warlock  
+Roll:1d6
+EndTable:
+
+Table: Class - Wizard  
+Roll:1d6
+EndTable:
+
+Table: Life Events by Age  
+Roll:d100
+EndTable:
+
+Table: Life Events   
+Roll:1d100
+EndTable:
+
+;Secondary Tables
+Table: Life Events - Adventrues    
+Roll:
+EndTable:
+
+Table: Life Events - Arcane Matters    
+Roll:
+EndTable:
+
+Table: Life Events - Boons    
+Roll:
+EndTable:
+
+Table: Life Events - Crime    
+Roll:
+EndTable:
+
+Table: Life Events - Punishment    
+Roll:
+EndTable:
+
+Table: Life Events - Supernatural Events    
+Roll:
+EndTable:
+
+Table: Life Events - Tragedies    
+Roll:
+EndTable:
+
+Table: Life Events - War    
+Roll:
+EndTable:
+
+Table: Life Events - Wierd Stuff    
+Roll:
+EndTable:
+
+;Supplemetnal Tables
+Table: Alignment    
+Roll:
+EndTable:
+
+Table: Cause of Death    
+Roll:
+EndTable:
+
+Table: Class     
+Roll:
+EndTable:
+
+Table: Occupation     
+Roll:
+EndTable:
+
+Table: Race     
+Roll:
+EndTable:
+
+Table: Relationship     
+Roll:
+EndTable:
+
+Table: Status     
+Roll:
+EndTable:

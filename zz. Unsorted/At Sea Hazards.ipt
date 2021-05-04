@@ -1,0 +1,135 @@
+; At Sea Hazards.ipt
+; created 8/18/2019 3:49:19 PM
+
+
+set: hazard = {1d20}
+set: DC = {1d20}
+
+Table: At Sea Hazards_Main
+[@Hazard Type with {hazard}] [@Hazard DC with {DC}]
+EndTable:
+
+Table: Hazard Type
+1-3: Crew Conflict  
+4-6: Fire 
+7-9: Fog 
+10-12: Infestation 
+13-20: Storm 
+EndTable: 
+
+Table: Hazard DC
+1-9: <b>(DC 10)</b>\n\n [@[@Hazard Type with {hazard}] with {DC}]
+10-17: <b>(DC 15)</b>\n\n [@[@Hazard Type with {hazard}] with {DC}]
+18-19: <b>(DC 20)</b>\n\n [@[@Hazard Type with {hazard}] with {DC}]
+20: <b>(DC 25)</b>\n\n [@[@Hazard Type with {hazard}] with {DC}]
+EndTable:
+
+
+
+; Crew Conflict Hazards
+Table: Crew Conflict
+Type: lookup
+1-9: Minor Scuffle or Petty Theft \n [@Crew Coflict Checks] \n\n[@Crew Conflict Check Results]
+10-17: Brawl involving several people, Theft of a valuable \n [@Crew Coflict Checks] \n\n[@Crew Conflict Check Results]    
+18-19: Large Brawl resulting in several injuries, theft of a prized item \n [@Crew Coflict Checks] \n\n[@Crew Conflict Check Results]
+20: Murder, Serious brawl involving most of the crew \n [@Crew Coflict Checks]\n\n [@Crew Conflict Check Results]
+EndTable:
+
+Table: Crew Coflict Checks
+1: \n <u>Captian</u>: Charisma (Intimidation) \n &
+<u>First Mate</u>: Charisma (Intimidation) \n &
+<u>Cook</u>: Intelligence (Brewer's Supplies)
+EndTable:
+
+Table: Crew Conflict Check Results
+1: <u>Total Succes</u> <b>(2+Natural 20)</b>: The Crew's quality score increases by 1 for {1d4} days and the hazard ends. & 
+\n <u>Success</u> <b>(3 Successes)</b>: The hazard ends. &
+\n <u>Failure</u> <b>(More Fails Than losses)</b>: The crew's quality score decreases by 1. &
+\n <u>Total Failure</u> <b>(No Sucesses)</b>: The crew's quality score decreases by 1, and the crew immediately mutinies. 
+EndTable:
+
+;******** FIRE HAZARD
+Table: Fire DC
+1-9: Small, contained fire, equivalent to an oil lantern 
+10-17: Dangerous flame, equivalent to a large campfire, or multiple, smaller fires ignited at once.     
+18-19: Intense fire with significant chance to spread, equivalent to a bonfire.
+20: Suddend, pervasive flames, such as from igniting a hold filled with flammable cargo.
+EndTable:
+
+Table: Fire Checks
+1: \n <u>Captian</u>: Intelligence (water vehicles) \n &
+<u>First Mate</u>: Charisma (Intimidation) \n &
+<u>Bosun</u>: Sterngth (carpenter's tools) &
+<u>Surgeon</u>: Intelligence (Medicine)
+EndTable:
+
+Table: Fire Check Results
+1: <u>Total Succes</u> <b>(2+Natural 20)</b>: The fire is extinguished with nothing beyond cosmetic damage & 
+\n <u>Success</u> <b>(3 Successes)</b>: The fire is extinguished, but the hull and {1d3} other random components take {6d6} fire damage. &
+\n <u>Failure</u> <b>(More Fails Than losses)</b>: The hull and {1d3} other random components take {6d6} fire damage, and the fire continues. Make another set of checks. &
+\n <u>Total Failure</u> <b>(No Sucesses)</b>: The crew's quality score decreases by 1 due to injuries, while the hull and {1d3} other random components take {6d6} fire damage. The fire continues. Make another set of checks. 
+EndTable:
+
+
+; Fog Hazard
+Table: Fog DC
+1-9: 
+10-17:     
+18-19: 
+20: 
+EndTable:
+
+Table: Fog Checks
+1: \n <u>Captian</u>: Charisma (Intimidation) \n &
+<u>First Mate</u>: Charisma (Intimidation) \n &
+<u>Cook</u>: Intelligence (Brewer's Supplies)
+EndTable:
+
+Table: Fog Check Results
+1: <u>Total Succes</u> <b>(2+Natural 20)</b>:  & 
+\n <u>Success</u> <b>(3 Successes)</b>:  &
+\n <u>Failure</u> <b>(More Fails Than losses)</b>:  &
+\n <u>Total Failure</u> <b>(No Sucesses)</b>:  
+EndTable:
+
+; Infestation Hazard
+Table: Infestation DC
+1-9: 
+10-17:     
+18-19: 
+20: 
+EndTable:
+
+Table: Infestation Checks
+1: \n <u>Captian</u>: Charisma (Intimidation) \n &
+<u>First Mate</u>: Charisma (Intimidation) \n &
+<u>Cook</u>: Intelligence (Brewer's Supplies)
+EndTable:
+
+Table: Infestation Check Results
+1: <u>Total Succes</u> <b>(2+Natural 20)</b>:  & 
+\n <u>Success</u> <b>(3 Successes)</b>:  &
+\n <u>Failure</u> <b>(More Fails Than losses)</b>:  &
+\n <u>Total Failure</u> <b>(No Sucesses)</b>:  
+EndTable:
+
+; Storm Hazard
+Table: Storm DC
+1-9: 
+10-17:     
+18-19: 
+20: 
+EndTable:
+
+Table: Storm Checks
+1: \n <u>Captian</u>: Charisma (Intimidation) \n &
+<u>First Mate</u>: Charisma (Intimidation) \n &
+<u>Cook</u>: Intelligence (Brewer's Supplies)
+EndTable:
+
+Table: Storm Results
+1: <u>Total Succes</u> <b>(2+Natural 20)</b>:  & 
+\n <u>Success</u> <b>(3 Successes)</b>:  &
+\n <u>Failure</u> <b>(More Fails Than losses)</b>:  &
+\n <u>Total Failure</u> <b>(No Sucesses)</b>:  
+EndTable:

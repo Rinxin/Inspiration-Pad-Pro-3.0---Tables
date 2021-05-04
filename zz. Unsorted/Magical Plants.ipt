@@ -1,0 +1,115 @@
+; Magical Plants.ipt
+; created 9/5/2019 7:14:52 PM
+
+Table: Plant Type
+roll:1d6
+1:Flower
+2:Fruit
+3:Leaf
+4:Stalk
+5:Root
+6:Mushroom
+EndTable:
+
+Table: Plant Effects
+roll:1d100
+1: When ingested, you become incredibly hungry and you must succeed on a <b>DC 15</b> Wisdom Saving throw or consume 2d4 rations or portions of food immediately. \n DC 20 Intelligence (Nature) check.
+2: When ingested, you gain darkvision out to a range of 60 feet, for 1 hour. \n DC 15 Intelligence (Nature) check.
+3: When ingested, you gain advantage on Wisdom (Perception) checks that rely on sight for 1 hour. \n DC 15 Intelligence (Nature) check.
+4: When ingested, you gain advantage on Wisdom (Perception) checks that rely on smell for 1 hour. \n DC 15 Intelligence (Nature) check.
+5: When ingested, you gain advantage on Wisdom (Perception) checks that rely on hearing for 1 hour. \n DC 15 Intelligence (Nature) check.
+6: When ingested, you can see all invisible creatures and objects for 1 hour. \n DC 20 Intelligence (Nature) check.
+7: When ingested, you become invisible for 1 hour. When applied to an object, the object becomes invisible for 1 hour. \n DC 25 Intelligence (Nature) check.
+8: When ingested, you fall asleep for {1d20} (1d20) minutes. \n DC 15 Intelligence (Nature) check.
+9: When ingested, you can be knocked unconscious, but cannot be killed by any damage other than fire or acid, for 1 hour. \n DC 25 Intelligence (Nature) check.
+10: When ingested, your speed doubles, but you must move the entire distance when you move. Your speed causes attacks of opportunity targeting you to have disadvantage. This effect lasts for 1 hour. \n DC 25 Intelligence (Nature) check.
+11: When ingested, you must make a <b>DC 10</d> Constitution saving throw, taking {1d4} (1d4) poison damage on a failed save, or half as much damage on a successful one. When applied to an object, any slashing or piercing damage dealt by the item deals additional damage as described above, for 1 hour. \n DC 15 Intelligence (Nature) check.
+12: When ingested, you must make a <b>DC 15</d> Constitution saving throw, taking {1d8} (1d8) poison damage on a failed save, or half as much damage on a successful one. When applied to an object, any slashing or piercing damage dealt by the item deals additional damage as described above, for 1 hour. \n DC 20 Intelligence (Nature) check. 
+13: When ingested, you must make a <b>DC 20</d> Constitution saving throw, taking {1d12} (1d12) poison damage on a failed save, or half as much damage on a successful one. When applied to an object, any slashing or piercing damage dealt by the item deals additional damage as described above, for 1 hour. \n DC 25 Intelligence (Nature) check.
+14: When ingested, you regain {1d4} (1d4) hit points. \n DC 15 Intelligence (Nature) check.
+15: When ingested, you regain {1d8} (1d8) hit points. \n DC 20 Intelligence (Nature) check.
+16: When ingested, you regain {1d12} (1d12) hit points. \n DC 25 Intelligence (Nature) check.
+17: When ingested or applied to hair, your hair grows 1 inch longer. \n DC 15 Intelligence (Nature) check.
+18: When ingested, you cannot become intoxicated for {1d20} (1d20) days. \n DC 20 Intelligence (Nature) check.
+19: When ingested, everything you touch takes {1d6} (1d6) fire damage and flammable objects ignite. When applied to an object, the covered portion deals {1d6} (1d6) fire damage to anything it touches. These effects last for 1 hour. \n DC 25 Intelligence (Nature) check. 
+20: When ingested, everything you touch takes {1d6} (1d6) lightning damage and conductive materials are electrified. When applied to an object, the covered portion deals {1d6} (1d6) lightning damage to anything it touches. These effects last for 1 hour. \n DC 25 Intelligence (Nature) check.
+21: When ingested, everything you touch takes {1d6} (1d6) cold damage and liquids freeze. When applied to an object, the covered portion deals {1d6} (1d6) cold damage to anything it touches. These effects last for 1 hour. \n DC 25 Intelligence (Nature) check.
+22: When ingested, everything you touch takes {1d6} (1d6) acid damage and objects melt. When applied to an object, the covered portion deals {1d6} (1d6) acid damage to anything it touches. These effects last for 1 hour. \n DC 25 Intelligence (Nature) check.
+23: When ingested, everything you touch takes {1d6} (1d6) thunder damage and objects are pushed 10 feet away from you if they weigh less than 10 lbs, or 5 feet from you if they weigh less than 20 lbs. When applied to an object, the covered portion deals {1d6} (1d6) thunder damage to anything it touches. These effects last for 1 hour. \n DC 25 Intelligence (Nature) check.
+24: When ingested, everything you touch takes {1d6} (1d6) necrotic damage and non-magical plant life withers. When applied to an object, the covered portion deals {1d6} (1d6) necrotic damage to anything it touches. These effects last for 1 hour. \n DC 25 Intelligence (Nature) check.
+25: When ingested, you are under the effect of the Feign Life spell for 1 hour. \n DC 20 Intelligence (Nature) check.
+26: When ingested, your Strength score increases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+27: When ingested, your Dexterity score increases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+28: When ingested, your Constitution score increases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+29: When ingested, your Intelligence score increases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+30: When ingested, your Wisdom score increases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+31: When ingested, your Charisma score increases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+32: When ingested, your Strength score decreases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+33: When ingested, your Dexterity score decreases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+34: When ingested, your Constitution score decreases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+35: When ingested, your Intelligence score decreases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+36: When ingested, your Wisdom score decreases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+37: When ingested, your Charisma score decreases by 2, for 1 hour. \n DC 25 Intelligence (Nature) check.
+38: When ingested, you become high and act as if you have 3 levels of exhaustion, for {1d20} (1d20) minutes minus your Constitution modifier \n DC 15 Intelligence (Nature) check.
+39: When ingested, you forget everything that happend in the last hour. \n DC 20 Intelligence (Nature) check.
+40: When applied to an area of dirt, the 20 ft area around that point becomes incredibly fertiel for plant life. \n DC 15 Intelligence (Nature) check.
+41: When applied to a wooden obect, the wood becomes as strong as iron. \n DC 20 Intelligence (Nature) check.
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:
+51:
+52:
+53:
+54:
+55:
+56:
+57:
+58:
+59:
+60:
+61:
+62:
+63:
+64:
+65:
+66:
+67:
+68:
+69:
+70:
+71:
+72:
+73:
+74:
+75:
+76:
+77:
+78:
+79:
+80:
+81:
+82:
+83:
+84:
+85:
+86:
+87:
+88:
+89:
+90:
+91:
+92:
+93:
+94:
+95:
+96:
+97:
+98:
+99-100:
+EndTable:

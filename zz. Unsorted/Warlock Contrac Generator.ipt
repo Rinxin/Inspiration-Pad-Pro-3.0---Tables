@@ -1,0 +1,130 @@
+; Warlock Contrac Generator.ipt
+; created 12/28/2018 4:28:00 PM
+
+prompt: {Archfey|Fiend|Great Old One} [@random]
+
+
+Table: Main
+<b>Patron:</b> [{$prompt1} Patron]\n &
+<b>In return, your patron wants you to </b> [@Requirement] \n  &
+<b>Duration of contract:</b> [@Duration] \n &
+<b>Term of renewal:</b> [@Renewal]\n&
+<b>If not renewed:</b> [@If not Renewed]\n &
+<b>If terms are broken/unment:</b> [@If broken]\n  &
+<b>If requestor dies while under contract:</b> [@If requestor dies before contract]\n&
+<b>If patron dies while under contract:</b> [@If Patron dies before contract completed]\n
+Endtable:
+
+Table: random
+Archfey
+Fiend
+Great Old One
+Endtable:
+
+Table: Archfey Patron
+Relkath of the Infinite Branches
+Lurue the Unicorn Queen
+Verenestra the Oak Princess
+Sarula Iliene the Nixie Queen
+Aurilandür the Frost Sprite Queen
+Neifion, Lord of Bats
+An Archfey not on this list
+A Fiend or Great Old One Patron, pretending to be an Archfey
+Endtable:
+
+Table: Fiend Patron
+Orcus   
+Demogorgon   
+Asmodeus  
+Mephistopheles  
+Glasya  
+Malkizid  
+Tiamat   
+A Fiend not on this list
+Endtable:
+
+Table: Great Old One Patron
+Atropus 
+Zargon the Returner 
+Father Llymic 
+Pandorym  
+Shothragot 
+Haask, voice of hargut 
+Dendar, the night serpent   
+Kezef, the chaos hound  
+Ityak Ortheel, the Elf Eater  
+Bolothamogg, Him Who Watches from Beyond the Stars
+Holashner, the Hunger Below   
+Piscaethces, the Blood Queen 
+Y'chak, the Violet Flame      
+A Great Old One not on this list   
+A Fiend or Archfey pretending to be a Great Old One  
+Roll twice on this list, they are fighting for your soul
+Endtable:
+
+Table: Requirement
+Follow his petty demands for small errands at any time
+Eliminate any mortal targets in your natural plane within a reasonable time limit
+Start a cult following that worships the patron, make them famous and reknown in all the lands
+Take down anyone who is part of a cult that belongs to the patron's rival
+Enjoy the power, while he returns to the gambling table to resume his addiction - he uses your soul as collateral to bet on something big
+Destroy the world, and be the evil force in your world, while the patron watches, with popcorn
+The Patron is bored and doesn't really know what he's doing, so he's giving the whole "soul bargaining" thing a try
+Negotiate a peace treaty with a Deity on behalf of the patron, as the Deity would destroy the patron on sight
+EndTable:
+
+Table: Duration
+Three months 
+Six months 
+One year  
+Five years 
+Ten years  
+One Hundred years  
+One Lifetime   
+One Class Level
+EndTable:
+
+Table: Renewal
+The Patron has a new task for you
+The Patron checks in to see if you have met his deadlines for your past work
+The Patron forces you to prove that you deserve to continue recieving his powers
+The periods roll on to the next, automatically renewing
+The contract is renewed immediately, unless an order of non-renewal is put forward to a dark council within 48 hours of the last period's end
+The Warlock decides if they want to renew the contract period
+Endtable:
+
+Table: If not Renewed
+The powers are stripped from the warlock, and he gets his soul back
+The warlock does not gain any new powers, but his soul is kept as collateral until he is willing to trade their acquired powers back to have it returned
+The warlock does not gain any new powers, but keeps his current ones, and the patron keeps the soul
+The warlock is approached by rival patrons who try and bid for possession of his soul in return for their own patron's blessings
+The patron sends servants to capture the warlock and bring him to the patron's lair, for a meeting
+The warlock does not gain any new powers, but the patron immediately finds a new warlock to give power to, if possible, to a rival of the warlock
+EndTable:
+
+Table: If broken
+The patron sends assassins to kill the warlock
+The patron sends assassins to kill anyone the warlock has spoken to, but do not kill the warlock
+The patron sells the warlock's soul to a more powerful patron, in return to get power from this patron themselves
+The patron sends minions to capture the warlock and bring him to the patron's lair
+The patron hatches a plan to destroy the world the warlock is native to
+The patron destroys the warlock's soul, making him unable to be revived if he dies.
+Endtable:
+
+Table: If requestor dies before contract
+They appear in the patron's lair as an incorporeal being, and will continue with their agreement
+They are reanimated as undead to serve as a slave for the patron for 500 years
+The Patron is free to do with the soul as they wish
+The Patron must return the soul to a person of the Warlock's Choosing
+The Patron will travel to the warlock's realm, with his soul, and will perform his own duties under the guise of the departed warlock's identity
+The warlock wakes up again, alive. When the contract ends however, the warlock is killed and cannot be resurrected.
+EndTable:
+
+Table: If Patron dies before contract completed
+The warlock's soul is lost in purgatory, drifting forever
+The soul is in the possession and ownership of whoever killed the patron
+The soul is returned to the warlock
+The soul is in limbo while other patrons bid to be the warlock's new patron
+The warlock loses his powers, and has no memory of anything that happened while he had those powers
+The warlock's fate is tied with his patron, and they die too.
+Endtable:

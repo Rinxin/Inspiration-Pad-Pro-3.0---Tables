@@ -1,0 +1,14 @@
+; HotDQ Episode 1 Encounters.ipt
+; created 4/24/2020 3:36:25 PM
+
+Table: Episode 1 Encounters
+Roll: 1d8
+1-1: 6x Kobolds
+2-2: 3x Kobolds and 1 Ambush Drake
+3-3: 6x Cultists
+4-4: 4x Cultist and 1x Guard
+5-5: 2x Cultists and 1x Acolyte (they have command instead of Sanctuary)
+6-6: 3x Guards and 1 Acolyte (they have command instead of Sanctuary)
+7-7: {1d6}x Townsfolk being hunted by raiders, [#{1d6} Episode 1 Encounters]
+8-8: {1d6}x Townsfolk hiding
+EndTable:
