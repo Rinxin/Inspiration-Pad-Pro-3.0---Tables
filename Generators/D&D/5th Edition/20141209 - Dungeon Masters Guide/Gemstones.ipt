@@ -5,12 +5,23 @@ use: \\Common\PHB\MageSpells.ipt
 
 Header: Gems
 
-Prompt: CR { } 1
+Prompt: CR {0-4|5-10|11-16|17-20} 1
 
-Define: CR={{$prompt1}*{1d6}+1d100}
+set: Challenge_Rating={#{$prompt1} CR_Value}
+
+Define: CR={{Challente_Rating}*{1d6}+1d100}
 
 Table: Gemstones Main
 [#{CR} Size] [#{CR} GemType], [#{CR} Quality], {round({{@BaseValue}*{@SizeMod}*{@QualityMod}*{@FinishMod}*{@SetMod}})} gp\n
+EndTable:
+
+Table: CR_value
+type: lookup
+default: {1d5-1}
+0-4: {1d5-1}
+5-10: {1d6+4}
+11-16: {1d6+10}
+17-20: {1d4+16}
 EndTable:
 
 Table: GemType
