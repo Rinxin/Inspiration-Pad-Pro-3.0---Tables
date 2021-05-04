@@ -1,0 +1,37 @@
+; Reaction Table.ipt
+; created 10/22/2020 5:51:02 PM
+
+Table: Main
+The new group of {1d4+2} people [@t2]
+
+table: t2
+[|surrenders|offers their allegiance].
+gives [|one person|the group|a player] [|an item|information|aid].
+makes a mutually beneficial trade with [|one person|the group|a player].
+mistake [|one person|the group|a player] for [|friends|allies].
+warily wait to see how the group reacts to their presence.
+withdraw to a safer location, not wanting to [|fight|do business with|be around] [|one person|the group|a player].
+demands that the group withdraw and, if they don't, [@t1d6]
+[@t1d4]
+[@t1d4]
+[@t1d4]
+[@t1d4]
+
+table: t1d4
+call for reinforcements before awaiting the group to either attack or leave, not engaging in combat unless necessary.
+trick the pc's by [@Ttactic], then they attempt to capture them.
+attempts to capture [|one person|the group|a player].
+attempts to [|eat|kill] them.
+
+table: t1d6
+call for reinforcements before awaiting the group to either attack or leave, not engaging in combat unless necessary.
+trick the pc's by [@tactic], then they attempt to capture them.
+attempts to capture [|one person|the group|a player].
+attempts to [|eat|kill] them.
+attempts to [|eat|kill] them.
+attempts to [|eat|kill] them.
+
+table: Ttactic
+[|surrendering|offering their allegiance]
+giving them [|an item|information|aid]
+making a mutually beneficial trade with them
