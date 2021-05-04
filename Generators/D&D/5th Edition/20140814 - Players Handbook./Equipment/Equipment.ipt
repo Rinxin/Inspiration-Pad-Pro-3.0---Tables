@@ -1,0 +1,173 @@
+;Equipment PHB
+
+Use: Generators/Treasure/Spell Book.ipt
+
+Table: PHB_Light_Armor
+Padded Armor
+Leather Armor
+Studded Leather Armor
+EndTable:
+
+Table: PHB_Medium_Armor
+Hide Armor
+Chain Shirt Armor
+Scale Mail Armor
+Breastplate Armor
+Half Plate Armor
+EndTable:
+
+Table: PHB_Heavy_Armor
+Ring Mail Armor
+Chain Mail Armor
+Splint Armor
+Plate Armor
+EndTable:
+
+Table: PHB_Shield
+Shield
+EndTable:
+
+Table: PHB_Melee_Weapon
+Club
+Battleaxe
+Dagger
+Flail
+Glaive
+Greataxe
+Greatclub
+Greatsword
+Halberd
+Handaxe
+Javelin
+Light Hammer
+Longsword
+Mace
+Maul
+Morningstar
+Pike
+Quarterstaff
+Raiper
+Scimitar
+Shortsword
+Sickle
+Spear
+Trident
+War Pick
+Warhammer
+Whip
+EndTable:
+
+Table: PHB_Range_Weapon
+Blowgun
+Crossbow, Hand
+Crossbow, Heavy
+Crossbow, Light
+Dart
+Longbow
+Net
+Shortbow
+Sling
+EndTable:
+
+Table: PHB_Gear
+<u>Burglar's Pack</u>
+<u>Diplomat's Pack</u>
+<u>Dungeoneer's Pack</u>
+<u>Entertainer's Pack</u>
+<u>Explorer's Pack</u>
+<u>Priest's Pack</u>
+<u>Scholar's Pack</u>
+Abacus
+Acid (vial)
+Alchemist's Fire (flask)
+Arrows ({1d20+5})
+Blowgun Needles ()
+Crossbow Botls ()
+Sling Bullets ()
+Antitoxin (vial)
+Arcane focus ([|Crystal|Orb|Rod|Staff|Wand])
+Backpack
+Ball Bearings (1,000)
+Barrel
+Basket
+Bedroll
+Bell
+Blanket
+Block and tackle
+Book
+Bottle, Glass
+Bucket
+Caltrops (20)
+Candle
+Case, Crossbow bolt
+Case, map or Scroll
+Chain (10 feet)
+Chalk (1 piece)
+Chest
+Climber's kit
+Clothes, Common
+Clothes, Costume
+Clothes, Fine
+Clothes, Traveler's
+Component pouch
+Crowbar
+Druidic focus ([|Sprig of mistletoe|Totem|Yew Wand])
+Fishing Tackle
+Flask
+Tankard
+Grappling hook
+Hammer
+Hammer, Sledge
+Healer's Kit
+Holy Symbol: ([|Amulet|Emblem|Reliquary]) of [|Allhammer|Archeart|Raven Queen|]
+Holy water (flask)
+Hourglass
+Hunting trap
+Ink (1 oz bottle)
+Ink pen
+Jug
+Pitcher
+Ladder (10-foot)
+Lamp
+Lantern, Bullseye
+Lantern, Hooded
+Lock
+Magnifying glass
+Manacles
+Mess kit
+Mirror, Steel
+Oil (flask)
+Paper (one sheet)
+Parchment (one sheet)
+Perfume (vial)
+Pick, miner's
+Piton
+Poison, Basic (vial)
+Pole (10-foot)
+Pot, Iron
+Potion of Healing
+Pouch
+Quiver
+Ram, portable
+Rations (1 day)
+Robes
+Rope, hempen (50 feet)
+Rope, Silk (50 feet)
+Sack
+Scale, Merchant's
+Sealing wax
+Shovel
+Signal Whistle
+Signet ring
+Soap
+Spellbook (new)
+[@Spellbook]
+Spikes, iron (10)
+Spyglass
+Tent, two-person
+Tinderbox
+Torch
+Vial
+Waterskin
+Whetstone
+EndTable:
