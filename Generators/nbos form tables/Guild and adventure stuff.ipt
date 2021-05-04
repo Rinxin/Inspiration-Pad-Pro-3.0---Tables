@@ -1,0 +1,16 @@
+; Guild and Adventure Stuff.ipt
+; created 4/10/2021 2:05:18 AM
+
+Header: Details on a copy of the PDF I have can be found here: drive.google.com/file/d/1751vSV0k13xaNStTWrSueT_7opio30VI/view?usp=sharing
+
+Table: Primary
+There [|0|1|2|3|4|5|6] new members working for the guild.\n&
+<b>Missions:</b> The following are avaible on the missions baord.\n [!{1d10} Missions >> Sort].
+
+Table: Missions
+Shuffle: Missions
+1-30: A very easy mission requiring only one person and pays {1d4}0 knuts.\n
+31-60: An easy mission requiring up to {1d2+1} people and pays {1d6}0 knuts.\n
+61-85: A slightly difficult mission requiring up to {1d3+2} people and pays {1d12}0 knuts.\n
+86-94: A difficult mission requiring up to {1d3+4} people that happens to pay {1d100}0 Knuts.\n
+95-100: A nearly impossible if not already so mission requiring up to {1d4+6} people and paying {1d4}000 knuts.\n
