@@ -1,26 +1,35 @@
 ;
 
-Header: Forage by Intelligence (Nature) or Wisdom (Survival). 1 use found per hour 
+Header: Forage by Intelligence (Nature) or Wisdom (Survival). 1 applicable item creates per hour spent. An easy shorthand is that a comma means "and", while a semi-colon means "or".
 
 prompt: Season (Summer|Autumn|Winter|Spring)
 prompt: Environment (Coast|Desert|Forest|Grassland|Jungle|Mountain|Swamp|Tundra|Underdark|Urban)
-prompt: Roll Result (14|15|16|17|18|19|20|21|22)
+prompt: Roll (Nature|Survival) 
 
-
+DC or less foraged per hour
 
 Table:Main_Materia_Medica
-
 EndTable:
 
 Table: Summer_Coast
-14: Bluebottle, Man-O-War, Coastal Jack-Bean, Seaside Jack, Yarrow, Milfoil, Littlefeather, Nosebleed, Soldier's Safety, Bloodwort, Woundwort
-15: Cottonmouth, Gaper
-16: Foxgloves, Dead Men's Bells, Bloody Fingers, Fairy Thimbles, Milky Mangrove, Blind-Your-Eye, River Poison Tree
-18: King Cobra, Hamadryad
-19: Blue Ringed Octopus,<br>Reef Killer
-20: Bluebell, Wood Bell, Bell Bottle, Fairy Flower,Coral Branch, Reef Rocks,
-22: Pearl
+
+<tr>Bluebottle, Man-O-War	Floating on the water like a blue bubble with a sail, its translucent body and long stinging tail are easily stranded	Tail (Contact)	Poison (2d6/round)	14</tr>
+<tr>Coastal Jack-Bean, Seaside Jack	Fleshy vines trail along sand dunes, thick leaves matting the area and pink flowers popping up sporadically	Leaves (Salve)	Healing (4d4 + 4)	14</tr>
+<tr>Yarrow, Milfoil, Littlefeather, Nosebleed, Soldier's Safety, Bloodwort, Woundwort	Sprawling fernlike shrub explodes into bunches of tiny flowers in dozens of colours to form a floral canopy	Oil (Tonic); Whole Plant (Salve)	Healing (2d4 + 2); Healing (4d4 + 4)	14</tr>
+<tr>Cottonmouth, Gaper	A mottled brown and black snake with a habit of baring its fangs and exposing the bright white interior of its mouth when threatened	Venom (Injury)	Poison (5d6/round)	15</tr>
+<tr>Foxgloves, Dead Men's Bells, Bloody Fingers, Fairy Thimbles	Vibrantly coloured and patterned bell shaped flowers bloom by the dozens from a single tall spike	Whole plant (Ingested)	Poison (2d6, Poisoned)	16</tr>
+<tr>Milky Mangrove, Blind-Your-Eye, River Poison Tree	A tangled root system lifts the tree half out of the water while its heavy leaves dangle into the water's edge	Sap (Contact)	Poison (Blinded)	16</tr>
+<tr>King Cobra, Hamadryad	A characteristic dramatic hood stretches over the snake's head and part way down its striped body	Venom (Injury)	Poison (2d6, Blinded, Sleep in 1min)	18</tr>
+<tr>Blue Ringed Octopus, Reef Killer	A small brown octopus usually hiding amongst a reef's rocks and coral will suddenly flare iridescent blue rings	Venom (Injury)	Poison (Paralysed, suffocating)	19</tr>
+<tr>Bluebell, Wood Bell, Bell Bottle, Fairy Flower	Delicate, vibrant blue flowers hang like bells from an elegant, curved stem	Bulb (Tonic)	Healing (2d4 + 2)	20</tr>
+<tr>Coral Branch, Reef Rocks	Red, bone-like porous growths settle in tight colonies to enable the formation of marine reefs	Branch (Implant)	Broken bone restorative	20</tr>
+<tr>Pearl	Irregular iridescent orbs in white, gold, black, and any number of other opalesque colours	Whole pearl (Powder)	Blindness curative; Antidote (Contact poisons)	22</tr>
 EndTable:
+
+
+
+
+
 
 TableSummer_Desert
 
