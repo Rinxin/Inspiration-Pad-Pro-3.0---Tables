@@ -1,0 +1,182 @@
+; Random Treasure (ADnD).ipt
+; created 7/1/2019 8:03:53 PM
+
+
+Table:Random Treasure
+Roll: 1d100
+1-10: [@Map Table]
+11-100: [@Magic Item Table]
+EndTable:
+
+Table: Map Table
+Roll: 1d100
+1-5: False map
+6-70: Map to Monetary Treasure \n Location: [@Random Dungeon] \n [@Monetary Treasure]
+71-90: Map to Magic Treasure \n [@Random Dungeon] \n  [@Magic Treasure]
+91-100: Map to a Combined Hoard \n [@Random Dungeon] \n [@Combined Hoard]
+EndTable:
+
+Table: Random Dungeon
+Roll: 1d100
+1-20: Labyrinth of caves found in the lair \n  [@Treasue status]
+21-60: Outdoors, {1d4+4} miles distant \n [@Treasue status]
+61-90: Outdoors, {1d39+9} miles distant \n [@Treasue status]
+91-100: Outdoors, {1d451+49} miles distant \n [@Treasue status]
+EndTable:
+
+Table: Treasue status
+Roll: 1d100
+1-10: Buried and unguarded \n
+11-20: hidden in water \n
+21-70: guarded in a lair \n
+71-80: somewhere in a ruin \n
+81-90: in a burial crypt \n
+91-100: secreted in a town  \n
+EndTable:
+
+Table: Monetary Treasure
+roll:1d20
+1-2: {2d4 * 10000} cp, {{1d4+1} * 10000} sp
+3-5: {5d6 * 1000} ep
+6-10: {3d6 * 1000} gp
+11-12: {5d4 * 100} pp
+13-15: {1d10 *10} Gems
+16-17: {5d10} pieces of jewelry
+18: [#{1d17}] Monetary Treasure  >> implode]\n, [#{1d17}] Monetary Treasure  >> implode]\n
+19: [#{1d17}] Monetary Treasure  >> implode]\n, [#{1d17}] Monetary Treasure  >> implode]\n, [#{1d17}] Monetary Treasure  >> implode]\n
+20: [#1 Monetary Treasure  >> implode]\n, [#3 Monetary Treasure  >> implode]\n, [#6 Monetary Treasure  >> implode]\n, [#11 Monetary Treasure  >> implode]\n, [#13 Monetary Treasure  >> implode]\n, [#16 Monetary Treasure  >> implode]\n
+EndTable:
+
+Table: Magic Teasure
+roll: 1d20
+1-5: [@Magic Item Table]\n [@Potion]\n
+6-8: [@Magic Item Table]\n [@Magic Item Table]\n
+9-12: [@]]n [@]\n [@]\n
+13-14: [# Magic Item Table]\n [# Magic Item Table]\n [# Magic Item Table]\n
+15-18: [@Potion]\n [@Potion]\n [@Potion]\n [@Potion]\n [@Potion]\n [@Potion]\n [@Scroll]\n [@Scroll]\n [@Scroll]\n [@Scroll]\n [@Scroll]\n [@Scroll]\n [@Scroll]\n
+19: [@Magic Item Table]\n [@Magic Item Table]\n [@Magic Item Table]\n [@Magic Item Table]\n[@Ring]\n [@Rod]
+20: [@Magic Item Table]\n [@Magic Item Table]\n [@Magic Item Table]\n [@Magic Item Table]\n [@Magic Item Table]\n [#41 Magic Item Table]\n [#{1d15+45} Magic Item Table]\n
+EndTable:
+
+Table: Combined Hoard
+Roll: 1d100
+1-20: [#1 Monetary Treasure]\n [#1 Magic Treasure]\n
+21-40: [#6 Monetary Treasure]\n [#1 Magic Treasure]\n
+41-55: [#3 Monetary Treasure]\n [#6 Monetary Treasure]\n [#1 Magic Treasure] [#15 Magic Treasure]\n
+56-65: [#1 Monetary Treasure]\n [#3 Monetary Treasure]\n [#9 Magic Treasure]\n [#13 Magic Treasure]\n
+66-75: [#6 Monetary Treasure]\n [#11 Monetary Treasure]\n [#6 Magic Treasure]\n [#15 Magic Treasure]\n
+76-80: [#3 Monetary Treasure]\n [#6 Monetary Treasure]\n [#11 Monetary Treasure]\n [#16 Monetary Treasure]\n [#1 Magic Treasure]\n [#9 Magic Treasure]\n
+81-85: [#20 Monetary Treasure]\n [#1 Map Table]\n
+86-90: [#20 Monetary Treasure]\n [#19 Map Table]\n
+91-96: [#1 Map Table]\n [#3 Map Table]\n [#20 Magic Treasure]\n
+97-100: [#11 Map Table]\n [13 Monetary Treasure]\n [#15 Magic Treasure]\n [#20 Magic Treasure]\n
+EndTable:
+
+Table: Magic Item Table
+Roll: 1d100
+1-20: [@Potion]
+21-35: [@Scroll]
+36-40: [@Rings]
+41-45: [@Rods, Staves & Wands]
+46-48: [@Miscellaneous Magic 1]
+49-51: [@Miscellaneous Magic 2]
+52-54: [@Miscellaneous Magic 3]
+55-57: [@Miscellaneous Magic 4]
+58-60: [@Miscellaneous Magic 5]
+61-75: [@Armor & Shields]
+76-86: [@Sword]
+87-100: [@Miscellaneous Weapon]
+EndTable:
+
+Table: Potion
+animal Control
+Clairaudience
+Clairvoyonce
+Climbing
+Delusion
+Diminution
+Dragon Control
+ESP
+Extra-Healing
+Fire Resistance
+Flying
+Gaseous Form
+Clairaudience
+Clairvoyonce
+Climbing
+Delusion
+Diminution
+Dragon Control
+ESP
+Extra-Healing
+Fire Resistance
+Flying
+Gaseous Form
+Giant Control*
+GiontStrength* (F)
+Growth
+Healing
+Heroism (F)
+Human Control*
+Invisibility
+lnvulnerobility (F)
+Levitation
+Longevity
+Oil of Etherealness
+Oil of Slipperiness
+Philter of Love
+Philter of Persuasiveness
+Plont Control
+Polymorph (self)
+Poison**
+Speed
+Super-Heroism (F)
+Sweet Water
+Treasure Finding
+Undead Control
+Water Breathing
+EndTable:
+
+Table: Scroll
+ Pending
+EndTable:
+
+Table: Rings
+ Pending
+EndTable:
+
+ Table: Rods, Staves & Wands
+ Pending
+EndTable:
+
+Table: Miscellaneous Magic 1
+ Pending
+EndTable:
+
+Table: Miscellaneous Magic 2
+ Pending
+EndTable:
+
+Table: Miscellaneous Magic 3
+ Pending
+EndTable:
+
+Table: Miscellaneous Magic 4
+ Pending
+EndTable:
+
+Table: Miscellaneous Magic 5
+ Pending
+EndTable:
+
+Table: Armor & Shields
+ Pending
+EndTable:
+
+Table: Sword
+ Pending
+EndTable:
+
+Table: Miscellaneous Weapon
+ Pending
+EndTable:
