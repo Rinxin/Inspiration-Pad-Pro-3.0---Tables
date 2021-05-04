@@ -1,0 +1,14 @@
+; Ch 1 - Loyalist Sample Events.ipt
+; created 9/29/2019 12:49:36 PM
+
+Table: Loyalist Sample Events
+roll:1d20
+1-6: The town guard cracks down on smuggling, going house to house in search of contraband.
+7-10: A tribe of marauders ([|gnolls|orcs|goblins]) moves into the area, putting the town on alert and forcing Eliander to call out the militia. The traditionalists chafe under his orders.
+11-12: A mass breakout allows a crew of smugglers to escape the dungeons, increasing tension in town.
+13-14: The dwarves make a spectacular find in the mine, sparking plans to expand their presence and the docks.
+15-16: Eliander and the town guard are called away to help deal with a threat from the Dreadwood, leaving behind only a skeleton crew to keep the peace and watch the mine.
+17-18: A new wave of immigrants from the north arrives in town, tilting the population such that they loyalists might win a majority in the next town council election.
+19: A bloody battle against pirates leaves a Keoish naval squadron undermanned. The squadron comes to town to press local sailors into service. Eliander secretly passes along the names of hotheaded traditionalists for the press gangs to target.
+20: Having found enough evidence to charge him, Eliander seizes Gellan and ships him to Seaton to face charges of smuggling. Riots break out in town.
+EndTable:

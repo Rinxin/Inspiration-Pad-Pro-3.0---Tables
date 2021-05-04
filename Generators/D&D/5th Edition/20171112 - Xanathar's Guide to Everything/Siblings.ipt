@@ -1,0 +1,37 @@
+; Siblings.ipt
+; created 2/15/2020 8:42:43 AM
+
+Prompt: are you {Dwarf|Elf|N/A} N/A
+
+set: race_Mod = -2
+set: siblings = [when not]{$prompt1}=N/A[do]0[else]-2[end]
+  birth order
+     occupation
+     alignment
+     status
+     relationship
+     other details
+
+Table: Main_Siblings
+[@Number of Siblings] 
+Endtable:
+     
+Table: Number of Siblings
+Roll:1d10
+0-2: You do not have any siblings
+3-4: {siblings==1d3} You have {siblings} siblings \n[@{Siblings} Sibling Stats]
+5-6: {siblings==1d4+1} You have {siblings} siblings \n[@{Siblings} Sibling Stats]
+7-8: {siblings==1d6+1} You have {siblings} siblings \n[@{Siblings} Sibling Stats]
+9-10: {siblings==1d8+3} You have {siblings} siblings \n[@{Siblings} Sibling Stats] 
+Endtable:
+
+Table: Sibling Stats
+<h3>[NAME], [@Birth Order]</h3>\n occupation \n alignment\nstatus\nrelationship\nother details\n\n 
+Endtable:
+
+Table: Birth Order
+Roll:2d6
+2: [|Twin|Triplet|Quadruplet]
+3-7: Older
+8-12: Younger
+Endtable:     

@@ -1,0 +1,9 @@
+; Ch 1 - Saltmarsh Mood.ipt
+; created 9/29/2019 2:28:56 PM
+
+Table: Saltmarsh Mood
+roll:1d20
+1-6: <b>Poor Catch.</b> The townsfolk are frustrated and prone to bickering; everyone is in a bad mood.
+7-12: <b>Bountiful Catch.</b> Music and merriment echo through town as everyone celebrates.
+13-20: <b>Typical Catch.</b> Overall, the fishers are contnet with their recent results. Here and there, crews boast of good pickings or bemoan their poor haul.
+Endtable:

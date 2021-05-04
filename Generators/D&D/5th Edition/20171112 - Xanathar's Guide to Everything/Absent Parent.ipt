@@ -1,0 +1,10 @@
+; Absent Parent.ipt
+; created 2/15/2020 9:27:11 AM
+
+Table: Absent Parent
+Roll:1d4
+1: Your parent died [@Cause of Death]
+2: Your parent was imprisoned, enslaved, or otherwise taken away.
+3: Your parent abandoned you.
+4: You'r parent disappeared to an unknown fate. 
+Endtable:

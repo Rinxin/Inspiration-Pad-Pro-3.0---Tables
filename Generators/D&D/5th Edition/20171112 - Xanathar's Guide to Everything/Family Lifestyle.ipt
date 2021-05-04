@@ -1,0 +1,41 @@
+; Family Lifestyle.ipt
+; created 2/15/2020 9:28:45 AM
+
+Prompt: Cha_Mod{-4|-3|-2|-1|0|+1|+2|+3|+4}0
+set: Cha_Mod=={$prompt1}
+
+
+Table: Family Lifestyle
+Roll:3d6
+3: Wretched; [#{1d100-40} Childhood Home] \n [@Childhood Memories]
+4-5: Squalid; [#{1d100-20} Childhood Home] \n [@Childhood Memories]
+6-8: Poor; [#{1d100-10} Childhood Home] \n [@Childhood Memories]
+9-12: Modest; [#{1d100} Childhood Home] \n [@Childhood Memories]
+13-15: Comfortable; [#{1d100+10} Childhood Home] \n [@Childhood Memories]
+16-17: Wealthy; [#{1d100+20} Childhood Home] \n [@Childhood Memories]
+18: Aristocratic; [#{1d100+40} Childhood Home] \n [@Childhood Memories] 
+Endtable:
+
+Table: Childhood Home
+Roll:1d100
+0: On the streets
+1-20: Rundown shack
+21-30: No permanent residence; you moved around a lot
+31-40: Encampment or village in the wilderness
+41-50: Apartment in a rundown neighborhood
+51-70: Small house
+71-90: Large house
+91-110: Mansion
+111-200: Palace or castle 
+EndTable:
+
+Table: Childhood Memories
+Roll:3d6+{Cha_Mod}
+0-3: I am still haunted by my childhood, when I was treated badly by my peers.
+4-5: I spent most of my childhood alone, with no close friends.
+6-8: Others saw me as being different or strange, and so I had few companions.
+9-12: I had a few close friends and lived an ordinary childhood. 
+13-15: I had several friends, and my childhood was generally a happy one.
+16-17: I always found it easy to make friends, and I loved being around people.
+18-22: Everyone knew who I was, and I had friends everywhere I went. 
+Endtable:

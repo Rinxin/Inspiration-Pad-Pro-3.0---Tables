@@ -1,0 +1,17 @@
+; Family.ipt
+; created 2/15/2020 9:25:35 AM
+
+Table: Family
+Roll:1d100
+01: None
+02: Institution, such as an asylum
+03: Temple
+04-05: Orphanage
+06-07: Guardian
+08-15: Paternal or maternal aunt, uncle, or both; or extended family such as a tribe or clan
+16-25: Paternal or maternal grandparent(s)
+26-35: Adoptive family (same or different race)
+36-55: Single father or stepfather
+56-75: Single mother or stepmother
+76-100: Mother and father 
+Endtable:

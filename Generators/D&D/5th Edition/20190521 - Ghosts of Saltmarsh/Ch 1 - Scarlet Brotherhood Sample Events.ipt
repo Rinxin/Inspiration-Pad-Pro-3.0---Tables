@@ -1,0 +1,14 @@
+; Ch 1 - Scarlet Brotherhood Sample Events.ipt
+; created 9/29/2019 12:49:52 PM
+
+Table: Scarlet Brotherhood Sample Events
+roll:1d20
+1-6: The Brotherhood slips evidence of smuggling to the guard, casuing several popular fishing boat owners to be arrested.
+7-10: The Brotherhood's agents spread rumors that the mine is on the verge of failure and the crown plans to award the dwarves rulership of Saltmarsh as compensation.
+11-12: The Brotherhood blackmails Ingo the Drover and Keldek the Unspoken, two people in town with dark pasts, into their service, turning them inot useful agents.
+13-14: Tainted grain delivered by a merchant in league with the Brotherhood leads to an outbreak of plauge.
+15-16: The Brotherhood uses kidnapping, blackmailing, or other sinister means to turn an important member of another faction into an ally.
+17-18: A small band of escaped slaves arrives in town. They claim that several sailors at the docks once worked as slave traders, prompting outraged calls for justice from Anders.
+19: Pirate activity increases, bearing the unmistakable mark of the Sea Princes. The Brotherhood's ships adopt Sea Prince regalia to confuse the issue.
+20: Skerrin, growing bored and overconfident, assassinates a prominent member of a faction and tries to frame the Sea Princes for the deed.
+EndTable:
