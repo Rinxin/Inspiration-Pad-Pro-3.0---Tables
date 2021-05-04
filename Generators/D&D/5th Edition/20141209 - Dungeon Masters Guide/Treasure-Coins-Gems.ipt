@@ -1,0 +1,132 @@
+
+Table: Coins
+1: <font color=copper>{6d6*100} cp</font>, <font color=silver>{3d6*100} sp</font>, <font color=gold>{2d6*10} gp</font>
+2: <font color=copper>{2d6*100} cp</font>, <font color=silver>{2d6*1000} sp</font>, <font color=gold>{6d6*100} gp</font>, <font color=dark grey>{3d6*10} pp</font>
+3: <font color=gold>{4d6*1000} gp</font>, <font color=dark grey>{5d6*100} pp</font>
+4: <font color=gold>{12d6*1000} gp</font>, <font color=dark grey>{8d6*1000} pp</font>
+EndTable:
+
+Table: Treasure
+[#{1d54} Main_Treasure],[#{1d46+54} Main_Treasure]
+EndTable:
+
+Table: Main_Treasure
+1-7: <font color=grey>{2d6}x[#{1d12} Gemstone]</font>
+8-22: <font color=grey>{[|2d6|3d6]}x[#{1d12+20} Gemstone]</font>
+23-29: <font color=green>{3d6}x[#{1d10+40} Gemstone]</font>
+30-35: <font color=blue>{3d6}x[#{1d6+60} Gemstone]</font>
+36-48: <font color=purple>{3d6}x[#{1d8+80} Gemstone]</font>
+49-54: <font color=orange>{1d8}x[#{1d4+100} Gemstone]</font>
+55-70: <font color=grey>{2d4}x[#{1d10} Art_Object]</font>
+71-81: <font color=green>{2d4}x[#{1d10+20} Art_Object]</font>
+82-87: <font color=blue>{2d4}x[#{1d10+40} Art_Object]</font>
+88-94: <font color=purple>{1d10}x[#{1d10+60} Art_Object]</font>
+95-100: <font color=orange>{1d4}x[#{1d8+80} Art_Object]</font>
+EndTable:
+
+Table:Gemstone
+1: Azurite (10gp)
+2: Banded Agate (10gp)
+3: Blue Quartz (10gp)
+4: Eye Agate (10gp)
+5: Hematite (10gp)
+6: Lapis Laszuli (10gp)
+7: Malachite (10gp)
+8: Moss Agate (10gp)
+9: Obsidian (10gp)
+10: Rhodochrosite (10gp)
+11: Tiger Eye (10gp)
+12: Turquoise (10gp)
+21: Bloodstone (50gp)
+22: Carnelian (50gp)
+23: Chalcedony (50gp)
+24: Chrysoprase (50gp)
+25: Citrine (50gp)
+26: Jasper (50gp)
+27: Moonstone (50gp)
+28: Onyx (50gp)
+29: Quartz (50gp)
+30: Sardonyx (50gp)
+31: Star Rose-quartz (50gp)
+32: Zircon (diamon) (50gp)
+41: Amber (100gp)
+42: Amethyst (100gp)
+43: Chrysoberyl (100gp)
+44: Coral (100gp)
+45: Garnet (100gp)
+46: Jade (100gp)
+47: Jet (100gp)
+48: Pearl (100gp)
+49: Spinel (100gp)
+50: Tourmaline (100gp)
+61: Alexandrite (500gp)
+62: Aquamarine (500gp)
+63: Black Pearl (500gp)
+64: Blue Spinel (500gp)
+65: Peridot (500gp)
+66: Topaz (500gp)
+81: Black Opal (1,000gp)
+82: Blue Sapphire (1,000gp)
+83: Emerald (1,000gp)
+84: Fire Opal (1,000gp)
+85: Opal (1,000gp)
+86: Star Ruby (1,000gp)
+87: Star Sapphire (1,000gp)
+88: Yellow Sapphire (1,000gp)
+101: Black Sapphire (5,000gp)
+102: Diamond (5,000gp)
+103: Jacinth (5,000gp)
+104: Ruby (5,000gp)
+EndTable:
+
+Table: Art_Object
+1: Silver ewer (25gp)
+2: Carbed bone Statuette (25gp)
+3: Small gold Bracelet (25gp)
+4: Cloth-of-gold vestments (25gp)
+5: Black velvet mask stiched with silver thread (25gp)
+6: Copper chalice with silver filigree (25gp)
+7: Pair of engraved bone dice (25gp)
+8: Small mirror set in a painted wooden frame (25gp)
+9: Embroidered silk handkerchief (25gp)
+10: Gold locket with a painted portait inside (25gp)
+21: Gold ring set with [@Gemstone] (250gp)
+22: Carved ivory statuette (250gp)
+23: Large gold bracelet (250gp)
+24: Silver necklace with a [@Gemstone] pendant (250gp)
+25: Bronze Crown (250gp)
+26: Silk Robe with gold embroidery (250gp)
+27: Large well-made tapestry (250gp)
+28: Brass mug with jade inlay (250gp)
+29: box of turquoise animal figures (250gp)
+30: Gold bird cage with electrum filigree (250gp)
+41: Silver chalice set with [@Gemstone] (750gp)
+42: Silver-plated steel [@PHB_Melee_Weapon] with [@Gemstone] set in hilt (750gp)
+43: Carved harp of exotic wood with ivory inlay and zicon gems (750gp)
+44: Small gold idol (750gp)
+45: gold dragon comb set with red garnets as eyes (750gp)
+46: bottle stopper cork embossed with gold leaf and set with amethysts (750gp)
+47: Ceremonial electrum dagger with a black pear in the pommel (750gp)
+48: Silver and gold brooch (750gp)
+49: obsidian statuette with gold fittings and inlay (750gp)
+50: Painted gold war mask (750gp)
+61: fine gold chain with a fire opal (2,500gp)
+62: old masterpiece painting (2,500gp)
+63: Embroidered silk and velvet mantle set with numerous moonstones (2,500gp)
+64: platinum bracelet set with a sapphire (2,500gp)
+65: Embroidered glove set with jewel chips (2,500gp)
+66: jeweled anklet (2,500gp)
+67: gold music box (2,500gp)
+68: gold circlet set with four aquamarines (2,500gp)
+69: eye patch with a mock eye set in blue sapphire and moonstone (2,500gp)
+70: a necklace string of small pink pearls (2,500gp)
+81: jeweled gold crown (7,500gp)
+82: jeweled platinum ring (7,500gp)
+83: small gold statutte set with rubies (7,500gp)
+84: gold cup set with emeralds (7,500gp)
+85: gold jewelry box with platinum filigree (7,500gp)
+86: painted gold child's sarcophagus (7,500gp)
+87: jade game board with soild gold playing pieces (7,500gp)
+88: Bejeweled ivory drinking horn with gold filigree (7,500gp)
+EndTable:
+
