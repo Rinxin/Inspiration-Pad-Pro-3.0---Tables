@@ -1,0 +1,51 @@
+; Spell Construct.ipt
+; created 10/30/2020 8:39:06 PM
+Header: The spell constructs are beings of magic, they are made of magic itself and within their tattered robes are hundreds of tiny runes that form together, creating a body and mind. They are still very naive and cannot grasp complex issues of morality. Real emotions in particular are difficult for them to grasp and they find conversations with anyone to be fascinating. They are however, directly influenced by their master as he has been their only source of knowledge regarding the world so far. This means they have picked up on their master’s loathings and adoration on certain creatures and subjects.
+
+table: main
+This is a [|male|female|androgynous] [@rune] spell construct who is [@personality], [@unique], and has knowledge on [!{1d3+1} topic >> Implode]
+
+table: rune
+bright yellow
+baby blue
+royal purple
+saphhire
+golden
+blood red
+sea blue
+cyan
+
+table: personality
+curious
+devout
+funny
+artistic
+thoughtful
+loyal
+fanatical
+obsessive
+
+Table: unique 
+is unusually tall
+wears gold rings
+wears white robes
+is covered
+wears stolen clothes
+wears silver bracelets
+
+table: topic
+Household Charms
+Astronomy
+Charms
+Defence Against the Dark Arts
+Flying
+Herbology
+History of Magic
+Potions
+Transfiguration
+Arithmancy
+Care of Magical Creatures
+Divination
+Study of Ancient Runes
+Alchemy
+Ancient Studies
