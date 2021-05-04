@@ -1,0 +1,95 @@
+; Card Picker.ipt
+; created 1/10/2020 9:46:06 PM
+; Inspired by random card plot thingy on springhole.net
+
+Prompt: Target {Character|Plot|Place} Character
+
+Table: Main
+[#{$prompt1} cards] [@card1] is [@stitch]
+
+MaxReps: 10
+
+Table: card1
+Realization
+summoning
+opportunity
+Deciding
+comparing
+balancing
+Beginning
+preparing
+setting out
+Advice
+guidance
+direction
+Setback
+obstacle
+complication
+Recoup
+recovery
+regroup
+Restart
+resumption
+Mastery
+confidence
+restoration
+Final preparations
+anticipation
+readiness
+Completion
+finish
+return
+Seekers
+questers
+Advisors
+guides
+Masters
+leaders
+
+Table: cards
+Type: Dictionary
+Character: [@card2]
+Plot: [@card3]
+Place: [@card4]
+
+Table: card3
+The major source of trouble for the protagonists.
+Complications that make solving the issue harder. 
+A major plot twist.
+What it'll take to resolve the plot. 
+Something that will be gained. 
+Something that will be lost.
+
+Table: card2
+Your character's general outlook on life. 
+Your character's aesthetic. 
+What your character is insecure about. 
+Your character's worst flaw. 
+Your character's best virtue. 
+What your character wants. 
+How your character plans to get it. 
+What your character will need help with. 
+What your character will have to learn to deal with the hard way. 
+A short-term goal. 
+A long-term goal.
+A prevailing attitude in people. 
+
+Table: card4
+On everyone's minds these days. 
+This place struggles with. 
+Kind of people that are in charge.
+Main services offered.
+Kind of animals raised here.
+Of the harvest this year.
+Average of the harvest for the past {1d10+2} years.
+
+Table: stitch
+good
+bad
+fair
+horrible
+fantastic
+excellent
+not very good
+very bad
+very good
