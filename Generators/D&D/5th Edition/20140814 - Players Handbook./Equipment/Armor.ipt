@@ -1,0 +1,38 @@
+; Weapon Types.ipt
+; created 5/29/2018 8:17:57 PM
+
+Table: Random Armor
+[@gettable]
+EndTable:
+
+Table:gettable
+[@Random Light Armor]
+[@Random Medium Armor]
+[@Random Heavy Armor]
+EndTable:
+
+Table: Light Armor
+Padded Armor
+Leather Armor
+Studded Leather Armor
+EndTable:
+
+Table: Medium Armor
+Hide Armor
+Chain Shirt
+Scale Mail
+Breastplate
+Half Plate
+EndTable:
+
+Table: Heavy Armor
+Ring Mail
+Chain Mail
+Splint Armor
+Plate Armor
+EndTable:
+
+Table: Shield
+Shield
+Tower Shield
+EndTable:
