@@ -1,0 +1,1843 @@
+#
+# SRD Treasure Tables - CR1 through CR30
+#
+# This material is Open Game Content, and is licensed for public use under the terms of the Open Game License v1.0a.
+#
+
+use: common/srd/Categories.ipt
+use: common/srd/Equipment-Weapons--Armor.ipt
+
+Table: 00-04Coins
+Roll:1d100
+01-30: {[|5d6|6d6]*100} CP
+31-60: {[|4d6|3d6]*100} SP
+61-70: {3d6} EP
+71-95: {[|3d6|2d6]*10} GP
+96-100: {1d6} PP
+EndTable:
+
+Table: 05-10Coins
+Roll:1d100
+01-30: {[|4d6|2d6]*100} CP, {1d6*10} EP
+31-60: {[|2d6|6d6]*[|10|100|1000]} SP, {[|2d6|6d6]*[|10|100]} GP
+61-70: {3d6*10} EP, {[|2d6|6d6]*[|10|100]} GP
+71-95: {[|2d6|4d6|6d6]*[|10|100]} GP
+96-100: {[|2d6|6d6]*[|10|100]} GP, {3d6*[|1|10]} PP
+EndTable:
+
+Table: 11-16Coins
+Roll: 1d100
+01-20: {4d6*100} SP, {[|1d6|4d6]*[|100|1000]} GP
+21-35: {1d6*100} EP, {[|1d6|4d6]*[|100|1000]} GP
+36-75: {[|2d6|4d6]*[|100|1000]} GP, {[|1d6|5d6]*[|10|100]} PP
+76-100: {[|2d6|4d6]*[|100|1000]} GP, [|2d6|5d6]*[|10|100]} PP
+EndTable:
+
+Table: 17-20Coins
+Roll:1d100
+01-15: {2d6*1000} EP, {[|8d6|12d6]*[|100|1000]} GP
+16-55: {[|1d6|12d6]*1000} GP, {[|1d6|8d6]*[|100|1000]} PP
+56-100: {[|1d6|12d6]*1000} GP, {[|2d6|8d6]*[|100|1000]} PP
+EndTable:
+
+
+
+Table: 00-04Goods
+90:{!GoodsCount==0}{!GoodsValue==0}No Goods
+5:[@{!GoodsCount=1} Gems]
+5:[@{!GoodsCount=1} ArtObjects]
+81:{!GoodsCount==0}{!GoodsValue==0}No Goods
+14:[@{!GoodsCount={1d3}} Gems]
+5:[@{!GoodsCount={1d3}} ArtObjects]
+77:{!GoodsCount==0}{!GoodsValue==0}No Goods
+18:[@{!GoodsCount={1d3}} Gems]
+5:[@{!GoodsCount={1d3}} ArtObjects]
+70:{!GoodsCount==0}{!GoodsValue==0}No Goods
+25:[@{!GoodsCount={1d4}} Gems]
+5:[@{!GoodsCount={1d3}} ArtObjects]
+EndTable:
+
+
+Table: 05-10Goods
+60:{!GoodsCount==0}{!GoodsValue==0}No Goods
+35:[@{!GoodsCount={1d4}} Gems]
+5:[@{!GoodsCount={1d4}} ArtObjects]
+56:{!GoodsCount==0}{!GoodsValue==0}No Goods
+36:[@{!GoodsCount={1d4}} Gems]
+8:[@{!GoodsCount={1d4}} ArtObjects]
+48:{!GoodsCount==0}{!GoodsValue==0}No Goods
+40:[@{!GoodsCount={1d4}} Gems]
+12:[@{!GoodsCount={1d4}} ArtObjects]
+45:{!GoodsCount==0}{!GoodsValue==0}No Goods
+40:[@{!GoodsCount={1d6}} Gems]
+15:[@{!GoodsCount={1d4}} ArtObjects]
+40:{!GoodsCount==0}{!GoodsValue==0}No Goods
+40:[@{!GoodsCount={1d8}} Gems]
+20:[@{!GoodsCount={1d4}} ArtObjects]
+35:{!GoodsCount==0}{!GoodsValue==0}No Goods
+44:[@{!GoodsCount={1d8}} Gems]
+21:[@{!GoodsCount={1d6}} ArtObjects]
+EndTable:
+
+Table: 11-16Goods
+24:{!GoodsCount==0}{!GoodsValue==0}No Goods
+50:[@{!GoodsCount={1d10}} Gems]
+26:[@{!GoodsCount={1d6}} ArtObjects]
+17:{!GoodsCount==0}{!GoodsValue==0}No Goods
+53:[@{!GoodsCount={1d10}} Gems]
+30:[@{!GoodsCount={1d8}} ArtObjects]
+11:{!GoodsCount==0}{!GoodsValue==0}No Goods
+55:[@{!GoodsCount={1d12}} Gems]
+34:[@{!GoodsCount={1d10}} ArtObjects]
+11:{!GoodsCount==0}{!GoodsValue==0}No Goods
+55:[@{!GoodsCount={2d8}} Gems]
+34:[@{!GoodsCount={2d6}} ArtObjects]
+9:{!GoodsCount==0}{!GoodsValue==0}No Goods
+56:[@{!GoodsCount={2d10}} Gems]
+35:[@{!GoodsCount={2d8}} ArtObjects]
+7:{!GoodsCount==0}{!GoodsValue==0}No Goods
+57:[@{!GoodsCount={4d6}} Gems]
+36:[@{!GoodsCount={2d10}} ArtObjects]
+EndTable:
+
+
+Table: 17-20Goods
+4:{!GoodsCount==0}{!GoodsValue==0}No Goods
+59:[@{!GoodsCount={4d8}} Gems]
+37:[@{!GoodsCount={3d8}} ArtObjects]
+4:{!GoodsCount==0}{!GoodsValue==0}No Goods
+50:[@{!GoodsCount={3d12}} Gems]
+46:[@{!GoodsCount={3d10}} ArtObjects]
+3:{!GoodsCount==0}{!GoodsValue==0}No Goods
+47:[@{!GoodsCount={6d6}} Gems]
+50:[@{!GoodsCount={6d6}} ArtObjects]
+2:{!GoodsCount==0}{!GoodsValue==0}No Goods
+36:[@{!GoodsCount={4d10}} Gems]
+62:[@{!GoodsCount={7d6}} ArtObjects]
+EndTable:
+
+
+;Items
+Table: 00-04Items
+Roll:1d100
+01–06:	\z
+07–16:	\z
+17–26:	\z
+27–36:	\z
+37–44:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+45–52:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+53–60:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+61–65:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+66–70:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+71–75:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+76–78:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+79–80:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+81–85:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+86–92:	[@{!ItemsCount={1d4}} Magic Item Table F >> implode]
+93–97:	[@{!ItemsCount={1d4}} Magic Item Table F >> implode]
+98–99:	[@{!ItemsCount=1} Magic Item Table G >> implode]
+100:	[@{!ItemsCount=1} Magic Item Table G >> implode]
+EndTable:
+
+Table: 05-10Items
+Roll:1d100
+01–04:	\z
+05–10:	\z
+11–16:	\z
+17–22:	\z
+23–28:	\z
+29–32:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+33–36:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+37–40:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+41–44:	[@{!ItemsCount={1d6}} Magic Item Table A >> implode]
+45–49:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+50–54:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+55–59:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+60–63:	[@{!ItemsCount={1d4}} Magic Item Table B >> implode]
+64–66:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+67–69:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+70–72:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+73–74:	[@{!ItemsCount={1d4}} Magic Item Table C >> implode]
+75–76:	[@{!ItemsCount=1} Magic Item Table D >> implode]
+77–78:	[@{!ItemsCount=1} Magic Item Table D >> implode]
+79:		[@{!ItemsCount=1} Magic Item Table D >> implode]
+80:		[@{!ItemsCount=1} Magic Item Table D >> implode]
+81–84:	[@{!ItemsCount={1d4}} Magic Item Table F >> implode]
+85–88:	[@{!ItemsCount={1d4}} Magic Item Table F >> implode]
+89–91:	[@{!ItemsCount={1d4}} Magic Item Table F >> implode]
+92–94:	[@{!ItemsCount={1d4}} Magic Item Table F >> implode]
+95–96:	[@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+97–98:	[@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+99:		[@{!ItemsCount=1} Magic Item Table H >> implode]
+100:	[@{!ItemsCount=1} Magic Item Table H >> implode]
+EndTable:
+
+Table: 11-16Items
+Roll:1d100
+01–03:	\z
+04–06:	\z
+07–09:	\z
+10–12:	\z
+13–15:	\z
+16–19:	[@{!ItemsCount={1d4}} Magic Item Table A >> implode]\n [@{!ItemsCount={1d6}} Magic Item Table B >> implode]
+20–23:	[@{!ItemsCount={1d4}} Magic Item Table A >> implode]\n [@{!ItemsCount={1d6}} Magic Item Table B >> implode]
+24–26:	[@{!ItemsCount={1d4}} Magic Item Table A >> implode]\n [@{!ItemsCount={1d6}} Magic Item Table B >> implode]
+27–29:	[@{!ItemsCount={1d4}} Magic Item Table A >> implode]\n [@{!ItemsCount={1d6}} Magic Item Table B >> implode]
+30–35:	[@{1d6} Magic Item Table C >> implode]
+36–40:	[@{1d6} Magic Item Table C >> implode]
+41–45:	[@{1d6} Magic Item Table C >> implode]
+46–50:	[@{1d6} Magic Item Table C >> implode]
+51–54:	[@{1d4} Magic Item Table D >> implode]
+55–58:	[@{1d4} Magic Item Table D >> implode]
+59–62:	[@{1d4} Magic Item Table D >> implode]
+63–66:	[@{1d4} Magic Item Table D >> implode]
+67–68:	[@{!ItemsCount=1} Magic Item Table E >> implode]
+69–70:	[@{!ItemsCount=1} Magic Item Table E >> implode]
+71–72:	[@{!ItemsCount=1} Magic Item Table E >> implode]
+73–74:	[@{!ItemsCount=1} Magic Item Table E >> implode]
+75–76:	[@{!ItemsCount=1} Magic Item Table F >> implode]\n [@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+77–78:	[@{!ItemsCount=1} Magic Item Table F >> implode]\n [@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+79–80:	[@{!ItemsCount=1} Magic Item Table F >> implode]\n [@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+81–82:	[@{!ItemsCount=1} Magic Item Table F >> implode]\n [@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+83–85:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+86–88:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+89–90:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+91–92:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+93–94:	[@{!ItemsCount=1} Magic Item Table I >> implode]
+95–96:	[@{!ItemsCount=1} Magic Item Table I >> implode]
+97–98:	[@{!ItemsCount=1} Magic Item Table I >> implode]
+99–100:	[@{!ItemsCount=1} Magic Item Table I >> implode]
+EndTable:
+
+Table: 17-20Items
+Roll:1d100
+01–02:	\z
+03–05:	[@{!ItemsCount={1d8}} Magic Item Table C >> implode]
+06–08:	[@{!ItemsCount={1d8}} Magic Item Table C >> implode]
+09–11:	[@{!ItemsCount={1d8}} Magic Item Table C >> implode]
+12–14:	[@{!ItemsCount={1d8}} Magic Item Table C >> implode]
+15–22:	[@{!ItemsCount={1d6}} Magic Item Table D >> implode]
+23–30:	[@{!ItemsCount={1d6}} Magic Item Table D >> implode]
+31–38:	[@{!ItemsCount={1d6}} Magic Item Table D >> implode]
+39–46:	[@{!ItemsCount={1d6}} Magic Item Table D >> implode]
+47–52:	[@{!ItemsCount={1d6}} Magic Item Table E >> implode]
+53–58:	[@{!ItemsCount={1d6}} Magic Item Table E >> implode]
+59–63:	[@{!ItemsCount={1d6}} Magic Item Table E >> implode]
+64–68:	[@{!ItemsCount={1d6}} Magic Item Table E >> implode]
+69:		[@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+70:		[@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+71:		[@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+72:		[@{!ItemsCount={1d4}} Magic Item Table G >> implode]
+73–74:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+75–76:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+77–78:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+79–80:	[@{!ItemsCount={1d4}} Magic Item Table H >> implode]
+81–85:	[@{!ItemsCount={1d4}} Magic Item Table I >> implode]
+86–90:	[@{!ItemsCount={1d4}} Magic Item Table I >> implode]
+91–95:	[@{!ItemsCount={1d4}} Magic Item Table I >> implode]
+96–100:	[@{!ItemsCount={1d4}} Magic Item Table I >> implode]
+EndTable:
+
+; Magic Item Tables
+
+Table: Magic Item Table A
+Roll:1d100
+01-50:	Potion of healing
+51-70:	[@Category A]
+71-80:	[@Category B]
+81-98:	[@Category F]
+99-100:	[@Category G]
+Endtable:
+
+Table: Magic Item Table B
+Roll:1d100
+01-15:	Potion of greater healing
+16-80:	[@Category B]
+81-100:	[@Category G]
+Endtable:
+
+Table: Magic Item Table C
+Roll:1d100
+01-15:	Potion of superior healing
+16-80:	[@Category C]
+81-85:	[@Category G]
+86-100:	[@Category H]
+Endtable:
+
+Table: Magic Item Table D
+Roll:1d100
+01-20:	Potion of Supreme healing
+21-90:	[@Category D]
+91-93:	[@Category H]
+94-100:	[@Category I]
+Endtable:
+
+Table: Magic Item Table E
+Roll:1d100
+01-50:	[@Category D]
+51-100:	[@Category E]
+Endtable:
+
+Table: Magic Item Table F
+Roll:1d100
+01-100:	[@Category G]
+Endtable:
+
+Table: Magic Item Table G
+Roll:1d100
+01-05:	[@Category G]
+06-100:	[@Category H]
+Endtable:
+
+Table: Magic Item Table H
+Roll:1d100
+01-03:	[@Category J]
+04-10:	[@Category H]
+11-100:	[@Category I]
+Endtable:
+
+Table: Magic Item Table I
+Roll:1d100
+01-08:	[@Category H]
+09-15:	[@Category I]
+16-100:	[@Category J]
+Endtable:
+
+
+
+
+Table: Gems
+25:<li>[@GoldCheck with {!GoodValue={4d4}}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Banded Agate|Eye Agate|Moss Agate|Azurite|Blue Quartz|Hematite|Lapis Lazuli|Malachite|Obsidian|Rhodochrosite|Tiger Eye Turquoise|Freshwater (Irregular) Pearl]</li>
+25:<li>[@GoldCheck with {!GoodValue={2d4}*10}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Bloodstone|Carnelian|Chalcedony|Chrysoprase|Citrine|Iolite, Jasper|Moonstone|Onyx|Peridot|Rock Crystal (Clear Quartz)|Sard|Sardonyx|Rose Quartz|Smoky Quartz|Star Rose Quartz|Zircon]</li>
+20:<li>[@GoldCheck with {!GoodValue={4d4}*10}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Amber|Amethyst|Chrysoberyl|Coral|Red Garnet|Brown-Green Garnet|Jade|Jet|White Pearl|Golden Pearl|Pink Pearl|Silver Pearl|Red Spinel Spinel|Red-Brown Spinel|Deep Green Spinel|Tourmaline]</li>
+20:<li>[@GoldCheck with {!GoodValue={2d4}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Alexandrite|Aquamarine|Violet Garnet|Black Pearl|Deep Blue Spinel|Golden Yellow Topaz]</li>
+9:<li>[@GoldCheck with {!GoodValue={4d4}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Emerald|White Opal|Black Opal|Fire Opal|Blue Sapphire|Fiery Yellow Corundum|Rich Purple Corundum|Blue Star Sapphire|Black Star Sapphire|Star Ruby]</li>
+1:<li>[@GoldCheck with {!GoodValue={2d4}*1000}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Clearest Bright Green Emerald|Blue-White Diamond|Canary Diamond|Pink Diamond|Brown Diamond|Blue Diamond|Jacinth]</li>
+EndTable:
+
+Table: ArtObjects
+10:<li>[@GoldCheck with {!GoodValue={1d10}*10}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Silver Ewer|Carved Bone Statuette|Ivory Statuette|Finely Wrought Small Gold Bracelet]</li>
+15:<li>[@GoldCheck with {!GoodValue={3d6}*10}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Cloth of Gold Vestments|Black Velvet Mask with Numerous Citrines|Silver Chalice with Lapis Lazuli Gems]</li>
+15:<li>[@GoldCheck with {!GoodValue={1d6}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Large Well-Done Wool Tapestry|Brass Mug with Jade Inlays]</li>
+10:<li>[@GoldCheck with {!GoodValue={1d10}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Silver Comb with Moonstones|Silver-Plated Steel Longsword with Jet Jewel in Hilt]</li>
+10:<li>[@GoldCheck with {!GoodValue={2d6}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Carved Harp of Exotic Wood with Ivory Inlay and Zircon Gems|Solid Gold Idol (10 Lb.)]</li>
+10:<li>[@GoldCheck with {!GoodValue={3d6}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Gold Dragon Comb with Red Garnet Eye|Gold and Topaz Bottle Stopper Cork|Ceremonial Electrum Dagger with A Star Ruby in the Pommel]</li>
+10:<li>[@GoldCheck with {!GoodValue={4d6}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Eyepatch with Mock Eye of Sapphire and Moonstone|Fire Opal Pendant On A Fine Gold Chain|Old Masterpiece Painting]</li>
+5:<li>[@GoldCheck with {!GoodValue={5d6}*100}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Embroidered Silk and Velvet Mantle with Numerous Moonstones|Sapphire Pendant On Gold Chain]</li>
+5:<li>[@GoldCheck with {!GoodValue={1d4}*1000}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Embroidered and Bejeweled Glove|Jeweled Anklet|Gold Music Box]</li>
+5:<li>[@GoldCheck with {!GoodValue={1d6}*1000}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Golden Circlet with Four Aquamarines|A String of Small Pink Pearls (Necklace)]</li>
+4:<li>[@GoldCheck with {!GoodValue={2d4}*1000}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Jeweled Gold Crown|Jeweled Electrum Ring]</li>
+1:<li>[@GoldCheck with {!GoodValue={2d6}*1000}]{!GoodsValue=={$GoodsValue}+{$GoodValue}} [|Gold and Ruby Ring|Gold Cup Set with Emeralds]</li>
+EndTable:
+
+Table: MundaneItems
+Set: ItemValue=0
+17:<li>[@AlchemicalItems] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+33:<li>\a [@ArmorSize] [@MundaneArmor] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+33:<li>\a [@MasterworkMundaneWeaponTypes] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+17:<li>\a [@ToolsAndGear] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+EndTable:
+
+Table: ArmorSize
+10:Small sized
+80:Medium sized
+10:Large sized
+EndTable:
+
+Table: AlchemicalItems
+12:{!ItemCount=={1d4}}[when]{$ItemCount}=1[do]a[else]{$ItemCount}[end] flask[when]{$ItemCount}>1[do]s[end] of Alchemist’s fire{!ItemValue==({$ItemCount}*20)}
+12:{!ItemCount={2d4}} flasks of Acid{!ItemValue==({$ItemCount}*10)}
+12:{!ItemCount=={1d4}}[when]{$ItemCount}=1[do]a[else]{$ItemCount}[end] Smokestick[when]{$ItemCount}>1[do]s[end]{!ItemValue==({$ItemCount}*20)}
+12:{!ItemCount=={1d4}}[when]{$ItemCount}=1[do]a[else]{$ItemCount}[end] flask[when]{$ItemCount}>1[do]s[end] of Holy water{!ItemValue==({$ItemCount}*25)}
+14:{!ItemCount=={1d4}}[when]{$ItemCount}=1[do]a[else]{$ItemCount}[end] dose[when]{$ItemCount}>1[do]s[end] of Antitoxin{!ItemValue==({$ItemCount}*50)}
+12:an Everburning torch{!ItemValue==110}
+14:{!ItemCount=={1d4}}[when]{$ItemCount}=1[do]a[else]{$ItemCount}[end] Tanglefoot bag[when]{$ItemCount}>1[do]s[end]{!ItemValue==({$ItemCount}*50)}
+12:{!ItemCount=={1d4}}[when]{$ItemCount}=1[do]a[else]{$ItemCount}[end] Thunderstone[when]{$ItemCount}>1[do]s[end]{!ItemValue==({$ItemCount}*30)}
+EndTable:
+
+Table: MundaneArmor
+12:Chain Shirt{!ItemValue==100}
+6:Masterwork Studded Leather{!ItemValue==175}
+8:Breastplate{!ItemValue==200}
+8:Banded Mail{!ItemValue==250}
+20:Half-Plate{!ItemValue==600}
+26:Full Plate{!ItemValue==1500}
+10:Darkwood [@DarkwoodSheildType]
+10:[@MundaneSheilds]
+EndTable:
+
+Table: DarkwoodSheildType
+50:Buckler{!ItemValue==205}
+50:Shield{!ItemValue==257}
+EndTable:
+
+Table: MundaneSheilds
+17:Buckler{!ItemValue==165}
+23:Light Wooden Shield{!ItemValue==153}
+20:Light Steel Shield{!ItemValue==159}
+23:Heavy Wooden Shield{!ItemValue==157}
+17:Heavy Steel Shield{!ItemValue==170}
+EndTable:
+
+Table: MasterworkMundaneWeaponTypes
+50:Masterwork [@SRDCommonMeleeWeapons]
+20:Masterwork [@SRDUncommonWeapons]
+30:Masterwork [@SRDCommonRangedWeapons]
+EndTable:
+
+Table: ToolsAndGear
+3:Backpack, Empty{!ItemValue==2}
+3:Crowbar{!ItemValue==2}
+5:Lantern, Bullseye{!ItemValue==12}
+5:Lock, Simple{!ItemValue==20}
+5:Lock, Average{!ItemValue==40}
+7:Lock, Good{!ItemValue==80}
+7:Lock, Superior{!ItemValue==150}
+5:Manacles, Masterwork{!ItemValue==50}
+3:Mirror, Small Steel{!ItemValue==10}
+3:Rope, Silk (50 ft.){!ItemValue==10}
+7:Spyglass{!ItemValue==1000}
+5:Artisan's Tools, Masterwork{!ItemValue==55}
+5:Climber's Kit{!ItemValue==80}
+5:Disguise Kit{!ItemValue==50}
+5:Healer's Kit{!ItemValue==50}
+4:Holy Symbol, Silver{!ItemValue==25}
+4:Hourglass{!ItemValue==25}
+7:Magnifying Glass{!ItemValue==100}
+7:Musical Instrument, Masterwork{!ItemValue==100}
+5:Thieves’ Tools, Masterwork{!ItemValue==50} 
+EndTable:
+
+Table: RandomMagicItems
+[@MinorItems]
+[@MediumItems]
+[@MajorItems]
+EndTable:
+
+Table: MinorItems
+Set: ItemValue=0
+Set: ItemBonus=0
+Set: ItemMultiplier=1
+4:<li>[!SRDMinorArmorandShields] worth [@GoldCheck with {!ItemValue={$ItemValue}+({$ItemBonus}*{$ItemBonus}*1000)}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+5:<li>[@SRDMinorWeapons] worth [when]{$ItemType}=Double[do]{!ItemMultiplier==2}[end][@GoldCheck with {!ItemValue={$ItemValue}+({$ItemBonus}*{$ItemBonus}*{$ItemMultiplier}*2000)}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+35:<li>[@SRDMinorPotionsandOils] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+2:<li>Ring of [@SRDMinorRings] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+35:<li>[@ScrollType=SRDScrollTypes] Scroll...{!ItemValue==0}<ul>[@{1d3} MinorScroll]</ul>Entire scroll worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>Wand of [@SRDMinorWands] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+9:<li>[@SRDMinorWondrousItems] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+EndTable:
+
+Table: MediumItems
+Set: ItemValue=0
+Set: ItemBonus=0
+Set: ItemMultiplier=1
+10:<li>[@SRDMediumArmorandShields] worth [@GoldCheck with {!ItemValue={$ItemValue}+({$ItemBonus}*{$ItemBonus}*1000)}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>[@SRDMediumWeapons] worth [when]{$ItemType}=Double[do]{!ItemMultiplier==2}[end][@GoldCheck with {!ItemValue={$ItemValue}+({$ItemBonus}*{$ItemBonus}*{$ItemMultiplier}*2000)}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>[@SRDMediumPotionsandOils] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>Ring of [@SRDMediumRings] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>Rod of [@SRDMediumRods] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+15:<li>[@ScrollType=SRDScrollTypes] Scroll...{!ItemValue==0}<ul>[@{1d4} MediumScroll]</ul>Entire scroll worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+3:<li>Staff of [@SRDMediumStaffs] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+15:<li>Wand of [@SRDMediumWands] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+17:<li>[@SRDMediumWondrousItems] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+EndTable:
+
+Table: MajorItems
+Set: ItemValue=0
+Set: ItemBonus=0
+Set: ItemMultiplier=1
+10:<li>[@SRDMajorArmorandShields] worth [@GoldCheck with {!ItemValue={$ItemValue}+({$ItemBonus}*{$ItemBonus}*1000)}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>[@SRDMajorWeapons] worth [when]{$ItemType}=Double[do]{!ItemMultiplier==2}[end][@GoldCheck with {!ItemValue={$ItemValue}+({$ItemBonus}*{$ItemBonus}*{$ItemMultiplier}*2000)}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+5:<li>[@SRDMajorPotionsandOils] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>Ring of [@SRDMajorRings] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>Rod of [@SRDMajorRods] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+10:<li>[@ScrollType=SRDScrollTypes] Scroll...{!ItemValue==0}<ul>[@{1d6} MajorScroll]</ul>Entire scroll worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+20:<li>Staff of [@SRDMajorStaffs] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+5:<li>Wand of [@SRDMajorWands] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+20:<li>[@SRDMajorWondrousItems] worth [@GoldCheck with {$ItemValue}]{!ItemsValue=={$ItemsValue}+{$ItemValue}}</li>
+EndTable:
+
+Table: SRDMinorArmorandShields
+Shuffle: SRDMinorArmorSpecialAbilities
+Shuffle: SRDMinorShieldSpecialAbilities
+Set: ItemValue=0
+91:[@SRDRegularMinorArmorandShields]
+9:[@SRDRegularMinorArmorandShields] with [when]{$ItemBonus}<1[do]{!ItemBonus==1}[end][when]{$ItemType}=1[do][!SRDMinorArmorSpecialAbilities][else][!SRDMinorShieldSpecialAbilities][end]
+EndTable:
+
+Table: SRDRegularMinorArmorandShields
+60:+{!ItemBonus=1} [@SRDRandomShieldType]
+20:+{!ItemBonus=1} [@SRDRandomArmorType]
+5:+{!ItemBonus=2} [@SRDRandomShieldType]
+2:+{!ItemBonus=2} [@SRDRandomArmorType]
+2:[@SRDMinorSpecificArmors]
+2:[@SRDMinorSpecificShields]
+EndTable:
+
+Table: SRDMediumArmorandShields
+Shuffle: SRDMediumArmorSpecialAbilities
+Shuffle: SRDMediumShieldSpecialAbilities
+Set: ItemValue=0
+63:[@SRDRegularMediumArmorandShields]
+37:[@SRDRegularMediumArmorandShields] with [when]{$ItemBonus}<1[do]{!ItemBonus==1}[end][when]{$ItemType}=1[do][!SRDMediumArmorSpecialAbilities][else][!SRDMediumShieldSpecialAbilities][end]
+EndTable:
+
+Table: SRDRegularMediumArmorandShields
+5:+{!ItemBonus=1} [@SRDRandomShieldType]
+5:+{!ItemBonus=1} [@SRDRandomArmorType]
+10:+{!ItemBonus=2} [@SRDRandomShieldType]
+10:+{!ItemBonus=2} [@SRDRandomArmorType]
+10:+{!ItemBonus=3} [@SRDRandomShieldType]
+10:+{!ItemBonus=3} [@SRDRandomArmorType]
+5:+{!ItemBonus=4} [@SRDRandomShieldType]
+2:+{!ItemBonus=4} [@SRDRandomArmorType]
+3:[@SRDMediumSpecificArmors]
+3:[@SRDMediumSpecificShields]
+EndTable:
+
+Table: SRDMajorArmorandShields
+Shuffle: SRDMajorArmorSpecialAbilities
+Shuffle: SRDMajorShieldSpecialAbilities
+Set: ItemValue=0
+63:[@SRDRegularMajorArmorandShields]
+37:[@SRDRegularMajorArmorandShields] with [when]{$ItemBonus}<1[do]{!ItemBonus==1}[end][when]{$ItemType}=1[do][!SRDMajorArmorSpecialAbilities][else][!SRDMajorShieldSpecialAbilities][end]
+EndTable:
+
+Table: SRDRegularMajorArmorandShields
+8:+{!ItemBonus=3} [@SRDRandomShieldType]
+8:+{!ItemBonus=3} [@SRDRandomArmorType]
+11:+{!ItemBonus=4} [@SRDRandomShieldType]
+11:+{!ItemBonus=4} [@SRDRandomArmorType]
+11:+{!ItemBonus=5} [@SRDRandomShieldType]
+8:+{!ItemBonus=5} [@SRDRandomArmorType]
+3:[@SRDMajorSpecificArmors]
+3:[@SRDMajorSpecificShields]
+EndTable:
+
+Table: SRDRandomArmorType
+Set: ItemType=1
+1:Padded Armor{!ItemValue==155}
+1:Leather Armor{!ItemValue==160}
+15:Studded Leather Armor{!ItemValue==175}
+15:Chain Shirt{!ItemValue==250}
+10:Hide Armor{!ItemValue==165}
+1:Scale Mail{!ItemValue==200}
+1:Chainmail{!ItemValue==300}
+13:Breastplate{!ItemValue==350}
+1:Splint Mail{!ItemValue==350}
+1:Banded Mail{!ItemValue==400}
+1:Half-Plate Mail{!ItemValue==750}
+40:Full Plate Mail{!ItemValue==1650}
+EndTable:
+
+Table: SRDRandomShieldType
+Set: ItemType=1
+10:Buckler{!ItemValue==165}
+5:Shield, Light, Wooden{!ItemValue==153}
+5:Shield, Light, Steel{!ItemValue==159}
+10:Shield, Heavy, Wooden{!ItemValue==157}
+65:Shield, Heavy, Steel{!ItemValue==170}
+5:Shield, Tower{!ItemValue==180}
+EndTable:
+
+Table: SRDMinorArmorSpecialAbilities
+25:Glamered{!ItemValue=={$ItemValue}+2700}
+7:Fortification, Light{!ItemBonus=={$ItemBonus}+1}
+20:Slick{!ItemValue=={$ItemValue}+3750}
+20:Shadow{!ItemValue=={$ItemValue}+3750}
+20:Silent Moves{!ItemValue=={$ItemValue}+3750}
+4:Spell Resistance (13){!ItemBonus=={$ItemBonus}+2}
+1:Slick, Improved{!ItemValue=={$ItemValue}+15000}
+1:Shadow, Improved{!ItemValue=={$ItemValue}+15000}
+1:Silent Moves, Improved{!ItemValue=={$ItemValue}+15000}
+1:[!SRDMinorArmorSpecialAbilities] and [!SRDMinorArmorSpecialAbilities]
+EndTable:
+
+Table: SRDMediumArmorSpecialAbilities
+5:Glamered{!ItemValue=={$ItemValue}+2700}
+3:Fortification, Light{!ItemBonus=={$ItemBonus}+1}
+3:Slick{!ItemValue=={$ItemValue}+3750}
+3:Shadow{!ItemValue=={$ItemValue}+3750}
+3:Silent Moves{!ItemValue=={$ItemValue}+3750}
+2:Spell Resistance (13){!ItemBonus=={$ItemBonus}+2}
+10:Slick, Improved{!ItemValue=={$ItemValue}+15000}
+10:Shadow, Improved{!ItemValue=={$ItemValue}+15000}
+10:Silent Moves, Improved{!ItemValue=={$ItemValue}+15000}
+5:Acid Resistance{!ItemValue=={$ItemValue}+18000}
+5:Cold Resistance{!ItemValue=={$ItemValue}+18000}
+5:Electricity Resistance{!ItemValue=={$ItemValue}+18000}
+5:Fire Resistance{!ItemValue=={$ItemValue}+18000}
+5:Sonic Resistance{!ItemValue=={$ItemValue}+18000}
+5:Ghost Touch{!ItemBonus=={$ItemBonus}+3}
+5:Invulnerability{!ItemBonus=={$ItemBonus}+3}
+5:Fortification, Moderate{!ItemBonus=={$ItemBonus}+3}
+5:Spell Resistance (15){!ItemBonus=={$ItemBonus}+3}
+5:Wild{!ItemBonus=={$ItemBonus}+3}
+1:[!SRDMediumArmorSpecialAbilities] and [!SRDMediumArmorSpecialAbilities]
+EndTable:
+
+Table: SRDMajorArmorSpecialAbilities
+3:Glamered{!ItemValue=={$ItemValue}+2700}
+1:Fortification, Light{!ItemBonus=={$ItemBonus}+1}
+3:Slick, Improved{!ItemValue=={$ItemValue}+15000}
+3:Shadow, Improved{!ItemValue=={$ItemValue}+15000}
+3:Silent Moves, Improved{!ItemValue=={$ItemValue}+15000}
+3:Acid Resistance{!ItemValue=={$ItemValue}+18000}
+3:Cold Resistance{!ItemValue=={$ItemValue}+18000}
+3:Electricity Resistance{!ItemValue=={$ItemValue}+18000}
+3:Fire Resistance{!ItemValue=={$ItemValue}+18000}
+3:Sonic Resistance{!ItemValue=={$ItemValue}+18000}
+5:Ghost Touch{!ItemBonus=={$ItemBonus}+3}
+2:Invulnerability{!ItemBonus=={$ItemBonus}+3}
+5:Fortification, Moderate{!ItemBonus=={$ItemBonus}+3}
+2:Spell Resistance (15){!ItemBonus=={$ItemBonus}+3}
+1:Wild{!ItemBonus=={$ItemBonus}+3}
+5:Slick, Greater{!ItemValue=={$ItemValue}+33750}
+5:Shadow, Greater{!ItemValue=={$ItemValue}+33750}
+5:Silent Moves, Greater{!ItemValue=={$ItemValue}+33750}
+5:Acid Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Cold Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Electricity Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Fire Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Sonic Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Spell Resistance (17){!ItemBonus=={$ItemBonus}+4}
+1:Etherealness{!ItemValue=={$ItemValue}+49000}
+1:Undead Controlling{!ItemValue=={$ItemValue}+49000}
+1:Fortification, Heavy{!ItemBonus=={$ItemBonus}+5}
+3:Spell Resistance (19){!ItemBonus=={$ItemBonus}+5}
+1:Acid Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Cold Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Electricity Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Fire Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Sonic Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:[!SRDMajorArmorSpecialAbilities] and [!SRDMajorArmorSpecialAbilities]
+EndTable:
+
+Table: SRDMinorShieldSpecialAbilities
+20:Arrow Catching{!ItemBonus=={$ItemBonus}+1}
+20:Bashing{!ItemBonus=={$ItemBonus}+1}
+10:Blinding{!ItemBonus=={$ItemBonus}+1}
+25:Fortification, Light{!ItemBonus=={$ItemBonus}+1}
+17:Arrow Deflection{!ItemBonus=={$ItemBonus}+2}
+5:Animated{!ItemBonus=={$ItemBonus}+2}
+2:Spell Resistance (13){!ItemBonus=={$ItemBonus}+2}
+1:[!SRDMinorShieldSpecialAbilities] and [!SRDMinorShieldSpecialAbilities]
+EndTable:
+
+Table: SRDMediumShieldSpecialAbilities
+10:Arrow Catching{!ItemBonus=={$ItemBonus}+1}
+10:Bashing{!ItemBonus=={$ItemBonus}+1}
+5:Blinding{!ItemBonus=={$ItemBonus}+1}
+15:Fortification, Light{!ItemBonus=={$ItemBonus}+1}
+10:Arrow Deflection{!ItemBonus=={$ItemBonus}+2}
+7:Animated{!ItemBonus=={$ItemBonus}+2}
+2:Spell Resistance (13){!ItemBonus=={$ItemBonus}+2}
+4:Acid Resistance{!ItemValue=={$ItemValue}+18000}
+4:Cold Resistance{!ItemValue=={$ItemValue}+18000}
+4:Electricity Resistance{!ItemValue=={$ItemValue}+18000}
+4:Fire Resistance{!ItemValue=={$ItemValue}+18000}
+4:Sonic Resistance{!ItemValue=={$ItemValue}+18000}
+6:Ghost Touch{!ItemBonus=={$ItemBonus}+3}
+10:Fortification, Moderate{!ItemBonus=={$ItemBonus}+3}
+3:Spell Resistance (15){!ItemBonus=={$ItemBonus}+3}
+1:Wild{!ItemBonus=={$ItemBonus}+3}
+1:[!SRDMediumShieldSpecialAbilities] and [!SRDMediumShieldSpecialAbilities]
+EndTable:
+
+Table: SRDMajorShieldSpecialAbilities
+5:Arrow Catching{!ItemBonus=={$ItemBonus}+1}
+3:Bashing{!ItemBonus=={$ItemBonus}+1}
+2:Blinding{!ItemBonus=={$ItemBonus}+1}
+5:Fortification, Light{!ItemBonus=={$ItemBonus}+1}
+5:Arrow Deflection{!ItemBonus=={$ItemBonus}+2}
+5:Animated{!ItemBonus=={$ItemBonus}+2}
+3:Acid Resistance{!ItemValue=={$ItemValue}+18000}
+3:Cold Resistance{!ItemValue=={$ItemValue}+18000}
+3:Electricity Resistance{!ItemValue=={$ItemValue}+18000}
+3:Fire Resistance{!ItemValue=={$ItemValue}+18000}
+3:Sonic Resistance{!ItemValue=={$ItemValue}+18000}
+6:Ghost Touch{!ItemBonus=={$ItemBonus}+3}
+10:Fortification, Moderate{!ItemBonus=={$ItemBonus}+3}
+2:Spell Resistance (15){!ItemBonus=={$ItemBonus}+3}
+1:Wild{!ItemBonus=={$ItemBonus}+3}
+5:Acid Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+4:Cold Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+6:Electricity Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Fire Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+5:Sonic Resistance, Improved{!ItemValue=={$ItemValue}+42000}
+2:Spell Resistance (17){!ItemBonus=={$ItemBonus}+4}
+1:Undead Controlling{!ItemValue=={$ItemValue}+49000}
+4:Fortification, Heavy{!ItemBonus=={$ItemBonus}+5}
+2:Reflecting{!ItemBonus=={$ItemBonus}+5}
+1:Spell Resistance (19){!ItemBonus=={$ItemBonus}+5}
+1:Acid Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Cold Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Electricity Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Fire Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:Sonic Resistance, Greater{!ItemValue=={$ItemValue}+66000}
+1:[!SRDMajorShieldSpecialAbilities] and [!SRDMajorShieldSpecialAbilities]
+EndTable:
+
+Table: SRDMinorSpecificArmors
+Set: ItemType=1
+50:Mithral Shirt{!ItemValue==1100}
+30:Dragonhide Plate{!ItemValue==3300}
+20:Elven Chain{!ItemValue==4150}
+EndTable:
+
+Table: SRDMediumSpecificArmors
+Set: ItemType=1
+25:Mithral Shirt{!ItemValue==1100}
+20:Dragonhide Plate{!ItemValue==3300}
+12:Elven Chain{!ItemValue==4150}
+10:Rhino Hide{!ItemValue==1165}{!ItemBonus==2}
+15:Adamantine Breastplate{!ItemValue==10200}
+15:Dwarven Plate{!ItemValue==16500}
+3:Banded Mail of Luck{!ItemValue==9900}{!ItemBonus==3}
+EndTable:
+
+Table: SRDMajorSpecificArmors
+Set: ItemType=1
+10:Adamantine Breastplate{!ItemValue==10200}
+10:Dwarven Plate{!ItemValue==16500}
+12:Banded Mail of Luck{!ItemValue==9900}{!ItemBonus==3}
+18:Celestial Armor{!ItemValue==21400}{!ItemBonus==1}
+10:Plate Armor of the Deep{!ItemValue==21650}{!ItemBonus==1}
+15:Breastplate of Command{!ItemValue==21400}{!ItemBonus==2}
+15:Mithral Full Plate of Speed{!ItemValue==25500}{!ItemBonus==1}
+10:Demon Armor{!ItemValue==36260}{!ItemBonus==4}
+EndTable:
+
+Table: SRDMinorSpecificShields
+Set: ItemType=2
+30:Darkwood Buckler{!ItemValue==205}
+50:Darkwood Shield{!ItemValue==257}
+15:Mithral Heavy shield{!ItemValue==1020}
+5:Caster's Shield{!ItemValue==2153}{!ItemBonus==1}
+EndTable:
+
+Table: SRDMediumSpecificShields
+Set: ItemType=2
+20:Darkwood Buckler{!ItemValue==205}
+25:Darkwood Shield{!ItemValue==257}
+25:Mithral Heavy Shield{!ItemValue==1020}
+15:Caster's Shield{!ItemValue==2153}{!ItemBonus==1}
+5:Spined Shield{!ItemValue==4580}{!ItemBonus==1}
+5:Lion's Shield{!ItemValue==5170}{!ItemBonus==2}
+5:Winged Shield{!ItemValue==8257}{!ItemBonus==3}
+EndTable:
+
+Table: SRDMajorSpecificShields
+Set: ItemType=2
+20:Caster's Shield{!ItemValue==2153}{!ItemBonus==1}
+20:Spined Shield{!ItemValue==4580}{!ItemBonus==1}
+20:Lion's Shield{!ItemValue==5170}{!ItemBonus==2}
+30:Winged Shield{!ItemValue==8257}{!ItemBonus==3}
+10:Absorbing Shield{!ItemValue==49170}{!ItemBonus==1}
+EndTable:
+
+Table: SRDMinorWeapons
+Shuffle: SRDMinorMeleeWeaponSpecialAbilities
+Shuffle: SRDMinorRangedWeaponSpecialAbilities
+90:[@SRDRegularMinorWeapons]
+10:[@SRDRegularMinorWeapons] with [when]{$ItemBonus}<1[do]{!ItemBonus==1}[end][when]{$ItemType}=3[do][!SRDMinorRangedWeaponSpecialAbilities][else][!SRDMinorMeleeWeaponSpecialAbilities][end]
+EndTable:
+
+Table: SRDRegularMinorWeapons
+70:+{!ItemBonus=1} [@SRDWeaponTypeDetermination]
+15:+{!ItemBonus=2} [@SRDWeaponTypeDetermination]
+5:[@SRDMinorSpecificWeapons]
+EndTable:
+
+Table: SRDMediumWeapons
+Shuffle: SRDMediumMeleeWeaponSpecialAbilities
+Shuffle: SRDMediumRangedWeaponSpecialAbilities
+68:[@SRDRegularMediumWeapons]
+32:[@SRDRegularMediumWeapons] with [when]{$ItemBonus}<1[do]{!ItemBonus==1}[end][when]{$ItemType}=3[do][!SRDMediumRangedWeaponSpecialAbilities][else][!SRDMediumMeleeWeaponSpecialAbilities][end]
+EndTable:
+
+Table: SRDRegularMediumWeapons
+10:+{!ItemBonus=1} [@SRDWeaponTypeDetermination]
+19:+{!ItemBonus=2} [@SRDWeaponTypeDetermination]
+29:+{!ItemBonus=3} [@SRDWeaponTypeDetermination]
+4:+{!ItemBonus=4} [@SRDWeaponTypeDetermination]
+6:[@SRDMediumSpecificWeapons]
+EndTable:
+
+Table: SRDMajorWeapons
+Shuffle: SRDMajorMeleeWeaponSpecialAbilities
+Shuffle: SRDMajorRangedWeaponSpecialAbilities
+63:[@SRDRegularMajorWeapons]
+37:[@SRDRegularMajorWeapons] with [when]{$ItemBonus}<1[do]{!ItemBonus==1}[end][when]{$ItemType}=3[do][!SRDMajorRangedWeaponSpecialAbilities][else][!SRDMajorMeleeWeaponSpecialAbilities][end]
+EndTable:
+
+Table: SRDRegularMajorWeapons
+20:+{!ItemBonus=3} [@SRDWeaponTypeDetermination]
+18:+{!ItemBonus=4} [@SRDWeaponTypeDetermination]
+11:+{!ItemBonus=5} [@SRDWeaponTypeDetermination]
+14:[@SRDMajorSpecificWeapons]
+EndTable:
+
+Table: SRDWeaponTypeDetermination
+70:[@SRDCommonMeleeWeapons]
+10:[@SRDUncommonWeapons]
+20:[@SRDCommonRangedWeapons]
+EndTable:
+
+Table: SRDCommonMeleeWeapons
+Set: ItemType=1
+4:Dagger{!ItemValue==302}
+10:Greataxe{!ItemValue==320}
+10:Greatsword{!ItemValue==350}
+4:Kama{!ItemValue==302}
+13:Longsword{!ItemValue==315}
+4:Mace, Light{!ItemValue==305}
+5:Mace, Heavy{!ItemValue==312}
+4:Nunchaku{!ItemValue==302}
+3:Quarterstaff{!ItemValue==600}
+4:Rapier{!ItemValue==320}
+5:Scimitar{!ItemValue==315}
+4:Shortspear{!ItemValue==302}
+4:Siangham{!ItemValue==303}
+10:Sword, Bastard{!ItemValue==335}
+5:Sword, Short{!ItemValue==310}
+11:Waraxe, Dwarven{!ItemValue==330}
+EndTable:
+
+Table: SRDUncommonWeapons
+3:Axe, Orc Double{!ItemValue==660}{!ItemType==2}
+4:Battleaxe{!ItemValue==310}{!ItemType==1}
+3:Chain, Spiked{!ItemValue==325}{!ItemType==1}
+2:Club{!ItemValue==300}{!ItemType==1}
+4:Crossbow, Hand{!ItemValue==400}{!ItemType==3}
+3:Crossbow, Repeating{!ItemValue==550}{!ItemType==3}
+2:Dagger, Punching{!ItemValue==302}{!ItemType==1}
+2:Falchion{!ItemValue==375}{!ItemType==1}
+3:Flail, Dire{!ItemValue==690}{!ItemType==2}
+5:Flail, Heavy{!ItemValue==315}{!ItemType==1}
+4:Flail, Light{!ItemValue==308}{!ItemType==1}
+2:Gauntlet{!ItemValue==302}{!ItemType==1}
+2:Gauntlet, Spiked{!ItemValue==305}{!ItemType==1}
+2:Glaive{!ItemValue==308}{!ItemType==1}
+2:Greatclub{!ItemValue==305}{!ItemType==1}
+2:Guisarme{!ItemValue==309}{!ItemType==1}
+3:Halberd{!ItemValue==310}{!ItemType==1}
+3:Halfspear{!ItemValue==301}{!ItemType==1}
+3:Hammer, Gnome Hooked{!ItemValue==620}{!ItemType==2}
+2:Hammer, Light{!ItemValue==301}{!ItemType==1}
+2:Handaxe{!ItemValue==306}{!ItemType==1}
+3:Kukri{!ItemValue==308}{!ItemType==1}
+3:Lance{!ItemValue==310}{!ItemType==1}
+3:Longspear{!ItemValue==305}{!ItemType==1}
+3:Morningstar{!ItemValue==308}{!ItemType==1}
+2:Net{!ItemValue==320}{!ItemType==3}
+2:Pick, Heavy{!ItemValue==308}{!ItemType==1}
+2:Pick, Light{!ItemValue==304}{!ItemType==1}
+2:Ranseur{!ItemValue==310}{!ItemType==1}
+2:Sap{!ItemValue==301}{!ItemType==1}
+2:Scythe{!ItemValue==318}{!ItemType==1}
+2:Shuriken{!ItemValue==301}{!ItemType==3}
+2:Sickle{!ItemValue==306}{!ItemType==1}
+3:Sword, Two-Bladed{!ItemValue==700}{!ItemType==2}
+2:Trident{!ItemValue==315}{!ItemType==1}
+3:Urgrosh, Dwarven{!ItemValue==650}{!ItemType==2}
+3:Warhammer{!ItemValue==312}{!ItemType==1}
+3:Whip{!ItemValue==301}{!ItemType==1}
+EndTable:
+
+Table: SRDCommonRangedWeapons
+Set: ItemType=3
+10:[@SRDAmunitionCommonRangedWeapons]
+5:Axe, Throwing{!ItemValue==308}
+10:Crossbow, Heavy{!ItemValue==350}
+10:Crossbow, Light{!ItemValue==335}
+4:Dart{!ItemValue==300.5}
+2:Javelin{!ItemValue==301}
+5:Shortbow{!ItemValue==330}
+5:Shortbow, Composite (+0 Str Bonus){!ItemValue==375}
+5:Shortbow, Composite (+1 Str Bonus){!ItemValue==450}
+5:Shortbow, Composite (+2 Str Bonus){!ItemValue==525}
+4:Sling{!ItemValue==300}
+10:Longbow{!ItemValue==375}
+5:Longbow, Composite{!ItemValue==400}
+5:Longbow, Composite (+1 Str Bonus){!ItemValue==500}
+5:Longbow, Composite (+2 Str Bonus){!ItemValue==600}
+5:Longbow, Composite (+3 Str Bonus){!ItemValue==700}
+5:Longbow, Composite (+4 Str Bonus){!ItemValue==800}
+EndTable:
+
+Table: SRDAmunitionCommonRangedWeapons
+50:Arrows (50){!ItemValue==350}
+30:Bolts, Crossbow (50){!ItemValue==350}
+20:Bullets, Sling (50){!ItemValue==350}
+EndTable:
+
+Table: SRDMinorMeleeWeaponSpecialAbilities
+10:Bane{!ItemBonus=={$ItemBonus}+1}
+7:Defending{!ItemBonus=={$ItemBonus}+1}
+10:Flaming{!ItemBonus=={$ItemBonus}+1}
+10:Frost{!ItemBonus=={$ItemBonus}+1}
+10:Shock{!ItemBonus=={$ItemBonus}+1}
+9:Ghost Touch{!ItemBonus=={$ItemBonus}+1}
+11:Keen{!ItemBonus=={$ItemBonus}+1}
+4:Ki Focus{!ItemBonus=={$ItemBonus}+1}
+4:Merciful{!ItemBonus=={$ItemBonus}+1}
+7:Mighty Cleaving{!ItemBonus=={$ItemBonus}+1}
+5:Spell Storing{!ItemBonus=={$ItemBonus}+1}
+4:Throwing{!ItemBonus=={$ItemBonus}+1}
+4:Thundering{!ItemBonus=={$ItemBonus}+1}
+4:Vicious{!ItemBonus=={$ItemBonus}+1}
+1:[!SRDMinorMeleeWeaponSpecialAbilities] and [!SRDMinorMeleeWeaponSpecialAbilities]
+EndTable:
+
+Table: SRDMediumMeleeWeaponSpecialAbilities
+6:Bane{!ItemBonus=={$ItemBonus}+1}
+6:Defending{!ItemBonus=={$ItemBonus}+1}
+7:Flaming{!ItemBonus=={$ItemBonus}+1}
+7:Frost{!ItemBonus=={$ItemBonus}+1}
+7:Shock{!ItemBonus=={$ItemBonus}+1}
+5:Ghost Touch{!ItemBonus=={$ItemBonus}+1}
+6:Keen{!ItemBonus=={$ItemBonus}+1}
+4:Ki Focus{!ItemBonus=={$ItemBonus}+1}
+2:Merciful{!ItemBonus=={$ItemBonus}+1}
+4:Mighty Cleaving{!ItemBonus=={$ItemBonus}+1}
+5:Spell Storing{!ItemBonus=={$ItemBonus}+1}
+4:Throwing{!ItemBonus=={$ItemBonus}+1}
+2:Thundering{!ItemBonus=={$ItemBonus}+1}
+4:Vicious{!ItemBonus=={$ItemBonus}+1}
+3:Anarchic{!ItemBonus=={$ItemBonus}+2}
+3:Axiomatic{!ItemBonus=={$ItemBonus}+2}
+3:Disruption{!ItemBonus=={$ItemBonus}+2}
+3:Flaming Burst{!ItemBonus=={$ItemBonus}+2}
+3:Icy Burst{!ItemBonus=={$ItemBonus}+2}
+3:Holy{!ItemBonus=={$ItemBonus}+2}
+3:Shocking Burst{!ItemBonus=={$ItemBonus}+2}
+3:Unholy{!ItemBonus=={$ItemBonus}+2}
+2:Wounding{!ItemBonus=={$ItemBonus}+2}
+5:[!SRDMediumMeleeWeaponSpecialAbilities] and [!SRDMediumMeleeWeaponSpecialAbilities]
+EndTable:
+
+Table: SRDMajorMeleeWeaponSpecialAbilities
+3:Bane{!ItemBonus=={$ItemBonus}+1}
+3:Flaming{!ItemBonus=={$ItemBonus}+1}
+3:Frost{!ItemBonus=={$ItemBonus}+1}
+3:Shock{!ItemBonus=={$ItemBonus}+1}
+3:Ghost Touch{!ItemBonus=={$ItemBonus}+1}
+4:Ki Focus{!ItemBonus=={$ItemBonus}+1}
+2:Mighty Cleaving{!ItemBonus=={$ItemBonus}+1}
+3:Spell Storing{!ItemBonus=={$ItemBonus}+1}
+4:Throwing{!ItemBonus=={$ItemBonus}+1}
+4:Thundering{!ItemBonus=={$ItemBonus}+1}
+4:Vicious{!ItemBonus=={$ItemBonus}+1}
+5:Anarchic{!ItemBonus=={$ItemBonus}+2}
+5:Axiomatic{!ItemBonus=={$ItemBonus}+2}
+3:Disruption{!ItemBonus=={$ItemBonus}+2}
+5:Flaming Burst{!ItemBonus=={$ItemBonus}+2}
+5:Icy Burst{!ItemBonus=={$ItemBonus}+2}
+5:Holy{!ItemBonus=={$ItemBonus}+2}
+5:Shocking Burst{!ItemBonus=={$ItemBonus}+2}
+5:Unholy{!ItemBonus=={$ItemBonus}+2}
+4:Wounding{!ItemBonus=={$ItemBonus}+2}
+5:Speed{!ItemBonus=={$ItemBonus}+3}
+3:Brilliant Energy{!ItemBonus=={$ItemBonus}+4}
+2:Dancing{!ItemBonus=={$ItemBonus}+4}
+2:Vorpal{!ItemBonus=={$ItemBonus}+5}
+10:[!SRDMajorMeleeWeaponSpecialAbilities] and [!SRDMajorMeleeWeaponSpecialAbilities]
+EndTable:
+
+Table: SRDMinorRangedWeaponSpecialAbilities
+12:Bane vs [@SRDBaneTypes]{!ItemBonus=={$ItemBonus}+1}
+13:Distance{!ItemBonus=={$ItemBonus}+1}
+15:Flaming{!ItemBonus=={$ItemBonus}+1}
+15:Frost{!ItemBonus=={$ItemBonus}+1}
+5:Merciful{!ItemBonus=={$ItemBonus}+1}
+8:Returning{!ItemBonus=={$ItemBonus}+1}
+15:Shock{!ItemBonus=={$ItemBonus}+1}
+10:Seeking{!ItemBonus=={$ItemBonus}+1}
+6:Thundering{!ItemBonus=={$ItemBonus}+1}
+1:[!SRDMinorRangedWeaponSpecialAbilities] and [!SRDMinorRangedWeaponSpecialAbilities]
+EndTable:
+
+Table: SRDMediumRangedWeaponSpecialAbilities
+8:Bane vs [@SRDBaneTypes]{!ItemBonus=={$ItemBonus}+1}
+8:Distance{!ItemBonus=={$ItemBonus}+1}
+12:Flaming{!ItemBonus=={$ItemBonus}+1}
+12:Frost{!ItemBonus=={$ItemBonus}+1}
+2:Merciful{!ItemBonus=={$ItemBonus}+1}
+5:Returning{!ItemBonus=={$ItemBonus}+1}
+12:Shock{!ItemBonus=={$ItemBonus}+1}
+5:Seeking{!ItemBonus=={$ItemBonus}+1}
+4:Thundering{!ItemBonus=={$ItemBonus}+1}
+3:Anarchic{!ItemBonus=={$ItemBonus}+2}
+3:Axiomatic{!ItemBonus=={$ItemBonus}+2}
+5:Flaming Burst{!ItemBonus=={$ItemBonus}+2}
+3:Holy{!ItemBonus=={$ItemBonus}+2}
+5:Icy Burst{!ItemBonus=={$ItemBonus}+2}
+5:Shocking Burst{!ItemBonus=={$ItemBonus}+2}
+3:Unholy{!ItemBonus=={$ItemBonus}+2}
+5:[!SRDMediumRangedWeaponSpecialAbilities] and [!SRDMediumRangedWeaponSpecialAbilities]
+EndTable:
+
+Table: SRDMajorRangedWeaponSpecialAbilities
+4:Bane vs [@SRDBaneTypes]{!ItemBonus=={$ItemBonus}+1}
+4:Distance{!ItemBonus=={$ItemBonus}+1}
+4:Flaming{!ItemBonus=={$ItemBonus}+1}
+4:Frost{!ItemBonus=={$ItemBonus}+1}
+5:Returning{!ItemBonus=={$ItemBonus}+1}
+4:Shock{!ItemBonus=={$ItemBonus}+1}
+2:Seeking{!ItemBonus=={$ItemBonus}+1}
+2:Thundering{!ItemBonus=={$ItemBonus}+1}
+5:Anarchic{!ItemBonus=={$ItemBonus}+2}
+5:Axiomatic{!ItemBonus=={$ItemBonus}+2}
+10:Flaming Burst{!ItemBonus=={$ItemBonus}+2}
+5:Holy{!ItemBonus=={$ItemBonus}+2}
+10:Icy Burst{!ItemBonus=={$ItemBonus}+2}
+10:Shocking Burst{!ItemBonus=={$ItemBonus}+2}
+5:Unholy{!ItemBonus=={$ItemBonus}+2}
+5:Speed{!ItemBonus=={$ItemBonus}+3}
+6:Brilliant Energy{!ItemBonus=={$ItemBonus}+4}
+10:[!SRDMajorRangedWeaponSpecialAbilities] and [!SRDMajorRangedWeaponSpecialAbilities]
+EndTable:
+
+Table: SRDBaneTypes
+5:Aberrations
+4:Animals
+7:Constructs
+6:Dragons
+5:Elementals
+5:Fey
+7:Giants
+1:Humanoids, Aquatic
+2:Humanoids, Dwarf
+2:Humanoids, Elf
+1:Humanoids, Gnoll
+1:Humanoids, Gnome
+3:Humanoids, Goblinoid
+1:Humanoids, Halfling
+4:Humanoids, Human
+3:Humanoids, Reptilian
+3:Humanoids, Orc
+5:Magical Beasts
+5:Monstrous Humanoids
+2:Oozes
+1:Outsiders, Air
+3:Outsiders, Chaotic
+1:Outsiders, Earth
+3:Outsiders, Evil
+1:Outsiders, Fire
+3:Outsiders, Good
+3:Outsiders, Lawful
+1:Outsiders, Water
+2:Plants
+8:Undead
+2:Vermin
+EndTable:
+
+Table: SRDMinorSpecificWeapons
+15:Sleep Arrow{!ItemValue==132}{!ItemType==3}
+10:Screaming Bolt{!ItemValue==267}{!ItemType==3}
+20:Silver Dagger, Masterwork{!ItemValue==322}{!ItemType==1}
+20:Cold Iron Longsword, Masterwork{!ItemValue==330}{!ItemType==1}
+10:Javelin of Lightning{!ItemValue==1500}{!ItemType==3}
+5:Slaying Arrow{!ItemValue==282}{!ItemType==3}{!ItemBonus==1}
+10:Adamantine Dagger{!ItemValue==3002}{!ItemType==1}
+10:Adamantine Battleaxe{!ItemValue==3010}{!ItemType==1}
+EndTable:
+
+Table: SRDMediumSpecificWeapons
+9:Javelin of Lightning{!ItemValue==1500}{!ItemType==3}
+6:Slaying Arrow{!ItemValue==282}{!ItemType==3}{!ItemBonus==1}
+9:Adamantine Dagger{!ItemValue==3002}{!ItemType==1}
+9:Adamantine Battleaxe{!ItemValue==3010}{!ItemType==1}
+4:Slaying Arrow (Greater){!ItemValue==2057}{!ItemType==3}{!ItemBonus==1}
+3:Shatterspike{!ItemValue==2315}{!ItemType==1}{!ItemBonus==1}
+6:Dagger of Venom{!ItemValue==6302}{!ItemType==1}{!ItemBonus==1}
+5:Trident of Warning{!ItemValue==2115}{!ItemType==1}{!ItemBonus==2}
+6:Assassin's Dagger{!ItemValue==2302}{!ItemType==1}{!ItemBonus==2}
+5:Shifter's Sorrow{!ItemValue==8780}{!ItemType==2}{!ItemBonus==1}
+4:Trident of Fish Command{!ItemValue==16650}{!ItemType==1}{!ItemBonus==1}
+8:Flame Tongue{!ItemValue==18715}{!ItemType==1}{!ItemBonus==1}
+5:Luck Blade (0 wishes){!ItemValue==14060}{!ItemType==1}{!ItemBonus==2}
+7:Sword of Subtlety{!ItemValue==20310}{!ItemType==1}{!ItemBonus==1}
+5:Sword of the Planes{!ItemValue==20315}{!ItemType==1}{!ItemBonus==1}
+4:Nine Lives Stealer{!ItemValue==15057}{!ItemType==1}{!ItemBonus==2}
+3:Sword of Life Stealing{!ItemValue==17715}{!ItemType==1}{!ItemBonus==2}
+2:Oathbow{!ItemValue==17600}{!ItemType==3}{!ItemBonus==2}
+EndTable:
+
+Table: SRDMajorSpecificWeapons
+4:Assassin's Dagger{!ItemValue==2302}{!ItemType==1}{!ItemBonus==2}
+3:Shifter's Sorrow{!ItemValue==10780}{!ItemType==2}{!ItemBonus==1}
+2:Trident of Fish Command{!ItemValue==16650}{!ItemType==1}{!ItemBonus==1}
+4:Flame Tongue{!ItemValue==18715}{!ItemType==1}{!ItemBonus==1}
+4:Luck Blade (0 wishes){!ItemValue==14060}{!ItemType==1}{!ItemBonus==2}
+7:Sword of Subtlety{!ItemValue==20310}{!ItemType==1}{!ItemBonus==1}
+7:Sword of the Planes{!ItemValue==20315}{!ItemType==1}{!ItemBonus==1}
+6:Nine Lives Stealer{!ItemValue==15057}{!ItemType==1}{!ItemBonus==2}
+5:Sword of Life Stealing{!ItemValue==17715}{!ItemType==1}{!ItemBonus==2}
+4:Oathbow{!ItemValue==17600}{!ItemType==3}{!ItemBonus==2}
+5:Mace of Terror{!ItemValue==30552}{!ItemType==1}{!ItemBonus==2}
+6:Life-Drinker (Weapon){!ItemValue==38320}{!ItemType==1}{!ItemBonus==1}
+5:Sylvan Scimitar{!ItemValue==28315}{!ItemType==1}{!ItemBonus==3}
+5:Rapier of Puncturing{!ItemValue==42320}{!ItemType==1}{!ItemBonus==2}
+6:Sun Blade{!ItemValue==42335}{!ItemType==1}{!ItemBonus==2}
+6:Frost Brand{!ItemValue==36475}{!ItemType==1}{!ItemBonus==3}
+5:Dwarven Thrower{!ItemValue==42312}{!ItemType==3}{!ItemBonus==3}
+7:Luck Blade (1 wish){!ItemValue==54360}{!ItemType==1}{!ItemBonus==2}
+4:Mace of Smiting{!ItemValue==58312}{!ItemType==1}{!ItemBonus==3}
+2:Luck Blade (2 wishes){!ItemValue==94660}{!ItemType==1}{!ItemBonus==2}
+2:Holy Avenger{!ItemValue==112630}{!ItemType==1}{!ItemBonus==2}
+1:Luck Blade (3 wishes){!ItemValue==134960}{!ItemType==1}{!ItemBonus==2}
+EndTable:
+
+Table: SRDMinorPotionsandOils
+10:Potion: Cure Light Wounds{!ItemValue==50}
+3:Potion: Endure Elements{!ItemValue==50}
+2:Potion: Hide From Animals{!ItemValue==50}
+2:Potion: Hide From Undead{!ItemValue==50}
+2:Potion: Jump{!ItemValue==50}
+3:Potion: Mage Armor{!ItemValue==50}
+3:Potion: Magic Fang{!ItemValue==50}
+1:Oil: Magic Stone{!ItemValue==50}
+3:Oil: Magic Weapon{!ItemValue==50}
+1:Potion: Pass Without Trace{!ItemValue==50}
+2:Potion: Protection From [|Evil|Good|Chaos|Law]{!ItemValue==50}
+2:Potion: Remove Fear{!ItemValue==50}
+1:Potion: Sanctuary{!ItemValue==50}
+3:Potion: Shield of Faith +2{!ItemValue==50}
+1:Oil: Shillelagh{!ItemValue==50}
+2:Oil: Bless Weapon{!ItemValue==100}
+3:Potion: Enlarge Person{!ItemValue==250}
+1:Potion: Reduce Person{!ItemValue==250}
+2:Potion: Aid{!ItemValue==300}
+3:Potion: Barkskin +2{!ItemValue==300}
+3:Potion: Bear's Endurance{!ItemValue==300}
+3:Potion: Blur{!ItemValue==300}
+3:Potion: Bull's Strength{!ItemValue==300}
+3:Potion: Cat's Grace{!ItemValue==300}
+5:Potion: Cure Moderate Wounds{!ItemValue==300}
+1:Oil: Darkness{!ItemValue==300}
+3:Potion: Darkvision{!ItemValue==300}
+3:Potion: Delay Poison{!ItemValue==300}
+2:Potion: Eagle's Splendor{!ItemValue==300}
+2:Potion: Fox's Cunning{!ItemValue==300}
+3:Potion Or Oil: Invisibility{!ItemValue==300}
+3:Potion: Lesser Restoration{!ItemValue==300}
+2:Potion Or Oil: Levitate{!ItemValue==300}
+1:Potion: Misdirection{!ItemValue==300}
+2:Potion: Owl's Wisdom{!ItemValue==300}
+2:Potion: Protection From Arrows 10/Magic{!ItemValue==300}
+2:Potion: Remove Paralysis{!ItemValue==300}
+3:Potion: Resist Energy [|Fire|Cold|Electricity|Acid|Sonic] 10{!ItemValue==300}
+1:Potion: Shield of Faith +3{!ItemValue==300}
+2:Potion: Spider Climb{!ItemValue==300}
+1:Potion: Undetectable Alignment{!ItemValue==300}
+EndTable:
+
+Table: SRDMediumPotionsandOils
+2:Oil: Bless Weapon{!ItemValue==100}
+2:Potion: Enlarge Person{!ItemValue==250}
+1:Potion: Reduce Person{!ItemValue==250}
+1:Potion: Aid{!ItemValue==300}
+1:Potion: Barkskin +2{!ItemValue==300}
+3:Potion: Bear's Endurance{!ItemValue==300}
+3:Potion: Blur{!ItemValue==300}
+3:Potion: Bull's Strength{!ItemValue==300}
+3:Potion: Cat's Grace{!ItemValue==300}
+8:Potion: Cure Moderate Wounds{!ItemValue==300}
+1:Oil: Darkness{!ItemValue==300}
+2:Potion: Darkvision{!ItemValue==300}
+1:Potion: Delay Poison{!ItemValue==300}
+2:Potion: Eagle's Splendor{!ItemValue==300}
+2:Potion: Fox's Cunning{!ItemValue==300}
+2:Potion Or Oil: Invisibility{!ItemValue==300}
+1:Potion: Lesser Restoration{!ItemValue==300}
+1:Potion Or Oil: Levitate{!ItemValue==300}
+1:Potion: Misdirection{!ItemValue==300}
+2:Potion: Owl's Wisdom{!ItemValue==300}
+1:Potion: Protection From Arrows 10/Magic{!ItemValue==300}
+1:Potion: Remove Paralysis{!ItemValue==300}
+2:Potion: Resist Energy [|Fire|Cold|Electricity|Acid|Sonic] 10{!ItemValue==300}
+2:Potion: Shield of Faith +3{!ItemValue==300}
+1:Potion: Spider Climb{!ItemValue==300}
+1:Potion: Undetectable Alignment{!ItemValue==300}
+1:Potion: Barkskin +3{!ItemValue==600}
+1:Potion: Shield of Faith +4{!ItemValue==600}
+3:Potion: Resist Energy [|Fire|Cold|Electricity|Acid|Sonic] 20{!ItemValue==700}
+5:Potion: Cure Serious Wounds{!ItemValue==750}
+1:Oil: Daylight{!ItemValue==750}
+3:Potion: Displacement{!ItemValue==750}
+1:Oil: Flame Arrow{!ItemValue==750}
+3:Potion: Fly{!ItemValue==750}
+1:Potion: Gaseous Form{!ItemValue==750}
+2:Potion: Greater Magic Fang +1{!ItemValue==750}
+2:Oil: Greater Magic Weapon +1{!ItemValue==750}
+2:Potion: Haste{!ItemValue==750}
+3:Potion: Heroism{!ItemValue==750}
+2:Oil: Keen Edge{!ItemValue==750}
+1:Potion: Magic Circle Against [|Evil|Good|Chaos|Law]{!ItemValue==750}
+2:Oil: Magic Vestment +1{!ItemValue==750}
+3:Potion: Neutralize Poison{!ItemValue==750}
+2:Potion: Nondetection{!ItemValue==750}
+3:Potion: Protection From Energy [|Fire|Cold|Electricity|Acid|Sonic]{!ItemValue==750}
+2:Potion: Rage{!ItemValue==750}
+1:Potion: Remove Blindness/Deafness{!ItemValue==750}
+1:Potion: Remove Curse{!ItemValue==750}
+1:Potion: Remove Disease{!ItemValue==750}
+1:Potion: Tongues{!ItemValue==750}
+2:Potion: Water Breathing{!ItemValue==750}
+1:Potion: Water Walk{!ItemValue==750}
+EndTable:
+
+Table: SRDMajorPotionsandOils
+2:Potion: Blur{!ItemValue==300}
+5:Potion: Cure Moderate Wounds{!ItemValue==300}
+2:Potion: Darkvision{!ItemValue==300}
+2:Potion Or Oil: Invisibility{!ItemValue==300}
+1:Potion: Lesser Restoration{!ItemValue==300}
+1:Potion: Remove Paralysis{!ItemValue==300}
+1:Potion: Shield of Faith +3{!ItemValue==300}
+1:Potion: Undetectable Alignment{!ItemValue==300}
+1:Potion: Barkskin +3{!ItemValue==600}
+2:Potion: Shield of Faith +4{!ItemValue==600}
+2:Potion: Resist Energy [|Fire|Cold|Electricity|Acid|Sonic] 20{!ItemValue==700}
+8:Potion: Cure Serious Wounds{!ItemValue==750}
+1:Oil: Daylight{!ItemValue==750}
+3:Potion: Displacement{!ItemValue==750}
+1:Oil: Flame Arrow{!ItemValue==750}
+5:Potion: Fly{!ItemValue==750}
+1:Potion: Gaseous Form{!ItemValue==750}
+2:Potion: Haste{!ItemValue==750}
+3:Potion: Heroism{!ItemValue==750}
+2:Oil: Keen Edge{!ItemValue==750}
+1:Potion: Magic Circle Against [|Evil|Good|Chaos|Law]{!ItemValue==750}
+3:Potion: Neutralize Poison{!ItemValue==750}
+2:Potion: Nondetection{!ItemValue==750}
+2:Potion: Protection From Energy [|Fire|Cold|Electricity|Acid|Sonic]{!ItemValue==750}
+1:Potion: Rage{!ItemValue==750}
+1:Potion: Remove Blindness/Deafness{!ItemValue==750}
+1:Potion: Remove Curse{!ItemValue==750}
+1:Potion: Remove Disease{!ItemValue==750}
+1:Potion: Tongues{!ItemValue==750}
+1:Potion: Water Breathing{!ItemValue==750}
+1:Potion: Water Walk{!ItemValue==750}
+2:Potion: Barkskin +4{!ItemValue==900}
+1:Potion: Shield of Faith +5{!ItemValue==900}
+1:Potion: Good Hope{!ItemValue==1050}
+3:Potion: Resist Energy [|Fire|Cold|Electricity|Acid|Sonic] 30{!ItemValue==1100}
+1:Potion: Barkskin +5{!ItemValue==1200}
+4:Potion: Greater Magic Fang +2{!ItemValue==1200}
+4:Oil: Greater Magic Weapon +2{!ItemValue==1200}
+4:Oil: Magic Vestment +2{!ItemValue==1200}
+1:Potion: Protection From Arrows 15/Magic{!ItemValue==1500}
+3:Potion: Greater Magic Fang +3{!ItemValue==1800}
+3:Oil: Greater Magic Weapon +3{!ItemValue==1800}
+3:Oil: Magic Vestment +3{!ItemValue==1800}
+2:Potion: Greater Magic Fang +4{!ItemValue==2400}
+2:Oil: Greater Magic Weapon +4{!ItemValue==2400}
+2:Oil: Magic Vestment +4{!ItemValue==2400}
+1:Potion: Greater Magic Fang +5{!ItemValue==3000}
+1:Oil: Greater Magic Weapon +5{!ItemValue==3000}
+1:Oil: Magic Vestment +5{!ItemValue==3000}
+EndTable:
+
+Table: SRDMinorRings
+18:Protection +1{!ItemValue==2000}
+10:Feather Falling{!ItemValue==2200}
+8:Sustenance{!ItemValue==2500}
+8:Climbing{!ItemValue==2500}
+8:Jumping{!ItemValue==2500}
+8:Swimming{!ItemValue==2500}
+10:Counterspells{!ItemValue==4000}
+5:Mind Shielding{!ItemValue==8000}
+5:Protection +2{!ItemValue==8000}
+5:Force Shield{!ItemValue==8500}
+5:Ram{!ItemValue==8600}
+3:Animal Friendship{!ItemValue==10800}
+3:Energy Resistance, Minor{!ItemValue==12000}
+2:Chameleon Power{!ItemValue==12700}
+2:Water Walking{!ItemValue==15000}
+EndTable:
+
+Table: SRDMediumRings
+5:Counterspells{!ItemValue==4000}
+3:Mind Shielding{!ItemValue==8000}
+10:Protection +2{!ItemValue==8000}
+5:Force Shield{!ItemValue==8500}
+5:Ram{!ItemValue==8600}
+6:Climbing, Improved{!ItemValue==10000}
+6:Jumping, Improved{!ItemValue==10000}
+6:Swimming, Improved{!ItemValue==10000}
+5:Animal Friendship{!ItemValue==10800}
+5:Energy Resistance, Minor{!ItemValue==12000}
+5:Chameleon Power{!ItemValue==12700}
+5:Water Walking{!ItemValue==15000}
+5:Protection +3{!ItemValue==18000}
+5:Spell Storing, Minor{!ItemValue==18000}
+5:Invisibility{!ItemValue==20000}
+4:Wizardry (I){!ItemValue==20000}
+5:Evasion{!ItemValue==25000}
+3:X-Ray Vision{!ItemValue==25000}
+4:Blinking{!ItemValue==27000}
+3:Energy Resistance, Major{!ItemValue==28000}
+EndTable:
+
+Table: SRDMajorRings
+2:Energy Resistance, Minor{!ItemValue==12000}
+5:Protection +3{!ItemValue==18000}
+3:Spell Storing, Minor{!ItemValue==18000}
+5:Invisibility{!ItemValue==20000}
+4:Wizardry (I){!ItemValue==20000}
+6:Evasion{!ItemValue==25000}
+3:X-Ray Vision{!ItemValue==25000}
+4:Blinking{!ItemValue==27000}
+7:Energy Resistance, Major{!ItemValue==28000}
+10:Protection +4{!ItemValue==32000}
+6:Wizardry (II){!ItemValue==40000}
+5:Freedom of Movement{!ItemValue==40000}
+3:Energy Resistance, Greater{!ItemValue==44000}
+2:Friend Shield (Pair){!ItemValue==50000}
+5:Protection +5{!ItemValue==50000}
+4:Shooting Stars{!ItemValue==50000}
+5:Spell Storing{!ItemValue==50000}
+4:Wizardry (III){!ItemValue==70000}
+3:Telekinesis{!ItemValue==75000}
+2:Regeneration{!ItemValue==90000}
+1:Three Wishes{!ItemValue==97950}
+3:Spell Turning{!ItemValue==98280}
+2:Wizardry (IV){!ItemValue==100000}
+1:Djinni Calling{!ItemValue==125000}
+1:Elemental Command (Air){!ItemValue==200000}
+1:Elemental Command (Earth){!ItemValue==200000}
+1:Elemental Command (Fire){!ItemValue==200000}
+1:Elemental Command (Water){!ItemValue==200000}
+1:Spell Storing, Major{!ItemValue==200000}
+EndTable:
+
+Table: SRDMediumRods
+7:Metamagic, Enlarge, Lesser{!ItemValue==3000}
+7:Metamagic, Extend, Lesser{!ItemValue==3000}
+7:Metamagic, Silent, Lesser{!ItemValue==3000}
+7:Immovable{!ItemValue==5000}
+7:Metamagic, Empower, Lesser{!ItemValue==9000}
+7:Metal and Mineral Detection{!ItemValue==10500}
+11:Cancellation{!ItemValue==11000}
+4:Metamagic, Enlarge{!ItemValue==11000}
+4:Metamagic, Extend{!ItemValue==11000}
+4:Metamagic, Silent{!ItemValue==11000}
+6:Wonder{!ItemValue==12000}
+8:Python{!ItemValue==13000}
+4:Metamagic, Maximize, Lesser{!ItemValue==14000}
+6:Flame Extinguishing{!ItemValue==15000}
+8:Viper{!ItemValue==19000}
+2:Metamagic, Empower{!ItemValue==32500}
+1:Metamagic, Quicken, Lesser{!ItemValue==35000}
+EndTable:
+
+Table: SRDMajorRods
+4:Cancellation{!ItemValue==11000}
+2:Metamagic, Enlarge{!ItemValue==11000}
+2:Metamagic, Extend{!ItemValue==11000}
+2:Metamagic, Silent{!ItemValue==11000}
+4:Wonder{!ItemValue==12000}
+4:Python{!ItemValue==13000}
+3:Flame Extinguishing{!ItemValue==15000}
+4:Viper{!ItemValue==19000}
+5:Enemy Detection{!ItemValue==23500}
+6:Metamagic, Enlarge, Greater{!ItemValue==24500}
+6:Metamagic, Extend, Greater{!ItemValue==24500}
+6:Metamagic, Silent, Greater{!ItemValue==24500}
+5:Splendor{!ItemValue==25000}
+5:Withering{!ItemValue==25000}
+6:Metamagic, Empower{!ItemValue==32500}
+5:Thunder and Lightning{!ItemValue==33000}
+4:Metamagic, Quicken, Lesser{!ItemValue==35000}
+4:Negation{!ItemValue==37000}
+3:Absorption{!ItemValue==50000}
+4:Flailing{!ItemValue==50000}
+2:Metamagic, Maximize{!ItemValue==54000}
+2:Rulership{!ItemValue==60000}
+2:Security{!ItemValue==61000}
+2:Lordly Might{!ItemValue==70000}
+2:Metamagic, Empower, Greater{!ItemValue==73000}
+2:Metamagic, Quicken{!ItemValue==75500}
+2:Alertness{!ItemValue==85000}
+1:Metamagic, Maximize, Greater{!ItemValue==121500}
+1:Metamagic, Quicken, Greater{!ItemValue==170000}
+EndTable:
+
+
+
+Table: SRDMediumStaffs
+15:Charming{!ItemValue==16500}
+15:Fire{!ItemValue==17750}
+10:Swarming Insects{!ItemValue==24750}
+20:Healing{!ItemValue==27750}
+15:Size Alteration{!ItemValue==29000}
+15:Illumination{!ItemValue==48250}
+5:Frost{!ItemValue==56250}
+5:Defense{!ItemValue==58250}
+EndTable:
+
+Table: SRDMajorStaffs
+3:Charming{!ItemValue==16500}
+6:Fire{!ItemValue==17750}
+2:Swarming Insects{!ItemValue==24750}
+6:Healing{!ItemValue==27750}
+2:Size Alteration{!ItemValue==29000}
+5:Illumination{!ItemValue==48250}
+7:Frost{!ItemValue==56250}
+7:Defense{!ItemValue==58250}
+5:Abjuration{!ItemValue==65000}
+5:Conjuration{!ItemValue==65000}
+5:Enchantment{!ItemValue==65000}
+5:Evocation{!ItemValue==65000}
+5:Illusion{!ItemValue==65000}
+5:Necromancy{!ItemValue==65000}
+5:Transmutation{!ItemValue==65000}
+4:Divination{!ItemValue==73500}
+5:Earth and Stone{!ItemValue==80500}
+5:Woodlands{!ItemValue==101250}
+5:Life{!ItemValue==155750}
+5:Passage{!ItemValue==170500}
+3:Power{!ItemValue==211000}
+EndTable:
+
+Table: SRDMinorWands
+2:Detect Magic{!ItemValue==375}
+2:Light{!ItemValue==375}
+3:Burning Hands{!ItemValue==750}
+3:Charm Animal{!ItemValue==750}
+3:Charm Person{!ItemValue==750}
+3:Color Spray{!ItemValue==750}
+3:Cure Light Wounds{!ItemValue==750}
+3:Detect Secret Doors{!ItemValue==750}
+3:Enlarge Person{!ItemValue==750}
+3:Magic Missile (1st){!ItemValue==750}
+3:Shocking Grasp{!ItemValue==750}
+3:Summon Monster I{!ItemValue==750}
+2:Magic Missile (3Rd){!ItemValue==2250}
+1:Magic Missile (5th){!ItemValue==3750}
+3:Bear's Endurance{!ItemValue==4500}
+3:Bull's Strength{!ItemValue==4500}
+3:Cat's Grace{!ItemValue==4500}
+3:Cure Moderate Wounds{!ItemValue==4500}
+2:Darkness{!ItemValue==4500}
+3:Daylight{!ItemValue==4500}
+3:Delay Poison{!ItemValue==4500}
+3:Eagle's Splendor{!ItemValue==4500}
+3:False Life{!ItemValue==4500}
+3:Fox's Cunning{!ItemValue==4500}
+2:Ghoul Touch{!ItemValue==4500}
+3:Hold Person{!ItemValue==4500}
+3:Invisibility{!ItemValue==4500}
+3:Knock{!ItemValue==4500}
+3:Levitate{!ItemValue==4500}
+3:Acid Arrow{!ItemValue==4500}
+3:Mirror Image{!ItemValue==4500}
+3:Owl's Wisdom{!ItemValue==4500}
+2:Shatter{!ItemValue==4500}
+3:Silence{!ItemValue==4500}
+3:Summon Monster II{!ItemValue==4500}
+3:Web{!ItemValue==4500}
+EndTable:
+
+Table: SRDMediumWands
+3:Magic Missile (5th){!ItemValue==3750}
+4:Bear's Endurance{!ItemValue==4500}
+4:Bull's Strength{!ItemValue==4500}
+4:Cat's Grace{!ItemValue==4500}
+5:Cure Moderate Wounds{!ItemValue==4500}
+2:Darkness{!ItemValue==4500}
+2:Daylight{!ItemValue==4500}
+3:Delay Poison{!ItemValue==4500}
+4:Eagle's Splendor{!ItemValue==4500}
+2:False Life{!ItemValue==4500}
+4:Fox's Cunning{!ItemValue==4500}
+1:Ghoul Touch{!ItemValue==4500}
+1:Hold Person{!ItemValue==4500}
+3:Invisibility{!ItemValue==4500}
+2:Knock{!ItemValue==4500}
+1:Levitate{!ItemValue==4500}
+2:Acid Arrow{!ItemValue==4500}
+2:Mirror Image{!ItemValue==4500}
+4:Owl's Wisdom{!ItemValue==4500}
+1:Shatter{!ItemValue==4500}
+2:Silence{!ItemValue==4500}
+1:Summon Monster II{!ItemValue==4500}
+2:Web{!ItemValue==4500}
+3:Magic Missile (7th){!ItemValue==5250}
+2:Magic Missile (9th){!ItemValue==6750}
+3:Call Lightning (5th){!ItemValue==11250}
+1:Charm Person, Heightened (3Rd-Level Spell){!ItemValue==11250}
+2:Contagion{!ItemValue==11250}
+4:Cure Serious Wounds{!ItemValue==11250}
+3:Dispel Magic{!ItemValue==11250}
+4:Fireball (5th){!ItemValue==11250}
+2:Keen Edge{!ItemValue==11250}
+4:Lightning Bolt (5th){!ItemValue==11250}
+2:Major Image{!ItemValue==11250}
+2:Slow{!ItemValue==11250}
+3:Suggestion{!ItemValue==11250}
+3:Summon Monster III{!ItemValue==11250}
+1:Fireball (6th){!ItemValue==13500}
+1:Lightning Bolt (6th){!ItemValue==13500}
+1:Searing Light (6th){!ItemValue==13500}
+EndTable:
+
+Table: SRDMajorWands
+2:Magic Missile (7th){!ItemValue==5250}
+3:Magic Missile (9th){!ItemValue==6750}
+2:Call Lightning (5th){!ItemValue==11250}
+1:Charm Person, Heightened (3Rd-Level Spell){!ItemValue==11250}
+2:Contagion{!ItemValue==11250}
+3:Cure Serious Wounds{!ItemValue==11250}
+2:Dispel Magic{!ItemValue==11250}
+2:Fireball (5th){!ItemValue==11250}
+2:Keen Edge{!ItemValue==11250}
+2:Lightning Bolt (5th){!ItemValue==11250}
+2:Major Image{!ItemValue==11250}
+2:Slow{!ItemValue==11250}
+2:Suggestion{!ItemValue==11250}
+2:Summon Monster III{!ItemValue==11250}
+2:Fireball (6th){!ItemValue==13500}
+2:Lightning Bolt (6th){!ItemValue==13500}
+2:Searing Light (6th){!ItemValue==13500}
+2:Call Lightning (8th){!ItemValue==18000}
+2:Fireball (8th){!ItemValue==18000}
+2:Lightning Bolt (8th){!ItemValue==18000}
+4:Charm Monster{!ItemValue==21000}
+5:Cure Critical Wounds{!ItemValue==21000}
+2:Dimensional Anchor{!ItemValue==21000}
+3:Fear{!ItemValue==21000}
+4:Greater Invisibility{!ItemValue==21000}
+1:Hold Person, Heightened (4th Level){!ItemValue==21000}
+5:Ice Storm{!ItemValue==21000}
+3:Inflict Critical Wounds{!ItemValue==21000}
+4:Neutralize Poison{!ItemValue==21000}
+2:Poison{!ItemValue==21000}
+3:Polymorph{!ItemValue==21000}
+1:Ray of Enfeeblement, Heightened (4th Level){!ItemValue==21000}
+1:Suggestion, Heightened (4th Level){!ItemValue==21000}
+3:Summon Monster IV{!ItemValue==21000}
+4:Wall of Fire{!ItemValue==21000}
+4:Wall of Ice{!ItemValue==21000}
+1:Dispel Magic (10Th){!ItemValue==22500}
+1:Fireball (10Th){!ItemValue==22500}
+1:Lightning Bolt (10Th){!ItemValue==22500}
+1:Chaos Hammer (8th){!ItemValue==24000}
+1:Holy Smite (8th){!ItemValue==24000}
+1:Order's Wrath (8th){!ItemValue==24000}
+1:Unholy Blight (8th){!ItemValue==24000}
+2:Restoration{!ItemValue==26000}
+1:Stoneskin{!ItemValue==33500}
+EndTable:
+
+Table: SRDMinorWondrousItems
+1:Feather Token, Anchor{!ItemValue==50}
+1:Universal Solvent{!ItemValue==50}
+1:Elixir of Love{!ItemValue==150}
+1:Unguent of Timelessness{!ItemValue==150}
+1:Feather Token, Fan{!ItemValue==200}
+1:Dust of Tracelessness{!ItemValue==250}
+1:Elixir of Hiding{!ItemValue==250}
+1:Elixir of Sneaking{!ItemValue==250}
+1:Elixir of Swimming{!ItemValue==250}
+1:Elixir of Vision{!ItemValue==250}
+1:Silversheen{!ItemValue==250}
+1:Feather Token, Bird{!ItemValue==300}
+1:Feather Token, Tree{!ItemValue==400}
+1:Feather Token, Swan Boat{!ItemValue==450}
+1:Elixir of Truth{!ItemValue==500}
+1:Feather Token, Whip{!ItemValue==500}
+1:Dust of Dryness{!ItemValue==850}
+1:Bag of Tricks, Gray{!ItemValue==900}
+1:Hand of the Mage{!ItemValue==900}
+1:Bracers of Armor +1{!ItemValue==1000}
+1:Cloak of Resistance +1{!ItemValue==1000}
+1:Pearl of Power, 1st-Level Spell{!ItemValue==1000}
+1:Phylactery of Faithfulness{!ItemValue==1000}
+1:Salve of Slipperiness{!ItemValue==1000}
+1:Elixir of Fire Breath{!ItemValue==1100}
+1:Pipes of the Sewers{!ItemValue==1150}
+1:Dust of Illusion{!ItemValue==1200}
+1:Goggles of Minute Seeing{!ItemValue==1250}
+1:Brooch of Shielding{!ItemValue==1500}
+1:Necklace of Fireballs Type 1{!ItemValue==1650}
+1:Dust of Appearance{!ItemValue==1800}
+1:Hat of Disguise{!ItemValue==1800}
+1:Pipes of Sounding{!ItemValue==1800}
+1:Efficient Quiver{!ItemValue==1800}
+1:Amulet of Natural Armor +1{!ItemValue==2000}
+1:Handy Haversack{!ItemValue==2000}
+1:Horn of Fog{!ItemValue==2000}
+1:Elemental Gem{!ItemValue==2250}
+1:Robe of Bones{!ItemValue==2400}
+1:Sovereign Glue{!ItemValue==2400}
+1:Bag of Holding Type 1{!ItemValue==2500}
+1:Boots of Elvenkind{!ItemValue==2500}
+1:Boots of the Winterlands{!ItemValue==2500}
+1:Candle of Truth{!ItemValue==2500}
+1:Cloak of Elvenkind{!ItemValue==2500}
+1:Eyes of the Eagle{!ItemValue==2500}
+1:Scarab, Golembane{!ItemValue==2500}
+1:Necklace of Fireballs Type 2{!ItemValue==2700}
+1:Stone of Alarm{!ItemValue==2700}
+1:Bag of Tricks, Rust{!ItemValue==3000}
+1:Bead of Force{!ItemValue==3000}
+1:Chime of Opening{!ItemValue==3000}
+1:Horseshoes of Speed{!ItemValue==3000}
+1:Rope of Climbing{!ItemValue==3000}
+1:Dust of Disappearance{!ItemValue==3500}
+1:Lens of Detection{!ItemValue==3500}
+1:Vestment, Druid'S{!ItemValue==3750}
+1:Figurine of Wondrous Power, Silver Raven{!ItemValue==3800}
+1:Amulet of Health +2{!ItemValue==4000}
+1:Bracers of Armor +2{!ItemValue==4000}
+1:Cloak of Charisma +2{!ItemValue==4000}
+1:Cloak of Resistance +2{!ItemValue==4000}
+1:Gauntlets of Ogre Power{!ItemValue==4000}
+1:Gloves of Arrow Snaring{!ItemValue==4000}
+1:Gloves of Dexterity +2{!ItemValue==4000}
+1:Headband of Intellect +2{!ItemValue==4000}
+1:Ioun Stone, Clear Spindle{!ItemValue==4000}
+1:Restorative Ointment{!ItemValue==4000}
+1:Marvelous Pigments{!ItemValue==4000}
+1:Pearl of Power, 2nd-Level Spell{!ItemValue==4000}
+1:Periapt of Wisdom +2{!ItemValue==4000}
+1:Stone Salve{!ItemValue==4000}
+1:Necklace of Fireballs Type 3{!ItemValue==4350}
+1:Circlet of Persuasion{!ItemValue==4500}
+1:Slippers of Spider Climbing{!ItemValue==4800}
+1:Incense of Meditation{!ItemValue==4900}
+1:Bag of Holding Type 2{!ItemValue==5000}
+1:Bracers of Archery, Lesser{!ItemValue==5000}
+1:Ioun Stone, Dusty Rose Prism{!ItemValue==5000}
+1:Helm of Comprehend Languages and Read Magic{!ItemValue==5200}
+1:Vest of Escape{!ItemValue==5200}
+1:Eversmoking Bottle{!ItemValue==5400}
+1:Sustaining Spoon{!ItemValue==5400}
+1:Necklace of Fireballs Type 4{!ItemValue==5400}
+1:Boots of Striding and Springing{!ItemValue==5500}
+1:Wind Fan{!ItemValue==5500}
+1:Amulet of Mighty Fists +1{!ItemValue==6000}
+1:Horseshoes of A Zephyr{!ItemValue==6000}
+1:Pipes of Haunting{!ItemValue==6000}
+1:Necklace of Fireballs Type 5{!ItemValue==6150}
+1:Gloves of Swimming and Climbing{!ItemValue==6250}
+1:Bag of Tricks, Tan{!ItemValue==6300}
+1:Circlet of Blasting, Minor{!ItemValue==6480}
+1:Horn of Goodness/Evil{!ItemValue==6500}
+1:Robe of Useful Items{!ItemValue==7000}
+1:Boat, Folding{!ItemValue==7200}
+1:Cloak of the Manta Ray{!ItemValue==7200}
+1:Bottle of Air{!ItemValue==7250}
+1:Bag of Holding Type 3{!ItemValue==7400}
+1:Periapt of Health{!ItemValue==7400}
+EndTable:
+
+Table: SRDMediumWondrousItems
+1:Boots of Levitation{!ItemValue==7500}
+1:Harp of Charming{!ItemValue==7500}
+1:Amulet of Natural Armor +2{!ItemValue==8000}
+1:Golem Manual, Flesh{!ItemValue==8000}
+1:Hand of Glory{!ItemValue==8000}
+1:Ioun Stone, Deep Red Sphere{!ItemValue==8000}
+1:Ioun Stone, Incandescent Blue Sphere{!ItemValue==8000}
+1:Ioun Stone, Pale Blue Rhomboid{!ItemValue==8000}
+1:Ioun Stone, Pink and Green Sphere{!ItemValue==8000}
+1:Ioun Stone, Pink Rhomboid{!ItemValue==8000}
+1:Ioun Stone, Scarlet and Blue Sphere{!ItemValue==8000}
+1:Deck of Illusions{!ItemValue==8100}
+1:Necklace of Fireballs Type 6{!ItemValue==8100}
+1:Candle of Invocation{!ItemValue==8400}
+1:Bracers of Armor +3{!ItemValue==9000}
+1:Cloak of Resistance +3{!ItemValue==9000}
+1:Decanter of Endless Water{!ItemValue==9000}
+1:Necklace of Adaptation{!ItemValue==9000}
+1:Pearl of Power, 3rd-Level Spell{!ItemValue==9000}
+1:Talisman of the Sphere{!ItemValue==9000}
+1:Figurine of Wondrous Power, Serpentine Owl{!ItemValue==9100}
+1:Necklace of Fireballs Type 7{!ItemValue==9150}
+1:Strand of Prayer Beads, Lesser{!ItemValue==9600}
+1:Bag of Holding Type 4{!ItemValue==10000}
+1:Figurine of Wondrous Power, Bronze Griffon{!ItemValue==10000}
+1:Figurine of Wondrous Power, Ebony Fly{!ItemValue==10000}
+1:Glove of Storing{!ItemValue==10000}
+1:Ioun Stone, Dark Blue Rhomboid{!ItemValue==10000}
+1:Stone Horse, Courser{!ItemValue==10000}
+1:Cape of the Mountebank{!ItemValue==10080}
+1:Phylactery of Undead Turning{!ItemValue==11000}
+1:Gauntlet of Rust{!ItemValue==11500}
+1:Boots of Speed{!ItemValue==12000}
+1:Goggles of Night{!ItemValue==12000}
+1:Golem Manual, Clay{!ItemValue==12000}
+1:Medallion of Thoughts{!ItemValue==12000}
+1:Pipes of Pain{!ItemValue==12000}
+1:Blessed Book{!ItemValue==12500}
+1:Belt, Monk'S{!ItemValue==13000}
+1:Gem of Brightness{!ItemValue==13000}
+1:Lyre of Building{!ItemValue==13000}
+1:Cloak of Arachnida{!ItemValue==14000}
+1:Stone Horse, Destrier{!ItemValue==14800}
+1:Belt of Dwarvenkind{!ItemValue==14900}
+1:Periapt of Wound Closure{!ItemValue==15000}
+1:Horn of the Tritons{!ItemValue==15100}
+1:Pearl of the Sirines{!ItemValue==15300}
+1:Figurine of Wondrous Power, Onyx Dog{!ItemValue==15500}
+1:Amulet of Health +4{!ItemValue==16000}
+1:Belt of Giant Strength +4{!ItemValue==16000}
+1:Boots, Winged{!ItemValue==16000}
+1:Bracers of Armor +4{!ItemValue==16000}
+1:Cloak of Charisma +4{!ItemValue==16000}
+1:Cloak of Resistance +4{!ItemValue==16000}
+1:Gloves of Dexterity +4{!ItemValue==16000}
+1:Headband of Intellect +4{!ItemValue==16000}
+1:Pearl of Power, 4th-Level Spell{!ItemValue==16000}
+1:Periapt of Wisdom +4{!ItemValue==16000}
+1:Scabbard of Keen Edges{!ItemValue==16000}
+1:Figurine of Wondrous Power, Golden Lions{!ItemValue==16500}
+1:Chime of Interruption{!ItemValue==16800}
+1:Broom of Flying{!ItemValue==17000}
+1:Figurine of Wondrous Power, Marble Elephant{!ItemValue==17000}
+1:Amulet of Natural Armor +3{!ItemValue==18000}
+1:Ioun Stone, Iridescent Spindle{!ItemValue==18000}
+1:Bracelet of Friends{!ItemValue==19000}
+1:Carpet of Flying, 5 Ft. By 5 Ft.{!ItemValue==20000}
+1:Horn of Blasting{!ItemValue==20000}
+1:Ioun Stone, Pale Lavender Ellipsoid{!ItemValue==20000}
+1:Ioun Stone, Pearly White Spindle{!ItemValue==20000}
+1:Portable Hole{!ItemValue==20000}
+1:Stone of Good Luck (Luckstone){!ItemValue==20000}
+1:Figurine of Wondrous Power, Ivory Goats{!ItemValue==21000}
+1:Rope of Entanglement{!ItemValue==21000}
+1:Golem Manual, Stone{!ItemValue==22000}
+1:Mask of the Skull{!ItemValue==22000}
+1:Mattock of the Titans{!ItemValue==23348}
+1:Circlet of Blasting, Major{!ItemValue==23760}
+1:Amulet of Mighty Fists +2{!ItemValue==24000}
+1:Cloak of Displacement, Minor{!ItemValue==24000}
+1:Helm of Underwater Action{!ItemValue==24000}
+1:Bracers of Archery, Greater{!ItemValue==25000}
+1:Bracers of Armor +5{!ItemValue==25000}
+1:Cloak of Resistance +5{!ItemValue==25000}
+1:Eyes of Doom{!ItemValue==25000}
+1:Pearl of Power, 5th-Level Spell{!ItemValue==25000}
+1:Maul of the Titans{!ItemValue==25305}
+1:Strand of Prayer Beads{!ItemValue==25800}
+1:Cloak of the Bat{!ItemValue==26000}
+1:Iron Bands of Binding{!ItemValue==26000}
+1:Cube of Frost Resistance{!ItemValue==27000}
+1:Helm of Telepathy{!ItemValue==27000}
+1:Periapt of Proof Against Poison{!ItemValue==27000}
+1:Robe of Scintillating Colors{!ItemValue==27000}
+1:Manual of Bodily Health +1{!ItemValue==27500}
+1:Manual of Gainful Exercise +1{!ItemValue==27500}
+1:Manual of Quickness in Action +1{!ItemValue==27500}
+1:Tome of Clear Thought +1{!ItemValue==27500}
+1:Tome of Leadership and Influence +1{!ItemValue==27500}
+1:Tome of Understanding +1{!ItemValue==27500}
+EndTable:
+
+Table: SRDMajorWondrousItems
+1:Dimensional Shackles{!ItemValue==28000}
+1:Figurine of Wondrous Power, Obsidian Steed{!ItemValue==28500}
+1:Drums of Panic{!ItemValue==30000}
+1:Ioun Stone, Orange{!ItemValue==30000}
+1:Ioun Stone, Pale Green Prism{!ItemValue==30000}
+1:Lantern of Revealing{!ItemValue==30000}
+1:Robe of Blending{!ItemValue==30000}
+1:Amulet of Natural Armor +4{!ItemValue==32000}
+1:Amulet of Proof Against Detection and Location{!ItemValue==35000}
+1:Carpet of Flying, 5 Ft. By 10 Ft.{!ItemValue==35000}
+1:Golem Manual, Iron{!ItemValue==35000}
+1:Amulet of Health +6{!ItemValue==36000}
+1:Belt of Giant Strength +6{!ItemValue==36000}
+1:Bracers of Armor +6{!ItemValue==36000}
+1:Cloak of Charisma +6{!ItemValue==36000}
+1:Gloves of Dexterity +6{!ItemValue==36000}
+1:Headband of Intellect +6{!ItemValue==36000}
+1:Ioun Stone, Vibrant Purple Prism{!ItemValue==36000}
+1:Pearl of Power, 6th-Level Spell{!ItemValue==36000}
+1:Periapt of Wisdom +6{!ItemValue==36000}
+1:Scarab of Protection{!ItemValue==38000}
+1:Ioun Stone, Lavender and Green Ellipsoid{!ItemValue==40000}
+1:Ring Gates{!ItemValue==40000}
+1:Crystal Ball{!ItemValue==42000}
+1:Golem Manual, Greater Stone{!ItemValue==44000}
+1:Orb of Storms{!ItemValue==48000}
+1:Boots of Teleportation{!ItemValue==49000}
+1:Bracers of Armor +7{!ItemValue==49000}
+1:Pearl of Power, 7th-Level Spell{!ItemValue==49000}
+1:Amulet of Natural Armor +5{!ItemValue==50000}
+1:Cloak of Displacement, Major{!ItemValue==50000}
+1:Crystal Ball with See Invisibility{!ItemValue==50000}
+1:Horn of Valhalla{!ItemValue==50000}
+1:Crystal Ball with Detect Thoughts{!ItemValue==51000}
+1:Carpet of Flying, 6 Ft. By 9 Ft.{!ItemValue==53000}
+1:Amulet of Mighty Fists +3{!ItemValue==54000}
+1:Wings of Flying{!ItemValue==54000}
+1:Cloak of Etherealness{!ItemValue==55000}
+1:Instant Fortress{!ItemValue==55000}
+1:Manual of Bodily Health +2{!ItemValue==55000}
+1:Manual of Gainful Exercise +2{!ItemValue==55000}
+1:Manual of Quickness in Action +2{!ItemValue==55000}
+1:Tome of Clear Thought +2{!ItemValue==55000}
+1:Tome of Leadership and Influence +2{!ItemValue==55000}
+1:Tome of Understanding +2{!ItemValue==55000}
+1:Eyes of Charming{!ItemValue==56000}
+1:Robe of Stars{!ItemValue==58000}
+1:Carpet of Flying, 10 Ft. By 10 Ft.{!ItemValue==60000}
+1:Darkskull{!ItemValue==60000}
+1:Cube of Force{!ItemValue==62000}
+1:Bracers of Armor +8{!ItemValue==64000}
+1:Pearl of Power, 8th-Level Spell{!ItemValue==64000}
+1:Crystal Ball with Telepathy{!ItemValue==70000}
+1:Horn of Blasting, Greater{!ItemValue==70000}
+1:Pearl of Power, Two Spells{!ItemValue==70000}
+1:Helm of Teleportation{!ItemValue==73500}
+1:Gem of Seeing{!ItemValue==75000}
+1:Robe of the Archmagi{!ItemValue==75000}
+1:Mantle of Faith{!ItemValue==76000}
+1:Crystal Ball with True Seeing{!ItemValue==80000}
+1:Pearl of Power, 9th-Level Spell{!ItemValue==81000}
+1:Well of Many Worlds{!ItemValue==82000}
+1:Manual of Bodily Health +3{!ItemValue==82500}
+1:Manual of Gainful Exercise +3{!ItemValue==82500}
+1:Manual of Quickness in Action +3{!ItemValue==82500}
+1:Tome of Clear Thought +3{!ItemValue==82500}
+1:Tome of Leadership and Influence +3{!ItemValue==82500}
+1:Tome of Understanding +3{!ItemValue==82500}
+1:Apparatus of the Crab{!ItemValue==90000}
+1:Mantle of Spell Resistance{!ItemValue==90000}
+1:Mirror of Opposition{!ItemValue==92000}
+1:Strand of Prayer Beads, Greater{!ItemValue==95800}
+1:Amulet of Mighty Fists +4{!ItemValue==96000}
+1:Eyes of Petrification{!ItemValue==98000}
+1:Bowl of Commanding Water Elementals{!ItemValue==100000}
+1:Brazier of Commanding Fire Elementals{!ItemValue==100000}
+1:Censer of Controlling Air Elementals{!ItemValue==100000}
+1:Stone of Controlling Earth Elementals{!ItemValue==100000}
+1:Manual of Bodily Health +4{!ItemValue==110000}
+1:Manual of Gainful Exercise +4{!ItemValue==110000}
+1:Manual of Quickness in Action +4{!ItemValue==110000}
+1:Tome of Clear Thought +4{!ItemValue==110000}
+1:Tome of Leadership and Influence +4{!ItemValue==110000}
+1:Tome of Understanding +4{!ItemValue==110000}
+1:Amulet of the Planes{!ItemValue==120000}
+1:Robe of Eyes{!ItemValue==120000}
+1:Helm of Brilliance{!ItemValue==125000}
+1:Manual of Bodily Health +5{!ItemValue==137500}
+1:Manual of Gainful Exercise +5{!ItemValue==137500}
+1:Manual of Quickness in Action +5{!ItemValue==137500}
+1:Tome of Clear Thought +5{!ItemValue==137500}
+1:Tome of Leadership and Influence +5{!ItemValue==137500}
+1:Tome of Understanding +5{!ItemValue==137500}
+1:Efreeti Bottle{!ItemValue==145000}
+1:Amulet of Mighty Fists +5{!ItemValue==150000}
+1:Chaos Diamond{!ItemValue==160000}
+1:Cubic Gate{!ItemValue==164000}
+1:Iron Flask{!ItemValue==170000}
+1:Mirror of Mental Prowess{!ItemValue==175000}
+1:Mirror of Life Trapping{!ItemValue==200000}
+EndTable:
