@@ -1,0 +1,96 @@
+; XP to Level 3 - Treasure Tables.ipt
+; created 10/20/2020 2:07:23 PM
+
+Header: APL = Average Party Level; HAPL = Half Average Party Level (always rounded down)
+
+MaxReps: 1
+
+prompt: Reward_Type {Individual|Hoard}Individual
+prompt: Creature_Type {|Aberration|Beast|Celestial|Construct|Dragon|Elemental|Fey|Fiend|Giant|Humanoid|Mons|Ooze|Plant|Undead}Aberration
+prompt: Party Count {1|2|3|4|5}4
+prompt: APL {1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20}1
+
+Table: Treasure_Main
+[#{$prompt2} {$prompt1} Treasure Table]
+EndTable:
+
+Table: Individual Treasure Table
+Type: dictionary
+Aberration:   CR 0-8: 1%>({1d100})\n CR 9+: 40%>({1d100})\n      </td><td><b>Low Fantasy:</b> {2d12*1}gp;              <b>Mid Fantasy:</b> {2d12*2}gp;                  <b>High Fantasy:</b> {2d12*3}gp
+Beast:        1%>{1d100})\n                                      </td><td><b>Low Fantasy:</b> {1*1}gp;                 <b>Mid Fantasy:</b> {1*1}gp;                     <b>High Fantasy:</b> {1*2}gp
+Celestial:    CR 10+: 60%>({1d100})\n                            </td><td><b>Low Fantasy:</b> {{2d10}*{$prompt4}*1}gp; <b>Mid Fantasy:</b> {{2d10}*{$prompt4}*1}gp;     <b>High Fantasy:</b> {{2d10}*{$prompt4}*2}gp
+Construct:    1%{1d100})\n                                       </td><td><b>Low Fantasy:</b> {1*1}gp;                 <b>Mid Fantasy:</b> {1*1}gp;                     <b>High Fantasy:</b> {1*2}gp
+Dragon:       \z
+Elemental:    \z
+Fey:          80%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{1d4}*{$prompt4}*1}gp;  <b>Mid Fantasy:</b> {{1d4}*{$prompt4}*2}gp;      <b>High Fantasy:</b> {{1d4}*{$prompt4}*3}gp
+Fiend:        90%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{2d8}*{$prompt4}*1}gp;  <b>Mid Fantasy:</b> {{2d8}*{$prompt4}*2}gp;      <b>High Fantasy:</b> {{2d8}*{$prompt4}*3}gp
+Giant:        95%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{2d4}*{$prompt4}*1}gp;  <b>Mid Fantasy:</b> {{2d4}*{$prompt4}*2}gp;      <b>High Fantasy:</b> {{2d4}*{$prompt4}*3}gp
+Humanoid:     95%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{2d6}*{$prompt4}*.5}gp; <b>Mid Fantasy:</b> {{2d6}*{$prompt4}*1}gp;      <b>High Fantasy:</b> {{2d6}*{$prompt4}*2}gp
+Mons: 10%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{1d4}*0}gp;             <b>Mid Fantasy:</b> {{1d4}*1}gp;                 <b>High Fantasy:</b> {{1d4}*2}gp
+Ooze:         80%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{2d12}*{$prompt4}*1}gp; <b>Mid Fantasy:</b> {{2d12}*{$prompt4}*1}gp;     <b>High Fantasy:</b> {{2d12}*{$prompt4}*2}gp
+Plant:        40%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{2d10}*1}gp;            <b>Mid Fantasy:</b> {{2d10}*1}gp;                <b>High Fantasy:</b> {{2d10}*2}gp
+Undead:       20%>({1d100})\n                                    </td><td><b>Low Fantasy:</b> {{1d4}*{$prompt4}*1}gp;  <b>Mid Fantasy:</b> {{1d4}*{$prompt4}*1}gp;      <b>High Fantasy:</b> {{1d4}*{$prompt4}*2}gp
+</table>
+EndTable:
+
+ 
+
+Table: Hoard Treasure Table
+Type: dictionary
+Aberration:     {{2d4}*50*{$prompt4}}gp;\n&
+                {{$prompt4}/2} number of 50gp gems\n&
+                {1d4}x 25gp Art Objects;\n&
+                Roll (Number of Party Members) items on the Magic Item Table.
+Beast:          {5}gp;\n&
+                {{$prompt4}/2} number of 10gp gems\n&
+                -;\n&
+                Roll (1) item on the Magic Item Table.
+Celestial:      {{2d4}*10*{$prompt4}}gp;\n&
+                -\n&
+                (1) 750gp Art Object;\n&
+                Roll {1d4} items on the Magic Item Table.
+Construct:      {2d4}gp;\n&
+                (1) 50gp Gem\n&
+                -;\n&
+                Roll (1) item on the Magic Item Table.
+Dragon:         {{4d6}*100*{$prompt4}};\n&
+                {2d10} 100gp Gemstones of the Dragons Color\n&
+                {2d6} 250 gp Art Objects;\n&
+                Roll (x2 Number of Party Members) items on the Magic Item Table.
+Elemental:      {5}gp;\n&
+                {{$prompt4}/2} number of 10gp gems\n&
+                -;\n&
+                Roll (1) item on the Magic Item Table.
+Fey:            {{2d4}*100*{$prompt4}}gp;\n&
+                {{$prompt4}/2} number of 50gp gems\n&
+                {$prompt4} number of 100gp Art Objects;\n&
+                Roll {1d8} items on the Magic Item Table.
+Fiend:          {{2d6}*100*{$prompt4}}gp;\n&
+                {$prompt4} number of 100gp gems\n&
+                (1) 2,500 Art Object;\n&
+                Roll (Number of Party Members) items on the Magic Item Table.
+Giant:          {{2d4}*10*{$prompt4}}gp;\n&
+                -\n&
+                (I recommend using “random items in a giants bag” from SKT);\n&
+                Roll {1d8} items on the Magic Item Table.
+Humanoid:       {{1d6}*100*{$prompt4}};\n&
+                {1d4} number of 500gp gems\n&
+                (1) Art Object from each table excluding 7,500 gp Art Objects.;\n&
+                Roll {1d8} items on the Magic Item Table.
+Mons:           {5}gp;\n&
+                {{$prompt4}/2} number of 10gp gems\n&
+                -;\n&
+                Roll (1) item on the Magic Item Table.
+Ooze:           {2d4}gp;\n&
+                {1} 50gp Gem\n&
+                -;\n&
+                Roll (1) item on the Magic Item Table.
+Plant:          {2d4}gp;\n&
+                {1} 50gp Gem\n&
+                -;\n&
+                Roll {1d4} items on the Magic Item Table.
+Undead:         {{2d4}*50*{$prompt4}}gp;\n&
+                {{$prompt4}/2} number of 750gp gems\n&
+                {1d4} 25gp Art Objects;\n&
+                Roll (Number of Party Members) items on the Magic Item Table.
+EndTable:
