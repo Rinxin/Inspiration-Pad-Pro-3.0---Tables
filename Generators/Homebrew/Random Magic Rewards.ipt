@@ -1,0 +1,73 @@
+; Random Magic Rewards.ipt
+; created 11/7/2020 9:25:27 PM
+
+MaxReps: 1
+
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Additional Tables.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\NonMagical Items.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Common Magic Items.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Uncommon Magic Items.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Rare Magic Items.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Very Rare Magic Items.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Legendary Magic Items.ipt
+use:Generators\D&D\Homebrew Stuff\Homebrew Treasure & Magic Shops\Items by Rarity\Artifact Magic Items.ipt 
+
+
+Table: Main
+[@Magic Item rewards]
+EndTable:
+
+
+Table: Magic Item rewards
+Shuffle: NonMagical Items
+<table>&
+<tr><th>d20</th><th>NonMagical</th><th>Common</th><th>Uncommon</th><th>Rare</th><th>Very Rare</th><th>Legendary</th><th>Artifact</th></tr>&
+<tr><td>01</td><td>[@NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>02</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>03</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>04</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>05</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>06</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>07</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>08</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>09</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>10</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>11</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>12</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>13</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>14</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>15</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>16</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>17</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>18</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>19</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+<tr><td>20</td><td>[!NonMagical Items]</td><td>[!Common Magic Items]</td><td>[!Uncommon Magic Items]</td><td>[!Rare Magic Items]</td><td>[!Very Rare Magic Items]</td><td>[!Legendary Magic Items]</td><td>[!Artifact Magic Items]</td></tr>&
+</table>&
+EndTable:
+
+Table: NonMagic rewards
+Shuffle: NonMagical Items
+<table>&
+<tr><th>d20</th><th>NonMagical</th></tr>&
+<tr><td>01</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>02</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>03</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>04</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>05</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>06</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>07</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>08</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>09</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>10</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>11</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>12</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>13</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>14</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>15</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>16</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>17</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>18</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>19</td><td>[@NonMagical Items]</td></tr>&
+<tr><td>20</td><td>[@NonMagical Items]</td></tr>&
+</table>&
+EndTable:
