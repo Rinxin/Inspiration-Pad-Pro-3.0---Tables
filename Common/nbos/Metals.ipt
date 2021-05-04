@@ -1,0 +1,18 @@
+Table: Metals
+brass
+bronze
+copper
+electrum
+gold
+iron
+lead
+nickel
+pewter
+platinum
+silver
+steel
+tin
+zinc
+
+Table: Metal Description
+[||corroded|polished|dull|scratched|shiny] [@Metals]
