@@ -1,0 +1,72 @@
+; DMG Chapter 2 Tables.ipt
+
+use: 
+
+Prompt: Table {|2-1: Astral Color Pools|2-2: Psychic Wind Effects Main} 2-1: Astral Color Pools
+
+Table: DMG Chapter 2 Tables
+[@{prompt1}]
+EndTable:
+
+Table: 2-1: Astral Color Pools
+Indigo (Ysgard)
+Jet Black (Limbo)
+Magenta (Pandemonium)
+Amethyst (The Abyss)
+Olive (Carceri)
+Rust (Hades)
+Ruseet (Gehenna)
+Ruby (The Nine Hells)
+Flame Red (Acheron)
+Diamond Blue (Mechanus)
+Saffron (Arcadia)
+Gold (Mount Celestia)
+Amber (Bytopia)
+Orange (Elysium)
+Emerald Green (The Beastlands)
+Sapphire Blue (Arborea)
+Leather Brown (The Outlands)
+Spriraling White (Ethereal Plane)
+Silver (Material Plane)
+EndTable:
+
+Table: 2-2: Psychic Wind Effects Main
+[@2-2a: Psychic Wind Location Effects] \n\n [@2-2b: Psychic Wind Mental Effects]
+EndTable:
+
+Table: 2-2a: Psychic Wind Location Effects
+Roll:1d20
+1–8:	Diverted; add {1d6} hours to travel time
+9–12:	Blown off course; add {3d10} hours to travel time
+13–16:	Lost; at the end of the travel time, characters arrive at a location other than the intended destination
+17–20:	Sent through color pool to a random plane [@2-1: Astral Color Pools.ipt]
+EndTable:
+
+Table: 2-2b: Psychic Wind Mental Effects
+Roll:1d20
+1–8:	Stunned for 1 minute; you can repeat the saving throw at the end of each of your turns to end the effect on yourself
+9–10:	Short-term madness [@Madness]
+11–12:	{2d10} psychic damage
+13–16:	{4d10} psychic damage
+17–18:	Long-term madness [@Madness]
+19–20:	Unconscious for {1d10} minutes; the effect on you ends if you take damage or if another creature uses an action to shake you awake
+EndTable:
+
+Table: 2-3: Deep Ethereal
+Roll:1d8
+1:	Bright turquoise (Material Plane)
+2:	Dusky gray (Shadowfell)
+3:	Opalescent white (Feywild)
+4:	Pale blue (Plane of Air)
+5:	Reddish-brown (Plane of Earth)
+6:	Orange (Plane of Fire)
+7:	Green (Plane of Water)
+8:	Swirling mix of colors (Elemental Chaos)
+EndTable:
+
+Table: 2-3b: Ether Cyclone
+Roll:1d20
+1–12:	Extended journey
+13–19:	Blown to the Border Ethereal of a random plane [@2-3: Deep Ethereal]
+20:	Hurled into the Astral Plane
+EndTable:

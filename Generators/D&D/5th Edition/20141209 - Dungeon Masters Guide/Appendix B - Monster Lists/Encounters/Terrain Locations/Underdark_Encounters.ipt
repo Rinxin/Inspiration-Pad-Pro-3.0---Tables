@@ -1,0 +1,56 @@
+# Underdark Encounters
+
+
+
+Table:Main
+Set: cr={$prompt1}
+1-4: [@Underdark_1-4]
+5-10: [@Underdark_5-10]
+11-16:
+17-30:
+EndTable:
+
+Table:Underdark_1-4
+EndTable:
+
+Table:Underdark_5-10
+01: {3d6}x Swarm of Bats
+02: {1d4}x [|Giant of Spider|Giant Toads]
+03: 1x Mimic
+04: {2d4}x Gray Oozes
+05: [|{2d10}x Orcs |{3d6}x Troglodytes]
+06: {3d6}x Grimlocks
+07: {1d6+2}x Magma Mephits
+08: 1x Goblin Boss and {2d4}x Goblins
+09: {2d4}x Darkmantles
+10: {2d8+1}x Drow
+11: {2d10}x Piercers
+12: {1d4}x Minotaur Skeletons
+13:-14: {3d6}x Deep Gnomes
+15: 1x Druid and 1x Polar Bear (Cave Bear)
+16-17: {3d6}x Orcs
+18: 1x Bone Naga
+19-20: {2d6}x Bugbear
+21-25: Luminescent fungi growing on the walls of a moist cave, filling it with dim light
+26: {2d4} Specters
+27: {1d12+4}x Shadows
+28: {1d3}x Gibbering Mouthers
+29-30: {4d4}x Hobgoblins
+31-32: {1d4}x Carrion Crawlers
+33-34: 1x Black Pudding
+35: {1d4}x Ochre Jellies
+36-40: A patch of mold that appears yellow when light is directed toward it.
+41: {1d4}x Nothics
+42-43: {2d8+1}x Gass Spores
+44-45: {1d3}x Gelatinous Cubes
+46: Ghost
+47-48: 1x Flameskull
+49-50: {2d8}x Duergar
+
+EndTable:
+
+Table:Underdark_11-16
+EndTable:
+
+Table:Underdark_17+
+EndTable:

@@ -1,0 +1,17 @@
+# Hill Encounters
+
+Table:Main
+[@Hill_1-4]
+EndTable:
+
+Table:Hill_1-4
+EndTable:
+
+Table:Hill_5-10
+EndTable:
+
+Table:Hill_11-16
+EndTable:
+
+Table:Hill_17+
+EndTable:

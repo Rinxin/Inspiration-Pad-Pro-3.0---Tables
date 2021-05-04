@@ -1,0 +1,37 @@
+# Arctic Encounters
+
+Table:Main
+[@Arctic_1-4]
+EndTable:
+
+Table:Arctic_1-4
+01: 1 Giant Owl
+02-05: {1d6+1}x Kobolds
+06-08: {1d4+3} Trappers (Commoners)
+09-10: 1 Owl
+11-12:{2d4}x Blood Hawks
+13-17:{2d6}x Bandits
+18-20: {1d3}x Winged Kobolds with {1d6}x Kobolds
+21-25: The partially eaten carcass of a mammoth, from which {1d4} weeks of rations can be harvested.
+26-29: {2d8}x Hunters (Tribal Warriors)
+30-35: 1 Half-Ogre
+36-40: Single-file tracks in the snow that stop abruptly
+41-45: {1d3}x Ice Mephits
+46-50: 1x Brown Bear
+51-53: {1d6+1}x Orcs
+54-55: 1x Polar Bear
+56-57: {1d6}x Scouts
+58-60: 1x Saber-tooth Tiger
+61-65: A frozen pond with a jagged hole in the ice that appears recently made.
+66-68: 1x Berserker
+
+EndTable:
+
+Table:Arctic_5-10
+EndTable:
+
+Table:Arctic_11-16
+EndTable:
+
+Table:Arctic_17+
+EndTable:

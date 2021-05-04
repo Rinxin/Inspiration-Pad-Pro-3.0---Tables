@@ -1,0 +1,17 @@
+# Swamp Encounters
+
+Table:Main
+[@Swamp_1-4]
+EndTable:
+
+Table:Swamp_1-4
+EndTable:
+
+Table:Swamp_5-10
+EndTable:
+
+Table:Swamp_11-16
+EndTable:
+
+Table:Swamp_17+
+EndTable:

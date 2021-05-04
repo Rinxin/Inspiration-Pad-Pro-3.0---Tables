@@ -1,0 +1,17 @@
+# Desert Encounters
+
+Table:Main
+[@Desert_1-4]
+EndTable:
+
+Table:Desert_1-4
+EndTable:
+
+Table:Desert_5-10
+EndTable:
+
+Table:Desert_11-16
+EndTable:
+
+Table:Desert_17+
+EndTable:
