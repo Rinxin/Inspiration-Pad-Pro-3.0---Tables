@@ -1,0 +1,816 @@
+; Uncommon Magic Items.ipt
+; created 11/7/2020 9:16:48 PM
+
+Table: Uncommon Magic Items
+\z
+\n<b>Adamantine Armor <sup>Basic Rules</sup></b>\n<em>Armor, uncommon)</em>\n\nThis suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.\n<b>Value: </b>40pp\n_____\n
+\n<b>Alchemy Jug <sup>Dungeon Master's Guide</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Ammunition, +1 <sup>Basic Rules</sup></b>\n<em>Weapon, uncommon)</em>\n\nYou have a +1 bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.\n<b>Value: </b>20pp\n_____\n
+\n<b>Amulet of Proof against Detection and Location <sup>Basic Rules</sup></b>\n<em>Wondrous Item(Necklace), uncommon(requires attunement)</em>\n\nWhile wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.\n<b>Value: </b>50pp\n_____\n
+\n<b>Amulet of the Drunkard <sup>Explorer's Guide to Wildmount</sup></b>\n<em>Wondrous Item(Necklace), uncommon)</em>\n\nThis amulet smells of old, ale-stained wood. While wearing it, you can regain 4d4 + 4 hit points when you drink a pint of beer, ale, mead, or wine. Once the amulet has restored hit points, it can’t do so again until the next dawn.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Amulet of the Frog <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n<b>Leapfrog.</b> Twice per day this amulet can be used to cast the spell Jump.\n&
+<b>Amphibian.</b> When attuned to this amulet yoour movement speed is not halved when swimming.\n&
+<b>Knowledge of the Swamp.</b> If a Druid attunes to this necklace he gains the following beast shapes. Rat, Raven, Giant Rat, Poisonous Snake, Stirge, Constrictor Snake, Giant Frog, Giant Lizard, Giant Poisonous Snake, Crocodile, Giant Spider, Giant Toad, Giant Constrictor Snakeand Giant Crocodile. This knowledge is permanent.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Augmier's Homemade Buckshot Cannon <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis item consists of a metal tube the length and width of a man’s forearm attached to a glassy gray orb in front of a large reinforced wooden stock. The stock has a hole on the back you can open and pour a bag of ball bearings into as an action. It can store up to three bags of ball bearings and weighs 12 pounds regardless of how many ball bearings it has stored. As an attack action you can strike the glassy orb and it will expel a number of ball bearings of your choice, up to 1000 ball bearings (1 bag worth), with a dull thud. Interestingly the ball bearings have increasing velocity proportional to the number of ball bearings expelled.\n&
+\n&
+If you expel 200 or more ball bearings all creatures within a 30 foot cone must make a DC 15 Dexterity saving throw. On a failure the creature takes 1d4+1 bludgeoning damage for every 200 ball bearings expended, or half on a success. Creatures farther than 15 feet from you take no damage on a success.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Augmier's Orb of Armament <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis cloudy white orb has a scarlet sheen to it and when you stare into its depths you see shadows flickering throughout it. It weighs 3 pounds and is the size of a grapefruit. You can discover the commands for the orb by studying it’s depths for a short rest. When you study the orb it will reveal it’s command words in gnomish script within the shadows. As an attack action, you may speak a command word while holding the orb to do one of the following:\n&
+\n&
+You absorb a light or thrown weapon you are holding into the orb. If it is already holding 10 such weapons, nothing happens.\n&
+You pull out a weapon of your choice that is stored in orb. If you do not have a free hand to pull it from the orb it falls to the ground.\n&
+You expel a weapon of your choice from the orb and it flies towards a creature. Make a ranged weapon attack with proficiency. This attack’s range is 20/60 and does the same damage as the weapon would normally do.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Bag of Bounty <sup>Wayfinder's Guide to Eberron</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Bag of Holding <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis bag has an interior space considerably larger than its outside dimensions, roughly 2 feet in diameter at the mouth and 4 feet deep. The bag can hold up to 500 pounds, not exceeding a volume of 64 cubic feet. The bag weighs 15 pounds, regardless of its contents. Retrieving an item from the bag requires an action.\n&
+\n&
+If the bag is overloaded, pierced, or torn, it ruptures and is destroyed, and its contents are scattered in the Astral Plane. If the bag is turned inside out, its contents spill forth, unharmed, but the bag must be put right before it can be used again. Breathing creatures inside the bag can survive up to a number of minutes equal to 10 divided by the number of creatures (minimum 1 minute), after which time they begin to suffocate.\n&
+\n&
+Placing a bag of holding inside an extradimensional space created by a handy haversack, portable hole, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 10 feet of the gate is sucked through it to a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Bag of Tricks, [|Grey|Rust|Tan] <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis ordinary bag, made from gray, rust, or tan cloth, appears empty. Reaching inside the bag, however, reveals the presence of a small, fuzzy object. The bag weighs 1/2 pound.\n&
+\n&
+You can use an action to pull the fuzzy object from the bag and throw it up to 20 feet. When the object lands, it transforms into a creature you determine by rolling a d8 and consulting the table that corresponds to the bag's color. See the Monsters Listing for the creature's statistics. The creature vanishes at the next dawn or when it is reduced to 0 hit points.\n&
+\n&
+The creature is friendly to you and your companions, and it acts on your turn. You can use a bonus action to command how the creature moves and what action it takes on its next turn, or to give it general orders, such as to attack your enemies. In the absence of such orders, the creature acts in a fashion appropriate to its nature.\n&
+\n&
+Once three fuzzy objects have been pulled from the bag, the bag can't be used again until the next dawn.\n&
+\n&
+Grey Bag of Tricks\n&
+\n&
+d8 Creature\n&
+1 Weasel\n&
+2 Giant rat\n&
+3 Badger\n&
+4 Boar\n&
+5 Panther\n&
+6 Giant badger\n&
+7 Dire wolf\n&
+8 Giant elk\n&
+ \n&
+\n&
+Rust Bag of Tricks\n&
+\n&
+d8 Creature\n&
+1 Rat\n&
+2 Owl\n&
+3 Mastiff\n&
+4 Goat\n&
+5 Giant goat\n&
+6 Giant boar\n&
+7 Lion\n&
+8 Brown bear\n&
+ \n&
+\n&
+Tan Bag of Tricks\n&
+\n&
+d8 Creature\n&
+1 Jackal\n&
+2 Ape\n&
+3 Baboon\n&
+4 Axe beak\n&
+5 Black bear\n&
+6 Giant weasel\n&
+7 Giant hyena\n&
+8 Tiger\n<b>Value: </b>50pp\n_____\n"
+\n<b>Balance of Harmony <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Balloon Pack <sup>Princes of the Apocalypse</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Band of Brothers <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\nThe closest of comrades, and often siblings get these wide banded wrist or ankle tattoos. Creatures who share this tattoo know the general direction of their tattooed partner at all times. Whenever the bonded “brother” is suffering or in danger the other can feel twinges of pain from the tattoo. Additionally, they gain advantage to all checks to find or assist their brother when they are in peril. When a tattooed partner perishes the other feels intense agony throughout their body originating in pulses from the tattoo and loses 10 years of their own life.\n<b>Value: </b>25gp\n_____\n
+"\n<b>Barrier Tattoo (UA) <sup>Unearthed Arcana</sup></b>\n<em>Wondrous Item(Tattoo), uncommon(requires attunement)</em>\n\nThis tattoo depicts protective imagery and uses ink that resembles liquid metal. While you are not wearing armor, the tattoo grants you an Armor Class of 12 + your Dexterity modifier. You can use a shield and still gain this benefit.\n&
+\n&
+<b>Tattoo Attunement.</b> To attune to this item, you hold the needle to your skin where you want the tattoo to appear, pressing the needle there throughout the attunement process. When the attunement is complete, the needle turns into the ink that becomes the tattoo, which appears on the skin. If you have multiple magic tattoos, they count as a single magic item with regard to the number of magic items you can attune to. If your attunement to the tattoo ends, the tattoo vanishes.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Beads of Many Flavors <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis cheery red pouch has 4d6+4 chalky white pellets in it when you find it. If you cup one or more pellets in your hands and concentrate on them while imagining a taste of a specific food or ingredient they will change color to match that food. The longer you concentrate the stronger the color, and flavor, becomes. When ground or crushed the aroma of the imagined food fills the air, and the resulting powder from the crushed bead tastes exactly as you imagined it.\n&
+\n&
+The flavors you can create are limited only by your imagination, but if your memory or imagination are not clear enough the flavor you get may be of poor quality.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Bear of Resting <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis is a small stuffed animal appears to be a slightly smushed bear with several patches sewn onto it. If you spend a long rest holding or sleeping with this bear you lose 1d4-1 levels of exhaustion. Additionally, if you hold or sleep with this bear during a long or short rest you gain 1d4 temporary hit points that last until your next rest. You do not gain any benefits if you share the bear during your rest.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Beauty Sleep Mask <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nDeep Sleep. When you sleep or take a nap with this mask on during a short or long rest, you receive a -3 penalty on your Passive Perception and any Perception checks you make.\n&
+\n&
+Looking Refreshed. When you wake up after this sleep you gain a +2 bonus to any Persuasion checks you make. This bonus lasts for one hour after a short rest or 16 hours after a long rest.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Big Game Hunter's Arrow <sup>Relics of the Realms - Volume 4</sup></b>\n<em>Weapon(Ammunition), uncommon)</em>\n\n<b>Hunter’s Favorite.</b> Attacks you make with this arrow against Large or larger sized Beasts and Monstrosities receive a +3 to attack rolls and deal 2d4 extra Piercing damage.\n<b>Value: </b>10gp\n_____\n
+\n<b>Blackout Candle <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Pitch Black.</b> When it is lit, the candle has an affect similar to the Darkness spell. Magical darkness spreads from the candle in a 20ft. radius sphere for 5 hours. The darkness spreads around corners. A creature with darkvision can’t see through this darkness, and non-magical light can’t illuminate it. Completely covering the candle with an opaque object, such as a bowl or a helm, blocks the darkness. If any of this spell’s area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.\n<b>Value: </b>25gp\n_____\n
+"\n<b>Blade of the Empire <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Shortsword), uncommon)</em>\n\nDamage. 1d6+1 Slashing\n&
+\n&
+Military Precision. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+\n&
+Lawkeeper. If you are of a Lawful alignment you deal an extra 1d6 Slashing damage to creatures with a Chaotic alignment whenever you make a successful attack using this sword.\n<b>Value: </b>20pp\n_____\n"
+"\n<b>Blade of the Northern Tribe <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Longsword), uncommon)</em>\n\nNorthern Smithing. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+\n&
+Frost Edge. Every day at dawn this sword forms a thin layer of razor sharp ice on it’s edge. The first five successful attacks you make deal an extra 1d4 Cold damage. After five hits the layer of ice melts.\n&
+\n&
+A Touch of Cold. Once per day as an action you can stick the sword in a surface of water to create a layer of ice in a 15ft. radius. All creatures in this area have to make a Strength saving throw (DC 12) on a failure they are locked in the ice and considered restrained, on a success the ice layer breaks completely and quickly melts away. The ice is strong enough to hold the weight of approximately 4 small creatures, 2 medium creatures or 1 large creature. When a creature steps on the ice they have to make a Dexterity saving throw (DC 8) or be knocked prone. The ice is considered rough terrain.\n<b>Value: </b>20pp\n_____\n"
+"\n<b>Bladestaff <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Quarterstaff), uncommon)</em>\n\nDamage. 1d6 (1d8) +1 Slashing\n&
+\n&
+Bladestorm. As an action you can twirl the staff. Sharp, cutting winds swirl around you in a 5ft. radius. All creatures of your choice have to make a Dexterity saving throw (DC 15). On a failed save they take 2d6 Slashing damage. On a successful save they take half damage.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Blood of the Lycanthrope Antidote <sup></sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Blood Spear <sup></sup></b>\n<em>Weapon(Spear), uncommon(requires attunement)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Bola Arrow <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Weapon(Ammunition), uncommon)</em>\n\n<b>Tangled and Bruised.</b> This arrow deals an extra 1d4 bludgeoning damage on a succesful attack. If the target is a Medium or Small creature, they have to make a Dexterity saving throw (DC 13) on a failed save they become Restrained. A creature can attempt to snap the cords to break free with a successful Strength check (DC 14). It can also attempt to untangle them by spending an action to make an Investigation check (DC 12).The creature can then use a bonus action to untangle the cords.\n<b>Value: </b>10gp\n_____\n
+\n<b>Bond of Battle <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\nThese tattoos are popular amongst military units. This tribal forearm tattoo allows stupendous synchronization in battle, giving the pair of creatures +1 AC when standing within 10 feet of each other. Their movements almost seem as if they know exactly what the other is going to do next. However without their bonded partner they appear to be missing part of their senses and while farther than 30 feet from the bonded creature they both have disadvantage to Perception checks.\n<b>Value: </b>25gp\n_____\n
+\n<b>Boomerang, +1 <sup>Add to Weapons</sup></b>\n<em>Weapon(Boomerang), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Boots of Blasting  <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThese heavy metal boots weigh 5 pounds together and appear to be heavily charred. As a bonus action once per short rest you can stomp your foot before jumping to double your jump distance and height and deal 1d4 Force damage to all creatures within 5 feet of you, including yourself. Additionally, while wearing these boots you cannot be knocked prone by falling.\n<b>Value: </b>50pp\n_____\n
+\n<b>Boots of Elvenkind <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nWhile you wear these boots, your steps make no sound, regardless of the surface you are moving across. You also have advantage on Dexterity (Stealth) checks that rely on moving silently.\n<b>Value: </b>50pp\n_____\n
+\n<b>Boots of Striding and Springing <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile you wear these boots, your walking speed becomes 30 feet, unless your walking speed is higher, and your speed isn't reduced if you are encumbered or wearing heavy armor. In addition, you can jump three times the normal distance, though you can't jump farther than your remaining movement would allow.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Boots of the Fiendish Deceiver <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nDevilish Deceit. While wearing these boots you have a +2 bonus to Deception checks.\n&
+\n&
+Realmwalker. When a creature wearing these boots is on an evil aligned outer plane, they can spend a bonus action to take on the appearance of a fiend of the same size. A medium or smaller sized fiendish creature (including those with fiendish blood such as tieflings) can spend a bonus action to take on the appearance of a humanoid of the same size when they are on the material plane. You can use this feature once per long rest.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Boots of the Winterlands <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThese furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:\n&
+- You have resistance to cold damage.\n&
+- You ignore difficult terrain created by ice or snow. You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Bottled Breath <sup>Princes of the Apocalypse</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Bracers of Archery <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing these bracers, you have proficiency with the longbow and shortbow, and you gain a +2 bonus to damage rolls on ranged attacks made with such weapons.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Brineheart's Favorite Coat <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Armor(Light Armor), uncommon(requires attunement)</em>\n\nAC. 12 + Dexterity modifier\n&
+\n&
+Bottom Feeder. While attuned to this coat, you can breathe underwater and your movement speed is not halved when swimming. Additionally, you may expend all of your movement to ascend or descend 90ft. in a straight vertical line underwater.\n&
+\n&
+Part of your World. When you are underwater, you have advantage on all Stealth checks as the organic parts of this coat obscure you lightly from vision.\n<b>Value: </b>40pp\n_____\n"
+\n<b>Brooch of Living Essence <sup>Explorer's Guide to Wildmount</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing this nondescript brooch, spells and anything else that would detect or reveal your creature type treat you as humanoid, and those that would reveal your alignment treat it as neutral.\n<b>Value: </b>50pp\n_____\n
+\n<b>Brooch of Shielding <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing this brooch, you have resistance to force damage, and you have immunity to damage from the magic missile spell.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Broom of Flying <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis wooden broom, which weighs 3 pounds, functions like a mundane broom until you stand astride it and speak its command word. It then hovers beneath you and can be ridden in the air. It has a flying speed of 50 feet. It can carry up to 400 pounds, but its flying speed becomes 30 feet while carrying over 200 pounds. The broom stops hovering when you land.\n&
+\n&
+You can send the broom to travel alone to a destination within 1 mile of you if you speak the command word, name the location, and are familiar with that place. The broom comes back to you when you speak another command word, provided that the broom is still within 1 mile of you.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Cap of Water Breathing <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Charm of the Eye <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis small golden amulet is about an inch across and resembles an eye half closed over an inlaid ruby. It hangs on three frail chains coming from each corner of the eye. While wearing this amulet when you make an opportunity attack against a creature you may make another opportunity attack before the beginning of your next turn so long as the second attack is not against the same creature.\n&
+\n&
+Curse. When a creature puts this amulet over their head it tightens around their temples and the eye snaps open. It cannot be taken off unless the curse is removed and the chains cannot be broken despite their dainty appearance. While wearing this charm you have disadvantage on saving throws against being Blinded, and disadvantage on Wisdom saving throws against Beholders, Death Tyrants and Spectators. If you are charmed by any of these creatures the duration of the charm is permanent unless the curse is removed or the enchantment is broken by Dispel Evil and Good (Break Enchantment).\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Chop <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Weapon(Handaxe), uncommon)</em>\n\nDamage. 1d6+1 Slashing\n&
+Range. 20/60 ft\n&
+\n&
+Fine Steel. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+\n&
+Lumberjack’s Best Friend. This weapon deals an extra 1d6 Slashing damage to Plant creatures and objects/items made of wood.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Circlet of Blasting <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nWhile wearing this circlet, you can use an action to cast the scorching ray spell with it. When you make the spell's attacks, you do so with an attack bonus of +5. The circlet can't be used this way again until the next dawn.\n<b>Value: </b>50pp\n_____\n
+\n<b>Circlet of Human Perfection <sup>Waterdeep: Dungeon of the Mad Mage</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Cloak of Elvenkind <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile you wear this cloak with its hood up, Wisdom (Perception) checks made to see you have disadvantage, and you have advantage on Dexterity (Stealth) checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires an action.\n<b>Value: </b>50pp\n_____\n
+\n<b>Cloak of Protection <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nYou gain a +1 bonus to AC and saving throws while you wear this cloak.\n<b>Value: </b>50pp\n_____\n
+\n<b>Cloak of the Manta Ray <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nWhile wearing this cloak with its hood up, you can breathe underwater, and you have a swimming speed of 60 feet. Pulling the hood up or down requires an action.\n<b>Value: </b>50pp\n_____\n
+\n<b>Coiling Grasp Tattoo (UA) <sup>Unearthed Arcana</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\n\n<b>Value: </b>25gp\n_____\n
+\n<b>Coin of Draconic Luck <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nDragon’s Bargain. Before making an Ability check or an attack roll you can flip the coin as a bonus action. Flip any coin, on a heads you gain a +2 bonus to the roll, on a tails you suffer a -2 penalty on the roll. If you do not have a coin, roll a d4 instead. 1 or 2 is heads, 3 or 4 is tails. You can use this feature 3 times per day. If you receive 3 penalties in a row on a single day, roll a d20. On a 1 the coin cracks in two and loses all magical capabilities.\n<b>Value: </b>50pp\n_____\n
+\n<b>Coinbox of Holding <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nPiggy Bank. This magically enchanted coin box has an extra-dimensional space in which it can store up to 50 000 coins of any type in any combination. Coins can be stored into the box using the slot on top. The box is sealed shut but can be opened by speaking a command word, revealing the amount of currency wanted. When opened the interior of the box is as deep as required to fit all the coins that will be taken from it.\n<b>Value: </b>50pp\n_____\n
+\n<b>Comb of Vanity <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis short comb appears to be covered in gold. If you comb your hair with it every morning your hair will become lustrously smooth and grow at an inch per day until it touches the ground. Not only is your hair beautiful, it is also surprisingly strong, and once it reaches your waist it can be used as a weapon. As an attack action you can whip your hair at an enemy within 5 feet dealing 1d4 + your Strength modifier Slashing damage on a hit. This counts as an unarmed strike, if you can attack multiple times this replaces one attack. If your hair is longer than 5 feet you can attack enemies within 10 feet and the damage increases to 1d6 + your Strength modifier Slashing damage. If you fail to comb your hair in the morning your hair begins to fall out, starting at the bottom, at a rate of 1 foot each for day you do not comb.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Cornucopeia of the Harvest <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nHealthy Diet. As an action you can make this Cornucopia fill and overflow with enough vegetables and fruits to sustain 5 people for a whole day. This feature can be used only once per day.\n&
+\n&
+Bountiful Harvest. Once per year you can spend an action to also conjure a selection of pumpkin pies, cranberry sauce, sweet potato dishes and a large cooked turkey. 12 medium sized creatues may spend an hour to eat from this buffet. For the next 12 hours they have advantage on Wisdom and Intelligence saving throws and they are immune to being Frightened. Additionally their maximum hit points increases by 4d6 and they heal for the same amount.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Craek's Jumping Stick <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis metal rod is about 4 feet long and straight most of the way down before telescoping to a small metal foot. It has two handles welded to the top that look like they were hacked off of a teapot, and two folding flaps attached just before the shaft begins tapering.\n&
+\n&
+When you press down on the rod the tapering section resists but eventually collapses in on itself as if it has a complex spring mechanism underneath it. As a bonus action you can unfold the flaps and stand on them, one foot on each side of the rod, and as you do so you begin to bounce slightly.\n&
+\n&
+Whenever you jump while riding the jumping stick you add 1d6 to your jump height or length. If this roll is lower than your dexterity modifier you can instead use your dexterity modifier. While riding the jumping stick if you enter rough terrain or fail a dexterity saving throw you automatically fall prone. However, enemies have disadvantage on attacks of opportunity against you.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Crossbow Cannon <sup>BornToBrewStuff</sup></b>\n<em>Weapon, uncommon)</em>\n\nYou find what appears to be a 3 foot tall modified barrel. It has 8 knobs around its base each with a slot going up the length. On one side it has two metal handles, the bottom of which has a lever, and a large leather strap. Inside the barrel you can see a canister filling the whole barrel with 8 holes just bigger than your thumb carved into it.\n&
+\n&
+This barrel weighs 30 pounds, and has the property heavy. It can hold and fire up to 8 bolts before you need to reload. It is similar to a light crossbow except it has half the range (40/160 feet) and doesn’t have the loading property. It automatically rotates to the next barrel until it runs out of ammunition. You can reload up to two bolts as an action.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Crown of the Forest <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Crystalline Crusher <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Mace), uncommon)</em>\n\nDamage. 1d6+1 Bludgeoning\n&
+\n&
+Crystal Clear. You receive a +1 bonus to attack rolls you make with this weapon. This weapon can also be used as a spellcasting focus.\n&
+\n&
+Smooth or Sharp. When you make an attack using this weapon you can choose to deal Piercing damage or Bludgeoning damage.\n&
+\n&
+Arcane Mineral. You can cast the spell Guiding Bolt (3rd level) from this weapon once per long rest.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Cursed Luckstone <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Deathbane Shield <sup>BornToBrewStuff</sup></b>\n<em>Armor(Shield), uncommon(requires attunement)</em>\n\nThis ebony shield is completely smooth and has no adornment on its face; however on its back is an intricate circle of runes etched in a deep purple. When you make a saving throw against an effect or spell that deals Necrotic damage while wearing this shield you may make the save with advantage. Additionally, if you die while attuned with this shield you can not be raised as an undead.\n<b>Value: </b>40pp\n_____\n
+"\n<b>Decanter of Endless Water <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis stoppered flask sloshes when shaken, as if it contains water. The decanter weighs 2 pounds.\n&
+\n&
+You can use an action to remove the stopper and speak one of three command words, whereupon an amount of fresh water or salt water (your choice) pours out of the flask. The water stops pouring out at the start of your next turn. Choose from the following options:\n&
+- ""Stream"" produces 1 gallon of water.\n&
+- ""Fountain"" produces 5 gallons of water.\n&
+- ""Geyser"" produces 30 gallons of water that gushes forth in a geyser 30 feet long and 1 foot wide. As a bonus action while holding the decanter, you can aim the geyser at a creature you can see within 30 feet of you. The target must succeed on a DC 13 Strength saving throw or take 1d4 bludgeoning damage and fall prone. Instead of a creature, you can target an object that isn't being worn or carried and that weighs no more than 200 pounds. The object is either knocked over or pushed up to 15 feet away from you.\n&\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Deck of Illusions <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20 - 1 cards.\n&
+\n&
+The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use an action to draw a card at random from the deck and throw it to the ground at a point within 30 feet of you.\n&
+\n&
+An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While you are within 120 feet of the illusory creature and can see it, you can use an action to move it magically anywhere within 30 feet of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who uses an action to visually inspect the creature identifies it as illusory with a successful DC 15 Intelligence (Investigation) check. The creature then appears translucent.\n&
+\n&
+The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.\n&
+\n&
+Playing Card Illusion\n&
+Ace of hearts Red dragon\n&
+King of hearts Knight and four guards\n&
+Queen of hearts Succubus or incubus\n&
+Jack of hearts Druid\n&
+Ten of hearts Cloud giant\n&
+Nine of hearts Ettin\n&
+Eight of hearts Bugbear\n&
+Two of hearts Goblin\n&
+Ace of diamonds Beholder\n&
+King of diamonds Archmage and mage apprentice\n&
+Queen of diamonds Night hag\n&
+Jack of diamonds Assassin\n&
+Ten of diamonds Fire giant\n&
+Nine of diamonds Ogre mage\n&
+Eight of diamonds Gnoll\n&
+Two of diamonds Kobold\n&
+Ace of spades Lich\n&
+King of spades Priest and two acolytes\n&
+Queen of spades Medusa\n&
+Jack of spades Veteran\n&
+Ten of spades Frost giant\n&
+Nine of spades Troll\n&
+Eight of spades Hobgoblin\n&
+Two of spades Goblin\n&
+Ace of clubs Iron golem\n&
+King of clubs Bandit captain and three bandits\n&
+Queen of clubs Erinyes\n&
+Jack of clubs Berserker\n&
+Ten of clubs Hill giant\n&
+Nine of clubs Ogre\n&
+Eight of clubs Orc\n&
+Two of clubs Kobold\n&
+Jokers (2) You (the deck's owner)\n<b>Value: </b>50pp\n_____\n"
+\n<b>Diplomat's Pouch <sup>MCDM: Strongholds & Followers</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nA letter placed in this pouch, addressed to someone who owns another diplomat’s pouch, disappears, and the recipient listed in the letter finds a copy of it in their pouch. A letter can be listed to multiple recipients with a diplomat’s pouch.\n<b>Value: </b>50pp\n_____\n
+\n<b>Door Jam <sup>Faerie Fire</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+"\n<b>Doss Lute (Instrument of the Bards) <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunementby a bard)</em>\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n&
+\n&
+You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Animal Friendship, Protection from Energy (fire only), Protection from Poison. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n&
+\n&
+You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Downfall <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Weapon(Greatsword), uncommon(requires attunement)</em>\n\nDamage. 2d6+1 Slashing\n&
+\n&
+Infernal Steel. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+\n&
+Brought Back. When you are attuned to this sword and fail at least one death save you are healed for an amount equal to half of your maximum hit points. This effect can only happen once ever to the attuned.\n&
+\n&
+Infernal Pact (Curse). When you are Brought Back as described above you owe your life to an infernal creature or entity of the choice of your GM. How and when this will become clear, the motivation and character of this being and all other details will be determined by the GM.\n<b>Value: </b>20pp\n_____\n"
+"\n<b>Dragon Satchel <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nEssence of the Dragon. You can fill this small satchel with two handfuls of one of the materials listed in the Dragon Satchel table below. Over the course of 24 hours the material turns to a fine crystal powder. You can use an action to throw one handful of powder. The powder erupts in a 10ft. cone. All creatures in it have to make a Dexterity saving throw (DC 15). On a fail they take 3d4 damage, on a successful save they take half damage. The damage type depends on the original material. Doing this twice empties the satchel after which you can fill it with new material.\n&
+\n&
+Dragon Satchel\n&
+Material Powder Color Damage type\n&
+Ash Red Fire\n&
+Grass Green Acid\n&
+Leaves Purple Poison\n&
+Sand Yellow Lightning\n&
+Snow Blue Cold\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Dragon's Greed <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis small golden arrow is the length of a man’s hand and has a shard of dragon scale for it’s head.\n&
+\n&
+As an action, you can throw it into the air. When you do so for a fleeting moment it will hover in the air and rotate to point in the direction of the most valuable object within a one mile radius.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Driftglobe <sup>Dungeon Master's Guide</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Dust of Deliciousness <sup>Explorer's Guide to Wildmount</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis reddish brown dust can be sprinkled over any edible substance to greatly improve the flavor. The dust also dulls the eater’s senses: anyone eating food treated with this dust has disadvantage on Wisdom ability checks and Wisdom saving throws for 1 hour. There is enough dust to flavor six servings.\n<b>Value: </b>25gp\n_____\n
+\n<b>Dust of Disappearance <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nFound in a small packet, this powder resembles very fine sand. There is enough of it for one use. When you use an action to throw the dust into the air, you and each creature and object within 10 feet of you become invisible for 2d4 minutes. The duration is the same for all subjects, and the dust is consumed when its magic takes effect. If a creature affected by the dust attacks or casts a spell, the invisibility ends for that creature.\n<b>Value: </b>25gp\n_____\n
+"\n<b>Dust of Dryness <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis small packet contains {1d6 + 4} pinches of dust. You can use an action to sprinkle a pinch of it over water. The dust turns a cube of water 15 feet on a side into one marble-sized pellet, which floats or rests near where the dust was sprinkled. The pellet's weight is negligible.\n&
+\n&
+Someone can use an action to smash the pellet against a hard surface, causing the pellet to shatter and release the water the dust absorbed. Doing so ends that pellet's magic.\n&
+\n&
+An elemental composed mostly of water that is exposed to a pinch of the dust must make a DC 13 Constitution saving throw, taking 10d6 necrotic damage on a failed save, or half as much damage on a successful one.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Dust of Sneezing and Choking <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nFound in a small container, this powder resembles very fine sand. It appears to be dust of disappearance, and an identify spell reveals it to be such. There is enough of it for one use.\n&
+\n&
+When you use an action to throw a handful of the dust into the air, you and each creature that needs to breathe within 30 feet of you must succeed on a DC 15 Constitution saving throw or become unable to breathe, while sneezing uncontrollably. A creature affected in this way is incapacitated and suffocating. As long as it is conscious, a creature can repeat the saving throw at the end of each of its turns, ending the effect on it on a success. The lesser restoration spell can also end the effect on a creature.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Earring of Whisper <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nJenga. This enchanted earring can send and receive the Message spell to and from other connectead earrings within 500 ft. To send a message the wearer must activate the earring by touching it. The earring will always passively receive messages. If the receiver is out of range they will hear nothing.\n&
+\n&
+Can you hear me now?. Earrings can be connected by physically holding them together for 10 minutes, this connection is broken if both earrings are not within a 5 mile radius of each other for at least a week.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Earworm <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Efficient Quiver <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nEach of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.\n&
+\n&
+You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Elder Cartographer’s Glossography <sup>Acquisitions Incorporated</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nGrants advantage on Intelligence or wisdom checks related to geographical features or locations.\n<b>Value: </b>50pp\n_____\n
+\n<b>Eldritch Claw Tattoo (UA) <sup>Unearthed Arcana</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\n\n<b>Value: </b>25gp\n_____\n
+"\n<b>Elemental Gem, [|Blue Sapphire|Yellow Diamond|Red Corundum|Emerald] <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis gem contains a mote of elemental energy. When you use an action to break the gem, an elemental is summoned as if you had cast the conjure elemental spell, and the gem's magic is lost. The type of gem determines the elemental summoned by the spell.\n&
+\n&
+Gem Summoned Elemental\n&
+Blue Sapphire Air Elemental\n&
+Yellow Diamond Earth Elemental\n&
+Red Corundum Fire Elemental\n&
+Emerald Water Elemental\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Eversmoking Bottle <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nSmoke leaks from the lead-stoppered mouth of this brass bottle, which weighs 1 pound. When you use an action to remove the stopper, a cloud of thick smoke pours out in a 60-foot radius from the bottle. The cloud's area is heavily obscured. Each minute the bottle remains open and within the cloud, the radius increases by 10 feet until it reaches its maximum radius of 120 feet.\n&
+\n&
+The cloud persists as long as the bottle is open. Closing the bottle requires you to speak its command word as an action. Once the bottle is closed, the cloud disperses after 10 minutes. A moderate wind (11 to 20 miles per hour) can also disperse the smoke after 1 minute, and a strong wind (21 or more miles per hour) can do so after 1 round.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Extract of Acid <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nA lime green sludge is contained within this oblong vial stoppered by a glass bauble. It froths and bubbles as if constantly in turmoil even when left alone. When it is poured out slowly onto a flat surface it will chew through up to a foot of solid rock or several inches of metal. When shattered all creatures within a 5 foot radius take 2d6 acid damage and must roll a Dexterity saving throw DC 14. On a failure they take an additional 2d6 acid damage on their next turn.\n<b>Value: </b>10pp\n_____\n
+\n<b>Extract of Cold <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nThis angularly carved crystal vial holds a thin light blue liquid. The crystal vial feels chilled to the touch and when let sit for long periods of time it forms crystals throughout the liquid that quickly dissipate when disturbed again. When it’s poured out of its container or shattered it steams and hisses as it freezes any inanimate object or liquid it touches. As it pools on the ground it forms a 10 foot square patch of smooth ice. Any creature that crosses this patch of ice must make a DC 12 dexterity check or end their turn and fall prone. It begins to melt after 1 minute. If it is consumed, the creature must make a DC 14 constitution check unless they are immune to cold damage. On a failure they take 3d6 cold damage and are Paralyzed for 1 minute, they may repeat this saving throw at the end of each turn. On a success they take half damage and are not paralyzed.\n<b>Value: </b>10pp\n_____\n
+\n<b>Extract of Fire <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nThis glass globe has no visible opening on its dark clouded surface, and it is warm to the touch. Its contents appear to be a faintly glowing roiling cloud of flame. When the globe is thrown or smashed it expands violently into a cloud, reaching around corners, from the point where it landed, and all creatures within 15 feet must make a DC 14 Dexterity throw. On a failure they take 3d6 Fire damage. On a success they take half as much.\n<b>Value: </b>10pp\n_____\n
+\n<b>Extract of Lightning <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nThis vial is extraordinarily tall, almost as long as a man’s forearm. It’s capped with a flat metal stopper etched in a fractal pattern. It has no visible liquid in it yet it feels as though it sloshes, and it produces a dim light out to 5 feet. When opened all creatures in a 20 foot line must make a Dexterity saving throw DC 14 as a bolt of light lashes out creating a small clap of thunder that can be heard from 100 feet away. On a failure they take 4d6 Lightning damage, on a success they take half. If it’s shattered all creatures within a 10 foot radius take 1d6 lightning damage and must make a constitution saving throw DC 14. On a failure they are blinded for 1 minute. They may repeat this saving throw at the end of each turn.\n<b>Value: </b>10pp\n_____\n
+\n<b>Extract of Poison <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nA fizzing clear liquid fills this small flask the size of two thumbs. If it is consumed the creature that consumed it suffers from the condition Poisoned until their next long rest and must make a Constitution saving throw DC 14 every minute for the next hour. On a failure the creature is paralyzed. On a success if they are paralyzed they are no longer paralyzed. After three successful saves (they do not have to be consecutive) or after 1 hour the effect ends and the creature is no longer paralyzed, however they remain Poisoned.\n<b>Value: </b>10pp\n_____\n
+\n<b>Eyes of Charming <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThese crystal lenses fit over the eyes. They have 3 charges. While wearing them, you can expend 1 charge as an action to cast the charm person spell (save DC 13) on a humanoid within 30 feet of you, provided that you and the target can see each other. The lenses regain all expended charges daily at dawn.\n<b>Value: </b>50pp\n_____\n
+\n<b>Eyes of Minute Seeing <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThese crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have advantage on Intelligence (Investigation) checks that rely on sight while searching an area or studying an object within that range.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Eyes of the Blind <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\nThis tattoo is a circular design, usually in purple or red, on the neck or back of the head. It’s typically shared between blind and visioned siblings. When the tattoo is finished the left eye of each creature hazes over and they are unable to see from it.\n&
+\n&
+Once per short rest either of the tattooed creatures can choose to see through their partner’s eyes as an action. For the next hour or until this effect is ended as an action the creature that activated this effect can see through the eyes of their partner instead of their own. During this time each of the creature’s left eyes are no longer hazed over and become the color of their partner’s eyes.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Eyes of the Eagle <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThese crystal lenses fit over the eyes. While wearing them, you have advantage on Wisdom (Perception) checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.\n<b>Value: </b>50pp\n_____\n
+\n<b>Finder’s Goggles <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Flashfire Glypherine <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Bottled Glyph.</b> As an action you can pour out the contents of this bottle or throw it at a point up to 60ft. away causing it to shatter on impact. The liquid creates a magical glyph in this location at the end of your turn. The glyph remains for 24 hours, until activated or otherwise removed.\n&
+\n&
+<b>Blaze of Fire.</b> If a creature is within 5ft. of the glyph, or when it enters that space for the first time, they have to make a Dexterity saving throw (DC 13). On a failed save they take 2d6+2 Fire damage and are Blinded until the end of their next turn. On a successful save they take half damage and are not Blinded. When the glyph is activated all other creatures within 30ft. of the glyph also have to make a Dexterity saving throw (DC 8). On a failed save they are also Blinded until the end of their next turn.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Fochlucan Bandore (Instrument of the Bards) <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunementby a bard)</em>\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n&
+\n&
+You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Entangle, Faerie Fire, Shillelagh, Speak with Animals. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n&
+\n&
+You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Frostnova Glypherine <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Bottled Glyph.</b> As an action you can pour out the contents of this bottle or throw it at a point up to 60 ft. away causing it to shatter on impact. The liquid creates a magical glyph in this location at the end of your turn. The glyph remains for 24 hours or until activated or otherwise removed.\n&
+\n&
+<b>Frostlocked.</b> If a creature is within 5ft. of the glyph, or when it enters that space for the first time, they and all creatures within 15ft. of the glyph are blasted with an explosion of cold. All affected creatures have to make a Dexterity saving throw (DC 15). On a failed save they take 2d8+2 Cold damage and are Restrained until the end of their next turn. On a successful save they take half damage and are not Restrained.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Gapcloser 2000 <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nDamage. 1d4-1 (2x)Piercing\n&
+Range. 50 (Both ways)\n&
+\n&
+Tightrope. As an action you lift the Gapcloser 2000 overhead and shoot 2 bolts attached to a 50ft. steel wire in opposite directions. Make a ranged attack roll for both bolts. On two successful hits you can hold on to the device and use your movement to travel between the two points at 50ft. per round. As a bonus action you can make the device detach and reel in both bolts. If you hit a creature with one of the bolts it can release itself by making a successful Strength saving throw (DC 10). When shooting at a material you can add a +2 bonus to your attack roll. Refer to the AC’s below to determine whether you hit or miss.\n&
+\n&
+Material AC’s\n&
+Material AC\n&
+Crystal, Ice 13\n&
+Wood, Bone 15\n&
+Stone 17\n&
+Iron, Steel 19\n&\n<b>Value: </b>50pp\n_____\n"
+\n<b>Gauntlets of Ogre Power <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nYour Strength score is 19 while you wear these gauntlets. They have no effect on you if your Strength is 19 or higher without them.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Gem of Brightness <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis prism has 50 charges. While you are holding it, you can use an action to speak one of three command words to cause one of the following effects:\n&
+- The first command word causes the gem to shed bright light in a 30-foot radius and dim light for an additional 30 feet. This effect doesn't expend a charge. It lasts until you use a bonus action to repeat the command word or until you use another function of the gem.\n&
+- The second command word expends 1 charge and causes the gem to fire a brilliant beam of light at one creature you can see within 60 feet of you. The creature must succeed on a DC 15 Constitution saving throw or become blinded for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n&
+- The third command word expends 5 charges and causes the gem to flare with blinding light in a 30- foot cone originating from it. Each creature in the cone must make a saving throw as if struck by the beam created with the second command word.\n&
+\n&
+When all of the gem's charges are expended, the gem becomes a nonmagical jewel worth 50 gp.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Gloves of Missile Snaring <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThese gloves seem to almost meld into your hands when you don them. When a ranged weapon attack hits you while you're wearing them, you can use your reaction to reduce the damage by 1d10 + your Dexterity modifier, provided that you have a free hand. If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in that hand.\n<b>Value: </b>50pp\n_____\n
+\n<b>Gloves of Swimming and Climbing <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing these gloves, climbing and swimming don't cost you extra movement, and you gain a +5 bonus to Strength (Athletics) checks made to climb or swim.\n<b>Value: </b>50pp\n_____\n
+\n<b>Gloves of Thievery <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>G'nehr's Ceremonial Censer <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThis small censer is made from a deep green soapstone mottled with white and carved with vines of morning glory. Inside the same burlap sack in which it was found is a large selection of dried aromatics. When these aromatics are burned in the censor they magically reappear within the burlap pouch the next morning.\n&
+If you burn these aromatics during a long or short rest at the end of the rest all creatures who rested within 60 feet of the censor receives a magical effect, depending on what was burned. A creature can receive a number of magical effects equal to their Constitution modifier (minimum of 1) per day in this way. After a creature receives the maximum number of magical effects the aroma given off by the censor becomes repulsive and has no beneficial effect for the remainder of the day. All  censor effects gained in this way expire at dawn.\n&
+\n&
+Pine Needles. The next 2d4 times you take 10 or less Piercing damage you instead take half damage as the attack bounces off your skin.\n&
+Orange Blossoms. You lose 1 level of exhaustion as a feeling of energy fills your body.\n&
+Forget-me-nots. This subtle scent calms your mind. The next Intelligence or Wisdom check or saving throw you make has advantage. In addition, until that time anyone who tries to read your mind only sees a grassy field of forget-me-nots.\n&
+Dried Mint Leaves. As a sense of mental alertness surrounds you you gain +5 to all initiative rolls, and when you make a high jump can jump 5 feet higher than usual.\n&
+Hickory Wood Shavings. Your eyes sting in the wispy smoke, however, you are now able to see through magical darkness as if it is not even there.\n&
+Crushed Cinnamon Bark. A bold scent overtakes your senses. You gain advantage on Fear saving throws and are able to nearly ignore any phobias you already have.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Goggles of Night <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nWhile wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Goggles of Object Reading <sup>Explorer's Guide to Wildmount</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThese leather-framed goggles feature purple crystal lenses. While wearing the goggles, you have advantage on Intelligence (Arcana) checks made to reveal information about a creature or object you can see.
+
+In addition, you can cast the identify spell using the googles. Once you do so, you can’t do so again until the next dawn.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Goodberry Sapling <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nSeed of the Feywild. You can plant this sapling in any type of fertile ground. Over the course of a few days a bush roughly the size of a 5ft. cube grows. The bush grows Goodberries which have the exact same properties as stated in the spell Goodberry.\n&
+\n&
+Healthy Harvest. Goodberries grow 1d6 days after planting the sapling. Every day 1d4 berries grow on the bush to a maximum of 20 berries. When a berry has been plucked it lasts for 24 hours after which it loses it’s properties. If all the berries are picked from the bush, roll a d20. On a 1 the bush will no longer grow any berries. The berries will only start growing again if the bush is watered with water from the Feywild.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Greataxe of the Hills <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Weapon(Greataxe), uncommon)</em>\n\nDamage. 1d12+1 Slashing\n&
+Big Hitter. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+Over-axe-tend. Before making an attack roll with this weapon you can choose to take a -3 penalty on your attack roll to add 5ft. of reach. Making the reach of this weapon 10ft.\n<b>Value: </b>20pp\n_____\n"
+"\n<b>Grinder of Many Spices <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis mahogany grinder has a simple oak inlay and is smooth from use. When the handle is turned new well ground fresh spices come out as you would expect, but it seems like it’s never the same spice twice.\n&
+This grinder has 3 charges and it regains all charges on a short rest.\n&
+You can turn the handle of the grinder either clockwise or counterclockwise, expending a charge each time you do so. When the handle is turned roll 1d10 to determine the spice that is ground. Clockwise, and the spices nicely fall from the grinder with no special effects. Counter-clockwise and after a small delay large shards of spices spew from the mouth of grinder up to 15 feet away affecting anything they hit in strange ways. You can make an ranged attack against a creature within range and on a hit the spice effect takes place. If you have multiple attacks this replaces one of them.\n&
+\n&
+Spices\n&
+1. Salt.The target creature takes 1d4 Piercing damage and is compelled to attack you with its next attack.\n&
+2. Peppercorn. The target takes 1d4 Fire damage and 1d4 Piercing damage from the spicy shards.\n&
+3. Paprika. The target feels a burning sensation and must succeed an Intelligence saving throw DC 12 or use their next action to try to “put out the fire”. \n&
+4. Nutmeg. The target must make a Wisdom saving throw DC 12 or be Charmed for the next minute or until they take damage. \n&
+5. Thyme. Spines of dried thyme pierce the target doing 1d10 Piercing damage. \n&
+6. Oregano. A small 5 foot cloud of oregano forms around the target Blinding them until the end of their next turn or until they move out of the cloud. \n&
+7. Cloves. Whole cloves pummel the target, dealing 1d10 Bludgeoning damage. \n&
+8. Ginger. The target creature is overcome by the zing of ginger and must use their reaction to move 5 feet in any direction if they are able to move. \n&
+9. Mint. The creature feels an immense chill surround them. They take 1d8 Cold damage. \n&
+10. All Spice. The aroma is almost overwhelming. Roll twice on this table, if a 10 is rolled again you must re-roll that result. This effect only consumes 1 charge.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Guild Signet <sup></sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Hand of the Five Fingered Viscount <sup>Faerie Fire</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Hat of Disguise <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing this hat, you can use an action to cast the disguise self spell from it at will. The spell ends if the hat is removed.\n<b>Value: </b>50pp\n_____\n
+\n<b>Headband of Intellect <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nYour Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is 19 or higher without it.\n<b>Value: </b>50pp\n_____\n
+\n<b>Hellfire Weapon <sup>Baldur's Gate: Descent into Avernus</sup></b>\n<em>Weapon, uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Helm of Comprehending Languages <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nWhile wearing this helm, you can use an action to cast the comprehend languages spell from it at will.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Helm of Telepathy <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing this helm, you can use an action to cast the detect thoughts spell (save DC 13) from it. As long as you maintain concentration on the spell, you can use a bonus action to send a telepathic message to a creature you are focused on. It can reply--using a bonus action to do so--while your focus on it continues.\n&
+\n&
+While focusing on a creature with detect thoughts, you can use an action to cast the suggestion spell (save DC 13) from the helm on that creature. Once used, the suggestion property can't be used again until the next dawn.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Helm of Underwater Action <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Hew <sup></sup></b>\n<em>Weapon(Battleaxe), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Ikrian Gloves <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nHerbologist’s Fingers. These gloves grant resistance against Poison and Necrotic damage. Furthermore, when wearing these gloves you gain a +5 bonus to any rolls you make that include making use of a Herbalism kit.\n<b>Value: </b>50pp\n_____\n
+\n<b>Immovable Rod <sup>Basic Rules</sup></b>\n<em>Rod, uncommon)</em>\n\nThis flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity. The rod can hold up to 8,000 pounds of weight. More weight causes the rod to deactivate and fall. A creature can use an action to make a DC 30 Strength check, moving the fixed rod up to 10 feet on a success.\n<b>Value: </b>30pp\n_____\n
+"\n<b>Inawanic Shortbow <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Weapon(Shortbow), uncommon)</em>\n\nDamage. 1d6+1 Piercing\n&
+Range. 120/360\n&
+Woven Wood. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+Double Recurve. When you roll a 19 on the die for the attack roll with this weapon it is also considered a critical hit.\n&
+Small Game Hunter. You have advantage on attack Rolls against Tiny and Small Beasts.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Infernal Puzzle Box <sup>Baldur's Gate: Descent into Avernus</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Injection Arrow <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Ammunition), uncommon)</em>\n\n<b>Thin Needle.</b> When firing this arrow you may choose to deal the normal damage (of the bow it is shot from) or deal only 1 Piercing damage, as you aim for a soft spot on your target.\n&
+\n&
+<b>Reservoir.</b> You can fill the reservoir with one potion, poison or other liquid. It is injected directly into your target upon a hit, any effects take immediate effect. Filling the reservoir takes one minute.\n<b>Value: </b>10gp\n_____\n"
+\n<b>Inquisitive’s Goggles <sup>Wayfinder's Guide to Eberron</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Insignia of Claws <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Iron Curtain <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis dark gray heathered cloak is unusually stiff, even more so than the starched capes of nobles, and on closer inspection you surmise that it has a tight weave of wires of varying thicknesses throughout it. It weighs about 6 pounds and will not tear.\n&
+\n&
+While wearing this cloak as a bonus action you can pull it over you to shield yourself. Until the beginning of your next turn you have resistance to piercing and slashing damage but are considered Restrained by the stiff material.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Ironwood Sapling <sup>BornToBrewStuff</sup></b>\n<em>Rod, uncommon)</em>\n\nThis rod stands about 5 feet tall and is aptly named. It appears to be a young sparse tree that had all its leaves shaken off before being cast in metal.\n&
+\n&
+While you are holding this rod if you take lightning damage the damage is reduced by 1d12 once per round.\n&
+\n&
+As an action you can drive this rod into the ground. Once per round while the rod is in the ground if a creature within 120 feet of the Ironwood Sapling takes lightning damage that damage is reduced by 2d12 as the lightning arcs to the tree, sapping some of it’s power. When this happens all creatures within 10 feet of the rod take 1d8 thunder damage as a small concussive wave emits from the sapling.\n<b>Value: </b>30pp\n_____\n"
+"\n<b>Jade Xiphos <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Shortsword), uncommon)</em>\n\nDamage. 1d6+1 Piercing\n&
+Fine Balance. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+Shards of Glass. If exposed to more than 30 points of Force or Thunder damage the blade violently vibrates itself into pieces. If the blade is stuck in a creature the shards deal 6d10 Piercing damage. The sword itself is destroyed beyond repair in the process. A skilled bard might also be able to shatter the sword by singing a high note with a successful Performance check (DC 25).\n<b>Value: </b>20pp\n_____\n"
+\n<b>Jakkin's Trick Pony <sup>Faerie Fire</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Javelin of Lightning <sup>Basic Rules</sup></b>\n<em>Weapon(Javelin), uncommon)</em>\n\nThis javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet. Each creature in the line excluding you and the target must make a DC 13 Dexterity saving throw, taking 4d6 lightning damage on a failed save, and half as much damage on a successful one. The lightning bolt turns back into a javelin when it reaches the target. Make a ranged weapon attack against the target. On a hit, the target takes damage from the javelin plus 4d6 lightning damage.\n&
+\n&
+The javelin's property can't be used again until the next dawn. In the meantime, the javelin can still be used as a magic weapon.\n&
+\n&
+Proficiency with a javelin allows you to add your proficiency bonus to the attack roll for any attack you make with it.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Keighton's Chimes <sup>Faerie Fire</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Keoghtom's Ointment <sup>Dungeon Master's Guide</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Kindlespark Wand <sup>Relics of the Realms - Volume 4</sup></b>\n<em>Wand, uncommon)</em>\n\n<b>Adventurer’s Campfire Starter.</b> As an action you can create a magical campfire in a spot on the ground that you can see within a 30ft. range. The campfire fills a 5ft. cube and ignites flammable objects in its area that aren’t being worn or carried. The fire lasts for 8 hours or until dismissed with the wand. Only one magical campfire can be active at a time and you can create a campfire in this way 3 times per day.\n&
+\n&
+Any creature that is in the space of the campfire when it is created must succeed on a Dexterity saving throw (DC 10) Or take 1d6 Fire damage. A creature must also make the saving throw when it moves into the campfire’s space for the first time on a turn or ends its turn there.\n<b>Value: </b>12.5gp\n_____\n"
+\n<b>Lantern of Revealing <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nWhile lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use an action to lower the hood, reducing the light to dim light in a 5-foot radius.\n<b>Value: </b>50pp\n_____\n
+"\n<b>L'Arcana #23 <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Because Thou Art Worth It.</b> It takes about 30 seconds to apply this lipstick after which the effects last for 8 hours or until it is removed. You can use this lipstick 15 times before it is completely used up.\n&
+\n&
+<b>#23.</b> While wearing this lipstick you gain a +1 bonus to every ranged and melee spell attack rolls with a Verbal component. If you know the Charm Person spell and you cast it while wearing this lipstick the Wisdom saving throw DC is increased by 2.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Lightbringer <sup></sup></b>\n<em>Weapon(Mace), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Lip Stickers <sup>Faerie Fire</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>25gp\n_____\n
+\n<b>Living Gloves <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Lunar Scimitar <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Scimitar), uncommon)</em>\n\nDamage. 1d6+1 Slashing\n&
+Lunar Essence. You gain a +1 bonus to attack rolls you make with this weapon.\n&
+Power of the Moonlight. If you can see a night-sky while using this scimitar you deal an additional 1 Radiant damage. This damage is doubled when there is a full moon.\n<b>Value: </b>20pp\n_____\n"
+"\n<b>Mac-Fuirmidh Cittern (Instrument of the Bards) <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunementby a bard)</em>\n\nAn instrument of the bards is an exquisite example of its kind, superior to an ordinary instrument in every way. Seven types of these instruments exist, each named after a legendary bard college. A creature that attempts to play the instrument without being attuned to it must succeed on a DC 15 Wisdom saving throw or take 2d4 psychic damage.\n&
+\n&
+You can use an action to play the instrument and cast one of its spells: Fly, Invisibility, Levitate, Protection from Evil and Good, Barkskin, Cure Wounds, Fog Cloud. Once the instrument has been used to cast a spell, it can’t be used to cast that spell again until the next dawn. The spells use your spellcasting ability and spell save DC.\n&
+\n&
+You can play the instrument while casting a spell that causes any of its targets to be charmed on a failed saving throw, thereby imposing disadvantage on the save. This effect applies only if the spell has a somatic or a material component.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Map Beacons <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nSplit the Party. When placed on a map you can speak a command word which causes these tiny constructs to light up and hover over the place where the person it is connected to is currently located. If there are multiple people in one location they hover above each other. If they are not anywhere on the map the beacon lies still on its side.\n&
+\n&
+These beacons work best on detailed maps but can also give a general position on crudely drawn maps. If you draw a map (for example on the ground) it needs to have at least 3 points of reference and be enclosed by a rectangular edge.\n&
+Binding the Beacon. To bind a beacon to a person they must hold it in their left hand and speak a command word. Binding to a beacon does not count towards attuned items.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Mariner's Armor <sup></sup></b>\n<em>Armor, uncommon)</em>\n\n\n<b>Value: </b>40pp\n_____\n
+\n<b>Mask of the Beast <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Medallion of Thoughts <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThe medallion has 3 charges. While wearing it, you can use an action and expend 1 charge to cast the detect thoughts spell (save DC 13) from it. The medallion regains 1d3 expended charges daily at dawn.\n<b>Value: </b>50pp\n_____\n
+\n<b>Mind Carapace Armor <sup></sup></b>\n<em>Armor(Plate), uncommon(requires attunement)</em>\n\n\n<b>Value: </b>40pp\n_____\n
+"\n<b>Mithral Armor <sup>Basic Rules</sup></b>\n<em>Armor, uncommon)</em>\n\nMithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes.\n&
+\n&
+If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.\n<b>Value: </b>40pp\n_____\n"
+\n<b>Mizzium Apparatus <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Moonscraper <sup>BornToBrewStuff</sup></b>\n<em>Weapon(Greatsword), uncommon(requires attunement)</em>\n\nThis magical greatsword is unusually broad and has a gap through the width of the blade starting halfway up from the handle. The metal is pocked and dull as if it was never polished, and has no hilt. In place of the hilt it has an unsharpened spike forged from the blade and running parallel with the handle.\n&
+\n&
+As a bonus action you can speak the command word to transform Moonscraper from a greatsword into a shield the shape of a thick crescent moon or back into a greatsword. While holding Moonscraper in shield form with both hands you gain a +3 shield bonus to your AC, but otherwise you can not benefit.\n&
+Additionally, while Moonscraper is in shield form you can attempt to shove a creature within 15 feet of you by throwing the shield as an attack action. When thrown in this way the shield returns to you at the end of your turn.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Mummy Rot Antidote <sup></sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Necklace of Adaptation <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons).\n<b>Value: </b>50pp\n_____\n
+\n<b>Necklace of Many Hands <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThis rawhide necklace has three hands carved from malachite hung between onyx beads. While attuned to this item you are able to cast Mage Hand if you were not able to before. When you cast Mage Hand while wearing this necklace you can choose to create up to three hands, these mage hands remain until dismissed, or you cast Mage Hand again. You can command any number of the summoned hands with your action and they can work together to lift up to 30 pounds total.\n<b>Value: </b>50pp\n_____\n
+\n<b>Night Caller <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Nightliner <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nEnchanted Eyes. It takes one minute to apply this eyeliner, when it is applied around the eyes you gain Dark Vision up to 60ft. Additionally you gain a +5 bonus to any sight based Perception checks. These features last for 24 hours or until the eyeliner is removed. This eyeliner is not waterproof. You can use this make-up 20 times before it completely runs out.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Oil of Slipperiness <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\nThis sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains the effect of a freedom of movement spell for 8 hours.\n&
+\n&
+Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the grease spell in that area for 8 hours.\n<b>Value: </b>5gp\n_____\n"
+"\n<b>Orb of the Dryad <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon(requires attunementby a Druid or Monk)</em>\n\nNature’s Light. When attuned to this object you can have it float in any place in a 5ft. radius around you. You can command it to shed light. This provides bright light in a 20ft. radius and dim light for an additional 20ft.\n&
+Healing Flight. As an action you can make the orb float in a straight line towards a creature within 100ft. The orb becomes ethereal and heals every single creature it passes through and the target for 1d4+1. When it arrives at your chosen target it hovers next to it and heals the creature for 1d4+1 for the following 3 rounds. Afterwards it returns to you if you are within 100ft. of it, otherwise it will stop hovering and drop. The orb does not heal on the way back. You can use this feature once per day. When ethereal, the orb can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Orc Stone <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Pamsprei's Blinding Chalkbow <sup>BornToBrewStuff</sup></b>\n<em>Weapon(Hand crossbow), uncommon)</em>\n\nThis small crossbow has several modifications to the channel and string that make it almost impossible to fire a regular crossbow bolt. You will find however, that it is deadly accurate while firing chalk. When you fire a piece of chalk at a target with this weapon on a successful hit it does 1 + your Dexterity modifier bludgeoning damage, and on contact pulverizes into a fine 5 foot cloud. Any creatures within the cloud must make a DC 14 Constitution saving throw or be Blinded until the end of your next turn as chalk gets in their eyes.\n<b>Value: </b>20pp\n_____\n
+"\n<b>Pamsprei's Peephole <sup>BornToBrewStuff</sup></b>\n<em>Wand, uncommon)</em>\n\nThis wand has a 2 inch glass ball at the end of it that can be used much like a magnifying glass.\n&
+\n&
+As an action you can tap the ball on a wooden, plaster, or stone surface (such as a wall, ceiling, or floor) to create a small hole the same diameter as the ball itself up to 6 feet deep. This lasts up to 1 minute or until you make another such hole and creates no instability in a structure around it. When the hole disappears any objects or creatures that may have managed to fit into it are ejected in a space nearest to the surface the hole was created on.\n<b>Value: </b>25pp\n_____\n"
+\n<b>Paper Bird <sup>Waterdeep: Dragon Heist</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Pearl of Power <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile this pearl is on your person, you can use an action to speak its command word and regain one expended spell slot. If the expended slot was of 4th level or higher, the new slot is 3rd level. Once you use the pearl, it can't be used again until the next dawn.\n<b>Value: </b>50pp\n_____\n
+\n<b>Periapt of Health <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nYou are immune to contracting any disease while you wear this pendant. If you are already infected with a disease, the effects of the disease are suppressed while you wear the pendant.\n<b>Value: </b>50pp\n_____\n
+\n<b>Periapt of Wound Closure <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWhile you wear this pendant, you stabilize whenever you are dying at the start of your turn. In addition, whenever you roll a Hit Die to regain hit points, double the number of hit points it restores.\n<b>Value: </b>50pp\n_____\n
+\n<b>Philter of Love <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Pipes of Haunting <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Pipes of the Sewers <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Piwafwi (Cloak of Elvenkind) <sup>Out of the Abyss</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Plate of the Protector <sup>BornToBrewStuff</sup></b>\n<em>Armor, uncommon(requires attunementby a Cleric or Paladin)</em>\n\nWhile wearing this armor when you cast Protection from Energy, Protection from Evil and Good, or Protection from Poison you may target an additional creature.\n<b>Value: </b>40pp\n_____\n
+\n<b>Plucky Gloves <sup>Faerie Fire</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Poison-Root Gauntlets <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nRoots gnarl over your knuckles as you put on these living gauntlets. Dull green leaves are growing out of its gray bark alongside the knots and spines.\n&
+\n&
+While you are wearing these gauntlets your unarmed attacks deal 1d4 Bludgeoning damage. Additionally, on a critical hit with these gauntlets you deal an additional 2d4 Poison damage. If you know Druidic you can verbally command these gauntlets to change their form as an action. When you do so you can change the damage type you deal with unarmed strikes while wearing these gauntlets to bludgeoning, slashing, or piercing.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Port-a-Boulder <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nStrange Stone. This 1 inch cube of stone weights next to nothing but it looks like it is very dense. It has a weird dim blue glow to it.\n&
+When it touches any type of earthen surface of at least 5ft. by 5ft. it rapidly expands to a 10ft. cube of solid rock. Any creatures in the 10ft. cube are pushed outward and take 1d10 Bludgeoning damage. The 10ft. cube boulder weighs 1500 Ibs and does not glow.\n&
+The rock instantly returns to it’s original size when it is no longer in contact with an earthen surface. Alternatively it can be returned to it’s smaller state by speaking a command word which will make it shrink back to size over the course of 1 minute.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Potion of Animal Friendship <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+"\n<b>Potion of Enhance Ability <sup>MCDM: Strongholds & Followers</sup></b>\n<em>Potion, uncommon)</em>\n\nStarts as a basic gray potion with no effect. However, if a material component is added, it gains one of the following effects:\n&
+- <b>Potion of Bear’s Endurance.</b> You gain 2d6 temporary hit points and have advantage on Constitution checks for 1 hour. Requires a hair from a bear.\n&
+- <b>Potion of Bull’s Strength.</b> You have advantage on Strength checks and your carrying capacity doubles for 1 hour. Requires a tail-hair from a bull.\n&
+- <b>Potion of Cat’s Grace.</b> You have advantage on Dexterity checks and do not take damage from falling up to 20 feet while you are not incapacitated for 1 hour. Requires a cat’s claw.\n&
+- <b>Potion of Eagle’s Splendor.</b> You have advantage on Charisma checks for 1 hour. Requires an eagle’s feather.\n&
+- <b>Potion of Fox’s Cunning.</b> You have advantage on Intelligence checks for 1 hour. Requires a fox’s whisker.\n&
+- <b>Potion of Owl’s Wisdom.</b> You have advantage on Wisdom checks for 1 hour. Requires an owl’s feather.\n<b>Value: </b>5gp\n_____\n"
+\n<b>Potion of Fire Breath <sup>Dungeon Master's Guide</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Potion of Giant Strength, Hill <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Potion of Greater Healing <sup></sup></b>\n<em>Potion, uncommon)</em>\n\nYou regain 4d4 + 4 hit points when you drink this potion. The potion's red liquid glimmers when agitated.\n<b>Value: </b>5gp\n_____\n
+\n<b>Potion of Growth <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Potion of Poison <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Potion of Resistance <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Potion of Water Breathing <sup>Basic Rules</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Propeller Helm <sup>Waterdeep: Dungeon of the Mad Mage</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Psi Crystal <sup>Icewind Dale: Rime of the Frostmaiden</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Purifying Waterskin <sup>Relics of the Realms - Volume 4</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nCleansing Enchantment. This waterskin can hold up to 3 liters (100 fl oz.) of liquid. All nonmagical drink that has been within this waterskin for at least 10 minutes is purified and rendered free of poison and disease.\n<b>Value: </b>50pp\n_____\n
+\n<b>Pyroconverger <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Quill of Lies <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nLiar’s Scripture. Messages written with this quill are only truly legible by the person(s) it is addressed to. Other creatures read a similar message with falsified details. For anyone but the intended receiver any numbers, dates, locations and names are all completely false. A creature that uses its action to examine the writing can determine that it is an Illusion with a successful Investigation check DC 18. If a creature discerns the Illusion for what it is, the creature can see through falsehood of the writing. A creature can only attempt to analyze a message if it is in a language they are familiar with.\n&
+Lie Detector. When you put this quill on top of a surface with writing on it you can speak a command word which causes it to hover over the surface and encircle any lies. It only circles parts which were knowingly written down as falsehoods. It will tap around the edge of the surface if the message was written in Liar’s Scripture or is obscured by any other type of illusion.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Quiver of Ehlonna <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Quiver of the Forest <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nNature’s Fletcher. If supplied with some water and sunlight this quiver grows 5d4+5 arrows on a daily basis (with a maximum of 20). If the quiver has been supplied with at least 6 hours of sunlight, arrows continue to grow for three days. One liter of water will be enough to sustain the quiver for seven days.\n&
+Arrows of the Branch. In sunlight the arrows deal an extra +1 damage. You can not light these arrows on fire or coat them in any form of acid.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Rebounding Flail <sup>BornToBrewStuff</sup></b>\n<em>Weapon(Flail), uncommon)</em>\n\nYou might second guess calling this weapon a flail when comparing its bulk to any other. Its spherical head is attached to a reinforced ash pole about 4 feet long. The head is made out of a material you have never felt before, it is pitch black and gives slightly to the touch. When you hit things with it it rebounds slightly as if bouncing despite its solid impact. It weighs 8 pounds, has the properties Heavy, and Two-handed, and deals 1d12 bludgeoning damage.\n&
+\n&
+As an action you can make an attack with reach. If this attack is successful you may use the rebound of the strike to make another attack with reach against a different target within 5 feet of the original target as a bonus action.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Restorative Ointment <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>25gp\n_____\n
+"\n<b>Reynier's Amulet of Radiance <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis smooth sphere of silver is embedded with a large number of amber stones and has a pinpoint hole at the very bottom. This amulet holds 4 charges and regains 1d4 expended charges each dawn.
+
+As an action you can hold this amulet above your head and shine a light into the hole, activating the amulet and expending a charge. For the next minute the amber stones emit piercing threads of light and while you hold this amulet above your head any undead that end their turn within 15 feet of you take 1d8 radiant damage.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Reynier's Cold Light <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis bullseye lantern’s glass pane is frosted over but it still emits a strong blue light in a 60-foot cone and dim light for an additional 60 feet. This light can’t be turned off nor does it require fuel but instead of the lantern emitting heat it instead has a chilled aura as if a cool autumn breeze is constantly blowing about it.
+
+Any Ooze or Shapeshifter that begins or ends its turn within the bright light of this lantern takes 1 cold damage.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Reynier's Miniature Raincloud <sup>BornToBrewStuff</sup></b>\n<em>Scroll, uncommon)</em>\n\nThis scroll is sealed with white wax that shimmers in the light and has the crest of a lightning bolt. When the seal is broken a tiny cloud the size of a fist appears 5 feet directly above the scroll. This cloud grows until it is 5 feet wide before beginning to rain. It rains 1d4 gallons of water over the course of 1 minute. This water is perfectly clear and could even be described as glittering. After 1 minute a single lightning bolt strikes the ground from the tiny cloud before it dissipates, and any creature within 5 feet of that point must make a DC 12 Dexterity saving throw or take 1d10 Lightning damage.\n<b>Value: </b>15pp\n_____\n
+\n<b>Ring of Jumping <sup>Basic Rules</sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Mind Shielding <sup>Basic Rules</sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Obscuring <sup>Explorer's Guide to Wildmount</sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\nThis band of iron resembles a skull and is cold to the touch. It has 3 charges and regains 1d3 expended charges daily at dawn. As an action while wearing the ring, you can expend 1 of its charges to cast the fog cloud spell from it, with the following changes: the cloud is centered on you when it first appears, and the spell lasts for 1 minute (no concentration required).\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Rapid Regeneration <sup>BornToBrewStuff</sup></b>\n<em>Ring, uncommon)</em>\n\nWhile wearing this ring you regenerate quickly as long as you have food. When you take a long or short rest if you eat a hot meal during the rest you gain temporary hit points equal to one of your hit dice that last until your next rest and also lose one level of exhaustion. However, whenever you are healed any temporary hit points you gained in this way are destroyed. Additionally, it never takes you longer than 1 hour to regain consciousness.\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Swimming <sup>Basic Rules</sup></b>\n<em>Ring, uncommon)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Truth Telling <sup>Waterdeep: Dragon Heist</sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Warmth <sup>Basic Rules</sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Ring of Water Walking <sup>Basic Rules</sup></b>\n<em>Ring, uncommon)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Rings of Shared Suffering <sup>Wayfinder's Guide to Eberron</sup></b>\n<em>Ring, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>45pp\n_____\n
+\n<b>Robe of Serpents <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Robe of Useful Items <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Rod of Retribution <sup>Explorer's Guide to Wildmount</sup></b>\n<em>Rod, uncommon(requires attunement)</em>\n\nThis adamantine rod is tipped with a glowing crystalline eye. The rod has 3 charges and regains all its expended charges daily at dawn.\n&
+\n&
+When a creature you can see within 60 feet of you damages you while you are holding this rod, you can use your reaction to expend 1 of the rod’s charges to force the creature to make a DC 13 Dexterity saving throw. The creature takes 2d10 lightning damage on a failed save, or half as much damage on a successful one.\n<b>Value: </b>30pp\n_____\n"
+"\n<b>Rod of the Pact Keeper, +1 <sup></sup></b>\n<em>Rod, uncommon(requires attunement)</em>\n\nWhile holding this rod, you gain a bonus to spell attack rolls and to the saving throw DCs of your warlock spells. The bonus is determined by the rod’s rarity. &
+\n\n&
+In addition, you can regain 1 warlock spell slot as an action while holding the rod. You can’t use this property again until you finish a long rest.\n<b>Value: </b>30pp\n_____\n"
+\n<b>Rope of Climbing <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Ruby Evertorch <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nLightbringer. This torch can burn infinitely. As a bonus
+action you can speak the command word of this torch. Doing
+so will make an unnaturally red flame appear. Providing
+bright light in a 30ft. radius and dim light for an additional
+40ft. If you make a melee attack with the flame active, it deals
+1d4 fire damage.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Runechalk - Alabaster White <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 10 to draw these symbols. Only one of the symbols can be active at a time. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> When drawn around a creature that is alive but at 0 hit points it will stabilize them. This does not affect undead or constructs.\n&
+\n&
+<b>Circle.</b> When standing in the circle you are granted 1d4 bonus to a single ability check of your choice.\n&
+\n&
+<b>Triangle.</b> Creates a sacred glyph on a 5ft. square. Any undead creature walking over the glyph has to make a Dexterity saving throw (DC 15). On a failed save they take 1d8+2 Radiant damage, on a successful save they take none.\n&
+\n&
+<b>Cross.</b> Erases all information from a sheet of paper.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Bright Yellow <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 6 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> Fills a container with 1 pint of your favorite ale\n&
+\n&
+<b>Circle.</b> Casts the Light cantrip on the object that it is drawn on.\n&
+\n&
+<b>Triangle.</b> Fills a container with 1 pint of lamp-oil\n&
+\n&
+<b>Cross.</b> Casts the spell Grease when a creature crosses the symbol.\n&
+\n&
+Lasts for 8 hours maximum, the DC for this spell is 12, A maximum of 3 cross symbols can be active at any given time.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Charming Pink <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 6 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> Tunes and repairs instruments.\n&
+\n&
+<b>Circle.</b> When standing in the circle any music you play or vocal sounds you make sound three times as loud.\n&
+\n&
+<b>Triangle.</b> Dramatic lighting fills a 10ft. cube, increases any Perfomance checks by 3.\n&
+\n&
+<b>Cross.</b> Casts a small display of Prestidigitation fireworks when stepped on by any creature. Charisma (Perfomance) checks by 3.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Runechalk - Cloudy Grey <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> Anything you draw or write appears in the sky as clouds A strong wind can blow the clouds away early, or they dissipate naturally after one hour. A single message can consist of a maximum of 20 characters or one symbol. You can use the chalk 20 times before it runs out. You do not need to be able to see the sky. However the message will not appear if the magic can not reach the sky. This happens if there is 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt between the surface you wrote on and the sky\n<b>Value: </b>25gp\n_____\n
+"\n<b>Runechalk - Flame Red <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 6 to draw these symbols. Only one of the symbols can be active at a time. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> Lasts for 24 hours maximum. The first creature that walks over this symbol has to make a Dexterity saving throw (DC 10) on success they take no damage, on a fail they get hit by an erupting flame and take 1d6 Fire damage. After this happens the symbol disappears.\n&
+\n&
+<b>Circle.</b> Conjures a non-magical campfire that can burn for a duration of 8 hours.\n&
+\n&
+<b>Triangle.</b> Cooks all the food in a 2ft cube with a quality as if prepared by a professional chef.\n&
+\n&
+<b>Cross.</b> Casts the spell Heat Metal on the (metal) item it is drawn on.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Midnight Black <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an Intelligence of 8 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> Drawn around a lock, grants a +5 bonus to Sleight of Hand checks for attempts to unlock it.\n&
+\n&
+<b>Circle.</b> While standing in the circle you have advantage on Perception checks you make to spot traps.\n&
+\n&
+<b>Triangle.</b> Conjures and spreads caltrops in a 5ft. square.\n&
+\n&
+<b>Cross.</b> Drawn on footwear, grants +3 to stealth checks for 1 hour. Effect does not stack.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Navy Blue <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 8 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> Casts Fog cloud (1st level), centered on the symbol. Only one square can be active at a time.\n&
+\n&
+<b>Circle.</b> Creates up to a gallon of water in a container.\n&
+\n&
+<b>Triangle.</b> Creates an Arcane Umbrella 10 ft above the symbol. It covers a 10ft. radius in which it stays dry from all natural rainfall.\n&
+\n&
+<b>Cross.</b> Destroys up to a gallon of liquid from a container.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Royal Purple <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 10 to draw these symbols. Effects last for one hour. Identical symbols do not have a stacking effect. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Shield.</b> (drawn on shield) You have an +1 bonus to your AC while using this shield on top of the regular ac this shield grants you\n&
+\n&
+<b>Hammer.</b> (drawn on armor) Grants resistance against Bludgeoning damage.\n&
+\n&
+<b>Arrowhead.</b> (drawn on armor) Grants resistance against Piercing damage\n&
+\n&
+<b>Crescent moon.</b> (drawn on armor) Grants resistance against Slashing damage\n&\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Sky Blue <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 6 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up.\n&
+\n&
+<b>Square.</b> Casts the spell Alarm, the 20ft. cube is centered on the symbol.\n&
+\n&
+<b>Circle.</b> Casts the spell Purify Food and Drink, centered on the symbol.\n&
+\n&
+<b>Triangle.</b> Casts the cantrip Mending on the item you draw the symbol on.\n&
+\n&
+<b>Cross.</b> Instantly locks a mechanical lock on a door or a chest once.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Vine Green <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up. </b>As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 10 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up. Using this chalk you can transmutate a 1ft cube of stone, wood or metal, this effect lasts for 1 hour after which the material turns back. This chalk does not work on any equipment or weapon that is being worn or carried.\n&
+\n&
+<b>Square.</b> Turns 1ft cube of material to wood\n&
+\n&
+<b>Circle.</b> Turns 1ft cube of material to solid rock.\n&
+\n&
+<b>Triangle.</b> Turns 1ft cube of material to solid iron\n&
+\n&
+<b>Cross.</b> Turns 1 ft cube of material to loose earth.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Runechalk - Warm Orange <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Chalk One Up.</b> As an action you can use this chalk to draw a simple symbol. A creature using this chalk must have at least an intelligence of 10 to draw these symbols. You can draw up to 20 symbols with this chalk before it is completely used up. Using this chalk you can transmutate a 1ft cube of stone, wood or metal, this effect lasts for 1 hour after which the material turns back. This chalk does not work on any equipment or weapon that is being worn or carried.\n&
+\n&
+<b>Square.</b> Turns 1ft cube of material to wood\n&
+\n&
+<b>Circle.</b> Turns 1ft cube of material to solid rock.\n&
+\n&
+<b>Triangle.</b> Turns 1ft cube of material to solid iron\n&
+\n&
+<b>Cross.</b> Turns 1 ft cube of material to loose earth.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Saddle of the Cavalier <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Sahaguin Stimulant <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nThe primary ingredient for this deep red potion is supposedly shark blood. Any creature that consumes the viscous fluid from it’s rough wooden cask gains 3d8 temporary hitpoints and a single action surge (see Fighter’s Action Surge) they can use. These each last for one hour, and expire after that time. Any creature that is not a Sahaguin suffers from the Poisoned status the day after they take the stimulant which lasts until they take another long rest.\n<b>Value: </b>10pp\n_____\n
+"\n<b>Sanctified Gilded Skull <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nWard of the Afterlife. When you are attuned to this item
+whenever there is Necrotic damage dealt to you, roll a d6
+and subtract the number from the damage. Additionally,
+undead creatures can not be created within 100ft. of this item.
+(Existing undead can exist within or enter this range.)
+Necromantic Aversion. When you are attuned to this
+skull and you are targeted with a spell of level 1 to 3 from the
+Necromancy school you may choose to negate the effects.
+Roll a d20, on 2-20 the spell has no effect as the skull cancels
+it out. On a 1 the spell takes effect but also shatters the skull,
+destroying the item completely. You can use this feature once
+per long rest.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Seafarer's Map Table <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nBound Vessel. This map table only works when bound to
+a ship. This can be done by placing a small wooden boat
+figurine carved from the ship’s timber in the center of the
+map. The map table has to be on the ship to function. If these
+prerequisites are not met the map is completely blank.
+Proximity Mapping. The map shows the surroundings in
+a 30 mile radius around the ship. It depicts the landscape,
+settlements and seafaring vessels. You can speak a command
+word while you point to a location or vessel to name it. The
+name appears as neat writing on the map.
+The disc around the map indicates the north. The rings
+above it show the position of the sun (or moon) as well as the
+direction and force of the wind.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Seeker Dart <sup>Princes of the Apocalypse</sup></b>\n<em>Weapon(Dart), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Sending Stone <sup>Acquisitions Incorporated</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Sending Stones <sup>Dungeon Master's Guide</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Sentinel Shield <sup>Dungeon Master's Guide</sup></b>\n<em>Armor(Shield), uncommon)</em>\n\n\n<b>Value: </b>40pp\n_____\n
+"\n<b>Shattering Flail <sup>BornToBrewStuff</sup></b>\n<em>Weapon(Flail), uncommon(requires attunement)</em>\n\nThis flail has a head made from an astoundingly solid crystal, and as it strikes it resonates with the sound of crunching glass.    It has 6 charges and regains 1d6 expended charges after a long rest.  
+
+When you hit an object with this flail that is not being worn or carried you can expend a charge to attempt to shatter it if the target object is 1 foot thick or less. Make a DC 15 Strength check and on a success you shatter up to a 5-foot square section. You have advantage on this check if the object is made from glass, crystal, or ice.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Shatterspike <sup></sup></b>\n<em>Weapon(Longsword), uncommon(requires attunement)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+"\n<b>Shield of the Roc <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Armor(Shield), uncommon)</em>\n\nAC. +2
+Light as a Feather. While holding the shield you can cast
+Feather Fall on yourself as a reaction. You can use this feature
+twice per long rest.
+Elemental Origin. With this shield when you are in the
+elemental plane of Air, you can spend an action to gain a
+Flying speed equal to your movement speed for up to one
+hour. You can use this feature once per day. If the shield has
+been in the elemental plane of air for over a day this feature
+can be used on any other plane and turns it into a Rare Shield.\n<b>Value: </b>40pp\n_____\n"
+\n<b>Shield, +1 <sup>Basic Rules</sup></b>\n<em>Armor(Shield), uncommon)</em>\n\n\n<b>Value: </b>40pp\n_____\n
+"\n<b>Shooting Shot Bag <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis light leather bag is attached to an inverted wooden funnel with a cork stopper where its drawstring would be. The bag can hold 20 sling bullets which just barely fit through the funnel’s opening.
+
+As an action you can uncork the bag and focus on it, choosing a target you can see that is within 120 feet of you. On your next turn if your target is still visible and in range as an action you can guide a sling bullet out of the funnel, sending it darting around cover to its target and dealing 1d4+1 magical bludgeoning damage.
+
+When you spend an action in this way you can also choose a new target. You can reload the pouch, either placing 1 sling bullet through the funnel as an action or bonus action, or by spending 1 minute to reload all expended bullets.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Silver Raven (Figurine of Wondrous Power) <sup></sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Skyblinder Staff <sup></sup></b>\n<em>Staff, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>35pp\n_____\n
+"\n<b>Sling of Piercing <sup>BornToBrewStuff</sup></b>\n<em>Weapon, uncommon(requires attunement)</em>\n\nAs you swing this sling around your head you can hear it whistling, and the ammunition begins to glow a faint white.
+This sling has 8 charges and regains 1d6+2 charges each day at dawn.
+
+If you expend a charge when you make an attack with this weapon the ammunition screams forward in flash of light. You make a single attack roll against all targets in a 1-foot wide 60-foot long line. On a hit the target takes an additional 2d4 piercing damage.\n<b>Value: </b>20pp\n_____\n"
+\n<b>Slippers of Spider Climbing <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Smarmalade <sup>Faerie Fire</sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+\n<b>Smokepowder <sup>Waterdeep: Dragon Heist</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Socks of Finding <sup>Relics of the Realms - Volume 4</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nLost and Found. This pair of socks is enchanted with
+Divination magic. When you are wearing one of these socks
+you always know exactly where the other is if it is within 10
+miles of you. The enchantment can be blocked by Antimagic
+fields. When the socks are more than 10 miles apart or are on
+different planes, one automatically teleports to within 5ft. of
+the other. Flip a coin to determine which sock teleports.
+Sock-mail. When a sock teleports it also teleports objects
+that are inside of it. Creatures or parts of creatures do not get
+teleported but instead remain in their original place as the
+sock disappears.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Soul Coin <sup>Baldur's Gate: Descent into Avernus</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Spell Gem (Lapis Lazuli) <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Spell Gem (Obsidian) <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Spell Scroll, Level 2 Spell <sup>Basic Rules</sup></b>\n<em>Scroll, uncommon)</em>\n\nA spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n&
+\n&
+If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the scroll with no other effect.\n&
+\n&
+The level of the spell on the scroll determines the spell’s saving throw DC (13) and attack bonus (+5), as well as the scroll’s rarity, as shown in the Spell Scroll table.\n&
+\n&
+[@SpellsLevel2]\n<b>Value: </b>7.5gp\n_____\n"
+"\n<b>Spell Scroll, Level 3 Spell <sup>Basic Rules</sup></b>\n<em>Scroll, uncommon)</em>\n\nA spell scroll bears the words of a single spell, written in a mystical cipher. If the spell is on your class’s spell list, you can read the scroll and cast its spell without providing any material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell’s normal casting time. Once the spell is cast, the words on the scroll fade, and it crumbles to dust. If the casting is interrupted, the scroll is not lost.\n&
+\n&
+If the spell is on your class’s spell list but of a higher level than you can normally cast, you must make an ability check using your spellcasting ability to determine whether you cast it successfully. The DC equals 10 + the spell’s level. On a failed check, the spell disappears from the scroll with no other effect.\n&
+\n&
+The level of the spell on the scroll determines the spell’s saving throw DC (15) and attack bonus (+7), as well as the scroll’s rarity, as shown in the Spell Scroll table.\n&
+\n&
+[@SpellsLevel3]\n<b>Value: </b>7.5gp\n_____\n"
+"\n<b>Spellwrought Tattoo([@SpellsLevel2]) (UA) <sup>Unearthed Arcana</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\nThis tattoo contains a single spell of up to 5th level, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell’s duration. Once the spell ends, the tattoo vanishes from your skin.\n&
+\n&
+The level of the spell in the tattoo determines the spell’s saving throw DC (13), attack bonus (+5), spellcasting ability modifier (+3), and the tattoo’s rarity, as shown in the Spellwrought Tattoo table.\n<b>Value: </b>25gp\n_____\n"
+"\n<b>Spellwrought Tattoo([@SpellsLevel3]) (UA) <sup>Unearthed Arcana</sup></b>\n<em>Wondrous Item(Tattoo), uncommon)</em>\n\nThis tattoo contains a single spell of up to 5th level, wrought on your skin by a magic needle. To use the tattoo, you must hold the needle against your skin where you want the tattoo to appear and speak the command word. The needle turns into the ink that becomes the tattoo, which appears on your skin. Once the tattoo is on your skin, you can cast its spell, requiring no material components. The tattoo glows faintly while you cast the spell and for the spell’s duration. Once the spell ends, the tattoo vanishes from your skin.\n&
+\n&
+The level of the spell in the tattoo determines the spell’s saving throw DC (15), attack bonus (+7), spellcasting ability modifier (+4), and the tattoo’s rarity, as shown in the Spellwrought Tattoo table.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Spies’ Murmur <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Spikes of Alarm <sup>Relics of the Realms - Volume 4</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n<b>Alarm.</b> These spikes can easily be placed in soft ground without any tools. Placing a spike in rock or wood requires a tool like a hammer or bludgeoning weapon. When you place a spike you may choose whether the alarm is mental or audible. A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping. An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.\n&
+\n&
+<b>Single Spike.</b> As an action you can place a single spike and speak a command word to activate it. If any creature comes within 10ft. of the spike the alarm is triggered.\n&
+\n&
+<b>Boundary of Spikes.</b> You can place multiple spikes in a 200ft. radius, meaning each spike has to be within a 200ft. range of all the other spikes. You can speak a command word to link them together. Whenever a creature crosses the perimeter line between two spikes the alarm is triggered.\n<b>Value: </b>25gp\n_____\n"
+\n<b>Spymaster's Cloak <sup>MCDM: Strongholds & Followers</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nPeople who meet you tend to forget you. Gather Intel checks have disadvantage against anyone wearing this fine grey cloak.\n<b>Value: </b>50pp\n_____\n
+\n<b>Staff of the Adder <sup></sup></b>\n<em>Staff, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>35pp\n_____\n
+\n<b>Staff of the Python <sup>Basic Rules</sup></b>\n<em>Staff, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>35pp\n_____\n
+\n<b>Stage of the Mime <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis wooden chest is one foot on each side and has a simple clasped lid. The Stage of the Mime has 3 charges, and weighs 4 pounds. As an action you can open the chest, expending a charge. When the chest is opened it becomes spectral and unfolds into a small ghostly stage on the ground, creating a 20 foot radius zone of silence, centered on the location the box was opened. This zone of silence lasts 1 minute and while within this zone of silence you have advantage to all performance checks that are not considered an attack. At the end of 1 minute the stage disappears leaving the, no longer spectral, chest in its place. The Stage of the Mime regains 1d4-1 charges each day at dawn.\n<b>Value: </b>50pp\n_____\n
+"\n<b>Stalker's Dart <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Dart), uncommon)</em>\n\n<b>Damage.</b> 1d4+1 Piercing\n&
+<b>Range.</b> 20/60\n&
+<b>Mark of the Prey.</b> Upon a succesfull attack this dart releases an arcane mark. For the next 6 hours, if the creature is within 1000 ft of you, you sense the direction it is in, if it is in motion you know the direction of it’s movement. This effect can be dispelled. This is a single use effect.\n<b>Value: </b>10gp\n_____\n"
+\n<b>Stone of Good Luck (Luckstone) <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Stone of Ill Luck <sup></sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Storm Boomerang <sup>Princes of the Apocalypse</sup></b>\n<em>Weapon(Boomerang), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Sword of Vengeance <sup></sup></b>\n<em>Weapon, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+"\n<b>Talisman of the Satyr <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon(requires attunementby a Bard, Druid or Ranger)</em>\n\nMaster of the Bow. When you attack a creature that is
+within 5ft. range of you with a shortbow, longbow or any
+type of crossbow, you do not suffer from disadvantage on the
+ranged attack roll. Additionally you gain 10 ft on your range
+(minimum and maximum) with these weapons.
+Sounds of the Forest. When attuned to this item you gain
+proficiency with Panflutes. With a successful Performance
+check (DC 15) when playing a panflute, you can attract 1d8
+birds from the surroundings. Most types of birds will happily
+tweet along to your song.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Tangleseed Arrow <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Weapon(Ammunition), uncommon)</em>\n\n<b>Entangling Shot.</b> This arrow deals the same damage as a regular arrow. However when you successfully hit a Large or smaller creature with this arrow, the target has to make a Dexterity saving throw (DC 17). On a failed save they get wrapped by a fast sprouting tangle of vines and the creature is considered Restrained. A creature can use an action to attempt to break free at the end of its turn with a successful Strength check (DC 15).\n<b>Value: </b>10gp\n_____\n
+\n<b>Thessaltoxin Antidote <sup></sup></b>\n<em>Potion, uncommon)</em>\n\n\n<b>Value: </b>5gp\n_____\n
+"\n<b>Thundering Chime <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nThis cloudy white crystal rod has meticulously placed holes bored through it. 
+If struck it makes a hollow thud, but when this crystal is within the area of an effect that deals Thunder damage it activates, reverberating with an eerie echo. The triggering effect is duplicated with the crystal at its center and the affected area is considered an extension of the original.
+While attuned to this item you automatically succeed on saving throws for any effect that triggers this crystal.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Tightrope Treads <sup>Relics of the Realms - Volume 3</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nAcrobat’s Feet. While wearing these boots you gain a +1
+bonus to all Acrobatics checks you make.
+Balancing Act. These boots allow you to walk or run on
+top of any object narrower than the sole of your foot, such
+as a rope, wire, beam or ledge. You can move at your full
+movement speed along these narrow obstacles without
+having to make an Acrobatics or Dexterity check to prevent
+you from falling from them.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Tiny Duck Crown <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\nLegacy of Karl. When attuned to this bracelet you gain +1
+Wisdom. Every day at dawn, roll percentile dice, if it is lower
+than 50 nothing
+happens if it is 50 or higher all ducks in a 1 mile radius around
+you come to you within the next 10 minutes and follow you
+around until midnight. Your DM rolls a number of d8’s to
+determine how many ducks follow you for the coming day.
+Ducks per Habitat
+Habitat Ducks
+Natural (e.g. Forests, lakes) 4d8
+Unlikely (e.g. Mountaintops) 2d8
+Highly unlikely (e.g. Hell) 1d8
+King of Ducks. By speaking a command word (‘Bird’) 5
+ducks will assist you in your current task. You gain advantage
+on your next roll. You can use this feature until all ducks have
+assisted you. The ducks leave you after assisting. The ducks
+can not attack. They have 1 hit point each and an AC of 5.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Token of the Sea Speaker <sup>Relics of the Realms - Volume 5</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nDiplomat of the Depths. While you are wearing this amulet
+you can speak and understand Aquan. Additionally you are
+able to breathe air and water if you can not already, as long as
+you have the token around your neck.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Totem of Tongues <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nSharp Tongue. You can perform a 10 minute ritual with this
+totem. At the end you choose one creature within 10ft. of you
+and a language of your choice. The creature gains the ability
+to understand and speak this language for 1 hour. You can use
+this feature once per long rest.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Travel Alchemical Kit <sup>Acquisitions Incorporated</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Trident of Fish Command <sup>Basic Rules</sup></b>\n<em>Weapon(Trident), uncommon(requires attunement)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+"\n<b>Twin Hook Swords <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Weapon(Shortsword), uncommon)</em>\n\nDamage. 1d6 Slashing (per sword)\n&
+\n&
+Sweep the Leg. When you make a succesfull attack with one of these swords, you can choose to try and hook one of the legs of a creature as a bonus action. Make a Athletics check contested against the creature’s Athletics check. If you succeed you deal an extra 1d4 Piercing damage and pull the creature prone. If you fail the contest the creature remains to stand upright. This feature only works on bipedal creatures or winged flying creatures.\n&
+\n&
+Climber’s Hook. You can use the swords to anchor yourself when climbing vertical surfaces. This grants you advantage on Strength (Athletics) checks for climbing.\n<b>Value: </b>20pp\n_____\n"
+"\n<b>Twin Serpent Staff <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Staff, uncommon(requires attunementby a Druid, Sorcerer, Warlock or Wizard)</em>\n\nAcid Bolt. As an action you can cast Acid Arrow (3rd level) using this staff. You can use this feature twice per day.\n&
+\n&
+Lifetransfer. As an action you can make the two snake heads of this staff bite down on two creatures. The creature with the least missing hit points takes 3d8 necrotic damage. The other creature heals the amount of damage dealt +4. Any poisons or diseases are transferred as well. This feature can be used once per long rest.\n<b>Value: </b>35pp\n_____\n"
+\n<b>Uncommon Glamerweave <sup>Wayfinder's Guide to Eberron</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Vial of Thundering Orbs <sup>BornToBrewStuff</sup></b>\n<em>Potion, uncommon)</em>\n\nThis small vial holds a clear foaming liquid, and has a wand of sorts attached to it by a string. As an action a creature can soak the wand in the liquid and blow on it, when they do so 10 airy crystalline orbs form at the end of the wand and gently float wherever the wind fancies. Using the vial in this way expends a charge. The orbs burst after traveling 100 feet, touching a creature, or bumping into a sharp object. When an orb bursts it deals 1d4 thunder damage to all creatures within 5 feet as a uncannily large concussion emanates from them that can be heard out to 100 feet. The vial is found with a number of uses equal to 2d10 or a number of the DM’s choosing and when all uses are expended it is empty and cannot be used again.\n<b>Value: </b>10pp\n_____\n
+\n<b>Wand of Entangle <sup></sup></b>\n<em>Wand, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>12.5gp\n_____\n
+\n<b>Wand of Magic Detection <sup>Basic Rules</sup></b>\n<em>Wand, uncommon)</em>\n\n\n<b>Value: </b>12.5gp\n_____\n
+\n<b>Wand of Magic Missiles <sup>Basic Rules</sup></b>\n<em>Wand, uncommon)</em>\n\n\n<b>Value: </b>12.5gp\n_____\n
+\n<b>Wand of Mending <sup>BornToBrewStuff</sup></b>\n<em>Wand, uncommon)</em>\n\nThis wand is made of a sturdy oak and each end is seamlessly reinforced with bronze. It has 5 charges and regains 1d4+1 charges each day at dawn. You may choose to spend a charge to cast Mending with a range of 10 feet. For every additional charge spent to cast Mending the size you may mend increases by 1 foot. If you double the charges spent you may cast Mending as an action.\n<b>Value: </b>25pp\n_____\n
+\n<b>Wand of Secrets <sup>Basic Rules</sup></b>\n<em>Wand, uncommon)</em>\n\n\n<b>Value: </b>12.5gp\n_____\n
+\n<b>Wand of the War Mage, +1 <sup>Basic Rules</sup></b>\n<em>Wand, uncommon(requires attunementby a spellcaster)</em>\n\n\n<b>Value: </b>25pp\n_____\n
+\n<b>Wand of Web <sup>Basic Rules</sup></b>\n<em>Wand, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>12.5gp\n_____\n
+"\n<b>Waterwalkers <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nLiquid to Solid. As a bonus action you can activate these boots to walk on any surface of water as if it were solid ground. If you decide you want to swim, you can spend a bonus action to de-activate the boots. If the body of water has waves you may have to make a Dexterity saving throw to keep yourself steady. The DC for this saving throw depends on the intensity of the waves and is at your GM’s discretion. If you fail the save the boots deactivate and you fall down into the water.\n&
+\n&
+Aquatic Booster Boots. These boots propel you forward when you are underwater. You receive a 10ft. bonus to your swimming speed.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Wayfinder <sup>Relics of the Realms - Volume 2</sup></b>\n<em>Weapon(Longsword), uncommon)</em>\n\nDamage. 1d8+1 (1d10+1) Slashing
+
+Etched and Honed. You gain a +1 bonus to attack rolls you make with this weapon.
+
+Wanderer of the Wild. When attuned to this sword you gain a +2 bonus to Nature and Survival checks.
+
+Compass. On the Material Plane you can place this sword on the ground and speak a command word that causes the sword to slowly spin until it points towards the north. If you do the same on any other plane the sword points towards the closest portal back to the material plane (if there is one).\n<b>Value: </b>20pp\n_____\n"
+\n<b>Weapon of Warning <sup></sup></b>\n<em>Weapon, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Weapon, +1 <sup>Basic Rules</sup></b>\n<em>Weapon, uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Wheel of Wind and Water <sup>Wayfinder's Guide to Eberron</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+"\n<b>Whistle of the Wind <sup>BornToBrewStuff</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\nThis wooden whistle hangs from a thick twine and when blown does not produce the expected high shrill.\n&
+\n&
+As a bonus action you can blow through the whistle, seizing the air and compelling it to create one of the following effects.\n&
+\n&
+- One Medium or smaller creature within 30 feet must succeed on a Strength saving throw or be pushed up to 10 feet away from you.\n&
+- You create a small orb of air capable of moving one object that is neither held nor carried within 30 feet and that weighs no more than 15 pounds. The object is pushed up to 20 feet away from you, but is not pushed with enough force to cause damage.\n&
+- You blow downwards doubling your high jump and reducing any fall damage taken by half until the start of your next turn.\n<b>Value: </b>50pp\n_____\n"
+"\n<b>Willow's Whisper <sup>Relics of the Realms - Volume 1</sup></b>\n<em>Wondrous Item, uncommon(requires attunement(just requires proficiency with Flutes))</em>\n\n<b>Melody of the Willow’s Bark.</b> Once per day (as an action) you can play a soft song on this flute, laced with the healing essence of the willow’s bark. Anyone within a 30ft. radius that can hear you play receives 1d8+2 healing. This song also cures most fevers and relieves pain.\n&
+\n&
+<b>Way of the Willows.</b> Once per week you can cast the spell Tree Stride. You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you’re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered. You can use this ability once per round for the duration. You must end each turn outside a tree.\n<b>Value: </b>50pp\n_____\n"
+\n<b>Wind Fan <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon)</em>\n\n\n<b>Value: </b>25gp\n_____\n
+\n<b>Winged Boots <sup>Basic Rules</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Wingwear <sup>Princes of the Apocalypse</sup></b>\n<em>Wondrous Item, uncommon(requires attunement)</em>\n\n\n<b>Value: </b>50pp\n_____\n
+\n<b>Winter’s Dark Bite <sup></sup></b>\n<em>Weapon(Greatsword), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+\n<b>Yklwa, +1 <sup>Add to Weapons</sup></b>\n<em>Weapon(Yklwa), uncommon)</em>\n\n\n<b>Value: </b>20pp\n_____\n
+EndTable:
