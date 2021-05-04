@@ -38,49 +38,14 @@ Default: <font color=Purple>[@Precious]</font>{@BaseValue==(4d6+16)}
 241-280:<font color=Gold>[@Extraordinary]</font>{@BaseValue==(10d6+40)}
 EndTable:
 
-Table: Spell Gem Chance_0
+Table: Spell Gem Chance
+Roll: 1d100
 1-90: \z
-91-100: [#0 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_1
-1-90: \z
-91-100: [#1 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_2
-1-90: \z
-91-100: [#2 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_3
-1-90: \z
-91-100: [#3 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_4
-1-90: \z
-91-100: [#4 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_5
-1-90: \z
-91-100: [#5 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_6
-1-90: \z
-91-100: [#6 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_7
-1-90: \z
-91-100: [#7 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_8
-1-90: \z
-91-100: [#8 Spell Gem Spell]
-EndTable:
-Table: Spell Gem Chance_9
-1-90: \z
-91-100: [#9 Spell Gem Spell]
+91-100: [#{$1} Spell Gem Spell]
 EndTable:
 
 Table: Spell Gem Spell
-Type: lookup
+Type: Lookup
 0:(cantrip - [@SpellsLevel0])
 1:(1st lvl - [@SpellsLevel1])
 2:(2nd lvl - [@SpellsLevel2])
@@ -112,31 +77,31 @@ EndTable:
 
 Table: OrnamentalStone
 Onyx
-Obsidian [@Spell Gem Chance_[|0|1]]
+Obsidian [@Spell Gem Chance with [|0|1]]
 Coral
 Jasper
 Carnelian
 Chrysoberyl
-Bloodstone [@Spell Gem Chance_[|2|3]]
+Bloodstone [@Spell Gem Chance with [|2|3]]
 Chrysoprase
 Citrine
 Jet
 Moonstone
-Lapis Lazuli [@Spell Gem Chance_[|0|1]]
+Lapis Lazuli [@Spell Gem Chance with [|0|1]]
 Turquoise
-Quartz [@Spell Gem Chance_[|2|3]]
+Quartz [@Spell Gem Chance with [|2|3]]
 EndTable:
 
 Table: SemiPrecious
 Pearl
-Amber [@Spell Gem Chance_[|4|5|6]]
+Amber [@Spell Gem Chance with [|4|5|6]]
 Garnet
 Aquamarine
 Peridot
 Spinel
-Topaz [@Spell Gem Chance_[|4|5|6]]
+Topaz [@Spell Gem Chance with [|4|5|6]]
 Tanzanite
-Jade [@Spell Gem Chance_[|4|5|6]]
+Jade [@Spell Gem Chance with [|4|5|6]]
 Amythist
 Tourmaline
 EndTable:
@@ -144,7 +109,7 @@ EndTable:
 Table: Precious
 Blue Sapphire
 Star Sapphire
-Star Ruby [@Spell Gem Chance_[|7|8|9]]
+Star Ruby [@Spell Gem Chance with [|7|8|9]]
 Black Pearl
 Emerald
 Black Opal
@@ -157,10 +122,10 @@ Brown Diamond
 EndTable:
 
 Table: Extraordinary
-White-blue Diamond [@Spell Gem Chance_[|7|8|9]]
+White-blue Diamond [@Spell Gem Chance with [|7|8|9]]
 Pink Diamond
 Canary Diamond
-Ruby [@Spell Gem Chance_[|7|8|9]]
+Ruby [@Spell Gem Chance with [|7|8|9]]
 Black Sapphire
 Jacinth
 EndTable:
