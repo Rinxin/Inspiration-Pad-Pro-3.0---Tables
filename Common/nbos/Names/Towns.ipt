@@ -1,0 +1,25 @@
+use: nbos\names\Human.ipt
+
+Table: MasterTownName
+Set: vBaseWord=[@TownNameBaseWord]
+10:{$vBaseWord}
+{$vBaseWord} City
+{$vBaseWord}town
+{$vBaseWord}ton
+{$vBaseWord}ville
+{$vBaseWord}vill
+{$vBaseWord}sdale
+{$vBaseWord}burgh
+{$vBaseWord}burg
+{$vBaseWord}berg
+{$vBaseWord}port
+{$vBaseWord}fort
+{$vBaseWord} Keep
+{$vBaseWord} Castle
+Fort {$vBaseWord}
+
+Table: TownNameBaseWord
+2:[@HumanNameFirst][@HumanNameMiddle]
+2:[@HumanNameFirst]{$HumanEndConstanant}
+[@HumanNameFirst][@HumanNameMiddle]{$HumanEndConstanant}
+
