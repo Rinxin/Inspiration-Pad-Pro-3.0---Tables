@@ -1,0 +1,58 @@
+; Additional Tables.ipt
+; created 11/7/2020 8:54:52 PM
+
+Table: Main_Table
+Error request on Additonal tables made!
+EndTable:
+
+Table: Creature Type 
+Aberration
+Beast
+Celestial
+Construct
+Dragon
+Elemental
+Fey
+Fiend
+Giant
+Humanoid
+Monstrosity
+Ooze
+Plant
+Undead
+EndTable:
+
+Table: Damage Tyep - Elemental 
+Acid
+Cold
+Fire
+Force
+Lightning
+Necrotic
+Poison
+Psychic
+Radiant
+Thunder
+EndTable:
+
+Table: Dragon Color (Damage Type) 
+Black [Acid]
+Blue [Lightning]
+Brass [Fire]
+Bronze [Lightning]
+Copper [Acid]
+Gold [Fire]
+Green [Poison]
+Red [Fire]
+Silver [Cold]
+White [Cold]
+EndTable:
+
+Table: Magic Item Prices 
+Common: {1d51+49}gp
+Uncommon: {1d400+100}gp
+Rare: {1d4500+500}gp
+Very Rare: {1d45000+5000}gp
+Legendary: {1d450000+50000}gp
+Artifact: {1d4500001+50000}gp
+EndTable:
