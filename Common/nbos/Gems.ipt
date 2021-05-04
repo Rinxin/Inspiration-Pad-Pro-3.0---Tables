@@ -1,0 +1,60 @@
+use:common/nbos/names/Human.ipt
+use: common/nbos/LeaderTitles.ipt
+use: common/nbos/FantasyRaces.ipt
+use: common/nbos/Professions.ipt
+use: common/nbos/Animals.ipt
+use: common/nbos/Monsters.ipt
+
+Header: <b>While in town...</b>
+MaxReps: 1
+
+Table: MasterAdventureHooks
+Set: R=[@MasterHumanName]
+Set: RulerName=[@NobilityTitles]\_[@MasterHumanName]
+Shuffle: Professions
+\a [!Professions], \a [!Professions], and \a [!Professions] were all found dead in the alleys this morning - killed in the same grisly manner.
+\a [!Professions], \a [!Professions], and \a [!Professions] were all found dead in the alleys this morning - killed in the same grisly manner.  \a [!Professions] named [@MasterHumanName] is missing.
+A stranger approaches.  He seeks revenge against a family enemy.  And will pay handsomely.
+An unknown assasin has taken an unfortunate interest in one of the character's demises.
+{$RulerName}'s daughter has been kidnapped by a neighboring ruler.  A king's ransom (well, a princess's ransom) for those brave enough to rescue her!
+{$RulerName} wishes to kidnap the daughter/son of a neighboring ruler to extract revenge.
+{$RulerName} has taken an infatuation and wishes the daughter/son of a neighboring ruler to be 'theirs'.
+A daughter of a top aid to {$RulerName} has been kidnapped.  Who will help him?
+It's rumored that just outside the city is an old [@FantasyRacesAdj] [|gold|silver|platinum|diamond|opal] mine.
+The [|good|evil] wizard {$R} who lives in a stronghold on a nearby mountain has not been seen for a while.
+A [|good|evil|\z] wizard is seeking an apprentice.  But applicants must first pass a test!
+A merchant named {$R} claims to have been attacked by a band of [|orcs|kobolds|goblins|bandits] on the way into town.  He wishes the party to retrieve what they can from the attackers.
+The city has been plagued by a group of bandits.
+The city has been plagued by a group of bandits (who are bankrolled by a neighboring ruler)
+The city has been plagued by a group of bandits (who are bankrolled by {$RulerName})
+Much wealth and honor can be obtained by doing well in the annual tournament!
+One of the characters wins an ugly painting in a [|card|dice|dart] game.  Hidden under the canvas is a treasure map!
+One of the character's wins \a [@NormalAnimals] in a drunken [|card|dice|dart] game.  [|When the polymorph spell wears off and {$RulerName} is restored, the characters have some 'splaining to do!| Of course, it was stolen, and now the original owner, an evil wizard, wants it back and the characters dead.|All heck breaks out when the spell wears off and the polymorphed [@Monsters] goes on a rampage!  Of course, since it belonged to the characters, they're expected to make things right]
+The city has been plagued by a group of humanoids.
+Something stalks the city at night, and kills those unlucky enough to be found alone.
+Something stalks the city, and is killing the city's elders.
+A beautiful woman runs into the arms of the characters.  She hopes he can help her escape a powerful man who wants to marry her.
+A beautiful woman runs into the arms of the characters.  She hopes he can help her escape a powerful person who wants to marry her (who happens to be the town ruler!)
+A rich merchant named {$R} wants to hire the characters to find his missing wife. [||(Who has run away to be with someone else)]
+One of the characters is mistaken for an infamous thief!
+One of the characters is mistaken for an infamous thief! (Whom {$RulerName} seeks for a different reason...)
+One of the characters is mistaken for a past ruler!
+A mysterious rebel tries to drag the characters into his plot of revenge against the city and {$RulerName} (the guy's a nut).
+A mysterious rebel tries to drag the characters into his plot of revenge against the city and {$RulerName} (the stranger is telling the truth).
+The party is offered an 'easy' job by a Mercenary captain named {$R}.
+The party is offered an 'easy' job by a Mercenary captain named {$R}. (as fodder, of course)
+One of the characters has an item that a mysterious stranger wants.
+One of the characters has an item that {$RulerName} wants.
+Someone stole {$R}'s prized cow.
+A street urchin named {$R} is dragged off by the city guard for a crime one of the character(s) know he/she didn't commit.
+There's some mysterious goings on at the city's largest cemetary.
+A wizard named {$R} approaches the group.  He's discovered the location of an important [|scroll|book|want|sword|shield|helm|staff|statue|map|gem|herb|potion], and wants to hire the party to retrieve it.
+The characters are framed for a crime they didn't commit!
+The characters are approached by {$RulerName} with a job offer.  Escort his/her daughter/son to a nearby city to attend a wedding.
+The characters are approached by {$RulerName} with a job offer.  Escort his/her daughter/son to a nearby city to attend a wedding. (of course, this is the perfect chance to get rid of this little pest...)
+The characters are approached by {$R}, a wealthy merchant, who seeks an armed escort to another city.
+Caravans traveling to and from the city have been plagued by humanoid bandits.
+It's rumored that somewhere in this town, a school of magic is run by one of the town's elders.
+The town is facing a crime spree - animals are stealing people's valuables!
+A plague has been decimating the members of the lower class.
+A plague has been killing the members of the upper class.
