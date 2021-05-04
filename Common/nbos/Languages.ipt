@@ -1,0 +1,10 @@
+Define: LanguageModifier =[||Ancient]
+Table: Languages
+{$LanguageModifier} Common
+{$LanguageModifier} Elvish
+{$LanguageModifier} Gnomish
+{$LanguageModifier} Halfling
+{$LanguageModifier} Dwarvish
+{$LanguageModifier} Orcish
+{$LanguageModifier} Goblin
+{$LanguageModifier} Dragon
