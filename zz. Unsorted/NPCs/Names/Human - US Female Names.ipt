@@ -1,0 +1,6 @@
+use: nbos\names\USNames.ipt
+
+Header:Random U.S. female names derived from the 1990 U.S. Census.
+
+Table: USFemale
+[@USFullNameFemale]

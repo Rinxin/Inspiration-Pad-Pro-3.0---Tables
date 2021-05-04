@@ -1,0 +1,172 @@
+; Random Contract.ipt
+; created 4/4/2019 10:46:18 AM
+
+MaxReps: 8
+
+prompt: Party Lvl {} 5
+
+table: Random_Contract_Main
+[@Difficulty]\n [@Contract]\n
+Endtable:
+
+Table: Difficulty
+3: Basic \n <em>[#{$prompt1} Basic_Contact_Reward]</em>
+Advanced  \n <em>[#{$prompt1} Advanced_Contact_Reward]</em>
+EndTable:
+
+table: Contract
+Roll: 1d6
+<b>Exploration</b> \n[@Exploration]
+<b>Find</b> \n[@Find]
+<b>Hunt</b> \n[@Hunt]
+<b>Protection</b> \n[@Protection]
+<b>Raid</b> \n[@Raid]
+<b>Resource Gathering</b> \n[@Resource Gathering]
+Endtable:
+
+table: Exploration
+roll: 1d6
+Mapping the location
+Search or create new routes to the location
+Build an outpost and defenses
+Land surveillance
+Observe a creature
+Find a hidden entrance
+Endtable:
+
+table: Find
+roll: 1d6
+Find someone
+Find Something
+Steal Something
+Find valuable information
+retrieve an object
+Rescue someone
+Endtable:
+
+table: Hunt
+roll: 1d4
+Slay a specific monster
+Assassinate an individual
+Kill all members from a particular group
+Destroy a particular object
+Endtable:
+
+table: Protection
+roll: 1d4
+Escort someone from one point to another  ([@Location] to [@Location])
+Defend a place or location ([@Location])
+Proect an individual
+Guard an object
+Endtable:
+
+table: Raid
+roll: 1d6
+Attack a location
+Destroy a nearby camp
+Steal supplies
+Disable potential dangers
+Block trade routes
+Disabling an entrance
+Endtable:
+
+table: Resource Gathering
+roll: 1d4
+Gathering herbs and plants
+Collect a specific mineral
+Harvest a creature part
+Buy or trade a resource
+Endtable:
+
+table:  Location
+[@General Location]\n[@Specific Location]
+Endtable:
+
+table: General Location
+roll: 1d12
+Arctic
+Caves
+Desert
+Forest or Jungle
+Lake or River
+Mountain
+Ocean
+Plains
+Swamp
+Urban
+Distant Land
+Another Plane
+Endtable:
+
+table: Specific Location
+roll:1d20
+Ancient ruins
+Battlefield
+Catacombs
+Cliffs
+Dungeon
+Encampment
+Fortress or Castle
+Mansion
+Market
+Oasis
+Palace
+Prison
+Sanctuary or Shrine
+Sewers
+Storehouse
+Tavern
+Temple
+Tomb
+Tower
+Undercity
+Endtable:
+
+
+table: Basic_Contact_Reward
+type:lookup
+1: 10 gp (3rep)
+2: 20 gp (5rep)
+3: 30 gp (8rep)
+4: 50 gp (13rep)
+5: 100 gp (25rep)
+6: 120 gp (30rep)
+7: 150 gp (38rep)
+8: 180 gp (45rep)
+9: 220 gp (55rep)
+10: 240 gp (60rep)
+11: 320 gp (80rep)
+12: 400 gp (100rep)
+13: 440 gp (110rep)
+14: 500 gp (125rep)
+15: 560 gp (140rep)
+16: 640 gp (160rep)
+17: 780 gp (195rep)
+18: 840 gp (210rep)
+19: 980 gp (245rep)
+20: 1,140 gp (285rep)
+Endtable:
+
+table: Advanced_Contact_Reward
+type:lookup
+1: 20 gp (5rep)
+2: 40 gp (10rep)
+3: 80 gp (20rep)
+4: 100 gp (25rep)
+5: 220 gp (55rep)
+6: 280 gp (70rep)
+7: 340 gp (85rep)
+8: 420 gp (105rep)
+9: 480 gp (120rep)
+10: 560 gp (140rep)
+11: 720 gp (180rep)
+12: 900 gp (225rep)
+13: 1,020 gp (255rep)
+14: 1,140 gp (285rep)
+15: 1,280 gp (320rep)
+16: 1,440 gp (360rep)
+17: 1,760 gp (440rep)
+18: 1,900 gp (475rep)
+19: 2,180 gp (545rep)
+20: 2,540 gp (635rep)
+Endtable:

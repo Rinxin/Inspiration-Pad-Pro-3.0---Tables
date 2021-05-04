@@ -1,0 +1,228 @@
+; Human Names.ipt
+; created 11/28/2019 11:43:48 AM
+
+propt: Culture {Arabic|Celtic|Chinese|Egyptian|English|French|German|Greek|Indian|Japanese|Mesoamerican|Niger-Congo|Norse|Polynesian|Roman|Slavic|Spanish} Random
+
+Table: Random
+Arabic
+Celtic
+Chinese
+Egyptian
+English
+French
+German
+Greek
+Indian
+Japanese
+Mesoamerican
+Niger-Congo
+Norse
+Polynesian
+Roman
+Slavic
+Spanish
+EndTable:
+
+Table: Male Human - Arabic
+
+EndTable:
+
+Table: Female Human - Arabic
+
+EndTable:
+
+Table: Human Family - Arabic 
+
+EndTable:
+
+Table: Male Human - Celtic
+
+EndTable:
+
+Table: Female Human - Celtic
+
+EndTable:
+
+Table: Human Family - Celtic 
+
+EndTable:
+
+Table: Male Human - Chinese
+
+EndTable:
+
+Table: Female Human - Chinese
+
+EndTable:
+
+Table: Human Family - Chinese 
+
+EndTable:
+
+Table: Male Human - Egyptian
+
+EndTable:
+
+Table: Female Human - Egyptian
+
+EndTable:
+
+Table: Human Family - Egyptian 
+
+EndTable:
+
+Table: Male Human - English
+
+EndTable:
+
+Table: Female Human - English
+
+EndTable:
+
+Table: Human Family - English 
+
+EndTable:
+
+Table: Male Human - French
+
+EndTable:
+
+Table: Female Human - French
+
+EndTable:
+
+Table: Human Family - French 
+
+EndTable:
+
+Table: Male Human - German
+
+EndTable:
+
+Table: Female Human - German
+
+EndTable:
+
+Table: Human Family - German 
+
+EndTable:
+
+Table: Male Human - Greek
+
+EndTable:
+
+Table: Female Human - Greek
+
+EndTable:
+
+Table: Human Family - Greek 
+
+EndTable:
+
+Table: Male Human - Indian
+
+EndTable:
+
+Table: Female Human - Indian
+
+EndTable:
+
+Table: Human Family - Indian 
+
+EndTable:
+
+Table: Male Human - Japanese
+
+EndTable:
+
+Table: Female Human - Japanese
+
+EndTable:
+
+Table: Human Family - Japanese 
+
+EndTable:
+
+Table: Male Human - Mesoamerican
+
+EndTable:
+
+Table: Female Human - Mesoamerican
+
+EndTable:
+
+Table: Human Family - Mesoamerican 
+
+EndTable:
+
+Table: Male Human - Niger-Congo
+
+EndTable:
+
+Table: Female Human - Niger-Congo
+
+EndTable:
+
+Table: Human Family - Niger-Congo 
+
+EndTable:
+
+Table: Male Human - Norse
+
+EndTable:
+
+Table: Female Human - Norse
+
+EndTable:
+
+Table: Human Family - Norse 
+
+EndTable:
+
+Table: Male Human - Polynesian
+
+EndTable:
+
+Table: Female Human - Polynesian
+
+EndTable:
+
+Table: Human Family - Polynesian 
+
+EndTable:
+
+Table: Male Human - Roman
+
+EndTable:
+
+Table: Female Human - Roman
+
+EndTable:
+
+Table: Human Family - Roman 
+
+EndTable:
+
+Table: Male Human - Slavic
+
+EndTable:
+
+Table: Female Human - Slavic
+
+EndTable:
+
+Table: Human Family - Slavic 
+
+EndTable:
+
+Table: Male Human - Spanish
+
+EndTable:
+
+Table: Female Human - Spanish
+
+EndTable:
+
+Table: Human Family - Spanish 
+
+EndTable:

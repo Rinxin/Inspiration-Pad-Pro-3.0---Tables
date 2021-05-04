@@ -1,0 +1,13 @@
+; Random Encounter Mega-Table.ipt
+; created 1/6/2019 3:42:58 PM
+
+Table: Random Encounter Mega-Table
+1: No Encounter
+2: Roll on the Combat: Locales table (1d20)
+3: Roll on the Combat: Hordes table (1d8)
+4: Roll on the Combat: Duels table (1d20)
+5: Roll on the Travelling Scenes table (1d10)
+6: Roll on the Communities table (1d12)
+7: Roll on the Minor Events table (1d10)
+8: Use the appropriate Major Event for the terrain
+Endtable:

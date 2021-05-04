@@ -1,0 +1,21 @@
+; Treasure Tables - Main.ipt
+; created 11/25/2019 6:59:34 AM
+
+prompt: Value () Random Table
+
+Table: Treasure Tables - Main
+[@{proompt1}
+EndTable:
+
+Table: Random Table
+10gp or Less
+50gp
+100gp
+500gp
+1000gp
+5000gp
+10000gp
+30000gp
+50000gp
+Epic Treasure
+EndTable:

@@ -1,0 +1,69 @@
+; Character Names.ipt
+; created 11/28/2019 11:30:36 AM
+
+use: Generators\D&D\5e\Random Character Names\Race Names\Dragonborn Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Dwarf Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Elf Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Gnome Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Halfling Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Human Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Orc Names.ipt
+use: Generators\D&D\5e\Random Character Names\Race Names\Tiefling Names.ipt 
+
+prompt: Race Selection {Dragonborn|Dwarf| Elf| Gnome| Halfling| Orc| Tiefling| Human} Random
+
+Table: Character Names - Main
+[@{$prompt1} Names]
+EndTable:
+
+Table: Random 
+Dragonborn
+Dwarf
+Elf
+Gnome
+Halfling
+Orc
+Tiefling
+Human
+EndTable:
+
+
+Table: Dragonborn Names
+Male: [@Male Dragonborn] [@Dragonborn Clan]
+Female: [@Female Dragonborn] [@Dragonborn Clan]
+EndTable:
+
+Table: Dwarf Names
+Male: [@Male Dwarf] [@Dwarf Clan] 
+Female: [@Female Dwarf] [@Dwarf Clan]
+EndTable:
+
+Table: Elf Names
+Male: [@Male Elf] [@Elf Family](<em>Child Name:</em> [@Elf Child] )
+Female: [@Female Elf] [@Elf Family](<em>Child Name:</em> [@Elf Child] )
+EndTable:
+
+Table: Gnome Names
+Male: [@Male Gnome] [@Gnome Clan]
+Female: [@Female Gnome] [@Gnome Clan]
+EndTable:
+
+Table: Halfling Names
+Male: [@Male Halfling] [@Halfling Family]
+Female: [@Female Halfling] [@Halfling Family]
+EndTable:
+
+Table: Orc Names
+Male: [@Male Orc]
+Female: [@Female Orc]
+EndTable:
+
+Table: Tiefling Names
+Male: [@Male Tiefling] [@Tiefling Virtue]
+Female: [@Female Tiefling] [@Tiefling Virtue]
+EndTable:
+
+Table: Human Names
+Male: [@Male Human]
+Female: [@Female Human]
+EndTable:

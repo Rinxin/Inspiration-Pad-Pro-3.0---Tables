@@ -1,0 +1,29 @@
+; Arctic Encounters.ipt
+; created 3/14/2019 5:54:58 PM
+
+prompt: Type {} Beast
+prompt: CR {} 1
+
+
+Table: Main
+
+Endtable:
+
+Table: Creature Type
+Type:Lookup
+Aberration: [@Aberration_{$prompt}]
+Beast:[@Beast_{$prompt}]
+Celestial:[@Celestial_{$prompt}]
+Construct:[@Construct_{$prompt}]
+Dragon:[@Dragon_{$prompt}]
+Elemental:[@Elemental_{$prompt}]
+Fey:[@Fey_{$prompt}]
+Fiend:[@Fiend_{$prompt}]
+Giant:[@Giant_{$prompt}]
+Humanoid:[@Humanoid_{$prompt}]
+Monstrosity:[@Monstrosity_{$prompt}]
+Ooze:[@Ooze_{$prompt}]
+Plant:[@Plant_{$prompt}]
+Undead:[@Undead_{$prompt}]
+Table:
+
