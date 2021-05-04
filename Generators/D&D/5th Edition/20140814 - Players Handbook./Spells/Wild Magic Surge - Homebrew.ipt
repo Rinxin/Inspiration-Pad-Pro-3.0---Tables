@@ -1,0 +1,391 @@
+
+use: 
+
+Header: Caster must make a DC 10+ spell level DC to cast normally. 
+
+prompt: Caster Level {1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20} 1
+prompt: Spell Level {1| 2| 3| 4| 5| 6| 7| 8| 9}2
+
+
+Table: Main
+<b>Your magic goes wild and</b>\n\t [@Basic_Surge]
+EndTable:
+
+
+
+Table: Basic_Surge
+roll:1d100
+01-40:	<u>Spell</u>\n\t                [@A1]
+41-55:	<u>Caster</u>\n\t               [@B1]
+56-70:	<u>Target</u>\n\t           	[@C1]
+71-80:	<u>Caster & Target</u>\n\t	[@D1]
+81-89:	<u>Environment</u>\n\t     	[@E1]
+90-95:	<u>Special</u>\n\t              [@F1]
+96-98:	<u>Double Roll</u>\n\t          [@Basic_Surge]
+99:	<u>Mulit Roll</u>\n\t           [!{2d4} Basic_Surge >> implode]
+100:	DM Decides	--
+EndTable:
+
+Table: A1
+roll:1d100
+01-12:	Spell works as normal plus Thematic Effect; Roll on Table \n\t[@A2].
+13:	Spell does opposite of purpose; a damaging spell heals the target, a boost-providing spell confers a penalty, etc.
+14-25:	<b>Thematic Effect:</b> Roll on Table \n\t[@A2] and on Basic Table\n\t[@Basic_Surge].
+26:	Spell is affected as under the <b>Metamagic feat:</b> Empower Spell.
+27:	Spell is affected as under the <b>Metamagic feat:</b> Maximized Spell.
+28:	Spell is affected as under the <b>Metamagic feat:</b> Twin Spell.
+29:	Spell is affected as under the <b>Metamagic feat:</b> Delay Spell (Roll {1D4+1} for rounds).
+30:	Spell affects Target as normal, then an exact copy of the spell originates from the target and affects the caster.
+31:	Spell doesn’t take effect now, but next time the caster casts a spell, the target of the second spell is also the target of the first.
+32:	Spell doesn’t take effect now, but next time the caster casts a spell, the target of the second spell is also the target of the first for the next {1d20} spells the caster casts (first spell has no effect at casting but affects target of second spell, second spell affects target of third spell, and so on).
+33:	Spell becomes a maximized Fireball with Spell Level of 10.
+34:	Spell takes effect, but Spell Level is double normal.
+35:	Spell takes effect, but Spell Level is half normal.
+36:	Spell is changed to the spell appearing above it in the source material. The target doesn’t change. If this would result in a spell with no effect (for example, charm person in an open space), then there is no effect; roll on Table \n\t[@E1] to determine what happens next.
+37:	Spell affects the nearest creature to the target instead.
+38:	Spell affects the nearest creature to the caster instead.
+39:	Spell becomes the spell Time Stop, but the target counts as the caster, and knows this.
+40-49:	Nothing happens; the spell slot is still used and components are still consumed.
+50-55:	Nothing happens, really! The spell slot is not used and components are not consumed.
+56-60:	Everyone within 5ft of a line between the caster and the target will be hit by a copy of the spell, including the caster.
+61-62:	Spell's duration is {1d6} times normal; spells with a duration of instantaneous instead take effect, once every round until all rounds have taken passed.
+63-66:	Besides the normal spell, another spell accompanies it. Roll on Table \n\t[@A3]. The target doesn't change. If this would result in a spell with no effect (for example, Scare in an open space), then re-roll on Table \n\t[@A3].
+67-82:	Spell takes effect, but the caster retains the spell or spell slot and components aren't consumed.
+83-85:	Spell is changed to another spell: roll on Table \n\t[@A3]. The target doesn’t change. If this would result in a spell with no effect (for example, Scare in an open space), then there is no effect; roll on Table \n\t[@E1] to determine what happens next.
+86-87:	Spell has no save and penetrates Spell Resistance automatically.
+88-89:	Saves vs this spell are automatically a success, and it can't penetrate a creature's Spell Resistance.
+90:	Spell becomes a "Living Spell" (See Monster Manual III or the Eberron Campaign Setting).
+91-95:	Spell takes effect normally.
+96-98:	Roll Twice</u>\n\t[#{1d95} A1]\n\t[#{1d95 A1]
+99:	<u>Multi Roll</u>\n\t [!{2d4} A1 >> implode]
+100:	DM chooses
+EndTable:
+
+Table: A2
+roll:1d100
+01-05:	Theme Electricity, the spell will look electrical in nature, there will be heard thunder and smell like in a thunder storm.
+06-10:	Theme Fire, the spell will look like fire with flames, smoke, and heat waves, it smells of burnt [insert target of spell].
+11-15:	Theme Sonic, like 1-10 on this table just with the theme of Sonic.
+16-20:	Theme Cold, like 1-10 on this table just with the theme of Cold.
+21-25:	Theme Acid, like 1-10 on this table just with the theme of Acid.
+26-30:	Theme Death, like 1-10 on this table just with the theme of Death.
+31-35:	Theme Heaven, like 1-10 on this table just with the theme of Heaven.
+36-40:	Theme Hell, like 1-10 on this table just with the theme of Hell.
+41-60:	Appropriate Theme music will play for the duration of the spell; spells with a duration of instantaneous instead have the Appropriate Theme music play for CL rounds.
+61:	as 05+41 on this table, but the music will match the theme instead of the spell.
+62:	as 10+42 on this table, but the music will match the theme instead of the spell.
+63:	as 15+43 on this table, but the music will match the theme instead of the spell.
+64:	as 20+44 on this table, but the music will match the theme instead of the spell.
+65:	as 25+45 on this table, but the music will match the theme instead of the spell.
+66:	as 30+46 on this table, but the music will match the theme instead of the spell.
+67:	as 35+47 on this table, but the music will match the theme instead of the spell.
+68:	as 40+48 on this table, but the music will match the theme instead of the spell.
+69-74:	Spell is accompanied with the sound of 100 soft bells ringing and leaves a trail of flower petals in its wake.
+75-84:	Spell effect is invisible and produces no sound, but is otherwise normal.
+85-90:	Theme Slime, 1-10 on this table just with the theme of Slime.
+91-95:	Spell displays the effect of making it look like it's the work of thousands of small and fluffy animals; a Levitation spell makes it look like lots of little songbirds come and lift the target, a damaging spell looks like a swarm of mice running by nibbling all in the area of effect, etc.
+96-98:	[#{1d95 A2 >> implode], \n [#{1d95 A2 >> implode], \n
+99:	[!{2d4} A2]
+100:	[#1d95 A1]
+EndTable:
+
+Table: A3
+roll:1d100
+1-10:	[@SpellsLevel0]  
+11-28:[@SpellsLevel1]    
+29-44:[@SpellsLevel2]    
+45-58:[@SpellsLevel3]    
+59-70:[@SpellsLevel4]    
+71-80:[@SpellsLevel5]    
+81-88:[@SpellsLevel6]    
+89-94:[@SpellsLevel7]    
+95-98:[@SpellsLevel8]    
+99-100:[@SpellsLevel9]   
+
+EndTable:
+
+Table: B1
+roll:1d100
+01-05:	All hair falls off of caster.
+06-09:	Caster grows {1d10} inches permanently.
+10-12:	Caster shrinks {1d10} inches permanently.
+13:	Caster is affected by Feeblemind, no save.
+14-20:	Caster develops a phobia related to the spell or target of the spell.
+21-22:	Caster is infected with a disease of the DM`s choice from the DMG [Disease].
+23-24:	Caster is the target of a random spell; <b><u>Roll on Table</b></u> \n\t[@A3]
+25:	Caster Mutates; roll on \n[@Random Mutations] Table to see what mutation caster gets.
+26:	Caster believes they are an animal for {3D6} Rounds and acts accordingly, {Animal=={1D10} [when][@Animal]<=2[do]Gorilla[when][@Animal]<=4[do]Deer[when][@Animal]<=6[do]Bear[when][@Animal]=7[do]Mouse[when][@Animal]=8[do]Eagle[when][@Animal]=9[do]Fish[when][@Animal]=10[do]Chicken[end] \n to see which animal the caster believes they are: 1-2 Gorilla, 3-4 Deer, 5-6 Bear, 7 Mouse, 8 Eagle, 9 Fish, 10 Chicken
+27-28:	Caster loses all remaining spells and/or spell slots for the day.
+29-30:	Caster regains all used spells and/or spell slots.
+31-35:	Caster ages spell's level in years.
+36-40:	Caster levitates full speed up for the next {1D10} Rounds and then falls, taking falling damage. The caster can take actions during these rounds, but will continue to levitate up unless dispelled.
+41:	Caster can't lie for the first 10 minutes after having cast a spell, this effect remains for 1 year.
+42:	Caster can't speak the truth for the first 10 minutes after having cast a spell, this effect remains for 1 year.
+43-46:	Caster is permanently invisible to target until a break enchantment is cast on him/her (If caster is also target, this is extra funny)
+47-49:	Caster has contracted Wild plague.[description]
+&\n <b>Wild Plague</b>
+&\n <b>Infection:</b>	Special 1
+&\n <b>DC:</b>	18
+&\n <b>Incubation :</b>	1d4-1 Day
+&\n <b>Damage:</b>	Special 2
+&\n \t <b>1.</b> Anyone targeted by a wild surge or who is within the area of a wild surge effect from a caster suffering wild plague is exposed to the disease.
+&\n \t <b>2.>/b> Anyone infected by wild plague makes a wild surge each time he cast a spell or uses a spell-like ability. See Wild Magic for more about wild surges.
+&\n \t Wild plague is a supernatural disease, and as such immunity to normal diseases does not protect against wild plague. Any spell used to remove wild plague induces a wild surge from the patient and likely exposes the healer to the disease.
+50-55:	Caster gains an enchantment bonus of +4 to all stats until they walk on holy or unholy ground.
+56-65:	Caster's diet changes to minerals where the expensive crystals taste the best, lasts until the next full moon.
+66-68:	Caster is instantly transported to other plane or prime, roll for destination on table \n\t[@B2]
+69:	Caster changes sex; every day, the caster can make a Constitution save against the DC of the original spell to change back.
+70-75:	Caster believes target to be a long lost sibling.
+76-80:	Caster believes target to be a Demon in disguise, out to kill them.
+81-84:	Caster's languages all change to other languages, but the caster doesn't notice it themself. this effect lasts until the caster washes their hair.
+85-89:	Next non-living item the caster touches will turn into gold.
+90-95:	Caster's skin takes on another color, <u>[@Random Skin Color]</u>, this effect last until the caster bathes under a waterfall
+96-98:	[!2 B2 >> implode].
+99:	 [!{2d4} B2 >> implode]
+100:	[#{1d95} B2]
+EndTable:
+
+Table: Random Skin Color
+Roll: 1d10
+1-2: Brown
+3-4: Pale
+5: Blue
+6: Yellow
+7: Albino
+8: Gold
+9: Silver
+10: Red
+EndTable:
+
+
+Table: B2
+roll:1d100
+01-03:	[Prime] Athas (Dark Sun)
+04-06:	[Prime] Aebrynis (Birthright)
+07-09:	[Prime] Eberron (Eberron)
+10-12:	[Prime] Toril (Forgotten Realms, Kara-Tur, Al-Qadim and Maztica)
+13-15:	[Prime] Krynn (Dragonlance)
+16-18:	[Prime] Oerth (Grayhawk)
+19-21:	[Prime] Rokugan (Oriental adventures)
+22-24:	[Prime] Earth (D20 Modern)
+25:	[Prime] Other Prime of Dm’s choice or creation
+26-28:	[Transitive Plane] Astral plane
+29-31:	[Transitive Plane] Ethereal plane
+32-34:	[Transitive Plane] Plane of Shadow
+35-36:	[Outer Plane] Abyss
+37-38:	[Outer Plane] Acheron
+39-40:	[Outer Plane] Arborea
+41-42:	[Outer Plane] Arcadia
+43-44:	[Outer Plane] Beastlands
+45-46:	[Outer Plane] Bytopia
+47-48:	[Outer Plane] Baator
+49-50:	[Outer Plane] Carceri
+51-52:	[Outer Plane] Celestia
+53-54:	[Outer Plane] Elysium
+55-56:	[Outer Plane] Gehenna
+57-58:	[Outer Plane] Hades
+59-60:	[Outer Plane] Limbo
+61-62:	[Outer Plane] Mechanus
+63-64:	[Outer Plane] Outlands
+65-66:	[Outer Plane] Pandemonium
+67-68:	[Outer Plane] Ysgard
+69-70:	[Inner Plane] Fire
+71-72:	[Inner Plane] Earth
+73-74:	[Inner Plane] Water
+75-76:	[Inner Plane] Air
+77-78:	[Inner Plane] Positive
+79-80:	[Inner Plane] Negative
+81-82:	[Inner Plane] Paraelemental plane of Dm’s choice
+83-85:	Sigil (The Outlands)
+86:	[Demiplane] Ravenloft
+87:	[Demiplane] Neth, the plane that lives (Manual of the Planes)
+88:	[Demiplane] The Observatorium (Manual of the Planes)
+89:	[Demiplane] Darksphere
+90:	[Demiplane] City of Union (Epic Level Handbook)
+91:	[Demiplane] Tosheik
+92-99:	Other Demiplane of DM’s choice or creation
+100:	[#{1d91} b2]
+EndTable:
+
+Table: Random Animal
+Roll:1d10
+1-2: Gorilla 
+3-4: Deer 
+5-6: Bear
+7: Mouse
+8: Eagle
+9 :Fish
+10: Chicken
+EndTable:
+
+Table: C1
+roll:1d100
+01-05:	All of the target's hair grows {1D20} inches instantaneously.
+06-10:	Target polymorphs into an , [@Random Animal], for {3D6} Rounds: Constitution save to resist being polymorphed is the DC of the spell originally intended to be cast
+11-12:	Target's languages all change to other languages, but the target doesn't notice it him/herself; this effect lasts until the target washes their hands.
+13:	Target gains the attention of a greater creature (Creature's CR is equal to Target's CR+1D20) from another plane; the creature is annoyed and angry at the target. To see which plane the creature is from, roll on Table \n\t[@B2].
+14-17:	Target gains the attention of a lesser creature (Creature's CR is equal to Target's CR-1D6) from another plane; the creature is interested in testing the target before recruiting him/her. To see which plane the creature is from, roll on Table \n\t[@B2].
+18-19:	Target gains a spell that can be used as a spell-like ability {1D4}/times; to see which spell, roll on Table \n\t[@A3].
+20:	Target is totally immune to all spells for the next 24 hours, both harmful and beneficial. All spell effects already affecting the target are suppressed for the duration, and the target can't use spell-like or supernatural abilities during those 24 hours.
+21-23:	Target is hit by a flesh to stone spell with no save, and a duration of the target's constitution in days.
+24-26:	A statue looking exactly like the target in the moment of the spell being cast appears where the target stood; the target is moved 5ft north and affected by a Improved invisibility spell with a duration of {3D10} rounds. (The statue is permanent)
+27:	All of the target's clothes and worn equipment burst into flames and are incinerated, leaving the target unharmed but naked. Magic items get a Constitution save with the DC of the spell originally intended to be cast.
+28-29:	Target is permanently invisible to caster until a break enchantment spell is cast on them (If target is also caster, this is extra funny)
+30-34:	Target polymorphs into its cute baby self for {1D12} Hours (Size: Tiny, STR: 01 CON: 01 DEX: 01, no change in target's mental abilities). Constitution save to resist being polymorphed is the DC of the spell originally intended to be cast.
+35:	Target polymorphs into its cute baby self for {1D12} Hours (Size: Tiny, STR: 01 CON: 01 DEX: 01 INT: 02 WIS: 02 CHA: 15). Mental abilities, knowledge, and languages changes to that of a helpless baby. Constitution save to resist being polymorphed is the DC of the spell originally intended to be cast.
+36-39:	Target changes size for the next {1D20} Hours, [@Random Size]: \n Adjust AC and stats following standard guidelines. Constitution save to resist size change against the DC of the original spell +5.
+40-44:	Every time Target wants to speak, it comes out as song, permanent until remove curse is cast.
+45-49:	Nearest creature to the target with 2 or less in INT becomes enraged and will attack the target to the death.
+50-54:	Nearest creature to the target with 2 or less in INT becomes completely loyal to target. Until the target does something to hurt the creature, the bond of loyalty is permanent.
+55-65:	Target gains the spell-like ability to use the spell just cast to affect him/her 1 time.
+66-68:	Target is instantly transported to other plane or prime, roll on Table \n\t[@B2]. Wisdom save against the DC of the original spell to resist.
+69:	Target falls deeply in love with caster and will forsake all other loyalties, Will save against the DC of the original spell, but if the caster's alignment is radically different there is a +10 to the save, duration ((Caster’s Charisma X original spell level)/weeks).
+70-74:	Target gets hit by a Mage's Disjunction, CL 20.
+75-79:	Target will forget all names, including their own name. Wisdom save DC as original spell to resist, lasting until a person calls targets name or a break enchantment is cast.
+80-83:	Next time target tries to talk, they will spit out {1D100} gold pieces instead.
+84:	Target gains a +6 epic bonus to AC until the next full moon.
+85-95:	Target gains a compulsive need to possess one item that means a lot to casters. Remove enchantment will end this compulsion.
+96-98:	[!2 C1]
+99:	[!{2d4} C1]
+100: [#{1d95} C1]
+EndTable:
+
+ Table: Random Size
+ Roll:1d10 
+1: two sizes smaller
+2-5: one size smaller
+6-8: one size larger
+9: two sizes larger
+10: tree sizes larger 
+ EndTable:
+
+
+Table: D1
+roll:1d100
+01-05:	Target and caster swap locations.
+06-10:	Target and caster swap bodies, this works as a True Mind Switch but with no save, the effect will be reversed immediately if any of the two eats raw meat.
+11-15:	Caster is hit by an effect from Table \n\t[@C1] and Target is hit by an effect from Table \n\t[@B1].
+16-20:	Both target and caster are hit by the same effect from Table \n\t[@B1].
+21-25:	Both target and caster are hit by the same effect from Table \n\t[@C1].
+26-30:	Target and caster are instantly transported to other plane or prime, roll on Table \n\t[@B2].
+31:	Target and caster are instantly transported to the Demiplane called Darksphere.
+32-36:	Both target and caster are hit by the same spell from Table \n\t[@A3].
+37-41:	Target and caster are hit by different spells from Table \n\t[@A3].
+42:	Both target and caster are hit by a Heal spell, CL 25.
+43-48:	Both target and caster disappear and will reappear 1D10 rounds into the future with no knowledge of anything strange having happened.
+49-53:	Target and caster swap all worn clothing and equipment, things that are impossible to be worn appear in front of the not-owner on the ground.
+54-57:	Target and caster both make a Charisma check. The one rolling highest is hit by an Enlarge person spell at the spells DC, and the other is hit by a Reduce person spell at the spells DC.
+58:	Caster and target both gain identical mutation, \n[@Random Mutations].
+59-63:	Target and caster are drawn towards each other; each round a magic force will move each 20 ft. closer to one another until they collide (this does not grant them any kind of movement they do not have, like flight, but the spell will still move them out over a chasm if that is the straight line).
+64-68:	Both target and caster are hit by a Reduce person CL 20, with a permanent duration.
+69:	Caster and target fall deeply in love with each other and will forsake all other loyalties. Will save DC 28 to resist, but only if caster's alignment and target's are radically different (more than 2 steps away from each other).
+70-75:	Caster and target are permanently invisible to each other until remove enchantment is cast on either of them.
+76-80:	Caster and target suddenly know each other personally (Alignment, Class with most levels in, HD and Patron God)
+81-87:	Both target and caster are hit by an Enlarge person spell, CL 20, with a permanent duration.
+88:	Both target and caster are turned into Rats as by a failed save vs. Baleful Polymorph, except the save automatically succeeds after 24 hours.
+89-95:	Both target and caster disgorge {1D100} creatures and are stunned for {1D6} rounds while doing this, [@Random Creature] 
+96-98:	[!2 D1]
+99:	[!{2d4} D1]
+100:	[#{1d95} D1]
+EndTable:
+
+Table: Random Creature
+Roll:1d10
+1: Maggots
+2: Rats
+3: Bats
+4: Fire ants 
+5: Frogs 
+6: Tiny illusionary fairy’s 
+7: Spiders 
+8: Locusts 
+9: Canaries 
+10: Tiny non-poisonous snakes
+EndTable:
+
+Table: Far Realm Occurances
+Error update table!!!!
+EndTable:
+
+Table: E1
+roll:1d100
+01-07:	A permanent wild magic zone is created with center where the intended spell should have taken effect. The radius of the zone is caster's CL X100 ft.
+08-09:	A permanent dead magic zone is created with center where the intended spell should have taken effect. The radius of the zone is caster's CL X10 ft.
+10:	A permanent dead magic zone is created with center where the intended spell should have taken effect. The radius of the zone is caster's CL X100 ft.
+11-15:	Centered on the caster, a sphere with a radius of CL X10 ft. permanently shifts places with an equally sized area from a random plane, roll on Table \n\t[@B2] to see which plane. Only the environment is affected; no sentient creatures are shifted.
+16-20:	Centered on the caster, a sphere with a radius of CL X10 ft. and all creatures in this area shifts places with a equally sized area from a random plane, roll on Table \n\t[@B2] to see which plane. The areas will remain there for the duration of the intended spell before returning home. If the creatures leave the area under the duration and don't make it back before the original spell ends, they must find another way home.
+21-25:	A Permanent Wall of force springs into existence right between the caster and target; the wall is as large as environment allows, up to a maximum of caster's CL. If Caster is also the target, the wall starts in front of the caster and goes in a straight line the way the caster is looking.
+26-29:	Surge kills all non-sentient plant life in a radius of caster's CL X10 ft.
+30:	Surge kills all non-sentient plant life in a radius of caster's CL X100 ft.
+31-35:	In a circle with a radius of caster's CL X1D10 ft, flowers will suddenly and magically begin to grow. These will open up 24 hours after the surge and reveal a gem inside of each flower; the amount of gem flowers that appear is equal to the radius of the flower zone X10. Each gem, if plucked, is worth 1D100 Gold, but turns to dust one week after being plucked.
+36-40:	Weather changes drastically (hail, sleet, thunderstorm, heatwave, etc.)
+41-45:	Weather changes drastically to magical nature (raining frogs, lightning elementals playing a game in the skies, a fog that counts a stinking cloud falls, etc.)
+46-50:	Nearest dead sentient being returns as a ghost to haunt the location of its death.
+51-55:	The nearest 2D6 Animals and 2D6 Trees are Awakened as the spell of same name, except they dosn't change attitude towards caster and will begin an internal battle between the plant kingdom VS. the animal kingdom to the death.
+56-60:	A pit 10 ft. X 10 ft. X 10 ft. appears right between caster and target; if caster is also target, it appears right under caster.
+61-65:	Plant growth speeds up in a area of caster's CL X 30 ft. around caster, and until the next full moon, each hour plants will grow as much as they would have done in a normal year.
+66-70:	In a sphere with a radius of 1D100 ft. from the target of the intended spell, time stops for 1D100 years; everyone within or who enter under the area of effect is caught by the time stop and frozen in time until time starts again. This effect counts as being cast by a level 30 caster for purpose of trying to dispel. No save and no SR.
+71-75:	The surge rips a hole in the fabric of reality and a layer of the far plane seeps in; the layer remains until all creatures have left its boundary. The layer is CL x5 ft radius centered on the caster when the surge happens. Roll on [@Far Realm Occurances] to see what effect the layer brings with it.
+76-78:	Earthquakes hit the region (nearest 100 miles) for the next 1D6 hours.
+79-82:	A permanent magical effect occurs. At a range of 250 ft. around the caster, a barrier springs into existence; everyone who looks through this barrier from the outside can only see the natural environment of the other side (buildings, creatures, fields, and the like as if it has all become invisible), while there is no effect for the ones looking out.
+83-86:	Rips a hole in reality and opens a one-way portal to a random plane, roll on Table \n\t[@B2] to see where the portal leads to.
+87-90:	Rips a hole in reality and opens a one-way portal from a random plane, roll on Table \n\t[@B2] to see where the portal comes from. (DM discretion, as permanent portals can't exist at some planes.)
+91-95:	Rips a hole in reality and opens a two-way portal to a random plane, roll on Table \n\t[@B2] to see where the portal leads to. (DM discretion, as permanent portals can't exist at some planes.)
+96-98:	[!2 E1]
+99:	[!{2d4} E1]
+100:	[#{1d95} E1]
+EndTable:
+
+Table: Random Bonus
+Roll: 1d10
+1-4: +1 
+5-6: +2 
+7-8: +3 
+9 :+4 
+10: +5
+EndTable:
+
+Table: F1
+roll:1d100
+01-03:	Surge results in surge with multiple effects, roll once on each of these tables: Table \n\t[@A1], Table \n\t[@B1], Table \n\t[@C1], Table \n\t[@D1], and Table \n\t[@E1]
+04-06:	The caster gains a random effect from Table \n\t[@A2] that will always be added to all spells the caster casts.
+07-09:	One random stat of the target's gains a permanent inherent bonus, roll a D10 to determine the size of the bonus [@Random Bonus].
+10-12:	Randomly roll another wild surge; this surge and the next {1D20} wild surges will have that effect. \n[Basic_Surge]
+13:	Caster gains a wild die (D20). When casting spells or using spell-like abilities, roll wild die, and if the wild die rolls 13, the result is a wild surge instead of the spell. If caster already has a wild die, roll a D20 instead, and the result is now added to the wild die and will result in a wild surge when casting spells.
+14-15:	A random effect from Table \n\t[@B1] is made permanent without save or SR; even if it could be removed before, it can't now.
+16-18:	A random effect from Table \n\t[@C1] is made permanent without save or SR; even if it could be removed before, it can't now.
+19-21:	Curse of the Phoenix. The caster bursts into flames and is consumed along with all of their equipment, magic items get a Fortitude save (DC of the spell originally intended to be cast). Next dawn, the caster will reincarnate in the nearest flame that is as large or larger than the caster (note that the curse doesn’t give any resistance or immunity to fire). If ever killed by fire damage, this will happen again. Precisely one year after the caster's last burst and consummation by flames, it repeats. Can only ever be removed by eating the heart of a Phoenix, while Remove curse is being cast on the subject.
+22-24:	A random monster appears from the summon monster spell list of the same spell level as the spell originally intended to be cast, only it is free willed and permanent (of course, it is confused as to what just happened, and yes, it does come from somewhere.)
+25-27:	A 1 inch/spell level portal appears right behind the caster, which is connected to the Far realms. Right behind it, a creature lives that wants to enter our existence. Every time the caster casts a spell, it opens 1 inch/spell level, and every day at sunset, it closes 1 inch. If the portal ever reaches 100 inches, the creature will enter and try to eat the caster. If successful, it will take their body and have free access to our world (if creatures pass through the portal from our side, the creatures are gone forever ,and the portal will grow by 1 inch/HD if dead and 2 inches/HD if alive).
+28-32:	A Random minor magic item appears where the spell should have taken effect. Roll on tables in DMG to find item. [@Challenge 0-4]
+33-35:	A Random medium magic item appears where the spell should have taken effect. Roll on tables in DMG to find item. [@Challenge 5-10]
+36:	A Random greater magic item appears where the spell should have taken effect. Roll on tables in DMG to find item. [@Challenge 11-16]
+37-38:	A artifact appears where spell should have taken effect, but it is only a shadow image of the item, and every time it is used, roll a D20. If you roll 13, a wild surge will occur and the item will disappear; if it is not 1,3 the item works as expected.
+39-42:	Spellstorm: all of the caster's remaining spells are instantly cast on the target. If the caster is a spontaneous caster, a random spell is generated on each spell level and all spell slots are used for that spell. Even spells that normally would be personal or touch are cast on the target, and all attack rolls required for the spells are successful. Any spell for which the caster doesn't have the component, focus, or it just doesn't make any sense (such as Summon monster II on a elf) simply fizzles.
+43-45:	One random stat of the caster's gains a permanent inherent bonus: [@Random Bonus].
+46-48:	Caster ages up until first year in next age category.
+49-51:	Caster becomes {1D20} years younger (if this will result in a age of 0 or less, the caster disappears and everybody will forget all about them; even in written materials, the caster and their deeds will disappear).
+52-54:	Target are transported to random plane, roll on table \n\t[@B2] and a Doppleganger looking precisely like the target is transported to where the target stood.
+55-57:	The creature standing closest to caster gains Detect Thoughts as a spell-like ability 3/day, CL 13.
+58-60:	Reroll wild surge; the creature standing closest to the caster is counted as both target and caster of spell. \n[@Basic_Surge]
+61-63:	Reroll wild surge; the creature standing closest to the caster is counted as the caster of spell, and the creature standing closest to the target is counted as the target of spell. (If a touch spell, the caster becomes the target and the target becomes the caster.) \n[@Basic_Surge]
+64-65:	A noble Djinn appears and offers for all to participate in a tournament where the winner is granted a wish, like the spell, roll {1D6} to see which kind of tournament it is \n 1 Chess (Djinn supplies the boards and pieces). \n 2 Gladiator tournament to surrender or death. \n 3 Jousting (Djinn supplies horses and lances). \n 4 wrestling. \n 5 Spell duel to surrender or death. \n 6 swimming competition (in nearest large body of liquid)
+66:	{1d3} wishes  are granted to the caster, roll 1D10 to see the source: (1d3)1-5 Noble Djinn, Wish is granted as the spell. (1d3)6 Evil God, grants 3 Wishes but it is in return for the caster's soul; until the second wish is granted, the soul can be saved by a Atonement spell cast by a cleric of a good or neutral deity, but after the second wish, the soul is tainted beyond mortal intervention. (1d3)7-10 Noble Efreet, Wish is granted as the spell, but the Efreet tries to corrupt it; if the wording can be understood in some other way, it will.
+67-68:	Curse of Bureaucracy: Each time the caster tries to cast a spell, a large form will appear along with a quill. This form is about whether the spell is for pleasure or business, who the intended target is, why the caster is using this exact spell ,and a lot other questions in that style. It takes 1 round per spell level to fill out the form, and if correctly filled (INT check DC 15), the spell will be cast, but if the INT check, fails a new form will appear, and until a form is correctly filled, the caster can't cast other spells. When Remove Curse is cast on the unlucky individual, a new and extremely large form will appear along with a quill. This form takes CL in hours to fill out (INT check 20), and if correctly filled, the curse is lifted. If failed, there is a waiting period of one week per check failed until the curse is lifted, and if failed by 10 or more, the Remove curse just doesn’t work. Special: Lawful characters get +2 to these INT checks and Chaotic characters get -2 to these INT checks.
+69:	A succubus takes special interest in the caster's soul
+70-72:	A celestial being takes special interest in the caster's soul and well-being (will help, mentor, and protect good-aligned characters while trying to save the souls of neutral and evil aligned characters by showing them the flaws of their ways and stopping them from doing evil).
+73-75:	Caster gains a new spell; if the caster memorizes it, the spell appears in the caster's spell book, and if the caster is a spontaneous caster, they add the spell to known spells. The spell is of the same level as the originally intended spell and is the one appearing just under the originally intended spell on the caster list in the official source material; if no spell of the same level appears in the official source material, nothing happens. Special: The newly gained spell takes place of the spell that caused the wild surge with the same target.
+76-77:	Nearest creature to target gains a Template (if touch spell, it's the caster); roll {1D10} to see which template.\n 1 Half-Dragon (MM I). \n 2 Celestial (MM I). \n 3 Fiendish (MM I). \n 4 Half-Golem (MM II). \n 5 Tauric creature (MM II) nearest four legged creature inspires the torso. \n 6 Captured One (MM II). \n 7 Half-Elemental (MotP). \n 8 Wood Elemental (MotP). \n 9 Spellwarped Creature (MM III). \n 10 Winged creature (Savage species)
+78:	All magical bonds (paladin’s mount, druid or ranger’s companion, and the like) within 100 ft. are shattered; the animals are set free but keep the bonuses from the former bond forever while the owner suffers as if the animal was killed. \n<b><u>Special:</b></u> Now that the animals aren't normal for their kind anymore, they can't be part of such a bond ever again.
+79-81:	Knowledge of the location and legends of an artifact of wild or chaotic nature is imprinted in the caster's mind.
+82-84:	Nothing happens; just smile and make the wild mage paranoid, and maybe hint that they have a strange feeling in the stomach.
+85-87:	A entity from the Far-Realm uses the wild surge to lay one of its eggs in the caster's stomach. Over the next week, the caster will begin to have stomach pains that stop 9 days after the egg was laid, then on the 10th day, a dire rat with the pseudo-creature template will burst out of caster's stomach, dealing {4D6} CON damage. If the caster is subject to a Heal or Remove disease after the surge but before the 10th day, the creature is killed and the character will never know how close they were. If the caster is immune to diseases, he is immune to all of this; just treat the roll as a roll of 82-84 on this table.
+88:	Cosmic Knowledge comes with a price; wild mage gains INT +4 WIS -2 CHA -2, permanent.
+89:	Cosmic Wisdom comes with a price; wild mage gains INT -2 WIS +4 CHA -2, permanent.
+90:	Cosmic Shine comes with a price; wild mage gains INT -2 WIS -2 CHA +4, permanent.
+91-92:	Reincarnated soul: The wild mage's soul is taken over by one of their previous selves. Remove all class levels and feats and rebuild it as a radically different class up to the same level (the previous self might have been another gender and or race and find it a little strange suddenly being in this time occupying this strange body). The DM and player make an agreement as to what this former self was.
+93-96:	Wild mage changes type to Aberration, and every time the wild mage causes a wild surge from now on, they also gain a mutation. Roll on Random Mutations Table \n[Mutation]
+97-98:	Death appears wanting to claim the mage, if the mage argues, Death agrees to a game of Chess (INT DC 25 to win; Death has played it, like, a million times before). If the character wins, Death says “see you soon”; if not the character dies. Special: Death can only be seen by the character and people who can see ethereal beings, Death can't be killed.
+99:	Wild mage gets to chose an effect from any surge table, with a Charisma X3% chance that the effect will happen; if not, then the DM may choose another effect from the same table.
+100:	A flux is created and the caster is permanently immune to all magic both beneficial and harmful, but can't ever use spells, magic effects, (portals, heroes' feast, and the like), or spell-like abilities. They can even walk through magical effects such as wall of force or the like.
+EndTable:
