@@ -1,0 +1,72 @@
+; Weapon Types.ipt
+; created 5/29/2018 8:17:57 PM
+
+Table: Random Weapon
+[@gettable]
+EndTable:
+
+Table:gettable
+[@Random Ranged]
+[@Random Melee]
+EndTable:
+
+Table: Random Ranged
+[@Weapon Type-Simple Ranged]
+[@Weapon Type-Martial Ranged]
+EndTable:
+
+Table: Random Melee
+[@Weapon Type-Simple Melee]
+[@Weapon Type-Martial Melee]
+EndTable:
+
+
+Table: Weapon Type-Simple Melee
+Club
+Dagger
+Greatclub
+Handaxe
+Javelin
+Light Hammer
+Mace
+Quarterstaff
+Sickle
+Spear
+EndTable:
+
+Table: Weapon Type-Simple Ranged
+Light Crossbow
+Dart
+Shortbow
+Sling
+EndTable:
+
+Table: Weapon Type-Martial Melee
+Battleaxe
+Flail
+Glaive
+Greataxe
+Greatsword
+Halberd
+Lance
+Longsword
+Maul
+Morningstar
+Pike
+Raiper
+Scimitar
+Scythe
+Shortsword
+Trident
+War Pick
+Warhammer
+Whip
+EndTable:
+
+Table: Weapon Type-Martial Ranged
+Blowgun
+Hand Crossbow
+Heavy Crossbow
+Longbow
+Net
+EndTable:
