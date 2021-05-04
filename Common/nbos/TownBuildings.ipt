@@ -1,0 +1,87 @@
+//different types of buildings found in your typical
+//fantasy town
+
+Table: FantasyTownBuildings
+   advocate
+2: armorer
+5: baker
+   bank
+2: barber
+50:barn
+   basket maker   
+2: beer seller
+5: blacksmith
+   bleacher
+   boat builder
+   book seller
+   bookbinder
+   bowyer/fletcher
+   brewery
+2: buckle maker
+5: butcher
+5: candle maker
+   caravan headquarters
+5: carpenter
+   chandler
+   cheesemaker
+5: clothier
+5: cobbler
+   curiosity shop
+   cutlers
+40:farm
+5: fishmonger
+5: furrier
+20:general store
+   glassblower
+   glovemaker
+   grain mill
+   grain store
+5: guard house
+10:guild headquarters
+   harness maker
+   hat maker
+2: hay seller
+10:healer
+   illuminator
+   importer
+10:inn
+   jeweler
+   locksmith
+   lumbermill
+5: mason
+5: midwife
+   money lender
+5: mystic
+5: noble residence
+   painter
+   plasterer
+5: produce grocer
+   pursemaker
+50:residence
+2: roofer
+   ropemaker
+2: rugmaker
+   sage	
+   scabbardmaker
+10:school
+   sculptor
+   shrine
+   slaughterhouse
+   smokehouse
+   spice merchant
+5: stable
+   stonecutter
+   tailor
+   tanner
+5: tavern
+5: tavern and inn
+10:temple
+   town government building
+5: warehouse
+   weaver
+   wheelwright
+   winery
+   woodcarver
+
+
+
