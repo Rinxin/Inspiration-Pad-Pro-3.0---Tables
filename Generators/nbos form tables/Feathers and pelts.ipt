@@ -1,0 +1,23 @@
+; Feathers and Pelts.ipt
+; created 11/2/2020 3:54:52 PM
+maxreps: 5
+
+table: main
+<b>Common ones</b>\n [!{4d6} common] <b>Uncommon</b>\n [!{3d4} rare] <b>Rare</b>\n [!{2d2} very rare]
+
+table: common
+Shuffle: common
+A [|beautiful,|neat,|clean,|messy,|nearly hairless,] [|small|average|large] sized, [|average|bad|fair|horrible] quality [|squirrel|rabbit|racoon|snake|otter] pelt\n 
+{4d10} [|beautiful,|neat,|clean,|messy,] [|small|average|large] sized, [|average|horrible|fair|bad] quality common bird feathers\n
+
+table: rare
+Shuffle: rare
+A [|beautiful,|neat,|clean,] [|large|human|giant|huge|house|shack|{4d5} feet|{6d5} feet] sized, [|average|good|fair|excellent] quality [|squirrel|rabbit|racoon|snake|otter] pelt\n 
+A [|beautiful,|neat,|clean,] [|small|average|large] sized, [|average|bad|good|fair|horrible] quality [|jaguar|lion|tiger] pelt\n
+{4d10} [|beautiful,|neat,|clean,] [|large|human|{2d5} feet|{4d5} feet] sized, [|average|good|fair|excellent] quality common bird feathers\n
+{4d10} [|beautiful,|neat,|clean,] [|small|average|large] sized, [|average|bad|good|fair|horrible] quality rare bird feathers\n
+
+table: very rare
+Shuffle: very rare
+A [|beautiful,|neat,|clean,] [|large|human|giant|huge|house|shack|{8d5} feet|{10d5} feet] sized, [|average|bad|fair|excellent] quality  [|jaguar|lion|tiger] pelt\n
+{4d10} [|beautiful,|neat,|clean,] [|large|human|shack|{2d5} feet|{4d5} feet] sized, [|average|bad|fair|excellent] quality very rare bird feathers\n
