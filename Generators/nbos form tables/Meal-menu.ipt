@@ -1,0 +1,336 @@
+Header: Daily Menu
+
+Shuffle: fruity
+Shuffle: meat1
+Shuffle: cut
+Shuffle: deserts
+Shuffle: fruit
+Shuffle: vegetable
+Shuffle: fish
+Shuffle: Meat
+
+Table: menu
+<b>Menu</b>\n[Meat >> italic] - [!{1d2+1} meat1 >> Implode >> Sort]\n[Fish >> Italic] - [!{1d2+1} FISH1 >> Implode >> Sort]\n[Vegetables >> Italic] - [!{2d2+1} Vegetable1 >> Implode >> Sort]\n[Noodles >> italic] - [!{2d2+1} noodles >> Implode >> Sort]\n[Breads >> Italic] - [!{1d3+1} bread >> Implode >> Sort]\n[Eggs >> Italic] - [!{1d2+1} Egg >> Implode >> Sort]\n[Sweets >> Italics] - [!{2d2+1} deserts >> Implode >> Sort]\n[Fruits >> Italics] - [!{2d2+1} fruity >> Implode >> Sort]
+
+Table: fruity
+Baked [@fruit]
+Boiled [@fruit]
+Dehydrated [@fruit]
+Steamed [@fruit]
+Slow Cooked [@fruit]
+Pickled [@fruit]
+Roasted [@fruit]
+[@fruit]
+[@fruit] Salad
+
+Table: meat1
+Roast [@Meat]
+Deep fried [@Meat]
+Skewer Grilled [@Meat]
+[@Meat] Croquette
+[@Meat] Hamburger
+[@Meat] Cutlet
+[@Meat] Steak
+[@Meat] Chops
+[@Meat] Bun
+Steamed [@Meat] Bun
+[@Meat] Pie
+[@Meat] Patty
+Broiled [@Meat]
+Barbequed [@Meat]
+Pan broiled [@Meat]
+Stir-fried [@Meat]
+Pan-fried [@Meat]
+Braised [@Meat]
+Boiled [@Meat]
+Poached [@Meat]
+Simmered [@Meat]
+[@Meat] Stew
+Roast [@Meat] [@cut]
+Deep fried [@Meat] [@cut]
+Skewer Grilled [@Meat] [@cut]
+[@Meat] [@cut] Croquette
+[@Meat] [@cut] Hamburger
+[@Meat] [@cut] Cutlet
+[@Meat] [@cut] Steak
+[@Meat] [@cut] Chops
+[@Meat] [@cut] Bun
+Steamed [@Meat] [@cut] Bun
+[@Meat] [@cut] Pie
+[@Meat] [@cut] Patty
+Broiled [@Meat] [@cut]
+Barbequed [@Meat] [@cut]
+Pan broiled [@Meat] [@cut]
+Stir-fried [@Meat] [@cut]
+Pan-fried [@Meat] [@cut]
+Braised [@Meat] [@cut]
+Boiled [@Meat] [@cut]
+Poached [@Meat] [@cut]
+Simmered [@Meat] [@cut]
+[@Meat] [@cut] Stew
+[@Meat] Liverwurst
+
+
+table: cut
+Liver
+Kidney
+Spleen
+Heart
+Thymus
+Pancreas
+Brain
+Gizzard
+Tongue
+Tendons
+Ligaments
+Neck
+Hock
+Back
+
+
+Table: Vegetable1
+Raw [@vegetable]
+Boiled [@vegetable]
+Steamed [@vegetable]
+Sauteed [@vegetable]
+Stir Fried [@vegetable]
+Braised [@vegetable] 
+[@vegetable] Stew
+Picked [@vegetable]
+Baked [@vegetable]
+[@vegetable] Salad
+Fried [@vegetable]
+[@vegetable] Roll
+[@vegetable] Tempura
+[@vegetable] Gratin
+[@Meat] and [@vegetable] Stew
+[@vegetable] Curry
+[@fruit] Jelly salad
+Fried [@vegetable]
+Grilled [@vegetable]
+Boiled [@vegetable]
+Roast [@vegetable]
+
+Table: FISH1
+Fried [@fish]
+Stewed [@fish]
+[@fish] Soup
+[@fish] Tempura
+[@fish] Sausage
+[@fish] Sashimi
+[@fish] Sushi
+Baked [@fish]
+Sauteed [@fish]
+Pan Fried [@fish]
+Pan Broiled [@fish]
+Grilled [@fish]
+Poached [@fish]
+Deep Fried [@fish]
+Toasted [@fish]
+[@fish] Patty
+Steamed [@fish]
+[@fish] Burgers
+Seafood Stew
+[@fish] Tacos
+Pan Seared [@fish]
+
+Table: noodles
+Salad pasta
+Udon
+Soba
+Peperoncino
+Carbonara
+Ramen
+Meat spaghetti
+
+Table: bread
+Walnut bread
+Sandwich
+Croissant
+Croquette sandwich
+Melon flavored bread
+
+Table: Egg
+Fried egg
+Egg toast
+Soft boiled egg
+Soup with egg
+Mature cheeze
+Omelet
+
+Table: deserts
+[@fruit] pudding
+[@fruit] sherbet
+[@fruit] ice cream
+[@fruit] crepe
+[@fruit] fruit cake
+[@fruit] grand parfait
+Apple pie
+Chocolate babka
+Candy cookie
+Candy jelly
+Candy pie
+Candy bun
+Candy cream puff
+Candy cake
+Candy sachertorte
+Cheese cake
+
+Table: fruit
+Apple
+Apricot
+Avocadoe
+Bananas
+Blueberry
+Cherry
+Cantaloupe
+Crab Apple
+Cucumbers
+Date
+Dewberry
+Elderberry
+Eggfruit
+Fig
+Grapefruit
+Grape
+Gooseberry
+Guava
+Honeydew melon
+Hackberry
+Jackfruit
+Kiwi
+Lime
+Lemon
+Mango
+Mandarin Orange
+Mulberry
+Orange
+Papaya
+Persimmon
+Peach
+Pear
+Pineapple
+Raspberry
+Star Fruit
+Strawberry
+Tomato
+Tangerine
+Watermelon
+Yellow Passion Fruit
+Zucchini
+
+Table: vegetable
+Alfalfa Sprout
+Anise
+Artichoke
+Asparagus
+Basil
+Bean Sprout
+Beet green
+Bell Pepper
+Black Beans
+Black Eyed Pea
+Bok Choy
+Broccoli
+Brussels Sprout
+Butter Bean
+Cabbage
+Canyenne Pepper
+Caraway
+Carrot
+Cauliflour
+Celery
+Chasmomile
+Chickpeas
+Cilantro
+Collard Greens
+Cucumber
+Dill
+Eggplant
+Endive
+Fennel
+Garlic Onion
+Ginger
+Green Bean
+Habanero
+Jalapeno Pepper
+Kale
+Kidney Bean
+Kohlrabi Cabbage
+Lavender
+Leek Onion
+Lemongrass
+Lentil
+Lettuce
+Marjoram
+Mushroom
+Mustard Green
+Okra
+Onions Chive
+Oregano
+Paprika
+Parsley
+Parsnip
+Peas
+Raddish
+Red Cabbage
+Rosemary
+Sage
+Scallion Onoin
+Shallot Onion
+Soy Bean
+Spinach
+Squash
+Sweetcorn
+Sweetheart Cabbage
+Tabasco Pepper
+Thyme
+Tuber
+Turnip
+Watercress
+Zucchini
+
+Table: fish
+Ancient Fish
+Big Tuna Fish
+Blow Fish
+Bomb Fish
+Bonito 
+Carp
+Cutlassfish
+Eel
+Flatfish
+Globefish
+Goby Fish
+Goldfish
+Mackerel
+Moonfish
+Ocean Sunfish
+Salmon
+Sandborer
+Sardine
+Sculpin
+Sea Bass
+Seabream
+Sweet Fish
+Sword Fish
+Frog 
+Tuna
+Turtle
+Whale
+
+
+table: Meat
+Pork
+Beef
+Lamb
+Mutton
+Chicken
+Turkey
+Venison
+Duck
+Wild Boar
+Bison
+Goose
+Rabbit
+Pheasant
