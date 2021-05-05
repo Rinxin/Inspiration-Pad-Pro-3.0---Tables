@@ -1,4 +1,4 @@
-; Warlock Contrac Generator.ipt
+; Warlock Contract Generator.ipt
 ; created 12/28/2018 4:28:00 PM
 
 prompt: {Archfey|Fiend|Great Old One} [@random]
@@ -26,7 +26,7 @@ Relkath of the Infinite Branches
 Lurue the Unicorn Queen
 Verenestra the Oak Princess
 Sarula Iliene the Nixie Queen
-Aurilandür the Frost Sprite Queen
+AurilandÃ¼r the Frost Sprite Queen
 Neifion, Lord of Bats
 An Archfey not on this list
 A Fiend or Great Old One Patron, pretending to be an Archfey
